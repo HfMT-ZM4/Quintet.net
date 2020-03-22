@@ -1,2 +1,2 @@
 # Quintet.net
-Quintet.net - Quintet on the web
+Quintet.net - Quintet on the Net

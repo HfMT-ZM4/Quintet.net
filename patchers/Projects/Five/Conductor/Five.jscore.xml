@@ -1,0 +1,1052 @@
+<?xml version="1.0"?>
+<jmslscoredoc>
+<!-- Saved document from JMSL's programmable music notation editor. Java Music Specification Language by Nick Didkovsky & Phil Burk, available from: http://www.algomusic.com -->
+<score NAME="Five" SUBTITLE="" COMPOSER="John Cage" COPYRIGHT="" WIDTH="980" HEIGHT="599" STAFFS="5" NUMTRACKSPERSTAFF="2" InstrumentNamesVisible="false" TempoVisible="false" StaffNumbersVisible="true" MeasureNumbersVisible="false" SectionBracketsVisible="false" TimeSignaturesVisible="false" KeySignaturesVisible="true" ClefsVisible="true" ScoreTitleVisible="false" CourtesyClefsVisible="false" MeasureNumberOffset="1" LeftMargin="20.0" RightMargin="20.0" TopMargin="15.0" BottomMargin="15.0" TopMarginOfFirstPage="60.0" DrawAllMeasureNumbers="false" TextFontScaler="1.5" ScoreSubtitleFontScaler="2.0" ScoreTitleFontScaler="4.0" TimesigFontScaler="2.5" MeasureNumberFontScaler="1.5" TextFontName="SansSerif" ScoreSubtitleFontName="Serif" ScoreTitleFontName="Serif" TimesigFontName="Serif" MeasureNumberFontName="SansSerif" FirstSystemIndent="0.0" >
+<ScoreAnnotation CLASSNAME="com.softsynth.jmsl.score.ScoreAnnotation" Annotation="108.3o8JtjDSKMcMPAqTnZEJFD6bxLuTKFHWiMTgbRMkzSsHXBXHP4qLmTAxRo.KMwhJI0hTHj7yKUkfnszKJ+RK.nbF.DlXRIUjm4UbIE4Wh4BV8.g0BQY5ZHcylLhtYSFS2rISn81DC.vXWjpB" >
+</ScoreAnnotation>
+<orchestra CLASSNAME="com.softsynth.jmsl.score.Orchestra" >
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="0" EditEnabled="true" Name="MaxScoreIns-0" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="1" EditEnabled="true" Name="MaxScoreIns-1" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="2" EditEnabled="true" Name="MaxScoreIns-2" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="3" EditEnabled="true" Name="MaxScoreIns-3" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="4" EditEnabled="true" Name="MaxScoreIns-4" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+</orchestra>
+<mixerpanelsettings >
+<panamppair FADERINDEX="0" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="1" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="2" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="3" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="4" PAN="0.5" AMP="0.5" />
+</mixerpanelsettings>
+<staffspacing INDEX="0" ABOVE="72.0" BELOW="122.0" />
+<staffspacing INDEX="1" ABOVE="72.0" BELOW="117.0" />
+<staffspacing INDEX="2" ABOVE="72.0" BELOW="122.0" />
+<staffspacing INDEX="3" ABOVE="72.0" BELOW="122.0" />
+<staffspacing INDEX="4" ABOVE="72.0" BELOW="72.0" />
+<scoresection NAME="A" START="0" END="0" />
+<scoresection NAME="B" START="0" END="0" />
+<scoresection NAME="C" START="0" END="0" />
+<scoresection NAME="D" START="0" END="0" />
+<scoresection NAME="E" START="0" END="0" />
+<scoresection NAME="F" START="0" END="0" />
+<scoresection NAME="G" START="0" END="0" />
+<scoresection NAME="H" START="0" END="0" />
+<scoresection NAME="I" START="0" END="0" />
+<scoresection NAME="J" START="0" END="0" />
+<scoresection NAME="K" START="0" END="0" />
+<scoresection NAME="L" START="0" END="0" />
+<scoresection NAME="M" START="0" END="0" />
+<scoresection NAME="N" START="0" END="0" />
+<scoresection NAME="O" START="0" END="0" />
+<scoresection NAME="P" START="0" END="0" />
+<scoresection NAME="Q" START="0" END="0" />
+<scoresection NAME="R" START="0" END="0" />
+<scoresection NAME="S" START="0" END="0" />
+<scoresection NAME="T" START="0" END="0" />
+<scoresection NAME="U" START="0" END="0" />
+<scoresection NAME="V" START="0" END="0" />
+<scoresection NAME="W" START="0" END="0" />
+<scoresection NAME="X" START="0" END="0" />
+<scoresection NAME="Y" START="0" END="0" />
+<scoresection NAME="Z" START="0" END="0" />
+<measure WIDTH="958" WIDTHSETBYHAND="true" TIMESIG="5 1" TIMESIGSETBYHAND="false" TEMPO="60.0" TEMPOSETBYHAND="false" REPEATSTART="false" REPEATEND="false" NUMREPEATS="1" BARLINE="SINGLE" MEASURETEXT="" MEASURETEXTX="48" MEASURETEXTY="48" >
+<staff INDEX="0" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="0" INSINDEXSETBYHAND="false" KEYSIGTYPE="1" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="1" DURATION="4.0" PITCH="80.0" VELOCITY="0.5" HOLD="0.20000000298023224" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="4" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="-159" TEXTOFFSETY="-18" NOTEHEAD="1" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="80.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[0] 84.3o8LPAqTPozJJ8jTv.vPiL0TkTvPvBledknfiEkYh4nfglnmA.AJofQfjn7hxrjTKIeEz0XvhpftFZNDFVpjBFCRAEjZdEmYUoBzXLTIF..VfYws" Xoffset="0.0" Yoffset="0.0" >
+</userBean>
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+</track>
+<track INDEX="1" >
+</track>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-0-0" Message="rendered untitled[0] 72.3o8LPAqTPozxOuRTH3JyMo7yQACsPIELDjfkWTlkjpBFXkAFnPxYjXQJXrBFYjYJXnwlnfglXADgLTAiMBnJLwTkX.PsQGAr" Xoffset="60.0" Yoffset="20.0" >
+</staffUserBean>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-0-0" Message="rendered untitled[1] 72.3o8LRAqTPozxOuRTH3JyMo7yQACsPIELFjfkWTlkjpBFXkwFnPxYjXQ.EzHiLSACM1DELzDKfHjgJXrQJXnUFZpRL.vsyDQs" Xoffset="520.0" Yoffset="20.0" >
+</staffUserBean>
+</staff>
+<staff INDEX="1" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="1" INSINDEXSETBYHAND="false" KEYSIGTYPE="1" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="1" DURATION="4.0" PITCH="68.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="2" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="-153" TEXTOFFSETY="-52" NOTEHEAD="1" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[0] 84.3o8LPAqTPozJJ8jTv.vPiL0TkTvPvBledknfiEkYh4nfglnmA.AJofQfjn7hxrjTKIeEz0HvhpftFZHDF4qjBFCRAEjZdEmYUoBzXLTIF..WAXg4" Xoffset="0.0" Yoffset="0.0" >
+</userBean>
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="71.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="-49" TEXTOFFSETY="-22" NOTEHEAD="1" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[0] 55.3o8LPAqTPozxOuRTv07RunDKK0hbCHmfSsDELxDkTvPPxVdQYVRpJjbFIVDP9lXhRL..kB+CZ." Xoffset="-30.0" Yoffset="-30.0" >
+</userBean>
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[1] 85.3o8LRAqTPozJJ8jTv.vPiL0TkTvXvBledknfiEkYh4nfglnmA.AJofIfjn7hxrjTKIeEz0HvhpftFZHDFwpjBlBRAEjZdEmYUopfgJXnRL..bslEbC" Xoffset="0.0" Yoffset="0.0" >
+</userBean>
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+</track>
+<track INDEX="1" >
+</track>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-0-1" Message="rendered untitled[0] 72.3o8LPAqTPozxOuRTH3JyMo7yQACsPIELDjfkWTlkjpBFXkAFnPxYjXQJXrBFYjYJXnwlnfglXADgLTAiMBnJLwTkX.PsQGAr" Xoffset="60.0" Yoffset="60.0" >
+</staffUserBean>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-0-1" Message="rendered untitled[1] 72.3o8LRAqTPozxOuRTH3JyMo7yQACsPIELFjfkWTlkjpBFXkwFnPxYjXQ.EzHiLSACM1DELzDKfHjgJXrQJXnUFZpRL.vsyDQs" Xoffset="520.0" Yoffset="60.0" >
+</staffUserBean>
+</staff>
+<staff INDEX="2" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="2" INSINDEXSETBYHAND="false" KEYSIGTYPE="1" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="65.0" VELOCITY="0.5" HOLD="0.20000000298023224" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="3" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="-254" TEXTOFFSETY="-49" NOTEHEAD="1" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[0] 84.3o8LPAqTPozJJ8jTv.vPiL0TkTvPvBledknfiEkYh4nfglnmA.AJofQfjn7hxrjTKIeEz0HvhpftFZHDFUpjBFCRAEjZdEmYUoBzXLTIF..WSaA7" Xoffset="0.0" Yoffset="0.0" >
+</userBean>
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+</track>
+<track INDEX="1" >
+</track>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-0-2" Message="rendered untitled[0] 72.3o8LPAqTPozxOuRTH3JyMo7yQACsPIELDjfkWTlkjpBFXkAFnPxYjXQJXrBFYjYJXnwlnfglXADgLTAiMBnJLwTkX.PsQGAr" Xoffset="60.0" Yoffset="60.0" >
+</staffUserBean>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-0-2" Message="rendered untitled[1] 72.3o8LRAqTPozxOuRTH3JyMo7yQACsPIELFjfkWTlkjpBFXkwFnPxYjXQ.EzHiLSACM1DELzDKfHjgJXrQJXnUFZpRL.vsyDQs" Xoffset="520.0" Yoffset="60.0" >
+</staffUserBean>
+</staff>
+<staff INDEX="3" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="3" INSINDEXSETBYHAND="false" KEYSIGTYPE="1" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="2" DURATION="4.0" PITCH="56.0" VELOCITY="0.5" HOLD="0.20000000298023224" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="1" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="4" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="-249" TEXTOFFSETY="-73" NOTEHEAD="1" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[0] 84.3o8LPAqTPozJJ8jTv.vPiL0TkTvPvBledknfiEkYh4nfglnmA.AJofQfjn7hxrjTKIeEz0HvhpftFZHDF4njBFCRAEjZdEmYUoBzXLTIF.vVBaw3" Xoffset="0.0" Yoffset="0.0" >
+</userBean>
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+</track>
+<track INDEX="1" >
+</track>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-0-3" Message="rendered untitled[0] 72.3o8LPAqTPozxOuRTH3JyMo7yQACsPIELDjfkWTlkjpBFXkAFnPxYjXQJXrBFYjYJXnwlnfglXADgLTAiMBnJLwTkX.PsQGAr" Xoffset="60.0" Yoffset="60.0" >
+</staffUserBean>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-0-3" Message="rendered untitled[1] 72.3o8LRAqTPozxOuRTH3JyMo7yQACsPIELFjfkWTlkjpBFXkwFnPxYjXQ.EzHiLSACM1DELzDKfHjgJXrQJXnUFZpRL.vsyDQs" Xoffset="520.0" Yoffset="60.0" >
+</staffUserBean>
+</staff>
+<staff INDEX="4" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="4" INSINDEXSETBYHAND="false" KEYSIGTYPE="1" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="2" DURATION="4.0" PITCH="63.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="1" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="2" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="-47" TEXTOFFSETY="-73" NOTEHEAD="1" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[0] 84.3o8LPAqTPozJJ8jTv.vPiL0TkTvPvBledknfiEkYh4nfglnmA.AJofQfjn7hxrjTKIeEz0HvhpftFZHDFEojBFCRAEjZdEmYUoBzXLTIF..W.YQ5" Xoffset="0.0" Yoffset="0.0" >
+</userBean>
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="67.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="3" SLUROUT="true" ISGRACENOTE="false" WEDGE="cresc" OTTAVA="none" MARK="0" TEXTOFFSETX="-39" TEXTOFFSETY="-32" NOTEHEAD="1" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[0] 55.3o8LPAqTPozxOuRTv07RunDKK0hbCHmfSsDELxDkTvPPxVdQYVRpJjbFIVDP9lXhRL..kB+CZ." Xoffset="-30.0" Yoffset="-30.0" >
+</userBean>
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[1] 83.3o8LRAqTPozJJ8jTv.vPiL0TkTvXvBledknfiEkYh4nfglnmA.AJofIfjn7hxrjTKIeEz0PvhBjFJiLURASAofBRMuhyrpTUvPELTIF..zkPVbN" Xoffset="0.0" Yoffset="0.0" >
+</userBean>
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="true" ISGRACENOTE="false" WEDGE="cresc" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="2" DURATION="4.0" PITCH="70.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="1" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="4" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[0] 83.3o8LPAqTPozJJ8jTv.vPiL0TkTvPvBledknfiEkYh4nfglnmA.AJofQfjn7hxrjTKIeEz0PvhpftPjUgnURAiAIeAolWwYVUp.MECUhA.PDyVLJ" Xoffset="0.0" Yoffset="0.0" >
+</userBean>
+</note>
+</track>
+<track INDEX="1" >
+</track>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-0-4" Message="rendered untitled[0] 72.3o8LPAqTPozxOuRTH3JyMo7yQACsPIELDjfkWTlkjpBFXkAFnPxYjXQJXrBFYjYJXnwlnfglXADgLTAiMBnJLwTkX.PsQGAr" Xoffset="60.0" Yoffset="60.0" >
+</staffUserBean>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-0-4" Message="rendered untitled[1] 72.3o8LRAqTPozxOuRTH3JyMo7yQACsPIELFjfkWTlkjpBFXkwFnPxYjXQ.EzHiLSACM1DELzDKfHjgJXrQJXnUFZpRL.vsyDQs" Xoffset="520.0" Yoffset="60.0" >
+</staffUserBean>
+</staff>
+</measure>
+<measure WIDTH="921" WIDTHSETBYHAND="true" TIMESIG="5 1" TIMESIGSETBYHAND="true" TEMPO="60.0" TEMPOSETBYHAND="false" REPEATSTART="false" REPEATEND="false" NUMREPEATS="1" BARLINE="SINGLE" MEASURETEXT="" MEASURETEXTX="48" MEASURETEXTY="48" >
+<staff INDEX="0" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="0" INSINDEXSETBYHAND="false" KEYSIGTYPE="1" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="1" DURATION="4.0" PITCH="73.0" VELOCITY="0.5" HOLD="0.20000000298023224" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="2" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="-236" TEXTOFFSETY="-42" NOTEHEAD="1" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[0] 84.3o8LPAqTPozJJ8jTv.vPiL0TkTvPvBledknfiEkYh4nfglnmA.AJofQfjn7hxrjTKIeEz0XvhpftFZNDFFojBFCRAEjZdEmYUoBzXLTIF.vUMaAr" Xoffset="0.0" Yoffset="0.0" >
+</userBean>
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+</track>
+<track INDEX="1" >
+</track>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-1-0" Message="rendered untitled[0] 72.3o8LPAqTPozxOuRTH3JyMo7yQACsPIELDjfkWTlkjpBFZkAFnPxYjXQJXrBFYjYJXnwlnfglXADgLTAiMBnJLwTkX.Ps+Ggr" Xoffset="60.0" Yoffset="20.0" >
+</staffUserBean>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-1-0" Message="rendered untitled[1] 72.3o8LRAqTPozxOuRTH3JyMo7yQACsPIELFjfkWTlkjpBFZkwFnPxYjXQ.EzHiLSACM1DELzDKfHjgJXrQJXjUFZpRL.vsgEws" Xoffset="520.0" Yoffset="20.0" >
+</staffUserBean>
+</staff>
+<staff INDEX="1" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="1" INSINDEXSETBYHAND="false" KEYSIGTYPE="1" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="1" DURATION="4.0" PITCH="68.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="3" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="-136" TEXTOFFSETY="-57" NOTEHEAD="1" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[0] 84.3o8LPAqTPozJJ8jTv.vPiL0TkTvPvBledknfiEkYh4nfglnmA.AJofQfjn7hxrjTKIeEz0HvhpftFZHDF4qjBFCRAEjZdEmYUoBzXLTIF..WAXg4" Xoffset="0.0" Yoffset="0.0" >
+</userBean>
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="76.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="4" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="-49" TEXTOFFSETY="-4" NOTEHEAD="1" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[0] 55.3o8LPAqTPozxOuRTv07RunDKK0hbCHmfSsDELxDkTvPPxVdQYVRpJjbFIVDP9lXhRL..kB+CZ." Xoffset="-30.0" Yoffset="-30.0" >
+</userBean>
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[1] 84.3o8LRAqTPozJJ8jTv.vPiL0TkTvXvBledknfiEkYh4nfglnmA.AJofIfjn7hxrjTKIeEz0HvhpftFZHDF.0oofTPAolWwYVUpJXnBFpDC.PViXAs" Xoffset="0.0" Yoffset="0.0" >
+</userBean>
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+</track>
+<track INDEX="1" >
+</track>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-1-1" Message="rendered untitled[0] 72.3o8LPAqTPozxOuRTH3JyMo7yQACsPIELDjfkWTlkjpBFZkAFnPxYjXQJXrBFYjYJXnwlnfglXADgLTAiMBnJLwTkX.Ps+Ggr" Xoffset="60.0" Yoffset="60.0" >
+</staffUserBean>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-1-1" Message="rendered untitled[1] 72.3o8LRAqTPozxOuRTH3JyMo7yQACsPIELFjfkWTlkjpBFZkwFnPxYjXQ.EzHiLSACM1DELzDKfHjgJXrQJXjUFZpRL.vsgEws" Xoffset="520.0" Yoffset="60.0" >
+</staffUserBean>
+</staff>
+<staff INDEX="2" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="2" INSINDEXSETBYHAND="false" KEYSIGTYPE="1" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="2" DURATION="4.0" PITCH="63.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="1" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="3" SLUROUT="true" ISGRACENOTE="false" WEDGE="decresc" OTTAVA="none" MARK="0" TEXTOFFSETX="-135" TEXTOFFSETY="-46" NOTEHEAD="1" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[0] 84.3o8LPAqTPozJJ8jTv.vPiL0TkTvPvBledknfiEkYh4nfglnmA.AJofQfjn7hxrjTKIeEz0HvhpftFZHDFEojBFCRAEjZdEmYUoBzXLTIF..W.YQ5" Xoffset="0.0" Yoffset="0.0" >
+</userBean>
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="true" ISGRACENOTE="false" WEDGE="decresc" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="67.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="2" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="-49" TEXTOFFSETY="-4" NOTEHEAD="1" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[0] 84.3o8LPAqTPozJJ8jTv.vPiL0TkTvPvBledknfiEkYh4nfglnmA.AJofQfjn7hxrjTKIeEz0HvhpftFZHDFYpjBFCRAEjZdEmYUoBzXLTIF.vVCZA3" Xoffset="0.0" Yoffset="0.0" >
+</userBean>
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+</track>
+<track INDEX="1" >
+</track>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-1-2" Message="rendered untitled[0] 72.3o8LPAqTPozxOuRTH3JyMo7yQACsPIELDjfkWTlkjpBFZkAFnPxYjXQJXrBFYjYJXnwlnfglXADgLTAiMBnJLwTkX.Ps+Ggr" Xoffset="60.0" Yoffset="60.0" >
+</staffUserBean>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-1-2" Message="rendered untitled[1] 72.3o8LRAqTPozxOuRTH3JyMo7yQACsPIELFjfkWTlkjpBFZkwFnPxYjXQ.EzHiLSACM1DELzDKfHjgJXrQJXjUFZpRL.vsgEws" Xoffset="520.0" Yoffset="60.0" >
+</staffUserBean>
+</staff>
+<staff INDEX="3" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="3" INSINDEXSETBYHAND="false" KEYSIGTYPE="1" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.20000000298023224" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="1" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="3" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="-232" TEXTOFFSETY="-67" NOTEHEAD="1" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[0] 84.3o8LPAqTPozJJ8jTv.vPiL0TkTvPvBledknfiEkYh4nfglnmA.AJofQfjn7hxrjTKIeEz0HvhpftFZHDFEpjBFCRAEjZdEmYUoBzXLTIF..WqXA5" Xoffset="0.0" Yoffset="0.0" >
+</userBean>
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+</track>
+<track INDEX="1" >
+</track>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-1-3" Message="rendered untitled[0] 72.3o8LPAqTPozxOuRTH3JyMo7yQACsPIELDjfkWTlkjpBFZkAFnPxYjXQJXrBFYjYJXnwlnfglXADgLTAiMBnJLwTkX.Ps+Ggr" Xoffset="60.0" Yoffset="60.0" >
+</staffUserBean>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-1-3" Message="rendered untitled[1] 72.3o8LRAqTPozxOuRTH3JyMo7yQACsPIELFjfkWTlkjpBFZkwFnPxYjXQ.EzHiLSACM1DELzDKfHjgJXrQJXjUFZpRL.vsgEws" Xoffset="520.0" Yoffset="60.0" >
+</staffUserBean>
+</staff>
+<staff INDEX="4" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="4" INSINDEXSETBYHAND="false" KEYSIGTYPE="1" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="71.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="3" SLUROUT="true" ISGRACENOTE="false" WEDGE="decresc" OTTAVA="none" MARK="0" TEXTOFFSETX="-133" TEXTOFFSETY="-65" NOTEHEAD="1" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[0] 83.3o8LPAqTPozJJ8jTv.vPiL0TkTvPvBledknfiEkYh4nfglnmA.AJofQfjn7hxrjTKIeEz0PvhpftPjUgXURAiAIeAolWwYVUp.MECUhA.Pj8VTJ" Xoffset="0.0" Yoffset="0.0" >
+</userBean>
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="true" ISGRACENOTE="false" WEDGE="decresc" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="69.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="2" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="-246" TEXTOFFSETY="-67" NOTEHEAD="1" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[0] 83.3o8LPAqTPozJJ8jTv.vPiL0TkTvPvBledknfiEkYh4nfglnmA.AJofQfjn7hxrjTKIeEz0PvhBj1.HLJPIELFjBJH07JNypREnwXnRL..rU0VTN" Xoffset="0.0" Yoffset="0.0" >
+</userBean>
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+</track>
+<track INDEX="1" >
+</track>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-1-4" Message="rendered untitled[0] 72.3o8LPAqTPozxOuRTH3JyMo7yQACsPIELDjfkWTlkjpBFZkAFnPxYjXQJXrBFYjYJXnwlnfglXADgLTAiMBnJLwTkX.Ps+Ggr" Xoffset="60.0" Yoffset="60.0" >
+</staffUserBean>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-1-4" Message="rendered untitled[1] 72.3o8LRAqTPozxOuRTH3JyMo7yQACsPIELFjfkWTlkjpBFZkwFnPxYjXQ.EzHiLSACM1DELzDKfHjgJXrQJXjUFZpRL.vsgEws" Xoffset="520.0" Yoffset="60.0" >
+</staffUserBean>
+</staff>
+</measure>
+<measure WIDTH="1880" WIDTHSETBYHAND="true" TIMESIG="5 1" TIMESIGSETBYHAND="true" TEMPO="60.0" TEMPOSETBYHAND="false" REPEATSTART="false" REPEATEND="false" NUMREPEATS="1" BARLINE="SINGLE" MEASURETEXT="" MEASURETEXTX="48" MEASURETEXTY="48" >
+<staff INDEX="0" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="0" INSINDEXSETBYHAND="false" KEYSIGTYPE="1" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="2" DURATION="4.0" PITCH="80.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="1" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="2" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="-27" TEXTOFFSETY="-26" NOTEHEAD="1" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[0] 83.3o8LPAqTPozJJ8jTv.vPiL0TkTvPvBledknfiEkYh4nfglnmA.AJofQfjn7hxrjTKIeEz0PvhBj1.HLrTIELFjBJH07JNypREnwXnRL..bkTV3J" Xoffset="0.0" Yoffset="0.0" >
+</userBean>
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="62.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="4" SLUROUT="true" ISGRACENOTE="false" WEDGE="decresc" OTTAVA="none" MARK="0" TEXTOFFSETX="-39" TEXTOFFSETY="-32" NOTEHEAD="1" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[0] 84.3o8LPAqTPozJJ8jTv.vPiL0TkTvPvBledknfiEkYh4nfglnmA.AJofQfjn7hxrjTKIeEz0XvhpftFYFDFopjBFCRAEjZdEmYUoBzXLTIF.vV8aw3" Xoffset="0.0" Yoffset="0.0" >
+</userBean>
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="true" ISGRACENOTE="false" WEDGE="decresc" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="60.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="84.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="1" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="3" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="-428" TEXTOFFSETY="-21" NOTEHEAD="1" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[0] 86.3o8LPAqTPozJJ8jTv.vPiL0TkTvPvBledknfiEkYh4nfglnmA.AJofQfjn7hxrjTKIeEz0bvhpftFZFDFojZNJofwfTRAolWwYVUp.MHCUhA.HYCWXK" Xoffset="0.0" Yoffset="0.0" >
+</userBean>
+</note>
+</track>
+<track INDEX="1" >
+</track>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-2-0" Message="rendered untitled[0] 44.3o8LPAqTPozxOuRTH3JyMo7yQACsPIELDjfkWTlkjpBFYkglpDC..rrxIDO" Xoffset="60.0" Yoffset="10.0" >
+</staffUserBean>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-2-0" Message="rendered untitled[1] 44.3o8LRAqTPozxOuRTH3JyMo7yQACsPIELFjfkWTlkjpBFYkIlpDC..vLQIfO" Xoffset="1280.0" Yoffset="10.0" >
+</staffUserBean>
+</staff>
+<staff INDEX="1" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="1" INSINDEXSETBYHAND="false" KEYSIGTYPE="1" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="65.0" VELOCITY="0.5" HOLD="0.20000000298023224" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="1" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="4" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="-227" TEXTOFFSETY="-64" NOTEHEAD="1" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[0] 84.3o8LPAqTPozJJ8jTv.vPiL0TkTvPvBledknfiEkYh4nfglnmA.AJofQfjn7hxrjTKIeEz0XvhpftFYNDFUpjBFCRAEjZdEmYUoBzXLTIF.PW8ZA9" Xoffset="0.0" Yoffset="0.0" >
+</userBean>
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+</track>
+<track INDEX="1" >
+</track>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-2-1" Message="rendered untitled[0] 44.3o8LPAqTPozxOuRTH3JyMo7yQACsPIELDjfkWTlkjpBFYkglpDC..rrxIDO" Xoffset="60.0" Yoffset="60.0" >
+</staffUserBean>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-2-1" Message="rendered untitled[1] 44.3o8LRAqTPozxOuRTH3JyMo7yQACsPIELFjfkWTlkjpBFYkIlpDC..vLQIfO" Xoffset="1280.0" Yoffset="60.0" >
+</staffUserBean>
+</staff>
+<staff INDEX="2" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="2" INSINDEXSETBYHAND="false" KEYSIGTYPE="1" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="2" DURATION="4.0" PITCH="68.0" VELOCITY="0.5" HOLD="0.20000000298023224" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="1" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="4" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="-227" TEXTOFFSETY="-39" NOTEHEAD="1" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[0] 84.3o8LPAqTPozJJ8jTv.vPiL0TkTvPvBledknfiEkYh4nfglnmA.AJofQfjn7hxrjTKIeEz0XvhpftFZNDF4qjBFCRAEjZdEmYUoBzXLTIF..WNaQ6" Xoffset="0.0" Yoffset="0.0" >
+</userBean>
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+</track>
+<track INDEX="1" >
+</track>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-2-2" Message="rendered untitled[0] 44.3o8LPAqTPozxOuRTH3JyMo7yQACsPIELDjfkWTlkjpBFYkglpDC..rrxIDO" Xoffset="60.0" Yoffset="60.0" >
+</staffUserBean>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-2-2" Message="rendered untitled[1] 44.3o8LRAqTPozxOuRTH3JyMo7yQACsPIELFjfkWTlkjpBFYkIlpDC..vLQIfO" Xoffset="1280.0" Yoffset="60.0" >
+</staffUserBean>
+</staff>
+<staff INDEX="3" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="3" INSINDEXSETBYHAND="false" KEYSIGTYPE="1" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="67.0" VELOCITY="0.5" HOLD="0.20000000298023224" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="1" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="4" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="-226" TEXTOFFSETY="-45" NOTEHEAD="1" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[0] 83.3o8LPAqTPozJJ8jTv.vPiL0TkTvPvBledknfiEkYh4nfglnmA.AJofQfjn7hxrjTKIeEz0PvhBj1bHLxTIELFjBJH07JNypREnwXnRL..vkAVTN" Xoffset="0.0" Yoffset="0.0" >
+</userBean>
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+</track>
+<track INDEX="1" >
+</track>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-2-3" Message="rendered untitled[0] 44.3o8LPAqTPozxOuRTH3JyMo7yQACsPIELDjfkWTlkjpBFYkglpDC..rrxIDO" Xoffset="60.0" Yoffset="60.0" >
+</staffUserBean>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-2-3" Message="rendered untitled[1] 44.3o8LRAqTPozxOuRTH3JyMo7yQACsPIELFjfkWTlkjpBFYkIlpDC..vLQIfO" Xoffset="1280.0" Yoffset="60.0" >
+</staffUserBean>
+</staff>
+<staff INDEX="4" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="4" INSINDEXSETBYHAND="false" KEYSIGTYPE="1" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="52.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="4" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="-112" TEXTOFFSETY="-110" NOTEHEAD="1" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[0] 83.3o8LPAqTPozJJ8jTv.vPiL0TkTvPvBledknfiEkYh4nfglnmA.AJofQfjn7hxrjTKIeEz0XvhBj1RHLRWIELFjBJH07JNypREnwXnRL..vElVjN" Xoffset="0.0" Yoffset="0.0" >
+</userBean>
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="71.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="2" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="-49" TEXTOFFSETY="-4" NOTEHEAD="1" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[0] 55.3o8LPAqTPozxOuRTv07RunDKK0hbCHmfSsDELxDkTvPPxVdQYVRpJjbFIVDP9lXhRL..kB+CZ." Xoffset="-30.0" Yoffset="-30.0" >
+</userBean>
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[1] 84.3o8LRAqTPozJJ8jTv.vPiL0TkTvXvBledknfiEkYh4nfglnmA.AJofIfjn7hxrjTKIeEz0HvhBjFhzJDqRJXJHETPp4UblUkpBFpfgJw...WbaA3" Xoffset="0.0" Yoffset="0.0" >
+</userBean>
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+</track>
+<track INDEX="1" >
+</track>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-2-4" Message="rendered untitled[0] 44.3o8LPAqTPozxOuRTH3JyMo7yQACsPIELDjfkWTlkjpBFYkglpDC..rrxIDO" Xoffset="60.0" Yoffset="60.0" >
+</staffUserBean>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-2-4" Message="rendered untitled[1] 44.3o8LRAqTPozxOuRTH3JyMo7yQACsPIELFjfkWTlkjpBFYkIlpDC..vLQIfO" Xoffset="1280.0" Yoffset="60.0" >
+</staffUserBean>
+</staff>
+</measure>
+<measure WIDTH="971" WIDTHSETBYHAND="false" TIMESIG="5 1" TIMESIGSETBYHAND="true" TEMPO="60.0" TEMPOSETBYHAND="false" REPEATSTART="false" REPEATEND="false" NUMREPEATS="1" BARLINE="SINGLE" MEASURETEXT="" MEASURETEXTX="48" MEASURETEXTY="48" >
+<staff INDEX="0" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="0" INSINDEXSETBYHAND="false" KEYSIGTYPE="1" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="74.0" VELOCITY="0.5" HOLD="0.20000000298023224" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="1" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="2" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="-243" TEXTOFFSETY="-26" NOTEHEAD="1" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[0] 83.3o8LPAqTPozJJ8jTv.vPiL0TkTvPvBledknfiEkYh4nfglnmA.AJofQfjn7hxrjTKIeEz0XvhpftPkVAiURAiAofBRMuhyrpTAZLFpDC.bkiV3J" Xoffset="0.0" Yoffset="0.0" >
+</userBean>
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+</track>
+<track INDEX="1" >
+</track>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-3-0" Message="rendered untitled[0] 73.3o8LPAqTPozxOuRTH3JyMo7yQACsPIELDjfkWTlkjpBFYkIlpPxYjXQJXrBFYjYJXnwlnfglXADgLTAiMRAisxXCThA.2FWD3B" Xoffset="60.0" Yoffset="20.0" >
+</staffUserBean>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-3-0" Message="rendered untitled[1] 72.3o8LRAqTPozxOuRTH3JyMo7yQACsPIELFjfkWTlkjpBFakglpPxYjXQ.EzHiLSACM1DELzDKfHjgJXrQJXhUFXfRL..tWDAt" Xoffset="520.0" Yoffset="20.0" >
+</staffUserBean>
+</staff>
+<staff INDEX="1" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="1" INSINDEXSETBYHAND="false" KEYSIGTYPE="1" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="1" DURATION="4.0" PITCH="73.0" VELOCITY="0.5" HOLD="0.20000000298023224" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="4" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="-243" TEXTOFFSETY="-26" NOTEHEAD="1" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[0] 84.3o8LPAqTPozJJ8jTv.vPiL0TkTvPvBledknfiEkYh4nfglnmA.AJofQfjn7hxrjTKIeEz0XvhpftFZNDFFojBFCRAEjZdEmYUoBzXLTIF.vUMaAr" Xoffset="0.0" Yoffset="0.0" >
+</userBean>
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+</track>
+<track INDEX="1" >
+</track>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-3-1" Message="rendered untitled[0] 73.3o8LPAqTPozxOuRTH3JyMo7yQACsPIELDjfkWTlkjpBFYkIlpPxYjXQJXrBFYjYJXnwlnfglXADgLTAiMRAisxXCThA.2FWD3B" Xoffset="60.0" Yoffset="60.0" >
+</staffUserBean>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-3-1" Message="rendered untitled[1] 72.3o8LRAqTPozxOuRTH3JyMo7yQACsPIELFjfkWTlkjpBFakglpPxYjXQ.EzHiLSACM1DELzDKfHjgJXrQJXhUFXfRL..tWDAt" Xoffset="520.0" Yoffset="60.0" >
+</staffUserBean>
+</staff>
+<staff INDEX="2" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="2" INSINDEXSETBYHAND="false" KEYSIGTYPE="1" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="1" DURATION="4.0" PITCH="70.0" VELOCITY="0.5" HOLD="0.20000000298023224" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="4" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="-244" TEXTOFFSETY="-33" NOTEHEAD="1" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[0] 84.3o8LPAqTPozJJ8jTv.vPiL0TkTvPvBledknfiEkYh4nfglnmA.AJofQfjn7hxrjTKIeEz0XvhpftFZNDFQqjBFCRAEjZdEmYUoBzXLTIF.vVpXQ1" Xoffset="0.0" Yoffset="0.0" >
+</userBean>
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+</track>
+<track INDEX="1" >
+</track>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-3-2" Message="rendered untitled[0] 73.3o8LPAqTPozxOuRTH3JyMo7yQACsPIELDjfkWTlkjpBFYkIlpPxYjXQJXrBFYjYJXnwlnfglXADgLTAiMRAisxXCThA.2FWD3B" Xoffset="60.0" Yoffset="60.0" >
+</staffUserBean>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-3-2" Message="rendered untitled[1] 72.3o8LRAqTPozxOuRTH3JyMo7yQACsPIELFjfkWTlkjpBFakglpPxYjXQ.EzHiLSACM1DELzDKfHjgJXrQJXhUFXfRL..tWDAt" Xoffset="520.0" Yoffset="60.0" >
+</staffUserBean>
+</staff>
+<staff INDEX="3" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="3" INSINDEXSETBYHAND="false" KEYSIGTYPE="1" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="62.0" VELOCITY="0.5" HOLD="0.20000000298023224" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="1" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="4" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="-235" TEXTOFFSETY="-58" NOTEHEAD="1" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[0] 84.3o8LPAqTPozJJ8jTv.vPiL0TkTvPvBledknfiEkYh4nfglnmA.AJofQfjn7hxrjTKIeEz0XvhpftFYFDFopjBFCRAEjZdEmYUoBzXLTIF.vV8aw3" Xoffset="0.0" Yoffset="0.0" >
+</userBean>
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+</track>
+<track INDEX="1" >
+</track>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-3-3" Message="rendered untitled[0] 73.3o8LPAqTPozxOuRTH3JyMo7yQACsPIELDjfkWTlkjpBFYkIlpPxYjXQJXrBFYjYJXnwlnfglXADgLTAiMRAisxXCThA.2FWD3B" Xoffset="60.0" Yoffset="60.0" >
+</staffUserBean>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-3-3" Message="rendered untitled[1] 72.3o8LRAqTPozxOuRTH3JyMo7yQACsPIELFjfkWTlkjpBFakglpPxYjXQ.EzHiLSACM1DELzDKfHjgJXrQJXhUFXfRL..tWDAt" Xoffset="520.0" Yoffset="60.0" >
+</staffUserBean>
+</staff>
+<staff INDEX="4" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="4" INSINDEXSETBYHAND="false" KEYSIGTYPE="1" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="71.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="1" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="3" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="-40" TEXTOFFSETY="-33" NOTEHEAD="1" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[0] 83.3o8LPAqTPozJJ8jTv.vPiL0TkTvPvBledknfiEkYh4nfglnmA.AJofQfjn7hxrjTKIeEz0PvhpftV.gNVkTvXPxWPp4UblUkJPSwPkX..TjYVjJ" Xoffset="0.0" Yoffset="0.0" >
+</userBean>
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="2" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="-44" TEXTOFFSETY="-53" NOTEHEAD="1" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[0] 55.3o8LPAqTPozxOuRTv07RunDKK0hbCHmfSsDELxDkTvPPxVdQYVRpJjbFIVDP9lXhRL..kB+CZ." Xoffset="-30.0" Yoffset="-30.0" >
+</userBean>
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[1] 84.3o8LRAqTPozJJ8jTv.vPiL0TkTvXvBledknfiEkYh4nfglnmA.AJofIfjn7hxrjTKIeEz0HvhBj1LHLJTIELEjBJH07JNypRUACUvPkX..fW3Zg8" Xoffset="0.0" Yoffset="0.0" >
+</userBean>
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="1" DURATION="4.0" PITCH="61.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="2" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="-44" TEXTOFFSETY="-51" NOTEHEAD="1" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[0] 83.3o8LPAqTPozJJ8jTv.vPiL0TkTvPvBledknfiEkYh4nfglnmA.AJofQfjn7hxrjTKIeEzEhnJnqQF.gQ4JofwfTPAolWwYVUp.MFCUhA.vE8V.O" Xoffset="0.0" Yoffset="0.0" >
+</userBean>
+</note>
+</track>
+<track INDEX="1" >
+</track>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-3-4" Message="rendered untitled[0] 73.3o8LPAqTPozxOuRTH3JyMo7yQACsPIELDjfkWTlkjpBFYkIlpPxYjXQJXrBFYjYJXnwlnfglXADgLTAiMRAisxXCThA.2FWD3B" Xoffset="60.0" Yoffset="60.0" >
+</staffUserBean>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-3-4" Message="rendered untitled[1] 72.3o8LRAqTPozxOuRTH3JyMo7yQACsPIELFjfkWTlkjpBFakglpPxYjXQ.EzHiLSACM1DELzDKfHjgJXrQJXhUFXfRL..tWDAt" Xoffset="520.0" Yoffset="60.0" >
+</staffUserBean>
+</staff>
+</measure>
+<measure WIDTH="910" WIDTHSETBYHAND="false" TIMESIG="5 1" TIMESIGSETBYHAND="true" TEMPO="60.0" TEMPOSETBYHAND="false" REPEATSTART="false" REPEATEND="false" NUMREPEATS="1" BARLINE="PERIOD" MEASURETEXT="" MEASURETEXTX="48" MEASURETEXTY="48" >
+<staff INDEX="0" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="0" INSINDEXSETBYHAND="false" KEYSIGTYPE="1" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="67.0" VELOCITY="0.5" HOLD="0.20000000298023224" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="1" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="3" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="-231" TEXTOFFSETY="-52" NOTEHEAD="1" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[0] 83.3o8LPAqTPozJJ8jTv.vPiL0TkTvPvBledknfiEkYh4nfglnmA.AJofQfjn7hxrjTKIeEL.rfJnqgV.gQlJofwfjufTyq3LqJUflhgJw..XTsVfK" Xoffset="0.0" Yoffset="0.0" >
+</userBean>
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+</track>
+<track INDEX="1" >
+</track>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-4-0" Message="rendered untitled[0] 73.3o8LPAqTPozxOuRTH3JyMo7yQACsPIELDjfkWTlkjpBFakIlpPxYjXQJXrBFYjYJXnwlnfglXADgLTAiMRASrxXCThA.29YD5B" Xoffset="60.0" Yoffset="20.0" >
+</staffUserBean>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-4-0" Message="rendered untitled[1] 72.3o8LRAqTPozxOuRTH3JyMo7yQACsPIELFjfkWTlkjpBlXkglpPxYjXQ.EzHiLSACM1DELzDKfHjgJXrQJXpUFXfRL..tEEgt" Xoffset="520.0" Yoffset="20.0" >
+</staffUserBean>
+</staff>
+<staff INDEX="1" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="1" INSINDEXSETBYHAND="false" KEYSIGTYPE="1" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="64.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="1" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="4" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="-37" TEXTOFFSETY="-59" NOTEHEAD="1" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[0] 83.3o8LPAqTPozJJ8jTv.vPiL0TkTvPvBledknfiEkYh4nfglnmA.AJofQfjn7hxrjTKIeEL.rfJnqgVBgQIJofwfjufTyq3LqJUflhgJw..bDtVPL" Xoffset="0.0" Yoffset="0.0" >
+</userBean>
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="65.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="true" ISGRACENOTE="false" WEDGE="decresc" OTTAVA="none" MARK="0" TEXTOFFSETX="-35" TEXTOFFSETY="-36" NOTEHEAD="1" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[0] 55.3o8LPAqTPozxOuRTv07RunDKK0hbCHmfSsDELxDkTvPPxVdQYVRpJjbFIVDP9lXhRL..kB+CZ." Xoffset="-30.0" Yoffset="-30.0" >
+</userBean>
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[1] 84.3o8LRAqTPozJJ8jTv.vPiL0TkTvXvBledknfiEkYh4nfglnmA.AJofIfjn7hxrjTKIeEL.rfJnqgVBgQkJofofjufTyq3LqJUELTACUhA.PR+aQz" Xoffset="0.0" Yoffset="0.0" >
+</userBean>
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="true" ISGRACENOTE="false" WEDGE="decresc" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="2" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="-40" TEXTOFFSETY="-53" NOTEHEAD="1" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[0] 83.3o8LPAqTPozJJ8jTv.vPiL0TkTvPvBledknfiEkYh4nfglnmA.AJofQfjn7hxrjTKIeEz0PvhBj1bHLJTIELFjBJH07JNypREnwXnRL..vkqVzN" Xoffset="0.0" Yoffset="0.0" >
+</userBean>
+</note>
+</track>
+<track INDEX="1" >
+</track>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-4-1" Message="rendered untitled[0] 73.3o8LPAqTPozxOuRTH3JyMo7yQACsPIELDjfkWTlkjpBFakIlpPxYjXQJXrBFYjYJXnwlnfglXADgLTAiMRASrxXCThA.29YD5B" Xoffset="60.0" Yoffset="60.0" >
+</staffUserBean>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-4-1" Message="rendered untitled[1] 72.3o8LRAqTPozxOuRTH3JyMo7yQACsPIELFjfkWTlkjpBlXkglpPxYjXQ.EzHiLSACM1DELzDKfHjgJXrQJXpUFXfRL..tEEgt" Xoffset="520.0" Yoffset="60.0" >
+</staffUserBean>
+</staff>
+<staff INDEX="2" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="2" INSINDEXSETBYHAND="false" KEYSIGTYPE="1" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="53.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="2" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="-132" TEXTOFFSETY="-94" NOTEHEAD="1" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[0] 84.3o8LPAqTPozJJ8jTv.vPiL0TkTvPvBledknfiEkYh4nfglnmA.AJofQfjn7hxrjTKIeEz0PvhpftFaLDFYnjBFCRAEjZdEmYUoBzXLTIF.vV6Zg3" Xoffset="0.0" Yoffset="0.0" >
+</userBean>
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="1" DURATION="4.0" PITCH="54.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="3" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="-35" TEXTOFFSETY="-75" NOTEHEAD="1" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[0] 55.3o8LPAqTPozxOuRTv07RunDKK0hbCHmfSsDELxDkTvPPxVdQYVRpJjbFIVDP9lXhRL..kB+CZ." Xoffset="-30.0" Yoffset="-30.0" >
+</userBean>
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[1] 85.3o8LRAqTPozJJ8jTv.vPiL0TkTvXvBledknfiEkYh4nfglnmA.AJofIfjn7hxrjTKIeEz0PvhpftFaLDFYojBlBRAEjZdEmYUopfgJXnRL..ckrErC" Xoffset="0.0" Yoffset="0.0" >
+</userBean>
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+</track>
+<track INDEX="1" >
+</track>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-4-2" Message="rendered untitled[0] 73.3o8LPAqTPozxOuRTH3JyMo7yQACsPIELDjfkWTlkjpBFakIlpPxYjXQJXrBFYjYJXnwlnfglXADgLTAiMRASrxXCThA.29YD5B" Xoffset="60.0" Yoffset="60.0" >
+</staffUserBean>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-4-2" Message="rendered untitled[1] 72.3o8LRAqTPozxOuRTH3JyMo7yQACsPIELFjfkWTlkjpBlXkglpPxYjXQ.EzHiLSACM1DELzDKfHjgJXrQJXpUFXfRL..tEEgt" Xoffset="520.0" Yoffset="60.0" >
+</staffUserBean>
+</staff>
+<staff INDEX="3" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="3" INSINDEXSETBYHAND="false" KEYSIGTYPE="1" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="1" DURATION="4.0" PITCH="66.0" VELOCITY="0.5" HOLD="0.20000000298023224" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="2" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="-231" TEXTOFFSETY="-49" NOTEHEAD="1" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[0] 83.3o8LPAqTPozJJ8jTv.vPiL0TkTvPvBledknfiEkYh4nfglnmA.AJofQfjn7hxrjTKIeEz0PvhBj1BHLJUIELFjBJH07JNypREnwXnRL..zkGVHO" Xoffset="0.0" Yoffset="0.0" >
+</userBean>
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+</track>
+<track INDEX="1" >
+</track>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-4-3" Message="rendered untitled[0] 73.3o8LPAqTPozxOuRTH3JyMo7yQACsPIELDjfkWTlkjpBFakIlpPxYjXQJXrBFYjYJXnwlnfglXADgLTAiMRASrxXCThA.29YD5B" Xoffset="60.0" Yoffset="60.0" >
+</staffUserBean>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-4-3" Message="rendered untitled[1] 72.3o8LRAqTPozxOuRTH3JyMo7yQACsPIELFjfkWTlkjpBlXkglpPxYjXQ.EzHiLSACM1DELzDKfHjgJXrQJXpUFXfRL..tEEgt" Xoffset="520.0" Yoffset="60.0" >
+</staffUserBean>
+</staff>
+<staff INDEX="4" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="4" INSINDEXSETBYHAND="false" KEYSIGTYPE="1" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="62.0" VELOCITY="0.5" HOLD="0.20000000298023224" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="1" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="3" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="-233" TEXTOFFSETY="-64" NOTEHEAD="1" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered untitled[0] 84.3o8LPAqTPozJJ8jTv.vPiL0TkTvPvBledknfiEkYh4nfglnmA.AJofQfjn7hxrjTKIeEz0PvhpftFYNDFopjBFCRAEjZdEmYUoBzXLTIF.vVOag3" Xoffset="0.0" Yoffset="0.0" >
+</userBean>
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="-1.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</note>
+</track>
+<track INDEX="1" >
+</track>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-4-4" Message="rendered untitled[0] 73.3o8LPAqTPozxOuRTH3JyMo7yQACsPIELDjfkWTlkjpBFakIlpPxYjXQJXrBFYjYJXnwlnfglXADgLTAiMRASrxXCThA.29YD5B" Xoffset="60.0" Yoffset="60.0" >
+</staffUserBean>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-4-4" Message="rendered untitled[1] 72.3o8LRAqTPozxOuRTH3JyMo7yQACsPIELFjfkWTlkjpBlXkglpPxYjXQ.EzHiLSACM1DELzDKfHjgJXrQJXpUFXfRL..tEEgt" Xoffset="520.0" Yoffset="60.0" >
+</staffUserBean>
+</staff>
+</measure>
+<scoreUserBean CLASSNAME="com.algomusic.max.MaxScoreRenderedMessageListener" >
+</scoreUserBean>
+</score>
+</jmslscoredoc>

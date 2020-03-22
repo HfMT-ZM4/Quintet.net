@@ -1,0 +1,1 @@
+max v2;#N vpatcher 20 74 620 474;#P window setfont "Sans Serif" 9.;#N thispatcher;#Q end;#P newobj 231 137 61 196617 thispatcher;#P inlet 241 102 15 0;#P user pictctrl 60 60 19 76 wfmodes.pct 0 0 1 2 18 0 1 0 19 76 2 0 1 1 1 1;#P connect 1 0 2 0;#P pop;

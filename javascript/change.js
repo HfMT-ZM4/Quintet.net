@@ -1,0 +1,1 @@
+//only pass input if value changesautowatch = 1;inlets = 3;outlets = 2;a = new Array();b = "";function anything() {//a = arguments[0];a=arrayfromargs(messagename, arguments[0]);b = arguments[2];post(a,b)}

@@ -1,0 +1,67 @@
+8
+
+dir
+64
+https://quintetnet.svn.sourceforge.net/svnroot/quintetnet/Quintet.net/Library
+https://quintetnet.svn.sourceforge.net/svnroot/quintetnet
+
+
+
+2007-11-11T18:52:25.066426Z
+51
+computermusik
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+4ad10e23-493d-0410-abbb-a584bb2a24a5
+
+Inputs
+dir
+
+Video-Effects
+dir
+
+Samples
+dir
+
+Action Patches
+dir
+
+Images
+dir
+
+Processes
+dir
+
+Maps+Sequences
+dir
+
+Scripts
+dir
+
+Data
+dir
+
+Fonts
+dir
+
+Abstractions
+dir
+
+Tunings-Filters
+dir
+
+Audio-Extensions
+dir
+

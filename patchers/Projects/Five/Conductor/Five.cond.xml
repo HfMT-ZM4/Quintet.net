@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<pattrstorage name = "condfile">
+	<slot number = "1">
+		<pattr name = "bank" value = "Five.bank.txt" />
+		<pattr name = "controlpanel" value = "Five-XML-control.maxpat" />
+		<pattr name = "maxscore" value = "Five.jscore.xml" />
+		<pattr name = "maxscore-nummeasures" value = "2" />
+		<pattr name = "maxscore-start" value = "0" />
+		<pattr name = "part-1" value = "&lt;empty&gt;" />
+		<pattr name = "part-2" value = "&lt;empty&gt;" />
+		<pattr name = "part-3" value = "&lt;empty&gt;" />
+		<pattr name = "part-4" value = "&lt;empty&gt;" />
+		<pattr name = "part-5" value = "&lt;empty&gt;" />
+		<pattr name = "score" value = "-" />
+		<pattr name = "timeline" value = "Five.timeline.txt" />
+		<pattr name = "title" value = "John Cage - Five (1988)" />
+		<pattr name = "triggers" value = "Section1 Section2 Section3" />
+		<pattr name = "width" value = "&lt;empty&gt;" />
+	</slot>
+	<slot number = "2">
+		<pattr name = "bank" value = "Five.bank.txt" />
+		<pattr name = "controlpanel" value = "Five-control.maxpat" />
+		<pattr name = "maxscore" value = "Five.jscore.xml" />
+		<pattr name = "maxscore-nummeasures" value = "1" />
+		<pattr name = "maxscore-start" value = "2" />
+		<pattr name = "part-1" value = "&lt;empty&gt;" />
+		<pattr name = "part-2" value = "&lt;empty&gt;" />
+		<pattr name = "part-3" value = "&lt;empty&gt;" />
+		<pattr name = "part-4" value = "&lt;empty&gt;" />
+		<pattr name = "part-5" value = "&lt;empty&gt;" />
+		<pattr name = "score" value = "&lt;empty&gt;" />
+		<pattr name = "timeline" value = "Five.timeline.txt" />
+		<pattr name = "title" value = "John Cage - Five (1988)" />
+		<pattr name = "triggers" value = "Section1 Section2 Section3" />
+		<pattr name = "width" value = "&lt;empty&gt;" />
+	</slot>
+	<slot number = "3">
+		<pattr name = "bank" value = "Five.bank.txt" />
+		<pattr name = "controlpanel" value = "Five-control.maxpat" />
+		<pattr name = "maxscore" value = "Five.jscore.xml" />
+		<pattr name = "maxscore-nummeasures" value = "2" />
+		<pattr name = "maxscore-start" value = "3" />
+		<pattr name = "part-1" value = "&lt;empty&gt;" />
+		<pattr name = "part-2" value = "&lt;empty&gt;" />
+		<pattr name = "part-3" value = "&lt;empty&gt;" />
+		<pattr name = "part-4" value = "&lt;empty&gt;" />
+		<pattr name = "part-5" value = "&lt;empty&gt;" />
+		<pattr name = "score" value = "&lt;empty&gt;" />
+		<pattr name = "timeline" value = "Five.timeline.txt" />
+		<pattr name = "title" value = "John Cage - Five (1988)" />
+		<pattr name = "triggers" value = "Section1 Section2 Section3" />
+		<pattr name = "width" value = "&lt;empty&gt;" />
+	</slot>
+</pattrstorage>
+

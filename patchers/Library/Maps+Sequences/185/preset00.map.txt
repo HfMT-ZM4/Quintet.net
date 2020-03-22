@@ -1,0 +1,5 @@
+1, /noteon/1/4700 this sender::Vera::panel.1::preset t 0;
+2, /noteon/2/4700 this sender::Vera::panel.2::preset t 0;
+3, /noteon/3/4700 this sender::Vera::panel.3::preset t 0;
+4, /noteon/4/4700 this sender::Vera::panel.4::preset t 0;
+5, /noteon/5/4700 this sender::Vera::panel.5::preset t 0;

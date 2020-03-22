@@ -1,0 +1,1 @@
+0, /key/13/0/1 this player.1::clip "Ivresse '84.001.png";1, sensor client::tcp grain::start "trigger 3000";2, /note/1/6000/1 client::udp "sequencer::cycle 1-5" "tempo nth 2 map 10. 100. 0.67 2. & start";3, /hi/5/18 client::udp synthesis::plugins::plugin1::harm_2 "map 0 255 0. 1.";4, /lemur/5/modul client::udp synthesis::plugins::plugin5::feedback "map 0. 24. 0. 1.";

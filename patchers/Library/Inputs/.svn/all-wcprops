@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/quintetnet/!svn/ver/36/Quintet.net/Library/Inputs
+END
+MIDI.input
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/quintetnet/!svn/ver/36/Quintet.net/Library/Inputs/MIDI.input
+END
+Pitch_Tracker.input
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/quintetnet/!svn/ver/75/Quintet.net/Library/Inputs/Pitch_Tracker.input
+END
+Text.input
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/quintetnet/!svn/ver/36/Quintet.net/Library/Inputs/Text.input
+END
+Computer_Keyboard.input
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/quintetnet/!svn/ver/36/Quintet.net/Library/Inputs/Computer_Keyboard.input
+END

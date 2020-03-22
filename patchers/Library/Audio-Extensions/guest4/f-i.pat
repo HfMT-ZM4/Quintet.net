@@ -1,0 +1,1 @@
+max v2;#N vpatcher 40 55 951 474;#P window setfont "Sans Serif" 9.;#P newex 74 135 322 196617 expr log10(($f1*261.62558)/8.175798) / log10(1.0594633)-60.0;#P outlet 140 219 15 0;#P inlet 140 43 15 0;#P connect 0 0 2 0;#P connect 2 0 1 0;#P pop;

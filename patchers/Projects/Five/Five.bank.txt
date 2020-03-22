@@ -1,0 +1,1 @@
+1, 3angle.instr;2, Clarinetto.instr;3, Flauto.instr;4, Synth2.instr;5, ThaiGong.instr;

@@ -1,0 +1,1 @@
+1, sphere1.seq.txt;2, sphere2.seq.txt;3, sphere3.seq.txt;4, sphere4.seq.txt;5, sphere5.seq.txt;bonk, "cycle 1-5" "tempo nth 2 scale 10. 100. 0.67 2. & start";

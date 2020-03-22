@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<pattrstorage name = "guest4PRESETS.xml">
+	<slot number = "1">
+		<pattr name = "kslider" value = "59" />
+		<pattr name = "number[16]" value = "0" />
+		<pattr name = "number[17]" value = "12902" />
+		<pattr name = "number[18]" value = "0" />
+		<pattr name = "number[19]" value = "13477" />
+		<pattr name = "ubumenu[1]" value = "dj.syn-lo-athmo2.mp3" />
+		<pattr name = "ubumenu[2]" value = "bandpass" />
+		<pattr name = "ubumenu[4]" value = "dj.syn-low-chord.mp3" />
+		<pattr name = "uslider" value = "84" />
+		<patcher name = "PITCH">
+		</patcher>
+		<patcher name = "guest4.luxus-fader[5]">
+			<pattr name = "hslider" value = "0" />
+			<pattr name = "flonum" value = "0." />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "0." />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+		<patcher name = "guest4.luxus-fader[4]">
+			<pattr name = "hslider" value = "71" />
+			<pattr name = "flonum" value = "-0.362037" />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "-0.272397" />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+		<patcher name = "guest4.luxus-fader[2]">
+			<pattr name = "hslider" value = "0" />
+			<pattr name = "flonum" value = "0." />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "0." />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+		<patcher name = "guest4.luxus-fader[1]">
+			<pattr name = "hslider" value = "85" />
+			<pattr name = "flonum" value = "85.273232" />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "0.273226" />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+		<patcher name = "guest4.luxus-fader">
+			<pattr name = "hslider" value = "47" />
+			<pattr name = "flonum" value = "7.531453" />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "-0.134384" />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+	</slot>
+	<slot number = "2">
+		<pattr name = "kslider" value = "46" />
+		<pattr name = "number[16]" value = "0" />
+		<pattr name = "number[17]" value = "7782" />
+		<pattr name = "number[18]" value = "0" />
+		<pattr name = "number[19]" value = "14156" />
+		<pattr name = "ubumenu[1]" value = "canine_warble_predatohm.mp3" />
+		<pattr name = "ubumenu[2]" value = "bandpass" />
+		<pattr name = "ubumenu[4]" value = "train_nearing_FX.mp3" />
+		<pattr name = "uslider" value = "127" />
+		<patcher name = "PITCH">
+		</patcher>
+		<patcher name = "guest4.luxus-fader[5]">
+			<pattr name = "hslider" value = "0" />
+			<pattr name = "flonum" value = "0." />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "0." />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+		<patcher name = "guest4.luxus-fader[4]">
+			<pattr name = "hslider" value = "127" />
+			<pattr name = "flonum" value = "1." />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "0.257588" />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+		<patcher name = "guest4.luxus-fader[2]">
+			<pattr name = "hslider" value = "8" />
+			<pattr name = "flonum" value = "40.397537" />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "0.072" />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+		<patcher name = "guest4.luxus-fader[1]">
+			<pattr name = "hslider" value = "75" />
+			<pattr name = "flonum" value = "75.035995" />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "0.036" />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+		<patcher name = "guest4.luxus-fader">
+			<pattr name = "hslider" value = "7" />
+			<pattr name = "flonum" value = "0.682419" />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "-0.290323" />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+	</slot>
+	<slot number = "3">
+		<pattr name = "kslider" value = "50" />
+		<pattr name = "number[16]" value = "0" />
+		<pattr name = "number[17]" value = "15488" />
+		<pattr name = "number[18]" value = "0" />
+		<pattr name = "number[19]" value = "11413" />
+		<pattr name = "ubumenu[1]" value = "dj.i.instr-atmo.mp3" />
+		<pattr name = "ubumenu[2]" value = "bandpass" />
+		<pattr name = "ubumenu[4]" value = "dj.syn-phantom2.mp3" />
+		<pattr name = "uslider" value = "82" />
+		<patcher name = "PITCH">
+		</patcher>
+		<patcher name = "guest4.luxus-fader[5]">
+			<pattr name = "hslider" value = "0" />
+			<pattr name = "flonum" value = "0." />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "0." />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+		<patcher name = "guest4.luxus-fader[4]">
+			<pattr name = "hslider" value = "37" />
+			<pattr name = "flonum" value = "-0.828376" />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "-0.797024" />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+		<patcher name = "guest4.luxus-fader[2]">
+			<pattr name = "hslider" value = "16" />
+			<pattr name = "flonum" value = "170.076508" />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "0.5625" />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+		<patcher name = "guest4.luxus-fader[1]">
+			<pattr name = "hslider" value = "75" />
+			<pattr name = "flonum" value = "75.063782" />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "0.063785" />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+		<patcher name = "guest4.luxus-fader">
+			<pattr name = "hslider" value = "14" />
+			<pattr name = "flonum" value = "1.111906" />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "0.12028" />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+	</slot>
+	<slot number = "5">
+		<pattr name = "kslider" value = "" />
+		<pattr name = "number[16]" value = "" />
+		<pattr name = "number[17]" value = "" />
+		<pattr name = "number[18]" value = "" />
+		<pattr name = "number[19]" value = "" />
+		<pattr name = "ubumenu[1]" value = "dj.syn-akkord4.mp3" />
+		<pattr name = "ubumenu[2]" value = "" />
+		<pattr name = "ubumenu[4]" value = "dj.i.b-maj.mp3" />
+		<pattr name = "uslider" value = "" />
+		<patcher name = "PITCH">
+		</patcher>
+		<patcher name = "guest4.luxus-fader[5]">
+			<pattr name = "hslider" value = "62" />
+			<pattr name = "flonum" value = "77.223434" />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "0.072" />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+		<patcher name = "guest4.luxus-fader[4]">
+			<pattr name = "hslider" value = "27" />
+			<pattr name = "flonum" value = "-0.903034" />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "-0.036" />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+		<patcher name = "guest4.luxus-fader[2]">
+			<pattr name = "hslider" value = "127" />
+			<pattr name = "flonum" value = "10000." />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "4.909091" />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+		<patcher name = "guest4.luxus-fader[1]">
+			<pattr name = "hslider" value = "127" />
+			<pattr name = "flonum" value = "127." />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "1.36394" />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+		<patcher name = "guest4.luxus-fader">
+			<pattr name = "hslider" value = "0" />
+			<pattr name = "flonum" value = "0.5" />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "-0.514583" />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+	</slot>
+	<slot number = "7">
+		<pattr name = "kslider" value = "" />
+		<pattr name = "number[16]" value = "" />
+		<pattr name = "number[17]" value = "" />
+		<pattr name = "number[18]" value = "" />
+		<pattr name = "number[19]" value = "" />
+		<pattr name = "ubumenu[1]" value = "&quot;canine warble predatohm.mp3&quot;" />
+		<pattr name = "ubumenu[2]" value = "" />
+		<pattr name = "ubumenu[4]" value = "&quot;Train nearing_FX.mp3&quot;" />
+		<pattr name = "uslider" value = "" />
+		<patcher name = "PITCH">
+		</patcher>
+		<patcher name = "guest4.luxus-fader[5]">
+			<pattr name = "hslider" value = "0" />
+			<pattr name = "flonum" value = "0." />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "-1.430694" />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+		<patcher name = "guest4.luxus-fader[4]">
+			<pattr name = "hslider" value = "72" />
+			<pattr name = "flonum" value = "-0.35654" />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "0.036" />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+		<patcher name = "guest4.luxus-fader[2]">
+			<pattr name = "hslider" value = "0" />
+			<pattr name = "flonum" value = "0." />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "-5.425517" />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+		<patcher name = "guest4.luxus-fader[1]">
+			<pattr name = "hslider" value = "45" />
+			<pattr name = "flonum" value = "45.213905" />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "0.213906" />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+		<patcher name = "guest4.luxus-fader">
+			<pattr name = "hslider" value = "0" />
+			<pattr name = "flonum" value = "0.5" />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "-0.256682" />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+	</slot>
+	<slot number = "22">
+		<pattr name = "kslider" value = "" />
+		<pattr name = "number[16]" value = "" />
+		<pattr name = "number[17]" value = "" />
+		<pattr name = "number[18]" value = "" />
+		<pattr name = "number[19]" value = "" />
+		<pattr name = "ubumenu[1]" value = "dj.syn-low-chord3.mp3" />
+		<pattr name = "ubumenu[2]" value = "" />
+		<pattr name = "ubumenu[4]" value = "dj.syn-akkord6.mp3" />
+		<pattr name = "uslider" value = "" />
+		<patcher name = "PITCH">
+		</patcher>
+		<patcher name = "guest4.luxus-fader[5]">
+			<pattr name = "hslider" value = "0" />
+			<pattr name = "flonum" value = "0." />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "-0.072" />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+		<patcher name = "guest4.luxus-fader[4]">
+			<pattr name = "hslider" value = "9" />
+			<pattr name = "flonum" value = "-0.988534" />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "-3.384" />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+		<patcher name = "guest4.luxus-fader[2]">
+			<pattr name = "hslider" value = "112" />
+			<pattr name = "flonum" value = "7851.35498" />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "-0.468" />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+		<patcher name = "guest4.luxus-fader[1]">
+			<pattr name = "hslider" value = "53" />
+			<pattr name = "flonum" value = "53.035999" />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "0.036" />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+		<patcher name = "guest4.luxus-fader">
+			<pattr name = "hslider" value = "13" />
+			<pattr name = "flonum" value = "1.070987" />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "-0.36" />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+	</slot>
+	<slot number = "33">
+		<pattr name = "kslider" value = "" />
+		<pattr name = "number[16]" value = "" />
+		<pattr name = "number[17]" value = "" />
+		<pattr name = "number[18]" value = "" />
+		<pattr name = "number[19]" value = "" />
+		<pattr name = "ubumenu[1]" value = "R_dying1.mp3" />
+		<pattr name = "ubumenu[2]" value = "" />
+		<pattr name = "ubumenu[4]" value = "R_nothere.mp3" />
+		<pattr name = "uslider" value = "" />
+		<patcher name = "PITCH">
+		</patcher>
+		<patcher name = "guest4.luxus-fader[5]">
+			<pattr name = "hslider" value = "35" />
+			<pattr name = "flonum" value = "44.666016" />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "-0.097569" />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+		<patcher name = "guest4.luxus-fader[4]">
+			<pattr name = "hslider" value = "9" />
+			<pattr name = "flonum" value = "-0.988534" />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "-3.384" />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+		<patcher name = "guest4.luxus-fader[2]">
+			<pattr name = "hslider" value = "105" />
+			<pattr name = "flonum" value = "6943.381836" />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "-0.174757" />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+		<patcher name = "guest4.luxus-fader[1]">
+			<pattr name = "hslider" value = "101" />
+			<pattr name = "flonum" value = "101.3" />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "0.300196" />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+		<patcher name = "guest4.luxus-fader">
+			<pattr name = "hslider" value = "72" />
+			<pattr name = "flonum" value = "16.42564" />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "0.036" />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+	</slot>
+	<slot number = "77">
+		<pattr name = "kslider" value = "" />
+		<pattr name = "number[16]" value = "" />
+		<pattr name = "number[17]" value = "" />
+		<pattr name = "number[18]" value = "" />
+		<pattr name = "number[19]" value = "" />
+		<pattr name = "ubumenu[1]" value = "dj.i.instr-atmo.mp3" />
+		<pattr name = "ubumenu[2]" value = "" />
+		<pattr name = "ubumenu[4]" value = "dj.v.diane.mp3" />
+		<pattr name = "uslider" value = "" />
+		<patcher name = "PITCH">
+		</patcher>
+		<patcher name = "guest4.luxus-fader[5]">
+			<pattr name = "hslider" value = "53" />
+			<pattr name = "flonum" value = "67.046181" />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "-0.108446" />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+		<patcher name = "guest4.luxus-fader[4]">
+			<pattr name = "hslider" value = "45" />
+			<pattr name = "flonum" value = "-0.744093" />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "0.428646" />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+		<patcher name = "guest4.luxus-fader[2]">
+			<pattr name = "hslider" value = "0" />
+			<pattr name = "flonum" value = "0." />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "-4.56405" />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+		<patcher name = "guest4.luxus-fader[1]">
+			<pattr name = "hslider" value = "72" />
+			<pattr name = "flonum" value = "72.926208" />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "-0.073795" />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+		<patcher name = "guest4.luxus-fader">
+			<pattr name = "hslider" value = "31" />
+			<pattr name = "flonum" value = "3.456169" />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "0.036" />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+	</slot>
+	<slot number = "777">
+		<pattr name = "kslider" value = "" />
+		<pattr name = "number[16]" value = "" />
+		<pattr name = "number[17]" value = "" />
+		<pattr name = "number[18]" value = "" />
+		<pattr name = "number[19]" value = "" />
+		<pattr name = "ubumenu[1]" value = "dj.i.none1.mp3" />
+		<pattr name = "ubumenu[2]" value = "" />
+		<pattr name = "ubumenu[4]" value = "dj.i.instr-atmo.mp3" />
+		<pattr name = "uslider" value = "" />
+		<patcher name = "PITCH">
+		</patcher>
+		<patcher name = "guest4.luxus-fader[5]">
+			<pattr name = "hslider" value = "0" />
+			<pattr name = "flonum" value = "0." />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "-0.281299" />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+		<patcher name = "guest4.luxus-fader[4]">
+			<pattr name = "hslider" value = "67" />
+			<pattr name = "flonum" value = "-0.442194" />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "0.070311" />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+		<patcher name = "guest4.luxus-fader[2]">
+			<pattr name = "hslider" value = "127" />
+			<pattr name = "flonum" value = "10000." />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "0.751557" />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+		<patcher name = "guest4.luxus-fader[1]">
+			<pattr name = "hslider" value = "77" />
+			<pattr name = "flonum" value = "77.857147" />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "-0.142856" />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+		<patcher name = "guest4.luxus-fader">
+			<pattr name = "hslider" value = "0" />
+			<pattr name = "flonum" value = "0.5" />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "127." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "127." />
+			<pattr name = "flonum[5]" value = "1." />
+			<pattr name = "flonum[6]" value = "-0.290488" />
+			<pattr name = "rslider" value = "0 127" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "ubumenu" value = "off" />
+			<pattr name = "uslider" value = "0" />
+		</patcher>
+	</slot>
+</pattrstorage>
+

@@ -1,0 +1,54 @@
+8
+
+dir
+71
+https://quintetnet.svn.sourceforge.net/svnroot/quintetnet/Quintet.net/Library/Audio-Extensions
+https://quintetnet.svn.sourceforge.net/svnroot/quintetnet
+
+
+
+2007-11-23T15:08:56.076554Z
+71
+computermusik
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+4ad10e23-493d-0410-abbb-a584bb2a24a5
+
+thru~.ext.pat
+file
+64
+
+
+
+2007-11-11T18:44:16.000000Z
+e5582f548099115ed315063b5fc7a4f4
+2007-11-11T18:23:28.355901Z
+39
+computermusik
+has-props
+
+gain~.ext.pat
+file
+64
+
+
+
+2007-11-11T18:44:16.000000Z
+5102e2d5f5938a81be8508d6976368c7
+2007-11-11T18:23:28.355901Z
+39
+computermusik
+has-props
+

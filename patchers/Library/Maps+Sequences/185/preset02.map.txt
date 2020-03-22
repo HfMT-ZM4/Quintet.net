@@ -1,0 +1,15 @@
+1, /audiocube/1 this sender::Vera::panel.1::gain m "nth 1 1 0 0 1 190.";
+2, /audiocube/2 this sender::Vera::panel.2::gain m "nth 1 1 0 0 1 190.";
+3, /audiocube/3 this sender::Vera::panel.3::gain m "nth 1 1 0 0 1 190.";
+4, /audiocube/4 this sender::Vera::panel.4::gain m "nth 1 1 0 0 1 190.";
+5, /audiocube/5 this sender::Vera::panel.5::gain m "nth 1 1 0 0 1 190.";
+6, /audiocube/1 this sender::Vera::panel.1::f1 m "nth 1 1 0 0 1";
+7, /audiocube/2 this sender::Vera::panel.2::f1 m "nth 1 1 0 0 1";
+8, /audiocube/3 this sender::Vera::panel.3::f1 m "nth 1 1 0 0 1";
+9, /audiocube/4 this sender::Vera::panel.4::f1 m "nth 1 1 0 0 1";
+10, /audiocube/5 this sender::Vera::panel.5::f1 m "nth 1 1 0 0 1";
+11, /audiocube/1 this sender::Vera::panel.1::f2 m "nth 2 1 0 100 1";
+12, /audiocube/2 this sender::Vera::panel.2::f2 m "nth 2 1 0 100 1";
+13, /audiocube/3 this sender::Vera::panel.3::f2 m "nth 2 1 0 100 1";
+14, /audiocube/4 this sender::Vera::panel.4::f2 m "nth 2 1 0 100 1";
+15, /audiocube/5 this sender::Vera::panel.5::f2 m "nth 2 1 0 100 1";

@@ -1,0 +1,15 @@
+inlets = 2;
+var folderPath, subfolderPath
+
+function anything()
+{
+	if (inlet == 1) {
+	folderPath = arrayfromargs(messagename, arguments);
+	}
+	// "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Sirenen/"
+	if (inlet == 0) {
+	subfolderPath = arrayfromargs(messagename, arguments);
+	// "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Sirenen//Audio-Extensions"
+	outlet(0, subfolderPath.toString().substr(folderPath.toString().length + 1, subfolderPath.toString().length));
+	}
+}

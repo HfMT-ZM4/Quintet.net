@@ -1,0 +1,1 @@
+max v2;#N vpatcher 40 55 587 364;#P window setfont "Sans Serif" 9.;#P window linecount 1;#P newex 140 121 174 196617 expr pow( pow(2. \\\, 1./12.) \\\, $f1);#P outlet 140 219 15 0;#P inlet 140 43 15 0;#P connect 0 0 2 0;#P connect 2 0 1 0;#P pop;

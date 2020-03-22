@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<pattrstorage name = "conductor">
+	<slot number = "1">
+		<pattr name = "title" value = "0" />
+		<patcher name = "toolbar">
+			<pattr name = "layout" value = "2" />
+			<pattr name = "reset" value = "0" />
+			<patcher name = "metronome">
+				<pattr name = "beats" value = "2" />
+				<pattr name = "on/off" value = "1" />
+				<pattr name = "sound" value = "0" />
+				<pattr name = "tempo" value = "90" />
+				<pattr name = "volume" value = "0." />
+			</patcher>
+		</patcher>
+		<patcher name = "panel.2">
+			<pattr name = "processName" value = "thru" />
+			<pattr name = "displayMode" value = "events&amp;parts" />
+			<pattr name = "displayStaves" value = "Grand_Staff" />
+			<pattr name = "filterName" value = "-bypass-" />
+			<pattr name = "filterTransposition" value = "0" />
+			<pattr name = "instrument" value = "none" />
+			<pattr name = "processPreset" value = "on" />
+			<pattr name = "sendDelay" value = "0" />
+			<pattr name = "sendDestination" value = "none" />
+			<pattr name = "tuningName" value = "12TET" />
+			<pattr name = "tuningShift" value = "0" />
+			<pattr name = "tuningTransposition" value = "0" />
+		</patcher>
+		<patcher name = "panel.1">
+			<pattr name = "processName" value = "thru" />
+			<pattr name = "displayMode" value = "parts" />
+			<pattr name = "displayStaves" value = "Grand_Staff" />
+			<pattr name = "filterName" value = "-bypass-" />
+			<pattr name = "filterTransposition" value = "0" />
+			<pattr name = "instrument" value = "none" />
+			<pattr name = "processPreset" value = "on" />
+			<pattr name = "sendDelay" value = "0" />
+			<pattr name = "sendDestination" value = "none" />
+			<pattr name = "tuningName" value = "12TET" />
+			<pattr name = "tuningShift" value = "0" />
+			<pattr name = "tuningTransposition" value = "0" />
+		</patcher>
+		<patcher name = "panel.5">
+			<pattr name = "processName" value = "thru" />
+			<pattr name = "displayMode" value = "parts" />
+			<pattr name = "displayStaves" value = "Grand_Staff" />
+			<pattr name = "filterName" value = "-bypass-" />
+			<pattr name = "filterTransposition" value = "0" />
+			<pattr name = "instrument" value = "none" />
+			<pattr name = "processPreset" value = "on" />
+			<pattr name = "sendDelay" value = "0" />
+			<pattr name = "sendDestination" value = "none" />
+			<pattr name = "tuningName" value = "12TET" />
+			<pattr name = "tuningShift" value = "0" />
+			<pattr name = "tuningTransposition" value = "0" />
+		</patcher>
+		<patcher name = "panel.3">
+			<pattr name = "processName" value = "thru" />
+			<pattr name = "displayMode" value = "parts" />
+			<pattr name = "displayStaves" value = "Grand_Staff" />
+			<pattr name = "filterName" value = "-bypass-" />
+			<pattr name = "filterTransposition" value = "0" />
+			<pattr name = "instrument" value = "none" />
+			<pattr name = "processPreset" value = "on" />
+			<pattr name = "sendDelay" value = "0" />
+			<pattr name = "sendDestination" value = "none" />
+			<pattr name = "tuningName" value = "12TET" />
+			<pattr name = "tuningShift" value = "0" />
+			<pattr name = "tuningTransposition" value = "0" />
+		</patcher>
+		<patcher name = "panel.4">
+			<pattr name = "processName" value = "thru" />
+			<pattr name = "displayMode" value = "parts" />
+			<pattr name = "displayStaves" value = "Grand_Staff" />
+			<pattr name = "filterName" value = "-bypass-" />
+			<pattr name = "filterTransposition" value = "0" />
+			<pattr name = "instrument" value = "none" />
+			<pattr name = "processPreset" value = "on" />
+			<pattr name = "sendDelay" value = "0" />
+			<pattr name = "sendDestination" value = "none" />
+			<pattr name = "tuningName" value = "12TET" />
+			<pattr name = "tuningShift" value = "0" />
+			<pattr name = "tuningTransposition" value = "0" />
+		</patcher>
+		<patcher name = "Preferences">
+			<patcher name = "Network">
+				<patcher name = "chat2audiocube">
+					<pattr name = "chatsetsaudiocubecolor" value = "0" />
+					<pattr name = "timeinterval" value = "3000" />
+					<pattr name = "usetimer" value = "0" />
+				</patcher>
+				<patcher name = "setaudiocubecolor-5">
+					<pattr name = "rgb" value = "0.633854 0.305964 0.264106" />
+				</patcher>
+				<patcher name = "setaudiocubecolor-1">
+					<pattr name = "rgb" value = "0.633854 0.305964 0.264106" />
+				</patcher>
+				<patcher name = "setaudiocubecolor-2">
+					<pattr name = "rgb" value = "0.633854 0.305964 0.264106" />
+				</patcher>
+				<patcher name = "setaudiocubecolor-3">
+					<pattr name = "rgb" value = "0.633854 0.305964 0.264106" />
+				</patcher>
+				<patcher name = "setaudiocubecolor-4">
+					<pattr name = "rgb" value = "0.633854 0.305964 0.264106" />
+				</patcher>
+			</patcher>
+			<patcher name = "Notation">
+				<pattr name = "scorePrefs" value = "0 0 0 0 0 0 1 0 0" />
+			</patcher>
+			<patcher name = "CondFile">
+				<pattr name = "file" value = "&quot;Macintosh HD:/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Swan Song/Swan Song.cond.json&quot;" />
+			</patcher>
+		</patcher>
+		<patcher name = "Register">
+			<pattr name = "Location" value = "Hamburg" />
+			<pattr name = "Name" value = "Georg Hajdu" />
+			<pattr name = "connect-ubutton" value = "0" />
+			<patcher name = "myIP">
+				<pattr name = "info" value = "127.0.0.1" />
+			</patcher>
+			<patcher name = "serverIP">
+				<pattr name = "info" value = "localhost" />
+			</patcher>
+			<patcher name = "send2host">
+				<patcher name = "chat">
+					<pattr name = "textcolor" value = "91 221 42" />
+					<pattr name = "vertical_scroll" value = "50 52.63158" />
+				</patcher>
+			</patcher>
+			<patcher name = "Identity">
+				<pattr name = "info" value = "Conductor" />
+			</patcher>
+		</patcher>
+		<patcher name = "score">
+			<pattr name = "u350009669" value = "0 0 1 1 0 1 2 1 1" />
+			<patcher name = "maxscore.editor">
+				<patcher name = "m4l-canvas">
+					<pattr name = "MasterScorePreferences" value = "1" />
+					<patcher name = "staffmanager">
+						<patcher name = "styles">
+							<patcher name = "tablature">
+								<patcher name = "editor">
+									<pattr name = "current-staff" value = "0" />
+									<pattr name = "string[0]" value = "62." />
+									<pattr name = "button[0]" value = "0" />
+									<pattr name = "tablature" value = "-1" />
+									<pattr name = "annotation" value = "(dictionary)" />
+									<pattr name = "dict" value = "(dictionary)" />
+									<pattr name = "instrument" value = "0" />
+									<pattr name = "interval" value = "1." />
+									<pattr name = "js" value = "" />
+									<pattr name = "live.gain~" value = "0." />
+									<pattr name = "numfrets" value = "19" />
+									<pattr name = "numstrings" value = "1" />
+								</patcher>
+							</patcher>
+							<patcher name = "percussion">
+								<patcher name = "editor">
+									<pattr name = "instrument" value = "symbol GM" />
+									<pattr name = "above" value = "-2" />
+									<pattr name = "alias" value = "&lt;none&gt;" />
+									<pattr name = "below" value = "-2" />
+									<pattr name = "hidden" value = "none" />
+									<pattr name = "percussionMap" value = "Triangle" />
+								</patcher>
+							</patcher>
+							<patcher name = "clefdesigner">
+								<patcher name = "editor">
+									<pattr name = "_alias" value = "&lt;none&gt;" />
+									<pattr name = "above" value = "0" />
+									<pattr name = "baseclef" value = "TREBLE_CLEF" />
+									<pattr name = "below" value = "0" />
+									<pattr name = "characters" value = "" />
+									<pattr name = "clefname" value = "Test" />
+									<pattr name = "font" value = "Bravura" />
+									<pattr name = "hidden" value = "none" />
+									<pattr name = "micromap" value = "mM-none" />
+									<pattr name = "offsets" value = "0 -1" />
+									<pattr name = "size" value = "24" />
+									<pattr name = "transp" value = "0." />
+									<pattr name = "transposition" value = "0." />
+									<pattr name = "clefdesigner" value = "-1" />
+								</patcher>
+							</patcher>
+							<patcher name = "BP-chromatic">
+								<patcher name = "editor">
+									<pattr name = "annotation" value = "(dictionary)" />
+									<pattr name = "set" value = "-1" />
+									<pattr name = "subdivision" value = "0" />
+								</patcher>
+							</patcher>
+						</patcher>
+					</patcher>
+					<patcher name = "bcanvas">
+						<pattr name = "instance" value = "1141" />
+					</patcher>
+					<patcher name = "tools">
+						<patcher name = "patcher[1]">
+							<patcher name = "slotGUI">
+								<patcher name = "djsterslotpanel">
+									<pattr name = "djster" value = "@stream 1 @scale major @meter 2 3 3 @ostinato 0 @outset_pulses 1 @metriclarity 100. @pulse_length 1000. @eventfulness 100. @event_length 1000. @melody_scope 7. @tonic_pitch 60. @chordal_weight 1 @harmoniclarity 100. @pitch_center 48. @pitch_range 7. @dynamics 64 @attenuation 12.5 @silent_downbeat 0" />
+									<pattr name = "meter" value = "2 3 3" />
+									<pattr name = "scale" value = "major" />
+									<pattr name = "stream" value = "1" />
+								</patcher>
+							</patcher>
+						</patcher>
+					</patcher>
+					<patcher name = "preferences">
+						<pattr name = "picster-lib-default-location" value = "./packages/MaxScore/patchers/Picster/Library" />
+						<pattr name = "musicfont" value = "Bravura" />
+						<pattr name = "scala-folder" value = "0" />
+						<pattr name = "ratio-lookup" value = "4" />
+						<pattr name = "drawAllMeasureNumbers" value = "0" />
+						<pattr name = "handleMusicCurveRendering" value = "1" />
+						<pattr name = "markSlots" value = "0" />
+						<pattr name = "minRequired" value = "0" />
+						<pattr name = "note_value" value = "1" />
+						<pattr name = "overdrive" value = "1" />
+						<pattr name = "papersize" value = "3" />
+						<pattr name = "setComposer" value = "Georg Hajdu" />
+						<pattr name = "setCopyright" value = "©2011" />
+						<pattr name = "setDurationalSpacingBase" value = "0.5" />
+						<pattr name = "setHoldScaler" value = "0.9" />
+						<pattr name = "setJMSLAdvanceTime" value = "0.1" />
+						<pattr name = "setMeasureNumberOffset" value = "1" />
+						<pattr name = "setScoreBottomMargin" value = "15." />
+						<pattr name = "setScoreFirstSystemIndent" value = "0." />
+						<pattr name = "setScoreLeftMargin" value = "20." />
+						<pattr name = "setScoreRightMargin" value = "20." />
+						<pattr name = "setScoreTopMargin" value = "15." />
+						<pattr name = "setScoreTopMarginOfFirstPage" value = "60." />
+						<pattr name = "setSubtitle" value = "for cello, percussion and multimedia" />
+						<pattr name = "setTitle" value = "Swan Song" />
+						<pattr name = "setTitleVisible" value = "1" />
+						<pattr name = "setWrap" value = "1" />
+						<pattr name = "showClefs" value = "1" />
+						<pattr name = "showCourtesyClefs" value = "0" />
+						<pattr name = "showInstruments" value = "0" />
+						<pattr name = "showKeySignatures" value = "1" />
+						<pattr name = "showMeasureNumbers" value = "1" />
+						<pattr name = "showSectionBrackets" value = "0" />
+						<pattr name = "showStaffNumbers" value = "1" />
+						<pattr name = "showTempo" value = "0" />
+						<pattr name = "showTimeSignatures" value = "1" />
+						<pattr name = "slashedGraceNotes" value = "1" />
+						<pattr name = "subdivision" value = "12" />
+						<pattr name = "textfont" value = "Arial" />
+						<pattr name = "timeunit" value = "100." />
+						<pattr name = "update" value = "1" />
+						<pattr name = "useMusicGlyphRenderer" value = "1" />
+						<pattr name = "useMusicGlyphRendererProxy" value = "1" />
+						<pattr name = "setSelectionBufferNoteColor" value = "0 0 255" />
+						<pattr name = "bgcolor" value = "0.996 0.996 0.94 1." />
+						<pattr name = "fgcolor" value = "0 0 0" />
+						<pattr name = "flashingcolor" value = "255 255 0" />
+					</patcher>
+					<patcher name = "visual-editor">
+						<patcher name = "filemenu-patcher">
+							<patcher name = "print">
+								<pattr name = "bottom" value = "47" />
+								<pattr name = "from" value = "1" />
+								<pattr name = "indent" value = "60" />
+								<pattr name = "keepsvg" value = "0" />
+								<pattr name = "left" value = "80" />
+								<pattr name = "orientation" value = "0." />
+								<pattr name = "overwrite" value = "1" />
+								<pattr name = "pagenumberlocation" value = "1" />
+								<pattr name = "pagenumbers" value = "0" />
+								<pattr name = "pages" value = "0" />
+								<pattr name = "paper" value = "A4" />
+								<pattr name = "preserve" value = "0" />
+								<pattr name = "right" value = "30" />
+								<pattr name = "scale" value = "30" />
+								<pattr name = "showtitle" value = "1" />
+								<pattr name = "to" value = "1" />
+								<pattr name = "top" value = "100" />
+								<patcher name = "bcanvas">
+									<pattr name = "instance" value = "1077" />
+								</patcher>
+							</patcher>
+						</patcher>
+					</patcher>
+				</patcher>
+				<patcher name = "indexes.1">
+					<pattr name = "u134009726" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
+				</patcher>
+				<patcher name = "indexes.2">
+					<pattr name = "u029009802" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
+				</patcher>
+				<patcher name = "indexes.3">
+					<pattr name = "u575009798" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
+				</patcher>
+				<patcher name = "indexes.4">
+					<pattr name = "u114009794" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
+				</patcher>
+				<patcher name = "indexes.5">
+					<pattr name = "u614009790" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
+				</patcher>
+				<patcher name = "indexes.6">
+					<pattr name = "u176009786" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
+				</patcher>
+				<patcher name = "indexes.7">
+					<pattr name = "u687009782" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
+				</patcher>
+				<patcher name = "indexes.8">
+					<pattr name = "u755009778" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
+				</patcher>
+				<patcher name = "indexes.9">
+					<pattr name = "u903009774" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
+				</patcher>
+				<patcher name = "indexes.10">
+					<pattr name = "u051009770" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
+				</patcher>
+				<patcher name = "indexes.11">
+					<pattr name = "u189009766" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
+				</patcher>
+				<patcher name = "indexes.12">
+					<pattr name = "u677009762" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
+				</patcher>
+				<patcher name = "indexes.13">
+					<pattr name = "u109009758" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
+				</patcher>
+				<patcher name = "indexes.14">
+					<pattr name = "u478009754" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
+				</patcher>
+				<patcher name = "indexes.15">
+					<pattr name = "u234009750" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
+				</patcher>
+				<patcher name = "indexes.16">
+					<pattr name = "u928009746" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
+				</patcher>
+				<patcher name = "indexes.17">
+					<pattr name = "u396009742" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
+				</patcher>
+				<patcher name = "indexes.18">
+					<pattr name = "u288009738" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
+				</patcher>
+				<patcher name = "indexes.19">
+					<pattr name = "u356009734" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
+				</patcher>
+				<patcher name = "indexes.20">
+					<pattr name = "u126009730" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
+				</patcher>
+			</patcher>
+		</patcher>
+		<patcher name = "sender">
+			<patcher name = "AudioCube">
+				<patcher name = "control-panel">
+					<pattr name = "rgb-1" value = "0.266667 0.266667 0.266667" />
+					<pattr name = "rgb-2" value = "0. 0.533333 0.133333" />
+					<pattr name = "rgb-3" value = "0. 0.8 0." />
+					<pattr name = "rgb-4" value = "0. 0. 0." />
+					<pattr name = "rgb-5" value = "0.466667 0.066667 0." />
+				</patcher>
+			</patcher>
+		</patcher>
+		<patcher name = "ScorePanel">
+			<pattr name = "cursor" value = "0" />
+			<pattr name = "leadingspace" value = "1" />
+			<pattr name = "messdest" value = "1" />
+			<pattr name = "numStaves" value = "5" />
+			<pattr name = "output2controlpanel" value = "0" />
+			<pattr name = "paint" value = "0" />
+			<pattr name = "send" value = "0" />
+			<pattr name = "triggers-comment[1]" value = "0" />
+			<pattr name = "u325009495" value = "0 0 1 1 0 1 2 1 1" />
+		</patcher>
+	</slot>
+</pattrstorage>
+

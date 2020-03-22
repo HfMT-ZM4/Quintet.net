@@ -1,0 +1,86 @@
+8
+
+dir
+64
+https://quintetnet.svn.sourceforge.net/svnroot/quintetnet/Quintet.net/Library/Inputs
+https://quintetnet.svn.sourceforge.net/svnroot/quintetnet
+
+
+
+2007-11-11T18:19:59.559232Z
+36
+computermusik
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+4ad10e23-493d-0410-abbb-a584bb2a24a5
+
+MIDI.input
+file
+
+
+
+
+2007-11-11T18:44:09.000000Z
+37430acc6ac274e49e1730de5994bd3c
+2007-11-11T18:19:59.559232Z
+36
+computermusik
+has-props
+
+Pitch_Tracker.input
+file
+75
+
+
+
+2007-11-24T12:43:04.000000Z
+4f36e1257457ff0faaf91fcb1d826564
+2007-12-01T22:20:50.213238Z
+75
+computermusik
+has-props
+
+Text.input
+file
+
+
+
+
+2007-11-11T18:44:09.000000Z
+e9f2181c3e0d8e67f595ec054d039356
+2007-11-11T18:19:59.559232Z
+36
+computermusik
+has-props
+
+Additional inputs (disabled)
+dir
+
+Additional inputs
+dir
+
+Computer_Keyboard.input
+file
+
+
+
+
+2007-11-11T18:44:09.000000Z
+c51e22815c0f8cc2b8b8c5a8ca57b854
+2007-11-11T18:19:59.559232Z
+36
+computermusik
+has-props
+

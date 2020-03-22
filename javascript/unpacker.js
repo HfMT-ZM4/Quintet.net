@@ -1,0 +1,1 @@
+// takes a list, looks for occurences of ";" and splits the list into sublists// Author: Georg Hajdu 2005var a = new Array();var i, j;function anything(){	a = arrayfromargs(messagename,arguments);	for (i = 0, j = 0; i < a.length; i++){		if (a[i] == ";"){			outlet(0, a.slice(j, i));			j = i + 1;		}	}}//anything.immediate = 1;

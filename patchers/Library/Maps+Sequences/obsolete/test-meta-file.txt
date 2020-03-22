@@ -1,0 +1,1 @@
+1, sphere1.seq.txt;2, sphere2.seq.txt;map, test.map;

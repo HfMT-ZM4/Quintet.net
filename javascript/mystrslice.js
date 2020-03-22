@@ -1,0 +1,1 @@
+//takes a string, looks for occurences of "&" and slices it at these positions// Author: Georg Hajdu 2005//autowatch = 1;outlets = 1;var arg = jsarguments[1];function anything(){	var a = arrayfromargs(messagename,arguments);	//	post(a);	if(a.length==1) {	var b = a[0].split(" & ");//post(b.length)	for(i = 0; i < b.length; i++){	outlet(0, b[i]); 	}		}}

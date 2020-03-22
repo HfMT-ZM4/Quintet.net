@@ -1,0 +1,15 @@
+{
+	"default" : 	{
+		"fontface" : [ 1 ],
+		"fontsize" : [ 10.0 ],
+		"accentcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+		"selectioncolor" : [ 0.87, 0.82, 0.24, 1.0 ],
+		"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+		"fontname" : [ "Gill Sans" ]
+	}
+,
+	"parentstyle" : "",
+	"name" : "number_white",
+	"multi" : 0
+}

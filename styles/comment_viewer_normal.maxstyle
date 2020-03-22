@@ -1,0 +1,11 @@
+{
+	"default" : 	{
+		"fontname" : [ "Arial" ],
+		"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+		"fontsize" : [ 10.0 ]
+	}
+,
+	"parentstyle" : "",
+	"name" : "comment_viewer_normal",
+	"multi" : 0
+}

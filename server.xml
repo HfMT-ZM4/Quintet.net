@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<pattrstorage name = "server">
+	<slot number = "1">
+		<pattr name = "autorestore" value = "Autorestore 0" />
+		<patcher name = "Register">
+			<pattr name = "Location" value = "BTR" />
+			<pattr name = "Name" value = "Georg Hajdu" />
+			<pattr name = "connect-ubutton" value = "0" />
+			<patcher name = "myIP">
+				<pattr name = "info" value = "&lt;empty&gt;" />
+			</patcher>
+			<patcher name = "serverIP">
+				<pattr name = "info" value = "&lt;empty&gt;" />
+			</patcher>
+			<patcher name = "send2host">
+				<patcher name = "chat">
+					<pattr name = "textcolor" value = "91 221 42" />
+					<pattr name = "vertical_scroll" value = "50 100" />
+				</patcher>
+			</patcher>
+			<patcher name = "Identity">
+				<pattr name = "info" value = "Server" />
+			</patcher>
+		</patcher>
+		<patcher name = "ftp">
+			<pattr name = "pw" value = "1nej" />
+			<pattr name = "user" value = "hajdu" />
+			<pattr name = "root" value = "/" />
+			<pattr name = "ftp" value = "0" />
+			<pattr name = "sample" value = "-1" />
+		</patcher>
+	</slot>
+</pattrstorage>
+

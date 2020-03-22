@@ -1,0 +1,11 @@
+{
+	"default" : 	{
+		"fontname" : [ "Gill Sans" ],
+		"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+		"fontsize" : [ 12.0 ]
+	}
+,
+	"parentstyle" : "",
+	"name" : "comment_font_viewer",
+	"multi" : 0
+}

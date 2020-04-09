@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 11.0, -1112.0, 739.0, 587.0 ],
+		"rect" : [ 140.0, 352.0, 739.0, 587.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1301,7 +1301,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 470.0, -1047.0, 894.0, 698.0 ],
+						"rect" : [ 605.0, 79.0, 894.0, 698.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1329,7 +1329,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-19",
@@ -1489,7 +1488,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 599.504854142665863, 166.970873773097992, 85.0, 22.0 ],
-									"text" : "1520772088 1"
+									"text" : "1584441288 0"
 								}
 
 							}
@@ -2383,7 +2382,7 @@
 									"patching_rect" : [ 35.504854142665863, 387.970873773097992, 241.0, 122.0 ],
 									"readonly" : 1,
 									"rowhead" : 1,
-									"rows" : 1,
+									"rows" : 2,
 									"selmode" : 3,
 									"selsync" : 0,
 									"vsync" : 0
@@ -23109,7 +23108,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 617.0, 50.0, 60.0, 19.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 11, -1112, 750, -525, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 140, 352, 879, 939, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 

@@ -3,7 +3,7 @@
 <pattrstorage name = "server">
 	<slot number = "1">
 		<pattr name = "StartServer" value = "1." />
-		<pattr name = "autorestore" value = "Autorestore 0" />
+		<pattr name = "live.text" value = "0." />
 		<patcher name = "ftp">
 			<pattr name = "pw" value = "1nej" />
 			<pattr name = "user" value = "hajdu" />

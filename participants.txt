@@ -1,1 +1,1 @@
-0, 0;/conductor_127.0.0.1:58799, s BTR;/client_127.0.0.1:51549, 1 "Georg Hajdu" BTR;
+0, 0;

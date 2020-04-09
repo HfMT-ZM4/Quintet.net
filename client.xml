@@ -8,6 +8,14 @@
 		<patcher name = "toolbar">
 			<pattr name = "Annotation" value = "0" />
 			<pattr name = "layout" value = "2" />
+			<pattr name = "live.text" value = "0." />
+			<pattr name = "live.text[2]" value = "0." />
+			<pattr name = "live.text[4]" value = "0." />
+			<pattr name = "live.text[5]" value = "0." />
+			<pattr name = "live.text[6]" value = "0." />
+			<pattr name = "live.text[7]" value = "0." />
+			<pattr name = "live.text[8]" value = "0." />
+			<pattr name = "live.text[9]" value = "0." />
 			<patcher name = "metronome">
 				<pattr name = "beats" value = "4" />
 				<pattr name = "on/off" value = "0" />
@@ -17,32 +25,32 @@
 			</patcher>
 		</patcher>
 		<patcher name = "panel.3">
-			<pattr name = "processName" value = "thru" />
 			<pattr name = "displayMode" value = "events" />
 			<pattr name = "displayStaves" value = "Grand_Staff" />
 			<pattr name = "filterName" value = "-bypass-" />
 			<pattr name = "filterTransposition" value = "0" />
 			<pattr name = "instrument" value = "none" />
+			<pattr name = "processName" value = "thru" />
 			<pattr name = "processPreset" value = "on" />
 			<pattr name = "sendDelay" value = "0" />
 			<pattr name = "sendDestination" value = "none" />
-			<pattr name = "tuningName" value = "Bohlen-Pierce" />
+			<pattr name = "tuningName" value = "12TET" />
 			<pattr name = "tuningShift" value = "0" />
-			<pattr name = "tuningTransposition" value = "22" />
+			<pattr name = "tuningTransposition" value = "0" />
 		</patcher>
 		<patcher name = "panel.2">
-			<pattr name = "processName" value = "thru" />
 			<pattr name = "displayMode" value = "events" />
 			<pattr name = "displayStaves" value = "Grand_Staff" />
 			<pattr name = "filterName" value = "-bypass-" />
 			<pattr name = "filterTransposition" value = "0" />
 			<pattr name = "instrument" value = "none" />
+			<pattr name = "processName" value = "thru" />
 			<pattr name = "processPreset" value = "on" />
 			<pattr name = "sendDelay" value = "0" />
 			<pattr name = "sendDestination" value = "none" />
-			<pattr name = "tuningName" value = "Bohlen-Pierce" />
+			<pattr name = "tuningName" value = "12TET" />
 			<pattr name = "tuningShift" value = "0" />
-			<pattr name = "tuningTransposition" value = "22" />
+			<pattr name = "tuningTransposition" value = "0" />
 		</patcher>
 		<patcher name = "panel.1">
 			<pattr name = "processName" value = "thru" />
@@ -54,23 +62,23 @@
 			<pattr name = "processPreset" value = "on" />
 			<pattr name = "sendDelay" value = "0" />
 			<pattr name = "sendDestination" value = "none" />
-			<pattr name = "tuningName" value = "Bohlen-Pierce" />
+			<pattr name = "tuningName" value = "12TET" />
 			<pattr name = "tuningShift" value = "0" />
-			<pattr name = "tuningTransposition" value = "22" />
+			<pattr name = "tuningTransposition" value = "0" />
 		</patcher>
 		<patcher name = "panel.5">
-			<pattr name = "processName" value = "thru" />
 			<pattr name = "displayMode" value = "events" />
 			<pattr name = "displayStaves" value = "Grand_Staff" />
 			<pattr name = "filterName" value = "-bypass-" />
 			<pattr name = "filterTransposition" value = "0" />
 			<pattr name = "instrument" value = "none" />
+			<pattr name = "processName" value = "thru" />
 			<pattr name = "processPreset" value = "on" />
 			<pattr name = "sendDelay" value = "0" />
 			<pattr name = "sendDestination" value = "none" />
-			<pattr name = "tuningName" value = "Bohlen-Pierce" />
+			<pattr name = "tuningName" value = "12TET" />
 			<pattr name = "tuningShift" value = "0" />
-			<pattr name = "tuningTransposition" value = "22" />
+			<pattr name = "tuningTransposition" value = "0" />
 		</patcher>
 		<patcher name = "sender">
 			<patcher name = "velocity-curve">
@@ -86,7 +94,7 @@
 				</patcher>
 			</patcher>
 			<patcher name = "Network">
-				<pattr name = "u787029580" value = "0" />
+				<pattr name = "u476015334" value = "0" />
 			</patcher>
 			<patcher name = "MIDI">
 				<patcher name = "control-panel">
@@ -97,37 +105,11 @@
 			</patcher>
 			<patcher name = "EffectsEngine">
 				<patcher name = "control-panel">
-					<patcher name = "jk-master-bp">
-						<patcher name = "SPECTRAL">
-							<pattr name = "u662028876" value = "-1" />
-						</patcher>
-						<patcher name = "PITCH-SHIFT">
-							<pattr name = "u129028601" value = "-1" />
-						</patcher>
-						<patcher name = "Master">
-							<pattr name = "u446028355" value = "-1" />
-						</patcher>
-						<patcher name = "MODULATION">
-							<pattr name = "u139027960" value = "-1" />
-						</patcher>
-						<patcher name = "COMBFILTER">
-							<pattr name = "u766027674" value = "-1" />
-						</patcher>
-						<patcher name = "DISTORTION">
-							<pattr name = "u477027434" value = "-1" />
-						</patcher>
-						<patcher name = "ONE-FILTER">
-							<pattr name = "u244027210" value = "-1" />
-						</patcher>
-						<patcher name = "WaveShape">
-							<pattr name = "u182026950" value = "-1" />
-						</patcher>
-					</patcher>
 				</patcher>
 			</patcher>
 			<patcher name = "Computer_Keyboard">
-				<pattr name = "volume" value = "88" />
-				<pattr name = "u434026722" value = "1" />
+				<pattr name = "volume" value = "70" />
+				<pattr name = "u258014874" value = "1" />
 				<patcher name = "control-panel">
 					<pattr name = "Layout" value = "Diagonal.txt" />
 					<pattr name = "shift-with-tab" value = "1" />
@@ -185,69 +167,11 @@
 				</patcher>
 			</patcher>
 			<patcher name = "extensions">
-				<patcher name = "4_Kalimba-resonator~.ext.maxpat.1">
-					<pattr name = "attenuate" value = "0." />
-					<pattr name = "evenfrequencyscale" value = "1." />
-					<pattr name = "evengainscale" value = "1." />
-					<pattr name = "excitation" value = "impulse" />
-					<pattr name = "frequencymaximum" value = "22500." />
-					<pattr name = "frequencyminimum" value = "0." />
-					<pattr name = "gain-scale" value = "1." />
-					<pattr name = "oddfrequencyscale" value = "1." />
-					<pattr name = "oddgainscale" value = "1." />
-					<pattr name = "rate-scale" value = "2.78481" />
-					<pattr name = "spectral-corner" value = "30." />
-					<pattr name = "spectral-slope" value = "0." />
-					<pattr name = "spectrum" value = "tone" />
+				<patcher name = "4_thru~.ext.maxpat.1">
 				</patcher>
-				<patcher name = "3_Kalimba-resonator~.ext.maxpat.1">
-					<pattr name = "attenuate" value = "0." />
-					<pattr name = "evenfrequencyscale" value = "1." />
-					<pattr name = "evengainscale" value = "1." />
-					<pattr name = "excitation" value = "impulse" />
-					<pattr name = "frequencymaximum" value = "22500." />
-					<pattr name = "frequencyminimum" value = "0." />
-					<pattr name = "gain-scale" value = "1." />
-					<pattr name = "oddfrequencyscale" value = "1." />
-					<pattr name = "oddgainscale" value = "1." />
-					<pattr name = "rate-scale" value = "2.78481" />
-					<pattr name = "spectral-corner" value = "30." />
-					<pattr name = "spectral-slope" value = "0." />
-					<pattr name = "spectrum" value = "tone" />
+				<patcher name = "3_thru~.ext.maxpat.1">
 				</patcher>
-				<patcher name = "5_Kalimba-resonator~.ext.maxpat.1">
-					<pattr name = "attenuate" value = "0." />
-					<pattr name = "evenfrequencyscale" value = "1." />
-					<pattr name = "evengainscale" value = "1." />
-					<pattr name = "excitation" value = "impulse" />
-					<pattr name = "frequencymaximum" value = "22500." />
-					<pattr name = "frequencyminimum" value = "0." />
-					<pattr name = "gain-scale" value = "1." />
-					<pattr name = "oddfrequencyscale" value = "1." />
-					<pattr name = "oddgainscale" value = "1." />
-					<pattr name = "rate-scale" value = "2.78481" />
-					<pattr name = "spectral-corner" value = "30." />
-					<pattr name = "spectral-slope" value = "0." />
-					<pattr name = "spectrum" value = "tone" />
-				</patcher>
-				<patcher name = "2_Kalimba-resonator~.ext.maxpat.1">
-					<pattr name = "attenuate" value = "0." />
-					<pattr name = "evenfrequencyscale" value = "1." />
-					<pattr name = "evengainscale" value = "1." />
-					<pattr name = "excitation" value = "impulse" />
-					<pattr name = "frequencymaximum" value = "22500." />
-					<pattr name = "frequencyminimum" value = "0." />
-					<pattr name = "gain-scale" value = "1." />
-					<pattr name = "oddfrequencyscale" value = "1." />
-					<pattr name = "oddgainscale" value = "1." />
-					<pattr name = "rate-scale" value = "2.78481" />
-					<pattr name = "spectral-corner" value = "30." />
-					<pattr name = "spectral-slope" value = "0." />
-					<pattr name = "spectrum" value = "tone" />
-				</patcher>
-				<patcher name = "1_audio-input~.ext.maxpat.1">
-					<pattr name = "channel" value = "1" />
-					<pattr name = "gain" value = "0." />
+				<patcher name = "5_thru~.ext.maxpat.1">
 				</patcher>
 				<patcher name = "14_thru~.ext.maxpat.1">
 				</patcher>
@@ -257,116 +181,48 @@
 				</patcher>
 				<patcher name = "12_thru~.ext.maxpat.1">
 				</patcher>
-				<patcher name = "11_EffectsEngine~.ext.maxpat.1">
-					<pattr name = "AudioInputGain" value = "0." />
-					<pattr name = "AudioInputGainPN" value = "0." />
-					<pattr name = "AudioInputGainSF" value = "0." />
-					<pattr name = "AudioInputGainTRN" value = "0." />
-					<pattr name = "AudioInputGainWN" value = "0." />
-					<pattr name = "MidiTRN" value = "11." />
-					<pattr name = "master_gain" value = "127." />
-					<pattr name = "post_filter_clipping" value = "10000." />
-					<pattr name = "AudioInputChannels" value = "7 4" />
-					<patcher name = "spectral">
-						<pattr name = "amount" value = "0." />
-						<pattr name = "dest_hi" value = "512" />
-						<pattr name = "dest_low" value = "0" />
-						<pattr name = "interp_time" value = "12" />
-						<pattr name = "source_hi" value = "512" />
-						<pattr name = "source_low" value = "0" />
-					</patcher>
-					<patcher name = "modulation">
-						<pattr name = "amount" value = "0." />
-						<pattr name = "depth" value = "1." />
-						<pattr name = "fmamp" value = "0." />
-						<pattr name = "fmfreq" value = "0." />
-						<pattr name = "modfreq" value = "261." />
-					</patcher>
-					<patcher name = "pitchshift">
-						<pattr name = "amount" value = "0." />
-						<pattr name = "clear" value = "0" />
-						<pattr name = "delay" value = "922" />
-						<pattr name = "feedback" value = "0.2" />
-						<pattr name = "transposition" value = "400." />
-					</patcher>
-					<patcher name = "distortion">
-						<pattr name = "amount" value = "0." />
-						<pattr name = "bits" value = "23" />
-						<pattr name = "pre_filter_clipping" value = "0." />
-						<pattr name = "samplingrate" value = "100" />
-					</patcher>
-					<patcher name = "comb">
-						<pattr name = "amount" value = "0." />
-						<pattr name = "delay" value = "0." />
-						<pattr name = "depth" value = "0." />
-						<pattr name = "fb" value = "0." />
-						<pattr name = "ff" value = "0." />
-						<pattr name = "gain" value = "0." />
-						<pattr name = "rate" value = "0." />
-					</patcher>
-					<patcher name = "filter">
-						<pattr name = "amount" value = "0." />
-						<pattr name = "analog" value = "0" />
-						<pattr name = "cfreq" value = "127.875" />
-						<pattr name = "filtertype" value = "0" />
-						<pattr name = "gain" value = "5.28" />
-						<pattr name = "gainmode" value = "1" />
-						<pattr name = "q" value = "0.064" />
-						<pattr name = "reset-cascade-filter" value = "0" />
-					</patcher>
-					<patcher name = "WaveShape">
-						<pattr name = "amount" value = "0." />
-						<pattr name = "chebyshev" value = "0. 0. 0. 0. 0. 0. 0. 0." />
-						<pattr name = "drawing" value = "0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0." />
-						<pattr name = "mode" value = "0" />
-						<pattr name = "pregain" value = "0." />
-						<pattr name = "soft_clip" value = "0.5" />
-						<pattr name = "zero_pad" value = "0." />
-					</patcher>
-					<patcher name = "gh.sfplayer~">
-						<pattr name = "action" value = "0" />
-						<pattr name = "loop" value = "0" />
-						<pattr name = "speed" value = "1." />
-						<pattr name = "path" value = "Macintosh HD:/Applications/Max 6.1/packages/Quintet.net/patchers/Projects/MindTrip/Samples/MindTrip Story" />
-						<pattr name = "soundfile" value = "2" />
-					</patcher>
+				<patcher name = "2_thru~.ext.maxpat.1">
+				</patcher>
+				<patcher name = "1_thru~.ext.maxpat.1">
+				</patcher>
+				<patcher name = "11_thru~.ext.maxpat.1">
 				</patcher>
 			</patcher>
 			<patcher name = "spat">
-				<pattr name = "lsp0" value = "0. 0." />
-				<pattr name = "lsp1" value = "100. 0." />
-				<pattr name = "lsp2" value = "50. 143.75" />
-				<pattr name = "lsp3" value = "50. 143.75" />
-				<pattr name = "lsp4" value = "50. 143.75" />
+				<pattr name = "lsp0" value = "16.625 86.25" />
+				<pattr name = "lsp1" value = "16.625 13.75" />
+				<pattr name = "lsp2" value = "50. 0." />
+				<pattr name = "lsp3" value = "85.625 13.75" />
+				<pattr name = "lsp4" value = "85.625 86.25" />
 				<patcher name = "p1">
 					<pattr name = "angle" value = "0." />
 					<pattr name = "spread" value = "0." />
-					<pattr name = "x" value = "0." />
-					<pattr name = "y" value = "9.375" />
+					<pattr name = "x" value = "16.625" />
+					<pattr name = "y" value = "86.25" />
 				</patcher>
 				<patcher name = "p2">
 					<pattr name = "angle" value = "0." />
 					<pattr name = "spread" value = "0." />
-					<pattr name = "x" value = "25." />
-					<pattr name = "y" value = "9.375" />
+					<pattr name = "x" value = "15.625" />
+					<pattr name = "y" value = "14.375" />
 				</patcher>
 				<patcher name = "p3">
 					<pattr name = "angle" value = "0." />
 					<pattr name = "spread" value = "0." />
 					<pattr name = "x" value = "50." />
-					<pattr name = "y" value = "9.375" />
+					<pattr name = "y" value = "0." />
 				</patcher>
 				<patcher name = "p4">
 					<pattr name = "angle" value = "0." />
 					<pattr name = "spread" value = "0." />
-					<pattr name = "x" value = "75." />
-					<pattr name = "y" value = "9.375" />
+					<pattr name = "x" value = "86.25" />
+					<pattr name = "y" value = "14.375" />
 				</patcher>
 				<patcher name = "p5">
 					<pattr name = "angle" value = "0." />
 					<pattr name = "spread" value = "0." />
-					<pattr name = "x" value = "100." />
-					<pattr name = "y" value = "9.375" />
+					<pattr name = "x" value = "85.625" />
+					<pattr name = "y" value = "86.25" />
 				</patcher>
 				<patcher name = "p6">
 					<pattr name = "angle" value = "0." />
@@ -383,18 +239,18 @@
 			</patcher>
 		</patcher>
 		<patcher name = "panel.4">
-			<pattr name = "processName" value = "thru" />
 			<pattr name = "displayMode" value = "events" />
 			<pattr name = "displayStaves" value = "Grand_Staff" />
 			<pattr name = "filterName" value = "-bypass-" />
 			<pattr name = "filterTransposition" value = "0" />
 			<pattr name = "instrument" value = "none" />
+			<pattr name = "processName" value = "thru" />
 			<pattr name = "processPreset" value = "on" />
 			<pattr name = "sendDelay" value = "0" />
 			<pattr name = "sendDestination" value = "none" />
-			<pattr name = "tuningName" value = "Bohlen-Pierce" />
+			<pattr name = "tuningName" value = "12TET" />
 			<pattr name = "tuningShift" value = "0" />
-			<pattr name = "tuningTransposition" value = "22" />
+			<pattr name = "tuningTransposition" value = "0" />
 		</patcher>
 		<patcher name = "Preferences">
 			<patcher name = "Sampler">
@@ -409,11 +265,11 @@
 			</patcher>
 			<patcher name = "MIDI">
 				<patcher name = "ports">
-					<pattr name = "in" value = "&quot;from Max 1&quot;" />
-					<pattr name = "in[1]" value = "&quot;from Max 1&quot;" />
+					<pattr name = "in" value = "&quot;to Max 1&quot;" />
+					<pattr name = "in[1]" value = "&quot;to Max 1&quot;" />
 					<pattr name = "levels" value = "2 3 4 5 6 8 87 88" />
 					<pattr name = "netin" value = "&quot;AU DLS Synth 1&quot;" />
-					<pattr name = "netout" value = "&quot;from Max 1&quot;" />
+					<pattr name = "netout" value = "&quot;to Max 1&quot;" />
 					<pattr name = "out1" value = "&quot;AU DLS Synth 1&quot;" />
 					<pattr name = "out2" value = "&quot;AU DLS Synth 1&quot;" />
 					<pattr name = "out3" value = "&quot;AU DLS Synth 1&quot;" />
@@ -445,7 +301,7 @@
 				<pattr name = "fontsize" value = "9" />
 			</patcher>
 			<patcher name = "Spatialization">
-				<pattr name = "Mode" value = "1" />
+				<pattr name = "Mode" value = "0" />
 				<pattr name = "angl0" value = "0" />
 				<pattr name = "angl1" value = "0" />
 				<pattr name = "angl2" value = "0" />
@@ -453,7 +309,7 @@
 				<pattr name = "angl4" value = "0" />
 				<pattr name = "angl5" value = "0" />
 				<pattr name = "angl6" value = "0" />
-				<pattr name = "presets" value = "Stereo" />
+				<pattr name = "presets" value = "&quot;5.1 Pentagon&quot;" />
 				<pattr name = "sprd0" value = "0" />
 				<pattr name = "sprd1" value = "0" />
 				<pattr name = "sprd2" value = "0" />
@@ -468,7 +324,7 @@
 			<patcher name = "Inputs">
 				<pattr name = "enable_all" value = "0" />
 				<patcher name = "AudioCube">
-					<pattr name = "enable" value = "0" />
+					<pattr name = "enable" value = "1" />
 					<pattr name = "local" value = "0" />
 				</patcher>
 				<patcher name = "Computer_Keyboard">
@@ -480,11 +336,11 @@
 					<pattr name = "local" value = "0" />
 				</patcher>
 				<patcher name = "GranularSynth">
-					<pattr name = "enable" value = "0" />
+					<pattr name = "enable" value = "1" />
 					<pattr name = "local" value = "0" />
 				</patcher>
 				<patcher name = "LeapMotion">
-					<pattr name = "enable" value = "0" />
+					<pattr name = "enable" value = "1" />
 					<pattr name = "local" value = "0" />
 				</patcher>
 				<patcher name = "MIDI">
@@ -492,7 +348,7 @@
 					<pattr name = "local" value = "0" />
 				</patcher>
 				<patcher name = "Network">
-					<pattr name = "enable" value = "0" />
+					<pattr name = "enable" value = "1" />
 					<pattr name = "local" value = "0" />
 				</patcher>
 				<patcher name = "Pitch_Tracker">
@@ -543,7 +399,7 @@
 			<patcher name = "Audio-Levels">
 				<pattr name = "reverberator" value = "0" />
 				<patcher name = "Channel-2">
-					<pattr name = "gain" value = "128" />
+					<pattr name = "gain" value = "127" />
 					<pattr name = "meter" value = "0.625 0.482143" />
 				</patcher>
 				<patcher name = "NetReceive">
@@ -568,7 +424,7 @@
 					<pattr name = "tail" value = "-90." />
 				</patcher>
 				<patcher name = "Channel-1">
-					<pattr name = "gain" value = "128" />
+					<pattr name = "gain" value = "110" />
 					<pattr name = "meter" value = "0.625 0.482143" />
 				</patcher>
 				<patcher name = "Channel-3">
@@ -648,16 +504,16 @@
 				</patcher>
 			</patcher>
 			<patcher name = "Plugins">
-				<pattr name = "audioextension1" value = "audio-input~.ext.maxpat" />
-				<pattr name = "audioextension11" value = "EffectsEngine~.ext.maxpat" />
+				<pattr name = "audioextension1" value = "thru~.ext.maxpat" />
+				<pattr name = "audioextension11" value = "thru~.ext.maxpat" />
 				<pattr name = "audioextension12" value = "thru~.ext.maxpat" />
 				<pattr name = "audioextension13" value = "thru~.ext.maxpat" />
 				<pattr name = "audioextension14" value = "thru~.ext.maxpat" />
 				<pattr name = "audioextension15" value = "thru~.ext.maxpat" />
-				<pattr name = "audioextension2" value = "Kalimba-resonator~.ext.maxpat" />
-				<pattr name = "audioextension3" value = "Kalimba-resonator~.ext.maxpat" />
-				<pattr name = "audioextension4" value = "Kalimba-resonator~.ext.maxpat" />
-				<pattr name = "audioextension5" value = "Kalimba-resonator~.ext.maxpat" />
+				<pattr name = "audioextension2" value = "thru~.ext.maxpat" />
+				<pattr name = "audioextension3" value = "thru~.ext.maxpat" />
+				<pattr name = "audioextension4" value = "thru~.ext.maxpat" />
+				<pattr name = "audioextension5" value = "thru~.ext.maxpat" />
 				<patcher name = "plugin.1">
 					<pattr name = "bypass" value = "0" />
 					<pattr name = "detune-enabled" value = "0" />
@@ -694,7 +550,7 @@
 				<pattr name = "live.text" value = "0." />
 				<pattr name = "live.text[1]" value = "0." />
 				<pattr name = "mappers" value = "0" />
-				<pattr name = "source" value = "/2/rotatexyz -0.314498 0.928336 0.018268" />
+				<pattr name = "source" value = "/client/stateCache 1190.3ocyZ10aiZDEF95leEVbc1ngyGtN8xpsZqpTqp5l6VsxhEOwlVLf3iTkst+26.j0Ij3.SMuWDoH4f4LubNuyGO.d9mK9tfhnLa5UgGNjjUUW1r2lUGr3GVDjkmYCt7oAT2jkjs82h1a6BHjt4mtYXDEk4w1ppigTuqr4jQ76k1Ja+0IOaXD2ljVaKOJw69x8EQUUu6ToxG2kbamHlSbxaJixpJxqRpSbWhWDT+kYrfnIqXZJSilzRnIsDxGKgFyRHerDxGKgmpf4I8LdRKgmzRXerDdLKg8wRXerDYJKQlzRjIsDYRKQ7wRjwrDwGKQ7wRzorDcRKQmzRzIsD0GKQGyRTerD0GKwsfSkMay6sU0IYQeKfG8kR61jJmFGNPObh50e66radVH7zgHSGhNcHgsg7oEAevlWtM3xEA+bzetoo8e9wa9ifEetMZ6e4J6u1t7QZd7iU1UWcUvvSWjFcus7TmjGus7XsUFusxXsUGus5XsM7Yss0PFd5Ga6KcvAVmY7zvbxznzFaStqsSpzFkVmr2db9P6E+8+RaO3mB+7gCw4Y0k4ociCaiocxR2PV6wwnmqXQ001rliYtLKwh2kWtIJc8eaS1tqalX3rjKeeQps1ttto8ypYK3l6yh1mD2IzxUyQI6ct0EWmZy1VuqKsVZLlqLyVxaaRybA1JIMK01EUtOOKINMpLo99YOLYuMMey8qqhyK5FyI5LkqtexP3LUoLIdcY6nW.UXqXOZWe+bDKumQL+rJuo1MWecQSZkc9i+ycsYSoqkyNuJRpi2sN1MhsueTIEfdtEK2hX3Umc8jYmxrmbVEG0uXaPgqlc8rtoVyZQb28VYi1O6dztDYcm600MvlYUls2tWyYL3nYUHaXyJVFdedio.gDwQHQbDVDGgFwQvPbDdDGAEwQXQbDVDGAAwQHQbDRDGgBwQPQbDLDGAFwQPQbDbDGgFwQXPbDVDGAAwMTkFlICGtjV4OhiQh3XjHNFKhiQi3XXHNFOhigh3XrHNFKhigf3XjHNFIhiQg3XnHNFFhiAi3XnHNFNhiQi3XLHNFKhigf33m8TbqVZXRHxeDmfDwIHQbBVDmfFwIvPbBdDm.EwIXQbBVDm.AwIHQbBRDmfBwIPQbBLDm.FwIPQbBbDmfFwIXPbBVDm.AwMTklPZkw8jbgK8GwoHQbJRDmhEwonQbJLDmhGwoPQbJVDmhEwoPPbJRDmhDwonPbJTDmBCwofQbJTDmBGwonQbJFDmhEwoPPbCUoYoQLrXBM9i3BOtH0WePkhnxn8U8a8kvKWD55xVz+GM3HdvQxfizAGs7IG0u4Y9+kQtAjax266at8MV4Pyob32bkCOmxQdyUNxbJG8MW4nSUNG2PiaRpZ2XZerN5tdjVvGZCcs6Kt81g65zGB8Wy2zu1a2sHUcxX7Qt9sRoK3Wt6TGcWVdbCaNY9n9mO5qmOpW4C4Q9P9mOzqmOjW4C6Q9v9mO7qmOrW4SnG4S3otHd8jcNlmgWZBovU5Y7XcsOU30FWyudk4L19JsD21qtQuVOieZPWyU8ZSXHes4LdsqHtWFD+vsHdy3H1iTinwE+6E+GroELQH" />
 				<patcher name = "output">
 					<pattr name = "info" value = "&lt;empty&gt;" />
 				</patcher>
@@ -707,37 +563,31 @@
 				<patcher name = "mapper.instances">
 					<patcher name = "nodes">
 						<patcher name = "nodespatcher">
-							<pattr name = "u157008837" value = "0.0885 0.0885 0.2 1 0.1667 0.1667 0.2 1 0.2434 0.2522 0.2 1" />
+							<pattr name = "u368009507" value = "0.0885 0.0885 0.2 1 0.1667 0.1667 0.2 1 0.2434 0.2522 0.2 1" />
 						</patcher>
 					</patcher>
 				</patcher>
 				<patcher name = "mapper-inspectors">
 					<patcher name = "nodes">
 						<patcher name = "nodespatcher">
-							<pattr name = "u994008964" value = "0.0885 0.0885 0.2 1 0.1667 0.1667 0.2 1 0.2434 0.2522 0.2 1" />
+							<pattr name = "u263009627" value = "0.0885 0.0885 0.2 1 0.1667 0.1667 0.2 1 0.2434 0.2522 0.2 1" />
 						</patcher>
 					</patcher>
 				</patcher>
 			</patcher>
 		</patcher>
 		<patcher name = "Register">
-			<pattr name = "Location" value = "BTR" />
-			<pattr name = "Name" value = "Georg Hajdu" />
-			<pattr name = "connect-ubutton" value = "0" />
-			<patcher name = "myIP">
-				<pattr name = "info" value = "&lt;empty&gt;" />
-			</patcher>
 			<patcher name = "serverIP">
-				<pattr name = "info" value = "&lt;empty&gt;" />
+				<pattr name = "info" value = "localhost" />
 			</patcher>
-			<patcher name = "send2host">
+			<patcher name = "Identity">
+				<pattr name = "info" value = "Player 1" />
+			</patcher>
+			<patcher name = "chat-parent">
 				<patcher name = "chat">
 					<pattr name = "textcolor" value = "91 221 42" />
 					<pattr name = "vertical_scroll" value = "50 100" />
 				</patcher>
-			</patcher>
-			<patcher name = "Identity">
-				<pattr name = "info" value = "&lt;empty&gt;" />
 			</patcher>
 		</patcher>
 		<patcher name = "receiver">
@@ -778,21 +628,6 @@
 				</patcher>
 			</patcher>
 			<patcher name = "realtime">
-				<patcher name = "cursor">
-					<pattr name = "u887001440" value = "120" />
-				</patcher>
-				<patcher name = "cursor[4]">
-					<pattr name = "u781001426" value = "120" />
-				</patcher>
-				<patcher name = "cursor[3]">
-					<pattr name = "u791001412" value = "120" />
-				</patcher>
-				<patcher name = "cursor[2]">
-					<pattr name = "u800001398" value = "120" />
-				</patcher>
-				<patcher name = "cursor[1]">
-					<pattr name = "u955001384" value = "120" />
-				</patcher>
 				<patcher name = "process.1">
 					<patcher name = "DJster">
 						<patcher name = "controlpanel">
@@ -817,11 +652,11 @@
 							<pattr name = "pitch_range" value = "450" />
 							<pattr name = "pulse_length" value = "4000." />
 							<pattr name = "scale" value = "pentatonic" />
-							<pattr name = "stream" value = "0" />
+							<pattr name = "stream" value = "1" />
 							<pattr name = "tonic_pitch" value = "5300" />
 							<pattr name = "umenu" value = "0" />
 						</patcher>
-						<pattr name = "u447016866" value = "thru" />
+						<pattr name = "u786009796" value = "thru" />
 					</patcher>
 					<patcher name = "harmonizer">
 						<pattr name = "params" value = "1 1. 0 0 2 1. 0 0 3 1. 0 0 4 1. 0 0 5 1. 0 0 6 1. 0 0" />
@@ -854,11 +689,11 @@
 							<pattr name = "pitch_range" value = "450" />
 							<pattr name = "pulse_length" value = "4000." />
 							<pattr name = "scale" value = "pentatonic" />
-							<pattr name = "stream" value = "0" />
+							<pattr name = "stream" value = "1" />
 							<pattr name = "tonic_pitch" value = "5300" />
 							<pattr name = "umenu" value = "0" />
 						</patcher>
-						<pattr name = "u139021619" value = "thru" />
+						<pattr name = "u813030834" value = "thru" />
 					</patcher>
 					<patcher name = "harmonizer[1]">
 						<pattr name = "params" value = "1 1. 0 0 2 1. 0 0 3 1. 0 0 4 1. 0 0 5 1. 0 0 6 1. 0 0" />
@@ -893,11 +728,11 @@
 							<pattr name = "pitch_range" value = "450" />
 							<pattr name = "pulse_length" value = "4000." />
 							<pattr name = "scale" value = "pentatonic" />
-							<pattr name = "stream" value = "0" />
+							<pattr name = "stream" value = "1" />
 							<pattr name = "tonic_pitch" value = "5300" />
 							<pattr name = "umenu" value = "0" />
 						</patcher>
-						<pattr name = "u292017661" value = "thru" />
+						<pattr name = "u636010595" value = "thru" />
 					</patcher>
 					<patcher name = "harmonizer">
 						<pattr name = "params" value = "1 1. 0 0 2 1. 0 0 3 1. 0 0 4 1. 0 0 5 1. 0 0 6 1. 0 0" />
@@ -930,11 +765,11 @@
 							<pattr name = "pitch_range" value = "450" />
 							<pattr name = "pulse_length" value = "4000." />
 							<pattr name = "scale" value = "pentatonic" />
-							<pattr name = "stream" value = "0" />
+							<pattr name = "stream" value = "1" />
 							<pattr name = "tonic_pitch" value = "5300" />
 							<pattr name = "umenu" value = "0" />
 						</patcher>
-						<pattr name = "u449022413" value = "thru" />
+						<pattr name = "u332031628" value = "thru" />
 					</patcher>
 					<patcher name = "harmonizer[1]">
 						<pattr name = "params" value = "1 1. 0 0 2 1. 0 0 3 1. 0 0 4 1. 0 0 5 1. 0 0 6 1. 0 0" />
@@ -969,11 +804,11 @@
 							<pattr name = "pitch_range" value = "450" />
 							<pattr name = "pulse_length" value = "4000." />
 							<pattr name = "scale" value = "pentatonic" />
-							<pattr name = "stream" value = "0" />
+							<pattr name = "stream" value = "1" />
 							<pattr name = "tonic_pitch" value = "5300" />
 							<pattr name = "umenu" value = "0" />
 						</patcher>
-						<pattr name = "u862018456" value = "thru" />
+						<pattr name = "u559011390" value = "thru" />
 					</patcher>
 					<patcher name = "harmonizer">
 						<pattr name = "params" value = "1 1. 0 0 2 1. 0 0 3 1. 0 0 4 1. 0 0 5 1. 0 0 6 1. 0 0" />
@@ -1006,11 +841,11 @@
 							<pattr name = "pitch_range" value = "450" />
 							<pattr name = "pulse_length" value = "4000." />
 							<pattr name = "scale" value = "pentatonic" />
-							<pattr name = "stream" value = "0" />
+							<pattr name = "stream" value = "1" />
 							<pattr name = "tonic_pitch" value = "5300" />
 							<pattr name = "umenu" value = "0" />
 						</patcher>
-						<pattr name = "u032023207" value = "thru" />
+						<pattr name = "u886032422" value = "thru" />
 					</patcher>
 					<patcher name = "harmonizer[1]">
 						<pattr name = "params" value = "1 1. 0 0 2 1. 0 0 3 1. 0 0 4 1. 0 0 5 1. 0 0 6 1. 0 0" />
@@ -1045,11 +880,11 @@
 							<pattr name = "pitch_range" value = "450" />
 							<pattr name = "pulse_length" value = "4000." />
 							<pattr name = "scale" value = "pentatonic" />
-							<pattr name = "stream" value = "0" />
+							<pattr name = "stream" value = "1" />
 							<pattr name = "tonic_pitch" value = "5300" />
 							<pattr name = "umenu" value = "0" />
 						</patcher>
-						<pattr name = "u507019251" value = "thru" />
+						<pattr name = "u036012185" value = "thru" />
 					</patcher>
 					<patcher name = "harmonizer">
 						<pattr name = "params" value = "1 1. 0 0 2 1. 0 0 3 1. 0 0 4 1. 0 0 5 1. 0 0 6 1. 0 0" />
@@ -1082,11 +917,11 @@
 							<pattr name = "pitch_range" value = "450" />
 							<pattr name = "pulse_length" value = "4000." />
 							<pattr name = "scale" value = "pentatonic" />
-							<pattr name = "stream" value = "0" />
+							<pattr name = "stream" value = "1" />
 							<pattr name = "tonic_pitch" value = "5300" />
 							<pattr name = "umenu" value = "0" />
 						</patcher>
-						<pattr name = "u236024001" value = "thru" />
+						<pattr name = "u128033216" value = "thru" />
 					</patcher>
 					<patcher name = "harmonizer[1]">
 						<pattr name = "params" value = "1 1. 0 0 2 1. 0 0 3 1. 0 0 4 1. 0 0 5 1. 0 0 6 1. 0 0" />
@@ -1121,11 +956,11 @@
 							<pattr name = "pitch_range" value = "450" />
 							<pattr name = "pulse_length" value = "4000." />
 							<pattr name = "scale" value = "pentatonic" />
-							<pattr name = "stream" value = "0" />
+							<pattr name = "stream" value = "1" />
 							<pattr name = "tonic_pitch" value = "5300" />
 							<pattr name = "umenu" value = "0" />
 						</patcher>
-						<pattr name = "u532020046" value = "thru" />
+						<pattr name = "u190012980" value = "thru" />
 					</patcher>
 					<patcher name = "harmonizer">
 						<pattr name = "params" value = "1 1. 0 0 2 1. 0 0 3 1. 0 0 4 1. 0 0 5 1. 0 0 6 1. 0 0" />
@@ -1158,11 +993,11 @@
 							<pattr name = "pitch_range" value = "450" />
 							<pattr name = "pulse_length" value = "4000." />
 							<pattr name = "scale" value = "pentatonic" />
-							<pattr name = "stream" value = "0" />
+							<pattr name = "stream" value = "1" />
 							<pattr name = "tonic_pitch" value = "5300" />
 							<pattr name = "umenu" value = "0" />
 						</patcher>
-						<pattr name = "u715024795" value = "thru" />
+						<pattr name = "u604034010" value = "thru" />
 					</patcher>
 					<patcher name = "harmonizer[1]">
 						<pattr name = "params" value = "1 1. 0 0 2 1. 0 0 3 1. 0 0 4 1. 0 0 5 1. 0 0 6 1. 0 0" />

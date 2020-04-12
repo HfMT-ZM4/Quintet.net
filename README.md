@@ -2,6 +2,7 @@
 ## Quintet.net - A Quintet on the web
 
 _For me, the highlight was Georg Hajdu’s "Quintet.net: A Quintet on the Internet" because it is an immediately pragmatic system and overcomes in a musical way some of the limitations of Internet-based performance systems._
+
 Ian Whalley, Computer Music Journal
 
 # Intro
@@ -14,8 +15,20 @@ The central hub of Quintet.net is the Server, to which all participants first lo
 In addition to managing the data streams, the Ser ver also assumes further musical tasks, such as manipulating the incoming stream of music with effects al- gorithms. These include filters, harmo- nizers and transformation effects that can alter the character of the music dramati- cally and allow the players to also perform duets with themselves 
 
 ### Client
+{% include img-figure url="/Quintet.net/media/resources/server.png" description="Quintet.net Server" %}
+The Client has several functional units: an input unit, a sound synthesis unit and a real-time notation unit. Music can be played into the computer through either a microphone, a MIDI controller or sim- ply the computer keyboard (Fig. 2). If the music is input via microphone, a pitch tracker integrated into the program pro- vides for the recognition of the pitches and their transformation into corre- sponding MIDI messages. The input unit employs a modified MIDI protocol for the transmission of musical events using MIDI cents for steady pitch and amplitude as well as for continuous pitch and am- plitude changes [19]. The note and bend events are played back by a built-in multi- timbral, polyphonic sampler. With this, every piece can sound distinctively dif- ferent. The sounds can be further pro- cessed with VST plug-ins. Alternatively, VSTi or MIDI instruments can be used for playback. Thus, a pianist located in Hamburg could play on a Yamaha Dis- klavier placed anywhere else in the world.
+As soon as a note event arrives to the Client, the music will be drawn onto the computer screen in “space” notation, in eighth-tone precision on five grand staves (Fig. 3). The Client can import an un- limited number of arbitrar y tuning maps. The use of (pitch) filters, consti- tuting a secondary tuning map or pitch grid, permits further control of melodic and harmonic events. Hence, the nota- tion unit possesses three pitch grids: the primary (flexible) tuning grid, the sec- ondary (flexible) filter grid, and a fixed tertiary grid for eighth-tone notation.
+Real-time notation facilitates the in- teraction of players who are sometimes thousands of miles apart from one an- other, even with non-pitched or complex samples. American composer and com- puter musician Chris Brown wrote about the use of real-time notation: “Sharing a notation space really broke new ground for this kind of music”.
+
 ### Conductor
+{% include img-figure url="/Quintet.net/media/resources/client.png" description="Quintet.net Client" %}
+Quintet.net uses the metaphor of an ensemble under the control of a con- ductor to allow a sixth player, using the Conductor component, to monitor and influence the performance by selecting sounds, tunings, processes and filters (which, without a conductor, can also be changed by one of the Clients) (Fig. 4). The conductor stays in contact with the musicians through textual directions that appear in the Clients’ command lines, while a chat window facilitates the ex- change of more complicated issues be- tween the participants (including the cyber-audience; see below). If a piece em- ploys a score, the conductor can also send parts and control the background sounds. Different display modes allow su- perimposition of parts and note events. Entering messages into a timeline and ex- ecuting them during the performance can automate all this.
+In certain performances, the conductor is also in contact with the listeners, who can influence the course of the music through voting.
+
 ### Viewer (add-on)
+The Viewer add-on was conceived to extend the Quintet.net performance into the visual domain (Fig. 5). Using the Jitter matrix processing objects, this com- ponent implements a number of live
+video-processing algorithms that can be controlled either manually or automatically by sequencing commands from a timeline. The media on which the algorithms operate can be either video clips, live video streams and/or real-time music notation, and can be mixed and superimposed in 2D and 3D at will. The algorithms in turn can be controlled by the actions of the musicians. Thus, the Viewer enables composers/artists to cre- ate complex artworks in which the visual components represent an autonomous formal element.
+
 
 ## Interaction under the control of a conductor
 
@@ -32,7 +45,7 @@ An online server is accessible at 193.175.151.142
 
 # Support
 For help on how to use the software, please refer to the Quintet.net home page at http://www.quintet.net.
-Questions can be directed to hajdu@musikhochschule-hamburg.de.
+Questions can be directed to georg.hajdu@hfmt-hamburg.de.
 
 # Software Download
 

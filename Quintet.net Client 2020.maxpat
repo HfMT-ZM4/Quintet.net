@@ -15491,7 +15491,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ -6.0, 683.5, 957.0, 42.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -3.0, 682.0, 955.0, 43.0 ],
+					"presentation_rect" : [ -3.0, 683.0, 955.0, 43.0 ],
 					"varname" : "bottom-bar",
 					"viewvisibility" : 1
 				}

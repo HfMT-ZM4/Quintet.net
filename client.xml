@@ -97,7 +97,7 @@
 				</patcher>
 			</patcher>
 			<patcher name = "Network">
-				<pattr name = "u943029536" value = "0" />
+				<pattr name = "u300013820" value = "0" />
 			</patcher>
 			<patcher name = "MIDI">
 				<patcher name = "control-panel">
@@ -112,7 +112,7 @@
 			</patcher>
 			<patcher name = "Computer_Keyboard">
 				<pattr name = "volume" value = "61" />
-				<pattr name = "u808029068" value = "1" />
+				<pattr name = "u562013352" value = "1" />
 				<patcher name = "control-panel">
 					<pattr name = "Layout" value = "Diagonal.txt" />
 					<pattr name = "shift-with-tab" value = "1" />
@@ -539,7 +539,7 @@
 				<pattr name = "live.text" value = "0." />
 				<pattr name = "live.text[1]" value = "0." />
 				<pattr name = "mappers" value = "0" />
-				<pattr name = "source" value = "/player 1 note 5000 0 /TimeTag 28918788." />
+				<pattr name = "source" value = "/client/stateCache 299.3ociT2ySCCCDF.dl7qHxysQD+wBiHgnSHDjMDClx0VSSsircFJT9uSoUTkVht6Vy664K9YveUbkny5g1p5c6b9TN1uA7YQ4MkBevChICKj68N+xGrafCEpkM20bditXXNjRmpjWE6GswiQHAG2SvediEt1LDOcDSeaamMklN1uxyqbKNbHWORXSz5ScgjK61uh+U53ZvJIIuwRJzjjjHIIQxgDIFIRNjH4Phh5BqHMSQRhhjDEGRTXjn3PhhCIZJRzjjnIIQSRhlCIZLRzbHQygDCEIFRRLjjXHIwvgDCFIFNjXvIAVu+ye96KNsg41+hD217jXPr7h3pppKh6Zsag3XgJ7YUXypwmUiMqAeVC1r0CCeoTbODhKESJEyre7dun70huK9A.xjW7O" />
 				<patcher name = "output">
 					<pattr name = "info" value = "&lt;empty&gt;" />
 				</patcher>
@@ -552,14 +552,14 @@
 				<patcher name = "mapper.instances">
 					<patcher name = "nodes">
 						<patcher name = "nodespatcher">
-							<pattr name = "u547023945" value = "0.0885 0.0885 0.2 1 0.1667 0.1667 0.2 1 0.2434 0.2522 0.2 1" />
+							<pattr name = "u999007988" value = "0.0885 0.0885 0.2 1 0.1667 0.1667 0.2 1 0.2434 0.2522 0.2 1" />
 						</patcher>
 					</patcher>
 				</patcher>
 				<patcher name = "mapper-inspectors">
 					<patcher name = "nodes">
 						<patcher name = "nodespatcher">
-							<pattr name = "u473024065" value = "0.0885 0.0885 0.2 1 0.1667 0.1667 0.2 1 0.2434 0.2522 0.2 1" />
+							<pattr name = "u012008108" value = "0.0885 0.0885 0.2 1 0.1667 0.1667 0.2 1 0.2434 0.2522 0.2 1" />
 						</patcher>
 					</patcher>
 				</patcher>
@@ -567,7 +567,7 @@
 		</patcher>
 		<patcher name = "Register">
 			<patcher name = "serverIP">
-				<pattr name = "info" value = "localhost" />
+				<pattr name = "info" value = "192.168.178.146" />
 			</patcher>
 			<patcher name = "Identity">
 				<pattr name = "info" value = "Player 1" />
@@ -645,7 +645,7 @@
 							<pattr name = "tonic_pitch" value = "5300" />
 							<pattr name = "umenu" value = "0" />
 						</patcher>
-						<pattr name = "u427024221" value = "thru" />
+						<pattr name = "u442008273" value = "thru" />
 					</patcher>
 					<patcher name = "harmonizer">
 						<pattr name = "params" value = "1 1. 0 0 2 1. 0 0 3 1. 0 0 4 1. 0 0 5 1. 0 0 6 1. 0 0" />
@@ -684,7 +684,7 @@
 							<pattr name = "tonic_pitch" value = "5300" />
 							<pattr name = "umenu" value = "0" />
 						</patcher>
-						<pattr name = "u304025017" value = "thru" />
+						<pattr name = "u247009071" value = "thru" />
 					</patcher>
 					<patcher name = "harmonizer">
 						<pattr name = "params" value = "1 1. 0 0 2 1. 0 0 3 1. 0 0 4 1. 0 0 5 1. 0 0 6 1. 0 0" />
@@ -723,7 +723,7 @@
 							<pattr name = "tonic_pitch" value = "5300" />
 							<pattr name = "umenu" value = "0" />
 						</patcher>
-						<pattr name = "u385025812" value = "thru" />
+						<pattr name = "u932009866" value = "thru" />
 					</patcher>
 					<patcher name = "harmonizer">
 						<pattr name = "params" value = "1 1. 0 0 2 1. 0 0 3 1. 0 0 4 1. 0 0 5 1. 0 0 6 1. 0 0" />
@@ -762,7 +762,7 @@
 							<pattr name = "tonic_pitch" value = "5300" />
 							<pattr name = "umenu" value = "0" />
 						</patcher>
-						<pattr name = "u053026607" value = "thru" />
+						<pattr name = "u830010661" value = "thru" />
 					</patcher>
 					<patcher name = "harmonizer">
 						<pattr name = "params" value = "1 1. 0 0 2 1. 0 0 3 1. 0 0 4 1. 0 0 5 1. 0 0 6 1. 0 0" />
@@ -801,7 +801,7 @@
 							<pattr name = "tonic_pitch" value = "5300" />
 							<pattr name = "umenu" value = "0" />
 						</patcher>
-						<pattr name = "u945027402" value = "thru" />
+						<pattr name = "u985011456" value = "thru" />
 					</patcher>
 					<patcher name = "harmonizer">
 						<pattr name = "params" value = "1 1. 0 0 2 1. 0 0 3 1. 0 0 4 1. 0 0 5 1. 0 0 6 1. 0 0" />

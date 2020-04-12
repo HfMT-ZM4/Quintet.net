@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 778.0, 365.0, 557.0, 367.0 ],
+		"rect" : [ 514.0, 462.0, 557.0, 367.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 51.0, 37.0, 232.0, 22.0 ],
-					"restore" : [ "BTR" ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -65,7 +65,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 13.0, 10.0, 223.0, 22.0 ],
-					"restore" : [ "Georg", "Hajdu" ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -94,7 +94,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 385.0, 243.0, 815.0, 643.0 ],
+						"rect" : [ 34.0, 291.0, 756.0, 672.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -122,6 +122,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -144,7 +145,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 116.0, 250.0, 30.0, 30.0 ]
+									"patching_rect" : [ 47.0, 250.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -355,7 +356,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 378.0, 444.0, 130.0, 20.0 ],
+									"patching_rect" : [ 377.857142857142833, 457.0, 130.0, 20.0 ],
 									"text" : "moveto 52 10, frgb 255 0 0"
 								}
 
@@ -495,7 +496,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 80.0, 15.0, 87.0, 20.0 ],
+									"patching_rect" : [ 80.0, 9.0, 87.0, 20.0 ],
 									"text" : "r #1video-chat"
 								}
 
@@ -634,8 +635,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 193.0, 434.0, 66.0, 20.0 ],
-									"text" : "moveto 0 94"
+									"patching_rect" : [ 193.0, 434.0, 64.0, 20.0 ],
+									"text" : "moveto 0 25"
 								}
 
 							}
@@ -648,8 +649,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 286.0, 424.0, 152.0, 20.0 ],
-									"text" : "moveto 0 110, frgb 102 102 204"
+									"patching_rect" : [ 285.571428571428555, 424.0, 145.0, 20.0 ],
+									"text" : "moveto 0 40, frgb 221 221 230"
 								}
 
 							}
@@ -690,8 +691,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 470.0, 360.0, 281.0, 20.0 ],
-									"text" : "frgb 102 102 204, brgb 214 221 229, clear, font Arial 12, bang"
+									"patching_rect" : [ 470.0, 360.0, 264.0, 20.0 ],
+									"text" : "frgb 221 221 230, brgb 51 51 51, clear, font Arial 12, bang"
 								}
 
 							}
@@ -717,7 +718,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 193.0, 624.0, 15.0, 15.0 ]
+									"patching_rect" : [ 193.0, 624.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -940,7 +941,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-15", 0 ],
-									"midpoints" : [ 297.5, 300.0, 65.0, 300.0, 65.0, 199.0, 110.5, 199.0 ],
+									"midpoints" : [ 297.5, 300.0, 93.0, 300.0, 93.0, 199.0, 110.5, 199.0 ],
 									"source" : [ "obj-24", 0 ]
 								}
 
@@ -1215,7 +1216,7 @@
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 13.0, 105.0, 161.0, 119.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 60.0, 161.0, 119.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 161.0, 119.0 ],
 					"srcrect" : [ 0, 0, 161, 116 ]
 				}
 
@@ -1244,7 +1245,7 @@
 
 			}
  ],
-		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ]
+		"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 	}
 
 }

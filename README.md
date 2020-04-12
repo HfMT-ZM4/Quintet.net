@@ -1,6 +1,10 @@
 # Quintet.net
 Quintet.net - Quintet on the web
 
+For me, the highlight was Georg Hajdu’s "Quintet.net: A Quintet on the Internet" because it is an immediately pragmatic system and overcomes in a musical way some of the limitations of Internet-based performance systems.
+Ian Whalley, Computer Music Journal
+
+
 ## News
 Blog
 ## Info
@@ -10,7 +14,7 @@ Blog
 ### References
 ## Software Download
 ### Quintet.net
-### ### MaxScore
+### MaxScore
 ## The Components
 ### Client
 ### Server

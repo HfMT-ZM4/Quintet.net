@@ -4,8 +4,6 @@
 _For me, the highlight was Georg Hajdu’s "Quintet.net: A Quintet on the Internet" because it is an immediately pragmatic system and overcomes in a musical way some of the limitations of Internet-based performance systems._
 Ian Whalley, Computer Music Journal
 
-# News
-Blog
 # Intro
 Quintet.net is an interactive network performance environment invented and developed by composer and computer musician Georg Hajdu. It enables performers at up to five locations to play music over the Internet under the control of a “conductor.” The environment, which was programmed with the graphical programming language Max consists of four components:
 

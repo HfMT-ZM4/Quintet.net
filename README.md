@@ -11,6 +11,7 @@ Quintet.net is an interactive network performance environment invented and devel
 ## Four Components
 
 ### Server
+![Quintet.net Server](https://github.com/HfMT-ZM4/Quintet.net/blob/Experimental/media/Resources/Server.png)
 The central hub of Quintet.net is the Server, to which all participants first log in. It keeps track of the IP number as well as the name and location of each user (Client, Conductor or Listener) (Fig. 1). The musicians can then play their lines into the Clients and send them on their journeys through cyberspace. Having ar- rived at the Server, the data packets are copied and sent to all Clients (includ- ing the original computer) and Listeners.
 In addition to managing the data streams, the Ser ver also assumes further musical tasks, such as manipulating the incoming stream of music with effects al- gorithms. These include filters, harmo- nizers and transformation effects that can alter the character of the music dramati- cally and allow the players to also perform duets with themselves 
 

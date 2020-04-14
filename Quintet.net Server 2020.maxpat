@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 375.0, 45.0, 739.0, 587.0 ],
+		"rect" : [ 676.0, 45.0, 739.0, 587.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -521,7 +521,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 165.0, 278.0, 957.0, 698.0 ],
+						"rect" : [ 211.0, 130.0, 957.0, 698.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -549,6 +549,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-13",
@@ -665,7 +666,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 613.671520809332605, 35.970873773097992, 333.0, 22.0 ],
-									"restore" : [ "<empty>" ],
+									"restore" : [ "127.0.0.1" ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -683,7 +684,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 673.25, 611.5, 115.0, 22.0 ],
+									"patching_rect" : [ 762.25, 605.5, 115.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"filename" : "maxscore.decode",
 										"parameter_enable" : 0
@@ -701,7 +702,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "FullPacket" ],
-									"patching_rect" : [ 673.25, 571.970873773097992, 135.0, 35.0 ],
+									"patching_rect" : [ 762.25, 565.970873773097992, 135.0, 35.0 ],
 									"text" : "o.route /maxscore/XML /maxscore/canvas"
 								}
 
@@ -713,7 +714,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
-									"patching_rect" : [ 498.25, 641.067960739135742, 194.0, 22.0 ],
+									"patching_rect" : [ 587.25, 653.067960739135742, 194.0, 22.0 ],
 									"text" : "mxj com.algomusic.max.MaxScore"
 								}
 
@@ -835,7 +836,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 618.504854142665863, 180.470873773097992, 85.0, 22.0 ],
-									"text" : "1680778669 0"
+									"text" : "1949862700 0"
 								}
 
 							}
@@ -911,10 +912,10 @@
 									"id" : "obj-88",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 389.671520809332549, 642.067960739135742, 94.0, 22.0 ],
-									"text" : "pvar TCPServer"
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 389.671520809332549, 637.067960739135742, 104.0, 22.0 ],
+									"text" : "pvar TCPServer 3"
 								}
 
 							}
@@ -1713,7 +1714,7 @@
 , 							{
 								"box" : 								{
 									"border" : 0,
-									"cols" : 1,
+									"cols" : 3,
 									"colwidth" : 85,
 									"fontface" : 0,
 									"fontname" : "Arial",
@@ -1729,7 +1730,7 @@
 									"patching_rect" : [ 16.004854142665863, 340.970873773097992, 241.0, 122.0 ],
 									"readonly" : 1,
 									"rowhead" : 1,
-									"rows" : 1,
+									"rows" : 2,
 									"selmode" : 3,
 									"selsync" : 0,
 									"vsync" : 0
@@ -18289,22 +18290,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-45", 0 ],
-									"order" : 0,
-									"source" : [ "obj-12", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-58", 1 ],
-									"order" : 2,
-									"source" : [ "obj-12", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-6", 1 ],
 									"order" : 1,
 									"source" : [ "obj-12", 1 ]
 								}
@@ -18312,7 +18297,24 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-58", 1 ],
+									"order" : 3,
+									"source" : [ "obj-12", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 1 ],
+									"order" : 2,
+									"source" : [ "obj-12", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-83", 1 ],
+									"order" : 1,
 									"source" : [ "obj-12", 2 ]
 								}
 
@@ -22456,7 +22458,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 587.0, 39.0, 60.0, 19.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 375, 45, 1114, 632, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 676, 45, 1415, 632, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 
@@ -22754,13 +22756,6 @@
 				"name" : "maxfolder.js",
 				"bootpath" : "/Users/Shared/Max 7/Packages/PatMap/javascript",
 				"patcherrelativepath" : "../PatMap/javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "participants.txt",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net",
-				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

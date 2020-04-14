@@ -446,6 +446,7 @@
 					"presentation_rect" : [ 261.0, 9.5, 673.0, 29.0 ],
 					"readonly" : 1,
 					"rounded" : 5.0,
+					"text" : "look at your chat window",
 					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 				}
 
@@ -465,7 +466,7 @@
 					"bgfillcolor_type" : "color",
 					"fontsize" : 36.0,
 					"id" : "obj-6",
-					"items" : "00:00:00",
+					"items" : "00:00:09",
 					"maxclass" : "umenu",
 					"menumode" : 1,
 					"numinlets" : 1,

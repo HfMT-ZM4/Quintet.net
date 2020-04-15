@@ -1,5 +1,4 @@
 # Quintet.net
-<<<<<<< HEAD
 Quintet.net - Quintet on the Net
 =======
 ## Quintet.net - A Quintet on the web

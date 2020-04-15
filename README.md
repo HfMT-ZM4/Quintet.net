@@ -1,5 +1,5 @@
 # Quintet.net
-Quintet.net - Quintet on the Net
+A Quintet on the Net
 =======
 ## Quintet.net - A Quintet on the web
 

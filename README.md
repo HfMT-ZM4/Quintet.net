@@ -1,6 +1,5 @@
 # Quintet.net
-<<<<<<< HEAD
-Quintet.net - Quintet on the Net
+A Quintet on the Net
 =======
 ## Quintet.net - A Quintet on the web
 
@@ -14,12 +13,12 @@ Quintet.net is an interactive network performance environment invented and devel
 ## Four Components
 
 ### Server
-![Quintet.net Server](https://github.com/HfMT-ZM4/Quintet.net/blob/Experimental/media/Resources/Server.png)
+![Quintet.net Server](https://github.com/HfMT-ZM4/Quintet.net/blob/master/media/Resources/Server.png)
 The central hub of Quintet.net is the Server, to which all participants first log in. It keeps track of the IP number as well as the name and location of each user (Client, Conductor or Listener) (Fig. 1). The musicians can then play their lines into the Clients and send them on their journeys through cyberspace. Having ar- rived at the Server, the data packets are copied and sent to all Clients (includ- ing the original computer) and Listeners.
 In addition to managing the data streams, the Ser ver also assumes further musical tasks, such as manipulating the incoming stream of music with effects al- gorithms. These include filters, harmo- nizers and transformation effects that can alter the character of the music dramati- cally and allow the players to also perform duets with themselves 
 
 ### Client
-![Quintet.net Client](https://github.com/HfMT-ZM4/Quintet.net/blob/Experimental/media/Resources/Client.png)
+![Quintet.net Client](https://github.com/HfMT-ZM4/Quintet.net/blob/master/media/Resources/Client.png)
 The Client has several functional units: an input unit, a sound synthesis unit and a real-time notation unit. Music can be played into the computer through either a microphone, a MIDI controller or sim- ply the computer keyboard (Fig. 2). If the music is input via microphone, a pitch tracker integrated into the program pro- vides for the recognition of the pitches and their transformation into corre- sponding MIDI messages. The input unit employs a modified MIDI protocol for the transmission of musical events using MIDI cents for steady pitch and amplitude as well as for continuous pitch and am- plitude changes [19]. The note and bend events are played back by a built-in multi- timbral, polyphonic sampler. With this, every piece can sound distinctively dif- ferent. The sounds can be further pro- cessed with VST plug-ins. Alternatively, VSTi or MIDI instruments can be used for playback. Thus, a pianist located in Hamburg could play on a Yamaha Dis- klavier placed anywhere else in the world.
 As soon as a note event arrives to the Client, the music will be drawn onto the computer screen in “space” notation, in eighth-tone precision on five grand staves (Fig. 3). The Client can import an un- limited number of arbitrar y tuning maps. The use of (pitch) filters, consti- tuting a secondary tuning map or pitch grid, permits further control of melodic and harmonic events. Hence, the nota- tion unit possesses three pitch grids: the primary (flexible) tuning grid, the sec- ondary (flexible) filter grid, and a fixed tertiary grid for eighth-tone notation.
 Real-time notation facilitates the in- teraction of players who are sometimes thousands of miles apart from one an- other, even with non-pitched or complex samples. American composer and com- puter musician Chris Brown wrote about the use of real-time notation: “Sharing a notation space really broke new ground for this kind of music”.

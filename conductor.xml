@@ -5,13 +5,14 @@
 		<pattr name = "title" value = "0" />
 		<patcher name = "toolbar">
 			<pattr name = "layout" value = "2" />
-			<pattr name = "reset" value = "0" />
+			<pattr name = "live.text[1]" value = "0." />
+			<pattr name = "live.text[3]" value = "0." />
+			<pattr name = "live.text" value = "0." />
 			<pattr name = "live.text[6]" value = "0." />
 			<pattr name = "live.text[7]" value = "0." />
-			<pattr name = "live.text" value = "0." />
-			<pattr name = "live.text[1]" value = "0." />
 			<pattr name = "live.text[8]" value = "0." />
 			<pattr name = "live.text[9]" value = "0." />
+			<pattr name = "reset" value = "0" />
 			<patcher name = "metronome">
 				<pattr name = "beats" value = "2" />
 				<pattr name = "on/off" value = "1" />
@@ -91,33 +92,17 @@
 			<pattr name = "tuningTransposition" value = "0" />
 		</patcher>
 		<patcher name = "Preferences">
-			<patcher name = "Network">
-				<patcher name = "chat2audiocube">
-					<pattr name = "chatsetsaudiocubecolor" value = "0" />
-					<pattr name = "timeinterval" value = "3000" />
-					<pattr name = "usetimer" value = "0" />
-				</patcher>
-				<patcher name = "setaudiocubecolor-5">
-					<pattr name = "rgb" value = "0.633854 0.305964 0.264106" />
-				</patcher>
-				<patcher name = "setaudiocubecolor-1">
-					<pattr name = "rgb" value = "0.633854 0.305964 0.264106" />
-				</patcher>
-				<patcher name = "setaudiocubecolor-2">
-					<pattr name = "rgb" value = "0.633854 0.305964 0.264106" />
-				</patcher>
-				<patcher name = "setaudiocubecolor-3">
-					<pattr name = "rgb" value = "0.633854 0.305964 0.264106" />
-				</patcher>
-				<patcher name = "setaudiocubecolor-4">
-					<pattr name = "rgb" value = "0.633854 0.305964 0.264106" />
-				</patcher>
-			</patcher>
 			<patcher name = "Notation">
-				<pattr name = "scorePrefs" value = "0 0 0 0 0 0 1 0 0" />
+				<pattr name = "cursor" value = "0" />
+				<pattr name = "messdest" value = "1" />
+				<pattr name = "output2controlpanel" value = "0" />
+				<pattr name = "paint" value = "0" />
+				<pattr name = "send" value = "1" />
+				<pattr name = "triggers-comment[1]" value = "0" />
+				<pattr name = "u251012168" value = "0 0 1 0 1 1 0 2 1 0 3 1 0 4 1 0 5 1 1 0 1 1 1 1 1 2 1 1 3 1 1 4 1 1 5 1 2 0 1 2 1 1 2 2 1 2 3 1 2 4 1 2 5 1 3 0 1 3 1 1 3 2 1 3 3 1 3 4 1 3 5 1 4 0 1 4 1 1 4 2 1 4 3 1 4 4 1 4 5 1" />
 			</patcher>
 			<patcher name = "CondFile">
-				<pattr name = "file" value = "&quot;Macintosh HD:/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Swan Song/Swan Song.cond.json&quot;" />
+				<pattr name = "file" value = "0/Conductor/0.condfile.json" />
 			</patcher>
 		</patcher>
 		<patcher name = "Register">
@@ -162,16 +147,18 @@
 						<patcher name = "styles">
 							<patcher name = "tablature">
 								<patcher name = "editor">
-									<pattr name = "current-staff" value = "0" />
-									<pattr name = "tablature" value = "-1" />
 									<pattr name = "annotation" value = "(dictionary)" />
+									<pattr name = "current-staff" value = "0" />
 									<pattr name = "dict" value = "(dictionary)" />
-									<pattr name = "instrument" value = "0" />
 									<pattr name = "interval" value = "1." />
 									<pattr name = "js" value = "" />
 									<pattr name = "live.gain~" value = "0." />
 									<pattr name = "numfrets" value = "19" />
 									<pattr name = "numstrings" value = "1" />
+									<pattr name = "tablature" value = "-1" />
+									<pattr name = "instrument" value = "0" />
+									<pattr name = "string[0]" value = "62." />
+									<pattr name = "button[0]" value = "0" />
 								</patcher>
 							</patcher>
 							<patcher name = "percussion">
@@ -188,14 +175,14 @@
 								<patcher name = "editor">
 									<pattr name = "_alias" value = "&lt;none&gt;" />
 									<pattr name = "above" value = "0" />
-									<pattr name = "baseclef" value = "TREBLE_CLEF" />
+									<pattr name = "baseclef" value = "default" />
 									<pattr name = "below" value = "0" />
-									<pattr name = "characters" value = "" />
-									<pattr name = "clefname" value = "Test" />
+									<pattr name = "characters" value = "&lt;empty&gt;" />
+									<pattr name = "clefname" value = "None-OneLine" />
 									<pattr name = "font" value = "Bravura" />
-									<pattr name = "hidden" value = "none" />
+									<pattr name = "hidden" value = "0 1 3 4" />
 									<pattr name = "micromap" value = "mM-none" />
-									<pattr name = "offsets" value = "0 -1" />
+									<pattr name = "offsets" value = "0 0" />
 									<pattr name = "size" value = "24" />
 									<pattr name = "transp" value = "0." />
 									<pattr name = "transposition" value = "0." />
@@ -251,7 +238,7 @@
 						<pattr name = "setScoreTopMargin" value = "15." />
 						<pattr name = "setScoreTopMarginOfFirstPage" value = "60." />
 						<pattr name = "setSubtitle" value = "" />
-						<pattr name = "setTitle" value = "JMSLMaxScore-7" />
+						<pattr name = "setTitle" value = "JMSLMaxScore-3527" />
 						<pattr name = "setTitleVisible" value = "0" />
 						<pattr name = "setWrap" value = "1" />
 						<pattr name = "showClefs" value = "1" />
@@ -303,91 +290,69 @@
 					</patcher>
 				</patcher>
 				<patcher name = "indexes.1">
-					<pattr name = "u683001516" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
+					<pattr name = "u630007818" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
 				</patcher>
 				<patcher name = "indexes.2">
-					<pattr name = "u124001592" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
+					<pattr name = "u506007894" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
 				</patcher>
 				<patcher name = "indexes.3">
-					<pattr name = "u616001588" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
+					<pattr name = "u161007890" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
 				</patcher>
 				<patcher name = "indexes.4">
-					<pattr name = "u287001584" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
+					<pattr name = "u086007886" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
 				</patcher>
 				<patcher name = "indexes.5">
-					<pattr name = "u896001580" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
+					<pattr name = "u713007882" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
 				</patcher>
 				<patcher name = "indexes.6">
-					<pattr name = "u265001576" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
+					<pattr name = "u750007878" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
 				</patcher>
 				<patcher name = "indexes.7">
-					<pattr name = "u642001572" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
+					<pattr name = "u554007874" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
 				</patcher>
 				<patcher name = "indexes.8">
-					<pattr name = "u085001568" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
+					<pattr name = "u966007870" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
 				</patcher>
 				<patcher name = "indexes.9">
-					<pattr name = "u933001564" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
+					<pattr name = "u011007866" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
 				</patcher>
 				<patcher name = "indexes.10">
-					<pattr name = "u766001560" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
+					<pattr name = "u889007862" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
 				</patcher>
 				<patcher name = "indexes.11">
-					<pattr name = "u266001556" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
+					<pattr name = "u055007858" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
 				</patcher>
 				<patcher name = "indexes.12">
-					<pattr name = "u220001552" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
+					<pattr name = "u296007854" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
 				</patcher>
 				<patcher name = "indexes.13">
-					<pattr name = "u121001548" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
+					<pattr name = "u187007850" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
 				</patcher>
 				<patcher name = "indexes.14">
-					<pattr name = "u744001544" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
+					<pattr name = "u450007846" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
 				</patcher>
 				<patcher name = "indexes.15">
-					<pattr name = "u907001540" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
+					<pattr name = "u234007842" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
 				</patcher>
 				<patcher name = "indexes.16">
-					<pattr name = "u976001536" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
+					<pattr name = "u291007838" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
 				</patcher>
 				<patcher name = "indexes.17">
-					<pattr name = "u986001532" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
+					<pattr name = "u503007834" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
 				</patcher>
 				<patcher name = "indexes.18">
-					<pattr name = "u174001528" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
+					<pattr name = "u410007830" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
 				</patcher>
 				<patcher name = "indexes.19">
-					<pattr name = "u777001524" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
+					<pattr name = "u910007826" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
 				</patcher>
 				<patcher name = "indexes.20">
-					<pattr name = "u518001520" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
+					<pattr name = "u557007822" value = "800. -100. -0.000005 0. -0.000005 0 800. -100. 0 linear" />
 				</patcher>
 			</patcher>
 			<patcher name = "patcher">
-				<pattr name = "u070001036" value = "0 0 1 0 1 1 0 2 1 0 3 1 0 4 1 0 5 1 1 0 1 1 1 1 1 2 1 1 3 1 1 4 1 1 5 1 2 0 1 2 1 1 2 2 1 2 3 1 2 4 1 2 5 1 3 0 1 3 1 1 3 2 1 3 3 1 3 4 1 3 5 1 4 0 1 4 1 1 4 2 1 4 3 1 4 4 1 4 5 1" />
+				<pattr name = "u200007386" value = "0" />
 			</patcher>
-		</patcher>
-		<patcher name = "sender">
-			<patcher name = "AudioCube">
-				<patcher name = "control-panel">
-					<pattr name = "rgb-1" value = "0.266667 0.266667 0.266667" />
-					<pattr name = "rgb-2" value = "0. 0.533333 0.133333" />
-					<pattr name = "rgb-3" value = "0. 0.8 0." />
-					<pattr name = "rgb-4" value = "0. 0. 0." />
-					<pattr name = "rgb-5" value = "0.466667 0.066667 0." />
-				</patcher>
-			</patcher>
-		</patcher>
-		<patcher name = "ScorePanel">
-			<pattr name = "cursor" value = "0" />
-			<pattr name = "leadingspace" value = "1" />
-			<pattr name = "messdest" value = "1" />
-			<pattr name = "numStaves" value = "5" />
-			<pattr name = "output2controlpanel" value = "0" />
-			<pattr name = "paint" value = "0" />
-			<pattr name = "send" value = "1" />
-			<pattr name = "triggers-comment[1]" value = "0" />
-			<pattr name = "u545000921" value = "0 0 1 0 1 1 0 2 1 0 3 1 0 4 1 0 5 1 1 0 1 1 1 1 1 2 1 1 3 1 1 4 1 1 5 1 2 0 1 2 1 1 2 2 1 2 3 1 2 4 1 2 5 1 3 0 1 3 1 1 3 2 1 3 3 1 3 4 1 3 5 1 4 0 1 4 1 1 4 2 1 4 3 1 4 4 1 4 5 1" />
 		</patcher>
 	</slot>
 </pattrstorage>

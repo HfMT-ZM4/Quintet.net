@@ -60,11 +60,11 @@
 					"presentation_rect" : [ 416.0, 4.0, 40.0, 40.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text[2]",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2,
-							"parameter_longname" : "live.text[8]"
+							"parameter_longname" : "live.text[8]",
+							"parameter_mmax" : 1
 						}
 
 					}
@@ -97,11 +97,11 @@
 					"presentation_rect" : [ 247.5, 4.0, 40.0, 40.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text[2]",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2,
-							"parameter_longname" : "live.text[14]"
+							"parameter_longname" : "live.text[14]",
+							"parameter_mmax" : 1
 						}
 
 					}
@@ -311,7 +311,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u094016404"
+									"varname" : "u549006443"
 								}
 
 							}
@@ -1686,11 +1686,11 @@
 					"presentation_rect" : [ 7.0, 4.0, 40.0, 40.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text[2]",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2,
-							"parameter_longname" : "live.text[2]"
+							"parameter_longname" : "live.text[2]",
+							"parameter_mmax" : 1
 						}
 
 					}
@@ -1843,14 +1843,14 @@
 					"patching_rect" : [ 209.0, 78.0, 50.0, 50.0 ],
 					"pictures" : [ "navigate.svg", "<none>" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 169.0, 4.0, 40.0, 40.0 ],
+					"presentation_rect" : [ 169.0, 2.0, 40.0, 40.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text[2]",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2,
-							"parameter_longname" : "live.text[7]"
+							"parameter_longname" : "live.text[7]",
+							"parameter_mmax" : 1
 						}
 
 					}
@@ -1870,7 +1870,7 @@
 					"bgoncolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 0.0 ],
 					"bordercolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 0.0 ],
 					"focusbordercolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 0.0 ],
-					"hint" : "DSP Setup",
+					"hint" : "Audio On/Off",
 					"id" : "obj-36",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -1878,17 +1878,16 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 359.0, 78.0, 50.0, 50.0 ],
-					"pictures" : [ "audiopower.svg", "audiopower.svg" ],
+					"pictures" : [ "audiopoweroff.svg", "audiopoweron.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 332.5, 4.0, 40.0, 40.0 ],
-					"remapsvgcolors" : 1,
+					"presentation_rect" : [ 332.5, 3.0, 40.0, 40.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text[2]",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2,
-							"parameter_longname" : "live.text[12]"
+							"parameter_longname" : "live.text[12]",
+							"parameter_mmax" : 1
 						}
 
 					}
@@ -1933,7 +1932,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u779016400"
+					"varname" : "u945006444"
 				}
 
 			}
@@ -2007,7 +2006,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 101.0, 151.0, 94.0, 18.0 ],
+									"patching_rect" : [ 101.0, 151.0, 94.0, 20.0 ],
 									"text" : "route clear append"
 								}
 
@@ -2034,7 +2033,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "int" ],
-									"patching_rect" : [ 101.0, 121.0, 79.0, 18.0 ],
+									"patching_rect" : [ 101.0, 121.0, 79.0, 20.0 ],
 									"text" : "adstatus switch"
 								}
 
@@ -2176,15 +2175,15 @@
 					"patching_rect" : [ 135.0, 78.0, 50.0, 50.0 ],
 					"pictures" : [ "midimap.svg", "<none>" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 89.0, 4.0, 40.0, 40.0 ],
+					"presentation_rect" : [ 89.0, 3.0, 40.0, 40.0 ],
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text[2]",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2,
-							"parameter_longname" : "live.text[4]"
+							"parameter_longname" : "live.text[4]",
+							"parameter_mmax" : 1
 						}
 
 					}
@@ -2242,11 +2241,11 @@
 					"presentation_rect" : [ 584.75, 4.0, 40.0, 40.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text[2]",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2,
-							"parameter_longname" : "live.text[10]"
+							"parameter_longname" : "live.text[10]",
+							"parameter_mmax" : 1
 						}
 
 					}
@@ -2278,7 +2277,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 510.0, 93.0, 50.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 502.5, 6.0, 40.0, 40.0 ],
+					"presentation_rect" : [ 502.5, 3.0, 40.0, 40.0 ],
 					"textcolor" : [ 0.968627450980392, 0.968627450980392, 0.968627450980392, 0.0 ],
 					"varname" : "reset"
 				}
@@ -2303,15 +2302,15 @@
 					"patching_rect" : [ 526.0, 78.0, 50.0, 50.0 ],
 					"pictures" : [ "reload.svg", "<none>" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 502.5, 6.0, 40.0, 40.0 ],
+					"presentation_rect" : [ 502.5, 4.0, 40.0, 40.0 ],
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text[2]",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2,
-							"parameter_longname" : "live.text[9]"
+							"parameter_longname" : "live.text[9]",
+							"parameter_mmax" : 1
 						}
 
 					}

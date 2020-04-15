@@ -97,7 +97,7 @@
 				</patcher>
 			</patcher>
 			<patcher name = "Network">
-				<pattr name = "u300013820" value = "0" />
+				<pattr name = "u599026898" value = "0" />
 			</patcher>
 			<patcher name = "MIDI">
 				<patcher name = "control-panel">
@@ -108,11 +108,37 @@
 			</patcher>
 			<patcher name = "EffectsEngine">
 				<patcher name = "control-panel">
+					<patcher name = "jk-master-bp">
+						<patcher name = "SPECTRAL">
+							<pattr name = "u707026175" value = "-1" />
+						</patcher>
+						<patcher name = "PITCH-SHIFT">
+							<pattr name = "u008025900" value = "-1" />
+						</patcher>
+						<patcher name = "Master">
+							<pattr name = "u830025654" value = "-1" />
+						</patcher>
+						<patcher name = "MODULATION">
+							<pattr name = "u236025259" value = "-1" />
+						</patcher>
+						<patcher name = "COMBFILTER">
+							<pattr name = "u311024973" value = "-1" />
+						</patcher>
+						<patcher name = "DISTORTION">
+							<pattr name = "u453024733" value = "-1" />
+						</patcher>
+						<patcher name = "ONE-FILTER">
+							<pattr name = "u812024509" value = "-1" />
+						</patcher>
+						<patcher name = "WaveShape">
+							<pattr name = "u763024249" value = "-1" />
+						</patcher>
+					</patcher>
 				</patcher>
 			</patcher>
 			<patcher name = "Computer_Keyboard">
 				<pattr name = "volume" value = "61" />
-				<pattr name = "u562013352" value = "1" />
+				<pattr name = "u977024017" value = "1" />
 				<patcher name = "control-panel">
 					<pattr name = "Layout" value = "Diagonal.txt" />
 					<pattr name = "shift-with-tab" value = "1" />
@@ -539,7 +565,7 @@
 				<pattr name = "live.text" value = "0." />
 				<pattr name = "live.text[1]" value = "0." />
 				<pattr name = "mappers" value = "0" />
-				<pattr name = "source" value = "/client/stateCache 299.3ociT2ySCCCDF.dl7qHxysQD+wBiHgnSHDjMDClx0VSSsircFJT9uSoUTkVht6Vy664K9YveUbkny5g1p5c6b9TN1uA7YQ4MkBevChICKj68N+xGrafCEpkM20bditXXNjRmpjWE6GswiQHAG2SvediEt1LDOcDSeaamMklN1uxyqbKNbHWORXSz5ScgjK61uh+U53ZvJIIuwRJzjjjHIIQxgDIFIRNjH4Phh5BqHMSQRhhjDEGRTXjn3PhhCIZJRzjjnIIQSRhlCIZLRzbHQygDCEIFRRLjjXHIwvgDCFIFNjXvIAVu+ye96KNsg41+hD217jXPr7h3pppKh6Zsag3XgJ7YUXypwmUiMqAeVC1r0CCeoTbODhKESJEyre7dun70huK9A.xjW7O" />
+				<pattr name = "source" value = "/client/stateCache 398.3ociT1ySCCCDFdl9qHxysQD+wBinhJKfPzrgPHSiSqgTmHamJUn7emzFQooMw2s568783mDceO5JRkznJhS1sSabda8ZkwShtIhXJMJx3SC3qMZyxGkqUGBjPSuKsahJa4BkycLhekst2DOYUNU6bJMcSjqK7J6wqXx6aqjN2j9PY9Jc9gK45dJlZkFWUoS60Mi3hPsiITHJ3KlBIMJnRnfJghQIzPJghQITLJgA8fYfNiApDFnRXXTBKjRXXTBCiR3PJgCpDNnR3fJgiQI7PJgiQIbLJQ.oDAnRDfJQ.pDAFkHBoDAFkHBqD0mMG+09MNEkKj+Uhba5yjSJSOqbbb7YkqJjaU19JxB2KKTu7v8xC0qHbuhP8lbZwWhHyTk1kjwQj6kejUShdsyhoLsae5GJyZ+Np1z7ikizWl4d4Fk6PpYMSJ6slCxy6F0oLYSUMgubEXaImWa9+cc4JNPdX34gMLOLT7jffmD77jLLOIn3QffGAddDCyi.EObD7vwyCeXd3A3YzOi9EjbFAHN" />
 				<patcher name = "output">
 					<pattr name = "info" value = "&lt;empty&gt;" />
 				</patcher>
@@ -552,14 +578,14 @@
 				<patcher name = "mapper.instances">
 					<patcher name = "nodes">
 						<patcher name = "nodespatcher">
-							<pattr name = "u999007988" value = "0.0885 0.0885 0.2 1 0.1667 0.1667 0.2 1 0.2434 0.2522 0.2 1" />
+							<pattr name = "u612007023" value = "0.0885 0.0885 0.2 1 0.1667 0.1667 0.2 1 0.2434 0.2522 0.2 1" />
 						</patcher>
 					</patcher>
 				</patcher>
 				<patcher name = "mapper-inspectors">
 					<patcher name = "nodes">
 						<patcher name = "nodespatcher">
-							<pattr name = "u012008108" value = "0.0885 0.0885 0.2 1 0.1667 0.1667 0.2 1 0.2434 0.2522 0.2 1" />
+							<pattr name = "u509007143" value = "0.0885 0.0885 0.2 1 0.1667 0.1667 0.2 1 0.2434 0.2522 0.2 1" />
 						</patcher>
 					</patcher>
 				</patcher>
@@ -567,14 +593,14 @@
 		</patcher>
 		<patcher name = "Register">
 			<patcher name = "serverIP">
-				<pattr name = "info" value = "192.168.178.146" />
+				<pattr name = "info" value = "localhost" />
 			</patcher>
 			<patcher name = "Identity">
 				<pattr name = "info" value = "Player 1" />
 			</patcher>
 			<patcher name = "chat-parent">
 				<patcher name = "chat">
-					<pattr name = "textcolor" value = "91 221 42" />
+					<pattr name = "textcolor" value = "102 195 56" />
 					<pattr name = "vertical_scroll" value = "50 100" />
 				</patcher>
 			</patcher>
@@ -645,13 +671,50 @@
 							<pattr name = "tonic_pitch" value = "5300" />
 							<pattr name = "umenu" value = "0" />
 						</patcher>
-						<pattr name = "u442008273" value = "thru" />
+						<pattr name = "u779014163" value = "thru" />
 					</patcher>
 					<patcher name = "harmonizer">
 						<pattr name = "params" value = "1 1. 0 0 2 1. 0 0 3 1. 0 0 4 1. 0 0 5 1. 0 0 6 1. 0 0" />
 						<pattr name = "random" value = "0" />
 					</patcher>
 					<patcher name = "transformation">
+						<patcher name = "controlpanel">
+						</patcher>
+					</patcher>
+					<patcher name = "DJster[1]">
+						<patcher name = "controlpanel">
+							<patcher name = "preset">
+								<pattr name = "file" value = "0" />
+							</patcher>
+							<pattr name = "attenuation" value = "40" />
+							<pattr name = "chordal_weight" value = "1" />
+							<pattr name = "complete_tuplets" value = "1" />
+							<pattr name = "dynamics" value = "68" />
+							<pattr name = "event_length" value = "16000." />
+							<pattr name = "eventfulness" value = "20" />
+							<pattr name = "harmoniclarity" value = "0" />
+							<pattr name = "melody_scope" value = "450" />
+							<pattr name = "meter" value = "&quot;1&quot;" />
+							<pattr name = "metric_ratio" value = "0" />
+							<pattr name = "metriclarity" value = "7" />
+							<pattr name = "ostinato" value = "0" />
+							<pattr name = "outset_pulses" value = "1" />
+							<pattr name = "overdrive" value = "0" />
+							<pattr name = "pitch_center" value = "5250" />
+							<pattr name = "pitch_range" value = "450" />
+							<pattr name = "pulse_length" value = "4000." />
+							<pattr name = "scale" value = "pentatonic" />
+							<pattr name = "stream" value = "0" />
+							<pattr name = "tonic_pitch" value = "5300" />
+							<pattr name = "umenu" value = "0" />
+						</patcher>
+						<pattr name = "u030018896" value = "thru" />
+					</patcher>
+					<patcher name = "harmonizer[1]">
+						<pattr name = "params" value = "1 1. 0 0 2 1. 0 0 3 1. 0 0 4 1. 0 0 5 1. 0 0 6 1. 0 0" />
+						<pattr name = "random" value = "0" />
+					</patcher>
+					<patcher name = "transformation[1]">
 						<patcher name = "controlpanel">
 						</patcher>
 					</patcher>
@@ -684,13 +747,50 @@
 							<pattr name = "tonic_pitch" value = "5300" />
 							<pattr name = "umenu" value = "0" />
 						</patcher>
-						<pattr name = "u247009071" value = "thru" />
+						<pattr name = "u348014961" value = "thru" />
 					</patcher>
 					<patcher name = "harmonizer">
 						<pattr name = "params" value = "1 1. 0 0 2 1. 0 0 3 1. 0 0 4 1. 0 0 5 1. 0 0 6 1. 0 0" />
 						<pattr name = "random" value = "0" />
 					</patcher>
 					<patcher name = "transformation">
+						<patcher name = "controlpanel">
+						</patcher>
+					</patcher>
+					<patcher name = "DJster[1]">
+						<patcher name = "controlpanel">
+							<patcher name = "preset">
+								<pattr name = "file" value = "0" />
+							</patcher>
+							<pattr name = "attenuation" value = "40" />
+							<pattr name = "chordal_weight" value = "1" />
+							<pattr name = "complete_tuplets" value = "1" />
+							<pattr name = "dynamics" value = "68" />
+							<pattr name = "event_length" value = "16000." />
+							<pattr name = "eventfulness" value = "20" />
+							<pattr name = "harmoniclarity" value = "0" />
+							<pattr name = "melody_scope" value = "450" />
+							<pattr name = "meter" value = "&quot;1&quot;" />
+							<pattr name = "metric_ratio" value = "0" />
+							<pattr name = "metriclarity" value = "7" />
+							<pattr name = "ostinato" value = "0" />
+							<pattr name = "outset_pulses" value = "1" />
+							<pattr name = "overdrive" value = "0" />
+							<pattr name = "pitch_center" value = "5250" />
+							<pattr name = "pitch_range" value = "450" />
+							<pattr name = "pulse_length" value = "4000." />
+							<pattr name = "scale" value = "pentatonic" />
+							<pattr name = "stream" value = "0" />
+							<pattr name = "tonic_pitch" value = "5300" />
+							<pattr name = "umenu" value = "0" />
+						</patcher>
+						<pattr name = "u240019690" value = "thru" />
+					</patcher>
+					<patcher name = "harmonizer[1]">
+						<pattr name = "params" value = "1 1. 0 0 2 1. 0 0 3 1. 0 0 4 1. 0 0 5 1. 0 0 6 1. 0 0" />
+						<pattr name = "random" value = "0" />
+					</patcher>
+					<patcher name = "transformation[1]">
 						<patcher name = "controlpanel">
 						</patcher>
 					</patcher>
@@ -723,13 +823,50 @@
 							<pattr name = "tonic_pitch" value = "5300" />
 							<pattr name = "umenu" value = "0" />
 						</patcher>
-						<pattr name = "u932009866" value = "thru" />
+						<pattr name = "u718015756" value = "thru" />
 					</patcher>
 					<patcher name = "harmonizer">
 						<pattr name = "params" value = "1 1. 0 0 2 1. 0 0 3 1. 0 0 4 1. 0 0 5 1. 0 0 6 1. 0 0" />
 						<pattr name = "random" value = "0" />
 					</patcher>
 					<patcher name = "transformation">
+						<patcher name = "controlpanel">
+						</patcher>
+					</patcher>
+					<patcher name = "DJster[1]">
+						<patcher name = "controlpanel">
+							<patcher name = "preset">
+								<pattr name = "file" value = "0" />
+							</patcher>
+							<pattr name = "attenuation" value = "40" />
+							<pattr name = "chordal_weight" value = "1" />
+							<pattr name = "complete_tuplets" value = "1" />
+							<pattr name = "dynamics" value = "68" />
+							<pattr name = "event_length" value = "16000." />
+							<pattr name = "eventfulness" value = "20" />
+							<pattr name = "harmoniclarity" value = "0" />
+							<pattr name = "melody_scope" value = "450" />
+							<pattr name = "meter" value = "&quot;1&quot;" />
+							<pattr name = "metric_ratio" value = "0" />
+							<pattr name = "metriclarity" value = "7" />
+							<pattr name = "ostinato" value = "0" />
+							<pattr name = "outset_pulses" value = "1" />
+							<pattr name = "overdrive" value = "0" />
+							<pattr name = "pitch_center" value = "5250" />
+							<pattr name = "pitch_range" value = "450" />
+							<pattr name = "pulse_length" value = "4000." />
+							<pattr name = "scale" value = "pentatonic" />
+							<pattr name = "stream" value = "0" />
+							<pattr name = "tonic_pitch" value = "5300" />
+							<pattr name = "umenu" value = "0" />
+						</patcher>
+						<pattr name = "u622020484" value = "thru" />
+					</patcher>
+					<patcher name = "harmonizer[1]">
+						<pattr name = "params" value = "1 1. 0 0 2 1. 0 0 3 1. 0 0 4 1. 0 0 5 1. 0 0 6 1. 0 0" />
+						<pattr name = "random" value = "0" />
+					</patcher>
+					<patcher name = "transformation[1]">
 						<patcher name = "controlpanel">
 						</patcher>
 					</patcher>
@@ -762,13 +899,50 @@
 							<pattr name = "tonic_pitch" value = "5300" />
 							<pattr name = "umenu" value = "0" />
 						</patcher>
-						<pattr name = "u830010661" value = "thru" />
+						<pattr name = "u693016551" value = "thru" />
 					</patcher>
 					<patcher name = "harmonizer">
 						<pattr name = "params" value = "1 1. 0 0 2 1. 0 0 3 1. 0 0 4 1. 0 0 5 1. 0 0 6 1. 0 0" />
 						<pattr name = "random" value = "0" />
 					</patcher>
 					<patcher name = "transformation">
+						<patcher name = "controlpanel">
+						</patcher>
+					</patcher>
+					<patcher name = "DJster[1]">
+						<patcher name = "controlpanel">
+							<patcher name = "preset">
+								<pattr name = "file" value = "0" />
+							</patcher>
+							<pattr name = "attenuation" value = "40" />
+							<pattr name = "chordal_weight" value = "1" />
+							<pattr name = "complete_tuplets" value = "1" />
+							<pattr name = "dynamics" value = "68" />
+							<pattr name = "event_length" value = "16000." />
+							<pattr name = "eventfulness" value = "20" />
+							<pattr name = "harmoniclarity" value = "0" />
+							<pattr name = "melody_scope" value = "450" />
+							<pattr name = "meter" value = "&quot;1&quot;" />
+							<pattr name = "metric_ratio" value = "0" />
+							<pattr name = "metriclarity" value = "7" />
+							<pattr name = "ostinato" value = "0" />
+							<pattr name = "outset_pulses" value = "1" />
+							<pattr name = "overdrive" value = "0" />
+							<pattr name = "pitch_center" value = "5250" />
+							<pattr name = "pitch_range" value = "450" />
+							<pattr name = "pulse_length" value = "4000." />
+							<pattr name = "scale" value = "pentatonic" />
+							<pattr name = "stream" value = "0" />
+							<pattr name = "tonic_pitch" value = "5300" />
+							<pattr name = "umenu" value = "0" />
+						</patcher>
+						<pattr name = "u320021278" value = "thru" />
+					</patcher>
+					<patcher name = "harmonizer[1]">
+						<pattr name = "params" value = "1 1. 0 0 2 1. 0 0 3 1. 0 0 4 1. 0 0 5 1. 0 0 6 1. 0 0" />
+						<pattr name = "random" value = "0" />
+					</patcher>
+					<patcher name = "transformation[1]">
 						<patcher name = "controlpanel">
 						</patcher>
 					</patcher>
@@ -801,13 +975,50 @@
 							<pattr name = "tonic_pitch" value = "5300" />
 							<pattr name = "umenu" value = "0" />
 						</patcher>
-						<pattr name = "u985011456" value = "thru" />
+						<pattr name = "u424017346" value = "thru" />
 					</patcher>
 					<patcher name = "harmonizer">
 						<pattr name = "params" value = "1 1. 0 0 2 1. 0 0 3 1. 0 0 4 1. 0 0 5 1. 0 0 6 1. 0 0" />
 						<pattr name = "random" value = "0" />
 					</patcher>
 					<patcher name = "transformation">
+						<patcher name = "controlpanel">
+						</patcher>
+					</patcher>
+					<patcher name = "DJster[1]">
+						<patcher name = "controlpanel">
+							<patcher name = "preset">
+								<pattr name = "file" value = "0" />
+							</patcher>
+							<pattr name = "attenuation" value = "40" />
+							<pattr name = "chordal_weight" value = "1" />
+							<pattr name = "complete_tuplets" value = "1" />
+							<pattr name = "dynamics" value = "68" />
+							<pattr name = "event_length" value = "16000." />
+							<pattr name = "eventfulness" value = "20" />
+							<pattr name = "harmoniclarity" value = "0" />
+							<pattr name = "melody_scope" value = "450" />
+							<pattr name = "meter" value = "&quot;1&quot;" />
+							<pattr name = "metric_ratio" value = "0" />
+							<pattr name = "metriclarity" value = "7" />
+							<pattr name = "ostinato" value = "0" />
+							<pattr name = "outset_pulses" value = "1" />
+							<pattr name = "overdrive" value = "0" />
+							<pattr name = "pitch_center" value = "5250" />
+							<pattr name = "pitch_range" value = "450" />
+							<pattr name = "pulse_length" value = "4000." />
+							<pattr name = "scale" value = "pentatonic" />
+							<pattr name = "stream" value = "0" />
+							<pattr name = "tonic_pitch" value = "5300" />
+							<pattr name = "umenu" value = "0" />
+						</patcher>
+						<pattr name = "u062022072" value = "thru" />
+					</patcher>
+					<patcher name = "harmonizer[1]">
+						<pattr name = "params" value = "1 1. 0 0 2 1. 0 0 3 1. 0 0 4 1. 0 0 5 1. 0 0 6 1. 0 0" />
+						<pattr name = "random" value = "0" />
+					</patcher>
+					<patcher name = "transformation[1]">
 						<patcher name = "controlpanel">
 						</patcher>
 					</patcher>

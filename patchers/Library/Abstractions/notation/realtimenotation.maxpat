@@ -260,7 +260,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 92.0, 206.0, 53.0, 20.0 ],
+									"patching_rect" : [ 92.0, 288.0, 53.0, 20.0 ],
 									"text" : "!/ 1000."
 								}
 
@@ -275,8 +275,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 92.0, 182.0, 86.0, 20.0 ],
-									"text" : "r 1cursor-speed"
+									"patching_rect" : [ 92.0, 264.0, 84.0, 20.0 ],
+									"text" : "r #1cursor-speed"
 								}
 
 							}

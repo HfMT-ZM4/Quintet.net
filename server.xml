@@ -4,7 +4,7 @@
 	<slot number = "1">
 		<pattr name = "live.text" value = "0." />
 		<patcher name = "myIP">
-			<pattr name = "info" value = "&lt;empty&gt;" />
+			<pattr name = "info" value = "127.0.0.1" />
 		</patcher>
 	</slot>
 </pattrstorage>

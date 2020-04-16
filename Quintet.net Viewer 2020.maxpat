@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"title" : "Quintet.net Viewer",
 		"boxes" : [ 			{
 				"box" : 				{
@@ -49,7 +50,7 @@
 					"patching_rect" : [ 1027.0, 708.0, 100.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1027.0, 708.0, 100.0, 17.0 ],
-					"text" : "version 20150619",
+					"text" : "version 20200415",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "version"
 				}
@@ -97,11 +98,11 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 517.0, 708.0, 59.5, 20.0 ],
 					"restore" : 					{
-						"render" : [ 1 ]
+						"render" : [ 0 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u948005818"
+					"varname" : "u619007158"
 				}
 
 			}
@@ -136,7 +137,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 14.0, 705.5, 18.0, 18.0 ],
 					"size" : 1,
-					"values" : [ 1 ],
+					"values" : [ 0 ],
 					"varname" : "render"
 				}
 
@@ -179,7 +180,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -212,6 +213,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -241,7 +243,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -274,6 +276,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -408,7 +411,8 @@
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 216.5, 147.666672000000005, 69.0, 22.0 ],
 													"saved_object_attributes" : 													{
-														"embed" : 1
+														"embed" : 1,
+														"precision" : 6
 													}
 ,
 													"text" : "coll -1gui 1"
@@ -491,7 +495,8 @@
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 258.0, 352.0, 69.0, 22.0 ],
 													"saved_object_attributes" : 													{
-														"embed" : 1
+														"embed" : 1,
+														"precision" : 6
 													}
 ,
 													"text" : "coll -1gui 1"
@@ -764,7 +769,7 @@
 															}
 , 															{
 																"key" : 2,
-																"value" : [ "gradient" ]
+																"value" : [ "painter" ]
 															}
 , 															{
 																"key" : 3,
@@ -772,11 +777,11 @@
 															}
 , 															{
 																"key" : 4,
-																"value" : [ "spectrogram" ]
+																"value" : [ "gradient" ]
 															}
 , 															{
 																"key" : 5,
-																"value" : [ "waveform" ]
+																"value" : [ "notation" ]
 															}
  ]
 													}
@@ -790,7 +795,8 @@
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 598.5, 147.666672000000005, 78.0, 22.0 ],
 													"saved_object_attributes" : 													{
-														"embed" : 1
+														"embed" : 1,
+														"precision" : 6
 													}
 ,
 													"text" : "coll 0gui 1"
@@ -851,7 +857,7 @@
 															}
 , 															{
 																"key" : 2,
-																"value" : [ "gradient" ]
+																"value" : [ "painter" ]
 															}
 , 															{
 																"key" : 3,
@@ -859,11 +865,11 @@
 															}
 , 															{
 																"key" : 4,
-																"value" : [ "spectrogram" ]
+																"value" : [ "gradient" ]
 															}
 , 															{
 																"key" : 5,
-																"value" : [ "waveform" ]
+																"value" : [ "notation" ]
 															}
  ]
 													}
@@ -877,7 +883,8 @@
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 636.0, 352.0, 78.0, 22.0 ],
 													"saved_object_attributes" : 													{
-														"embed" : 1
+														"embed" : 1,
+														"precision" : 6
 													}
 ,
 													"text" : "coll 0gui 1"
@@ -1024,23 +1031,23 @@
 															}
 , 															{
 																"key" : 1,
-																"value" : [ "basic" ]
+																"value" : [ "dot_screen" ]
 															}
 , 															{
 																"key" : 2,
-																"value" : [ "rotation" ]
+																"value" : [ "tiffany" ]
 															}
 , 															{
 																"key" : 3,
-																"value" : [ "type" ]
+																"value" : [ "rotation" ]
 															}
 , 															{
 																"key" : 4,
-																"value" : [ "drift" ]
+																"value" : [ "kaleidoscope" ]
 															}
 , 															{
 																"key" : 5,
-																"value" : [ "eclipse" ]
+																"value" : [ "drift" ]
 															}
  ]
 													}
@@ -1054,7 +1061,8 @@
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 1481.0, 353.0, 78.0, 22.0 ],
 													"saved_object_attributes" : 													{
-														"embed" : 1
+														"embed" : 1,
+														"precision" : 6
 													}
 ,
 													"text" : "coll 2gui 1"
@@ -1199,23 +1207,23 @@
 															}
 , 															{
 																"key" : 1,
-																"value" : [ "basic" ]
+																"value" : [ "dot_screen" ]
 															}
 , 															{
 																"key" : 2,
-																"value" : [ "rotation" ]
+																"value" : [ "tiffany" ]
 															}
 , 															{
 																"key" : 3,
-																"value" : [ "type" ]
+																"value" : [ "rotation" ]
 															}
 , 															{
 																"key" : 4,
-																"value" : [ "drift" ]
+																"value" : [ "kaleidoscope" ]
 															}
 , 															{
 																"key" : 5,
-																"value" : [ "eclipse" ]
+																"value" : [ "drift" ]
 															}
  ]
 													}
@@ -1229,7 +1237,8 @@
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 1427.5, 144.666672000000005, 78.0, 22.0 ],
 													"saved_object_attributes" : 													{
-														"embed" : 1
+														"embed" : 1,
+														"precision" : 6
 													}
 ,
 													"text" : "coll 2gui 1"
@@ -1346,23 +1355,23 @@
 															}
 , 															{
 																"key" : 1,
-																"value" : [ "basic" ]
+																"value" : [ "dot_screen" ]
 															}
 , 															{
 																"key" : 2,
-																"value" : [ "rotation" ]
+																"value" : [ "tiffany" ]
 															}
 , 															{
 																"key" : 3,
-																"value" : [ "type" ]
+																"value" : [ "rotation" ]
 															}
 , 															{
 																"key" : 4,
-																"value" : [ "twirl" ]
+																"value" : [ "kaleidoscope" ]
 															}
 , 															{
 																"key" : 5,
-																"value" : [ "kaleidoscope" ]
+																"value" : [ "drift" ]
 															}
  ]
 													}
@@ -1376,7 +1385,8 @@
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 1025.5, 144.666672000000005, 78.0, 22.0 ],
 													"saved_object_attributes" : 													{
-														"embed" : 1
+														"embed" : 1,
+														"precision" : 6
 													}
 ,
 													"text" : "coll 1gui 1"
@@ -1507,23 +1517,23 @@
 															}
 , 															{
 																"key" : 1,
-																"value" : [ "basic" ]
+																"value" : [ "dot_screen" ]
 															}
 , 															{
 																"key" : 2,
-																"value" : [ "rotation" ]
+																"value" : [ "tiffany" ]
 															}
 , 															{
 																"key" : 3,
-																"value" : [ "type" ]
+																"value" : [ "rotation" ]
 															}
 , 															{
 																"key" : 4,
-																"value" : [ "twirl" ]
+																"value" : [ "kaleidoscope" ]
 															}
 , 															{
 																"key" : 5,
-																"value" : [ "kaleidoscope" ]
+																"value" : [ "drift" ]
 															}
  ]
 													}
@@ -1537,7 +1547,8 @@
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 1063.0, 350.0, 78.0, 22.0 ],
 													"saved_object_attributes" : 													{
-														"embed" : 1
+														"embed" : 1,
+														"precision" : 6
 													}
 ,
 													"text" : "coll 1gui 1"
@@ -3161,7 +3172,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3194,6 +3205,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -3468,7 +3480,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3501,6 +3513,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"angle" : -90.0,
@@ -3732,7 +3745,6 @@
 			}
 , 			{
 				"box" : 				{
-					"autorestore" : "Blueprint-Viewer8.xml",
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"hidden" : 1,
@@ -3744,11 +3756,11 @@
 					"patching_rect" : [ 7.0, 25.0, 294.0, 19.0 ],
 					"priority" : 					{
 						"player.5::path" : -1,
-						"player.5::rate" : -1,
+						"player.5::rate" : 2,
 						"player.5::play" : 1,
 						"player.5::looppoints" : 2,
 						"player.4::path" : -1,
-						"player.4::rate" : -1,
+						"player.4::rate" : 2,
 						"player.4::play" : 1,
 						"player.4::looppoints" : 2,
 						"player.1::path" : -1,
@@ -3757,11 +3769,11 @@
 						"player.1::looppoints" : 2,
 						"mix::time" : -1,
 						"player.2::path" : -1,
-						"player.2::rate" : -1,
+						"player.2::rate" : 2,
 						"player.2::play" : 1,
 						"player.2::looppoints" : 2,
 						"player.3::path" : -1,
-						"player.3::rate" : -1,
+						"player.3::rate" : 2,
 						"player.3::play" : 1,
 						"player.3::looppoints" : 2,
 						"paths::1path" : -2,
@@ -3841,13 +3853,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 53.0, 219.0, 1136.0, 521.0 ],
+						"rect" : [ 121.0, 334.0, 1136.0, 521.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -3874,6 +3886,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -4024,7 +4037,8 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 87.0, 313.0, 64.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"embed" : 0
+										"embed" : 0,
+										"precision" : 6
 									}
 ,
 									"text" : "coll clientlist"
@@ -4143,7 +4157,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4176,6 +4190,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -4366,7 +4381,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::player.5::bordercolor",
-													"varname" : "u060001145"
+													"varname" : "u953033355"
 												}
 
 											}
@@ -4387,7 +4402,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::player.4::bordercolor",
-													"varname" : "u770001147"
+													"varname" : "u682033357"
 												}
 
 											}
@@ -4408,7 +4423,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::player.3::bordercolor",
-													"varname" : "u918001149"
+													"varname" : "u972033359"
 												}
 
 											}
@@ -4429,7 +4444,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::player.2::bordercolor",
-													"varname" : "u127001151"
+													"varname" : "u487033361"
 												}
 
 											}
@@ -4450,7 +4465,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::player.1::bordercolor",
-													"varname" : "u228001153"
+													"varname" : "u120033363"
 												}
 
 											}
@@ -4725,7 +4740,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4758,6 +4773,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -5313,7 +5329,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 126.0, 105.0, 44.0, 20.0 ],
+									"patching_rect" : [ 129.333333333333314, 105.0, 44.0, 20.0 ],
 									"text" : "s Vchat",
 									"varname" : "bottom[2]"
 								}
@@ -5325,11 +5341,11 @@
 									"fontsize" : 10.0,
 									"id" : "obj-9",
 									"maxclass" : "newobj",
-									"numinlets" : 3,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 126.0, 59.0, 96.0, 20.0 ],
-									"text" : "route /text /setcolor",
+									"numinlets" : 4,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 93.666666666666657, 59.0, 126.0, 20.0 ],
+									"text" : "route /matrix /text /setcolor",
 									"varname" : "bottom"
 								}
 
@@ -5446,7 +5462,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5479,6 +5495,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"comment" : "",
@@ -5649,7 +5666,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5682,6 +5699,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-9",
@@ -5698,7 +5716,7 @@
 													}
 ,
 													"text" : "pattr @bindto ::client::Preferences::Project::path @autorestore 0 @invisible 1",
-													"varname" : "u408001163"
+													"varname" : "u492033373"
 												}
 
 											}
@@ -5796,14 +5814,14 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 97.0, 187.0, 355.0, 35.0 ],
-													"restore" : [ "this", "2_3type::action", "next" ],
+													"restore" : [ 0 ],
 													"saved_object_attributes" : 													{
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
 													}
 ,
 													"text" : "pattr @bindto parent::parent::Preferences::Mapper::outlet @autorestore 0 @invisible 1",
-													"varname" : "u719001167"
+													"varname" : "u331033377"
 												}
 
 											}
@@ -6130,7 +6148,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 39.0, 8.0, 56.0, 20.0 ],
+									"patching_rect" : [ 6.666666666666657, 4.0, 56.0, 20.0 ],
 									"text" : "r toViewer",
 									"varname" : "top"
 								}
@@ -6143,7 +6161,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "FullPacket" ],
-									"patching_rect" : [ 39.0, 32.0, 106.0, 20.0 ],
+									"patching_rect" : [ 6.666666666666657, 33.0, 106.0, 20.0 ],
 									"text" : "o.route /192.168.1.10",
 									"varname" : "osc-route"
 								}
@@ -6785,21 +6803,21 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-56", 0 ],
-									"source" : [ "obj-9", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-64", 0 ],
 									"source" : [ "obj-9", 2 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-64", 0 ],
+									"source" : [ "obj-9", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-8", 0 ],
-									"source" : [ "obj-9", 0 ]
+									"source" : [ "obj-9", 1 ]
 								}
 
 							}
@@ -6902,7 +6920,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6935,6 +6953,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-86",
@@ -7253,7 +7272,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7286,6 +7305,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -7442,7 +7462,7 @@
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 183.0, 20.0, 59.5, 18.0 ],
 													"text" : "autopattr",
-													"varname" : "u516005542"
+													"varname" : "u108037377"
 												}
 
 											}
@@ -7805,7 +7825,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7838,6 +7858,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-31",
@@ -7878,7 +7899,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 0,
+															"revision" : 4,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -7911,6 +7932,7 @@
 														"tags" : "",
 														"style" : "",
 														"subpatcher_template" : "",
+														"assistshowspatchername" : 0,
 														"title" : "Mask",
 														"boxes" : [ 															{
 																"box" : 																{
@@ -8419,7 +8441,7 @@
 																		"appversion" : 																		{
 																			"major" : 8,
 																			"minor" : 1,
-																			"revision" : 0,
+																			"revision" : 4,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -8452,6 +8474,7 @@
 																		"tags" : "",
 																		"style" : "",
 																		"subpatcher_template" : "",
+																		"assistshowspatchername" : 0,
 																		"boxes" : [ 																			{
 																				"box" : 																				{
 																					"comment" : "",
@@ -8517,7 +8540,7 @@
 																						"appversion" : 																						{
 																							"major" : 8,
 																							"minor" : 1,
-																							"revision" : 0,
+																							"revision" : 4,
 																							"architecture" : "x64",
 																							"modernui" : 1
 																						}
@@ -8550,6 +8573,7 @@
 																						"tags" : "",
 																						"style" : "",
 																						"subpatcher_template" : "",
+																						"assistshowspatchername" : 0,
 																						"boxes" : [ 																							{
 																								"box" : 																								{
 																									"comment" : "",
@@ -9382,13 +9406,13 @@
 , 															{
 																"name" : "number001",
 																"default" : 																{
+																	"accentcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"fontname" : [ "Arial" ],
+																	"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 																	"selectioncolor" : [ 0.87, 0.82, 0.24, 1.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-																	"fontname" : [ "Arial" ],
 																	"fontface" : [ 1 ],
-																	"accentcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"fontsize" : [ 10.0 ],
-																	"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ]
+																	"fontsize" : [ 10.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -9550,7 +9574,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 0,
+															"revision" : 4,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -9583,6 +9607,7 @@
 														"tags" : "",
 														"style" : "",
 														"subpatcher_template" : "",
+														"assistshowspatchername" : 0,
 														"boxes" : [ 															{
 																"box" : 																{
 																	"fontname" : "Arial",
@@ -10001,7 +10026,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 0,
+															"revision" : 4,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -10034,6 +10059,7 @@
 														"tags" : "",
 														"style" : "",
 														"subpatcher_template" : "",
+														"assistshowspatchername" : 0,
 														"boxes" : [ 															{
 																"box" : 																{
 																	"fontname" : "Arial",
@@ -10073,7 +10099,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 157.0, 197.0, 80.0, 27.0 ],
-																	"text" : "param color 1. 0. 0. 1."
+																	"text" : "param color 0. 0. 0. 1."
 																}
 
 															}
@@ -10662,7 +10688,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 0,
+															"revision" : 4,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -10695,6 +10721,7 @@
 														"tags" : "",
 														"style" : "",
 														"subpatcher_template" : "",
+														"assistshowspatchername" : 0,
 														"boxes" : [ 															{
 																"box" : 																{
 																	"id" : "obj-29",
@@ -10779,7 +10806,7 @@
 																		"appversion" : 																		{
 																			"major" : 8,
 																			"minor" : 1,
-																			"revision" : 0,
+																			"revision" : 4,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -10812,6 +10839,7 @@
 																		"tags" : "",
 																		"style" : "",
 																		"subpatcher_template" : "",
+																		"assistshowspatchername" : 0,
 																		"boxes" : [ 																			{
 																				"box" : 																				{
 																					"id" : "obj-7",
@@ -10984,7 +11012,7 @@
 																						"appversion" : 																						{
 																							"major" : 8,
 																							"minor" : 1,
-																							"revision" : 0,
+																							"revision" : 4,
 																							"architecture" : "x64",
 																							"modernui" : 1
 																						}
@@ -11017,6 +11045,7 @@
 																						"tags" : "",
 																						"style" : "",
 																						"subpatcher_template" : "",
+																						"assistshowspatchername" : 0,
 																						"boxes" : [ 																							{
 																								"box" : 																								{
 																									"id" : "obj-1",
@@ -12454,7 +12483,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -12487,6 +12516,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -13564,7 +13594,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -13597,6 +13627,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -13611,7 +13642,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 0,
+															"revision" : 4,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -13644,6 +13675,7 @@
 														"tags" : "",
 														"style" : "",
 														"subpatcher_template" : "",
+														"assistshowspatchername" : 0,
 														"boxes" : [ 															{
 																"box" : 																{
 																	"fontname" : "Arial",
@@ -13759,7 +13791,7 @@
 																	}
 ,
 																	"text" : "pattr @bindto parent::parent::parent::mix::timemode",
-																	"varname" : "u652002494"
+																	"varname" : "u119034703"
 																}
 
 															}
@@ -14480,7 +14512,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 0,
+															"revision" : 4,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -14513,6 +14545,7 @@
 														"tags" : "",
 														"style" : "",
 														"subpatcher_template" : "",
+														"assistshowspatchername" : 0,
 														"boxes" : [ 															{
 																"box" : 																{
 																	"fontface" : 0,
@@ -15245,7 +15278,8 @@
 																	"outlettype" : [ "", "", "", "" ],
 																	"patching_rect" : [ 323.0, 283.0, 58.0, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"embed" : 0
+																		"embed" : 0,
+																		"precision" : 6
 																	}
 ,
 																	"text" : "coll"
@@ -16115,7 +16149,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -16148,6 +16182,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -16718,7 +16753,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -16751,6 +16786,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -16766,7 +16802,7 @@
 													}
 ,
 													"text" : "autopattr",
-													"varname" : "u493005540"
+													"varname" : "u409037375"
 												}
 
 											}
@@ -18566,69 +18602,23 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 1, 1 ],
+					"args" : [ 1, 5 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-79",
+					"id" : "obj-40",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "basic.vfx.maxpat",
+					"name" : "drift.vfx.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 162.0, 409.0, 160.0, 146.0 ],
+					"patching_rect" : [ 806.0, 409.0, 160.0, 146.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 162.0, 409.0, 160.0, 146.0 ],
-					"varname" : "1_1basic",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ 1, 2 ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-81",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "rotation.vfx.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 323.0, 409.0, 160.0, 146.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 323.0, 409.0, 160.0, 146.0 ],
-					"varname" : "1_2rotation",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ 1, 3 ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-83",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "type.vfx.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 484.0, 409.0, 160.0, 146.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 484.0, 409.0, 160.0, 146.0 ],
-					"varname" : "1_3type",
+					"presentation_rect" : [ 806.0, 409.0, 160.0, 146.0 ],
+					"varname" : "1_5drift",
 					"viewvisibility" : 1
 				}
 
@@ -18641,132 +18631,63 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-85",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "twirl.vfx.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 645.0, 409.0, 160.0, 146.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 645.0, 409.0, 160.0, 146.0 ],
-					"varname" : "1_4twirl",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ 1, 5 ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-88",
+					"id" : "obj-55",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "kaleidoscope.vfx.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 806.0, 409.0, 160.0, 146.0 ],
+					"patching_rect" : [ 645.0, 409.0, 160.0, 146.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 806.0, 409.0, 160.0, 146.0 ],
-					"varname" : "1_5kaleidoscope",
+					"presentation_rect" : [ 645.0, 409.0, 160.0, 146.0 ],
+					"varname" : "1_4kaleidoscope",
 					"viewvisibility" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 2, 1 ],
+					"args" : [ 1, 3 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-90",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "basic.vfx.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 162.0, 556.0, 160.0, 146.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 162.0, 556.0, 160.0, 146.0 ],
-					"varname" : "2_1basic",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ 2, 2 ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-92",
+					"id" : "obj-57",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "rotation.vfx.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 323.0, 556.0, 160.0, 146.0 ],
+					"patching_rect" : [ 484.0, 409.0, 160.0, 146.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 323.0, 556.0, 160.0, 146.0 ],
-					"varname" : "2_2rotation",
+					"presentation_rect" : [ 484.0, 409.0, 160.0, 146.0 ],
+					"varname" : "1_3rotation",
 					"viewvisibility" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 2, 3 ],
+					"args" : [ 1, 2 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-94",
+					"id" : "obj-59",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "type.vfx.maxpat",
+					"name" : "tiffany.vfx.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 484.0, 556.0, 160.0, 146.0 ],
+					"patching_rect" : [ 323.0, 409.0, 160.0, 146.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 484.0, 556.0, 160.0, 146.0 ],
-					"varname" : "2_3type",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ 2, 4 ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-96",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "drift.vfx.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 645.0, 556.0, 160.0, 146.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 645.0, 556.0, 160.0, 146.0 ],
-					"varname" : "2_4drift",
+					"presentation_rect" : [ 323.0, 409.0, 160.0, 146.0 ],
+					"varname" : "1_2tiffany",
 					"viewvisibility" : 1
 				}
 
@@ -18779,40 +18700,109 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-98",
+					"id" : "obj-63",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "eclipse.vfx.maxpat",
+					"name" : "drift.vfx.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 806.0, 556.0, 160.0, 146.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 806.0, 556.0, 160.0, 146.0 ],
-					"varname" : "2_5eclipse",
+					"varname" : "2_5drift",
 					"viewvisibility" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 4 ],
+					"args" : [ 2, 4 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-102",
+					"id" : "obj-65",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "spectrogram.vgen.maxpat",
+					"name" : "kaleidoscope.vfx.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 645.0, 262.0, 160.0, 146.0 ],
+					"patching_rect" : [ 645.0, 556.0, 160.0, 146.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 645.0, 262.0, 160.0, 146.0 ],
-					"varname" : "4spectrogram",
+					"presentation_rect" : [ 645.0, 556.0, 160.0, 146.0 ],
+					"varname" : "2_4kaleidoscope",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ 2, 3 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-67",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "rotation.vfx.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 484.0, 556.0, 160.0, 146.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 484.0, 556.0, 160.0, 146.0 ],
+					"varname" : "2_3rotation",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ 2, 2 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-69",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "tiffany.vfx.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 323.0, 556.0, 160.0, 146.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 323.0, 556.0, 160.0, 146.0 ],
+					"varname" : "2_2tiffany",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ 2, 1 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-71",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "dot_screen.vfx.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 162.0, 556.0, 160.0, 146.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 162.0, 556.0, 160.0, 146.0 ],
+					"varname" : "2_1dot_screen",
 					"viewvisibility" : 1
 				}
 
@@ -18825,17 +18815,40 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-104",
+					"id" : "obj-73",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "waveform.vgen.maxpat",
+					"name" : "notation.vgen.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 806.0, 262.0, 160.0, 146.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 806.0, 262.0, 160.0, 146.0 ],
-					"varname" : "5waveform",
+					"varname" : "5notation",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ 4 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-75",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "gradient.vgen.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 645.0, 262.0, 160.0, 146.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 645.0, 262.0, 160.0, 146.0 ],
+					"varname" : "4gradient",
 					"viewvisibility" : 1
 				}
 
@@ -18848,17 +18861,40 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-110",
+					"id" : "obj-77",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "gradient.vgen.maxpat",
+					"name" : "painter.vgen.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 323.0, 262.0, 160.0, 146.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 323.0, 262.0, 160.0, 146.0 ],
-					"varname" : "2gradient",
+					"varname" : "2painter",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ 1, 1 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-81",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "dot_screen.vfx.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 162.0, 409.0, 160.0, 146.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 162.0, 409.0, 160.0, 146.0 ],
+					"varname" : "1_1dot_screen",
 					"viewvisibility" : 1
 				}
 
@@ -18946,23 +18982,27 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-12::obj-42::obj-79" : [ "live.text[9]", "live.text", 0 ],
-			"obj-43::obj-20" : [ "live.text[2]", "live.text", 0 ],
-			"obj-12::obj-42::obj-80" : [ "live.text[8]", "live.text", 0 ],
-			"obj-43::obj-37" : [ "live.text[7]", "live.text", 0 ],
+			"obj-12::obj-42::obj-80" : [ "live.text[1]", "live.text", 0 ],
+			"obj-77::obj-1::obj-10" : [ "live.text[5]", "live.text[5]", 0 ],
 			"obj-43::obj-36" : [ "live.text", "live.text", 0 ],
+			"obj-43::obj-20" : [ "live.text[2]", "live.text", 0 ],
+			"obj-43::obj-37" : [ "live.text[7]", "live.text", 0 ],
+			"obj-77::obj-1::obj-8" : [ "live.tab[1]", "live.tab", 0 ],
+			"obj-12::obj-42::obj-79" : [ "live.text[3]", "live.text", 0 ],
 			"obj-45::obj-7" : [ "live.slider", "live.slider", 0 ],
+			"obj-77::obj-1::obj-17" : [ "live.text[6]", "live.text[5]", 0 ],
+			"obj-77::obj-1::obj-19" : [ "live.text[4]", "live.text[5]", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
 				"obj-12::obj-42::obj-79" : 				{
-					"parameter_longname" : "live.text[9]"
+					"parameter_longname" : "live.text[3]"
 				}
 ,
-				"obj-12::obj-42::obj-80" : 				{
-					"parameter_longname" : "live.text[8]"
+				"obj-77::obj-1::obj-19" : 				{
+					"parameter_longname" : "live.text[4]"
 				}
 
 			}
@@ -18970,63 +19010,120 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "dot_screen.vfx.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Video-Effects",
+				"patcherrelativepath" : "./patchers/Library/Video-Effects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "painter.vgen.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Video-Generators",
+				"patcherrelativepath" : "./patchers/Library/Video-Generators",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "painter-window.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Video-Generators/painter",
+				"patcherrelativepath" : "./patchers/Library/Video-Generators/painter",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Attributes.png",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/media/Images",
+				"patcherrelativepath" : "./media/Images",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Spruehdose.png",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Video-Generators/painter",
+				"patcherrelativepath" : "./patchers/Library/Video-Generators/painter",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Zeichenstift.png",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Video-Generators/painter",
+				"patcherrelativepath" : "./patchers/Library/Video-Generators/painter",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Radiergummi.png",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Video-Generators/painter",
+				"patcherrelativepath" : "./patchers/Library/Video-Generators/painter",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Loeschen.png",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Video-Generators/painter",
+				"patcherrelativepath" : "./patchers/Library/Video-Generators/painter",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "gradient.vgen.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Video-Generators",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Video-Generators",
 				"patcherrelativepath" : "./patchers/Library/Video-Generators",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "my-swatch.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
 				"patcherrelativepath" : "./patchers/Library/Abstractions/viewer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "waveform.vgen.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Video-Generators",
+				"name" : "notation.vgen.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Video-Generators",
 				"patcherrelativepath" : "./patchers/Library/Video-Generators",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "MatrixDefaultBkgnd.png",
-				"bootpath" : "C74:/media/max/picts",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "spectrogram.vgen.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Video-Generators",
-				"patcherrelativepath" : "./patchers/Library/Video-Generators",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "eclipse.vfx.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Video-Effects",
+				"name" : "tiffany.vfx.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Video-Effects",
 				"patcherrelativepath" : "./patchers/Library/Video-Effects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "eclipse.genjit",
-				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/jitter-examples/gen",
-				"patcherrelativepath" : "../../../../hajdu/Library/Application Support/Cycling '74/Max 8/Examples/jitter-examples/gen",
-				"type" : "gJIT",
+				"name" : "name.js",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/javascript",
+				"patcherrelativepath" : "../MaxScore/javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rotation.vfx.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Video-Effects",
+				"patcherrelativepath" : "./patchers/Library/Video-Effects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "kaleidoscope.vfx.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Video-Effects",
+				"patcherrelativepath" : "./patchers/Library/Video-Effects",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "drift.vfx.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Video-Effects",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Video-Effects",
 				"patcherrelativepath" : "./patchers/Library/Video-Effects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jit.matrix-drift-helper2.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
 				"patcherrelativepath" : "./patchers/Library/Abstractions/viewer",
 				"type" : "JSON",
 				"implicit" : 1
@@ -19038,106 +19135,56 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "MatrixDefaultBkgnd.png",
+				"bootpath" : "C74:/media/max/picts",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "timedGate.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Abstractions/utilities",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/utilities",
 				"patcherrelativepath" : "./patchers/Library/Abstractions/utilities",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "type.vfx.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Video-Effects",
-				"patcherrelativepath" : "./patchers/Library/Video-Effects",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jk.uzislow.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "my-LtoColl.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Abstractions/utilities",
-				"patcherrelativepath" : "./patchers/Library/Abstractions/utilities",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rotation.vfx.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Video-Effects",
-				"patcherrelativepath" : "./patchers/Library/Video-Effects",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "basic.vfx.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Video-Effects",
-				"patcherrelativepath" : "./patchers/Library/Video-Effects",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "kaleidoscope.vfx.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Video-Effects",
-				"patcherrelativepath" : "./patchers/Library/Video-Effects",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "twirl.vfx.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Video-Effects",
-				"patcherrelativepath" : "./patchers/Library/Video-Effects",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "twirl.genjit",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Video-Generators",
-				"patcherrelativepath" : "./patchers/Library/Video-Generators",
-				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "configs.vgen.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Video-Generators",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Video-Generators",
 				"patcherrelativepath" : "./patchers/Library/Video-Generators",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "divmod.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Abstractions/utilities",
-				"patcherrelativepath" : "./patchers/Library/Abstractions/utilities",
+				"bootpath" : "/Users/Shared/Max 8/Packages/DJster/patchers/DJster/Abstractions",
+				"patcherrelativepath" : "../DJster/patchers/DJster/Abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "timedGate2.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Abstractions/utilities",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/utilities",
 				"patcherrelativepath" : "./patchers/Library/Abstractions/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bpf.curve.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Curve-Generators",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Curve-Generators",
 				"patcherrelativepath" : "./patchers/Library/Curve-Generators",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camera.vgen.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Video-Generators",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Video-Generators",
 				"patcherrelativepath" : "./patchers/Library/Video-Generators",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wacom.curve.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Curve-Generators",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Curve-Generators",
 				"patcherrelativepath" : "./patchers/Library/Curve-Generators",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -19151,441 +19198,377 @@
 			}
 , 			{
 				"name" : "lissajous.curve.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Curve-Generators",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Curve-Generators",
 				"patcherrelativepath" : "./patchers/Library/Curve-Generators",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "midi.curve.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Curve-Generators",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Curve-Generators",
 				"patcherrelativepath" : "./patchers/Library/Curve-Generators",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "audio.curve.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Curve-Generators",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Curve-Generators",
 				"patcherrelativepath" : "./patchers/Library/Curve-Generators",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "poly.bonk~.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
 				"patcherrelativepath" : "./patchers/Library/Abstractions/viewer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "poly.analyzer~.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
 				"patcherrelativepath" : "./patchers/Library/Abstractions/viewer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "PitchToStep.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Abstractions/MIDI-events",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/MIDI-events",
 				"patcherrelativepath" : "./patchers/Library/Abstractions/MIDI-events",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "V_mapper.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
 				"patcherrelativepath" : "./patchers/Library/Abstractions/viewer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "V_curve.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
 				"patcherrelativepath" : "./patchers/Library/Abstractions/viewer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "maxfolder.js",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/javascript",
-				"patcherrelativepath" : "./javascript",
+				"bootpath" : "/Users/Shared/Max 7/Packages/PatMap/javascript",
+				"patcherrelativepath" : "../PatMap/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "my-change.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Abstractions/utilities",
-				"patcherrelativepath" : "./patchers/Library/Abstractions/utilities",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/Macaque/lib/abstractions",
+				"patcherrelativepath" : "../MaxScore/patchers/Macaque/lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "packback.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Abstractions/utilities",
-				"patcherrelativepath" : "./patchers/Library/Abstractions/utilities",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/abstractions",
+				"patcherrelativepath" : "../MaxScore/patchers/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "V_player.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
 				"patcherrelativepath" : "./patchers/Library/Abstractions/viewer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "URL.txt",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Data",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Data",
 				"patcherrelativepath" : "./patchers/Library/Data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "V_movieplayer.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
 				"patcherrelativepath" : "./patchers/Library/Abstractions/viewer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "00899-A_39515_1.jpg",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_5",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_5",
+				"name" : "bball.mov",
+				"bootpath" : "C74:/media/jitter",
+				"type" : "MooV",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "blading.mov",
+				"bootpath" : "C74:/media/jitter",
+				"type" : "MooV",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bokeh.cubemap.jpg",
+				"bootpath" : "C74:/media/jitter",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "11.jpg",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_5",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_5",
+				"name" : "brick_colormap.jpg",
+				"bootpath" : "C74:/media/jitter",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "25749-hi-snowflakes.jpg",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_5",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_5",
+				"name" : "brick_heightmap.jpg",
+				"bootpath" : "C74:/media/jitter",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "2812747115_e08f7b0db1_o.jpg",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_5",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_5",
+				"name" : "brick_normalmap.jpg",
+				"bootpath" : "C74:/media/jitter",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "305440383_1bb500bb01_b.jpg",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_5",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_5",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "373533934CZaeqD_fs.jpg",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_5",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_5",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "528px-Benzene-Kekule-2D-skeletal.jpg",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_5",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_5",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "542px-Benzene-aromatic-3D-balls.png",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_5",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_5",
+				"name" : "cell.bump.png",
+				"bootpath" : "C74:/media/jitter",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "558px-Thymine_chemical_structure.png",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_5",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_5",
+				"name" : "chickens.mp4",
+				"bootpath" : "C74:/media/jitter",
+				"type" : "mpg4",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "chilis.jpg",
+				"bootpath" : "C74:/media/jitter",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "colorbars.png",
+				"bootpath" : "C74:/media/jitter",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "594px-Screw_drive_types2.svg.png",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_5",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_5",
+				"name" : "colorswatch.png",
+				"bootpath" : "C74:/media/jitter",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "660px-Regular_Hexagon.svg.png",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_5",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_5",
+				"name" : "colorwheel.jpg",
+				"bootpath" : "C74:/media/jitter",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "colorwheel.png",
+				"bootpath" : "C74:/media/jitter",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "alhexplate02.jpg",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_5",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_5",
+				"name" : "countdown.mov",
+				"bootpath" : "C74:/media/jitter",
+				"type" : "MooV",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "countdown15.mov",
+				"bootpath" : "C74:/media/jitter",
+				"type" : "MooV",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "crashtest.mov",
+				"bootpath" : "C74:/media/jitter",
+				"type" : "MooV",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dishes.mov",
+				"bootpath" : "C74:/media/jitter",
+				"type" : "MooV",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dozer.mov",
+				"bootpath" : "C74:/media/jitter",
+				"type" : "MooV",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dust.mp4",
+				"bootpath" : "C74:/media/jitter",
+				"type" : "mpg4",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dvducks.mov",
+				"bootpath" : "C74:/media/jitter",
+				"type" : "MooV",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dvkite.mov",
+				"bootpath" : "C74:/media/jitter",
+				"type" : "MooV",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fuzz_circle.jpg",
+				"bootpath" : "C74:/media/jitter",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Apis_florea_nest_closeup2.jpg",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_5",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_5",
-				"type" : "JPEG",
+				"name" : "garbage.mov",
+				"bootpath" : "C74:/media/jitter",
+				"type" : "MooV",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "bb_schneeflocke1.jpg",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_5",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_5",
-				"type" : "JPEG",
+				"name" : "oh.mov",
+				"bootpath" : "C74:/media/jitter",
+				"type" : "MooV",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Bienenwabe_23a.jpg",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_5",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_5",
-				"type" : "JPEG",
+				"name" : "ozone.mov",
+				"bootpath" : "C74:/media/jitter",
+				"type" : "MooV",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "claire-clam-6-a-w.jpg",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_5",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_5",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Dizengoff Plaza.jpg",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_5",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_5",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Dizengoff_Square.png",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_5",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_5",
+				"name" : "panorama_cube_map.png",
+				"bootpath" : "C74:/media/jitter",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "EllaHex2.jpg",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_5",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_5",
-				"type" : "JPEG",
+				"name" : "rain.mov",
+				"bootpath" : "C74:/media/jitter",
+				"type" : "MooV",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "guo-nanomotor.jpg",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_5",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_5",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "HexagonKnot.jpg",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_5",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_5",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hexagram-art-Snelson.jpg",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_5",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_5",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Honeycomb Waffle.jpg",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_5",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_5",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "image120.png",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_5",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_5",
+				"name" : "random-tex.png",
+				"bootpath" : "C74:/media/jitter",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "IMG_1292.JPG",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_5",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_5",
+				"name" : "rca.mov",
+				"bootpath" : "C74:/media/jitter",
+				"type" : "MooV",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "redball.mov",
+				"bootpath" : "C74:/media/jitter",
+				"type" : "MooV",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sunflower.mp4",
+				"bootpath" : "C74:/media/jitter",
+				"type" : "mpg4",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sunset.jpg",
+				"bootpath" : "C74:/media/jitter",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "lhexplate01.jpg",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_5",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_5",
-				"type" : "JPEG",
+				"name" : "track1.mov",
+				"bootpath" : "C74:/media/jitter",
+				"type" : "MooV",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "muller.jpg",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_5",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_5",
-				"type" : "JPEG",
+				"name" : "track2.mov",
+				"bootpath" : "C74:/media/jitter",
+				"type" : "MooV",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Neighborhood1.jpg",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_5",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_5",
-				"type" : "JPEG",
+				"name" : "traffic.mov",
+				"bootpath" : "C74:/media/jitter",
+				"type" : "MooV",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "samplecrystals.jpg",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_5",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_5",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sechseck2.jpg",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_5",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_5",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seck001.png",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_5",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_5",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "stop-war.jpg",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_5",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_5",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Tafel_24.jpg",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_5",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_5",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tk-biwo-02kw-03-schneekristall.jpg",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_5",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_5",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "www.architekt-gasser.ch.jpg",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_5",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_5",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "01020139682600.jpg",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_4",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_4",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "2398814477_a7c5b4a325_b.jpg",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_4",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_4",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "2398822069_da600a87af_b.jpg",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_4",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_4",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "2399643412_a03977dfb2_b.jpg",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_4",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_4",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "2399678926_2dabb34eb3_b.jpg",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_4",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_4",
-				"type" : "JPEG",
+				"name" : "wheel.mov",
+				"bootpath" : "C74:/media/jitter",
+				"type" : "MooV",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "viewertoolbar.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
 				"patcherrelativepath" : "./patchers/Library/Abstractions/viewer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Reset-Info.png",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/media/Images",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/media/Images",
 				"patcherrelativepath" : "./media/Images",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Stopwatch.png",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/media/Images",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/media/Images",
 				"patcherrelativepath" : "./media/Images",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Sidebar.png",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/media/Images",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/media/Images",
 				"patcherrelativepath" : "./media/Images",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Metronome.png",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/media/Images",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/media/Images",
 				"patcherrelativepath" : "./media/Images",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Viewer-Preferences.png",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/media/Images",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/media/Images",
 				"patcherrelativepath" : "./media/Images",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "metronome.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Abstractions/GUI",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/GUI",
 				"patcherrelativepath" : "./patchers/Library/Abstractions/GUI",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "strrcut.js",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/javascript",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/javascript",
 				"patcherrelativepath" : "./javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "my-clocker.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Abstractions/utilities",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/utilities",
 				"patcherrelativepath" : "./patchers/Library/Abstractions/utilities",
 				"type" : "JSON",
 				"implicit" : 1
@@ -19599,343 +19582,119 @@
 			}
 , 			{
 				"name" : "clock2.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Abstractions/miscellaneous",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/miscellaneous",
 				"patcherrelativepath" : "./patchers/Library/Abstractions/miscellaneous",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Open_off_lt.png",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/media/Images",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/media/Images",
 				"patcherrelativepath" : "./media/Images",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Save_off_lt.png",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/media/Images",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/media/Images",
 				"patcherrelativepath" : "./media/Images",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "012.png",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_1+2",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_1+2",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "022.png",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_1+2",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_1+2",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "026.png",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_1+2",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_1+2",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "060.png",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_1+2",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_1+2",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "950421_34c6d2dbc9_m.png",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_1+2",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_1+2",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Aufnahmelager.mov",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_1+2",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_1+2",
-				"type" : "MooV",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "black.mov",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_1+2",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_1+2",
-				"type" : "MooV",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Blaumilch-1.mov",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_1+2",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_1+2",
-				"type" : "MooV",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Blaumilch-10.mp4",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_1+2",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_1+2",
-				"type" : "mpg4",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Blaumilch-2.mp4",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_1+2",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_1+2",
-				"type" : "mpg4",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Blaumilch-3.mp4",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_1+2",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_1+2",
-				"type" : "mpg4",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Blaumilch-4.mp4",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_1+2",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_1+2",
-				"type" : "mpg4",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Blaumilch-5.mp4",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_1+2",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_1+2",
-				"type" : "mpg4",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Blaumilch-6.mov",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_1+2",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_1+2",
-				"type" : "MooV",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Blaumilch-7.mp4",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_1+2",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_1+2",
-				"type" : "mpg4",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Blaumilch-8.mp4",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_1+2",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_1+2",
-				"type" : "mpg4",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Blaumilch-9.mp4",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_1+2",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_1+2",
-				"type" : "mpg4",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "GoogleEarth2.mov",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_1+2",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_1+2",
-				"type" : "MooV",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "H2399.png",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_1+2",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_1+2",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Launch.mov",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_1+2",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_1+2",
-				"type" : "MooV",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "p36-1.png",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_1+2",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_1+2",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "schtetl.png",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_1+2",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_1+2",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "video5.png",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_1+2",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_1+2",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "video6.png",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_1+2",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_1+2",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "video7.png",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_1+2",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_1+2",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "VishniacMara.png",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_1+2",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_1+2",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "V_presets.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
 				"patcherrelativepath" : "./patchers/Library/Abstractions/viewer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tap.thru.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Abstractions/utilities",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/utilities",
 				"patcherrelativepath" : "./patchers/Library/Abstractions/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "srcdimcrop.genjit",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
 				"patcherrelativepath" : "./patchers/Library/Abstractions/viewer",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dstdimcrop.genjit",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
 				"patcherrelativepath" : "./patchers/Library/Abstractions/viewer",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "V_mix.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
 				"patcherrelativepath" : "./patchers/Library/Abstractions/viewer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Plans_1.png",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_3",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_3",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Plans_2.1.png",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_3",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_3",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Plans_2.2.png",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_3",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_3",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Plans_3.1.png",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_3",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_3",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Plans_3.2.png",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint/Clips/Player_3",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint/Clips/Player_3",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "strtok.js",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/javascript",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/javascript",
 				"patcherrelativepath" : "./javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "my-LtoColl.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/extensions",
+				"patcherrelativepath" : "../MaxScore/patchers/extensions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "V_preview.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
 				"patcherrelativepath" : "./patchers/Library/Abstractions/viewer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "boxposition.js",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/javascript",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/javascript",
 				"patcherrelativepath" : "./javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Blueprint-Viewer8.xml",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "V_chain.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
 				"patcherrelativepath" : "./patchers/Library/Abstractions/viewer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "viewer-preferences.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
 				"patcherrelativepath" : "./patchers/Library/Abstractions/viewer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Mapper.png",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/media/Images",
-				"patcherrelativepath" : "./media/Images",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Attributes.png",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/media/Images",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/media/Images",
 				"patcherrelativepath" : "./media/Images",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Glove.png",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/media/Images",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/media/Images",
 				"patcherrelativepath" : "./media/Images",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "V_attributes.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
 				"patcherrelativepath" : "./patchers/Library/Abstractions/viewer",
 				"type" : "JSON",
 				"implicit" : 1
@@ -19959,13 +19718,6 @@
 				"bootpath" : "/Users/Shared/Max 7/Packages/PatMap/media",
 				"patcherrelativepath" : "../PatMap/media",
 				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Blueprint.map.txt",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Blueprint",
-				"patcherrelativepath" : "./patchers/Projects/Blueprint",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -20096,24 +19848,28 @@
 			}
 , 			{
 				"name" : "V_generators.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
 				"patcherrelativepath" : "./patchers/Library/Abstractions/viewer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "V_record.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
 				"patcherrelativepath" : "./patchers/Library/Abstractions/viewer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "viewer-paths.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
 				"patcherrelativepath" : "./patchers/Library/Abstractions/viewer",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "o.route.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "bonk~.mxo",
@@ -20125,10 +19881,6 @@
 			}
 , 			{
 				"name" : "OSC-route.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -20160,7 +19912,6 @@
 				"type" : "iLaX"
 			}
  ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "panel_middle_raw",
 				"default" : 				{

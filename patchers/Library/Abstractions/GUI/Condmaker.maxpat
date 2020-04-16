@@ -42,14 +42,14 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"id" : "obj-27",
+					"id" : "obj-12",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 804.799987999999985, 502.0, 60.0, 20.0 ],
-					"text" : "fromsymbol",
-					"varname" : "u865014628[1]"
+					"patching_rect" : [ 921.0, 498.0, 93.0, 20.0 ],
+					"text" : "prepend loadScore",
+					"varname" : "u121010951"
 				}
 
 			}
@@ -57,14 +57,26 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"id" : "obj-26",
+					"id" : "obj-1",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 777.799987999999985, 417.0, 46.0, 20.0 ],
-					"text" : "route list",
-					"varname" : "u865014628"
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 921.0, 532.0, 235.0, 20.0 ],
+					"text" : "pattrforward parent::parent::score::send2MaxScore",
+					"varname" : "u488009633"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "", "", "", "", "" ],
+					"patching_rect" : [ 918.0, 210.5, 125.0, 22.0 ],
+					"text" : "regexp 0.condfile.json"
 				}
 
 			}
@@ -90,7 +102,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1023.0, 159.0, 51.0, 20.0 ],
+					"patching_rect" : [ 918.0, 154.0, 51.0, 20.0 ],
 					"text" : "tosymbol"
 				}
 
@@ -103,7 +115,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 966.0, 111.0, 20.0, 20.0 ]
+					"patching_rect" : [ 961.0, 92.5, 20.0, 20.0 ]
 				}
 
 			}
@@ -161,7 +173,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 771.5, 156.0, 69.0, 19.0 ],
+					"patching_rect" : [ 997.5, 259.5, 69.0, 19.0 ],
 					"text" : "prepend name"
 				}
 
@@ -175,7 +187,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 771.5, 127.0, 45.0, 19.0 ],
+					"patching_rect" : [ 918.0, 185.0, 45.0, 19.0 ],
 					"text" : "strippath"
 				}
 
@@ -189,7 +201,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "bang" ],
-					"patching_rect" : [ 740.0, 191.0, 54.0, 19.0 ],
+					"patching_rect" : [ 766.59997599999997, 243.5, 54.0, 19.0 ],
 					"text" : "savedialog"
 				}
 
@@ -308,14 +320,14 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 283.099976000000026, 100.0, 208.0, 20.0 ],
-									"restore" : [ "<empty>" ],
+									"restore" : [ "Five.jscore.xml" ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
 									"text" : "pattr @invisible 1 @bindto parent::maxscore",
-									"varname" : "u606006764"
+									"varname" : "u683005348"
 								}
 
 							}
@@ -329,14 +341,14 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 194.0, 157.0, 186.0, 20.0 ],
-									"restore" : [ "<empty>" ],
+									"restore" : [ "Five.bank.txt" ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
 									"text" : "pattr @invisible 1 @bindto parent::bank",
-									"varname" : "u481006768"
+									"varname" : "u121005350"
 								}
 
 							}
@@ -350,14 +362,14 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 43.5, 100.0, 219.0, 20.0 ],
-									"restore" : [ "<empty>" ],
+									"restore" : [ "Five-XML-control.maxpat" ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
 									"text" : "pattr @invisible 1 @bindto parent::controlpanel",
-									"varname" : "u291006770"
+									"varname" : "u346005352"
 								}
 
 							}
@@ -371,14 +383,14 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 14.0, 157.0, 180.0, 20.0 ],
-									"restore" : [ "<empty>" ],
+									"restore" : [ "John Cage - Five (1988)" ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
 									"text" : "pattr @invisible 1 @bindto parent::title",
-									"varname" : "u818006772"
+									"varname" : "u401005354"
 								}
 
 							}
@@ -476,7 +488,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "int" ],
-					"patching_rect" : [ 1023.0, 185.0, 40.0, 20.0 ],
+					"patching_rect" : [ 1070.90002400000003, 258.5, 40.0, 20.0 ],
 					"text" : "t 0 l 1"
 				}
 
@@ -499,62 +511,20 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"id" : "obj-23",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 921.0, 477.0, 165.0, 20.0 ],
-					"restore" : [ 0 ],
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr @invisible 1 @bindto timeline",
-					"varname" : "u869006775"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
 					"id" : "obj-22",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 849.40002400000003, 447.0, 174.0, 20.0 ],
-					"restore" : [ "<empty>" ],
+					"patching_rect" : [ 921.0, 442.0, 244.0, 20.0 ],
+					"restore" : [ "Five.jscore.xml" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr @invisible 1 @bindto maxscore",
-					"varname" : "u084006777"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-21",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 777.799987999999985, 528.0, 310.0, 20.0 ],
-					"restore" : [ 0, 0, 1, 1, 0, 1, 2, 1, 1 ],
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr @invisible 1 @bindto parent::parent::ScorePanel::score-matrix",
-					"varname" : "u241006779"
+					"text" : "pattr @invisible 1 @bindto maxscore @autorestore 0",
+					"varname" : "u292009612"
 				}
 
 			}
@@ -567,15 +537,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 706.200012000000015, 477.0, 152.0, 20.0 ],
-					"restore" : [ "<empty>" ],
+					"patching_rect" : [ 801.666666666666629, 473.0, 152.0, 20.0 ],
+					"restore" : [ "Five.bank.txt" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
 					"text" : "pattr @invisible 1 @bindto bank",
-					"varname" : "u430006781"
+					"varname" : "u269005363"
 				}
 
 			}
@@ -588,15 +558,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 634.59997599999997, 447.0, 185.0, 20.0 ],
-					"restore" : [ "<empty>" ],
+					"patching_rect" : [ 682.333333333333258, 447.0, 185.0, 20.0 ],
+					"restore" : [ "Five-XML-control.maxpat" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
 					"text" : "pattr @invisible 1 @bindto controlpanel",
-					"varname" : "u379006783"
+					"varname" : "u921005365"
 				}
 
 			}
@@ -610,14 +580,14 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 563.0, 421.0, 146.0, 20.0 ],
-					"restore" : [ "<empty>" ],
+					"restore" : [ "John Cage - Five (1988)" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
 					"text" : "pattr @invisible 1 @bindto title",
-					"varname" : "u246006785"
+					"varname" : "u702005367"
 				}
 
 			}
@@ -628,10 +598,10 @@
 					"id" : "obj-17",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 6,
-					"outlettype" : [ "", "", "", "", "", "" ],
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 563.0, 387.0, 377.0, 22.0 ],
-					"text" : "dict.unpack title: controlpanel: bank: scorematrix: maxscore: timeline:"
+					"text" : "dict.unpack title: controlpanel: bank: maxscore:"
 				}
 
 			}
@@ -652,18 +622,6 @@
 					}
 ,
 					"text" : "dict condfile"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-1",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1168.0, 231.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -690,7 +648,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "", "bang" ],
-					"patching_rect" : [ 1003.0, 94.5, 59.0, 19.0 ],
+					"patching_rect" : [ 898.0, 92.5, 59.0, 19.0 ],
 					"text" : "t b s b"
 				}
 
@@ -704,8 +662,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1023.0, 130.0, 139.0, 22.0 ],
-					"restore" : [ "0/Conductor/0.condfile.json" ],
+					"patching_rect" : [ 918.0, 128.0, 139.0, 22.0 ],
+					"restore" : [ "Macintosh HD:/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Five/Conductor/Five.condfile.json" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -725,7 +683,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1149.0, 11.5, 58.0, 19.0 ],
+					"patching_rect" : [ 1044.0, 9.5, 58.0, 19.0 ],
 					"text" : "r cond-file"
 				}
 
@@ -739,7 +697,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 1003.0, 63.5, 135.0, 19.0 ],
+					"patching_rect" : [ 898.0, 61.5, 135.0, 19.0 ],
 					"text" : "opendialog COND TEXT JSON"
 				}
 
@@ -823,7 +781,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 812.0, 223.0, 132.0, 20.0 ],
+					"patching_rect" : [ 624.0, 156.0, 132.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 385.0, 19.0, 97.0, 20.0 ],
 					"text" : "Inspect",
@@ -1471,7 +1429,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 812.0, 253.0, 32.5, 22.0 ],
+					"patching_rect" : [ 624.0, 186.0, 32.5, 22.0 ],
 					"text" : "edit"
 				}
 
@@ -1485,7 +1443,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 740.0, 223.0, 53.0, 22.0 ],
+					"patching_rect" : [ 766.59997599999997, 275.5, 53.0, 22.0 ],
 					"text" : "write $1"
 				}
 
@@ -1501,7 +1459,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 107.0, 17.0, 59.5, 22.0 ],
 					"text" : "autopattr",
-					"varname" : "u743007262"
+					"varname" : "u290005835"
 				}
 
 			}
@@ -1550,6 +1508,7 @@
 					"patching_rect" : [ 20.0, 280.0, 220.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 20.0, 262.0, 453.0, 23.0 ],
+					"text" : "Five.jscore.xml",
 					"textcolor" : [ 0.4, 0.4, 0.8, 1.0 ],
 					"varname" : "maxscore"
 				}
@@ -1600,6 +1559,7 @@
 					"patching_rect" : [ 20.0, 162.0, 220.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 20.0, 142.0, 453.0, 23.0 ],
+					"text" : "Five-XML-control.maxpat",
 					"textcolor" : [ 0.4, 0.4, 0.8, 1.0 ],
 					"varname" : "controlpanel"
 				}
@@ -1618,7 +1578,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 740.0, 30.0, 132.0, 20.0 ],
+					"patching_rect" : [ 766.59997599999997, 156.0, 132.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 246.0, 19.0, 132.0, 20.0 ],
 					"text" : "Save Conductor File...",
@@ -1643,7 +1603,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1003.0, 11.5, 132.0, 20.0 ],
+					"patching_rect" : [ 898.0, 9.5, 132.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 20.0, 19.0, 132.0, 20.0 ],
 					"text" : "Open Conductor File...",
@@ -1700,6 +1660,7 @@
 					"patching_rect" : [ 20.0, 220.0, 220.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 20.0, 200.0, 453.0, 23.0 ],
+					"text" : "Five.bank.txt",
 					"textcolor" : [ 0.4, 0.4, 0.8, 1.0 ],
 					"varname" : "bank"
 				}
@@ -1721,6 +1682,7 @@
 					"patching_rect" : [ 20.0, 100.0, 220.0, 40.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 20.0, 80.0, 453.0, 26.0 ],
+					"text" : "\"John Cage - Five (1988)\"",
 					"textcolor" : [ 0.4, 0.4, 0.8, 1.0 ],
 					"varname" : "title"
 				}
@@ -1769,20 +1731,13 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1033.5, 244.0, 99.0, 20.0 ],
+					"patching_rect" : [ 1081.40002400000003, 330.5, 99.0, 20.0 ],
 					"text" : "clear, read $1, bang"
 				}
 
 			}
  ],
 		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-42", 0 ],
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-10", 1 ]
@@ -1793,6 +1748,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-12", 0 ]
 				}
 
 			}
@@ -1847,7 +1809,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-28", 0 ],
+					"destination" : [ "obj-49", 0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -1876,20 +1838,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
-					"source" : [ "obj-17", 4 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-23", 0 ],
-					"source" : [ "obj-17", 5 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-26", 0 ],
 					"source" : [ "obj-17", 3 ]
 				}
 
@@ -1903,22 +1851,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
-					"source" : [ "obj-26", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-27", 0 ],
-					"source" : [ "obj-26", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
-					"source" : [ "obj-27", 0 ]
+					"destination" : [ "obj-12", 0 ],
+					"source" : [ "obj-22", 0 ]
 				}
 
 			}
@@ -2006,15 +1940,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
-					"order" : 0,
-					"source" : [ "obj-42", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-49", 0 ],
-					"order" : 1,
 					"source" : [ "obj-42", 0 ]
 				}
 
@@ -2022,7 +1947,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-39", 0 ],
-					"midpoints" : [ 1158.5, 86.0, 1012.5, 86.0 ],
+					"midpoints" : [ 1053.5, 84.0, 907.5, 84.0 ],
 					"source" : [ "obj-43", 0 ]
 				}
 
@@ -2050,7 +1975,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-50", 0 ],
+					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-49", 0 ]
 				}
 
@@ -2140,6 +2065,22 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-28", 0 ],
+					"order" : 0,
+					"source" : [ "obj-9", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-50", 0 ],
+					"order" : 1,
+					"source" : [ "obj-9", 3 ]
 				}
 
 			}

@@ -46,7 +46,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 51.0, 37.0, 232.0, 22.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ "..." ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -65,7 +65,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 13.0, 10.0, 223.0, 22.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ "..." ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -122,7 +122,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -409,11 +408,11 @@
 									"fontsize" : 10.0,
 									"id" : "obj-5",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 260.0, 339.0, 89.0, 20.0 ],
-									"text" : "prepend Location:"
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 260.0, 339.0, 111.0, 20.0 ],
+									"text" : "substitute set Location:"
 								}
 
 							}
@@ -423,11 +422,11 @@
 									"fontsize" : 10.0,
 									"id" : "obj-6",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 162.0, 339.0, 77.0, 20.0 ],
-									"text" : "prepend Name:"
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 162.0, 339.0, 100.0, 20.0 ],
+									"text" : "substitute set Name:"
 								}
 
 							}
@@ -565,8 +564,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 202.0, 260.0, 69.0, 20.0 ],
-									"text" : "loadmess ..."
+									"patching_rect" : [ 202.0, 260.0, 79.0, 20.0 ],
+									"text" : "loadmess set ..."
 								}
 
 							}
@@ -1210,7 +1209,6 @@
 				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "jit.pwindow",
-					"name" : "u076001001",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],

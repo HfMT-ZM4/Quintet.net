@@ -63,7 +63,7 @@ Download or clone the GitHub repo from https://github.com/HfMT-ZM4/CNMAT-odot.gi
 We are going to jump-start Quintet.net by launching all the components on one machine and running Five by John Cage, the "Hello World" of Quintet.net. Once we’ve covered the basics of Quintet.net, we are going to look at the Tutorial project which will give an overview of how to compose for the environment.
 After a successful installation, the Quintet.net folder should reside in the Max Packages folder. Please don’t move this folder or its subfolders, as, otherwise, Quintet.net may not function properly.
 
-# Launching the Quintet.net components
+### Launching the Quintet.net components
 First launch either the Max application. Now, let’s open three components, one at a time.
 N.B. Quintet.net was designed so that one (and only one) copy of each component can run in one instance of Max. Launching several copies of a component will lead to erratic behavior.
 
@@ -71,28 +71,29 @@ Let’s start by first opening the Quintet.net Server 2020 and then the Quintet.
 
 ![Quintet.net Toolbar](https://github.com/HfMT-ZM4/Quintet.net/blob/master/media/Resources/Toolbar.png)
 
-Once the Client has opened, click on “Select” and navigate to the Example/Five folder. Select “Five. bank” and load the sound files by clicking on the “Load Sound File...“ button below. After loading the files successfully, the window should close automatically.
+Once the Client has opened, fill in your name, location and identity (choose Player 1, for simplicity's sake). Now, click on the red double-arrow button on the top right-hand side in order to log onto the server. The button should turn green, if successful.
+Click on yellow Preferences button on the top left-hand side, click on the Project icon in the Preferences window and select Five from the List of stored Projects. This will load the sound files and a few other project-specific resources.
 
 ![Quintet.net Preferences](https://github.com/HfMT-ZM4/Quintet.net/blob/master/media/Resources/Preferences.png)
 
-Now, click on the “Register with host” button on the top of the Client in order to log onto the server.
+The Server displays the IP number:return port info as well as the name and the location for each participant.
 
-Ignore the “My IP Number” field for a moment and enter “localhost”, your name, your location and the number of the grand staff you want to your music to appear on.
-After a short delay a small Writer window with a unique IP number will open. This window belongs to the patch that interfaces between the Serv- er and the Client components. You can either minimize it or send it to the background. Make sure you don’t close the window on accident as this terminates the communication.
-
-The Server now displays the IP number, the name and the location for each participant. The small blinking “lights” on the right indicate that “hello” messages are being received every 5 seconds. In case that no “hello” message is being sent for 90 seconds, the connection will auto- matically be terminated and the Writer window closed.
-
-Let’s return to the Client. You’ve noticed that your name and location have appeared on the left hand side next to the grand staff you have chosen before.
+Let’s return to the Client. Turn on audio by clicking on the Power icon in the middle of the tool bar. It should turn blue.
 On the right hand side you’ll see a number of pop-up menus.
 Choose the instrument “3angle” from the “Instrm.” menu and start typing on the keyboard.
 
 At this point, quarter-note heads should appear on the grand staff and you should hear a sound provided that you hold the key long enough (the sounds used for “Five” fade in slowly). If the sound is too soft, click on the “Preferences” button and on the “Audio Levels” tab. Adjust the fader that corresponds to your grand staff. In rare cases, if you don’t hear any sound, you may have to press the return key to reset the sampler.
 
-In the Client, the computer keyboard can be used as an polyphonic in- strument. You can either create your own keyboard assignment or choose one of the three pre-defined assignment. For the latter, click on Input on the bottom of the Client window and open the Computer Keyboard con- trol panel. The following figure will give you an idea of how the pitches are laid out for the legacy key assigment (make sure you set the system keyboard layout to U.S. first.
+Of course, you can always attach a MIDI keyboard. First make sure that MIDI is enabled in the Input list, and then set the correct MIDI input port in the MIDI pane of the Preferences window. (More complex MIDI routing schemes can be realized with the MIDIMapper2 patch which can be opened from the MIDI pane.)
 
-Of course, you can always attach a MIDI keyboard. First make sure that MIDI is enabled in the Input list, and then set the correct MIDI input port in the MIDI pane of the Preferences window. More complex MIDI routing schemes (for input and output) can be realized with the MIDIMapper2 patch which can be opened from the MIDI pane.
-This keyboard layout will be different when you choose a different tun- ing from the “Tuning” menu. All tunings have in common that middle c is always assigned to “w.” You may also want to experiment a bit with the Tuning, Process and Filter menus. Don’t forget to set them to their origi- nal state before continuing with the next step.
-It’s time to launch the Quintet.net Conductor 2007.mxf collective.
+### Keyboard Layout and Tunings
+The computer keyboard can be used as an polyphonic instrument. It should always be set to U.S. or British, unless you care to create your own map. (Examples can be found in: "Max 8/Packages/Quintet.net/patchers/Library/Data/Keyboard Layout/".)
+This keyboard layout will be different when you choose a different tuning from the “Tuning” menu. All tunings have in common that middle c is always assigned to “q”. You may also want to experiment a bit with the Tuning, Process and Filter menus. 
+
+[Not sure whether this still applies:] Don’t forget to set them back to their original state before continuing with the next step.
+
+### Working with a conductor
+It’s time to launch Quintet.net Conductor 2020.
 
 If you launch the Conductor for the first time, you probably won’t see a title and a menu entry in the bottom part of the window. This is because no compositions have been saved with the Conductor preferences yet. We can change that by opening a “.cond” file (which is a short settings file specific to each composition).
 Once again, navigate to the “Example/Five” folder and open the Five. cond file. This will prompt the Conductor to display the title of the compo- sition, as well as to load the “Five” timeline (with its predefined triggers), its instruments and parts.
@@ -109,7 +110,7 @@ To demonstrate some basic features of the Viewer, five images of the score of Fi
 First launch the Quintet.net Viewer 2007 and open the Listener 2007 from its file menu. Then click the “load Settings...” button and locate the Five. xml file in the Quintet.net/Example/Five folder. Press shift-return to load the first preset. If you load the file for the first time or the file is miss- ing from the folder, you may have to set the path to the video clips by dragging the “Quintet.net/Example/Five/Clips” folder on each of the Clips menus located inside the 5 Movie panes on the top of the Viewer window. Now, set the resolution to at least “480 360” (the resolution of the tiff images) in the Viewer “Preferences” square, turn interpolation on (for a better viewing experience), make the Conductor window front-most and start the timeline by choosing “Section 1” from the triggers menu before pressing the space bar. After a short delay you should see a small image in the Client and Viewer windows, as well as an enlarged copy of the im- age in a window named “quintet.net (jit_window)”. It is possible to toggle between full-screen and regular modes can by pressing the “esc” key.
 
 
-## Using quintet.net in a performance
+## Using Quintet.net in a performance
 
 Once again we’re going to use Five as an example of how to use Quin- tet.net in a performance situation. Depending on the hardware used, your configuration may vary quite considerably. Therefore, let’s discuss the minimum and optimal configurations:
 The minimum configuration consist of six computers, five computers run- ning their own copy of the Client and one computer running the Server, the Conductor (as well as a Listener and the Viewer add-on, if public viewing is desired). While the maximum number of Clients is limited to five (hence the name Quintet.net), the Listener being a stripped-down version of the Client allows unlimited computers to register and to follow a Quintet.net performance.
@@ -158,4 +159,6 @@ The European Bridges Ensemble (also know as E-B-E) was an ensemble specializing 
 
 # References
 
->>>>>>> Experimental
+# Tutorial
+
+In the Client, the computer keyboard can be used as an polyphonic instrument. You can either create your own keyboard assignment or choose one of the three pre-defined assignment. For the latter, click on Input on the bottom of the Client window and open the Computer Keyboard con- trol panel. The following figure will give you an idea of how the pitches are laid out for the legacy key assigment (make sure you set the system keyboard layout to U.S. first.

@@ -539,7 +539,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 14.5, 37.364578000000002, 185.0, 20.0 ],
 					"readonly" : 1,
-					"text" : "<none>",
+					"text" : "Five",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -865,7 +865,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 182.249939000000012, 81.880356000000006, 216.0, 22.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ "Macintosh HD:/Users/Shared/Max 8/packages/Quintet.net/patchers/Projects/Five" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -927,6 +927,32 @@
 						"title" : "Open",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-33",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 181.0, 211.0, 50.0, 22.0 ],
+									"text" : "clear all"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-20",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 5,
+									"outlettype" : [ "", "", "", "", "" ],
+									"patching_rect" : [ 103.0, 132.0, 65.0, 22.0 ],
+									"text" : "regexp .git"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-32",
@@ -953,7 +979,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 111.0, 818.0, 29.5, 22.0 ],
+									"patching_rect" : [ 111.0, 842.0, 29.5, 22.0 ],
 									"text" : "t b l"
 								}
 
@@ -967,7 +993,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 111.0, 842.0, 300.0, 22.0 ],
+									"patching_rect" : [ 111.0, 866.0, 300.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"filename" : "maxfolder",
 										"parameter_enable" : 0
@@ -986,7 +1012,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 111.0, 869.0, 125.0, 22.0 ],
+									"patching_rect" : [ 111.0, 893.0, 125.0, 22.0 ],
 									"text" : "sprintf symout %s/%s"
 								}
 
@@ -1000,7 +1026,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 37.5, 752.0, 24.0, 22.0 ],
+									"patching_rect" : [ 37.5, 776.0, 24.0, 22.0 ],
 									"text" : "t b"
 								}
 
@@ -1564,7 +1590,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 37.5, 782.0, 59.5, 20.0 ],
+									"patching_rect" : [ 37.5, 806.0, 59.5, 20.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -1585,7 +1611,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 344.0, 135.0, 32.5, 22.0 ],
+									"patching_rect" : [ 344.0, 159.0, 32.5, 22.0 ],
 									"text" : "+ 1"
 								}
 
@@ -1599,7 +1625,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 132.0, 747.0, 32.5, 22.0 ],
+									"patching_rect" : [ 132.0, 771.0, 32.5, 22.0 ],
 									"text" : "$2"
 								}
 
@@ -1613,7 +1639,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 276.0, 187.0, 60.0, 22.0 ],
+									"patching_rect" : [ 276.0, 211.0, 60.0, 22.0 ],
 									"text" : "loadbang"
 								}
 
@@ -1627,7 +1653,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 103.0, 708.0, 48.0, 22.0 ],
+									"patching_rect" : [ 103.0, 732.0, 48.0, 22.0 ],
 									"text" : "route 0"
 								}
 
@@ -1641,7 +1667,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 276.0, 212.0, 220.0, 23.0 ],
+									"patching_rect" : [ 276.0, 236.0, 220.0, 23.0 ],
 									"text" : "set 0 0 Select Project:, cell 0 0 just 1"
 								}
 
@@ -1655,7 +1681,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "wclose" ],
-									"patching_rect" : [ 314.5, 708.0, 54.0, 22.0 ],
+									"patching_rect" : [ 314.5, 732.0, 54.0, 22.0 ],
 									"text" : "t wclose"
 								}
 
@@ -1669,7 +1695,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "wclose", "bang" ],
-									"patching_rect" : [ 150.0, 708.0, 64.0, 22.0 ],
+									"patching_rect" : [ 150.0, 732.0, 64.0, 22.0 ],
 									"text" : "t wclose b"
 								}
 
@@ -1683,7 +1709,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 111.0, 782.0, 40.0, 22.0 ],
+									"patching_rect" : [ 111.0, 806.0, 40.0, 22.0 ],
 									"text" : "zl reg"
 								}
 
@@ -1700,7 +1726,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 314.5, 676.0, 159.5, 20.0 ],
+									"patching_rect" : [ 314.5, 700.0, 159.5, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.5, 404.364562999999976, 138.5, 20.0 ],
 									"tabs" : [ "Cancel" ]
@@ -1719,7 +1745,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 150.0, 676.0, 159.5, 20.0 ],
+									"patching_rect" : [ 150.0, 700.0, 159.5, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 158.5, 404.364562999999976, 138.5, 20.0 ],
 									"tabs" : [ "Open" ]
@@ -1735,7 +1761,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 314.5, 747.0, 69.0, 22.0 ],
+									"patching_rect" : [ 314.5, 771.0, 69.0, 22.0 ],
 									"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 									"text" : "thispatcher"
 								}
@@ -1749,7 +1775,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 111.0, 896.0, 25.0, 25.0 ]
+									"patching_rect" : [ 111.0, 920.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -1775,7 +1801,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 103.0, 676.0, 41.0, 22.0 ],
+									"patching_rect" : [ 103.0, 700.0, 41.0, 22.0 ],
 									"text" : "$2 $3"
 								}
 
@@ -1789,7 +1815,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 103.0, 212.0, 41.0, 22.0 ],
+									"patching_rect" : [ 103.0, 236.0, 41.0, 22.0 ],
 									"text" : "zl join"
 								}
 
@@ -1803,7 +1829,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 103.0, 239.0, 84.0, 22.0 ],
+									"patching_rect" : [ 103.0, 263.0, 84.0, 22.0 ],
 									"text" : "prepend set 0"
 								}
 
@@ -1845,7 +1871,7 @@
 									"numinlets" : 5,
 									"numoutlets" : 4,
 									"outlettype" : [ "int", "", "", "int" ],
-									"patching_rect" : [ 103.0, 187.0, 73.0, 22.0 ],
+									"patching_rect" : [ 103.0, 211.0, 73.0, 22.0 ],
 									"text" : "counter"
 								}
 
@@ -1859,7 +1885,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 103.0, 161.0, 32.5, 22.0 ],
+									"patching_rect" : [ 103.0, 185.0, 32.5, 22.0 ],
 									"text" : "t b l"
 								}
 
@@ -1873,7 +1899,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 344.0, 167.0, 83.0, 22.0 ],
+									"patching_rect" : [ 344.0, 191.0, 83.0, 22.0 ],
 									"text" : "prepend rows"
 								}
 
@@ -1899,7 +1925,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 103.0, 135.0, 111.0, 22.0 ],
+									"patching_rect" : [ 137.5, 159.0, 111.0, 22.0 ],
 									"text" : "route append clear"
 								}
 
@@ -1913,7 +1939,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "int" ],
-									"patching_rect" : [ 103.0, 104.0, 41.0, 22.0 ],
+									"patching_rect" : [ 103.0, 99.0, 41.0, 22.0 ],
 									"text" : "folder"
 								}
 
@@ -1932,10 +1958,10 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "list", "", "", "" ],
-									"patching_rect" : [ 103.0, 269.0, 308.0, 390.0 ],
+									"patching_rect" : [ 103.0, 293.0, 308.0, 390.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 0.0, 308.0, 390.0 ],
-									"rows" : 3
+									"rows" : 6
 								}
 
 							}
@@ -1950,7 +1976,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-19", 0 ],
-									"midpoints" : [ 147.166666666666657, 82.5, 324.0, 82.5 ],
+									"midpoints" : [ 147.166666666666657, 100.5, 324.0, 100.5 ],
 									"source" : [ "obj-10", 2 ]
 								}
 
@@ -1964,6 +1990,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-33", 0 ],
+									"source" : [ "obj-10", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-9", 2 ],
 									"source" : [ "obj-10", 1 ]
 								}
@@ -1972,7 +2005,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-18", 0 ],
-									"midpoints" : [ 141.5, 734.0, 47.0, 734.0 ],
+									"midpoints" : [ 141.5, 758.0, 47.0, 758.0 ],
 									"order" : 1,
 									"source" : [ "obj-11", 1 ]
 								}
@@ -2030,6 +2063,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-20", 0 ],
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-28", 0 ],
 									"source" : [ "obj-2", 1 ]
 								}
@@ -2038,7 +2078,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-4", 0 ],
-									"source" : [ "obj-2", 0 ]
+									"source" : [ "obj-20", 3 ]
 								}
 
 							}
@@ -2073,7 +2113,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-23", 0 ],
-									"midpoints" : [ 204.5, 740.0, 120.5, 740.0 ],
+									"midpoints" : [ 204.5, 764.0, 120.5, 764.0 ],
 									"source" : [ "obj-24", 1 ]
 								}
 
@@ -2136,6 +2176,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"source" : [ "obj-33", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-8", 0 ],
 									"source" : [ "obj-4", 0 ]
 								}
@@ -2144,7 +2191,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-24", 0 ],
-									"midpoints" : [ 87.5, 809.0, 221.5, 809.0, 221.5, 700.0, 159.5, 700.0 ],
+									"midpoints" : [ 87.5, 833.0, 221.5, 833.0, 221.5, 724.0, 159.5, 724.0 ],
 									"source" : [ "obj-45", 1 ]
 								}
 
@@ -8658,14 +8705,14 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 619.0, 100.0, 351.0, 22.0 ],
-									"restore" : [ 0 ],
+									"restore" : [ "Macintosh HD:/Users/Shared/Max 8/packages/Quintet.net/patchers/Projects/Five" ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
 									"text" : "pattr @bindto parent::path @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u447041873"
+									"varname" : "u384002664"
 								}
 
 							}
@@ -8878,7 +8925,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::parent::parent::Register::myIP::info @invisible 1",
-									"varname" : "u509041878"
+									"varname" : "u630002669"
 								}
 
 							}
@@ -10744,7 +10791,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::parent::Register::serverIP::info @invisible 1 @thru 0",
-					"varname" : "u374041892"
+					"varname" : "u791002683"
 				}
 
 			}

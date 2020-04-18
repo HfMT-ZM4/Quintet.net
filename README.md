@@ -69,7 +69,7 @@ N.B. Quintet.net was designed so that one (and only one) copy of each component 
 
 Let’s start by first opening the Quintet.net Server 2020 and then the Quintet.net Client 2020. You'll find the components in the Quintet.net Package.
 
-![Quintet.net Viewer](https://github.com/HfMT-ZM4/Quintet.net/blob/master/media/Resources/Viewer.png)
+![Quintet.net Toolbar](https://github.com/HfMT-ZM4/Quintet.net/blob/master/media/Resources/toolbar.png)
 
 Once the Client has opened, click on “Select” and navigate to the Example/Five folder. Select “Five. bank” and load the sound files by clicking on the “Load Sound File...“ button below. After loading the files successfully, the window should close automatically.
 

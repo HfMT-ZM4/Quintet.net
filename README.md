@@ -8,7 +8,10 @@ _For me, the highlight was Georg Hajdu’s "Quintet.net: A Quintet on the Intern
 Ian Whalley, Computer Music Journal
 
 # Intro
-Quintet.net is a network multimedia performance environment invented and developed by composer and computer musician Georg Hajdu. It enables performers at up to five locations to play music over the Internet or a local network under the control of a “conductor.” The environment, which was programmed with the graphical programming language Max consists of the following four components:
+Quintet.net is a network multimedia performance environment invented and developed by composer and computer musician Georg Hajdu. It enables performers at up to five locations to play music over the Internet or a local network under the control of a “conductor.” 
+Quintet.net uses a sampler or MIDI for instrumental playback. It also features granular synthesis as well as Downloadable Sounds and plug-ins for sound processing and playback, and has additional video and graphical properties, which permit better interaction and control on a symbolical level: The performers along with the audience see the music which the participants produce on screen in “space” notation on five staves. In addition video clips and/or live video can be displayed by the Viewer add-on and mixed with real-time music notation for an enhanced viewing experience. The Conductor can also read musical scores and send parts to the performers, which will be displayed along with the notes produced by the musicians.
+
+The environment, which was programmed with the graphical programming language Max consists of the following four components:
 
 ## Four Components
 
@@ -19,67 +22,56 @@ The server caches the state of the system so that when new players log on their 
 
 ### Client
 ![Quintet.net Client](https://github.com/HfMT-ZM4/Quintet.net/blob/master/media/Resources/Client.png)
-The Client has several functional units: an input unit, a sound synthesis unit and a notation unit. Musical events can be entered into the computer through either a microphone, a controller (including MIDI devices) or simply the computer keyboard (Fig. 2). If the music is input via microphone, a pitch tracker integrated into the program provides for the recognition of the pitches and their transformation into corresponding MIDI messages. The input unit employs OpenSoundControl messages based on a modified MIDI protocol for the transmission of note events using MIDI cents and velocity for steady pitch and amplitude as well as for continuous pitch and amplitude changes, resp. The note and bend events are played back by a built-in microtonal, multitimbral, polyphonic sampler. With this, every piece can sound distinctively different. The sounds can be further processed with VST plug-ins and its own audio-extension plug-ins. Thus, a pianist located in Hamburg could play on a Yamaha Disklavier placed anywhere else in the world.
+The Client has several functional units: an input unit, a sound synthesis unit and a notation unit. Musical events can be entered into the computer through either a microphone, a controller (including MIDI devices) or simply the computer keyboard. If the music is input via microphone, a pitch tracker integrated into the program provides for the recognition of the pitches and their transformation into corresponding MIDI messages. The input unit employs OpenSoundControl messages based on a modified MIDI protocol for the transmission of note events using MIDI cents and velocity for steady pitch and amplitude as well as for continuous pitch and amplitude changes, resp. The note and bend events are played back by a built-in microtonal, multitimbral, polyphonic sampler. With this, every piece can sound distinctively different. The sounds can be further processed with VST plug-ins and its own audio-extension plug-ins. Thus, a pianist located in Hamburg could play on a Yamaha Disklavier placed anywhere else in the world.
 As soon as a note event arrives to the Client, the music will be drawn onto the computer screen in “space” notation. The Client can import an unlimited number of arbitrary tuning maps. The use of (pitch) filters, constituting a secondary tuning map or pitch grid, permits further control of melodic and harmonic events. 
-Real-time notation facilitates the interaction of players who are sometimes thousands of miles apart from one another, even with non-pitched or complex samples. American composer and computer musician Chris Brown wrote about the use of real-time notation: “Sharing a notation space really broke new ground for this kind of music”.
+Real-time notation facilitates the interaction of players who are sometimes thousands of miles apart from one another, even with non-pitched or complex samples. American composer and computer musician Chris Brown wrote about the use of real-time notation: “Sharing a notation space really broke new ground for this kind of music”. When logging on to the Server, the user can choose a role. He/she can be one of the five players or a listener. There is no limit on the number of listeners. 
 
 ### Conductor
 ![Quintet.net Conductor](https://github.com/HfMT-ZM4/Quintet.net/blob/master/media/Resources/Conductor.png)
 Quintet.net uses the metaphor of an ensemble under the control of a conductor——a sixth player using the Conductor component——to monitor and influence the performance by selecting sounds, tunings, processes and filters (which, without a conductor, can also be changed by each of the Clients). The conductor stays in contact with the musicians through textual directions that appear in the Clients’ command lines, while a chat window facilitates the exchange of more complicated issues between the participants (including the cyber-audience; see below). If a piece employs a score, the conductor can also send parts and control the background sounds. On the Client, different display modes allow su- perimposition of parts and note events. Entering messages into a score and executing them during the performance can automate all this.
 
 ### Viewer (add-on)
-The Viewer add-on was conceived to extend the Quintet.net performance into the visual domain (Fig. 5). Using the Jitter matrix processing objects, this com- ponent implements a number of live
-video-processing algorithms that can be controlled either manually or automatically by sequencing commands from a timeline. The media on which the algorithms operate can be either video clips, live video streams and/or real-time music notation, and can be mixed and superimposed in 2D and 3D at will. The algorithms in turn can be controlled by the actions of the musicians. Thus, the Viewer enables composers/artists to cre- ate complex artworks in which the visual components represent an autonomous formal element.
-
-
-## Interaction under the control of a conductor
-
-The players interact over the Internet by sending control streams to the Server either using a pitch-tracker, MIDI or simply the computer keyboard. On the Server, the streams get copied and sent back to the Clients as well as to the Listeners. In addition, a conductor can log onto the server and control the musical outcome by changing settings remotely and sending streams of parameter values as well as short com- mands to the players.
-
-## Audio, notation and live video processing
-Quintet.net uses a sampler or MIDI for instrumental playback. It also features granular synthesis as well as Downloadable Sounds and vst~ plug-ins for sound processing and playback, and has additional video and graphical properties, which permit better interaction and control on a symbolical level: The performers along with the audience see the mu- sic which the participants produce on screen in “space” notation on five grand staves. In addition video clips and/or live video can be displayed by the Viewer add-on and mixed with real-time music notation for an en- hanced viewing experience. The Conductor can also read musical scores and send parts to the performers, which will be displayed along with the notes produced by the musicians.
+![Quintet.net Viewer](https://github.com/HfMT-ZM4/Quintet.net/blob/master/media/Resources/Viewer.png)
+The Viewer add-on was conceived to extend the Quintet.net performance into the visual domain. Using the Jitter matrix processing objects, this component implements a number of live video generating and processing algorithms that can be controlled either manually or by sending messages over the network. The media on which the algorithms operate can be either video clips or input from the video generators. The algorithms in turn can be controlled by the actions of the musicians. Thus, the Viewer enables composers/artists to create complex artworks in which the visual components represent an autonomous formal element. Several instances of the Viewer can be employed together in a performance. As an add-on it requires the Quintet.net Client to be opened.
 
 ## Composing for Quintet.net
-The music performed with Quintet.net is typically a combination of com- posed and improvised elements. The lack of real synchronicity due to the usual delays on the Net, necessitates the adaptation of a genuine “In- ternet” performance style for which John Cage’s number pieces could be considered a model: These pieces require certain notes or phrases to be played within “time brackets.”
+The music performed with Quintet.net is typically a combination of composed and improvised elements. Before the advent of broadband low-latecy networks, the lack of real synchronicity necessitated the adaptation of a genuine “Internet” performance style for which John Cage’s number pieces were considered a model: These pieces require certain notes or phrases to be played within “time brackets.”
 
 ### Internet Server Address
 An online server is accessible at 193.175.151.142
 
 # Support
-For help on how to use the software, please refer to the Quintet.net home page at http://www.quintet.net.
+For help on how to use the software, please refer to the Quintet.net repository at http://www.quintet.net.
 Questions can be directed to georg.hajdu@hfmt-hamburg.de.
 
 # Software Download
 
 ## Quintet.net
-Download the GitHub repo from https://github.com/HfMT-ZM4/Quintet.net/
-Quintet.net in addition requires the following Max packages:
+Download or clone the GitHub repo from https://github.com/HfMT-ZM4/Quintet.net/ to your Max 8/Packages folder (the Max 8 folder is typically located in ~/Documents).
+
+In addition, Quintet.net requires the following Max packages:
 
 ## MaxScore
-Get from computermusicnotation.com
-## PatMap
-
-## µUtilities
+MaxScore is the notation environment necessary to display scores and real-time notation
+Get from http://www.computermusicnotation.com/downloadmaxscore/
 
 ## odot
-
-# The Components
-## Client
-## Server
-## Conductor
-## Viewer
+Download or clone the GitHub repo from https://github.com/HfMT-ZM4/CNMAT-odot.git/ to your Max 8/Packages folder
 
 # Manual
 ## Getting Started
-We are going to jump-start Quintet.net by launching all the components on one machine and running the example composition by John Cage. Once we’ve covered the basics of Quintet.net, we are going to examine and compare several configurations of networked computers.
-After a successful installation, the Quintet.net folder should reside in the MaxMSP patches folder. Please don’t move this folder or its subfold- ers, as Quintet.net may not function properly otherwise.
-Launching the Quintet.net components
-First launch either the Max/MSP application or, if the demo period has expired, the MaxMSP runtime application. Now, let’s open three of the six Quintet.net components one at a time either by double-clicking their icons in the finder or by opening them from inside the MaxMSP applica- tion.
-N.B. Quintet.net was designed so that one (and only one) copy of each component can run on one computer. Launching several copies of a com- ponent will lead to erratic behavior.
+We are going to jump-start Quintet.net by launching all the components on one machine and running Five by John Cage, the "Hello World" of Quintet.net. Once we’ve covered the basics of Quintet.net, we are going to look at the Tutorial project which will give an overview of how to compose for the environment.
+After a successful installation, the Quintet.net folder should reside in the Max Packages folder. Please don’t move this folder or its subfolders, as, otherwise, Quintet.net may not function properly.
 
-For simplicity’s sake let’s start by first opening the Max collective Quintet. net Server 2007.mxf and then Quintet.net Client 2007.mxf.
+# Launching the Quintet.net components
+First launch either the Max application. Now, let’s open three components, one at a time.
+N.B. Quintet.net was designed so that one (and only one) copy of each component can run in one instance of Max. Launching several copies of a component will lead to erratic behavior.
 
-Click on “Select” and navigate to the Example/Five folder. Select “Five. bank” and load the sound files by clicking on the “Load Sound File...“ but- ton below. After loading the files successfully, the window should close automatically.
+Let’s start by first opening the Quintet.net Server 2020 and then the Quintet.net Client 2020. You'll find the components in the Quintet.net Package.
+
+![Quintet.net Viewer](https://github.com/HfMT-ZM4/Quintet.net/blob/master/media/Resources/Viewer.png)
+
+Once the Client has opened, click on “Select” and navigate to the Example/Five folder. Select “Five. bank” and load the sound files by clicking on the “Load Sound File...“ button below. After loading the files successfully, the window should close automatically.
 
 Now, click on the “Register with host” button on the top of the Client in order to log onto the server.
 

@@ -1,0 +1,3 @@
+[submodule "patchers/PatMap"]
+	path = patchers/PatMap
+	url = https://github.com/HfMT-ZM4/PatMap

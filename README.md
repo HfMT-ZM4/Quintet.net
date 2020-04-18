@@ -73,6 +73,8 @@ Let’s start by first opening the Quintet.net Server 2020 and then the Quintet.
 
 Once the Client has opened, click on “Select” and navigate to the Example/Five folder. Select “Five. bank” and load the sound files by clicking on the “Load Sound File...“ button below. After loading the files successfully, the window should close automatically.
 
+![Quintet.net Preferences](https://github.com/HfMT-ZM4/Quintet.net/blob/master/media/Resources/Preferences.png)
+
 Now, click on the “Register with host” button on the top of the Client in order to log onto the server.
 
 Ignore the “My IP Number” field for a moment and enter “localhost”, your name, your location and the number of the grand staff you want to your music to appear on.

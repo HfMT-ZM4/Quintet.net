@@ -1,4 +1,4 @@
-patchers/Projects/**
+patchers/Projects/*
 !patchers/Projects/Five
 !patchers/Projects/Template
 !patchers/Projects/EffectsEngine

@@ -1,0 +1,23 @@
+{
+	"pattrstorage" : 	{
+		"name" : "u878030474",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"jk.iphone-slider-v[25]::vslider" : [ 200 ],
+					"jk.iphone-slider-v[26]::vslider" : [ 230 ],
+					"jk.iphone-slider-v[27]::vslider" : [ 541 ],
+					"jk.iphone-slider-v[28]::vslider" : [ 443 ],
+					"jk.iphone-slider-v[29]::vslider" : [ 425 ],
+					"jk.iphone-slider[5]::led" : [ 0 ],
+					"jk.iphone-slider[5]::hslider" : [ 100 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

@@ -1,0 +1,31 @@
+{
+	"pattrstorage" : 	{
+		"name" : "u220030714",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"master::hslider" : [ 134 ],
+					"master::led" : [ 0 ],
+					"number" : [ 4 ],
+					"number[3]" : [ 5 ],
+					"pulse-width-msec::led" : [ 0 ],
+					"pulse-width-msec::hslider" : [ 5 ],
+					"audio-input-gain::hslider" : [ 0 ],
+					"audio-input-gain::led" : [ 0 ],
+					"pulse-vol::hslider" : [ 0 ],
+					"pulse-vol::led" : [ 0 ],
+					"pink-noise::led" : [ 0 ],
+					"pink-noise::hslider" : [ 0 ],
+					"jk.iphone-toggle[8]::toggle" : [ 1 ],
+					"white-noise::hslider" : [ 0 ],
+					"white-noise::led" : [ 0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

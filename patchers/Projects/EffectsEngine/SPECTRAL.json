@@ -1,0 +1,37 @@
+{
+	"pattrstorage" : 	{
+		"name" : "u393030216",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"jk.iphone-slider[6]::led" : [ 0 ],
+					"jk.iphone-slider[6]::hslider" : [ 0 ],
+					"interpt::vslider" : [ 603 ],
+					"dst_hi::vslider" : [ 1000 ],
+					"dst_lo::vslider" : [ 0 ],
+					"scr_hi::vslider" : [ 900 ],
+					"src_lo::vslider" : [ 31 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"jk.iphone-slider[6]::led" : [ 0 ],
+					"jk.iphone-slider[6]::hslider" : [ 0 ],
+					"interpt::vslider" : [ 603 ],
+					"dst_hi::vslider" : [ 621 ],
+					"dst_lo::vslider" : [ 0 ],
+					"scr_hi::vslider" : [ 572 ],
+					"src_lo::vslider" : [ 31 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

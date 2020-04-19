@@ -1,0 +1,25 @@
+{
+	"pattrstorage" : 	{
+		"name" : "u633031871",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"filtergraph~" : [ 1, 0, 3, 1, 0, 0, 1157.818237, 1.98, 0.293215 ],
+					"jk.iphone-slider[1]::led" : [ 0 ],
+					"jk.iphone-slider[1]::hslider" : [ 100 ],
+					"jk.iphone-umenu[1]::umenu" : [ 2 ],
+					"jk.iphone-slider-v[4]::vslider" : [ 66 ],
+					"jk.iphone-slider-v[5]::vslider" : [ 456 ],
+					"jk.iphone-slider-v[6]::vslider" : [ 614 ],
+					"jk.iphone-toggle[9]::toggle" : [ 0 ],
+					"jk.iphone-toggle[10]::toggle" : [ 0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

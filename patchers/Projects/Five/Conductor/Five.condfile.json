@@ -1,7 +1,0 @@
-{
-	"title" : "John Cage - Five (1988)",
-	"controlpanel" : "Five-XML-control.maxpat",
-	"maxscore" : "Five.jscore.xml",
-	"bank" :  "Five.bank.txt",
-	"timeline" : "Five.timeline.txt"
-}

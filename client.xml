@@ -64,7 +64,7 @@
 			<pattr name = "displayStaves" value = "Grand_Staff" />
 			<pattr name = "filterName" value = "-bypass-" />
 			<pattr name = "filterTransposition" value = "0" />
-			<pattr name = "instrument" value = "none" />
+			<pattr name = "instrument" value = "&quot;* Clarinetto.instr&quot;" />
 			<pattr name = "processPreset" value = "on" />
 			<pattr name = "sendDelay" value = "0" />
 			<pattr name = "sendDestination" value = "none" />
@@ -97,7 +97,7 @@
 				</patcher>
 			</patcher>
 			<patcher name = "Network">
-				<pattr name = "u799015305" value = "0" />
+				<pattr name = "u493012788" value = "0" />
 			</patcher>
 			<patcher name = "MIDI">
 				<patcher name = "control-panel">
@@ -108,37 +108,11 @@
 			</patcher>
 			<patcher name = "EffectsEngine">
 				<patcher name = "control-panel">
-					<patcher name = "jk-master-bp">
-						<patcher name = "SPECTRAL">
-							<pattr name = "u121014585" value = "-1" />
-						</patcher>
-						<patcher name = "PITCH-SHIFT">
-							<pattr name = "u701014310" value = "-1" />
-						</patcher>
-						<patcher name = "Master">
-							<pattr name = "u501014064" value = "-1" />
-						</patcher>
-						<patcher name = "MODULATION">
-							<pattr name = "u132013669" value = "-1" />
-						</patcher>
-						<patcher name = "COMBFILTER">
-							<pattr name = "u067013383" value = "-1" />
-						</patcher>
-						<patcher name = "DISTORTION">
-							<pattr name = "u227013143" value = "-1" />
-						</patcher>
-						<patcher name = "ONE-FILTER">
-							<pattr name = "u934012919" value = "-1" />
-						</patcher>
-						<patcher name = "WaveShape">
-							<pattr name = "u409012659" value = "-1" />
-						</patcher>
-					</patcher>
 				</patcher>
 			</patcher>
 			<patcher name = "Computer_Keyboard">
 				<pattr name = "volume" value = "61" />
-				<pattr name = "u412012427" value = "1" />
+				<pattr name = "u124012321" value = "1" />
 				<patcher name = "control-panel">
 					<pattr name = "Layout" value = "Diagonal.txt" />
 					<pattr name = "shift-with-tab" value = "1" />
@@ -226,32 +200,32 @@
 				<patcher name = "p1">
 					<pattr name = "angle" value = "0." />
 					<pattr name = "spread" value = "0." />
-					<pattr name = "x" value = "16.625" />
-					<pattr name = "y" value = "86.25" />
+					<pattr name = "x" value = "0." />
+					<pattr name = "y" value = "0." />
 				</patcher>
 				<patcher name = "p2">
 					<pattr name = "angle" value = "0." />
 					<pattr name = "spread" value = "0." />
-					<pattr name = "x" value = "15.625" />
-					<pattr name = "y" value = "14.375" />
+					<pattr name = "x" value = "0." />
+					<pattr name = "y" value = "0." />
 				</patcher>
 				<patcher name = "p3">
 					<pattr name = "angle" value = "0." />
 					<pattr name = "spread" value = "0." />
-					<pattr name = "x" value = "50." />
+					<pattr name = "x" value = "0." />
 					<pattr name = "y" value = "0." />
 				</patcher>
 				<patcher name = "p4">
 					<pattr name = "angle" value = "0." />
 					<pattr name = "spread" value = "0." />
-					<pattr name = "x" value = "86.25" />
-					<pattr name = "y" value = "14.375" />
+					<pattr name = "x" value = "0." />
+					<pattr name = "y" value = "0." />
 				</patcher>
 				<patcher name = "p5">
 					<pattr name = "angle" value = "0." />
 					<pattr name = "spread" value = "0." />
-					<pattr name = "x" value = "85.625" />
-					<pattr name = "y" value = "86.25" />
+					<pattr name = "x" value = "0." />
+					<pattr name = "y" value = "0." />
 				</patcher>
 				<patcher name = "p6">
 					<pattr name = "angle" value = "0." />
@@ -262,8 +236,8 @@
 				<patcher name = "p7">
 					<pattr name = "angle" value = "0." />
 					<pattr name = "spread" value = "0." />
-					<pattr name = "x" value = "25." />
-					<pattr name = "y" value = "18.75" />
+					<pattr name = "x" value = "0." />
+					<pattr name = "y" value = "0." />
 				</patcher>
 			</patcher>
 		</patcher>
@@ -280,16 +254,16 @@
 			</patcher>
 			<patcher name = "MIDI">
 				<patcher name = "ports">
-					<pattr name = "in" value = "&quot;to Max 1&quot;" />
-					<pattr name = "in[1]" value = "&quot;to Max 1&quot;" />
+					<pattr name = "in" value = "" />
+					<pattr name = "in[1]" value = "" />
 					<pattr name = "levels" value = "2 3 4 5 6 8 87 88" />
-					<pattr name = "netin" value = "&quot;AU DLS Synth 1&quot;" />
-					<pattr name = "netout" value = "&quot;to Max 1&quot;" />
-					<pattr name = "out1" value = "&quot;AU DLS Synth 1&quot;" />
-					<pattr name = "out2" value = "&quot;AU DLS Synth 1&quot;" />
-					<pattr name = "out3" value = "&quot;AU DLS Synth 1&quot;" />
-					<pattr name = "out4" value = "&quot;AU DLS Synth 1&quot;" />
-					<pattr name = "out5" value = "&quot;AU DLS Synth 1&quot;" />
+					<pattr name = "netin" value = "&quot;Microsoft GS Wavetable Synth&quot;" />
+					<pattr name = "netout" value = "" />
+					<pattr name = "out1" value = "&quot;Microsoft GS Wavetable Synth&quot;" />
+					<pattr name = "out2" value = "&quot;Microsoft GS Wavetable Synth&quot;" />
+					<pattr name = "out3" value = "&quot;Microsoft GS Wavetable Synth&quot;" />
+					<pattr name = "out4" value = "&quot;Microsoft GS Wavetable Synth&quot;" />
+					<pattr name = "out5" value = "&quot;Microsoft GS Wavetable Synth&quot;" />
 				</patcher>
 				<patcher name = "4-instrument">
 					<pattr name = "sound" value = "" />
@@ -565,7 +539,7 @@
 				<pattr name = "live.text" value = "0." />
 				<pattr name = "live.text[1]" value = "0." />
 				<pattr name = "mappers" value = "0" />
-				<pattr name = "source" value = "/client/stateCache 398.3ociT1ySCCCDFdl9qHxysQD+wBinhJKfPzrgPHSiSqgTmHamJUn7emzFQooMw2s568783mDceO5JRkznJhS1sSabda8ZkwShtIhXJMJx3SC3qMZyxGkqUGBjPSuKsahJa4BkycLhekst2DOYUNU6bJMcSjqK7J6wqXx6aqjN2j9PY9Jc9gK45dJlZkFWUoS60Mi3hPsiITHJ3KlBIMJnRnfJghQIzPJghQITLJgA8fYfNiApDFnRXXTBKjRXXTBCiR3PJgCpDNnR3fJgiQI7PJgiQIbLJQ.oDAnRDfJQ.pDAFkHBoDAFkHBqD0mMG+09MNEkKj+Uhba5yjSJSOqbbb7YkqJjaU19JxB2KKTu7v8xC0qHbuhP8lbZwWhHyTk1kjwQj6kejUShdsyhoLsae5GJyZ+Np1z7ikizWl4d4Fk6PpYMSJ6slCxy6F0oLYSUMgubEXaImWa9+cc4JNPdX34gMLOLT7jffmD77jLLOIn3QffGAddDCyi.EObD7vwyCeXd3A3YzOi9EjbFAHN" />
+				<pattr name = "source" value = "/player 1 note 8400 0 /TimeTag 1305332.25" />
 				<patcher name = "output">
 					<pattr name = "info" value = "&lt;empty&gt;" />
 				</patcher>
@@ -574,20 +548,6 @@
 				</patcher>
 				<patcher name = "input">
 					<pattr name = "file" value = "Macintosh HD:/Applications/Max5/patches/Quintet.net/Test-Patches/Vera.mapper.txt" />
-				</patcher>
-				<patcher name = "mapper.instances">
-					<patcher name = "nodes">
-						<patcher name = "nodespatcher">
-							<pattr name = "u603007060" value = "0.0885 0.0885 0.2 1 0.1667 0.1667 0.2 1 0.2434 0.2522 0.2 1" />
-						</patcher>
-					</patcher>
-				</patcher>
-				<patcher name = "mapper-inspectors">
-					<patcher name = "nodes">
-						<patcher name = "nodespatcher">
-							<pattr name = "u524007180" value = "0.0885 0.0885 0.2 1 0.1667 0.1667 0.2 1 0.2434 0.2522 0.2 1" />
-						</patcher>
-					</patcher>
 				</patcher>
 			</patcher>
 		</patcher>
@@ -645,6 +605,10 @@
 			<patcher name = "realtime">
 				<patcher name = "process.1">
 					<patcher name = "DJster">
+						<patcher name = "Autobusk-Player">
+							<patcher name = "latch">
+							</patcher>
+						</patcher>
 						<patcher name = "controlpanel">
 							<patcher name = "preset">
 								<pattr name = "file" value = "0" />
@@ -671,7 +635,7 @@
 							<pattr name = "tonic_pitch" value = "5300" />
 							<pattr name = "umenu" value = "0" />
 						</patcher>
-						<pattr name = "u778007347" value = "thru" />
+						<pattr name = "u887007239" value = "thru" />
 					</patcher>
 					<patcher name = "harmonizer">
 						<pattr name = "params" value = "1 1. 0 0 2 1. 0 0 3 1. 0 0 4 1. 0 0 5 1. 0 0 6 1. 0 0" />
@@ -684,6 +648,10 @@
 				</patcher>
 				<patcher name = "process.2">
 					<patcher name = "DJster">
+						<patcher name = "Autobusk-Player">
+							<patcher name = "latch">
+							</patcher>
+						</patcher>
 						<patcher name = "controlpanel">
 							<patcher name = "preset">
 								<pattr name = "file" value = "0" />
@@ -710,7 +678,7 @@
 							<pattr name = "tonic_pitch" value = "5300" />
 							<pattr name = "umenu" value = "0" />
 						</patcher>
-						<pattr name = "u141008145" value = "thru" />
+						<pattr name = "u842008041" value = "thru" />
 					</patcher>
 					<patcher name = "harmonizer">
 						<pattr name = "params" value = "1 1. 0 0 2 1. 0 0 3 1. 0 0 4 1. 0 0 5 1. 0 0 6 1. 0 0" />
@@ -723,6 +691,10 @@
 				</patcher>
 				<patcher name = "process.3">
 					<patcher name = "DJster">
+						<patcher name = "Autobusk-Player">
+							<patcher name = "latch">
+							</patcher>
+						</patcher>
 						<patcher name = "controlpanel">
 							<patcher name = "preset">
 								<pattr name = "file" value = "0" />
@@ -749,7 +721,7 @@
 							<pattr name = "tonic_pitch" value = "5300" />
 							<pattr name = "umenu" value = "0" />
 						</patcher>
-						<pattr name = "u403008940" value = "thru" />
+						<pattr name = "u031008836" value = "thru" />
 					</patcher>
 					<patcher name = "harmonizer">
 						<pattr name = "params" value = "1 1. 0 0 2 1. 0 0 3 1. 0 0 4 1. 0 0 5 1. 0 0 6 1. 0 0" />
@@ -762,6 +734,10 @@
 				</patcher>
 				<patcher name = "process.4">
 					<patcher name = "DJster">
+						<patcher name = "Autobusk-Player">
+							<patcher name = "latch">
+							</patcher>
+						</patcher>
 						<patcher name = "controlpanel">
 							<patcher name = "preset">
 								<pattr name = "file" value = "0" />
@@ -788,7 +764,7 @@
 							<pattr name = "tonic_pitch" value = "5300" />
 							<pattr name = "umenu" value = "0" />
 						</patcher>
-						<pattr name = "u974009735" value = "thru" />
+						<pattr name = "u838009631" value = "thru" />
 					</patcher>
 					<patcher name = "harmonizer">
 						<pattr name = "params" value = "1 1. 0 0 2 1. 0 0 3 1. 0 0 4 1. 0 0 5 1. 0 0 6 1. 0 0" />
@@ -801,6 +777,10 @@
 				</patcher>
 				<patcher name = "process.5">
 					<patcher name = "DJster">
+						<patcher name = "Autobusk-Player">
+							<patcher name = "latch">
+							</patcher>
+						</patcher>
 						<patcher name = "controlpanel">
 							<patcher name = "preset">
 								<pattr name = "file" value = "0" />
@@ -827,7 +807,7 @@
 							<pattr name = "tonic_pitch" value = "5300" />
 							<pattr name = "umenu" value = "0" />
 						</patcher>
-						<pattr name = "u699010530" value = "thru" />
+						<pattr name = "u700010426" value = "thru" />
 					</patcher>
 					<patcher name = "harmonizer">
 						<pattr name = "params" value = "1 1. 0 0 2 1. 0 0 3 1. 0 0 4 1. 0 0 5 1. 0 0 6 1. 0 0" />

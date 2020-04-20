@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 513.0, 668.0, 967.0, 124.0 ],
+		"rect" : [ 459.0, -577.0, 967.0, 124.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -446,7 +446,6 @@
 					"presentation_rect" : [ 261.0, 9.5, 673.0, 29.0 ],
 					"readonly" : 1,
 					"rounded" : 5.0,
-					"text" : "look at your chat window",
 					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 				}
 
@@ -466,7 +465,7 @@
 					"bgfillcolor_type" : "color",
 					"fontsize" : 36.0,
 					"id" : "obj-6",
-					"items" : "00:00:09",
+					"items" : "-00:00:01",
 					"maxclass" : "umenu",
 					"menumode" : 1,
 					"numinlets" : 1,
@@ -475,7 +474,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 49.5, 170.0, 49.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, -0.5, 170.0, 49.0 ],
+					"presentation_rect" : [ 2.0, -0.5, 179.0, 49.0 ],
 					"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "clock"

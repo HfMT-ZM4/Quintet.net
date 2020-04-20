@@ -1,3 +1,8 @@
+client.xml
+conductor.xml
+server.xml
+Quintet.net Log
+participants.txt
 patchers/Projects/*
 !patchers/Projects/Five
 !patchers/Projects/Template

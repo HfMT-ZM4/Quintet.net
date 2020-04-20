@@ -3,6 +3,7 @@ conductor.xml
 server.xml
 Quintet.net Log
 participants.txt
+COMBFILTER.json
 patchers/Projects/*
 !patchers/Projects/Five
 !patchers/Projects/Template

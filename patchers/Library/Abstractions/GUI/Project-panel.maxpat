@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 645.0, 192.0, 221.0, 403.0 ],
+		"rect" : [ 645.0, 192.0, 424.0, 659.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -328,7 +328,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 79.0, 479.0, 284.0 ],
+						"rect" : [ 141.0, 332.0, 378.0, 338.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -360,46 +360,13 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"id" : "obj-24",
+									"id" : "obj-7",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 166.249939000000012, 68.0, 295.0, 20.0 ],
-									"saved_object_attributes" : 									{
-										"filename" : "maxfolder",
-										"parameter_enable" : 0
-									}
-,
-									"text" : "js maxfolder /packages/Quintet.net/patchers/Projects/"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-1",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 166.249939000000012, 36.0, 60.0, 20.0 ],
-									"text" : "loadbang"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-86",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 166.249939000000012, 97.0, 69.0, 20.0 ],
-									"text" : "prepend re"
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 44.249938999999998, 108.0, 55.0, 22.0 ],
+									"text" : "zl ecils 1"
 								}
 
 							}
@@ -410,10 +377,10 @@
 									"id" : "obj-40",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 5,
-									"outlettype" : [ "", "", "", "", "" ],
-									"patching_rect" : [ 123.249938999999998, 153.0, 208.0, 20.0 ],
-									"text" : "regexp @substitute %0 @tosymbol 1"
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 44.249938999999998, 70.0, 143.0, 22.0 ],
+									"text" : "fromsymbol @separator /"
 								}
 
 							}
@@ -426,7 +393,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 123.249938999999998, 198.0, 74.0, 20.0 ],
+									"patching_rect" : [ 80.249938999999983, 142.0, 74.0, 22.0 ],
 									"text" : "prepend set"
 								}
 
@@ -440,7 +407,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 123.249938999999998, 60.0, 25.0, 25.0 ]
+									"patching_rect" : [ 44.249938999999998, 24.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -452,26 +419,12 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 123.249938999999998, 231.700317000000013, 25.0, 25.0 ]
+									"patching_rect" : [ 80.249938999999983, 185.700317000000013, 25.0, 25.0 ]
 								}
 
 							}
  ],
 						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-24", 0 ],
-									"source" : [ "obj-1", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-86", 0 ],
-									"source" : [ "obj-24", 0 ]
-								}
-
-							}
-, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-43", 0 ],
 									"source" : [ "obj-36", 0 ]
@@ -480,15 +433,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-36", 0 ],
-									"midpoints" : [ 274.499938999999983, 185.0, 132.749938999999983, 185.0 ],
-									"source" : [ "obj-40", 3 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-36", 0 ],
+									"destination" : [ "obj-7", 0 ],
 									"source" : [ "obj-40", 0 ]
 								}
 
@@ -502,8 +447,8 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-40", 0 ],
-									"source" : [ "obj-86", 0 ]
+									"destination" : [ "obj-36", 0 ],
+									"source" : [ "obj-7", 1 ]
 								}
 
 							}
@@ -865,7 +810,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 182.249939000000012, 81.880356000000006, 216.0, 22.0 ],
-					"restore" : [ "Macintosh HD:/Users/Shared/Max 8/packages/Quintet.net/patchers/Projects/Five" ],
+					"restore" : [ "Macintosh HD:/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Five" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -8705,14 +8650,14 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 619.0, 100.0, 351.0, 22.0 ],
-									"restore" : [ "Macintosh HD:/Users/Shared/Max 8/packages/Quintet.net/patchers/Projects/Five" ],
+									"restore" : [ "Macintosh HD:/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Five" ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
 									"text" : "pattr @bindto parent::path @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u384002664"
+									"varname" : "u011019960"
 								}
 
 							}
@@ -8925,7 +8870,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::parent::parent::Register::myIP::info @invisible 1",
-									"varname" : "u630002669"
+									"varname" : "u490019965"
 								}
 
 							}
@@ -10791,7 +10736,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::parent::Register::serverIP::info @invisible 1 @thru 0",
-					"varname" : "u791002683"
+					"varname" : "u842019979"
 				}
 
 			}

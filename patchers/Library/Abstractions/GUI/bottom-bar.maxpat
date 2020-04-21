@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 459.0, -577.0, 967.0, 124.0 ],
+		"rect" : [ 582.0, 798.0, 967.0, 124.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,22 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontsize" : 36.0,
+					"id" : "obj-8",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1.0, 46.0, 161.0, 47.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 2.0, 0.5, 161.0, 47.0 ],
+					"text" : "00:00:34",
+					"textcolor" : [ 0.929411764705882, 0.341176470588235, 0.270588235294118, 1.0 ],
+					"textjustification" : 2
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-11",
@@ -47,7 +63,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1.0, 22.0, 90.0, 22.0 ],
+					"patching_rect" : [ 1.0, 6.0, 90.0, 22.0 ],
 					"text" : "clock2"
 				}
 
@@ -87,7 +103,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1266.0, 237.0, 307.0, 367.0 ],
+						"rect" : [ 307.0, 376.0, 307.0, 367.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -207,7 +223,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 136.0, 213.0, 75.0, 19.0 ],
+									"patching_rect" : [ 136.0, 213.0, 89.0, 19.0 ],
 									"text" : "sel 1"
 								}
 
@@ -247,8 +263,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 192.0, 260.0, 55.0, 19.0 ],
-									"text" : "frgb 0 0 0"
+									"patching_rect" : [ 206.0, 239.0, 77.0, 19.0 ],
+									"text" : "frgb 253 250 255"
 								}
 
 							}
@@ -306,7 +322,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-5", 0 ],
-									"midpoints" : [ 201.5, 278.0, 145.0, 278.0 ],
+									"midpoints" : [ 215.5, 278.0, 145.0, 278.0 ],
 									"source" : [ "obj-10", 0 ]
 								}
 
@@ -446,45 +462,15 @@
 					"presentation_rect" : [ 261.0, 9.5, 673.0, 29.0 ],
 					"readonly" : 1,
 					"rounded" : 5.0,
-					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"align" : 1,
-					"allowdrag" : 0,
-					"arrow" : 0,
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"bgfillcolor_angle" : 270.0,
-					"bgfillcolor_autogradient" : 0,
-					"bgfillcolor_color" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"bgfillcolor_proportion" : 0.39,
-					"bgfillcolor_type" : "color",
-					"fontsize" : 36.0,
-					"id" : "obj-6",
-					"items" : "-00:00:01",
-					"maxclass" : "umenu",
-					"menumode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "int", "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1.0, 49.5, 170.0, 49.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 2.0, -0.5, 179.0, 49.0 ],
-					"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textjustification" : 1,
-					"varname" : "clock"
+					"text" : "start - page 1",
+					"textcolor" : [ 0.992156862745098, 0.980392156862745, 1.0, 1.0 ]
 				}
 
 			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
+					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 

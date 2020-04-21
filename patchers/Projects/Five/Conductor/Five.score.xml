@@ -86,7 +86,7 @@
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="80.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-10.0" Xoffset="0.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[0] 171.3ocUNEsBBCCCzOk7CHrJ9h6Mev28cQFwtLWg0FIsvlH6e2ztgC4f1K2k6Hub1Xhj8z.4oPBpgOP.8jRttZcYw5V0cHQSolpxRV16wParLjkxdVdfEcJCihZni0ROKNb.LGgCpxn3RDbBlAWniKwYw8zETZNGp+lBKvkZdTLLaB8tVpnkDLD6Xw234UoVAGavIJ9+B+5b4cFvfsmksqOqdDdq4xtJ18kVAE0j" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="0.0" Yoffset="-10.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[0] 171.3ocUNEsBBCCCzOk7CHrJ9h6Mev28cQFwtLWg0FIsvlH6e2ztgC4f1K2k6Hub1Xhj8z.4oPBpgOP.8jRttZcYw5V0cHQSolpxRV16wParLjkxdVdfEcJCihZni0ROKNb.LGgCpxn3RDbBlAWniKwYw8zETZNGp+lBKvkZdTLLaB8tVpnkDLD6Xw234UoVAGavIJ9+B+5b4cFvfsmksqOqdDdq4xtJ18kVAE0j" >
 </userBean>
 </note>
 <note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" NOTEHEADSCALE="1.0" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
@@ -114,9 +114,9 @@
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="-1.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-46.0" Xoffset="0.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKxH1koEVajzBahr+cS6FNjCZubWti7xYiIR1SCjmBInF9.AzSJ4xp04EqqMXyMHQSo1Ck0rr2igtXYHKk8r7.K5TFFE0POq0dRb3.Xpfipxn3RDvvL3B8bINKtGtfRy4P82TXAtTy8hgYS3oqiJZIACwdV7sddUpSvwVbhh+uvuNWdmALXexx10mUqf2ZtrqhceArEtRYI" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="0.0" Yoffset="-46.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKxH1koEVajzBahr+cS6FNjCZubWti7xYiIR1SCjmBInF9.AzSJ4xp04EqqMXyMHQSo1Ck0rr2igtXYHKk8r7.K5TFFE0POq0dRb3.Xpfipxn3RDvvL3B8bINKtGtfRy4P82TXAtTy8hgYS3oqiJZIACwdV7sddUpSvwVbhh+uvuNWdmALXexx10mUqf2ZtrqhceArEtRYI" >
 </userBean>
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-42.0" Xoffset="314.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[0] 181.3ocUOFjBBCDCE0iRt.BsktpKEbu6EoDaSsCzYhjNZqH8J3FumdFLyzhEIvL+79IeHWMU8dR1Rcjkbdn.dBNzRp3vh09YqiIm.OM5KShCUwVK5p6iMATvqh6XQ6BUpVEPCqgtSv62DDxxgLkMHFOAed+Bl.iqgiQvh4hwoxvtn9mFUNNF04nQ5Jn0TSQlWPWeCK1RKufpEbnDGo9+G3WlyuS.5pZYY8BBzb3gtWvUqMeA65GUTA" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="314.0" Yoffset="-42.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[0] 181.3ocUOFjBBCDCE0iRt.BsktpKEbu6EoDaSsCzYhjNZqH8J3FumdFLyzhEIvL+79IeHWMU8dR1Rcjkbdn.dBNzRp3vh09YqiIm.OM5KShCUwVK5p6iMATvqh6XQ6BUpVEPCqgtSv62DDxxgLkMHFOAed+Bl.iqgiQvh4hwoxvtn9mFUNNF04nQ5Jn0TSQlWPWeCK1RKufpEbnDGo9+G3WlyuS.5pZYY8BBzb3gtWvUqMeA65GUTA" >
 </userBean>
 </note>
 <note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" NOTEHEADSCALE="1.0" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
@@ -128,7 +128,7 @@
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="-1.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-30.0" Xoffset="4.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKiQrKyUXsQxJrIx92Msa3PNn8xc4NxKmcLRxQZf7THBkvGHfdRI21rttZcuBqpgHMGaNkWyxdOFZGyCIojmkGXQmRvnnD5Xs1KhCG.SAbVUlDWjfZXAbgNNGmE2SWPoobn9axr.mq4Q1vrKz6ZorVTvvXGK9FOuI0J3TCNSi+uvuNWeW.LX6YY+5SpEvaMWxUwgu.EURQH" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="4.0" Yoffset="-30.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKiQrKyUXsQxJrIx92Msa3PNn8xc4NxKmcLRxQZf7THBkvGHfdRI21rttZcuBqpgHMGaNkWyxdOFZGyCIojmkGXQmRvnnD5Xs1KhCG.SAbVUlDWjfZXAbgNNGmE2SWPoobn9axr.mq4Q1vrKz6ZorVTvvXGK9FOuI0J3TCNSi+uvuNWeW.LX6YY+5SpEvaMWxUwgu.EURQH" >
 </userBean>
 </note>
 <note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" NOTEHEADSCALE="1.0" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
@@ -156,7 +156,7 @@
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="-1.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-50.0" Xoffset="2.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKxH1k4Jr1HYE1Fx92Msa3PNn8xc4NxamcHRxQpm7THBkvGHfdRI21rttZcuBqd.QZJVeJulk8dLzLjGRRIOK2yhNkfQQIzxZsWDG1ClB3rpLJtHAyvB3BsbNNKtWtfRS4P82jYANWyyrgYWny0PYsnfggVV70ddSpQvwZbhF9egect9t.Xv1wx90mTKfYMWxUwguHFCRAJ" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="2.0" Yoffset="-50.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKxH1k4Jr1HYE1Fx92Msa3PNn8xc4NxamcHRxQpm7THBkvGHfdRI21rttZcuBqd.QZJVeJulk8dLzLjGRRIOK2yhNkfQQIzxZsWDG1ClB3rpLJtHAyvB3BsbNNKtWtfRS4P82jYANWyyrgYWny0PYsnfggVV70ddSpQvwZbhF9egect9t.Xv1wx90mTKfYMWxUwguHFCRAJ" >
 </userBean>
 </note>
 <note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" NOTEHEADSCALE="1.0" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
@@ -189,7 +189,7 @@
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="-1.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-71.42857264499276" Xoffset="0.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKxH1koEZajrBahr+cS6FNjCZubWti7xYGRjrm7TfhInF9.QLPJ4xp04EqqMXyMHQSo1Ck0rbHfwtgxPVJ6YYOK5TFFE0POq0dRbnGLUvQUYTbIB7vL3h8bINKtGtnRy4P82TXQtTy8hgYS3oqiJZIAiC8rDZC7pTmfis3DM7+B+5b4cFvn8IKaWeVsBdq4xtJ18EjkzRMI" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="0.0" Yoffset="-71.42857264499276" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKxH1koEZajrBahr+cS6FNjCZubWti7xYGRjrm7TfhInF9.QLPJ4xp04EqqMXyMHQSo1Ck0rbHfwtgxPVJ6YYOK5TFFE0POq0dRbnGLUvQUYTbIB7vL3h8bINKtGtnRy4P82TXQtTy8hgYS3oqiJZIAiC8rDZC7pTmfis3DM7+B+5b4cFvn8IKaWeVsBdq4xtJ18EjkzRMI" >
 </userBean>
 </note>
 <note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" NOTEHEADSCALE="1.0" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
@@ -212,9 +212,9 @@
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="-1.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-54.0" Xoffset="8.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKxH1koEVajzBahr+cS6FNjCZubWti7xYiIR1SCjmBInF9.AzSJ4xp04EqqMXyMHQSo1Ck0rr2igtXYHKk8r7.K5TFFE0POq0dRb3.Xpfipxn3RDHvL3B8bINKtGtfRy4P82TXAtTy8hgYS3oqiJZIACwdV7sddUpSvwVbhh+uvuNWdmALXexx10mUqf2ZtrqhceAzkmRkI" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="8.0" Yoffset="-54.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKxH1koEVajzBahr+cS6FNjCZubWti7xYiIR1SCjmBInF9.AzSJ4xp04EqqMXyMHQSo1Ck0rr2igtXYHKk8r7.K5TFFE0POq0dRb3.Xpfipxn3RDHvL3B8bINKtGtfRy4P82TXAtTy8hgYS3oqiJZIACwdV7sddUpSvwVbhh+uvuNWdmALXexx10mUqf2ZtrqhceAzkmRkI" >
 </userBean>
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-58.0" Xoffset="300.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[1] 181.3ocUOFjBBCDCE0iRt.B1hq5RA26dQJwoo1A5LQRGsUjdEbi2SOClYZwhDXled+jOjqVSWfj0TK4He.JfmfGcjJNLasex5X1IHPCgxMogLryg9ptTSDE8LbKKZWrxzp.pYMzcBd+lfP9VHWY8hMPvm2ufQv5q4TDrXuX8pLtKp+YIkmSQcNYjs.ZrUThEDz2UyhqzwynJA6KwAp6+A9k4z6HfdSCKKWPjtEdn6Ec0Z0W.7FGUUA" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="300.0" Yoffset="-58.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[1] 181.3ocUOFjBBCDCE0iRt.B1hq5RA26dQJwoo1A5LQRGsUjdEbi2SOClYZwhDXled+jOjqVSWfj0TK4He.JfmfGcjJNLasex5X1IHPCgxMogLryg9ptTSDE8LbKKZWrxzp.pYMzcBd+lfP9VHWY8hMPvm2ufQv5q4TDrXuX8pLtKp+YIkmSQcNYjs.ZrUThEDz2UyhqzwynJA6KwAp6+A9k4z6HfdSCKKWPjtEdn6Ec0Z0W.7FGUUA" >
 </userBean>
 </note>
 <note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" NOTEHEADSCALE="1.0" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
@@ -226,7 +226,7 @@
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="-1.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-44.0" Xoffset="2.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKxH1koEVajzBahr+cS6FNjCZubWti7xYiIR1SCjmBInF9.AzSJ4xp04EqqMXyMHQSo1Ck0rr2igtXYHKk8r7.K5TFFE0POq0dRb3.Xpfipxn3RD3fYvE54RbVbObAklyg5uovBbol6ECylvSWGUzRBFh8r3a87pTmfis3DE+egect7NCXv9jksqOqVAu0bYWE69BbE6RAI" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="2.0" Yoffset="-44.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKxH1koEVajzBahr+cS6FNjCZubWti7xYiIR1SCjmBInF9.AzSJ4xp04EqqMXyMHQSo1Ck0rr2igtXYHKk8r7.K5TFFE0POq0dRb3.Xpfipxn3RD3fYvE54RbVbObAklyg5uovBbol6ECylvSWGUzRBFh8r3a87pTmfis3DE+egect7NCXv9jksqOqVAu0bYWE69BbE6RAI" >
 </userBean>
 </note>
 <note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="true" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="cresc" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" NOTEHEADSCALE="1.0" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
@@ -238,16 +238,16 @@
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="-1.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-36.0" Xoffset="4.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guOjQrKyUXsQxJrIx92Msa3PNn8xc4NxKmcLRxQZf7THBkvGHfdRI21rttZUWgU2gHMGaNkWyxdOFZGyCIojmkGXQmRvnnD5Xs1KhCG.SAbVUlDWjfZXAbgNNGmE2SWPoobn9axr.mq4Q1vrKz6ZorVTvvXGK9FOuI0J3TCNSi+uvuNWeW.LX6YY+5SpEvaMWxUwgu7DDRIH" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="4.0" Yoffset="-36.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guOjQrKyUXsQxJrIx92Msa3PNn8xc4NxKmcLRxQZf7THBkvGHfdRI21rttZUWgU2gHMGaNkWyxdOFZGyCIojmkGXQmRvnnD5Xs1KhCG.SAbVUlDWjfZXAbgNNGmE2SWPoobn9axr.mq4Q1vrKz6ZorVTvvXGK9FOuI0J3TCNSi+uvuNWeW.LX6YY+5SpEvaMWxUwgu7DDRIH" >
 </userBean>
 </note>
 </track>
 <track INDEX="1" >
 </track>
 </staff>
-<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="2.0" Xoffset="710.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[Picster-Element[8] 209.3ocUOEjZCCCDLOkkbn9TAq1lRH4TKz68dnX1JuNQDKsIqUHoT7OnOk7pxKoqjMIDFgXmYVMCZmy1EI4Qpk7THBKfeg.5Ic3yQqOFrVM+KHRmhUk4krr2ig5tLIIk7rbKKJKAihEPCqgN8Mwgsv6snc6Tv7J7j5bTbQBJKdt7g8G33xKm+yTXlMPfdvEZ3b3r3V6B5nYV5foobCANWy2pPYVZTXiqlxZQACcMr3q77nTsfGqvST28KbMyg6d.C1Mrb62Mz8KvO5KS9Jl7OvvZbMF" >
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="710.0" Yoffset="2.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[Picster-Element[8] 209.3ocUOEjZCCCDLOkkbn9TAq1lRH4TKz68dnX1JuNQDKsIqUHoT7OnOk7pxKoqjMIDFgXmYVMCZmy1EI4Qpk7THBKfeg.5Ic3yQqOFrVM+KHRmhUk4krr2ig5tLIIk7rbKKJKAihEPCqgN8Mwgsv6snc6Tv7J7j5bTbQBJKdt7g8G33xKm+yTXlMPfdvEZ3b3r3V6B5nYV5foobCANWy2pPYVZTXiqlxZQACcMr3q77nTsfGqvST28KbMyg6d.C1Mrb62Mz8KvO5KS9Jl7OvvZbMF" >
 </measureUserBean>
-<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="0.0" Xoffset="0.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[Picster-Element[Picster-Element[9] 208.3ocUOEjZCCCDrOkkbn4T.4fSgjdpAx8buDLakWmHpk1j0JXWJ4GzmReU8kzUxlVBiPryLqlAc1Y6hjrfZIOEhvF3SHfdRG1OYsaz500GfHMDqL4krr2ig5tLIIk7rbKKJKgBEafFVCc1KhCagssn88YPwSvR0oWbQBLyMlGubkiO+y2eYlWtZj.2.Wngygyh6nKniEqRGLMkaHv4ZdSELYoIgStZJqEELz0vhuxySR0B1WgCT28K7Wli22.LXOwx++twtKgOzWl7U7vuLXJWiA" >
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="0.0" Yoffset="0.0" Name="RenderedMessageBean_measure-0" Message="rendered Picster-Element[Picster-Element[Picster-Element[9] 208.3ocUOEjZCCCDrOkkbn4T.4fSgjdpAx8buDLakWmHpk1j0JXWJ4GzmReU8kzUxlVBiPryLqlAc1Y6hjrfZIOEhvF3SHfdRG1OYsaz500GfHMDqL4krr2ig5tLIIk7rbKKJKgBEafFVCc1KhCagssn88YPwSvR0oWbQBLyMlGubkiO+y2eYlWtZj.2.Wngygyh6nKniEqRGLMkaHv4ZdSELYoIgStZJqEELz0vhuxySR0B1WgCT28K7Wli22.LXOwx++twtKgOzWl7U7vuLXJWiA" >
 </measureUserBean>
 </measure>
 <measure WIDTH="921" WIDTHSETBYHAND="true" TIMESIG="5 1" TIMESIGSETBYHAND="true" TEMPO="60.0" TEMPOSETBYHAND="false" REPEATSTART="false" REPEATEND="false" NUMREPEATS="1" BARLINE="SINGLE" MEASURETEXT="" MEASURETEXTX="48" MEASURETEXTY="48" MEASURELEFTMARGIN="50.0" >
@@ -267,7 +267,7 @@
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="-1.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-16.0" Xoffset="0.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 172.3ocUNEsBBCCCzOk7CHXk8zdyG70guKxH1koEVajzBahr+cS6FNjCZubWti7xYiIR1SCjmBInF9.AzSJ4xp04EqqMXyMHQSo1Ck0rr2igtXYHKk8r7.K5TFFE0POq0dRb3.Xpfipxn3RjxlAWnmKwYw8vETZNGp+lBKvkZtWLLaBOccTQKIXH1yhu0yqRcBN1hST7+E904x6LfA6SV1t9rZE7VykcUr6K03gTYA" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="0.0" Yoffset="-16.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 172.3ocUNEsBBCCCzOk7CHXk8zdyG70guKxH1koEVajzBahr+cS6FNjCZubWti7xYiIR1SCjmBInF9.AzSJ4xp04EqqMXyMHQSo1Ck0rr2igtXYHKk8r7.K5TFFE0POq0dRb3.Xpfipxn3RjxlAWnmKwYw8vETZNGp+lBKvkZtWLLaBOccTQKIXH1yhu0yqRcBN1hST7+E904x6LfA6SV1t9rZE7VykcUr6K03gTYA" >
 </userBean>
 </note>
 <note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" NOTEHEADSCALE="1.0" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
@@ -295,9 +295,9 @@
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="-1.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-34.0" Xoffset="0.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKxH1koEVajzBahr+cS6FNjCZubWti7xYiIR1SCjmBInF9.AzSJ4xp04EqqMXyMHQSo1Ck0rr2igtXYHKk8r7.K5TFFE0POq0dRb3.Xpfipxn3RDvvL3B8bINKtGtfRy4P82TXAtTy8hgYS3oqiJZIACwdV7sddUpSvwVbhh+uvuNWdmALXexx10mUqf2ZtrqhceArEtRYI" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="0.0" Yoffset="-34.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKxH1koEVajzBahr+cS6FNjCZubWti7xYiIR1SCjmBInF9.AzSJ4xp04EqqMXyMHQSo1Ck0rr2igtXYHKk8r7.K5TFFE0POq0dRb3.Xpfipxn3RDvvL3B8bINKtGtfRy4P82TXAtTy8hgYS3oqiJZIACwdV7sddUpSvwVbhh+uvuNWdmALXexx10mUqf2ZtrqhceArEtRYI" >
 </userBean>
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-44.0" Xoffset="308.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[2] 181.3ocUOFjBBCDCE0iRt.B1hq5RA26dQJwoo1A5LQRGsUjdEbi2SOClYZwhDXled+jOjqVSWfj0TK4He.JfmfGcjJNLasex5X9IHPCgxMogLryg9ptTSDE8LbKKZWrxzp.pYMzcBd+lfP9VHWY8hMPvm2ufQv5q4TDrXuX8pLtKp+YIkmSQcNYjs.ZrUThEDz2UyhqzwynJA6KwAp6+A9k4z6HfdSCKKWPjtEdn6Ec0Z0W.8RFUVA" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="308.0" Yoffset="-44.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[2] 181.3ocUOFjBBCDCE0iRt.B1hq5RA26dQJwoo1A5LQRGsUjdEbi2SOClYZwhDXled+jOjqVSWfj0TK4He.JfmfGcjJNLasex5X9IHPCgxMogLryg9ptTSDE8LbKKZWrxzp.pYMzcBd+lfP9VHWY8hMPvm2ufQv5q4TDrXuX8pLtKp+YIkmSQcNYjs.ZrUThEDz2UyhqzwynJA6KwAp6+A9k4z6HfdSCKKWPjtEdn6Ec0Z0W.8RFUVA" >
 </userBean>
 </note>
 <note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" NOTEHEADSCALE="1.0" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
@@ -309,7 +309,7 @@
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="-1.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-14.0" Xoffset="0.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 174.3ocUNEsBBCCCzOk7CH3j4K6MevWG9tHiXWlqvZijVXSj8uaZ2vgbP6k6xcjWVSHRxdZfbjOBUvGviNRIWWstrXcqFquCQZJ1bHulgcNz2FxCIojmgGXQmRnPQEzwZsmEKN.EkvQUYTrQBNAyf02w43rXeZ8JMkC0+hLyy4ZdjMJ1D5ssTVKJnOzwhqwwqRsBN1fST3+E904x6LfdSOKaWeRsDdq4RtJ18EvMDHEW" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="0.0" Yoffset="-14.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 174.3ocUNEsBBCCCzOk7CH3j4K6MevWG9tHiXWlqvZijVXSj8uaZ2vgbP6k6xcjWVSHRxdZfbjOBUvGviNRIWWstrXcqFquCQZJ1bHulgcNz2FxCIojmgGXQmRnPQEzwZsmEKN.EkvQUYTrQBNAyf02w43rXeZ8JMkC0+hLyy4ZdjMJ1D5ssTVKJnOzwhqwwqRsBN1fST3+E904x6LfdSOKaWeRsDdq4RtJ18EvMDHEW" >
 </userBean>
 </note>
 <note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" NOTEHEADSCALE="1.0" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
@@ -332,7 +332,7 @@
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="-1.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-52.0" Xoffset="4.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[0] 171.3ocUNEsBBCCCzOk7CHrJ6o8lO369tHiXWlqvZijVXSj8uaZ2vgbP6k6xcjWNaLQxQZj7THAMvGHfdRIW2rtrZcq5Njn4TaUYIK68XnKVFxRYOKOxhNkgQQCzyZomEGNBlZ3jpLItDABr.tPOWhyh6oKnzbNT+MEVfK07nXX1EFbcTQKIXH1yhu0yaRcBN0hyT7+E90456BfA6.K6WeVsFdq4xtJN7EfeSEEy" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="4.0" Yoffset="-52.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[0] 171.3ocUNEsBBCCCzOk7CHrJ6o8lO369tHiXWlqvZijVXSj8uaZ2vgbP6k6xcjWNaLQxQZj7THAMvGHfdRIW2rtrZcq5Njn4TaUYIK68XnKVFxRYOKOxhNkgQQCzyZomEGNBlZ3jpLItDABr.tPOWhyh6oKnzbNT+MEVfK07nXX1EFbcTQKIXH1yhu0yaRcBN0hyT7+E90456BfA6.K6WeVsFdq4xtJN7EfeSEEy" >
 </userBean>
 </note>
 <note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="true" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="decresc" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" NOTEHEADSCALE="1.0" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
@@ -344,7 +344,7 @@
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="-1.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-40.0" Xoffset="4.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKxH1koEVajzBahr+cS6FNjCZubWti7xYiIR1SCjmBInF9.AzSJ4xp04EqqMXyMHQSo1Ck0rr2igtXYHKk8r7.K5TFFE0POq0dRb3.Xpfipxn3RD3fYvE54RbVbObAklyg5uovBbol6ECylvSWGUzRBFh8r3a87pTmfis3DE+egect7NCXv9jksqOqVAu0bYWE69BbE6RAI" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="4.0" Yoffset="-40.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKxH1koEVajzBahr+cS6FNjCZubWti7xYiIR1SCjmBInF9.AzSJ4xp04EqqMXyMHQSo1Ck0rr2igtXYHKk8r7.K5TFFE0POq0dRb3.Xpfipxn3RD3fYvE54RbVbObAklyg5uovBbol6ECylvSWGUzRBFh8r3a87pTmfis3DE+egect7NCXv9jksqOqVAu0bYWE69BbE6RAI" >
 </userBean>
 </note>
 <note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" NOTEHEADSCALE="1.0" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
@@ -372,7 +372,7 @@
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="-1.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-26.666665607028563" Xoffset="0.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CH3j8zdyG70guKxH1k4Jr1noE1DY+6l1MbHGzd4tbG4o0DhjrmFHG4iPE7A7niTxkUqyKVWqw5aPjlhMGxqYXmC8sg7PRJ4Y3AVzoDJTTAcrV6IwhCPQIbTUFEajfWvLX8cbNNK1GVuRS4P8uHy7btl6YihMgdaKk0hB5Ccr3Zb7pTqfiM3DE9egect7NCn2zyx10mTKg2ZtjqhcewE+RgI" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="0.0" Yoffset="-26.666665607028563" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CH3j8zdyG70guKxH1k4Jr1noE1DY+6l1MbHGzd4tbG4o0DhjrmFHG4iPE7A7niTxkUqyKVWqw5aPjlhMGxqYXmC8sg7PRJ4Y3AVzoDJTTAcrV6IwhCPQIbTUFEajfWvLX8cbNNK1GVuRS4P8uHy7btl6YihMgdaKk0hB5Ccr3Zb7pTqfiM3DE9egect7NCn2zyx10mTKg2ZtjqhcewE+RgI" >
 </userBean>
 </note>
 <note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" NOTEHEADSCALE="1.0" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
@@ -400,7 +400,7 @@
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="-1.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-30.0" Xoffset="6.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKiQrKyUXsQxJrIx92Msa3PNn8xc4NxKmcLRxQZf7THBkvGHfdRI21rttZcuBqpgHMGaNkWyxdOFZGyCIojmkGXQmRvnnD5Xs1KhCG.SAbVUlDWjfZXAbgNNGmE2SWPoobn9axr.mq4Q1vrKz6ZorVTvvXGK9FOuI0J3TCNSi+uvuNWeW.LX6YY+5SpEvaMWxUwgu.EURQH" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="6.0" Yoffset="-30.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKiQrKyUXsQxJrIx92Msa3PNn8xc4NxKmcLRxQZf7THBkvGHfdRI21rttZcuBqpgHMGaNkWyxdOFZGyCIojmkGXQmRvnnD5Xs1KhCG.SAbVUlDWjfZXAbgNNGmE2SWPoobn9axr.mq4Q1vrKz6ZorVTvvXGK9FOuI0J3TCNSi+uvuNWeW.LX6YY+5SpEvaMWxUwgu.EURQH" >
 </userBean>
 </note>
 <note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="true" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="decresc" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" NOTEHEADSCALE="1.0" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
@@ -412,7 +412,7 @@
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="-1.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-40.0" Xoffset="0.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKxH1k4Jr1LxJrIx92Msa3PNn8xc4NxfyNFI4H0SdJDgR3CDPOojaaVWWstWgUOfHMGqOkWyxdOFZFyCIojmk6YQmRvnnDZYs1KhC6ASAbVUlDWjfAXAbgVNGmE2KWPoobn9axr.mq4Y1vrKz4ZnrVTvvXKK9ZOuI0H3TMNSi+uvuNWeW.LX6XY+5SpEvaMWxUwguvkVRcI" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="0.0" Yoffset="-40.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKxH1k4Jr1LxJrIx92Msa3PNn8xc4NxfyNFI4H0SdJDgR3CDPOojaaVWWstWgUOfHMGqOkWyxdOFZFyCIojmk6YQmRvnnDZYs1KhC6ASAbVUlDWjfAXAbgVNGmE2KWPoobn9axr.mq4Y1vrKz4ZnrVTvvXKK9ZOuI0H3TMNSi+uvuNWeW.LX6XY+5SpEvaMWxUwguvkVRcI" >
 </userBean>
 </note>
 <note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" NOTEHEADSCALE="1.0" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
@@ -424,9 +424,9 @@
 <track INDEX="1" >
 </track>
 </staff>
-<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="2.0" Xoffset="668.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[Picster-Element[6] 208.3ocUOEjaBCCDrOkUbnbBo3TfCzSfD24dUUzVmMfEwdgMtBpP7C3ovqpuDV6D0JzXYsyLqmQ9fy1EIYB0RdJDgEvEHfdRG1LXst25i4eBQ5brpHujk8dLT2kIIojmkaYQYIXTr.ZXMzQKEG1BqZQ69QfYNTpNmDWj.y32Jd832b78eueqbrYVOAtBtPCmCmE2VWPGMyRGLMkaHv4Z9REJxRCB6b0TVKJXnqgEekmGjpE7TEdl5ddg+xr+9JfA6NV9+2028T3G8kIeEu7.KPKWiA" >
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="668.0" Yoffset="2.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[Picster-Element[6] 208.3ocUOEjaBCCDrOkUbnbBo3TfCzSfD24dUUzVmMfEwdgMtBpP7C3ovqpuDV6D0JzXYsyLqmQ9fy1EIYB0RdJDgEvEHfdRG1LXst25i4eBQ5brpHujk8dLT2kIIojmkaYQYIXTr.ZXMzQKEG1BqZQ69QfYNTpNmDWj.y32Jd832b78eueqbrYVOAtBtPCmCmE2VWPGMyRGLMkaHv4Z9REJxRCB6b0TVKJXnqgEekmGjpE7TEdl5ddg+xr+9JfA6NV9+2028T3G8kIeEu7.KPKWiA" >
 </measureUserBean>
-<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="0.0" Xoffset="0.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[Picster-Element[7] 208.3ocUOEsZBDCDreJK9f9TgKh1B1mpfu66R4XM2d0PujU2Kk6Dw+f9ozuJ+R5lbGJkID1YlMyPN5rsQRdlZHOEhvJ3BDPOoCaGs1LXs60OfH0GKKxKYYuGCUsYRRJ4Y4FVTVBFEqfZVCcx6hCaf0Mn8qIf4EXt5zItHAlYEESO8MGe61u+XlsX4.AtBtPMmCmE2mtfNZVlNXZJ2Pfy0rWEJxRiBGbUTVKJXnslEeomGkpDrqD6o1+uv8LGtuBXvdfkG+tgtW.m0Wl7U7zeK7NWiA" >
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="0.0" Yoffset="0.0" Name="RenderedMessageBean_measure-1" Message="rendered Picster-Element[Picster-Element[7] 208.3ocUOEsZBDCDreJK9f9TgKh1B1mpfu66R4XM2d0PujU2Kk6Dw+f9ozuJ+R5lbGJkID1YlMyPN5rsQRdlZHOEhvJ3BDPOoCaGs1LXs60OfH0GKKxKYYuGCUsYRRJ4Y4FVTVBFEqfZVCcx6hCaf0Mn8qIf4EXt5zItHAlYEESO8MGe61u+XlsX4.AtBtPMmCmE2mtfNZVlNXZJ2Pfy0rWEJxRiBGbUTVKJXnslEeomGkpDrqD6o1+uv8LGtuBXvdfkG+tgtW.m0Wl7U7zeK7NWiA" >
 </measureUserBean>
 </measure>
 <measure WIDTH="1880" WIDTHSETBYHAND="true" TIMESIG="5 1" TIMESIGSETBYHAND="true" TEMPO="60.0" TEMPOSETBYHAND="false" REPEATSTART="false" REPEATEND="false" NUMREPEATS="1" BARLINE="SINGLE" MEASURETEXT="" MEASURETEXTX="48" MEASURETEXTY="48" MEASURELEFTMARGIN="50.0" >
@@ -436,9 +436,9 @@
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="-1.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-8.0" Xoffset="0.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 174.3ocUNEsBBCCCzOk7CH3j8h6MevWG9tHiXWlqvZijVXSj8uaZ2vgbP6k6xcjWVSHRxdZfbjOBUvGviNRIWWstrXcqFquCQZJ1bHulgcNz2FxCIojmgGXQmRnPQEzwZsmEKN.EkvQUYTrQBNAyf02w43rXeZ8JMkC0+hLyy4ZdjMJ1D5ssTVKJnOzwhqwwqRsBN1fST3+E904x6LfdSOKaWeRsDdq4RtJ18EPNLJEX" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="0.0" Yoffset="-8.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 174.3ocUNEsBBCCCzOk7CH3j8h6MevWG9tHiXWlqvZijVXSj8uaZ2vgbP6k6xcjWVSHRxdZfbjOBUvGviNRIWWstrXcqFquCQZJ1bHulgcNz2FxCIojmgGXQmRnPQEzwZsmEKN.EkvQUYTrQBNAyf02w43rXeZ8JMkC0+hLyy4ZdjMJ1D5ssTVKJnOzwhqwwqRsBN1fST3+E904x6LfdSOKaWeRsDdq4RtJ18EPNLJEX" >
 </userBean>
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-16.0" Xoffset="666.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[1] 181.3ocUOFjBBCDCE0iRt.B1hq5RA26dQJwoo1A5LQRGsUjdEbi2SOClYZwhDXled+jOjqVSWfj0TK4He.JfmfGcjJNLasex5X1IHPCgxMogLryg9ptTSDE8LbKKZWrxzp.pYMzcBd+lfP9VHWY8hMPvm2ufQv5q4TDrXuX8pLtKp+YIkmSQcNYjs.ZrUThEDz2UyhqzwynJA6KwAp6+A9k4z6HfdSCKKWPjtEdn6Ec0Z0W.7FGUUA" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="666.0" Yoffset="-16.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[1] 181.3ocUOFjBBCDCE0iRt.B1hq5RA26dQJwoo1A5LQRGsUjdEbi2SOClYZwhDXled+jOjqVSWfj0TK4He.JfmfGcjJNLasex5X1IHPCgxMogLryg9ptTSDE8LbKKZWrxzp.pYMzcBd+lfP9VHWY8hMPvm2ufQv5q4TDrXuX8pLtKp+YIkmSQcNYjs.ZrUThEDz2UyhqzwynJA6KwAp6+A9k4z6HfdSCKKWPjtEdn6Ec0Z0W.7FGUUA" >
 </userBean>
 </note>
 <note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" NOTEHEADSCALE="1.0" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
@@ -450,7 +450,7 @@
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="-1.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-60.0" Xoffset="0.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKxH1koEVajzBahr+cS6FNjCZubWti7xYiIR1SCjmBInF9.AzSJ4xp04EqqMXyMHQSo1Ck0rr2igtXYHKk8r7.K5TFFE0POq0dRb3.Xpfipxn3RDPvL3B8bINKtGtfRy4P82TXAtTy8hgYS3oqiJZIACwdV7sddUpSvwVbhh+uvuNWdmALXexx10mUqf2ZtrqhceATEYRwH" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="0.0" Yoffset="-60.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKxH1koEVajzBahr+cS6FNjCZubWti7xYiIR1SCjmBInF9.AzSJ4xp04EqqMXyMHQSo1Ck0rr2igtXYHKk8r7.K5TFFE0POq0dRb3.Xpfipxn3RDPvL3B8bINKtGtfRy4P82TXAtTy8hgYS3oqiJZIACwdV7sddUpSvwVbhh+uvuNWdmALXexx10mUqf2ZtrqhceATEYRwH" >
 </userBean>
 </note>
 <note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="true" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="decresc" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" NOTEHEADSCALE="1.0" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
@@ -462,7 +462,7 @@
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="-1.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-14.0" Xoffset="-6.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 175.3ocUNFrBBCCCF1Gk7BH3jcZ27fWGdWjQrMSKz1HYE1DYu6l1MbHAZ+y2exO4kyLjHYO4o.ESPC7AhXfTwkUqyKVWaw1aPhlRcGJiY3P.i1gRSFk8LrmEsKWUZ0.8rF6IwgdnpFNpjQwkHvRdXFbwdtD.KtGtnJyah5eUQE4RP2KFUafmNKUXIAiC8rD5B7JxJ3XGNQC+OvuLWdmALZdxx18mo0vacurqV69Bmv4TbA" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="-6.0" Yoffset="-14.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 175.3ocUNFrBBCCCF1Gk7BH3jcZ27fWGdWjQrMSKz1HYE1DYu6l1MbHAZ+y2exO4kyLjHYO4o.ESPC7AhXfTwkUqyKVWaw1aPhlRcGJiY3P.i1gRSFk8LrmEsKWUZ0.8rF6IwgdnpFNpjQwkHvRdXFbwdtD.KtGtnJyah5eUQE4RP2KFUafmNKUXIAiC8rD5B7JxJ3XGNQC+OvuLWdmALZdxx18mo0vacurqV69Bmv4TbA" >
 </userBean>
 </note>
 </track>
@@ -485,7 +485,7 @@
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="-1.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-52.0" Xoffset="0.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKxH1k4Jr1HYE1Fx92Msa3PNn8xc4NxamcHRxQpm7THBkvGHfdRI21rttZcuBqd.QZJVeJulk8dLzLjGRRIOK2yhNkfQQIzxZsWDG1ClB3rpLJtHAyvB3BsbNNKtWtfRS4P82jYANWyyrgYWny0PYsnfggVV70ddSpQvwZbhF9egect9t.Xv1wx90mTKfYMWxUwguHFCRAJ" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="0.0" Yoffset="-52.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKxH1k4Jr1HYE1Fx92Msa3PNn8xc4NxamcHRxQpm7THBkvGHfdRI21rttZcuBqd.QZJVeJulk8dLzLjGRRIOK2yhNkfQQIzxZsWDG1ClB3rpLJtHAyvB3BsbNNKtWtfRS4P82jYANWyyrgYWny0PYsnfggVV70ddSpQvwZbhF9egect9t.Xv1wx90mTKfYMWxUwguHFCRAJ" >
 </userBean>
 </note>
 <note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" NOTEHEADSCALE="1.0" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
@@ -518,7 +518,7 @@
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="-1.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-40.0" Xoffset="2.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKxH1koEVajzBahr+cS6FNjCZubWti7xYiIR1SCjmBInF9.AzSJ4xp04EqqMXyMHQSo1Ck0rr2igtXYHKk8r7.K5TFFE0POq0dRb3.Xpfipxn3RDvvL3B8bINKtGtfRy4P82TXAtTy8hgYS3oqiJZIACwdV7sddUpSvwVbhh+uvuNWdmALXexx10mUqf2ZtrqhceArEtRYI" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="2.0" Yoffset="-40.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKxH1koEVajzBahr+cS6FNjCZubWti7xYiIR1SCjmBInF9.AzSJ4xp04EqqMXyMHQSo1Ck0rr2igtXYHKk8r7.K5TFFE0POq0dRb3.Xpfipxn3RDvvL3B8bINKtGtfRy4P82TXAtTy8hgYS3oqiJZIACwdV7sddUpSvwVbhh+uvuNWdmALXexx10mUqf2ZtrqhceArEtRYI" >
 </userBean>
 </note>
 <note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" NOTEHEADSCALE="1.0" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
@@ -551,7 +551,7 @@
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="-1.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-29.999998807907104" Xoffset="4.999999801317813" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKxH1koEVajzBahr+cS6FNjCZubWti7xYiIR1SCjmBInF9.AzSJ4xp04EqqMXyMHQSo1Ck0rr2igtXYHKk8r7.K5TFFE0POq0dRb3.Xpfipxn3RD3fYvE54RbVbObAklyg5uovBbol6ECylvSWGUzRBFh8r3a87pTmfis3DE+egect7NCXv9jksqOqVAu0bYWE69BbE6RAI" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="4.999999801317813" Yoffset="-29.999998807907104" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKxH1koEVajzBahr+cS6FNjCZubWti7xYiIR1SCjmBInF9.AzSJ4xp04EqqMXyMHQSo1Ck0rr2igtXYHKk8r7.K5TFFE0POq0dRb3.Xpfipxn3RD3fYvE54RbVbObAklyg5uovBbol6ECylvSWGUzRBFh8r3a87pTmfis3DE+egect7NCXv9jksqOqVAu0bYWE69BbE6RAI" >
 </userBean>
 </note>
 <note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" NOTEHEADSCALE="1.0" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
@@ -579,9 +579,9 @@
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="-1.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-100.0" Xoffset="4.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKxH1ksUXsQxJrIx92Msa3PNn8xc4NxKmcLRxQZf7THBkvGHfdRI21rttZcuBqd.QZNVeJulk8dLzLlGRRIOKOvhNkfQQIzxZsWDGN.lB3rpLItHAcvB3BsbNNKtNWPoobn9axr.mq4Y1vrKz6ZnrVTvvXKK9ZOuI0H3TMNSi+uvuNWeW.LX6YY+5SpEvaMWxUwguXEpR4H" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="4.0" Yoffset="-100.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKxH1ksUXsQxJrIx92Msa3PNn8xc4NxKmcLRxQZf7THBkvGHfdRI21rttZcuBqd.QZNVeJulk8dLzLlGRRIOKOvhNkfQQIzxZsWDGN.lB3rpLItHAcvB3BsbNNKtNWPoobn9axr.mq4Y1vrKz6ZnrVTvvXKK9ZOuI0H3TMNSi+uvuNWeW.LX6YY+5SpEvaMWxUwguXEpR4H" >
 </userBean>
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-100.0" Xoffset="650.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[2] 181.3ocUOFjBBCDCE0iRt.B1hq5RA26dQJwoo1A5LQRGsUjdEbi2SOClYZwhDXled+jOjqVSWfj0TK4He.JfmfGcjJNLasex5X9IHPCgxMogLryg9ptTSDE8LbKKZWrxzp.pYMzcBd+lfP9VHWY8hMPvm2ufQv5q4TDrXuX8pLtKp+YIkmSQcNYjs.ZrUThEDz2UyhqzwynJA6KwAp6+A9k4z6HfdSCKKWPjtEdn6Ec0Z0W.8RFUVA" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="650.0" Yoffset="-100.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[2] 181.3ocUOFjBBCDCE0iRt.B1hq5RA26dQJwoo1A5LQRGsUjdEbi2SOClYZwhDXled+jOjqVSWfj0TK4He.JfmfGcjJNLasex5X9IHPCgxMogLryg9ptTSDE8LbKKZWrxzp.pYMzcBd+lfP9VHWY8hMPvm2ufQv5q4TDrXuX8pLtKp+YIkmSQcNYjs.ZrUThEDz2UyhqzwynJA6KwAp6+A9k4z6HfdSCKKWPjtEdn6Ec0Z0W.8RFUVA" >
 </userBean>
 </note>
 <note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" NOTEHEADSCALE="1.0" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
@@ -593,7 +593,7 @@
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="-1.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-30.0" Xoffset="6.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKiQrKyUXsQxJrIx92Msa3PNn8xc4NxKmcLRxQZf7THBkvGHfdRI21rttZcuBqpgHMGaNkWyxdOFZGyCIojmkGXQmRvnnD5Xs1KhCG.SAbVUlDWjfZXAbgNNGmE2SWPoobn9axr.mq4Q1vrKz6ZorVTvvXGK9FOuI0J3TCNSi+uvuNWeW.LX6YY+5SpEvaMWxUwgu.EURQH" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="6.0" Yoffset="-30.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKiQrKyUXsQxJrIx92Msa3PNn8xc4NxKmcLRxQZf7THBkvGHfdRI21rttZcuBqpgHMGaNkWyxdOFZGyCIojmkGXQmRvnnD5Xs1KhCG.SAbVUlDWjfZXAbgNNGmE2SWPoobn9axr.mq4Q1vrKz6ZorVTvvXGK9FOuI0J3TCNSi+uvuNWeW.LX6YY+5SpEvaMWxUwgu.EURQH" >
 </userBean>
 </note>
 <note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" NOTEHEADSCALE="1.0" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
@@ -605,9 +605,9 @@
 <track INDEX="1" >
 </track>
 </staff>
-<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-4.0" Xoffset="1760.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[Picster-Element[0] 192.3ocUOFzBBCCCE1eJAOnmD1FpGzSJ3cuKxH1koEWazrJpH9e2ztghjR4kuWxqzKVSafjITC4He.V.u.O5HUrs2ZSm0tr8PfdDJyRCYXmC8UsolHJ5Y3FVztXkq0Bnl0PGtRrXCrtAMmGB4ygB04tXCDTLd5rQWuwgkvav5q4TdrXOZ8pLeV7fQUJTOmR9fBxRndvIaEkXAA8s0r3JcbOpRv6k3Cp8+A9lY28a.8lSr76C081Sgm5lQesF7A.dObUX" >
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="1760.0" Yoffset="-4.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[Picster-Element[0] 192.3ocUOFzBBCCCE1eJAOnmD1FpGzSJ3cuKxH1koEWazrJpH9e2ztghjR4kuWxqzKVSafjITC4He.V.u.O5HUrs2ZSm0tr8PfdDJyRCYXmC8UsolHJ5Y3FVztXkq0Bnl0PGtRrXCrtAMmGB4ygB04tXCDTLd5rQWuwgkvav5q4TdrXOZ8pLeV7fQUJTOmR9fBxRndvIaEkXAA8s0r3JcbOpRv6k3Cp8+A9lY28a.8lSr76C081Sgm5lQesF7A.dObUX" >
 </measureUserBean>
-<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-8.0" Xoffset="0.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[Picster-Element[1] 191.3ocUOFzBBCCCE1eJAOnmDrh5A8jBd26hLhcYZw0FMqhJh+2MsanHoTd46k7J8hy1DIYDUSdJDgEvKHfdREa6r1zZsyrGhziXw37PV16wPYStIgRdVtlEsKUFsV.UrFZ+UhCqg00n8bevLGlnN2EWjfICMyFb8FGWBuAWnhy4wh6nKnRyrzASpbnANm7AELNi5.mbkTlEELzTwhuvycnRAuWfOnl+G3als2uALXOwxuOT6aOEdpal70p2GbGCW8E" >
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="0.0" Yoffset="-8.0" Name="RenderedMessageBean_measure-2" Message="rendered Picster-Element[Picster-Element[1] 191.3ocUOFzBBCCCE1eJAOnmDrh5A8jBd26hLhcYZw0FMqhJh+2MsanHoTd46k7J8hy1DIYDUSdJDgEvKHfdREa6r1zZsyrGhziXw37PV16wPYStIgRdVtlEsKUFsV.UrFZ+UhCqg00n8bevLGlnN2EWjfICMyFb8FGWBuAWnhy4wh6nKnRyrzASpbnANm7AELNi5.mbkTlEELzTwhuvycnRAuWfOnl+G3als2uALXOwxuOT6aOEdpal70p2GbGCW8E" >
 </measureUserBean>
 </measure>
 <measure WIDTH="971" WIDTHSETBYHAND="false" TIMESIG="5 1" TIMESIGSETBYHAND="true" TEMPO="60.0" TEMPOSETBYHAND="false" REPEATSTART="false" REPEATEND="false" NUMREPEATS="1" BARLINE="SINGLE" MEASURETEXT="" MEASURETEXTX="48" MEASURETEXTY="48" MEASURELEFTMARGIN="50.0" >
@@ -627,7 +627,7 @@
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="-1.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-12.0" Xoffset="0.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CH3z8zdyG70guKxH1k4Jr1HoE1DY+6l1MbHGzd4tbG4k0DhjrmFHG4iPE7A7niTx0UqKKV2pw56PjlhMGxqYXmC8sg7PRJ4Y3AVzoDJTTAcrV6YwhCPQIbTUFEajfSvLX8cbNNK1mVuRS4P8uHy7btlGYihMgdaKk0hB5Ccr3Zb7pTqfiM3DE9egect7NCn2zyx10mTKg2ZtjqhceUCvRoE" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="0.0" Yoffset="-12.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CH3z8zdyG70guKxH1k4Jr1HoE1DY+6l1MbHGzd4tbG4k0DhjrmFHG4iPE7A7niTx0UqKKV2pw56PjlhMGxqYXmC8sg7PRJ4Y3AVzoDJTTAcrV6YwhCPQIbTUFEajfSvLX8cbNNK1mVuRS4P8uHy7btlGYihMgdaKk0hB5Ccr3Zb7pTqfiM3DE9egect7NCn2zyx10mTKg2ZtjqhceUCvRoE" >
 </userBean>
 </note>
 <note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" NOTEHEADSCALE="1.0" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
@@ -660,7 +660,7 @@
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="-1.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-26.0" Xoffset="0.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 172.3ocUNEsBBCCCzOk7CHXk8zdyG70guKxH1koEVajzBahr+cS6FNjCZubWti7xYiIR1SCjmBInF9.AzSJ4xp04EqqMXyMHQSo1Ck0rr2igtXYHKk8r7.K5TFFE0POq0dRb3.Xpfipxn3RjxlAWnmKwYw8vETZNGp+lBKvkZtWLLaBOccTQKIXH1yhu0yqRcBN1hST7+E904x6LfA6SV1t9rZE7VykcUr6K03gTYA" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="0.0" Yoffset="-26.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 172.3ocUNEsBBCCCzOk7CHXk8zdyG70guKxH1koEVajzBahr+cS6FNjCZubWti7xYiIR1SCjmBInF9.AzSJ4xp04EqqMXyMHQSo1Ck0rr2igtXYHKk8r7.K5TFFE0POq0dRb3.Xpfipxn3RjxlAWnmKwYw8vETZNGp+lBKvkZtWLLaBOccTQKIXH1yhu0yqRcBN1hST7+E904x6LfA6SV1t9rZE7VykcUr6K03gTYA" >
 </userBean>
 </note>
 <note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" NOTEHEADSCALE="1.0" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
@@ -693,7 +693,7 @@
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="-1.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-34.0" Xoffset="4.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guOjQrKyUXsQxJrIx92Msa3PNn8xc4NxKmcLRxQZf7THBkvGHfdRI21rttZUWgU2gHMGaNkWyxdOFZGyCIojmkGXQmRvnnD5Xs1KhCG.SAbVUlDWjfZXAbgNNGmE2SWPoobn9axr.mq4Q1vrKz6ZorVTvvXGK9FOuI0J3TCNSi+uvuNWeW.LX6YY+5SpEvaMWxUwgu7DDRIH" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="4.0" Yoffset="-34.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guOjQrKyUXsQxJrIx92Msa3PNn8xc4NxKmcLRxQZf7THBkvGHfdRI21rttZUWgU2gHMGaNkWyxdOFZGyCIojmkGXQmRvnnD5Xs1KhCG.SAbVUlDWjfZXAbgNNGmE2SWPoobn9axr.mq4Q1vrKz6ZorVTvvXGK9FOuI0J3TCNSi+uvuNWeW.LX6YY+5SpEvaMWxUwgu7DDRIH" >
 </userBean>
 </note>
 <note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" NOTEHEADSCALE="1.0" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
@@ -726,7 +726,7 @@
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="-1.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-64.0" Xoffset="4.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKxH1koEVajzBahr+cS6FNjCZubWti7xYiIR1SCjmBInF9.AzSJ4xp04EqqMXyMHQSo1Ck0rr2igtXYHKk8r7.K5TFFE0POq0dRb3.Xpfipxn3RDPvL3B8bINKtGtfRy4P82TXAtTy8hgYS3oqiJZIACwdV7sddUpSvwVbhh+uvuNWdmALXexx10mUqf2ZtrqhceATEYRwH" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="4.0" Yoffset="-64.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKxH1koEVajzBahr+cS6FNjCZubWti7xYiIR1SCjmBInF9.AzSJ4xp04EqqMXyMHQSo1Ck0rr2igtXYHKk8r7.K5TFFE0POq0dRb3.Xpfipxn3RDPvL3B8bINKtGtfRy4P82TXAtTy8hgYS3oqiJZIACwdV7sddUpSvwVbhh+uvuNWdmALXexx10mUqf2ZtrqhceATEYRwH" >
 </userBean>
 </note>
 <note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" NOTEHEADSCALE="1.0" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
@@ -749,9 +749,9 @@
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="-1.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-34.0" Xoffset="6.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKiQrKyUXsQxJrIx92Msa3PNn8xc4NxKmcLRxQZf7THBkvGHfdRI21rttZcuBqpgHMGaNkWyxdOFZGyCIojmkGXQmRvnnD5Xs1KhCG.SAbVUlDWjfZXAbgNNGmE2SWPoobn9axr.mq4Q1vrKz6ZorVTvvXGK9FOuI0J3TCNSi+uvuNWeW.LX6YY+5SpEvaMWxUwgu.EURQH" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="6.0" Yoffset="-34.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKiQrKyUXsQxJrIx92Msa3PNn8xc4NxKmcLRxQZf7THBkvGHfdRI21rttZcuBqpgHMGaNkWyxdOFZGyCIojmkGXQmRvnnD5Xs1KhCG.SAbVUlDWjfZXAbgNNGmE2SWPoobn9axr.mq4Q1vrKz6ZorVTvvXGK9FOuI0J3TCNSi+uvuNWeW.LX6YY+5SpEvaMWxUwgu.EURQH" >
 </userBean>
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-32.0" Xoffset="314.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[2] 181.3ocUOFjBBCDCE0iRt.B1hq5RA26dQJwoo1A5LQRGsUjdEbi2SOClYZwhDXled+jOjqVSWfj0TK4He.JfmfGcjJNLasex5X9IHPCgxMogLryg9ptTSDE8LbKKZWrxzp.pYMzcBd+lfP9VHWY8hMPvm2ufQv5q4TDrXuX8pLtKp+YIkmSQcNYjs.ZrUThEDz2UyhqzwynJA6KwAp6+A9k4z6HfdSCKKWPjtEdn6Ec0Z0W.8RFUVA" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="314.0" Yoffset="-32.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[2] 181.3ocUOFjBBCDCE0iRt.B1hq5RA26dQJwoo1A5LQRGsUjdEbi2SOClYZwhDXled+jOjqVSWfj0TK4He.JfmfGcjJNLasex5X9IHPCgxMogLryg9ptTSDE8LbKKZWrxzp.pYMzcBd+lfP9VHWY8hMPvm2ufQv5q4TDrXuX8pLtKp+YIkmSQcNYjs.ZrUThEDz2UyhqzwynJA6KwAp6+A9k4z6HfdSCKKWPjtEdn6Ec0Z0W.8RFUVA" >
 </userBean>
 </note>
 <note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" NOTEHEADSCALE="1.0" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
@@ -763,9 +763,9 @@
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="-1.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-68.0" Xoffset="4.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CH3j8zdyG70guKxH1k4Jr1noE1DY+6l1MbHGzd4tbG4o0DhjrmFHG4iPE7A7niTxkUqyKVWqw5aPjlhMGxqYXmC8sg7PRJ4Y3AVzoDJTTAcrV6IwhCPQIbTUFEajfWvLX8cbNNK1GVuRS4P8uHy7btl6YihMgdaKk0hB5Ccr3Zb7pTqfiM3DE9egect7NCn2zyx10mTKg2ZtjqhcewE+RgI" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="4.0" Yoffset="-68.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CH3j8zdyG70guKxH1k4Jr1noE1DY+6l1MbHGzd4tbG4o0DhjrmFHG4iPE7A7niTxkUqyKVWqw5aPjlhMGxqYXmC8sg7PRJ4Y3AVzoDJTTAcrV6IwhCPQIbTUFEajfWvLX8cbNNK1GVuRS4P8uHy7btl6YihMgdaKk0hB5Ccr3Zb7pTqfiM3DE9egect7NCn2zyx10mTKg2ZtjqhcewE+RgI" >
 </userBean>
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-70.0" Xoffset="306.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[1] 181.3ocUOFjBBCDCE0iRt.B1hq5RA26dQJwoo1A5LQRGsUjdEbi2SOClYZwhDXled+jOjqVSWfj0TK4He.JfmfGcjJNLasex5X1IHPCgxMogLryg9ptTSDE8LbKKZWrxzp.pYMzcBd+lfP9VHWY8hMPvm2ufQv5q4TDrXuX8pLtKp+YIkmSQcNYjs.ZrUThEDz2UyhqzwynJA6KwAp6+A9k4z6HfdSCKKWPjtEdn6Ec0Z0W.7FGUUA" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="306.0" Yoffset="-70.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[1] 181.3ocUOFjBBCDCE0iRt.B1hq5RA26dQJwoo1A5LQRGsUjdEbi2SOClYZwhDXled+jOjqVSWfj0TK4He.JfmfGcjJNLasex5X1IHPCgxMogLryg9ptTSDE8LbKKZWrxzp.pYMzcBd+lfP9VHWY8hMPvm2ufQv5q4TDrXuX8pLtKp+YIkmSQcNYjs.ZrUThEDz2UyhqzwynJA6KwAp6+A9k4z6HfdSCKKWPjtEdn6Ec0Z0W.7FGUUA" >
 </userBean>
 </note>
 <note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" NOTEHEADSCALE="1.0" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
@@ -777,19 +777,19 @@
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="-1.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-66.0" Xoffset="6.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKxH1koEVajzBahr+cS6FNjCZubWti7xYiIR1SCjmBInF9.AzSJ4xp04EqqMXyMHQSo1Ck0rr2igtXYHKk8r7.K5TFFE0POq0dRb3.Xpfipxn3RDLByfKzyk3r3d3BJMmC0eSgE3RM2KFlMgmtNpnkDLD6Yw254UoNAGawIJ9+B+5b4cFvf8IKaWeVsBdq4xtJ18E.FxR4I" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="6.0" Yoffset="-66.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKxH1koEVajzBahr+cS6FNjCZubWti7xYiIR1SCjmBInF9.AzSJ4xp04EqqMXyMHQSo1Ck0rr2igtXYHKk8r7.K5TFFE0POq0dRb3.Xpfipxn3RDLByfKzyk3r3d3BJMmC0eSgE3RM2KFlMgmtNpnkDLD6Yw254UoNAGawIJ9+B+5b4cFvf8IKaWeVsBdq4xtJ18E.FxR4I" >
 </userBean>
 </note>
 </track>
 <track INDEX="1" >
 </track>
 </staff>
-<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-6.0" Xoffset="722.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[Picster-Element[0] 209.3ocUOEjZCCCDrOkkbH9TA4zjdH8TCj64dHX1JuNQTKsIqUvtTxOnOk9p5KoqjMsDFgXmYVMC5ry1EI4Qpk7THBqgOg.5IcX2j01Qq8lCPjFhUl7RV16wPcWljjRdVtkEkkPoh0PCqgN6UwgsvlVz99Ln7YXg5zKtHAOUTtZ9kqb7ke99qkEFyHAtAtPCmCmE2QWPGKWkNXZJ2Pfy07lJXxRSBmb0TVKJXnqgEekmmjpEruBGnt6W3uLGuuAXvdhk++cicuD9PeYxWwC+BX.Qb4E" >
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="722.0" Yoffset="-6.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[Picster-Element[0] 209.3ocUOEjZCCCDrOkkbH9TA4zjdH8TCj64dHX1JuNQTKsIqUvtTxOnOk9p5KoqjMsDFgXmYVMC5ry1EI4Qpk7THBqgOg.5IcX2j01Qq8lCPjFhUl7RV16wPcWljjRdVtkEkkPoh0PCqgN6UwgsvlVz99Ln7YXg5zKtHAOUTtZ9kqb7ke99qkEFyHAtAtPCmCmE2QWPGKWkNXZJ2Pfy07lJXxRSBmb0TVKJXnqgEekmmjpEruBGnt6W3uLGuuAXvdhk++cicuD9PeYxWwC+BX.Qb4E" >
 </measureUserBean>
-<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="0.0" Xoffset="0.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[Picster-Element[1] 209.3ocUOEjZCCCDrOkEen4TAamjdv8TBz64dIX1JutQDKsMqUvNDxOHOk9p5KoqjMsTFgXmYVMC5SqoOPxSTG4He.pfqfGcjNra150Iq2J1CAZLTmmVxvNG5a5SjnTzyvcrnrHJTTAsrFZ1Fwhcv1NzbLCJdFJUmAwFHnbwp0Od5LGd46utWtXY9DAtAVeKmBmE6GVuNVrNdv3TpAOmp4cUHOIMKbv1PIsff99VVb0NdVpQvgZbj5++B+l4z8M.8lCr72uap6UvE8kQeEO7Cj.bbIF" >
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="0.0" Yoffset="0.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[Picster-Element[1] 209.3ocUOEjZCCCDrOkEen4TAamjdv8TBz64dIX1JutQDKsMqUvNDxOHOk9p5KoqjMsTFgXmYVMC5SqoOPxSTG4He.pfqfGcjNra150Iq2J1CAZLTmmVxvNG5a5SjnTzyvcrnrHJTTAsrFZ1Fwhcv1NzbLCJdFJUmAwFHnbwp0Od5LGd46utWtXY9DAtAVeKmBmE6GVuNVrNdv3TpAOmp4cUHOIMKbv1PIsff99VVb0NdVpQvgZbj5++B+l4z8M.8lCr72uap6UvE8kQeEO7Cj.bbIF" >
 </measureUserBean>
 </measure>
-<measure WIDTH="1883" WIDTHSETBYHAND="false" TIMESIG="5 1" TIMESIGSETBYHAND="true" TEMPO="60.0" TEMPOSETBYHAND="false" REPEATSTART="false" REPEATEND="false" NUMREPEATS="1" BARLINE="PERIOD" MEASURETEXT="" MEASURETEXTX="48" MEASURETEXTY="48" MEASURELEFTMARGIN="50.0" >
+<measure WIDTH="910" WIDTHSETBYHAND="false" TIMESIG="5 1" TIMESIGSETBYHAND="true" TEMPO="60.0" TEMPOSETBYHAND="false" REPEATSTART="false" REPEATEND="false" NUMREPEATS="1" BARLINE="PERIOD" MEASURETEXT="" MEASURETEXTX="48" MEASURETEXTY="48" MEASURELEFTMARGIN="50.0" >
 <staff INDEX="0" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="0" INSINDEXSETBYHAND="false" KEYSIGTYPE="1" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
 <track INDEX="0" >
 <note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" NOTEHEADSCALE="1.0" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
@@ -801,14 +801,14 @@
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="-1.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="0.0" Xoffset="0.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[5] 185.3ocUOEsBBCCCzOkvdWXa57g8lB9tuKxH1k4Jt1HYETQ1+tYcSE4nkK2c4J8l0zGHYI0QNxGfR3E3QGojCyV6mrNVbBBziPUZLjgcNzW2GGFkF8LbGK5zHxTTBMrVZxVwhcvtNzbMAx1.4pycwFHHKeEL.VeCGKhE6EqWoEoEwCp7rXedNV5YUHMJMKzZqonVPPeeCKtJGOKUK38J7A0+efucNcO.n2zxxu+xmWeM7T2cLghEukAWUAN" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="0.0" Yoffset="0.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[5] 185.3ocUOEsBBCCCzOkvdWXa57g8lB9tuKxH1k4Jt1HYETQ1+tYcSE4nkK2c4J8l0zGHYI0QNxGfR3E3QGojCyV6mrNVbBBziPUZLjgcNzW2GGFkF8LbGK5zHxTTBMrVZxVwhcvtNzbMAx1.4pycwFHHKeEL.VeCGKhE6EqWoEoEwCp7rXedNV5YUHMJMKzZqonVPPeeCKtJGOKUK38J7A0+efucNcO.n2zxxu+xmWeM7T2cLghEukAWUAN" >
 </userBean>
 </note>
 <note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="67.0" VELOCITY="0.5" HOLD="0.20000000298023224" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="1" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="3" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="-231" TEXTOFFSETY="-52" NOTEHEAD="1" NOTEHEADSCALE="1.0" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="-1.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-36.0" Xoffset="6.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKxH1koEVajzBahr+cS6FNjCZubWti7xYiIR1SCjmBInF9.AzSJ4xp04EqqMXyMHQSo1Ck0rr2igtXYHKk8r7.K5TFFE0POq0dRb3.Xpfipxn3RD3fYvE54RbVbObAklyg5uovBbol6ECylvSWGUzRBFh8r3a87pTmfis3DE+egect7NCXv9jksqOqVAu0bYWE69BbE6RAI" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="6.0" Yoffset="-36.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKxH1koEVajzBahr+cS6FNjCZubWti7xYiIR1SCjmBInF9.AzSJ4xp04EqqMXyMHQSo1Ck0rr2igtXYHKk8r7.K5TFFE0POq0dRb3.Xpfipxn3RD3fYvE54RbVbObAklyg5uovBbol6ECylvSWGUzRBFh8r3a87pTmfis3DE+egect7NCXv9jksqOqVAu0bYWE69BbE6RAI" >
 </userBean>
 </note>
 <note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" NOTEHEADSCALE="1.0" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
@@ -831,9 +831,9 @@
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="-1.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-54.0" Xoffset="0.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKxH1koEVajzBahr+cS6FNjCZubWti7xYiIR1SCjmBInF9.AzSJ4xp04EqqMXyMHQSo1Ck0rr2igtXYHKk8r7.K5TFFE0POq0dRb3.Xpfipxn3RDjfYvE54RbVbObAklyg5uovBbol6ECylvSWGUzRBFh8r3a87pTmfis3DE+egect7NCXv9jksqOqVAu0bYWE69B3k3RsI" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="0.0" Yoffset="-54.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKxH1koEVajzBahr+cS6FNjCZubWti7xYiIR1SCjmBInF9.AzSJ4xp04EqqMXyMHQSo1Ck0rr2igtXYHKk8r7.K5TFFE0POq0dRb3.Xpfipxn3RDjfYvE54RbVbObAklyg5uovBbol6ECylvSWGUzRBFh8r3a87pTmfis3DE+egect7NCXv9jksqOqVAu0bYWE69B3k3RsI" >
 </userBean>
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-56.0" Xoffset="656.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[1] 181.3ocUOFjBBCDCE0iRt.B1hq5RA26dQJwoo1A5LQRGsUjdEbi2SOClYZwhDXled+jOjqVSWfj0TK4He.JfmfGcjJNLasex5X1IHPCgxMogLryg9ptTSDE8LbKKZWrxzp.pYMzcBd+lfP9VHWY8hMPvm2ufQv5q4TDrXuX8pLtKp+YIkmSQcNYjs.ZrUThEDz2UyhqzwynJA6KwAp6+A9k4z6HfdSCKKWPjtEdn6Ec0Z0W.7FGUUA" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="320.0" Yoffset="-58.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[1] 181.3ocUOFjBBCDCE0iRt.B1hq5RA26dQJwoo1A5LQRGsUjdEbi2SOClYZwhDXled+jOjqVSWfj0TK4He.JfmfGcjJNLasex5X1IHPCgxMogLryg9ptTSDE8LbKKZWrxzp.pYMzcBd+lfP9VHWY8hMPvm2ufQv5q4TDrXuX8pLtKp+YIkmSQcNYjs.ZrUThEDz2UyhqzwynJA6KwAp6+A9k4z6HfdSCKKWPjtEdn6Ec0Z0W.7FGUUA" >
 </userBean>
 </note>
 <note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" NOTEHEADSCALE="1.0" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
@@ -845,7 +845,7 @@
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="-1.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-46.0" Xoffset="0.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKxH1k4Jr1HYE1Fx92Msa3PNn8xc4NxamcHRxQpm7THBkvGHfdRI21rttZcuBqd.QZJVeJulk8dLzLjGRRIOK2yhNkfQQIzxZsWDG1ClB3rpLJtHAyvB3BsbNNKtWtfRS4P82jYANWyyrgYWny0PYsnfggVV70ddSpQvwZbhF9egect9t.Xv1wx90mTKfYMWxUwguHFCRAJ" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="0.0" Yoffset="-46.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKxH1k4Jr1HYE1Fx92Msa3PNn8xc4NxamcHRxQpm7THBkvGHfdRI21rttZcuBqd.QZJVeJulk8dLzLjGRRIOK2yhNkfQQIzxZsWDG1ClB3rpLJtHAyvB3BsbNNKtWtfRS4P82jYANWyyrgYWny0PYsnfggVV70ddSpQvwZbhF9egect9t.Xv1wx90mTKfYMWxUwguHFCRAJ" >
 </userBean>
 </note>
 <note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="true" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="decresc" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" NOTEHEADSCALE="1.0" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
@@ -857,7 +857,7 @@
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="-1.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-66.0" Xoffset="0.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CH3j8zdyG70guKxH1k4Jr1noE1DY+6l1MbHGzd4tbG4o0DhjrmFHG4iPE7A7niTxkUqyKVWqw5aPjlhMGxqYXmC8sg7PRJ4Y3AVzoDJTTAcrV6IwhCPQIbTUFEajfWvLX8cbNNK1GVuRS4P8uHy7btl6YihMgdaKk0hB5Ccr3Zb7pTqfiM3DE9egect7NCn2zyx10mTKg2ZtjqhcewE+RgI" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="0.0" Yoffset="-66.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CH3j8zdyG70guKxH1k4Jr1noE1DY+6l1MbHGzd4tbG4o0DhjrmFHG4iPE7A7niTxkUqyKVWqw5aPjlhMGxqYXmC8sg7PRJ4Y3AVzoDJTTAcrV6IwhCPQIbTUFEajfWvLX8cbNNK1GVuRS4P8uHy7btl6YihMgdaKk0hB5Ccr3Zb7pTqfiM3DE9egect7NCn2zyx10mTKg2ZtjqhcewE+RgI" >
 </userBean>
 </note>
 </track>
@@ -875,9 +875,9 @@
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="-1.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-86.0" Xoffset="0.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXEeZu4C95v2EYD6xbEVajzBahr+cS6FNjCZubWti7xYiIR1SCjmBInB9.AzSJ45p0kEqa0X8cHQSolCk0rr2ig1XYHKk8r7.K5TFFEUPGq0dVb3.XNAGUkQwkHnGlAWniKwYw8zETZNGp+lBKvkZdTLLaB8tVpnkDLD6Xw234UoVAGavIJ9+B+5b4cFvfsmksqOqdBdq4xtJ18EbkRR8H" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="0.0" Yoffset="-86.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXEeZu4C95v2EYD6xbEVajzBahr+cS6FNjCZubWti7xYiIR1SCjmBInB9.AzSJ45p0kEqa0X8cHQSolCk0rr2ig1XYHKk8r7.K5TFFEUPGq0dVb3.XNAGUkQwkHnGlAWniKwYw8zETZNGp+lBKvkZdTLLaB8tVpnkDLD6Xw234UoVAGavIJ9+B+5b4cFvfsmksqOqdBdq4xtJ18EbkRR8H" >
 </userBean>
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-94.0" Xoffset="660.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[2] 181.3ocUOFjBBCDCE0iRt.B1hq5RA26dQJwoo1A5LQRGsUjdEbi2SOClYZwhDXled+jOjqVSWfj0TK4He.JfmfGcjJNLasex5X9IHPCgxMogLryg9ptTSDE8LbKKZWrxzp.pYMzcBd+lfP9VHWY8hMPvm2ufQv5q4TDrXuX8pLtKp+YIkmSQcNYjs.ZrUThEDz2UyhqzwynJA6KwAp6+A9k4z6HfdSCKKWPjtEdn6Ec0Z0W.8RFUVA" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="318.0" Yoffset="-88.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[2] 181.3ocUOFjBBCDCE0iRt.B1hq5RA26dQJwoo1A5LQRGsUjdEbi2SOClYZwhDXled+jOjqVSWfj0TK4He.JfmfGcjJNLasex5X9IHPCgxMogLryg9ptTSDE8LbKKZWrxzp.pYMzcBd+lfP9VHWY8hMPvm2ufQv5q4TDrXuX8pLtKp+YIkmSQcNYjs.ZrUThEDz2UyhqzwynJA6KwAp6+A9k4z6HfdSCKKWPjtEdn6Ec0Z0W.8RFUVA" >
 </userBean>
 </note>
 <note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" NOTEHEADSCALE="1.0" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
@@ -889,7 +889,7 @@
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="-1.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-82.0" Xoffset="6.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[0] 171.3ocUNEsBBCCCzOk7CHrJ9zdyG7ceWjQrKyUYsQRKrIx92Msa3PNn8xc4NxKmMlHYOMPdJjfZ3CDPOojKqVmWrtVcCRzTpoprjk8dLzFKCYormkGXQmxvnnF5XszShCG.yQ3fpLJtDAOgYvE53RbVbObAklyg5uovBbol6ECylPuqkJZIACwNV7MddUpUvwFbhh+uvuNWdmALX6YY65ypGg2ZtrqhceQdCEEw" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="6.0" Yoffset="-82.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[0] 171.3ocUNEsBBCCCzOk7CHrJ9zdyG7ceWjQrKyUYsQRKrIx92Msa3PNn8xc4NxKmMlHYOMPdJjfZ3CDPOojKqVmWrtVcCRzTpoprjk8dLzFKCYormkGXQmxvnnF5XszShCG.yQ3fpLJtDAOgYvE53RbVbObAklyg5uovBbol6ECylPuqkJZIACwNV7MddUpUvwFbhh+uvuNWdmALX6YY65ypGg2ZtrqhceQdCEEw" >
 </userBean>
 </note>
 <note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="60.0" VELOCITY="0.5" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" NOTEHEADSCALE="1.0" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
@@ -917,7 +917,7 @@
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="-1.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-50.0" Xoffset="0.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKxH1k4Jr1HYU1DY+6l1MbHGzd4tbG4oyNDIYO0SdJDgR3CDPOojKqVmWrtVgU2fHMEqOjWyxdOFZFxCIojmk6YQmRvnnDZYs1ShC6ASAbTUFEWjfWvL3BsbNNKtGtfRS4P82jYANWy8rgYSny0PYsnfggVV70ddUpQvwZbhF9egect7NCXv1wx10mTKf2Ztjqhce8EgRwI" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="0.0" Yoffset="-50.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKxH1k4Jr1HYU1DY+6l1MbHGzd4tbG4oyNDIYO0SdJDgR3CDPOojKqVmWrtVgU2fHMEqOjWyxdOFZFxCIojmk6YQmRvnnDZYs1ShC6ASAbTUFEWjfWvL3BsbNNKtGtfRS4P82jYANWy8rgYSny0PYsnfggVV70ddUpQvwZbhF9egect7NCXv1wx10mTKf2Ztjqhce8EgRwI" >
 </userBean>
 </note>
 <note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" NOTEHEADSCALE="1.0" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
@@ -950,7 +950,7 @@
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="-1.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
-<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-62.0" Xoffset="0.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKxH1koEVajzBahr+cS6FNjCZubWti7xYiIR1SCjmBInF9.AzSJ4xp04EqqMXyMHQSo1Ck0rr2igtXYHKk8r7.K5TFFE0POq0dRb3.Xpfipxn3RDPvL3B8bINKtGtfRy4P82TXAtTy8hgYS3oqiJZIACwdV7sddUpSvwVbhh+uvuNWdmALXexx10mUqf2ZtrqhceATEYRwH" >
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="0.0" Yoffset="-62.0" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[NaN] 173.3ocUNEsBBCCCzOk7CHXk8zdyG70guKxH1koEVajzBahr+cS6FNjCZubWti7xYiIR1SCjmBInF9.AzSJ4xp04EqqMXyMHQSo1Ck0rr2igtXYHKk8r7.K5TFFE0POq0dRb3.Xpfipxn3RDPvL3B8bINKtGtfRy4P82TXAtTy8hgYS3oqiJZIACwdV7sddUpSvwVbhh+uvuNWdmALXexx10mUqf2ZtrqhceATEYRwH" >
 </userBean>
 </note>
 <note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="0.800000011920929" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" NOTEHEADSCALE="1.0" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
@@ -967,9 +967,9 @@
 <track INDEX="1" >
 </track>
 </staff>
-<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="0.0" Xoffset="654.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[Picster-Element[2] 207.3ocUOEjhBDCDzmRiGzSByHNdPO4B6cuKxPaldVCNIs1SDUD+A9T7UsujsSlAkkJD5ppNUQNZMsARlPMji7AXAbG7nizg08Ve2YsY5VHPWCkYokLryg9p1DIJE8LbCKJKhbEKfZVCc3JwhMvWMn4vPHeNLUctH1.AyFmWL5zYNr72WOKFmk0QfGf0WyovYw9i0qi4EwCFmRM34TM6TgrjTuvdaEkzBB5aqYwU53doJAuThWo1+uv6L6te.n2rmkO+tttmA2zWF8UL3OPBQykX" >
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="654.0" Yoffset="0.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[Picster-Element[2] 207.3ocUOEjhBDCDzmRiGzSByHNdPO4B6cuKxPaldVCNIs1SDUD+A9T7UsujsSlAkkJD5ppNUQNZMsARlPMji7AXAbG7nizg08Ve2YsY5VHPWCkYokLryg9p1DIJE8LbCKJKhbEKfZVCc3JwhMvWMn4vPHeNLUctH1.AyFmWL5zYNr72WOKFmk0QfGf0WyovYw9i0qi4EwCFmRM34TM6TgrjTuvdaEkzBB5aqYwU53doJAuThWo1+uv6L6te.n2rmkO+tttmA2zWF8UL3OPBQykX" >
 </measureUserBean>
-<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Yoffset="-6.0" Xoffset="2.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[Picster-Element[3] 208.3ocUOEjaBCCDjmxJN.mPJgD3.bBj58dGghVb1TrH1a6Fi.Dhe.OEdU8kz0NQspZrr1Yl0yH+o0zEHYF0RNxGfUvcviNRGdev5sdqcE6g.cMTkkVxvNG5q6RjnTzyvsrnrHxUrBZXMzwaDK1BaaQyowP9RXt5bQrABJlVtXxWm4v5ue8rbZQVOAd.VeCmBmE6GVuNluHdv3TpAOmp4fJjkjFDNZqojVPPeWCKtJGOHUK3kJ7J08+E9My96G.5MGY4ueWe2kvM8kQeEi9AMvJWmA" >
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="2.0" Yoffset="-6.0" Name="RenderedMessageBean_measure-4" Message="rendered Picster-Element[Picster-Element[3] 208.3ocUOEjaBCCDjmxJN.mPJgD3.bBj58dGghVb1TrH1a6Fi.Dhe.OEdU8kz0NQspZrr1Yl0yH+o0zEHYF0RNxGfUvcviNRGdev5sdqcE6g.cMTkkVxvNG5q6RjnTzyvsrnrHxUrBZXMzwaDK1BaaQyowP9RXt5bQrABJlVtXxWm4v5ue8rbZQVOAd.VeCmBmE6GVuNluHdv3TpAOmp4fJjkjFDNZqojVPPeWCKtJGOHUK3kJ7J08+E9My96G.5MGY4ueWe2kvM8kQeEi9AMvJWmA" >
 </measureUserBean>
 </measure>
 <scoreUserBean CLASSNAME="com.algomusic.max.MaxScoreRenderedMessageListener" >

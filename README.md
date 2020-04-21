@@ -95,26 +95,34 @@ This keyboard layout will be different when you choose a different tuning from t
 ### Working with a conductor
 It’s time to launch Quintet.net Conductor 2020.
 
-If you launch the Conductor for the first time, you probably won’t see a title and a menu entry in the bottom part of the window. This is because no compositions have been saved with the Conductor preferences yet. We can change that by opening a “.cond” file (which is a short settings file specific to each composition).
-Once again, navigate to the “Example/Five” folder and open the Five. cond file. This will prompt the Conductor to display the title of the compo- sition, as well as to load the “Five” timeline (with its predefined triggers), its instruments and parts.
-Register the conductor just as you did with the Client by clicking on the “Register with host” button and entering “localhost”, your name and your address. Now, your name, location and settings should appear: All changes made to the “Display”, “Instrument”, “Tuning”, “Process” and “Filter” menus by the Conductor should instantaneously be reflected by the Clients and vice versa.
-Next, we want to start the Five timeline, and since we’d like to see the parts sent to the Clients, we need to change all five “Display” menus to “Events & Parts.” Choose Section 1 from the trigger menu, press the space bar and bring the Client window to the front. You should see the following:
-• A “start” command with red text flashing to draw your attention during the performance,
-• Changed instrument settings for each player
-• The parts for “Five” displayed on all grand staves.
-• A running timer/clock.
-Go back to the Conductor and click on “Edit Timeline.” The Five.ti timeline window will open and the cursor will move along the x-axis. (The timeline contains a collection of messages to automate the communication be- tween the Conductor and the Clients and Listeners as well as the Viewer add-on. More information on editing a timeline can be found in the forth- coming Quintet.net tutorial).
-While the graphical output in the Client window was designed to give the players and the listeners visual feedback on musical and control events, the Viewer add-on (named add-on because it doesn’t have its own net- work socket and relies on the Client or Listener) uses Jitter for the cre- ation of a visual layer complementing a Quintet.net performance.
+If you launch the Conductor for the first time, you probably won’t see a control panel in the bottom part of the window. This is because no compositions have been saved with the Conductor preferences yet. We can change that by selecting the same project (Five) as we did in the previous section.
+Register the conductor just as you did with the Client by clicking on the red connect button AFTER entering your name and your address. All changes made to the “Display”, “Instrument”, “Tuning”, “Process” and “Filter” menus by the Conductor should instantaneously be reflected by the Clients and vice versa.
+Next, we want to start the piece.
+Follow the sequence of buttons in left to right order in the Five control panel to execute the following functions:
 
-To demonstrate some basic features of the Viewer, five images of the score of Five will be displayed. Since John Cage leaves it up to the per- former to play the music within overlapping time brackets, a crossfade between the images is supposed to make this concept clear.
-First launch the Quintet.net Viewer 2007 and open the Listener 2007 from its file menu. Then click the “load Settings...” button and locate the Five. xml file in the Quintet.net/Example/Five folder. Press shift-return to load the first preset. If you load the file for the first time or the file is miss- ing from the folder, you may have to set the path to the video clips by dragging the “Quintet.net/Example/Five/Clips” folder on each of the Clips menus located inside the 5 Movie panes on the top of the Viewer window. Now, set the resolution to at least “480 360” (the resolution of the tiff images) in the Viewer “Preferences” square, turn interpolation on (for a better viewing experience), make the Conductor window front-most and start the timeline by choosing “Section 1” from the triggers menu before pressing the space bar. After a short delay you should see a small image in the Client and Viewer windows, as well as an enlarged copy of the im- age in a window named “quintet.net (jit_window)”. It is possible to toggle between full-screen and regular modes can by pressing the “esc” key.
+* Initialize: Send the initial settings to the Clients
+* Send Score: The score will now display on the Clients
+* Start: Start the counter and send a sequence of message to the Clients
+* Page 1, 2 and 3: Jump to the indicated page in the score and click on start to resume counter
+* Stop: Stop sequence
+
+This piece can either be performed on the Internet with acoustic instrument via low-latency audio streaming or by playing the built-in sampler using a MIDI controller or simply the computer keyboard. The characters on top of the notes refer to the keys to be pressed in this particular playing mode (for U.S. keyboard layout). 
+In this piece by Cage, events take place within time brackets. The players are free to start and end the note(s) as long as they are within the times given on top of the score. Notes should be played legato when tied and clearly separated when succeded by a breathmark. Currently, the computer keyboard has two dynamic levels mp and f. In order to play the notes f, the shift key has to be pressed in addition to the characters.
+
+### Viewer
+While the graphical output in the Client window was designed to give the players and the listeners visual feedback on musical and control events, the Viewer add-on (named add-on because it doesn’t have its own network socket and, therefore, relies on the Client) uses the Jitter graphical tool for the creation of a visual layer complementing a Quintet.net performance.
+
+To demonstrate some basic features of the Viewer, the score of Five will be displayed. Launch Quintet.net Viewer 2020 in addition to the Client. Then click the “Load Settings...” button and locate the Five.viewer.xml file in the Five project folder. Press shift-return to load the first preset. During a performance, the Conductor will take of this, but it's a good idea to try this first manually.
+In the Viewer preferences, set the video resolution to a resonable numbers corresponding to the aspect ratio of your projector or screen (a second screen is strongly recommended when working the Viewer), move the Quintet.net window to the other screen press esc, which will put the Viewer in full-screen mode. 
+
+Now start the piece in the Conductor and verify that the page turns happen as expected.
 
 
 ## Using Quintet.net in a performance
 
-Once again we’re going to use Five as an example of how to use Quin- tet.net in a performance situation. Depending on the hardware used, your configuration may vary quite considerably. Therefore, let’s discuss the minimum and optimal configurations:
-The minimum configuration consist of six computers, five computers run- ning their own copy of the Client and one computer running the Server, the Conductor (as well as a Listener and the Viewer add-on, if public viewing is desired). While the maximum number of Clients is limited to five (hence the name Quintet.net), the Listener being a stripped-down version of the Client allows unlimited computers to register and to follow a Quintet.net performance.
-Since running both audio and video on one machine can be very demand- ing on the hardware, I would recommend this configuration only with to- day’s most powerful machines. The optimal configuration, which requires more machines, has the advantage to provide more redundancy should one of the machines ever fail.
+Once again we’re going to use Five as an example of how to use Quintet.net in a performance situation. Depending on the hardware used, your configuration may vary quite considerably. 
+A typical configuration consist of seven computers, five computers running their own copy of the Client, one computer running the Server and the Conductor and, if the visual layer is desired, a seventh computer running a Client in Listener mode with the Viewer add-on. While the maximum number of _Players_ is limited to five (hence the name Quintet.net), there can be an unlimited number of _Listeners_ computers to follow a Quintet.net performance.
+Since running both audio and video on one machine can be very demanding on the hardware, I would recommend this configuration only with powerful machines. The optimal configuration, which requires more machines, has the advantage to provide more redundancy should one of the machines ever fail.
 N.B. Should all performers perform in one hall, audio should be turned off on all machines except the dedicated audio computer (which ideally has a multi-channel audio interface with five loudspeakers and one subwoofer attached).
 
 ### Local network performances

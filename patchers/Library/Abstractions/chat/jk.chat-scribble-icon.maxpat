@@ -1,66 +1,88 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 20.0, 74.0, 600.0, 426.0 ],
+		"appversion" : 		{
+			"major" : 8,
+			"minor" : 1,
+			"revision" : 4,
+			"architecture" : "x64",
+			"modernui" : 1
+		}
+,
+		"classnamespace" : "box",
+		"rect" : [ 77.0, 88.0, 600.0, 426.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 20.0, 74.0, 600.0, 426.0 ],
-		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
+		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"imprint" : 0,
-		"metadata" : [  ],
+		"enablehscroll" : 1,
+		"enablevscroll" : 1,
+		"devicewidth" : 0.0,
+		"description" : "",
+		"digest" : "",
+		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"maxclass" : "newobj",
-					"text" : "thispatcher",
-					"numoutlets" : 2,
-					"patching_rect" : [ 231.0, 137.0, 61.0, 17.0 ],
+					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-1",
-					"outlettype" : [ "", "" ],
-					"fontname" : "Arial",
+					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ]
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 231.0, 137.0, 61.0, 19.0 ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+					"text" : "thispatcher"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"maxclass" : "inlet",
-					"numoutlets" : 1,
-					"patching_rect" : [ 241.0, 102.0, 15.0, 15.0 ],
+					"comment" : "",
 					"id" : "obj-2",
-					"outlettype" : [ "" ],
+					"index" : 1,
+					"maxclass" : "inlet",
 					"numinlets" : 0,
-					"comment" : ""
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 241.0, 102.0, 15.0, 15.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"maxclass" : "fpic",
-					"numoutlets" : 0,
-					"patching_rect" : [ 60.0, 60.0, 21.0, 78.0 ],
-					"pic" : "wfmodes.pct",
 					"id" : "obj-3",
-					"numinlets" : 1
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 60.0, 60.0, 21.0, 78.0 ],
+					"pic" : "wfmodes.png"
 				}
 
 			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"source" : [ "obj-2", 0 ],
 					"destination" : [ "obj-1", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ]
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}

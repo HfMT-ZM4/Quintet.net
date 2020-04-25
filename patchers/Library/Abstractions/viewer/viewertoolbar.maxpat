@@ -132,12 +132,12 @@
 					"presentation_rect" : [ 135.0, 45.0, 26.0, 26.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2,
 							"parameter_longname" : "live.text[7]",
-							"parameter_invisible" : 2,
-							"parameter_mmax" : 1
+							"parameter_invisible" : 2
 						}
 
 					}
@@ -165,37 +165,18 @@
 					"presentation_rect" : [ 204.5, 45.0, 26.0, 26.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2,
 							"parameter_longname" : "live.text",
-							"parameter_invisible" : 2,
-							"parameter_mmax" : 1
+							"parameter_invisible" : 2
 						}
 
 					}
 ,
 					"usepicture" : 1,
 					"varname" : "live.text[2]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"hidden" : 1,
-					"id" : "obj-2",
-					"ignoreclick" : 1,
-					"maxclass" : "pictctrl",
-					"multiplier" : 1,
-					"name" : "Reset-Info.png",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 368.0, 39.0, 24.0, 24.0 ],
-					"trackhorizontal" : 1,
-					"tracking" : 1,
-					"trackvertical" : 1
 				}
 
 			}
@@ -1140,12 +1121,12 @@
 					"presentation_rect" : [ 68.0, 45.0, 26.0, 26.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2,
 							"parameter_longname" : "live.text[2]",
-							"parameter_invisible" : 2,
-							"parameter_mmax" : 1
+							"parameter_invisible" : 2
 						}
 
 					}
@@ -1275,7 +1256,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 51.0, 17.0, 53.0, 19.0 ],
 					"text" : "autopattr",
-					"varname" : "u499037367"
+					"varname" : "u229031042"
 				}
 
 			}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 154.0, 45.0, 1128.0, 729.0 ],
+		"rect" : [ 115.0, 76.0, 1128.0, 729.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -102,7 +102,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u450024319"
+					"varname" : "u765011955"
 				}
 
 			}
@@ -3678,7 +3678,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 247.0, 6.0, 61.0, 19.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 154, 45, 1282, 774, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 115, 76, 1243, 805, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 
@@ -3745,6 +3745,7 @@
 			}
 , 			{
 				"box" : 				{
+					"autorestore" : "Five.viewer.xml",
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"hidden" : 1,
@@ -3859,7 +3860,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 220.0, 239.0, 1166.0, 563.0 ],
+						"rect" : [ 289.0, 240.0, 1166.0, 563.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -3888,6 +3889,44 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-13",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 677.5, 122.0, 137.0, 20.0 ],
+									"text" : "presets::name Five.viewr.xml"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-12",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 613.0, 59.0, 194.0, 20.0 ],
+									"presentation_linecount" : 2,
+									"text" : "/!target/0.0.0.0/Viewer presets::name Five"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 651.0, 91.0, 143.0, 20.0 ],
+									"presentation_linecount" : 2,
+									"text" : "presets::name Five.viewer.xml"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-111",
 									"maxclass" : "newobj",
@@ -4739,7 +4778,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::player.5::bordercolor",
-													"varname" : "u870046692"
+													"varname" : "u932004749"
 												}
 
 											}
@@ -4760,7 +4799,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::player.4::bordercolor",
-													"varname" : "u747046694"
+													"varname" : "u094004747"
 												}
 
 											}
@@ -4781,7 +4820,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::player.3::bordercolor",
-													"varname" : "u398046696"
+													"varname" : "u046004742"
 												}
 
 											}
@@ -4802,7 +4841,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::player.2::bordercolor",
-													"varname" : "u153046698"
+													"varname" : "u127004743"
 												}
 
 											}
@@ -4823,7 +4862,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::player.1::bordercolor",
-													"varname" : "u608046700"
+													"varname" : "u295004739"
 												}
 
 											}
@@ -6067,14 +6106,14 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 467.0, 187.0, 346.0, 35.0 ],
-													"restore" : [ "Macintosh HD:/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Five" ],
+													"restore" : [ 0 ],
 													"saved_object_attributes" : 													{
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
 													}
 ,
 													"text" : "pattr @bindto ::client::Preferences::Project::path @autorestore 0 @invisible 1",
-													"varname" : "u946046710"
+													"varname" : "u655004727"
 												}
 
 											}
@@ -6179,7 +6218,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::Preferences::Mapper::outlet @autorestore 0 @invisible 1",
-													"varname" : "u758046714"
+													"varname" : "u417004722"
 												}
 
 											}
@@ -6523,6 +6562,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-25", 0 ],
+									"source" : [ "obj-13", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-22", 0 ],
 									"source" : [ "obj-15", 0 ]
 								}
@@ -6553,6 +6599,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-58", 1 ],
 									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-25", 0 ],
+									"source" : [ "obj-2", 0 ]
 								}
 
 							}
@@ -7048,6 +7101,47 @@
 									"source" : [ "obj-9", 1 ]
 								}
 
+							}
+ ],
+						"styles" : [ 							{
+								"name" : "comment_font_viewer",
+								"default" : 								{
+									"fontname" : [ "Gill Sans" ],
+									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"fontsize" : [ 12.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "comment_viewer_normal",
+								"default" : 								{
+									"fontname" : [ "Arial" ],
+									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "panel_black_grey_frame",
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "gradient",
+										"color1" : [ 0.0, 0.0, 0.0, 1.0 ],
+										"color2" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"angle" : -90.0,
+										"proportion" : 0.39
+									}
+,
+									"color" : [ 0.682353, 0.705882, 0.776471, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
 							}
  ]
 					}
@@ -7690,7 +7784,7 @@
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 183.0, 20.0, 59.5, 18.0 ],
 													"text" : "autopattr",
-													"varname" : "u889010465"
+													"varname" : "u005031232"
 												}
 
 											}
@@ -9612,9 +9706,9 @@
 , 															{
 																"name" : "comment_font_viewer",
 																"default" : 																{
+																	"fontname" : [ "Gill Sans" ],
 																	"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-																	"fontsize" : [ 12.0 ],
-																	"fontname" : [ "Gill Sans" ]
+																	"fontsize" : [ 12.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -9623,9 +9717,9 @@
 , 															{
 																"name" : "comment_viewer_normal",
 																"default" : 																{
+																	"fontname" : [ "Arial" ],
 																	"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-																	"fontsize" : [ 10.0 ],
-																	"fontname" : [ "Arial" ]
+																	"fontsize" : [ 10.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -9634,13 +9728,13 @@
 , 															{
 																"name" : "number001",
 																"default" : 																{
-																	"fontsize" : [ 10.0 ],
-																	"accentcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"fontname" : [ "Arial" ],
 																	"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+																	"fontname" : [ "Arial" ],
+																	"accentcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 																	"fontface" : [ 1 ],
 																	"selectioncolor" : [ 0.87, 0.82, 0.24, 1.0 ],
-																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+																	"fontsize" : [ 10.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -14019,7 +14113,7 @@
 																	}
 ,
 																	"text" : "pattr @bindto parent::parent::parent::mix::timemode",
-																	"varname" : "u075047917"
+																	"varname" : "u240029244"
 																}
 
 															}
@@ -17030,7 +17124,7 @@
 													}
 ,
 													"text" : "autopattr",
-													"varname" : "u164045566"
+													"varname" : "u489031233"
 												}
 
 											}
@@ -19210,27 +19304,27 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-43::obj-36" : [ "live.text", "live.text", 0 ],
-			"obj-45::obj-7" : [ "live.slider", "live.slider", 0 ],
-			"obj-43::obj-37" : [ "live.text[7]", "live.text", 0 ],
+			"obj-12::obj-42::obj-80" : [ "live.text[8]", "live.text", 0 ],
 			"obj-77::obj-1::obj-17" : [ "live.text[6]", "live.text[5]", 0 ],
-			"obj-12::obj-42::obj-80" : [ "live.text[9]", "live.text", 0 ],
-			"obj-77::obj-1::obj-8" : [ "live.tab[1]", "live.tab", 0 ],
-			"obj-12::obj-42::obj-79" : [ "live.text[8]", "live.text", 0 ],
+			"obj-12::obj-42::obj-79" : [ "live.text[9]", "live.text", 0 ],
 			"obj-77::obj-1::obj-19" : [ "live.text[1]", "live.text[5]", 0 ],
 			"obj-77::obj-1::obj-10" : [ "live.text[5]", "live.text[5]", 0 ],
+			"obj-43::obj-37" : [ "live.text[7]", "live.text", 0 ],
 			"obj-43::obj-20" : [ "live.text[2]", "live.text", 0 ],
+			"obj-43::obj-36" : [ "live.text", "live.text", 0 ],
+			"obj-77::obj-1::obj-8" : [ "live.tab[1]", "live.tab", 0 ],
+			"obj-45::obj-7" : [ "live.slider", "live.slider", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
 				"obj-12::obj-42::obj-80" : 				{
-					"parameter_longname" : "live.text[9]"
+					"parameter_longname" : "live.text[8]"
 				}
 ,
 				"obj-12::obj-42::obj-79" : 				{
-					"parameter_longname" : "live.text[8]"
+					"parameter_longname" : "live.text[9]"
 				}
 
 			}
@@ -19419,8 +19513,8 @@
 			}
 , 			{
 				"name" : "platform.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/javascript",
-				"patcherrelativepath" : "../MaxScore/javascript",
+				"bootpath" : "/Users/Shared/Max 8/Packages/DJster/javascript",
+				"patcherrelativepath" : "../DJster/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -19482,8 +19576,8 @@
 			}
 , 			{
 				"name" : "maxfolder.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/javascript",
-				"patcherrelativepath" : "../MaxScore/javascript",
+				"bootpath" : "/Users/Shared/Max 7/Packages/PatMap/javascript",
+				"patcherrelativepath" : "../PatMap/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -19845,15 +19939,15 @@
 			}
 , 			{
 				"name" : "srcdimcrop.genjit",
-				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/jitter-examples/gen",
-				"patcherrelativepath" : "../../../../hajdu/Library/Application Support/Cycling '74/Max 8/Examples/jitter-examples/gen",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
+				"patcherrelativepath" : "./patchers/Library/Abstractions/viewer",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dstdimcrop.genjit",
-				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/jitter-examples/gen",
-				"patcherrelativepath" : "../../../../hajdu/Library/Application Support/Cycling '74/Max 8/Examples/jitter-examples/gen",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
+				"patcherrelativepath" : "./patchers/Library/Abstractions/viewer",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
@@ -19866,8 +19960,8 @@
 			}
 , 			{
 				"name" : "my-LtoColl.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/extensions",
-				"patcherrelativepath" : "../MaxScore/patchers/extensions",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/utilities",
+				"patcherrelativepath" : "./patchers/Library/Abstractions/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -19882,6 +19976,13 @@
 				"name" : "boxposition.js",
 				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/javascript",
 				"patcherrelativepath" : "./javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Five.viewer.xml",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Five",
+				"patcherrelativepath" : "./patchers/Projects/Five",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 339.0, 288.0, 787.0, 448.0 ],
+		"rect" : [ 651.0, 406.0, 787.0, 448.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
@@ -46,8 +47,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 310.0, 27.0, 190.0, 20.0 ],
-					"restore" : [ 15 ],
+					"patching_rect" : [ 310.0, 14.0, 190.0, 20.0 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -121,7 +122,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 394.0, 81.0, 45.0, 20.0 ],
+					"patching_rect" : [ 394.0, 77.0, 45.0, 20.0 ],
 					"text" : "zl sub 1"
 				}
 
@@ -281,7 +282,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 332.0, 105.0, 33.0, 20.0 ],
+					"patching_rect" : [ 332.0, 111.0, 33.0, 20.0 ],
 					"text" : "- 1"
 				}
 
@@ -295,7 +296,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 310.0, 127.0, 19.0, 20.0 ],
+					"patching_rect" : [ 310.0, 141.0, 19.0, 20.0 ],
 					"text" : "t i"
 				}
 
@@ -307,7 +308,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 332.0, 81.0, 53.0, 20.0 ],
+					"patching_rect" : [ 332.0, 77.0, 53.0, 20.0 ],
 					"text" : "zl sub 1."
 				}
 
@@ -321,7 +322,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 310.0, 57.0, 63.0, 20.0 ],
+					"patching_rect" : [ 310.0, 44.0, 63.0, 20.0 ],
 					"text" : "route int list"
 				}
 
@@ -511,7 +512,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -544,6 +545,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -1563,7 +1565,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 2 ],
-					"midpoints" : [ 319.5, 158.0, 285.0, 158.0, 285.0, 20.0, 127.5, 20.0 ],
+					"midpoints" : [ 319.5, 172.0, 285.0, 172.0, 285.0, 20.0, 127.5, 20.0 ],
 					"source" : [ "obj-38", 0 ]
 				}
 
@@ -1729,9 +1731,9 @@
 		"styles" : [ 			{
 				"name" : "comment_font_viewer",
 				"default" : 				{
-					"fontsize" : [ 12.0 ],
+					"fontname" : [ "Gill Sans" ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontname" : [ "Gill Sans" ]
+					"fontsize" : [ 12.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1740,9 +1742,9 @@
 , 			{
 				"name" : "comment_viewer_normal",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
+					"fontname" : [ "Arial" ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontname" : [ "Arial" ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",

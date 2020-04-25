@@ -34,9 +34,6 @@ Quintet.net uses the metaphor of an ensemble under the control of a conductor—
 ![Quintet.net Viewer](https://github.com/HfMT-ZM4/Quintet.net/blob/master/media/Resources/Viewer.png)
 The Viewer add-on was conceived to extend the Quintet.net performance into the visual domain. Using the Jitter matrix processing objects, this component implements a number of live video generating and processing algorithms that can be controlled either manually or by sending messages over the network. The media on which the algorithms operate can be either video clips or input from the video generators. The algorithms in turn can be controlled by the actions of the musicians. Thus, the Viewer enables composers/artists to create complex artworks in which the visual components represent an autonomous formal element. Several instances of the Viewer can be employed together in a performance. As an add-on it requires the Quintet.net Client to be opened.
 
-## Composing for Quintet.net
-The music performed with Quintet.net is typically a combination of composed and improvised elements. Before the advent of broadband low-latecy networks, the lack of real synchronicity necessitated the adaptation of a genuine “Internet” performance style for which John Cage’s number pieces were considered a model: These pieces require certain notes or phrases to be played within “time brackets.”
-
 ### Internet Server Address
 An online server is accessible at 193.175.151.142
 
@@ -59,44 +56,44 @@ Get from http://www.computermusicnotation.com/downloadmaxscore/
 Download or clone the GitHub repo from https://github.com/HfMT-ZM4/CNMAT-odot.git/ to your Max 8/Packages folder
 
 # Manual
+## Composing for Quintet.net
+The music performed with Quintet.net is typically a combination of composed and improvised elements. Before the advent of broadband low-latecy networks, the lack of real synchronicity necessitated the adaptation of a genuine “Internet” performance style for which John Cage’s number pieces were considered a model: These pieces require certain notes or phrases to be played within “time brackets.”
+
 ## Getting Started
 We are going to jump-start Quintet.net by launching all the components on one machine and running Five by John Cage, the "Hello World" of Quintet.net. Once we’ve covered the basics of Quintet.net, we are going to look at the Tutorial project which will give an overview of how to compose for the environment.
-After a successful installation, the Quintet.net folder should reside in the Max Packages folder. Please don’t move this folder or its subfolders, as, otherwise, Quintet.net may not function properly.
+After a successful installation, the Quintet.net folder should reside in the Max 8/Packages folder. Please don’t move this folder or its subfolders, since, otherwise, Quintet.net may not function properly.
 
 ### Launching the Quintet.net components
 First launch either the Max application. Now, let’s open three components, one at a time.
 N.B. Quintet.net was designed so that one (and only one) copy of each component can run in one instance of Max. Launching several copies of a component will lead to erratic behavior.
 
-Let’s start by first opening the Quintet.net Server 2020 and then the Quintet.net Client 2020. You'll find the components in the Quintet.net Package.
+Let’s start by first opening the Quintet.net Server 2020 and then the Quintet.net Client 2020. You'll find the components in the Quintet.net Package. For the Server, please first select the network connection it is supposed to listen to. This can be your loopback connection (lo0) or the Ethernet adapter (typically en0). Then start the Server and launch the Client.
 
 ![Quintet.net Toolbar](https://github.com/HfMT-ZM4/Quintet.net/blob/master/media/Resources/Toolbar.png)
 
-Once the Client has opened, fill in your name, location and identity (choose Player 1, for simplicity's sake). Now, click on the red double-arrow button on the top right-hand side in order to log onto the server. The button should turn green, if successful.
+Once the Client has opened, fill in your name, location and identity (choose Player 1, for simplicity's sake). Now, click on the red double-arrow button on the top right-hand side in order to log onto the server. The button should turn green, if successful. The Server displays the IP number:return port info as well as the name and the location for each participant.
+
 Click on yellow Preferences button on the top left-hand side, click on the Project icon in the Preferences window and select Five from the List of stored Projects. This will load the sound files and a few other project-specific resources.
 
 ![Quintet.net Preferences](https://github.com/HfMT-ZM4/Quintet.net/blob/master/media/Resources/Preferences.png)
 
-The Server displays the IP number:return port info as well as the name and the location for each participant.
-
 Let’s return to the Client. Turn on audio by clicking on the Power icon in the middle of the tool bar. It should turn blue.
-On the right hand side you’ll see a number of pop-up menus.
-Choose the instrument “3angle” from the “Instrm.” menu and start typing on the keyboard.
+On the left hand side you’ll see a number of pop-up menus. For your staff, choose the instrument “3angle” from the “Instrm.” menu and start typing on the keyboard.
 
-At this point, quarter-note heads should appear on the grand staff and you should hear a sound provided that you hold the key long enough (the sounds used for “Five” fade in slowly). If the sound is too soft, click on the “Preferences” button and on the “Audio Levels” tab. Adjust the fader that corresponds to your grand staff. In rare cases, if you don’t hear any sound, you may have to press the return key to reset the sampler.
+At this point, quarter-note heads should appear on the staff and you should hear a sound provided that you hold the key long enough (the sounds used for “Five” fade in slowly). If the sound is too soft, click on the “Preferences” button and on the “Audio Levels” tab. Adjust the fader that corresponds to your staff. In rare cases, if you don’t hear any sound, you may have to press the return key to reset the sampler.
 
-Of course, you can always attach a MIDI keyboard. First make sure that MIDI is enabled in the Input list, and then set the correct MIDI input port in the MIDI pane of the Preferences window. (More complex MIDI routing schemes can be realized with the MIDIMapper2 patch which can be opened from the MIDI pane.)
+Of course, you can always attach a MIDI keyboard. First make sure that MIDI is enabled in the Input list, and then set the correct MIDI input port in the MIDI pane of the Preferences window.
 
 ### Keyboard Layout and Tunings
 The computer keyboard can be used as an polyphonic instrument. It should always be set to U.S. or British, unless you care to create your own map. (Examples can be found in: "Max 8/Packages/Quintet.net/patchers/Library/Data/Keyboard Layout/".)
 This keyboard layout will be different when you choose a different tuning from the “Tuning” menu. All tunings have in common that middle c is always assigned to “q”. You may also want to experiment a bit with the Tuning, Process and Filter menus. 
 
-[Not sure whether this still applies:] Don’t forget to set them back to their original state before continuing with the next step.
-
 ### Working with a conductor
 It’s time to launch Quintet.net Conductor 2020.
 
-If you launch the Conductor for the first time, you probably won’t see a control panel in the bottom part of the window. This is because no compositions have been saved with the Conductor preferences yet. We can change that by selecting the same project (Five) as we did in the previous section.
-Register the conductor just as you did with the Client by clicking on the red connect button AFTER entering your name and your address. All changes made to the “Display”, “Instrument”, “Tuning”, “Process” and “Filter” menus by the Conductor should instantaneously be reflected by the Clients and vice versa.
+If you launch the Conductor for the first time, you probably won’t see a control panel in the bottom part of the window. This is because no compositions have been saved with the Conductor preferences yet. 
+Register the Conductor just as you did with the Client by clicking on the red connect button AFTER entering your name and your address. Open the project called Five (the same way we did in the previous section). All changes made to the “Display”, “Instrument”, “Tuning”, “Process” and “Filter” menus by the Conductor should instantaneously be reflected by the Clients and vice versa.
+
 Next, we want to start the piece.
 Follow the sequence of buttons in left to right order in the Five control panel to execute the following functions:
 
@@ -106,8 +103,8 @@ Follow the sequence of buttons in left to right order in the Five control panel 
 * Page 1, 2 and 3: Jump to the indicated page in the score and click on start to resume counter
 * Stop: Stop sequence
 
-This piece can either be performed on the Internet with acoustic instrument via low-latency audio streaming or by playing the built-in sampler using a MIDI controller or simply the computer keyboard. The characters on top of the notes refer to the keys to be pressed in this particular playing mode (for U.S. keyboard layout). 
-In this piece by Cage, events take place within time brackets. The players are free to start and end the note(s) as long as they are within the times given on top of the score. Notes should be played legato when tied and clearly separated when succeded by a breathmark. Currently, the computer keyboard has two dynamic levels mp and f. In order to play the notes f, the shift key has to be pressed in addition to the characters.
+This piece can either be performed on the Internet with acoustic instrument via low-latency audio streaming or by playing the built-in sampler using a MIDI controller or simply the computer keyboard. In the score, the characters on top of the notes refer to the keys to be pressed in this particular input mode (U.S. keyboard layout). 
+In this piece by Cage, one of his _Number_ pieces, events take place within time brackets. The players are free to start and end the note(s) as long as they are within the times given on top of the score. Notes should be played legato when tied and clearly separated when followed by a breathmark. Currently, the computer keyboard has two dynamic levels mp and f. In order to play the notes f, the shift key has to be pressed as well.
 
 ### Viewer
 While the graphical output in the Client window was designed to give the players and the listeners visual feedback on musical and control events, the Viewer add-on (named add-on because it doesn’t have its own network socket and, therefore, relies on the Client) uses the Jitter graphical tool for the creation of a visual layer complementing a Quintet.net performance.

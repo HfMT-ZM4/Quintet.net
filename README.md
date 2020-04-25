@@ -136,6 +136,9 @@ The dynamic of local network performances is very similar to a typical performan
 
 Enter your message in the bottom field and watch the text appear in the field above. Once the message is sent off, the “Chat” button turns red on all connected computers to alert the participants of the new message. (My gratitude goes to Johannes Kretz who provided the much improved Chat interface.)
 
+# Tutorial
+A tutorial on how to create your own piece for Quintet.net can be found [here](patchers/Projects/Tutorial/Tutorial.md). 
+
 # Additional Features 
 ## Spatialization
 Quintet.net possesses 10 sounds sources (the 5 performers, local sound, stereo granular synthesis and 2 aux channels), labelled p1 - p5, loc, g1, g2, a1 and a2. These sources can be placed in either stereo or 5.1 pan- orama by manually dragging the colored circles in the spatGUI window (click on Channels to open it). The brown loudspeaker icons are also draggable in order to represent the actual loudspeaker configuration in the concert hall. When using a multi-channel audio interface in 5.1 mode, channels 6 and 7 should be sent to the subwoofer. These channels can also be used as a stereo submix of channels 1 through 5.
@@ -165,6 +168,5 @@ The European Bridges Ensemble (also know as E-B-E) was an ensemble specializing 
 
 # References
 
-# Tutorial
 
 In the Client, the computer keyboard can be used as an polyphonic instrument. You can either create your own keyboard assignment or choose one of the three pre-defined assignment. For the latter, click on Input on the bottom of the Client window and open the Computer Keyboard con- trol panel. The following figure will give you an idea of how the pitches are laid out for the legacy key assigment (make sure you set the system keyboard layout to U.S. first.

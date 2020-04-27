@@ -137,7 +137,7 @@ The dynamic of local network performances is very similar to a typical performan
 Enter your message in the bottom field and watch the text appear in the field above. Once the message is sent off, the “Chat” button turns red on all connected computers to alert the participants of the new message. (My gratitude goes to Johannes Kretz who provided the much improved Chat interface.)
 
 # Tutorial
-A tutorial on how to create your own piece for Quintet.net can be found [here](patchers/Projects/Tutorial/Tutorial.md). 
+A tutorial on how to create your own piece for Quintet.net can be found [here](Tutorial.md). 
 
 # Additional Features 
 ## Spatialization

@@ -21,6 +21,7 @@ A typical Project folder thus contains the following sub folder:
  1. Viewer
 
 ## Top level
+The only file residing at top-level can be a _bank_ file, used by the Quintet.net Sampler. It contains a reference to instruments. The bank will be loaded automatically once a project has been chosen, but can also be opened and edited manually in the Quintet.net Sampler Preferences. The tutorial comes with a bank called Tutorial.bank.txt consisting of a number of old synth sounds, among others. 
 
 ## Audio-Extentions
 While Quintet.net also supports VST plugins for audio processing and sound generation, Audio-Extension offer a very simple means to extend Quintet.net simply by adding Max patches to this particular folder. In the Client there are two slots for each player, for a total of 10 (see the Plugins preferences pane) These patches can also both be used for processing and generation. We will show you how.
@@ -61,22 +62,20 @@ An input require following components to operate and need to be saved as foo.inp
 <!--- [links to Mapper and Events] --->
 
 ## Instruments
-This folder contains the instrument files created by the Quintet.net Sampler. Instruments are part of bank files and list any number of samples in the following format:
+This folder contains the instrument files for the Quintet.net Sampler. Instruments are part of bank files and refer to any number of samples in the following format:
 
 Index, sample_name root_key key_zone_floor velocity_zone_floor envelope loop starting_point direction;
 
 Example: 1, Clarinet_E4.gr.mp3 76.099998 60 0 "envelope 2 0.0000 1.0000 2000.0000 1.0000 2000.0000 0.0000 2000.0000" "noloop 0.0000 0.0000" 0. fw;
 
-
 ## Local
-The Local folder should contain resources that you don't wish to share with other participants via Github. Create a .gitignore file with the line Local/* and put this file top level in your project folder. See also: https://git-scm.com/docs/gitignore and the section below on sharing resources.
+The Local folder should contain resources that you don't wish to share with other participants via Github. Create a .gitignore file with the line Local/* and put this file at top-level in your project folder. See also: https://git-scm.com/docs/gitignore and the section below on sharing resources.
 
 ## Maps
 This folder contains the Mapper files instructing the Quintet.net Mapper (part of the Client and Viewer components) how to map an input stream to an output stream. The Mapper possesses a number of methods which are detailed in the section on Using the Mapper.
 
 ## Processes
-The Processes folder holds Max patches which operates on events rather than sound or controller data. There are currently three pre-defined processes (DJster, harmonizer and transformation). Processes are listed in the process menu on the Cient's left-hand side. Any number of presets can be created for each process and selected from the menu right next to it.
-We are now going to create a process that creates a mirror image of the incoming stream of events. The symmetry axis will be set by predefined presets. 
+The Processes folder holds Max patches which operates on events rather than audio signals or controller data. There are currently three pre-defined processes (DJster, harmonizer and transformation). Processes are listed in the process menu on the Cient's left-hand side. Any number of presets can be created for each process and selected from the menu right next to it.
 
 ## Resources
 Put all supporting Max patches which don't fall in any other category in here.
@@ -85,10 +84,16 @@ Put all supporting Max patches which don't fall in any other category in here.
 Audio samples in any format supported by the Max buffer~ object should go in this folder. You may also use sub folders to organize the samples according to user or sound category.
 
 ## Tunings
+Tunings are maps mapping MIDI key numbers to MIDI cents. The file contained in the Tutorial/Tunings folder adds a tuning with 22 shrutis to the Quintet.net default set of tunings. You will find an example as to how to create a tuning. All tunings should map MIDI key 60 to 6000 MIDI cents. 
 
 ## Viewer
+This folder is where project-specific vgen and vfx patches should go. These patches are video generators and effect processors created for the Viewer which loads these modules dynamically. Adhere to the foo.vgen.maxpat or foo.vfx.maxpat syntax to ensure that files go to the correct destinations. The Viewer folder should  also hold the optional preset file foo.viewer.json, a file holding Viewer presets. 
 
+### vgens
+Video generators are Max Jitter patches with a brown background. They can be called by selecting  
 
+### vfx
+Video effects are Max Jitter patches with either green or blue backgrounds depending on whether they perform matrix or texture processing.
 
 # Using the Mapper
 

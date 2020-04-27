@@ -1,8 +1,8 @@
 # Tutorial
-
 This tutorial document gives an introduction to the creation of a Quintet.net piece and its preparation for rehearsals and concerts.
 We will refer to the project called Tutorial found in Quintet.net/patchers/Projects. Bear in mind that every project needs to reside in this folder and needs to have a particular folder structure which you can generate in the Client by clicking on "Create Local Project..." in the Client Project preferences pane. This structure needs to be adhered to so that your files will be properly loaded when you open your project.
 
+![Tutorial Folder](https://github.com/HfMT-ZM4/Quintet.net/blob/master/media/Resources/Tutorial-Folder.png)
 
 A typical Project folder thus contains the following sub folder:
 
@@ -16,7 +16,6 @@ A typical Project folder thus contains the following sub folder:
  1. Processes
  1. Resources
  1. Samples
- 1. Scores
  1. Tunings
  1. Viewer
 
@@ -24,7 +23,8 @@ A typical Project folder thus contains the following sub folder:
 The only file residing at top-level can be a _bank_ file, used by the Quintet.net Sampler. It contains a reference to instruments. The bank will be loaded automatically once a project has been chosen, but can also be opened and edited manually in the Quintet.net Sampler Preferences. The tutorial comes with a bank called Tutorial.bank.txt consisting of a number of old synth sounds, among others. 
 
 ## Audio-Extentions
-While Quintet.net also supports VST plugins for audio processing and sound generation, Audio-Extension offer a very simple means to extend Quintet.net simply by adding Max patches to this particular folder. In the Client there are two slots for each player, for a total of 10 (see the Plugins preferences pane) These patches can also both be used for processing and generation. We will show you how.
+![Audio-Extentions](https://github.com/HfMT-ZM4/Quintet.net/blob/master/media/Resources/Audio-Extentions.png)
+While Quintet.net also supports VST plugins for audio processing and sound generation, Audio-Extension offer a very simple means to extend Quintet.net simply by adding Max patches to this particular folder. In the Client there are two slots for each player, for a total of 10 (see the Plugins preferences pane) These patches can also both be used for processing and generation.
 
 ### Sound processing
 The Tutorial/Audio-Extension folder contains two patches which are quite simple in nature. All you need is two inlets for each of the two stereo channels as well as the same number of outlets for further processing (reverb, spatialization and limiting). In your patcher, you create audio processes by using MSP signal objects for each channel, add Max GUI objects (such as a number box) for the parameters you wish to control locally or remotely and expose them to the Quintet.net _pattr_ system by means of an autopattr object. 
@@ -42,7 +42,8 @@ Clips contain the movie clips to be used by the Viewer in a particular project. 
 <!--- [this needs to be implmented] --->
 
 ## Conductor
-This folder contains the control panel will be shown on the bottom of the Conductor when a project is loaded. The control panel is use for the following functions:
+![Control Panel in Patcher View](https://github.com/HfMT-ZM4/Quintet.net/blob/master/media/Resources/Tutorial-ControlPanel-Patcher.png)
+This folder contains the MaxScore xml file and the control panel which will be shown on the bottom of the Conductor when a project loads. The control panel is used for the following functions:
 - Start and stop timer
 - Initialize the settings for a particular piece
 - Communicate and coordinate with the participants during a concert and rehearsals
@@ -52,6 +53,8 @@ This folder contains the control panel will be shown on the bottom of the Conduc
 - Scroll the score or portions of it
 - Control the movement of cursors
 - Draw shapes to the Clients
+
+![Control Panel in Presentation View](https://github.com/HfMT-ZM4/Quintet.net/blob/master/media/Resources/Tutorial-ControlPanel-Presentation.png)
 
 ## Inputs
 Inputs are Max patches sending input received from the Quintet.net periphery to either the Server from where the events are are distributed to the other participants or to the Mapper (see below) where they are mapped onto a Quintet.net parameter for further distribution.

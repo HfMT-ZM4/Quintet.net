@@ -8601,7 +8601,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::path @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u202014878"
+									"varname" : "u870008851"
 								}
 
 							}
@@ -9230,6 +9230,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -9810,7 +9811,7 @@
 , 							{
 								"box" : 								{
 									"coll_data" : 									{
-										"count" : 13,
+										"count" : 12,
 										"data" : [ 											{
 												"key" : 1,
 												"value" : [ "Instruments" ]
@@ -9837,7 +9838,7 @@
 											}
 , 											{
 												"key" : 7,
-												"value" : [ "vgens+vfx" ]
+												"value" : [ "Viewer" ]
 											}
 , 											{
 												"key" : 8,
@@ -9853,14 +9854,10 @@
 											}
 , 											{
 												"key" : 11,
-												"value" : [ "Scores" ]
-											}
-, 											{
-												"key" : 12,
 												"value" : [ "Conductor" ]
 											}
 , 											{
-												"key" : 13,
+												"key" : 12,
 												"value" : [ "Local" ]
 											}
  ]
@@ -10667,14 +10664,14 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 215.0, 389.5, 404.0, 22.0 ],
-					"restore" : [ "localhost" ],
+					"restore" : [ "autoconnect" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
 					"text" : "pattr @bindto parent::parent::Register::serverIP::info @invisible 1 @thru 0",
-					"varname" : "u285014888"
+					"varname" : "u430008868"
 				}
 
 			}

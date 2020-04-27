@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 345.0, 260.0, 1074.0, 677.0 ],
+		"rect" : [ 259.0, 210.0, 1074.0, 677.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -58,7 +58,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 139.75, 486.0, 144.0, 22.0 ],
+					"patching_rect" : [ 139.75, 486.0, 169.0, 22.0 ],
 					"text" : "s #1-connection-status"
 				}
 
@@ -117,7 +117,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 394.0, 169.0, 573.0, 321.0 ],
+						"rect" : [ 394.0, 169.0, 456.0, 372.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -147,11 +147,35 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "int", "bang", "int" ],
+									"patching_rect" : [ 50.0, 84.0, 42.0, 22.0 ],
+									"text" : "t 0 b 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 108.0, 244.0, 32.0, 22.0 ],
+									"text" : "gate"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-19",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 148.0, 216.0, 153.0, 22.0 ],
+									"patching_rect" : [ 151.5, 244.0, 153.0, 22.0 ],
 									"text" : "print \"resolved IP address:\""
 								}
 
@@ -165,7 +189,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 84.5, 167.0, 71.0, 22.0 ],
+									"patching_rect" : [ 121.0, 180.0, 71.0, 22.0 ],
 									"text" : "mxj net.ip"
 								}
 
@@ -189,7 +213,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 50.0, 133.0, 88.0, 22.0 ],
+									"patching_rect" : [ 61.5, 146.0, 138.0, 22.0 ],
 									"text" : "route port host"
 								}
 
@@ -202,21 +226,21 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 84.5, 203.0, 30.0, 30.0 ]
+									"patching_rect" : [ 108.0, 290.0, 30.0, 30.0 ]
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"fontface" : 0,
-									"fontname" : "Verdana",
-									"fontsize" : 10.0,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-90",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 93.0, 343.0, 21.0 ],
+									"patching_rect" : [ 61.5, 115.0, 365.0, 22.0 ],
 									"text" : "zero.resolve @name Quintet.net @type _osc._udp @domain local."
 								}
 
@@ -242,7 +266,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 203.0, 30.0, 30.0 ]
+									"patching_rect" : [ 61.5, 290.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -270,14 +294,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-1", 0 ],
-									"order" : 1,
-									"source" : [ "obj-29", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-19", 0 ],
 									"order" : 0,
 									"source" : [ "obj-29", 0 ]
@@ -286,7 +302,43 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-3", 1 ],
+									"order" : 1,
+									"source" : [ "obj-29", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-4", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-90", 0 ],
+									"source" : [ "obj-4", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
 									"source" : [ "obj-6", 0 ]
 								}
 
@@ -1309,7 +1361,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 559.0, 214.0, 202.0, 22.0 ],
-					"restore" : [ 1 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1376,14 +1428,14 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 819.000000000000114, 165.0, 217.0, 22.0 ],
-					"restore" : [ "Player", 1 ],
+					"restore" : [ "Conductor" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
 					"text" : "pattr @bindto Identity::info @invisible 1",
-					"varname" : "u232008541"
+					"varname" : "u522005665"
 				}
 
 			}
@@ -1402,7 +1454,7 @@
 					}
 ,
 					"text" : "pattr @bindto Location @invisible 1",
-					"varname" : "u213008543"
+					"varname" : "u021005667"
 				}
 
 			}
@@ -1421,7 +1473,7 @@
 					}
 ,
 					"text" : "pattr @bindto Name @invisible 1",
-					"varname" : "u253008545"
+					"varname" : "u232005669"
 				}
 
 			}
@@ -1433,14 +1485,14 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 182.5, 313.0, 309.0, 22.0 ],
-					"restore" : [ "autoconnect" ],
+					"restore" : [ "localhost" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
 					"text" : "pattr @bindto serverIP::info @invisible 1 @autorestore 0",
-					"varname" : "u564008547"
+					"varname" : "u840005671"
 				}
 
 			}
@@ -3002,7 +3054,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 34.5, 21.0, 70.0, 22.0 ],
 					"text" : "autopattr",
-					"varname" : "u523013715"
+					"varname" : "u508006331"
 				}
 
 			}
@@ -3041,11 +3093,11 @@
 					"presentation_rect" : [ 584.5, 6.0, 40.0, 40.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "live.text[2]",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2,
 							"parameter_longname" : "live.text[16]",
-							"parameter_mmax" : 1
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "live.text[2]"
 						}
 
 					}

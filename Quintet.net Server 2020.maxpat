@@ -451,12 +451,12 @@
 					"presentation_rect" : [ 298.5, 19.0, 141.0, 38.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_enum" : [ "", " Server Running" ],
+							"parameter_type" : 2,
 							"parameter_longname" : "live.text",
 							"parameter_invisible" : 2,
 							"parameter_mmax" : 1,
-							"parameter_shortname" : "live.text",
-							"parameter_enum" : [ "", " Server Running" ],
-							"parameter_type" : 2
+							"parameter_shortname" : "live.text"
 						}
 
 					}
@@ -1007,12 +1007,6 @@
  ],
 										"styles" : [ 											{
 												"name" : "black on white",
-												"number" : 												{
-													"fontsize" : [ 12.0 ],
-													"fontname" : [ "Arial" ],
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
-												}
-,
 												"umenu" : 												{
 													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 													"bgfillcolor" : 													{
@@ -1027,14 +1021,20 @@
 
 												}
 ,
+												"number" : 												{
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+													"fontsize" : [ 12.0 ],
+													"fontname" : [ "Arial" ]
+												}
+,
 												"parentstyle" : "",
 												"multi" : 0
 											}
 , 											{
 												"name" : "caption text",
 												"default" : 												{
-													"fontsize" : [ 11.0 ],
-													"fontface" : [ 2 ]
+													"fontface" : [ 2 ],
+													"fontsize" : [ 11.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -1043,9 +1043,9 @@
 , 											{
 												"name" : "section dividers",
 												"default" : 												{
+													"fontface" : [ 3 ],
 													"fontsize" : [ 15.0 ],
-													"fontname" : [ "Arial" ],
-													"fontface" : [ 3 ]
+													"fontname" : [ "Arial" ]
 												}
 ,
 												"parentstyle" : "",
@@ -1064,9 +1064,9 @@
 , 											{
 												"name" : "titles",
 												"default" : 												{
+													"fontface" : [ 1 ],
 													"fontsize" : [ 20.0 ],
-													"fontname" : [ "Arial" ],
-													"fontface" : [ 1 ]
+													"fontname" : [ "Arial" ]
 												}
 ,
 												"parentstyle" : "",
@@ -1477,7 +1477,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::myIP::info @invisible 1 @autorestore 0",
-									"varname" : "u935038978"
+									"varname" : "u579000675"
 								}
 
 							}
@@ -1501,7 +1501,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 720.504854142665863, 196.470873773097992, 96.0, 22.0 ],
-									"text" : "475861684 0"
+									"text" : "1029135581 0"
 								}
 
 							}
@@ -1537,14 +1537,14 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 267.00485414266592, 7.970873773097992, 340.0, 22.0 ],
-									"restore" : [ 0.0 ],
+									"restore" : [ 1.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
 									"text" : "pattr @bindto parent::StartServer @invisible 1 @autorestore 0",
-									"varname" : "u066038980"
+									"varname" : "u235000677"
 								}
 
 							}
@@ -2379,7 +2379,7 @@
 , 							{
 								"box" : 								{
 									"border" : 0,
-									"cols" : 1,
+									"cols" : 3,
 									"colwidth" : 85,
 									"fontface" : 0,
 									"fontname" : "Arial",
@@ -19976,12 +19976,6 @@
  ],
 						"styles" : [ 							{
 								"name" : "black on white",
-								"number" : 								{
-									"fontsize" : [ 12.0 ],
-									"fontname" : [ "Arial" ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
-								}
-,
 								"umenu" : 								{
 									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"bgfillcolor" : 									{
@@ -19996,14 +19990,20 @@
 
 								}
 ,
+								"number" : 								{
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+									"fontsize" : [ 12.0 ],
+									"fontname" : [ "Arial" ]
+								}
+,
 								"parentstyle" : "",
 								"multi" : 0
 							}
 , 							{
 								"name" : "caption text",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
-									"fontface" : [ 2 ]
+									"fontface" : [ 2 ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -20012,9 +20012,9 @@
 , 							{
 								"name" : "section dividers",
 								"default" : 								{
+									"fontface" : [ 3 ],
 									"fontsize" : [ 15.0 ],
-									"fontname" : [ "Arial" ],
-									"fontface" : [ 3 ]
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -20033,9 +20033,9 @@
 , 							{
 								"name" : "titles",
 								"default" : 								{
+									"fontface" : [ 1 ],
 									"fontsize" : [ 20.0 ],
-									"fontname" : [ "Arial" ],
-									"fontface" : [ 1 ]
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -20129,7 +20129,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u396039197"
+					"varname" : "u409000895"
 				}
 
 			}
@@ -20181,12 +20181,12 @@
 					"presentation_rect" : [ 13.0, 363.5, 124.0, 26.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_type" : 2,
 							"parameter_longname" : "live.text[1]",
 							"parameter_invisible" : 2,
 							"parameter_mmax" : 1,
-							"parameter_shortname" : "live.text[1]",
-							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_type" : 2
+							"parameter_shortname" : "live.text[1]"
 						}
 
 					}
@@ -23416,10 +23416,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 12.5, 554.5, 94.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 90, 183, 834, 974 ],
+						"client_rect" : [ 814, 139, 1423, 455 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 408, 213, 1176, 1029 ]
+						"storage_rect" : [ 780, 524, 1380, 824 ]
 					}
 ,
 					"text" : "pattrstorage server",
@@ -23980,8 +23980,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-13" : [ "live.text[1]", "live.text[1]", 0 ],
 			"obj-34" : [ "live.text", "live.text", 0 ],
+			"obj-13" : [ "live.text[1]", "live.text[1]", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -23999,13 +23999,6 @@
 				"name" : "maxfolder.js",
 				"bootpath" : "/Users/Shared/Max 7/Packages/PatMap/javascript",
 				"patcherrelativepath" : "../PatMap/javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "participants.txt",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net",
-				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -24111,14 +24104,9 @@
 				"type" : "iLaX"
 			}
  ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "black on white",
-				"number" : 				{
-					"fontsize" : [ 12.0 ],
-					"fontname" : [ "Arial" ],
-					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
-				}
-,
 				"umenu" : 				{
 					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"bgfillcolor" : 					{
@@ -24133,14 +24121,20 @@
 
 				}
 ,
+				"number" : 				{
+					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"fontsize" : [ 12.0 ],
+					"fontname" : [ "Arial" ]
+				}
+,
 				"parentstyle" : "",
 				"multi" : 0
 			}
 , 			{
 				"name" : "caption text",
 				"default" : 				{
-					"fontsize" : [ 11.0 ],
-					"fontface" : [ 2 ]
+					"fontface" : [ 2 ],
+					"fontsize" : [ 11.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -24149,9 +24143,9 @@
 , 			{
 				"name" : "section dividers",
 				"default" : 				{
+					"fontface" : [ 3 ],
 					"fontsize" : [ 15.0 ],
-					"fontname" : [ "Arial" ],
-					"fontface" : [ 3 ]
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
@@ -24170,9 +24164,9 @@
 , 			{
 				"name" : "titles",
 				"default" : 				{
+					"fontface" : [ 1 ],
 					"fontsize" : [ 20.0 ],
-					"fontname" : [ "Arial" ],
-					"fontface" : [ 1 ]
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",

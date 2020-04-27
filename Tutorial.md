@@ -23,7 +23,7 @@ A typical Project folder thus contains the following sub folder:
 The only file residing at top-level can be a _bank_ file, used by the Quintet.net Sampler. It contains a reference to instruments. The bank will be loaded automatically once a project has been chosen, but can also be opened and edited manually in the Quintet.net Sampler Preferences. The tutorial comes with a bank called Tutorial.bank.txt consisting of a number of old synth sounds, among others. 
 
 ## Audio-Extentions
-![Audio-Extentions](https://github.com/HfMT-ZM4/Quintet.net/blob/master/media/Resources/Audio-Extentions.png)
+![Audio-Extention](https://github.com/HfMT-ZM4/Quintet.net/blob/master/media/Resources/Audio-Extention.png)
 While Quintet.net also supports VST plugins for audio processing and sound generation, Audio-Extension offer a very simple means to extend Quintet.net simply by adding Max patches to this particular folder. In the Client there are two slots for each player, for a total of 10 (see the Plugins preferences pane) These patches can also both be used for processing and generation.
 
 ### Sound processing

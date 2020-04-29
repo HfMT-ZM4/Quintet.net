@@ -6,5 +6,5 @@ participants.txt
 COMBFILTER.json
 patchers/Projects/*
 !patchers/Projects/Five
-!patchers/Projects/Template
+!patchers/Projects/Tutorial
 !patchers/Projects/EffectsEngine

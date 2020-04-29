@@ -1,0 +1,69 @@
+{
+	"init" : 	{
+		"/marker" : "Section1",
+		"/!target/0.0.0.0/player.2||resolution" : [ 480, 360 ],
+		"/!target/0.0.0.0/mix||time" : 0.0,
+		"/!target/0.0.0.0/player.1||resolution" : [ 480, 360 ],
+		"/client/panel.5||instrument" : [ "*", "Bell1.instr" ],
+		"/!target/0.0.0.0/player.1||loop" : 1,
+		"/client/panel.2||instrument" : [ "*", "Bell2.instr" ],
+		"/client/panel.4||instrument" : [ "*", "Kalimbell.instr" ],
+		"/client/panel.3||processPreset" : "-",
+		"/client/panel.3||instrument" : [ "*", "Stopped_Piano.instr" ],
+		"/client/panel.5||processPreset" : "-",
+		"/client/panel.2||processPreset" : "-",
+		"/client/panel.4||processPreset" : "-",
+		"/client/panel.1||processPreset" : "-",
+		"/client/panel.1||instrument" : [ "*", "Celeste.instr" ],
+		"/client/panel.3||displayMode" : "events&parts",
+		"/client/panel.3||displayStaves" : "Treble",
+		"/!target/0.0.0.0/viewer/player.1||clip" : "Five1.tif",
+		"/client/panel.4||displayMode" : "events&parts",
+		"/client/panel.5||displayMode" : "events&parts",
+		"/client/panel.4||displayStaves" : "Treble",
+		"/client/panel.5||displayStaves" : "Treble",
+		"/client/panel.2||displayMode" : "events&parts",
+		"/client/panel.1||displayMode" : "events&parts",
+		"/client/panel.1||displayStaves" : "Treble",
+		"/client/panel.2||displayStaves" : "Treble"
+	}
+,
+	"-1000" : 	{
+		"/maxscore/message/render" : 0,
+		"/command" : "start - page 1"
+	}
+,
+	"60000" : 	{
+		"/!target/0.0.0.0/player.2||clip" : "Five2.tif",
+		"/!target/0.0.0.0/player.2||loop" : 1,
+		"/!target/0.0.0.0/mix||time" : 25000.0,
+		"/!target/0.0.0.0/player.2||play" : 1
+	}
+,
+	"134000" : 	{
+		"/marker" : "Section2",
+		"/maxscore/message/render" : 2,
+		"/command" : "page 2",
+		"/!target/0.0.0.0/player.1||clip" : "Five3.tif",
+		"/!target/0.0.0.0/mix||time" : 1000.0
+	}
+,
+	"164000" : 	{
+		"/marker" : "Section3",
+		"//!target/0.0.0.0/player.2||clip" : "Five4.tif",
+		"/!target/0.0.0.0/mix||time" : 1000.0,
+		"/maxscore/message/render" : 3,
+		"/command" : "page 3"
+	}
+,
+	"225000" : 	{
+		"/!target/0.0.0.0/player.1||clip" : "Five5.tif",
+		"/!target/0.0.0.0/mix||time" : 25000.0
+	}
+,
+	"2300000" : 	{
+		"/marker" : "End",
+		"/stopwatch" : 0
+	}
+
+}

@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<pattrstorage name = "Viewer">
+	<slot number = "1">
+		<pattr name = "render" value = "1" />
+		<patcher name = "1_1dot_screen">
+			<pattr name = "angle" value = "0.2" />
+			<pattr name = "center_x" value = "150." />
+			<pattr name = "center_y" value = "150." />
+			<pattr name = "sharpness" value = "0.7" />
+			<pattr name = "width" value = "6." />
+		</patcher>
+		<patcher name = "2painter">
+			<pattr name = "coords_x" value = "169.1" />
+			<pattr name = "coords_y" value = "94.433937" />
+			<pattr name = "pressure" value = "0." />
+			<pattr name = "button" value = "0." />
+			<patcher name = "painter-window">
+				<pattr name = "draw" value = "/painter/clear 255 255 255 255" />
+				<pattr name = "clear" value = "1." />
+				<pattr name = "erase" value = "0." />
+				<pattr name = "mode" value = "0." />
+				<pattr name = "size" value = "10" />
+				<pattr name = "pict" value = "template Attributes.png" />
+				<patcher name = "brgb">
+					<pattr name = "set" value = "1. 1. 1. 1." />
+				</patcher>
+				<patcher name = "frgb">
+					<pattr name = "set" value = "0. 0. 0. 1." />
+				</patcher>
+			</patcher>
+		</patcher>
+		<patcher name = "4gradient">
+			<pattr name = "coeffs" value = "1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0." />
+			<patcher name = "start">
+				<pattr name = "swtch" value = "255 0 0" />
+			</patcher>
+			<patcher name = "end">
+				<pattr name = "swtch" value = "127 0 127" />
+			</patcher>
+		</patcher>
+		<patcher name = "5notation">
+		</patcher>
+		<patcher name = "2_1dot_screen">
+			<pattr name = "angle" value = "0.2" />
+			<pattr name = "center_x" value = "150." />
+			<pattr name = "center_y" value = "150." />
+			<pattr name = "sharpness" value = "0.7" />
+			<pattr name = "width" value = "6." />
+		</patcher>
+		<patcher name = "2_2tiffany">
+			<pattr name = "axes" value = "0.01 0.01 0.02 0.03 0.05 0.08 0.13 0.21 0.34 0.55 0.89" />
+			<pattr name = "gain[1]" value = "0.2" />
+			<pattr name = "grid" value = "1" />
+			<pattr name = "range_x" value = "0.2" />
+			<pattr name = "skip_x" value = "0" />
+			<pattr name = "skip_y" value = "0" />
+			<patcher name = "brgb">
+				<pattr name = "swtch" value = "0 0 0" />
+			</patcher>
+		</patcher>
+		<patcher name = "2_3rotation">
+			<pattr name = "anchor_x" value = "0.5" />
+			<pattr name = "anchor_y" value = "0.5" />
+			<pattr name = "boundmode" value = "2" />
+			<pattr name = "offset_x" value = "0." />
+			<pattr name = "offset_y" value = "0." />
+			<pattr name = "rotation" value = "0." />
+			<pattr name = "scale_x" value = "1." />
+			<pattr name = "scale_y" value = "1." />
+		</patcher>
+		<patcher name = "2_4kaleidoscope">
+			<pattr name = "division" value = "12." />
+			<pattr name = "offset_x" value = "0." />
+			<pattr name = "offset_y" value = "0." />
+			<pattr name = "origin_x" value = "0." />
+			<pattr name = "origin_y" value = "0." />
+			<pattr name = "scale_x" value = "1." />
+			<pattr name = "scale_y" value = "1." />
+		</patcher>
+		<patcher name = "2_5drift">
+			<pattr name = "config" value = "&quot;5&quot;" />
+			<pattr name = "control" value = "0." />
+			<pattr name = "erase" value = "1" />
+			<pattr name = "mode" value = "Normal" />
+			<pattr name = "range" value = "100" />
+			<pattr name = "reset" value = "0" />
+			<pattr name = "step" value = "5" />
+		</patcher>
+		<patcher name = "1_2tiffany">
+			<pattr name = "axes" value = "0.01 0.01 0.02 0.03 0.05 0.08 0.13 0.21 0.34 0.55 0.89" />
+			<pattr name = "gain[1]" value = "0.2" />
+			<pattr name = "grid" value = "1" />
+			<pattr name = "range_x" value = "0.2" />
+			<pattr name = "skip_x" value = "0" />
+			<pattr name = "skip_y" value = "0" />
+			<patcher name = "brgb">
+				<pattr name = "swtch" value = "0 0 0" />
+			</patcher>
+		</patcher>
+		<patcher name = "1_3rotation">
+			<pattr name = "anchor_x" value = "0.5" />
+			<pattr name = "anchor_y" value = "0.5" />
+			<pattr name = "boundmode" value = "2" />
+			<pattr name = "offset_x" value = "0." />
+			<pattr name = "offset_y" value = "0." />
+			<pattr name = "rotation" value = "0." />
+			<pattr name = "scale_x" value = "1." />
+			<pattr name = "scale_y" value = "1." />
+		</patcher>
+		<patcher name = "1_4kaleidoscope">
+			<pattr name = "division" value = "12." />
+			<pattr name = "offset_x" value = "0." />
+			<pattr name = "offset_y" value = "0." />
+			<pattr name = "origin_x" value = "0." />
+			<pattr name = "origin_y" value = "0." />
+			<pattr name = "scale_x" value = "1." />
+			<pattr name = "scale_y" value = "1." />
+		</patcher>
+		<patcher name = "1_5drift">
+			<pattr name = "config" value = "&quot;5&quot;" />
+			<pattr name = "control" value = "0." />
+			<pattr name = "erase" value = "1" />
+			<pattr name = "mode" value = "Normal" />
+			<pattr name = "range" value = "100" />
+			<pattr name = "reset" value = "0" />
+			<pattr name = "step" value = "5" />
+		</patcher>
+		<patcher name = "3configs">
+			<pattr name = "configs" value = "0 0 1 1 2 2 3 3 4 4 5 5 6 6 7 0 8 1" />
+			<pattr name = "fields_x" value = "3" />
+			<pattr name = "fields_y" value = "3" />
+			<pattr name = "random" value = "0" />
+		</patcher>
+		<patcher name = "1bpf">
+			<pattr name = "on" value = "0" />
+			<pattr name = "speed" value = "2.174611" />
+		</patcher>
+		<patcher name = "1camera">
+			<pattr name = "interp" value = "0" />
+		</patcher>
+		<patcher name = "2wacom">
+			<pattr name = "on" value = "0" />
+		</patcher>
+		<patcher name = "3lissajous">
+			<pattr name = "flonum" value = "79." />
+			<pattr name = "flonum[1]" value = "73." />
+			<pattr name = "numticks" value = "200" />
+			<pattr name = "tickduration" value = "10" />
+			<pattr name = "x_axismult" value = "1." />
+			<pattr name = "y_axismult" value = "1." />
+		</patcher>
+		<patcher name = "4midi">
+			<pattr name = "on" value = "0" />
+		</patcher>
+		<patcher name = "5audio">
+			<pattr name = "analyzer-matrix" value = "0 0 1 1 0 1 2 0 1 3 0 1 4 0 1 5 0 1 6 0 1 7 0 1" />
+			<pattr name = "attack" value = "0" />
+			<pattr name = "bark" value = "0" />
+			<pattr name = "bonk" value = "1" />
+			<pattr name = "brightness" value = "0" />
+			<pattr name = "events" value = "0" />
+			<pattr name = "frequency" value = "0" />
+			<pattr name = "gain" value = "0.05" />
+			<pattr name = "loudness" value = "0" />
+			<pattr name = "noisiness" value = "0" />
+		</patcher>
+		<patcher name = "curves">
+			<pattr name = "curve_1" value = "bpf" />
+			<pattr name = "curve_2" value = "wacom" />
+			<pattr name = "curve_3" value = "lissajous" />
+			<pattr name = "curve_4" value = "midi" />
+			<pattr name = "curve_5" value = "audio" />
+			<pattr name = "on.1" value = "0" />
+			<pattr name = "on.2" value = "0" />
+			<pattr name = "on.3" value = "0" />
+			<pattr name = "on.4" value = "0" />
+			<pattr name = "on.5" value = "0" />
+		</patcher>
+		<patcher name = "player.5">
+			<pattr name = "path" value = "&quot;Macintosh HD:/Applications/Max.app/Contents/Resources/C74/media/jitter&quot;" />
+			<pattr name = "autofirst" value = "0" />
+			<pattr name = "bgcolor" value = "144 144 144" />
+			<pattr name = "clip" value = "0" />
+			<pattr name = "count" value = "36" />
+			<pattr name = "loop" value = "0" />
+			<pattr name = "scale" value = "2" />
+			<pattr name = "volume" value = "1." />
+			<pattr name = "play" value = "1" />
+			<pattr name = "looppoints" value = "0. 1." />
+			<pattr name = "rate" value = "1." />
+		</patcher>
+		<patcher name = "player.4">
+			<pattr name = "path" value = "&quot;Macintosh HD:/Applications/Max.app/Contents/Resources/C74/media/jitter&quot;" />
+			<pattr name = "autofirst" value = "0" />
+			<pattr name = "bgcolor" value = "144 144 144" />
+			<pattr name = "clip" value = "0" />
+			<pattr name = "count" value = "36" />
+			<pattr name = "loop" value = "0" />
+			<pattr name = "scale" value = "2" />
+			<pattr name = "volume" value = "1." />
+			<pattr name = "play" value = "1" />
+			<pattr name = "looppoints" value = "0. 1." />
+			<pattr name = "rate" value = "1." />
+		</patcher>
+		<patcher name = "toolbar">
+			<patcher name = "metronome">
+				<pattr name = "beats" value = "4" />
+				<pattr name = "on/off" value = "0" />
+				<pattr name = "sound" value = "1" />
+				<pattr name = "tempo" value = "90" />
+				<pattr name = "volume" value = "0.85" />
+			</patcher>
+		</patcher>
+		<patcher name = "player.1">
+			<pattr name = "path" value = "&quot;Macintosh HD:/Applications/Max.app/Contents/Resources/C74/media/jitter&quot;" />
+			<pattr name = "autofirst" value = "0" />
+			<pattr name = "bgcolor" value = "144 144 144" />
+			<pattr name = "count" value = "36" />
+			<pattr name = "loop" value = "0" />
+			<pattr name = "rate" value = "1." />
+			<pattr name = "scale" value = "2" />
+			<pattr name = "volume" value = "1." />
+			<pattr name = "clip" value = "0" />
+			<pattr name = "play" value = "1" />
+			<pattr name = "looppoints" value = "0. 1." />
+		</patcher>
+		<patcher name = "presets">
+		</patcher>
+		<patcher name = "video">
+			<patcher name = "circles">
+				<pattr name = "size" value = "166." />
+			</patcher>
+			<patcher name = "chat">
+				<patcher name = "patcher">
+					<pattr name = "u868001621" value = "0" />
+				</patcher>
+			</patcher>
+			<patcher name = "fadeout">
+			</patcher>
+		</patcher>
+		<patcher name = "mix">
+			<pattr name = "time" value = "5000" />
+			<pattr name = "ChrKey" value = "0.2 0. 0. 0." />
+			<pattr name = "amount" value = "0" />
+			<pattr name = "blend" value = "16" />
+			<pattr name = "blend_enable" value = "0" />
+			<pattr name = "chat" value = "0 0" />
+			<pattr name = "color" value = "0 0 0" />
+			<pattr name = "mask" value = "0" />
+			<pattr name = "mode" value = "1" />
+			<pattr name = "target" value = "100" />
+			<pattr name = "timemode" value = "0" />
+			<pattr name = "transition" value = "2" />
+		</patcher>
+		<patcher name = "player.2">
+			<pattr name = "path" value = "&quot;Macintosh HD:/Applications/Max.app/Contents/Resources/C74/media/jitter&quot;" />
+			<pattr name = "autofirst" value = "0" />
+			<pattr name = "bgcolor" value = "144 144 144" />
+			<pattr name = "clip" value = "0" />
+			<pattr name = "count" value = "36" />
+			<pattr name = "loop" value = "0" />
+			<pattr name = "scale" value = "2" />
+			<pattr name = "volume" value = "1." />
+			<pattr name = "play" value = "1" />
+			<pattr name = "looppoints" value = "0. 1." />
+			<pattr name = "rate" value = "1." />
+		</patcher>
+		<patcher name = "player.3">
+			<pattr name = "path" value = "&quot;Macintosh HD:/Applications/Max.app/Contents/Resources/C74/media/jitter&quot;" />
+			<pattr name = "autofirst" value = "0" />
+			<pattr name = "bgcolor" value = "144 144 144" />
+			<pattr name = "clip" value = "0" />
+			<pattr name = "count" value = "36" />
+			<pattr name = "loop" value = "0" />
+			<pattr name = "scale" value = "2" />
+			<pattr name = "volume" value = "1." />
+			<pattr name = "play" value = "1" />
+			<pattr name = "looppoints" value = "0. 1." />
+			<pattr name = "rate" value = "1." />
+		</patcher>
+		<patcher name = "receiver">
+			<patcher name = "patcher">
+				<pattr name = "u290001055" value = "1. 0. 0. 1." />
+				<pattr name = "u331001053" value = "1. 0. 0. 1." />
+				<pattr name = "u574001051" value = "1. 0. 0. 1." />
+				<pattr name = "u835001049" value = "1. 0. 0. 1." />
+				<pattr name = "u925001047" value = "1. 0. 0. 1." />
+			</patcher>
+		</patcher>
+		<patcher name = "chain1">
+			<pattr name = "on.1" value = "0" />
+			<pattr name = "on.2" value = "0" />
+			<pattr name = "on.3" value = "0" />
+			<pattr name = "on.4" value = "0" />
+			<pattr name = "on.5" value = "0" />
+			<pattr name = "source" value = "9" />
+			<pattr name = "vxf_1" value = "dot_screen" />
+			<pattr name = "vxf_2" value = "tiffany" />
+			<pattr name = "vxf_3" value = "rotation" />
+			<pattr name = "vxf_4" value = "kaleidoscope" />
+			<pattr name = "vxf_5" value = "drift" />
+		</patcher>
+		<patcher name = "chain2">
+			<pattr name = "on.1" value = "0" />
+			<pattr name = "on.2" value = "0" />
+			<pattr name = "on.3" value = "0" />
+			<pattr name = "on.4" value = "0" />
+			<pattr name = "on.5" value = "0" />
+			<pattr name = "source" value = "0" />
+			<pattr name = "vxf_1" value = "dot_screen" />
+			<pattr name = "vxf_2" value = "tiffany" />
+			<pattr name = "vxf_3" value = "rotation" />
+			<pattr name = "vxf_4" value = "kaleidoscope" />
+			<pattr name = "vxf_5" value = "drift" />
+		</patcher>
+		<patcher name = "Preferences">
+			<patcher name = "Attributes">
+				<pattr name = "chat-box-offset" value = "0" />
+				<pattr name = "chatfont" value = "0" />
+				<pattr name = "chatfontsize" value = "12" />
+				<pattr name = "colormode" value = "0" />
+				<pattr name = "cornerpin" value = "0" />
+				<pattr name = "moviemenu" value = "0" />
+				<pattr name = "opacity" value = "0.8" />
+				<pattr name = "resolution" value = "&quot;720 540&quot;" />
+			</patcher>
+			<patcher name = "Mapper">
+				<pattr name = "enable" value = "1" />
+				<pattr name = "live.text" value = "0." />
+				<pattr name = "live.text[1]" value = "0." />
+				<pattr name = "mappers" value = "0" />
+				<pattr name = "source" value = "/client/stateCache 398.3ociT1ySCCCDFdl9qHxysQD+wBinhJKfPzrgPHSiSqgTmHamJUn7emzFQooMw2s568783mDceO5JRkznJhS1sSabda8ZkwShtIhXJMJx3SC3qMZyxGkqUGBjPSuKsahJa4BkycLhekst2DOYUNU6bJMcSjqK7J6wqXx6aqjN2j9PY9Jc9gK45dJlZkFWUoS60Mi3hPsiITHJ3KlBIMJnRnfJghQIzPJghQITLJgA8fYfNiApDFnRXXTBKjRXXTBCiR3PJgCpDNnR3fJgiQI7PJgiQIbLJQ.oDAnRDfJQ.pDAFkHBoDAFkHBqD0mMG+09MNEkKj+Uhba5yjSJSOqbbb7YkqJjaU19JxB2KKTu7v8xC0qHbuhP8lbZwWhHyTk1kjwQj6kejUShdsyhoLsae5GJyZ+Np1z7ikizWl4d4Fk6PpYMSJ6slCxy6F0oLYSUMgubEXaImWa9+cc4JNPdX34gMLOLT7jffmD77jLLOIn3QffGAddDCyi.EObD7vwyCeXd3A3YzOi9EjbFAHN" />
+				<patcher name = "output">
+					<pattr name = "info" value = "&lt;empty&gt;" />
+				</patcher>
+				<patcher name = "messagein">
+					<pattr name = "info" value = "&lt;empty&gt;" />
+				</patcher>
+				<patcher name = "input">
+					<pattr name = "file" value = "&quot;Macintosh HD:/Users/Shared/Max 7/Packages/Quintet.net/patchers/Projects/Swan Song/Maps/SwanSong.map.txt&quot;" />
+				</patcher>
+				<patcher name = "mapper.instances">
+					<patcher name = "nodes">
+						<patcher name = "nodespatcher">
+							<pattr name = "u127004596" value = "0.0885 0.0885 0.2 1 0.1667 0.1667 0.2 1 0.2434 0.2522 0.2 1" />
+						</patcher>
+					</patcher>
+				</patcher>
+				<patcher name = "mapper-inspectors">
+					<patcher name = "nodes">
+						<patcher name = "nodespatcher">
+							<pattr name = "u891004716" value = "0.0885 0.0885 0.2 1 0.1667 0.1667 0.2 1 0.2434 0.2522 0.2 1" />
+						</patcher>
+					</patcher>
+				</patcher>
+			</patcher>
+		</patcher>
+		<patcher name = "generators">
+			<pattr name = "on.1" value = "0" />
+			<pattr name = "on.2" value = "0" />
+			<pattr name = "on.3" value = "0" />
+			<pattr name = "on.4" value = "0" />
+			<pattr name = "on.5" value = "1" />
+			<pattr name = "vgen_1" value = "camera" />
+			<pattr name = "vgen_2" value = "painter" />
+			<pattr name = "vgen_3" value = "configs" />
+			<pattr name = "vgen_4" value = "gradient" />
+			<pattr name = "vgen_5" value = "notation" />
+		</patcher>
+		<patcher name = "V_record">
+			<pattr name = "codec" value = "6" />
+			<pattr name = "framerate" value = "25." />
+			<pattr name = "quality" value = "4" />
+			<pattr name = "realtime" value = "0" />
+			<pattr name = "timescale" value = "600" />
+		</patcher>
+		<patcher name = "paths">
+			<pattr name = "1path" value = "&lt;empty&gt;" />
+			<pattr name = "2path" value = "&lt;empty&gt;" />
+			<pattr name = "3path" value = "&lt;empty&gt;" />
+			<pattr name = "4path" value = "&lt;empty&gt;" />
+			<pattr name = "5path" value = "&lt;empty&gt;" />
+		</patcher>
+	</slot>
+</pattrstorage>
+

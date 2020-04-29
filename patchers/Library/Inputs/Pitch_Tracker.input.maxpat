@@ -99,8 +99,8 @@
 					"id" : "obj-102",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "float", "float", "" ],
 					"patching_rect" : [ 279.5, 145.0, 174.0, 21.0 ],
 					"text" : "sigmund~ @hop 4096 pitch env"
 				}
@@ -127,8 +127,8 @@
 					"id" : "obj-97",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "float", "float", "" ],
 					"patching_rect" : [ 210.5, 111.0, 247.0, 21.0 ],
 					"text" : "sigmund~ @hop 4096 @vibrato 0.3 notes env"
 				}
@@ -1534,20 +1534,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"id" : "obj-11",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 357.0, 310.0, 46.0, 20.0 ],
-					"text" : "lbyl 5. 4"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
 					"id" : "obj-12",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -1890,7 +1876,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 50.0, 192.5, 202.0, 22.0 ],
-									"restore" : [ 1 ],
+									"restore" : [ 3 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -2121,13 +2107,6 @@
 					"destination" : [ "obj-20", 1 ],
 					"midpoints" : [ 289.0, 212.0, 397.0, 212.0 ],
 					"source" : [ "obj-105", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-50", 1 ],
-					"source" : [ "obj-11", 0 ]
 				}
 
 			}
@@ -2368,15 +2347,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
-					"source" : [ "obj-52", 0 ]
+					"destination" : [ "obj-47", 0 ],
+					"source" : [ "obj-52", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-47", 0 ],
-					"source" : [ "obj-52", 1 ]
+					"destination" : [ "obj-50", 1 ],
+					"source" : [ "obj-52", 0 ]
 				}
 
 			}

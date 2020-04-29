@@ -2977,8 +2977,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 33.0, 664.0, 49.0, 20.0 ],
-					"text" : "prepend"
+					"patching_rect" : [ 33.0, 664.0, 54.0, 20.0 ],
+					"text" : "prepend 1"
 				}
 
 			}
@@ -2991,7 +2991,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 33.0, 689.0, 137.0, 20.0 ],
+					"patching_rect" : [ 33.0, 709.0, 137.0, 20.0 ],
 					"text" : "sprintf /leapmotion/%i/%s %f"
 				}
 
@@ -3118,7 +3118,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 50.0, 192.5, 202.0, 22.0 ],
-									"restore" : [ 1 ],
+									"restore" : [ 3 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0

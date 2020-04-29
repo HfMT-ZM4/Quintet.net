@@ -198,8 +198,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "none" ],
-					"patching_rect" : [ 340.0, 606.0, 42.0, 22.0 ],
+					"outlettype" : [ "/EE-Master1/fader11" ],
+					"patching_rect" : [ 340.0, 606.0, 125.0, 22.0 ],
 					"text" : "t #1"
 				}
 
@@ -257,9 +257,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "FullPacket" ],
-					"patching_rect" : [ 210.0, 92.0, 76.0, 22.0 ],
-					"text" : "o.route #8"
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 213.0, 96.0, 53.0, 22.0 ],
+					"text" : "route #8"
 				}
 
 			}
@@ -329,8 +329,8 @@
 					"maxclass" : "led",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"offcolor" : [ 0.0, 0.0, 0.5, 0.5 ],
-					"oncolor" : [ 0.0, 0.0, 1.0, 1.0 ],
+					"offcolor" : [ 0.0, 0.5, 0.0, 0.5 ],
+					"oncolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 303.0, 244.0, 20.0, 20.0 ],
@@ -392,11 +392,11 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 15.0, 188.0, 59.5, 22.0 ],
 					"restore" : 					{
-						"hslider" : [ 0 ]
+						"hslider" : [ 127 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u701015133"
+					"varname" : "u939027928"
 				}
 
 			}
@@ -533,7 +533,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 5,
-					"outlettype" : [ "float", "float", "int", "WaveShape::amount", "udp" ],
+					"outlettype" : [ "float", "float", "int", "master_gain", "udp" ],
 					"patching_rect" : [ 416.0, 483.0, 252.0, 22.0 ],
 					"text" : "t  #3 #4 #5 #6 #7"
 				}
@@ -1080,7 +1080,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 521.0, 64.0, 86.0, 22.0 ],
+					"patching_rect" : [ 521.0, 64.0, 94.0, 22.0 ],
 					"text" : "loadmess #2"
 				}
 
@@ -1109,7 +1109,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 409.0, 160.0, 25.0, 25.0 ]
 				}
 
@@ -1118,14 +1118,14 @@
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-3",
-					"knobcolor" : [ 0.0, 0.0, 1.0, 1.0 ],
+					"knobcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 160.0, 246.0, 109.0, 15.0 ],
-					"size" : 101.0,
+					"size" : 159.0,
 					"varname" : "hslider"
 				}
 
@@ -1154,7 +1154,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 110.0, 35.0, 118.0, 22.0 ],
+					"patching_rect" : [ 101.0, 21.0, 118.0, 22.0 ],
 					"text" : "r jk.udp-from-iphone"
 				}
 
@@ -1169,7 +1169,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 121.0, 352.0, 83.0, 22.0 ],
+					"patching_rect" : [ 121.0, 352.0, 166.0, 22.0 ],
 					"text" : "prepend #1"
 				}
 
@@ -1184,7 +1184,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "FullPacket" ],
-					"patching_rect" : [ 107.0, 62.0, 76.0, 22.0 ],
+					"patching_rect" : [ 98.0, 48.0, 159.0, 22.0 ],
 					"text" : "o.route #1"
 				}
 

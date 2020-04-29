@@ -28,7 +28,6 @@ While Quintet.net also supports VST plugins for audio processing and sound gener
 
 ### Sound processing
 The Tutorial/Audio-Extension folder contains two patches which are quite simple in nature. All you need is two inlets for each of the two stereo channels as well as the same number of outlets for further processing (reverb, spatialization and limiting). In your patcher, you create audio processes by using MSP signal objects for each channel, add Max GUI objects (such as a number box) for the parameters you wish to control locally or remotely and expose them to the Quintet.net _pattr_ system by means of an autopattr object. 
-The Cycle-combo~.ext.maxpat Audio-Extension demonstrates how it can be used as a GUI. It requires an open message to be sent to it. The complete message to be sent to this extension would look something like this in the Quintet.net Client pattr namespace: "synthesis::extensions::1_Cycle-combo~.ext.maxpat.1::message open", the 1_ after the second double-colon referring to the channel ID and the .1 before the last double-colon being an instance number for the poly~ object, which can be safely omitted.
 
 ### Sound generation
 In order for Quintet.net events to be passed to the sound generator you'd have to add a receive object with #1extention as an argument. The messages routed to this receive object are in this format:

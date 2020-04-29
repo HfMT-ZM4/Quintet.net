@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 415.0, 257.0, 1031.0, 696.0 ],
+		"rect" : [ 394.0, 165.0, 1031.0, 696.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -88,6 +88,7 @@
 								"box" : 								{
 									"bgcolor" : [ 0.301961, 0.301961, 0.301961, 1 ],
 									"bgcolor2" : [ 0.2, 0.2, 0.2, 1 ],
+									"bgfillcolor_autogradient" : 0.0,
 									"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 1 ],
 									"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1 ],
 									"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1 ],
@@ -147,7 +148,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 50.0, 192.5, 202.0, 22.0 ],
-									"restore" : [ 2 ],
+									"restore" : [ 3 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -294,7 +295,7 @@
 					}
 ,
 					"text" : "pattr @invisible 0 @bindto control-panel::shift-with-tab",
-					"varname" : "u264023753"
+					"varname" : "u534012433"
 				}
 
 			}
@@ -446,11 +447,11 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 764.25, 27.0, 59.5, 20.0 ],
 					"restore" : 					{
-						"volume" : [ 113 ]
+						"volume" : [ 100 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u314023806"
+					"varname" : "u505012487"
 				}
 
 			}
@@ -1926,7 +1927,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u837023804"
+									"varname" : "u765012484"
 								}
 
 							}
@@ -2199,8 +2200,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 309.0, 418.0, 57.0, 20.0 ],
-					"text" : "pak 0 64 1"
+					"patching_rect" : [ 309.0, 418.0, 55.0, 20.0 ],
+					"text" : "pak 0 64 0"
 				}
 
 			}
@@ -3920,7 +3921,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-29", 1 ],
-					"midpoints" : [ 520.5, 387.0, 337.5, 387.0 ],
+					"midpoints" : [ 520.5, 387.0, 336.5, 387.0 ],
 					"source" : [ "obj-43", 0 ]
 				}
 

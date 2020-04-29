@@ -117,7 +117,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 394.0, 169.0, 456.0, 372.0 ],
+						"rect" : [ 447.0, 284.0, 456.0, 372.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -147,13 +147,25 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-10",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "int", "" ],
+									"patching_rect" : [ 108.0, 249.0, 29.5, 22.0 ],
+									"text" : "t 0 l"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-4",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "int", "bang", "int" ],
-									"patching_rect" : [ 50.0, 84.0, 42.0, 22.0 ],
-									"text" : "t 0 b 1"
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "int" ],
+									"patching_rect" : [ 61.5, 82.0, 65.5, 22.0 ],
+									"text" : "t b 1"
 								}
 
 							}
@@ -164,7 +176,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 108.0, 244.0, 32.0, 22.0 ],
+									"patching_rect" : [ 108.0, 222.0, 32.0, 22.0 ],
 									"text" : "gate"
 								}
 
@@ -175,7 +187,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 151.5, 244.0, 153.0, 22.0 ],
+									"patching_rect" : [ 156.5, 295.0, 153.0, 22.0 ],
 									"text" : "print \"resolved IP address:\""
 								}
 
@@ -189,7 +201,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 121.0, 180.0, 71.0, 22.0 ],
+									"patching_rect" : [ 121.0, 181.0, 71.0, 22.0 ],
 									"text" : "mxj net.ip"
 								}
 
@@ -202,7 +214,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 50.0, 52.0, 24.0, 24.0 ]
+									"patching_rect" : [ 61.5, 52.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -226,7 +238,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 108.0, 290.0, 30.0, 30.0 ]
+									"patching_rect" : [ 118.5, 291.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -254,7 +266,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 12.0, 30.0, 30.0 ]
+									"patching_rect" : [ 61.5, 12.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -266,12 +278,36 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 61.5, 290.0, 30.0, 30.0 ]
+									"patching_rect" : [ 61.5, 291.0, 30.0, 30.0 ]
 								}
 
 							}
  ],
 						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"order" : 1,
+									"source" : [ "obj-10", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
+									"order" : 0,
+									"source" : [ "obj-10", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"midpoints" : [ 117.5, 281.0, 85.0, 281.0, 85.0, 216.0, 117.5, 216.0 ],
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-6", 0 ],
 									"source" : [ "obj-100", 0 ]
@@ -294,23 +330,14 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-19", 0 ],
-									"order" : 0,
-									"source" : [ "obj-29", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-3", 1 ],
-									"order" : 1,
 									"source" : [ "obj-29", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-1", 0 ],
+									"destination" : [ "obj-10", 0 ],
 									"source" : [ "obj-3", 0 ]
 								}
 
@@ -318,21 +345,14 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-3", 0 ],
-									"source" : [ "obj-4", 2 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-3", 0 ],
-									"source" : [ "obj-4", 0 ]
+									"source" : [ "obj-4", 1 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-90", 0 ],
-									"source" : [ "obj-4", 1 ]
+									"source" : [ "obj-4", 0 ]
 								}
 
 							}
@@ -1361,7 +1381,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 559.0, 214.0, 202.0, 22.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1428,14 +1448,14 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 819.000000000000114, 165.0, 217.0, 22.0 ],
-					"restore" : [ "Conductor" ],
+					"restore" : [ "Player", 1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
 					"text" : "pattr @bindto Identity::info @invisible 1",
-					"varname" : "u522005665"
+					"varname" : "u045010949"
 				}
 
 			}
@@ -1454,7 +1474,7 @@
 					}
 ,
 					"text" : "pattr @bindto Location @invisible 1",
-					"varname" : "u021005667"
+					"varname" : "u245010951"
 				}
 
 			}
@@ -1473,7 +1493,7 @@
 					}
 ,
 					"text" : "pattr @bindto Name @invisible 1",
-					"varname" : "u232005669"
+					"varname" : "u533010953"
 				}
 
 			}
@@ -1492,7 +1512,7 @@
 					}
 ,
 					"text" : "pattr @bindto serverIP::info @invisible 1 @autorestore 0",
-					"varname" : "u840005671"
+					"varname" : "u435010955"
 				}
 
 			}
@@ -3054,7 +3074,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 34.5, 21.0, 70.0, 22.0 ],
 					"text" : "autopattr",
-					"varname" : "u508006331"
+					"varname" : "u120016128"
 				}
 
 			}

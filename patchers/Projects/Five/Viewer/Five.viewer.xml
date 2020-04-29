@@ -2,7 +2,7 @@
 
 <pattrstorage name = "Viewer">
 	<slot number = "1">
-		<pattr name = "render" value = "0" />
+		<pattr name = "render" value = "1" />
 		<patcher name = "1_1dot_screen">
 			<pattr name = "angle" value = "0.2" />
 			<pattr name = "center_x" value = "150." />
@@ -181,12 +181,10 @@
 			<pattr name = "path" value = "&quot;Macintosh HD:/Applications/Max.app/Contents/Resources/C74/media/jitter&quot;" />
 			<pattr name = "autofirst" value = "0" />
 			<pattr name = "bgcolor" value = "144 144 144" />
-			<pattr name = "choice" value = "0" />
 			<pattr name = "clip" value = "0" />
 			<pattr name = "count" value = "36" />
 			<pattr name = "loop" value = "0" />
 			<pattr name = "scale" value = "2" />
-			<pattr name = "url" value = "rtsp://193.175.148.231/hamburg.sdp" />
 			<pattr name = "volume" value = "1." />
 			<pattr name = "play" value = "1" />
 			<pattr name = "looppoints" value = "0. 1." />
@@ -196,12 +194,10 @@
 			<pattr name = "path" value = "&quot;Macintosh HD:/Applications/Max.app/Contents/Resources/C74/media/jitter&quot;" />
 			<pattr name = "autofirst" value = "0" />
 			<pattr name = "bgcolor" value = "144 144 144" />
-			<pattr name = "choice" value = "0" />
 			<pattr name = "clip" value = "0" />
 			<pattr name = "count" value = "36" />
 			<pattr name = "loop" value = "0" />
 			<pattr name = "scale" value = "2" />
-			<pattr name = "url" value = "rtsp://193.175.148.231/hamburg.sdp" />
 			<pattr name = "volume" value = "1." />
 			<pattr name = "play" value = "1" />
 			<pattr name = "looppoints" value = "0. 1." />
@@ -220,12 +216,10 @@
 			<pattr name = "path" value = "&quot;Macintosh HD:/Applications/Max.app/Contents/Resources/C74/media/jitter&quot;" />
 			<pattr name = "autofirst" value = "0" />
 			<pattr name = "bgcolor" value = "144 144 144" />
-			<pattr name = "choice" value = "0" />
 			<pattr name = "count" value = "36" />
 			<pattr name = "loop" value = "0" />
 			<pattr name = "rate" value = "1." />
 			<pattr name = "scale" value = "2" />
-			<pattr name = "url" value = "rtsp://193.175.148.231/hamburg.sdp" />
 			<pattr name = "volume" value = "1." />
 			<pattr name = "clip" value = "0" />
 			<pattr name = "play" value = "1" />
@@ -239,7 +233,7 @@
 			</patcher>
 			<patcher name = "chat">
 				<patcher name = "patcher">
-					<pattr name = "u240029244" value = "0" />
+					<pattr name = "u868001621" value = "0" />
 				</patcher>
 			</patcher>
 			<patcher name = "fadeout">
@@ -248,7 +242,7 @@
 		<patcher name = "mix">
 			<pattr name = "time" value = "5000" />
 			<pattr name = "ChrKey" value = "0.2 0. 0. 0." />
-			<pattr name = "amount" value = "100" />
+			<pattr name = "amount" value = "0" />
 			<pattr name = "blend" value = "16" />
 			<pattr name = "blend_enable" value = "0" />
 			<pattr name = "chat" value = "0 0" />
@@ -263,12 +257,10 @@
 			<pattr name = "path" value = "&quot;Macintosh HD:/Applications/Max.app/Contents/Resources/C74/media/jitter&quot;" />
 			<pattr name = "autofirst" value = "0" />
 			<pattr name = "bgcolor" value = "144 144 144" />
-			<pattr name = "choice" value = "0" />
 			<pattr name = "clip" value = "0" />
 			<pattr name = "count" value = "36" />
 			<pattr name = "loop" value = "0" />
 			<pattr name = "scale" value = "2" />
-			<pattr name = "url" value = "rtsp://193.175.148.231/hamburg.sdp" />
 			<pattr name = "volume" value = "1." />
 			<pattr name = "play" value = "1" />
 			<pattr name = "looppoints" value = "0. 1." />
@@ -278,12 +270,10 @@
 			<pattr name = "path" value = "&quot;Macintosh HD:/Applications/Max.app/Contents/Resources/C74/media/jitter&quot;" />
 			<pattr name = "autofirst" value = "0" />
 			<pattr name = "bgcolor" value = "144 144 144" />
-			<pattr name = "choice" value = "0" />
 			<pattr name = "clip" value = "0" />
 			<pattr name = "count" value = "36" />
 			<pattr name = "loop" value = "0" />
 			<pattr name = "scale" value = "2" />
-			<pattr name = "url" value = "rtsp://193.175.148.231/hamburg.sdp" />
 			<pattr name = "volume" value = "1." />
 			<pattr name = "play" value = "1" />
 			<pattr name = "looppoints" value = "0. 1." />
@@ -291,11 +281,11 @@
 		</patcher>
 		<patcher name = "receiver">
 			<patcher name = "patcher">
-				<pattr name = "u295004739" value = "1. 0. 0. 1." />
-				<pattr name = "u127004743" value = "0.5 0.5 0.5 1" />
-				<pattr name = "u046004742" value = "0.5 0.5 0.5 1" />
-				<pattr name = "u094004747" value = "0.5 0.5 0.5 1" />
-				<pattr name = "u932004749" value = "0.5 0.5 0.5 1" />
+				<pattr name = "u290001055" value = "1. 0. 0. 1." />
+				<pattr name = "u331001053" value = "1. 0. 0. 1." />
+				<pattr name = "u574001051" value = "1. 0. 0. 1." />
+				<pattr name = "u835001049" value = "1. 0. 0. 1." />
+				<pattr name = "u925001047" value = "1. 0. 0. 1." />
 			</patcher>
 		</patcher>
 		<patcher name = "chain1">
@@ -333,7 +323,6 @@
 				<pattr name = "cornerpin" value = "0" />
 				<pattr name = "moviemenu" value = "0" />
 				<pattr name = "opacity" value = "0.8" />
-				<pattr name = "readmode" value = "0" />
 				<pattr name = "resolution" value = "&quot;720 540&quot;" />
 			</patcher>
 			<patcher name = "Mapper">
@@ -354,14 +343,14 @@
 				<patcher name = "mapper.instances">
 					<patcher name = "nodes">
 						<patcher name = "nodespatcher">
-							<pattr name = "u270012090" value = "0.0885 0.0885 0.2 1 0.1667 0.1667 0.2 1 0.2434 0.2522 0.2 1" />
+							<pattr name = "u127004596" value = "0.0885 0.0885 0.2 1 0.1667 0.1667 0.2 1 0.2434 0.2522 0.2 1" />
 						</patcher>
 					</patcher>
 				</patcher>
 				<patcher name = "mapper-inspectors">
 					<patcher name = "nodes">
 						<patcher name = "nodespatcher">
-							<pattr name = "u607011933" value = "0.0885 0.0885 0.2 1 0.1667 0.1667 0.2 1 0.2434 0.2522 0.2 1" />
+							<pattr name = "u891004716" value = "0.0885 0.0885 0.2 1 0.1667 0.1667 0.2 1 0.2434 0.2522 0.2 1" />
 						</patcher>
 					</patcher>
 				</patcher>

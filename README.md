@@ -7,6 +7,20 @@ _For me, the highlight was Georg Hajdu’s "Quintet.net: A Quintet on the Intern
 
 Ian Whalley, Computer Music Journal
 
+# Software Download
+
+## Quintet.net
+Download or clone the GitHub repo from https://github.com/HfMT-ZM4/Quintet.net/ to your Max 8/Packages folder (the Max 8 folder is typically located in ~/Documents).
+
+In addition, Quintet.net requires the following Max packages:
+
+## MaxScore
+MaxScore is the notation environment necessary to display scores and real-time notation
+Get from http://www.computermusicnotation.com/downloadmaxscore/
+
+## odot
+Download or clone the GitHub repo from https://github.com/HfMT-ZM4/CNMAT-odot.git/ to your Max 8/Packages folder
+
 # Intro
 Quintet.net is a network multimedia performance environment invented and developed by composer and computer musician Georg Hajdu. It enables performers at up to five locations to play music over the Internet or a local network under the control of a “conductor.” 
 Quintet.net uses a sampler or MIDI for instrumental playback. It also features granular synthesis as well as Downloadable Sounds and plug-ins for sound processing and playback, and has additional video and graphical properties, which permit better interaction and control on a symbolical level: The performers along with the audience see the music which the participants produce on screen in “space” notation on five staves. In addition video clips and/or live video can be displayed by the Viewer add-on and mixed with real-time music notation for an enhanced viewing experience. The Conductor can also read musical scores and send parts to the performers, which will be displayed along with the notes produced by the musicians.
@@ -41,20 +55,6 @@ An online server is accessible at 193.175.151.142
 # Support
 For help on how to use the software, please refer to the Quintet.net repository at http://www.quintet.net.
 Questions can be directed to georg.hajdu@hfmt-hamburg.de.
-
-# Software Download
-
-## Quintet.net
-Download or clone the GitHub repo from https://github.com/HfMT-ZM4/Quintet.net/ to your Max 8/Packages folder (the Max 8 folder is typically located in ~/Documents).
-
-In addition, Quintet.net requires the following Max packages:
-
-## MaxScore
-MaxScore is the notation environment necessary to display scores and real-time notation
-Get from http://www.computermusicnotation.com/downloadmaxscore/
-
-## odot
-Download or clone the GitHub repo from https://github.com/HfMT-ZM4/CNMAT-odot.git/ to your Max 8/Packages folder
 
 # Manual
 ## Composing for Quintet.net

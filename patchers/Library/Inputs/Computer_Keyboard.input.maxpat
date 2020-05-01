@@ -447,7 +447,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 764.25, 27.0, 59.5, 20.0 ],
 					"restore" : 					{
-						"volume" : [ 100 ]
+						"volume" : [ 26 ]
 					}
 ,
 					"text" : "autopattr",
@@ -2236,7 +2236,7 @@
 , 			{
 				"box" : 				{
 					"coll_data" : 					{
-						"count" : 145,
+						"count" : 146,
 						"data" : [ 							{
 								"key" : 32,
 								"value" : [ 47 ]
@@ -2816,6 +2816,10 @@
 , 							{
 								"key" : 61,
 								"value" : [ 83 ]
+							}
+, 							{
+								"key" : 127,
+								"value" : [ 84 ]
 							}
  ]
 					}
@@ -2840,7 +2844,7 @@
 , 			{
 				"box" : 				{
 					"coll_data" : 					{
-						"count" : 145,
+						"count" : 146,
 						"data" : [ 							{
 								"key" : 32,
 								"value" : [ 47 ]
@@ -3420,6 +3424,10 @@
 , 							{
 								"key" : 61,
 								"value" : [ 83 ]
+							}
+, 							{
+								"key" : 127,
+								"value" : [ 84 ]
 							}
  ]
 					}

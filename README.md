@@ -22,7 +22,7 @@ Get from http://www.computermusicnotation.com/downloadmaxscore/.
 Download or clone the GitHub repo from https://github.com/HfMT-ZM4/CNMAT-odot.git/ to your Max 8/Packages folder
 
 ## Java
-Quintet.net and MaxScore also require the installation of the Java SDK which you can find [here](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html).
+Quintet.net and MaxScore also require the installation of the Java SDK which you can find [here](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html) for your operation system.
 
 # Intro
 Quintet.net is a network multimedia performance environment invented and developed by composer and computer musician Georg Hajdu. It enables performers at up to five locations to play music over the Internet or a local network under the control of a “conductor.” 

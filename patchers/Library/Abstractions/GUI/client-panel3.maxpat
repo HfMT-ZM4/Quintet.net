@@ -43,6 +43,21 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"hidden" : 1,
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 236.0, 114.0, 46.0, 20.0 ],
+					"text" : "deferlow"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
 					"id" : "obj-16",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -168,7 +183,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 178.0, 136.0, 59.0, 20.0 ],
+					"patching_rect" : [ 236.0, 162.0, 59.0, 20.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
@@ -217,7 +232,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 715.0, 79.0, 360.0, 357.0 ],
+						"rect" : [ 1093.0, 495.0, 360.0, 357.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -335,7 +350,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 51.0, 90.0, 53.0, 20.0 ],
+									"patching_rect" : [ 51.0, 79.0, 53.0, 20.0 ],
 									"text" : "pak s i"
 								}
 
@@ -362,7 +377,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 51.0, 112.0, 65.0, 20.0 ],
+									"patching_rect" : [ 51.0, 106.0, 65.0, 20.0 ],
 									"text" : "prepend #1"
 								}
 
@@ -654,7 +669,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 178.0, 92.0, 43.0, 20.0 ],
+					"patching_rect" : [ 236.0, 87.0, 43.0, 20.0 ],
 					"text" : "del 100"
 				}
 
@@ -669,7 +684,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 178.0, 70.0, 22.0, 20.0 ],
+					"patching_rect" : [ 236.0, 65.0, 22.0, 20.0 ],
 					"text" : "t b"
 				}
 
@@ -684,7 +699,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "select" ],
-					"patching_rect" : [ 178.0, 114.0, 42.0, 20.0 ],
+					"patching_rect" : [ 236.0, 140.0, 42.0, 20.0 ],
 					"text" : "t select"
 				}
 
@@ -752,7 +767,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 299.0, 31.0, 59.5, 20.0 ],
 					"restore" : 					{
-						"displayMode" : [ "events" ],
+						"displayMode" : [ "events&parts" ],
 						"displayStaves" : [ "Grand_Staff" ],
 						"filterName" : [ "-bypass-" ],
 						"filterTransposition" : [ 0 ],
@@ -767,7 +782,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u521014894"
+					"varname" : "u157018407"
 				}
 
 			}
@@ -970,7 +985,7 @@
 					"fontsize" : 10.0,
 					"hint" : "Instrument",
 					"id" : "obj-39",
-					"items" : [ "none", ",", "MIDI", ",", "Plugin", ",", "AudioExtension", ",", "Sampler:", ",", "*", "sine.instr" ],
+					"items" : [ "none", ",", "MIDI", ",", "Plugin", ",", "AudioExtension", ",", "Sampler:" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2001,14 +2016,14 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 77.5, 33.0, 409.0, 20.0 ],
-									"restore" : [ 1679 ],
+									"restore" : [ 4846 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
 									"text" : "pattr @bindto parent::parent::Preferences::Sampler::instance @invisible 1 @autorestore 0",
-									"varname" : "u081014583"
+									"varname" : "u841018114"
 								}
 
 							}
@@ -2351,8 +2366,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
-					"hidden" : 1,
+					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -2549,6 +2563,13 @@
 					"destination" : [ "obj-34", 1 ],
 					"midpoints" : [ 437.5, 346.0, 524.0, 346.0, 524.0, 282.0, 438.5, 282.0 ],
 					"source" : [ "obj-60", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}

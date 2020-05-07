@@ -5,27 +5,27 @@
 <ScoreAnnotation CLASSNAME="com.softsynth.jmsl.score.ScoreAnnotation" Annotation="179.3oc4OtiBCCCDDsV5THTsLXGmpbCRQ9AoKjBY6UAA5SPZUQv36dPVAcHhK22Ny.uYJgGQoR0zxYGXjYJ4GvncPLy56DYnAldAgJs.i3GCjO42Rx.BA1cuC3h5JuB9z6bfGrVAqk8b8kbXHbzEwvYosTmU5X0iAuUt1faO03pqMZ.0JcBTxjAKTcdjjEbXdoq9nF0d2EkJBXNcKkrPEUG61.NtaC3X+Fvw8+sNRWneAj4r7.I" >
 </ScoreAnnotation>
 <orchestra CLASSNAME="com.softsynth.jmsl.score.Orchestra" >
-<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="0" EditEnabled="true" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" Name="MaxScoreIns-0" >
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" EditEnabled="true" InsIndex="0" Transposition="0.0" MixerClassName="com.softsynth.jmsl.NullMixer" Name="MaxScoreIns-0" >
 <dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
 <dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
 <dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
 </jmslscoreinstrument>
-<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="1" EditEnabled="true" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" Name="MaxScoreIns-1" >
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" EditEnabled="true" InsIndex="1" Transposition="0.0" MixerClassName="com.softsynth.jmsl.NullMixer" Name="MaxScoreIns-1" >
 <dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
 <dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
 <dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
 </jmslscoreinstrument>
-<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="2" EditEnabled="true" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" Name="MaxScoreIns-2" >
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" EditEnabled="true" InsIndex="2" Transposition="0.0" MixerClassName="com.softsynth.jmsl.NullMixer" Name="MaxScoreIns-2" >
 <dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
 <dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
 <dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
 </jmslscoreinstrument>
-<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="3" EditEnabled="true" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" Name="MaxScoreIns-3" >
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" EditEnabled="true" InsIndex="3" Transposition="0.0" MixerClassName="com.softsynth.jmsl.NullMixer" Name="MaxScoreIns-3" >
 <dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
 <dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
 <dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
 </jmslscoreinstrument>
-<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="4" EditEnabled="true" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" Name="MaxScoreIns-4" >
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" EditEnabled="true" InsIndex="4" Transposition="0.0" MixerClassName="com.softsynth.jmsl.NullMixer" Name="MaxScoreIns-4" >
 <dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
 <dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
 <dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
@@ -786,7 +786,7 @@
 </staff>
 <measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="722.0" Yoffset="-6.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[Picster-Element[0] 209.3ocUOEjZCCCDrOkkbH9TA4zjdH8TCj64dHX1JuNQTKsIqUvtTxOnOk9p5KoqjMsDFgXmYVMC5ry1EI4Qpk7THBqgOg.5IcX2j01Qq8lCPjFhUl7RV16wPcWljjRdVtkEkkPoh0PCqgN6UwgsvlVz99Ln7YXg5zKtHAOUTtZ9kqb7ke99qkEFyHAtAtPCmCmE2QWPGKWkNXZJ2Pfy07lJXxRSBmb0TVKJXnqgEekmmjpEruBGnt6W3uLGuuAXvdhk++cicuD9PeYxWwC+BX.Qb4E" >
 </measureUserBean>
-<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="0.0" Yoffset="0.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[Picster-Element[1] 209.3ocUOEjZCCCDrOkEen4TAamjdv8TBz64dIX1JutQDKsMqUvNDxOHOk9p5KoqjMsTFgXmYVMC5SqoOPxSTG4He.pfqfGcjNra150Iq2J1CAZLTmmVxvNG5a5SjnTzyvcrnrHJTTAsrFZ1Fwhcv1NzbLCJdFJUmAwFHnbwp0Od5LGd46utWtXY9DAtAVeKmBmE6GVuNVrNdv3TpAOmp4cUHOIMKbv1PIsff99VVb0NdVpQvgZbj5++B+l4z8M.8lCr72uap6UvE8kQeEO7Cj.bbIF" >
+<measureUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Xoffset="0.0" Yoffset="0.0" Name="RenderedMessageBean_measure-3" Message="rendered Picster-Element[Picster-Element[Picster-Element[1] 209.3ocUOEjZCCCDrOkEeH4TAamjdH8TCj64dnX1JuNVTIsIqUHoTxOnOk9p5KoqjMsDFgXmYVMC5n0LDI4QxQdJDg0vmP.8jNraxZ6n09pWgHcM1TlWxvdOFZGxjjTxyvNVTVBUJVCcrFZwKhEcvFGZdu.pdBpUmKhMRP87kqlc5LGe9mu+Zw7EkiD3FXCcbNbVrGrAcrZU5foobCANWyapPYVZRn21RYsnfggNV7MddRpUvKM3UZ39E9Kyw6a.FL8r7+uar6kvG5KS9Jd3WnvGbMF" >
 </measureUserBean>
 </measure>
 <measure WIDTH="910" WIDTHSETBYHAND="false" TIMESIG="5 1" TIMESIGSETBYHAND="true" TEMPO="60.0" TEMPOSETBYHAND="false" REPEATSTART="false" REPEATEND="false" NUMREPEATS="1" BARLINE="PERIOD" MEASURETEXT="" MEASURETEXTX="48" MEASURETEXTY="48" MEASURELEFTMARGIN="50.0" >

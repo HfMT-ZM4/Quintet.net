@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 358.0, -852.0, 1128.0, 729.0 ],
+		"rect" : [ 419.0, -1006.0, 1128.0, 729.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -96,13 +96,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 517.0, 708.0, 59.5, 20.0 ],
+					"patching_rect" : [ 519.0, 708.0, 59.5, 20.0 ],
 					"restore" : 					{
 						"render" : [ 1 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u596004816"
+					"varname" : "u023022156"
 				}
 
 			}
@@ -3678,7 +3678,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 247.0, 6.0, 61.0, 19.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 358, -852, 1486, -123, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 419, -1006, 1547, -277, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 
@@ -4769,14 +4769,14 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 685.59997599999997, 314.0, 232.0, 18.0 ],
-													"restore" : [ 1.0, 0.0, 0.0, 1.0 ],
+													"restore" : [ 0.5, 0.5, 0.5, 1 ],
 													"saved_object_attributes" : 													{
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
 													}
 ,
 													"text" : "pattr @bindto parent::parent::player.5::bordercolor",
-													"varname" : "u360001046"
+													"varname" : "u606018385"
 												}
 
 											}
@@ -4790,14 +4790,14 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 526.700012000000015, 286.0, 232.0, 18.0 ],
-													"restore" : [ 1.0, 0.0, 0.0, 1.0 ],
+													"restore" : [ 0.5, 0.5, 0.5, 1 ],
 													"saved_object_attributes" : 													{
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
 													}
 ,
 													"text" : "pattr @bindto parent::parent::player.4::bordercolor",
-													"varname" : "u823001048"
+													"varname" : "u096018387"
 												}
 
 											}
@@ -4811,14 +4811,14 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 367.799987999999985, 251.0, 232.0, 18.0 ],
-													"restore" : [ 1.0, 0.0, 0.0, 1.0 ],
+													"restore" : [ 0.5, 0.5, 0.5, 1 ],
 													"saved_object_attributes" : 													{
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
 													}
 ,
 													"text" : "pattr @bindto parent::parent::player.3::bordercolor",
-													"varname" : "u355001050"
+													"varname" : "u401018389"
 												}
 
 											}
@@ -4832,14 +4832,14 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 208.899993999999992, 226.0, 232.0, 18.0 ],
-													"restore" : [ 1.0, 0.0, 0.0, 1.0 ],
+													"restore" : [ 0.5, 0.5, 0.5, 1 ],
 													"saved_object_attributes" : 													{
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
 													}
 ,
 													"text" : "pattr @bindto parent::parent::player.2::bordercolor",
-													"varname" : "u568001052"
+													"varname" : "u558018391"
 												}
 
 											}
@@ -4860,7 +4860,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::player.1::bordercolor",
-													"varname" : "u023001054"
+													"varname" : "u694018393"
 												}
 
 											}
@@ -6111,7 +6111,7 @@
 													}
 ,
 													"text" : "pattr @bindto ::client::Preferences::Project::path @autorestore 0 @invisible 1",
-													"varname" : "u194001064"
+													"varname" : "u953018403"
 												}
 
 											}
@@ -6195,7 +6195,7 @@
 													"maxclass" : "inlet",
 													"numinlets" : 0,
 													"numoutlets" : 1,
-													"outlettype" : [ "" ],
+													"outlettype" : [ "FullPacket" ],
 													"patching_rect" : [ 97.0, 51.0, 30.0, 30.0 ]
 												}
 
@@ -6216,7 +6216,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::Preferences::Mapper::outlet @autorestore 0 @invisible 1",
-													"varname" : "u403001068"
+													"varname" : "u876018407"
 												}
 
 											}
@@ -7782,7 +7782,7 @@
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 183.0, 20.0, 59.5, 18.0 ],
 													"text" : "autopattr",
-													"varname" : "u187003953"
+													"varname" : "u556021293"
 												}
 
 											}
@@ -9726,12 +9726,12 @@
 , 															{
 																"name" : "number001",
 																"default" : 																{
-																	"selectioncolor" : [ 0.87, 0.82, 0.24, 1.0 ],
 																	"fontname" : [ "Arial" ],
-																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+																	"accentcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 																	"fontface" : [ 1 ],
 																	"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-																	"accentcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"selectioncolor" : [ 0.87, 0.82, 0.24, 1.0 ],
+																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 																	"fontsize" : [ 10.0 ]
 																}
 ,
@@ -14111,7 +14111,7 @@
 																	}
 ,
 																	"text" : "pattr @bindto parent::parent::parent::mix::timemode",
-																	"varname" : "u966001626"
+																	"varname" : "u433018965"
 																}
 
 															}
@@ -17122,7 +17122,7 @@
 													}
 ,
 													"text" : "autopattr",
-													"varname" : "u393003951"
+													"varname" : "u313021291"
 												}
 
 											}
@@ -19302,27 +19302,27 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-77::obj-1::obj-10" : [ "live.text[5]", "live.text[5]", 0 ],
 			"obj-77::obj-1::obj-17" : [ "live.text[6]", "live.text[5]", 0 ],
-			"obj-43::obj-20" : [ "live.text[2]", "live.text", 0 ],
+			"obj-77::obj-1::obj-8" : [ "live.tab[1]", "live.tab", 0 ],
 			"obj-43::obj-36" : [ "live.text", "live.text", 0 ],
+			"obj-12::obj-42::obj-79" : [ "live.text[9]", "live.text", 0 ],
+			"obj-43::obj-20" : [ "live.text[2]", "live.text", 0 ],
 			"obj-45::obj-7" : [ "live.slider", "live.slider", 0 ],
 			"obj-43::obj-37" : [ "live.text[7]", "live.text", 0 ],
-			"obj-77::obj-1::obj-10" : [ "live.text[5]", "live.text[5]", 0 ],
-			"obj-77::obj-1::obj-19" : [ "live.text[1]", "live.text[5]", 0 ],
 			"obj-12::obj-42::obj-80" : [ "live.text[8]", "live.text", 0 ],
-			"obj-77::obj-1::obj-8" : [ "live.tab[1]", "live.tab", 0 ],
-			"obj-12::obj-42::obj-79" : [ "live.text[9]", "live.text", 0 ],
+			"obj-77::obj-1::obj-19" : [ "live.text[1]", "live.text[5]", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-12::obj-42::obj-80" : 				{
-					"parameter_longname" : "live.text[8]"
-				}
-,
 				"obj-12::obj-42::obj-79" : 				{
 					"parameter_longname" : "live.text[9]"
+				}
+,
+				"obj-12::obj-42::obj-80" : 				{
+					"parameter_longname" : "live.text[8]"
 				}
 
 			}
@@ -19351,21 +19351,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Attributes.png",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/media/Images",
-				"patcherrelativepath" : "./media/Images",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Spruehdose.png",
+				"name" : "Zeichenstift.png",
 				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Video-Generators/painter",
 				"patcherrelativepath" : "./patchers/Library/Video-Generators/painter",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Zeichenstift.png",
+				"name" : "Spruehdose.png",
 				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Video-Generators/painter",
 				"patcherrelativepath" : "./patchers/Library/Video-Generators/painter",
 				"type" : "PNG",
@@ -19714,15 +19707,15 @@
 			}
 , 			{
 				"name" : "srcdimcrop.genjit",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
-				"patcherrelativepath" : "./patchers/Library/Abstractions/viewer",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/jitter-examples/gen",
+				"patcherrelativepath" : "../../../../hajdu/Library/Application Support/Cycling '74/Max 8/Examples/jitter-examples/gen",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dstdimcrop.genjit",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
-				"patcherrelativepath" : "./patchers/Library/Abstractions/viewer",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/jitter-examples/gen",
+				"patcherrelativepath" : "../../../../hajdu/Library/Application Support/Cycling '74/Max 8/Examples/jitter-examples/gen",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
@@ -19777,6 +19770,13 @@
 			}
 , 			{
 				"name" : "Mapper.png",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/media/Images",
+				"patcherrelativepath" : "./media/Images",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Attributes.png",
 				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/media/Images",
 				"patcherrelativepath" : "./media/Images",
 				"type" : "PNG",

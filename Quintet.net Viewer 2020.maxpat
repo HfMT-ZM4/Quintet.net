@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 774.0, -1245.0, 1128.0, 729.0 ],
+		"rect" : [ 55.0, 45.0, 1128.0, 729.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -3678,7 +3678,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 247.0, 6.0, 61.0, 19.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 774, -1245, 1902, -516, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 55, 45, 1183, 774, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 
@@ -3785,10 +3785,10 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 20, 74, 660, 314 ],
+						"client_rect" : [ 814, 139, 1423, 455 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 30, 89, 670, 329 ]
+						"storage_rect" : [ 780, 524, 1380, 824 ]
 					}
 ,
 					"text" : "pattrstorage Viewer @savemode 0 @greedy 1 @outputmode 4 @flat 1",
@@ -7179,6 +7179,17 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-76",
+									"maxclass" : "jit.pwindow",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "jit_matrix", "" ],
+									"patching_rect" : [ 369.0, 590.0, 80.0, 60.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-86",
 									"maxclass" : "toggle",
 									"numinlets" : 1,
@@ -10316,13 +10327,13 @@
 																	"fontname" : "Arial",
 																	"fontsize" : 10.0,
 																	"id" : "obj-3",
-																	"linecount" : 2,
+																	"linecount" : 4,
 																	"maxclass" : "message",
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 157.0, 197.0, 80.0, 27.0 ],
-																	"text" : "param color 0. 0. 0. 1."
+																	"text" : "param color 0.917647 0.458824 0.968627 1. 1."
 																}
 
 															}
@@ -17811,7 +17822,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-40", 1 ],
 									"midpoints" : [ 172.5, 512.0, 68.0, 512.0 ],
-									"order" : 2,
+									"order" : 3,
 									"source" : [ "obj-118", 0 ]
 								}
 
@@ -17820,7 +17831,15 @@
 								"patchline" : 								{
 									"destination" : [ "obj-72", 0 ],
 									"midpoints" : [ 172.5, 512.0, 110.5, 512.0 ],
-									"order" : 1,
+									"order" : 2,
+									"source" : [ "obj-118", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-76", 0 ],
+									"order" : 0,
 									"source" : [ "obj-118", 0 ]
 								}
 
@@ -17828,7 +17847,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-77", 0 ],
-									"order" : 0,
+									"order" : 1,
 									"source" : [ "obj-118", 0 ]
 								}
 
@@ -19078,29 +19097,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 2 ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-77",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "painter.vgen.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 323.0, 262.0, 160.0, 146.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 323.0, 262.0, 160.0, 146.0 ],
-					"varname" : "2painter",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"args" : [ 1, 1 ],
 					"bgmode" : 0,
 					"border" : 0,
@@ -19118,6 +19114,29 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 162.0, 409.0, 160.0, 146.0 ],
 					"varname" : "1_1dot_screen",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ 2 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-64",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "painter.vgen.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 323.0, 262.0, 160.0, 146.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 323.0, 262.0, 160.0, 146.0 ],
+					"varname" : "2painter",
 					"viewvisibility" : 1
 				}
 
@@ -19205,16 +19224,16 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-77::obj-1::obj-10" : [ "live.text[5]", "live.text[5]", 0 ],
-			"obj-77::obj-1::obj-17" : [ "live.text[6]", "live.text[5]", 0 ],
-			"obj-77::obj-1::obj-8" : [ "live.tab[1]", "live.tab", 0 ],
+			"obj-64::obj-1::obj-10" : [ "live.text[5]", "live.text[5]", 0 ],
+			"obj-64::obj-1::obj-17" : [ "live.text[6]", "live.text[5]", 0 ],
+			"obj-64::obj-1::obj-8" : [ "live.tab[1]", "live.tab", 0 ],
 			"obj-43::obj-36" : [ "live.text", "live.text", 0 ],
 			"obj-12::obj-42::obj-79" : [ "live.text[9]", "live.text", 0 ],
 			"obj-43::obj-20" : [ "live.text[2]", "live.text", 0 ],
 			"obj-45::obj-7" : [ "live.slider", "live.slider", 0 ],
 			"obj-43::obj-37" : [ "live.text[7]", "live.text", 0 ],
 			"obj-12::obj-42::obj-80" : [ "live.text[8]", "live.text", 0 ],
-			"obj-77::obj-1::obj-19" : [ "live.text[1]", "live.text[5]", 0 ],
+			"obj-64::obj-1::obj-19" : [ "live.text[1]", "live.text[5]", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -19238,13 +19257,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "dot_screen.vfx.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Video-Effects",
-				"patcherrelativepath" : "./patchers/Library/Video-Effects",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "painter.vgen.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Video-Generators",
 				"patcherrelativepath" : "./patchers/Library/Video-Generators",
@@ -19256,13 +19268,6 @@
 				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Video-Generators/painter",
 				"patcherrelativepath" : "./patchers/Library/Video-Generators/painter",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Zeichenstift.png",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Video-Generators/painter",
-				"patcherrelativepath" : "./patchers/Library/Video-Generators/painter",
-				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
@@ -19280,6 +19285,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "Zeichenstift.png",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Video-Generators/painter",
+				"patcherrelativepath" : "./patchers/Library/Video-Generators/painter",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "Radiergummi.png",
 				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Video-Generators/painter",
 				"patcherrelativepath" : "./patchers/Library/Video-Generators/painter",
@@ -19291,6 +19303,13 @@
 				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Video-Generators/painter",
 				"patcherrelativepath" : "./patchers/Library/Video-Generators/painter",
 				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot_screen.vfx.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Video-Effects",
+				"patcherrelativepath" : "./patchers/Library/Video-Effects",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{

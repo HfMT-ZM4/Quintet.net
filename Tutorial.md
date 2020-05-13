@@ -97,6 +97,51 @@ Video generators are Max Jitter patches with a brown background. They can be cal
 ### vfx
 Video effects are Max Jitter patches with either green or blue backgrounds depending on whether they perform matrix or texture processing.
 
+### curve generators
+
+# How to create an instrument or bank of instruments?
+![Sampler](https://github.com/HfMT-ZM4/Quintet.net/blob/master/media/Resources/Sampler.png)
+1. Open Project or alternatively create one. 
+
+1. Go to Inputs (Keyboard icon) - > select Sampler. 
+
+Here, in Sampler, you can create a bank and instruments.  After pressing the window will pop up, where  on the left side one could see instruments area, on the right side - samples area, which  show the entries for each instrument. Instruments are stored in a Bank - a collection of instruments, which belong to one project (piece). A Bank can consist of one or several Instrument(s). 
+
+1. Create New Bank or Open existing Bank by clicking matching menu item. The Bank is a .txt document, where instruments are indicated.
+
+1. In order to create an instrument click on “new instrument”  and give it a name. 
+
+1. To fill an instrument with samples simply drag samples into right part of the sampler. Be sure that a Samples sub folder exists in your Project folder (look in Max 8/Packages/Quintet.net/patchers/Projects/your_project). 
+
+A word on the duration of a sample: it is advisable to not use samples with too many events in them or longer than, say, 10 seconds, since the sound will only play back as long as you hold a key. Anyway, if it is meant for artistic purposes, it is possible to have a long sample.
+
+## Editing Samples: 
+
+On the right part of the window you can see following cells: 
+
+- Index - sequential number of a sample
+
+- Name - name of a sample
+
+- Root Key  -  the key at which a sample sounds at its original pitch
+
+- Key Zone Floor - the starting key of a region, where a sample is “active” and transposed according to root key
+
+- Vel Zone Floor - velocity zone (0-127) - different samples can be assigned to the same key and will be picked according to the velocity of the key.
+
+See: computer keyboard mapping
+
+
+On the lower part of the window there are following settings: 
+
+- Loop - adjust starting and ending points for the sample looping. Press “dump” to apply.  
+
+- Position - the starting point for playback
+
+- Envelope - here one can change envelope shape. You can change it manually or use any existing presets by entering the number in the corresponded field. There are some presets you can choose and modify. 
+
+- Edit - here you can set the normalisation value (0. - 1.) and/or crop the sample length. When done with any edits make sure to re-save the sample. 
+
 # Using the Mapper
 
 # Sharing resources

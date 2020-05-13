@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 371.0, -1052.0, 1241.0, 872.0 ],
+		"rect" : [ 190.0, -1109.0, 1241.0, 872.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,20 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-12",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 472.0, 7.0, 354.0, 23.0 ],
+					"text" : "col 0 width 43, col 1 width 117, col 2 width 50, col 3 width 80"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -137,7 +151,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 21.0, 637.5, 237.0, 22.0 ],
-					"restore" : [ 2033 ],
+					"restore" : [ 2375 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1547,7 +1561,7 @@
 													}
 ,
 													"text" : "pattr @invisible 1 @autorestore 0 @bindto parent::parent::parent::Project::path",
-													"varname" : "u408001209"
+													"varname" : "u754018667"
 												}
 
 											}
@@ -5547,7 +5561,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 191.0, 469.0, 63.0, 22.0 ],
+					"patching_rect" : [ 191.0, 474.0, 63.0, 22.0 ],
 					"text" : "select 0 0"
 				}
 
@@ -5561,7 +5575,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 191.0, 489.0, 139.0, 22.0 ],
+					"patching_rect" : [ 191.0, 500.0, 139.0, 22.0 ],
 					"text" : "pattrforward SampleList"
 				}
 
@@ -6717,7 +6731,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 213.0, 447.0, 159.0, 22.0 ],
+					"patching_rect" : [ 213.0, 450.0, 159.0, 22.0 ],
 					"text" : "s #0-current-instrument"
 				}
 
@@ -6870,7 +6884,7 @@
 					"bgfillcolor_type" : "color",
 					"fontsize" : 18.0,
 					"id" : "obj-33",
-					"items" : "0.bank.txt",
+					"items" : "sine.bank.txt",
 					"maxclass" : "umenu",
 					"menumode" : 2,
 					"numinlets" : 1,
@@ -6905,8 +6919,8 @@
 				"box" : 				{
 					"bgcolor" : [ 0.992157, 0.992157, 0.992157, 0.5 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"coldef" : [ [ 0, 43, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ] ],
-					"cols" : 1,
+					"coldef" : [ [ 0, 43, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ], [ 1, 117, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ], [ 2, 50, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ], [ 3, 80, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ] ],
+					"cols" : 9,
 					"colwidth" : 104,
 					"fontface" : 0,
 					"fontname" : "Geneva",
@@ -6925,7 +6939,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 335.0, 91.0, 388.0, 288.0 ],
 					"rowhead" : 1,
-					"rows" : 1,
+					"rows" : 3,
 					"selmode" : 5,
 					"selsync" : 0,
 					"varname" : "SampleList",
@@ -6987,7 +7001,7 @@
 					"bblend" : 100,
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 					"coldef" : [ [ 0, 41, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ] ],
-					"cols" : 1,
+					"cols" : 2,
 					"colwidth" : 256,
 					"fontface" : 0,
 					"fontname" : "Arial",
@@ -7064,6 +7078,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-114", 0 ],
 					"source" : [ "obj-119", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-127", 0 ],
+					"source" : [ "obj-12", 0 ]
 				}
 
 			}

@@ -577,7 +577,7 @@
 , 			{
 				"box" : 				{
 					"border" : 0,
-					"embedstate" : [ [ "bordercolor", 0.608, 0.608, 0.678, 1 ], [ "bodycolor", 0.75, 0.75, 0.852, 0.75 ], [ "percentage", 100 ], [ "orientation", "Vertical" ], [ "bordercolorh", 0.447, 0.447, 0.522, 1 ], [ "bgcolor", 0.9, 0.9, 0.9, 1 ], [ "guttercolorh", 0.487, 0.487, 0.5, 0.5 ], [ "arrowcolorh", 0.996, 0.996, 0.996, 1 ], [ "bodycolorh", 0.741, 0.741, 0.871, 1 ], [ "guttercolor", 0.487, 0.487, 0.5, 0.125 ], [ "type", "wide" ] ],
+					"embedstate" : [ [ "orientation", "Vertical" ], [ "bodycolor", 0.75, 0.75, 0.852, 0.75 ], [ "bgcolor", 0.9, 0.9, 0.9, 1 ], [ "bordercolorh", 0.447, 0.447, 0.522, 1 ], [ "guttercolorh", 0.487, 0.487, 0.5, 0.5 ], [ "bodycolorh", 0.741, 0.741, 0.871, 1 ], [ "type", "wide" ], [ "arrowcolorh", 0.996, 0.996, 0.996, 1 ], [ "percentage", 100 ], [ "bordercolor", 0.608, 0.608, 0.678, 1 ], [ "guttercolor", 0.487, 0.487, 0.5, 0.125 ] ],
 					"filename" : "scrollbar.js",
 					"id" : "obj-61",
 					"maxclass" : "jsui",
@@ -2294,7 +2294,7 @@
 					"name" : "jk.display.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ -150.0, -116.0 ],
+					"offset" : [ -2.0, -1.0 ],
 					"patching_rect" : [ 603.0, 748.0, 23.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 414.0, 452.0, 23.0, 22.0 ],
@@ -2315,7 +2315,7 @@
 					"name" : "jk.display.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ -150.0, -116.0 ],
+					"offset" : [ -2.0, -162.0 ],
 					"patching_rect" : [ 604.0, 721.0, 24.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 414.0, 425.0, 24.0, 22.0 ],
@@ -3251,7 +3251,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 713.0, 837.0, 61.0, 19.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 657, 44, 1122, 594, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 802, 152, 1267, 702, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 
@@ -3343,7 +3343,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u874013089"
+					"varname" : "u551022722"
 				}
 
 			}
@@ -3356,7 +3356,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 10,
 					"numoutlets" : 7,
-					"outlettype" : [ "bang", "", "", "", "", "", "int" ],
+					"outlettype" : [ "", "", "", "", "", "", "int" ],
 					"patching_rect" : [ 265.0, 1078.0, 321.0, 19.0 ],
 					"text" : "jk.chat-engine2 #1 0 0 255"
 				}
@@ -3412,7 +3412,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
-					"outputmode" : 1,
 					"parameter_enable" : 0,
 					"patching_rect" : [ 213.0, 747.0, 367.0, 25.035398000000001 ],
 					"presentation" : 1,

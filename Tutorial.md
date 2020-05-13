@@ -100,12 +100,10 @@ Video effects are Max Jitter patches with either green or blue backgrounds depen
 ### curve generators
 
 # How to create an instrument or bank of instruments?
-![Sampler](https://github.com/HfMT-ZM4/Quintet.net/blob/master/media/Resources/Sampler.png)
+![Sampler](https://github.com/HfMT-ZM4/Quintet.net/blob/master/media/Resources/Smpler.png)
 1. Open Project or alternatively create one. 
 
-1. Go to Inputs (Keyboard icon) - > select Sampler. 
-
-Here, in Sampler, you can create a bank and instruments.  After pressing the window will pop up, where  on the left side one could see instruments area, on the right side - samples area, which  show the entries for each instrument. Instruments are stored in a Bank - a collection of instruments, which belong to one project (piece). A Bank can consist of one or several Instrument(s). 
+1. Go to Inputs (Keyboard icon) - > select Sampler. Here, you can create a bank and instruments. After pressing the window will pop up, where  on the left side one could see instruments area, on the right side - samples area, which  show the entries for each instrument. Instruments are stored in a Bank - a collection of instruments, which belong to one project (piece). A Bank can consist of one or several Instrument(s). 
 
 1. Create New Bank or Open existing Bank by clicking matching menu item. The Bank is a .txt document, where instruments are indicated.
 

@@ -38,6 +38,7 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
+		"title" : "Chat",
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
@@ -577,7 +578,7 @@
 , 			{
 				"box" : 				{
 					"border" : 0,
-					"embedstate" : [ [ "orientation", "Vertical" ], [ "bodycolor", 0.75, 0.75, 0.852, 0.75 ], [ "bgcolor", 0.9, 0.9, 0.9, 1 ], [ "bordercolorh", 0.447, 0.447, 0.522, 1 ], [ "guttercolorh", 0.487, 0.487, 0.5, 0.5 ], [ "bodycolorh", 0.741, 0.741, 0.871, 1 ], [ "type", "wide" ], [ "arrowcolorh", 0.996, 0.996, 0.996, 1 ], [ "percentage", 100 ], [ "bordercolor", 0.608, 0.608, 0.678, 1 ], [ "guttercolor", 0.487, 0.487, 0.5, 0.125 ] ],
+					"embedstate" : [ [ "bodycolor", 0.75, 0.75, 0.852, 0.75 ], [ "bordercolor", 0.608, 0.608, 0.678, 1 ], [ "type", "wide" ], [ "bordercolorh", 0.447, 0.447, 0.522, 1 ], [ "guttercolorh", 0.487, 0.487, 0.5, 0.5 ], [ "orientation", "Vertical" ], [ "bgcolor", 0.9, 0.9, 0.9, 1 ], [ "arrowcolorh", 0.996, 0.996, 0.996, 1 ], [ "bodycolorh", 0.741, 0.741, 0.871, 1 ], [ "percentage", 100 ], [ "guttercolor", 0.487, 0.487, 0.5, 0.125 ] ],
 					"filename" : "scrollbar.js",
 					"id" : "obj-61",
 					"maxclass" : "jsui",
@@ -3338,12 +3339,12 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 577.0, 1170.0, 53.0, 19.0 ],
 					"restore" : 					{
-						"textcolor" : [ 102, 195, 56 ],
+						"textcolor" : [ 55, 58, 191 ],
 						"vertical_scroll" : [ 50, 100 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u551022722"
+					"varname" : "u908013703"
 				}
 
 			}

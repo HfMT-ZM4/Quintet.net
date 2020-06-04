@@ -630,7 +630,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 1231.0, -944.0, 386.0, 510.0 ],
+										"rect" : [ 387.0, 252.0, 591.0, 611.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -659,6 +659,66 @@
 										"subpatcher_template" : "",
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-20",
+													"maxclass" : "newobj",
+													"numinlets" : 3,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 196.999995105263167, 338.0, 76.0, 22.0 ],
+													"text" : "join 3"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-21",
+													"maxclass" : "newobj",
+													"numinlets" : 4,
+													"numoutlets" : 3,
+													"outlettype" : [ "", "", "" ],
+													"patching_rect" : [ 196.999995105263167, 309.0, 76.0, 22.0 ],
+													"text" : "pipe s s s 10"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-15",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 133.999995105263167, 338.0, 54.0, 22.0 ],
+													"text" : "deferlow"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-8",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 5,
+													"outlettype" : [ "", "", "", "", "" ],
+													"patching_rect" : [ 133.999995105263167, 268.0, 231.0, 22.0 ],
+													"text" : "regexp instrument @substitute instrument"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-5",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 217.0, 46.0, 201.0, 22.0 ],
+													"text" : "\"panel.1||instrument  * Mélanie.instr\""
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"id" : "obj-13",
 													"maxclass" : "newobj",
@@ -725,7 +785,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 152.736837210526346, 321.0, 82.0, 22.0 ],
+													"patching_rect" : [ 152.736837210526346, 437.0, 82.0, 22.0 ],
 													"text" : "r client-remap"
 												}
 
@@ -736,7 +796,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 152.736837210526346, 396.0, 99.0, 22.0 ],
+													"patching_rect" : [ 152.736837210526346, 512.0, 99.0, 22.0 ],
 													"text" : "s toClientMapper"
 												}
 
@@ -749,7 +809,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "int" ],
 													"parameter_enable" : 0,
-													"patching_rect" : [ 152.736837210526346, 345.0, 20.0, 20.0 ]
+													"patching_rect" : [ 152.736837210526346, 461.0, 20.0, 20.0 ]
 												}
 
 											}
@@ -760,7 +820,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 152.736837210526346, 370.0, 42.0, 22.0 ],
+													"patching_rect" : [ 152.736837210526346, 486.0, 42.0, 22.0 ],
 													"text" : "gate"
 												}
 
@@ -772,7 +832,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 133.999995105263167, 250.0, 33.0, 22.0 ],
+													"patching_rect" : [ 133.999995105263167, 236.0, 60.736842105263179, 22.0 ],
 													"text" : "t l l"
 												}
 
@@ -783,7 +843,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 133.999995105263167, 287.0, 124.0, 22.0 ],
+													"patching_rect" : [ 133.999995105263167, 397.0, 124.0, 22.0 ],
 													"text" : "s toClientPattrstorage"
 												}
 
@@ -832,6 +892,13 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-36", 0 ],
+													"source" : [ "obj-15", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-35", 0 ],
 													"source" : [ "obj-17", 0 ]
 												}
@@ -846,6 +913,27 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-20", 2 ],
+													"source" : [ "obj-21", 2 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-20", 1 ],
+													"source" : [ "obj-21", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-20", 0 ],
+													"source" : [ "obj-21", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-17", 0 ],
 													"source" : [ "obj-3", 0 ]
 												}
@@ -853,15 +941,15 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-36", 0 ],
-													"source" : [ "obj-35", 0 ]
+													"destination" : [ "obj-49", 1 ],
+													"source" : [ "obj-35", 1 ]
 												}
 
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-49", 1 ],
-													"source" : [ "obj-35", 1 ]
+													"destination" : [ "obj-8", 0 ],
+													"source" : [ "obj-35", 0 ]
 												}
 
 											}
@@ -881,6 +969,13 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-17", 0 ],
+													"source" : [ "obj-5", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-49", 0 ],
 													"source" : [ "obj-50", 0 ]
 												}
@@ -890,6 +985,21 @@
 												"patchline" : 												{
 													"destination" : [ "obj-50", 0 ],
 													"source" : [ "obj-54", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-15", 0 ],
+													"source" : [ "obj-8", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-36", 0 ],
+													"midpoints" : [ 302.499995105263167, 375.0, 143.499995105263167, 375.0 ],
+													"source" : [ "obj-8", 3 ]
 												}
 
 											}
@@ -5081,12 +5191,6 @@
  ],
 														"styles" : [ 															{
 																"name" : "black on white",
-																"number" : 																{
-																	"fontsize" : [ 12.0 ],
-																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-																	"fontname" : [ "Arial" ]
-																}
-,
 																"umenu" : 																{
 																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 																	"bgfillcolor" : 																	{
@@ -5099,6 +5203,12 @@
 																		"autogradient" : 0
 																	}
 
+																}
+,
+																"number" : 																{
+																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+																	"fontsize" : [ 12.0 ],
+																	"fontname" : [ "Arial" ]
 																}
 ,
 																"parentstyle" : "",
@@ -14399,12 +14509,6 @@
  ],
 										"styles" : [ 											{
 												"name" : "black on white",
-												"number" : 												{
-													"fontsize" : [ 12.0 ],
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-													"fontname" : [ "Arial" ]
-												}
-,
 												"umenu" : 												{
 													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 													"bgfillcolor" : 													{
@@ -14417,6 +14521,12 @@
 														"autogradient" : 0
 													}
 
+												}
+,
+												"number" : 												{
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+													"fontsize" : [ 12.0 ],
+													"fontname" : [ "Arial" ]
 												}
 ,
 												"parentstyle" : "",
@@ -14707,7 +14817,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::Preferences::Mapper::outlet @autorestore 0 @invisible 1",
-													"varname" : "u693008773"
+													"varname" : "u764002402"
 												}
 
 											}
@@ -16083,10 +16193,10 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 20, 74, 660, 314 ],
+						"client_rect" : [ 814, 139, 1423, 455 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 30, 89, 670, 329 ]
+						"storage_rect" : [ 780, 524, 1380, 824 ]
 					}
 ,
 					"text" : "pattrstorage client @outputmode 4 @fileusagemode 1",
@@ -16205,7 +16315,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 1068.0, 700.0, 53.0, 19.0 ],
 					"text" : "autopattr",
-					"varname" : "u086014312"
+					"varname" : "u388007954"
 				}
 
 			}
@@ -16603,34 +16713,39 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-10::obj-2::obj-89::obj-120::obj-50" : [ "bank", "bank", 1 ],
-			"obj-8::obj-39" : [ "live.text[10]", "live.text[2]", 0 ],
 			"obj-20::obj-16::obj-10.1::obj-42::obj-24" : [ "vst~[2]", "vst~[2]", 0 ],
-			"obj-8::obj-24" : [ "live.text[2]", "live.text[2]", 0 ],
-			"obj-8::obj-34" : [ "live.text[7]", "live.text[2]", 0 ],
-			"obj-10::obj-42::obj-79" : [ "live.text", "live.text", 0 ],
-			"obj-10::obj-20::obj-6::obj-7" : [ "sound[1]", "sound", 0 ],
-			"obj-20::obj-16::obj-4.1::obj-42::obj-24" : [ "vst~[4]", "vst~[4]", 0 ],
 			"obj-5::obj-62::obj-27::obj-1::obj-26::obj-104" : [ "umenu[3]", "umenu", 0 ],
-			"obj-10::obj-20::obj-21::obj-27" : [ "bankfile", "bankfile", 0 ],
+			"obj-5::obj-62::obj-26::obj-12::obj-26::obj-104" : [ "umenu[9]", "umenu", 0 ],
 			"obj-9::obj-56" : [ "live.text[16]", "live.text[2]", 0 ],
+			"obj-5::obj-62::obj-30::obj-1::obj-26::obj-104" : [ "umenu", "umenu", 0 ],
+			"obj-5::obj-62::obj-27::obj-12::obj-26::obj-104" : [ "umenu[8]", "umenu", 0 ],
+			"obj-5::obj-62::obj-26::obj-1::obj-26::obj-104" : [ "umenu[4]", "umenu", 0 ],
 			"obj-10::obj-20::obj-5::obj-7" : [ "sound[2]", "sound", 0 ],
 			"obj-8::obj-4" : [ "live.text[8]", "live.text[2]", 0 ],
-			"obj-20::obj-16::obj-16.1::obj-42::obj-24" : [ "vst~", "vst~", 0 ],
+			"obj-20::obj-16::obj-4.1::obj-42::obj-24" : [ "vst~[4]", "vst~[4]", 0 ],
+			"obj-10::obj-2::obj-89::obj-120::obj-50" : [ "bank", "bank", 1 ],
 			"obj-5::obj-62::obj-29::obj-1::obj-26::obj-104" : [ "umenu[1]", "umenu", 0 ],
-			"obj-20::obj-16::obj-7.1::obj-42::obj-24" : [ "vst~[3]", "vst~[3]", 0 ],
-			"obj-10::obj-20::obj-7::obj-7" : [ "sound[4]", "sound", 0 ],
-			"obj-8::obj-72" : [ "live.text[14]", "live.text[2]", 0 ],
-			"obj-10::obj-20::obj-4::obj-7" : [ "sound[3]", "sound", 0 ],
-			"obj-5::obj-62::obj-26::obj-1::obj-26::obj-104" : [ "umenu[4]", "umenu", 0 ],
-			"obj-10::obj-42::obj-80" : [ "live.text[1]", "live.text", 0 ],
-			"obj-20::obj-16::obj-13.1::obj-42::obj-24" : [ "vst~[1]", "vst~[1]", 0 ],
-			"obj-5::obj-62::obj-30::obj-1::obj-26::obj-104" : [ "umenu", "umenu", 0 ],
-			"obj-8::obj-36" : [ "live.text[12]", "live.text[2]", 0 ],
 			"obj-8::obj-51" : [ "live.text[4]", "live.text[2]", 0 ],
+			"obj-8::obj-39" : [ "live.text[10]", "live.text[2]", 0 ],
+			"obj-10::obj-42::obj-79" : [ "live.text", "live.text", 0 ],
+			"obj-8::obj-24" : [ "live.text[2]", "live.text[2]", 0 ],
+			"obj-20::obj-16::obj-16.1::obj-42::obj-24" : [ "vst~", "vst~", 0 ],
 			"obj-10::obj-20::obj-3::obj-7" : [ "sound[5]", "sound", 0 ],
-			"obj-8::obj-53" : [ "live.text[9]", "live.text[2]", 0 ],
+			"obj-5::obj-62::obj-29::obj-12::obj-26::obj-104" : [ "umenu[6]", "umenu", 0 ],
+			"obj-8::obj-34" : [ "live.text[7]", "live.text[2]", 0 ],
+			"obj-8::obj-72" : [ "live.text[14]", "live.text[2]", 0 ],
+			"obj-8::obj-36" : [ "live.text[12]", "live.text[2]", 0 ],
+			"obj-20::obj-16::obj-7.1::obj-42::obj-24" : [ "vst~[3]", "vst~[3]", 0 ],
+			"obj-10::obj-20::obj-6::obj-7" : [ "sound[1]", "sound", 0 ],
+			"obj-10::obj-20::obj-7::obj-7" : [ "sound[4]", "sound", 0 ],
 			"obj-5::obj-62::obj-28::obj-1::obj-26::obj-104" : [ "umenu[2]", "umenu", 0 ],
+			"obj-20::obj-16::obj-13.1::obj-42::obj-24" : [ "vst~[1]", "vst~[1]", 0 ],
+			"obj-10::obj-42::obj-80" : [ "live.text[1]", "live.text", 0 ],
+			"obj-10::obj-20::obj-4::obj-7" : [ "sound[3]", "sound", 0 ],
+			"obj-5::obj-62::obj-28::obj-12::obj-26::obj-104" : [ "umenu[7]", "umenu", 0 ],
+			"obj-8::obj-53" : [ "live.text[9]", "live.text[2]", 0 ],
+			"obj-5::obj-62::obj-30::obj-12::obj-26::obj-104" : [ "umenu[5]", "umenu", 0 ],
+			"obj-10::obj-20::obj-21::obj-27" : [ "bankfile", "bankfile", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -16678,9 +16793,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Triangle.bank.txt",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Triangle",
-				"patcherrelativepath" : "./patchers/Projects/Triangle",
+				"name" : "Tutorial.bank.txt",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial",
+				"patcherrelativepath" : "./patchers/Projects/Tutorial",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -16813,15 +16928,15 @@
 			}
 , 			{
 				"name" : "SliderBG.png",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/media/Images",
-				"patcherrelativepath" : "./media/Images",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/synths/very-special-guest/lib",
+				"patcherrelativepath" : "../../../../hajdu/Library/Application Support/Cycling '74/Max 8/Examples/synths/very-special-guest/lib",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "topSliderKnob.png",
-				"bootpath" : "/Users/Shared/Max 8/Packages/DJster/media/Images",
-				"patcherrelativepath" : "../DJster/media/Images",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/synths/very-special-guest/lib",
+				"patcherrelativepath" : "../../../../hajdu/Library/Application Support/Cycling '74/Max 8/Examples/synths/very-special-guest/lib",
 				"type" : "PNG",
 				"implicit" : 1
 			}
@@ -16861,9 +16976,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Sander.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Triangle/Instruments",
-				"patcherrelativepath" : "./patchers/Projects/Triangle/Instruments",
+				"name" : "Bandoneon.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/modules/MaxScore-Sampler/Sampler_v210/Banks/legacy-test",
+				"patcherrelativepath" : "../MaxScore/patchers/modules/MaxScore-Sampler/Sampler_v210/Banks/legacy-test",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -17218,13 +17333,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Robert.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Triangle/Instruments",
-				"patcherrelativepath" : "./patchers/Projects/Triangle/Instruments",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "appender.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/audio",
 				"patcherrelativepath" : "./patchers/Library/Abstractions/audio",
@@ -17247,15 +17355,15 @@
 			}
 , 			{
 				"name" : "freeverb_comb.gendsp",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Gen~",
-				"patcherrelativepath" : "./patchers/Library/Gen~",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/gen",
+				"patcherrelativepath" : "../../../../hajdu/Library/Application Support/Cycling '74/Max 8/Examples/gen",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "freeverb_allpass.gendsp",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Gen~",
-				"patcherrelativepath" : "./patchers/Library/Gen~",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/gen",
+				"patcherrelativepath" : "../../../../hajdu/Library/Application Support/Cycling '74/Max 8/Examples/gen",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
@@ -17421,9 +17529,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Giorgos.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Triangle/Instruments",
-				"patcherrelativepath" : "./patchers/Projects/Triangle/Instruments",
+				"name" : "Bell-1.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/modules/MaxScore-Sampler/Sampler_v210/Banks/legacy-test",
+				"patcherrelativepath" : "../MaxScore/patchers/modules/MaxScore-Sampler/Sampler_v210/Banks/legacy-test",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -17442,72 +17550,135 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Tam01.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Triangle/Instruments",
-				"patcherrelativepath" : "./patchers/Projects/Triangle/Instruments",
+				"name" : "FretSound.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/modules/MaxScore-Sampler/Sampler_v210/Banks/legacy-test",
+				"patcherrelativepath" : "../MaxScore/patchers/modules/MaxScore-Sampler/Sampler_v210/Banks/legacy-test",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Aigerim.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Triangle/Instruments",
-				"patcherrelativepath" : "./patchers/Projects/Triangle/Instruments",
+				"name" : "Cymbales_Antiques.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/modules/MaxScore-Sampler/Sampler_v210/Banks/legacy-test",
+				"patcherrelativepath" : "../MaxScore/patchers/modules/MaxScore-Sampler/Sampler_v210/Banks/legacy-test",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Ryszard.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Triangle/Instruments",
-				"patcherrelativepath" : "./patchers/Projects/Triangle/Instruments",
+				"name" : "Stopped_Piano.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/modules/MaxScore-Sampler/Sampler_v210/Banks/legacy-test",
+				"patcherrelativepath" : "../MaxScore/patchers/modules/MaxScore-Sampler/Sampler_v210/Banks/legacy-test",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Tamara.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Triangle/Instruments",
-				"patcherrelativepath" : "./patchers/Projects/Triangle/Instruments",
+				"name" : "Marimba.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/modules/MaxScore-Sampler/Sampler_v210/Banks/legacy-test",
+				"patcherrelativepath" : "../MaxScore/patchers/modules/MaxScore-Sampler/Sampler_v210/Banks/legacy-test",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sara-1.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Triangle/Instruments",
-				"patcherrelativepath" : "./patchers/Projects/Triangle/Instruments",
+				"name" : "percussion_glockenspiel_Glockenspiel-beaters_ordinario.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/modules/MaxScore-Sampler/Sampler_v210/Banks/legacy-test",
+				"patcherrelativepath" : "../MaxScore/patchers/modules/MaxScore-Sampler/Sampler_v210/Banks/legacy-test",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Mélanie.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Triangle/Instruments",
-				"patcherrelativepath" : "./patchers/Projects/Triangle/Instruments",
+				"name" : "Celeste.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/modules/MaxScore-Sampler/Sampler_v210/Banks/legacy-test",
+				"patcherrelativepath" : "../MaxScore/patchers/modules/MaxScore-Sampler/Sampler_v210/Banks/legacy-test",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "kelsey.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Triangle/Instruments",
-				"patcherrelativepath" : "./patchers/Projects/Triangle/Instruments",
+				"name" : "Venus_Pad.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/modules/MaxScore-Sampler/Sampler_v210/Banks/legacy-test",
+				"patcherrelativepath" : "../MaxScore/patchers/modules/MaxScore-Sampler/Sampler_v210/Banks/legacy-test",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Juan.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Triangle/Instruments",
-				"patcherrelativepath" : "./patchers/Projects/Triangle/Instruments",
+				"name" : "Galaxis.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/modules/MaxScore-Sampler/Sampler_v210/Banks/legacy-test",
+				"patcherrelativepath" : "../MaxScore/patchers/modules/MaxScore-Sampler/Sampler_v210/Banks/legacy-test",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Jana.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Triangle/Instruments",
-				"patcherrelativepath" : "./patchers/Projects/Triangle/Instruments",
+				"name" : "Equinox.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/modules/MaxScore-Sampler/Sampler_v210/Banks/legacy-test",
+				"patcherrelativepath" : "../MaxScore/patchers/modules/MaxScore-Sampler/Sampler_v210/Banks/legacy-test",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Jan.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Triangle/Instruments",
-				"patcherrelativepath" : "./patchers/Projects/Triangle/Instruments",
+				"name" : "E-Pad.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/modules/MaxScore-Sampler/Sampler_v210/Banks/legacy-test",
+				"patcherrelativepath" : "../MaxScore/patchers/modules/MaxScore-Sampler/Sampler_v210/Banks/legacy-test",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Synth_1980.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/modules/MaxScore-Sampler/Sampler_v210/Banks/legacy-test",
+				"patcherrelativepath" : "../MaxScore/patchers/modules/MaxScore-Sampler/Sampler_v210/Banks/legacy-test",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Mini_Moog.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/modules/MaxScore-Sampler/Sampler_v210/Banks/legacy-test",
+				"patcherrelativepath" : "../MaxScore/patchers/modules/MaxScore-Sampler/Sampler_v210/Banks/legacy-test",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Digi_Vocal.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/modules/MaxScore-Sampler/Sampler_v210/Banks/legacy-test",
+				"patcherrelativepath" : "../MaxScore/patchers/modules/MaxScore-Sampler/Sampler_v210/Banks/legacy-test",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Dark_Monkey.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/modules/MaxScore-Sampler/Sampler_v210/Banks/legacy-test",
+				"patcherrelativepath" : "../MaxScore/patchers/modules/MaxScore-Sampler/Sampler_v210/Banks/legacy-test",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Wave_4.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/modules/MaxScore-Sampler/Sampler_v210/Banks/legacy-test",
+				"patcherrelativepath" : "../MaxScore/patchers/modules/MaxScore-Sampler/Sampler_v210/Banks/legacy-test",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Kalimbell.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/modules/MaxScore-Sampler/Sampler_v210/Banks/legacy-test",
+				"patcherrelativepath" : "../MaxScore/patchers/modules/MaxScore-Sampler/Sampler_v210/Banks/legacy-test",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Dreamers.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/modules/MaxScore-Sampler/Sampler_v210/Banks/legacy-test",
+				"patcherrelativepath" : "../MaxScore/patchers/modules/MaxScore-Sampler/Sampler_v210/Banks/legacy-test",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Hi_Voweler.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/modules/MaxScore-Sampler/Sampler_v210/Banks/legacy-test",
+				"patcherrelativepath" : "../MaxScore/patchers/modules/MaxScore-Sampler/Sampler_v210/Banks/legacy-test",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Bell-2.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/modules/MaxScore-Sampler/Sampler_v210/Banks/legacy-test",
+				"patcherrelativepath" : "../MaxScore/patchers/modules/MaxScore-Sampler/Sampler_v210/Banks/legacy-test",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -18790,12 +18961,6 @@
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "black on white",
-				"number" : 				{
-					"fontsize" : [ 12.0 ],
-					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-					"fontname" : [ "Arial" ]
-				}
-,
 				"umenu" : 				{
 					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"bgfillcolor" : 					{
@@ -18808,6 +18973,12 @@
 						"autogradient" : 0
 					}
 
+				}
+,
+				"number" : 				{
+					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"fontsize" : [ 12.0 ],
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",

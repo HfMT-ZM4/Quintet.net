@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 55.0, 45.0, 1128.0, 729.0 ],
+		"rect" : [ 130.0, -942.0, 1128.0, 729.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -98,11 +98,11 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 519.0, 708.0, 59.5, 20.0 ],
 					"restore" : 					{
-						"render" : [ 0 ]
+						"render" : [ 1 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u119014216"
+					"varname" : "u309045226"
 				}
 
 			}
@@ -137,7 +137,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 14.0, 705.5, 18.0, 18.0 ],
 					"size" : 1,
-					"values" : [ 0 ],
+					"values" : [ 1 ],
 					"varname" : "render"
 				}
 
@@ -3678,7 +3678,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 247.0, 6.0, 61.0, 19.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 55, 45, 1183, 774, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 130, -942, 1258, -213, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 
@@ -4770,14 +4770,14 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 685.59997599999997, 314.0, 232.0, 18.0 ],
-													"restore" : [ 1.0, 0.0, 0.0, 1.0 ],
+													"restore" : [ 0.5, 0.5, 0.5, 1 ],
 													"saved_object_attributes" : 													{
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
 													}
 ,
 													"text" : "pattr @bindto parent::parent::player.5::bordercolor",
-													"varname" : "u640010695"
+													"varname" : "u059041631"
 												}
 
 											}
@@ -4791,14 +4791,14 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 526.700012000000015, 286.0, 232.0, 18.0 ],
-													"restore" : [ 1.0, 0.0, 0.0, 1.0 ],
+													"restore" : [ 0.5, 0.5, 0.5, 1 ],
 													"saved_object_attributes" : 													{
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
 													}
 ,
 													"text" : "pattr @bindto parent::parent::player.4::bordercolor",
-													"varname" : "u143010697"
+													"varname" : "u929041633"
 												}
 
 											}
@@ -4812,14 +4812,14 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 367.799987999999985, 251.0, 232.0, 18.0 ],
-													"restore" : [ 1.0, 0.0, 0.0, 1.0 ],
+													"restore" : [ 0.5, 0.5, 0.5, 1 ],
 													"saved_object_attributes" : 													{
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
 													}
 ,
 													"text" : "pattr @bindto parent::parent::player.3::bordercolor",
-													"varname" : "u153010699"
+													"varname" : "u542041635"
 												}
 
 											}
@@ -4833,14 +4833,14 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 208.899993999999992, 226.0, 232.0, 18.0 ],
-													"restore" : [ 1.0, 0.0, 0.0, 1.0 ],
+													"restore" : [ 0.5, 0.5, 0.5, 1 ],
 													"saved_object_attributes" : 													{
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
 													}
 ,
 													"text" : "pattr @bindto parent::parent::player.2::bordercolor",
-													"varname" : "u934010701"
+													"varname" : "u327041637"
 												}
 
 											}
@@ -4861,7 +4861,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::player.1::bordercolor",
-													"varname" : "u893010703"
+													"varname" : "u104041639"
 												}
 
 											}
@@ -6057,14 +6057,14 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 467.0, 187.0, 346.0, 35.0 ],
-													"restore" : [ 0 ],
+													"restore" : [ "Tutorial" ],
 													"saved_object_attributes" : 													{
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
 													}
 ,
 													"text" : "pattr @bindto ::client::Preferences::Project::path @autorestore 0 @invisible 1",
-													"varname" : "u932010713"
+													"varname" : "u312041649"
 												}
 
 											}
@@ -6169,7 +6169,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::Preferences::Mapper::outlet @autorestore 0 @invisible 1",
-													"varname" : "u916010717"
+													"varname" : "u547041653"
 												}
 
 											}
@@ -7696,7 +7696,7 @@
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 183.0, 20.0, 59.5, 18.0 ],
 													"text" : "autopattr",
-													"varname" : "u523013581"
+													"varname" : "u628044373"
 												}
 
 											}
@@ -9640,13 +9640,13 @@
 , 															{
 																"name" : "number001",
 																"default" : 																{
-																	"fontsize" : [ 10.0 ],
-																	"accentcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"fontname" : [ "Arial" ],
-																	"fontface" : [ 1 ],
 																	"selectioncolor" : [ 0.87, 0.82, 0.24, 1.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-																	"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ]
+																	"fontsize" : [ 10.0 ],
+																	"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+																	"fontname" : [ "Arial" ],
+																	"accentcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"fontface" : [ 1 ]
 																}
 ,
 																"parentstyle" : "",
@@ -14025,7 +14025,7 @@
 																	}
 ,
 																	"text" : "pattr @bindto parent::parent::parent::mix::timemode",
-																	"varname" : "u927011277"
+																	"varname" : "u012042214"
 																}
 
 															}
@@ -17036,7 +17036,7 @@
 													}
 ,
 													"text" : "autopattr",
-													"varname" : "u425013579"
+													"varname" : "u521044371"
 												}
 
 											}
@@ -19224,36 +19224,21 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-43::obj-36" : [ "live.text", "live.text", 0 ],
+			"obj-64::obj-1::obj-17" : [ "live.text[6]", "live.text[5]", 0 ],
 			"obj-12::obj-42::obj-80" : [ "live.text[8]", "live.text", 0 ],
+			"obj-64::obj-1::obj-10" : [ "live.text[5]", "live.text[5]", 0 ],
+			"obj-43::obj-36" : [ "live.text", "live.text", 0 ],
 			"obj-43::obj-20" : [ "live.text[2]", "live.text", 0 ],
 			"obj-45::obj-7" : [ "live.slider", "live.slider", 0 ],
 			"obj-43::obj-37" : [ "live.text[7]", "live.text", 0 ],
-			"obj-64::obj-1::obj-17" : [ "live.text[6]", "live.text[5]", 0 ],
-			"obj-12::obj-42::obj-79" : [ "live.text[9]", "live.text", 0 ],
 			"obj-64::obj-1::obj-19" : [ "live.text[1]", "live.text[5]", 0 ],
-			"obj-64::obj-1::obj-10" : [ "live.text[5]", "live.text[5]", 0 ],
 			"obj-64::obj-1::obj-8" : [ "live.tab[1]", "live.tab", 0 ],
+			"obj-12::obj-42::obj-79" : [ "live.text[9]", "live.text", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
-			"parameter_overrides" : 			{
-				"obj-12::obj-42::obj-80" : 				{
-					"parameter_longname" : "live.text[8]"
-				}
-,
-				"obj-45::obj-7" : 				{
-					"parameter_range" : [ 0.0, 2.5 ],
-					"parameter_initial" : 0.25
-				}
-,
-				"obj-12::obj-42::obj-79" : 				{
-					"parameter_longname" : "live.text[9]"
-				}
-
-			}
-
+			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -19268,6 +19253,13 @@
 				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Video-Generators/painter",
 				"patcherrelativepath" : "./patchers/Library/Video-Generators/painter",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Attributes.png",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/media/Images",
+				"patcherrelativepath" : "./media/Images",
+				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
@@ -19508,8 +19500,8 @@
 			}
 , 			{
 				"name" : "packback.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/abstractions",
-				"patcherrelativepath" : "../MaxScore/patchers/abstractions",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/utilities",
+				"patcherrelativepath" : "./patchers/Library/Abstractions/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -19634,15 +19626,15 @@
 			}
 , 			{
 				"name" : "srcdimcrop.genjit",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
-				"patcherrelativepath" : "./patchers/Library/Abstractions/viewer",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/jitter-examples/gen",
+				"patcherrelativepath" : "../../../../hajdu/Library/Application Support/Cycling '74/Max 8/Examples/jitter-examples/gen",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dstdimcrop.genjit",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
-				"patcherrelativepath" : "./patchers/Library/Abstractions/viewer",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/jitter-examples/gen",
+				"patcherrelativepath" : "../../../../hajdu/Library/Application Support/Cycling '74/Max 8/Examples/jitter-examples/gen",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
@@ -19697,13 +19689,6 @@
 			}
 , 			{
 				"name" : "Mapper.png",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/media/Images",
-				"patcherrelativepath" : "./media/Images",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Attributes.png",
 				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/media/Images",
 				"patcherrelativepath" : "./media/Images",
 				"type" : "PNG",
@@ -19916,6 +19901,10 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "jit.>.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "jit.gl.syphonserver.mxo",
 				"type" : "iLaX"
 			}
@@ -19940,7 +19929,6 @@
 				"type" : "iLaX"
 			}
  ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "panel_middle_raw",
 				"default" : 				{

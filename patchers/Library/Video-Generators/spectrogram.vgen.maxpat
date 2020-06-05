@@ -253,7 +253,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 143.0, 272.0, 950.0, 634.0 ],
+						"rect" : [ 210.0, 145.0, 950.0, 634.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -281,6 +281,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial ",
@@ -291,7 +292,6 @@
 									"numoutlets" : 8,
 									"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal" ],
 									"patching_rect" : [ 285.0, 101.0, 115.0, 20.0 ],
-									"presentation_linecount" : 2,
 									"text" : "adc~ 1 2 3 4 5 6 7 8"
 								}
 
@@ -306,7 +306,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 457.5, 120.0, 105.0, 20.0 ],
-									"presentation_linecount" : 2,
 									"text" : "receive~ Player5~"
 								}
 
@@ -321,7 +320,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 457.5, 97.0, 105.0, 20.0 ],
-									"presentation_linecount" : 2,
 									"text" : "receive~ Player4~"
 								}
 
@@ -336,7 +334,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 457.5, 72.0, 105.0, 20.0 ],
-									"presentation_linecount" : 2,
 									"text" : "receive~ Player3~"
 								}
 
@@ -351,7 +348,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 457.5, 47.0, 105.0, 20.0 ],
-									"presentation_linecount" : 2,
 									"text" : "receive~ Player2~"
 								}
 
@@ -380,7 +376,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 457.5, 22.0, 105.0, 20.0 ],
-									"presentation_linecount" : 2,
 									"text" : "receive~ Player1~"
 								}
 
@@ -1307,9 +1302,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 223.0, 127.0, 160.0, 160.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 160.0, 160.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 160.0, 147.0 ],
 					"rounded" : 0,
-					"style" : "panel_green_grey"
+					"style" : "panel_middle_light"
 				}
 
 			}
@@ -1419,6 +1414,78 @@
 			}
  ],
 		"styles" : [ 			{
+				"name" : "black on white",
+				"umenu" : 				{
+					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"number" : 				{
+					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"fontsize" : [ 12.0 ],
+					"fontname" : [ "Arial" ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "caption text",
+				"default" : 				{
+					"fontsize" : [ 11.0 ],
+					"fontface" : [ 2 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "comment_font_viewer",
+				"default" : 				{
+					"fontsize" : [ 12.0 ],
+					"fontname" : [ "Gill Sans" ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "comment_viewer_normal",
+				"default" : 				{
+					"fontsize" : [ 10.0 ],
+					"fontname" : [ "Arial" ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "number001",
+				"default" : 				{
+					"selectioncolor" : [ 0.87, 0.82, 0.24, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"fontname" : [ "Arial" ],
+					"accentcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"fontface" : [ 1 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
 				"name" : "panel_blue_grad",
 				"default" : 				{
 					"bgfillcolor" : 					{
@@ -1447,6 +1514,23 @@
 						"angle" : -90.0,
 						"proportion" : 0.736715,
 						"autogradient" : 0
+					}
+
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "panel_green_grad",
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color1" : [ 0.019608, 0.254902, 0.035294, 1.0 ],
+						"color2" : [ 0.871412, 0.955014, 0.629622, 1.0 ],
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.205314
 					}
 
 				}
@@ -1485,6 +1569,98 @@
 						"autogradient" : 0
 					}
 
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "panel_middle",
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color1" : [ 0.654902, 0.572549, 0.376471, 1.0 ],
+						"color2" : [ 0.0, 0.0, 0.0, 1.0 ],
+						"angle" : 90.0,
+						"proportion" : 0.390909,
+						"autogradient" : 0,
+						"pt1" : [ 0.504951, 0.956522 ],
+						"pt2" : [ 0.504951, 0.0 ]
+					}
+
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "panel_middle_light",
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color1" : [ 0.654902, 0.572549, 0.376471, 1.0 ],
+						"color2" : [ 0.0, 0.0, 0.0, 1.0 ],
+						"angle" : 90.0,
+						"proportion" : 0.554546,
+						"autogradient" : 0,
+						"pt1" : [ 0.504951, 0.956522 ],
+						"pt2" : [ 0.504951, 0.0 ]
+					}
+
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "panel_middle_raw",
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color1" : [ 0.654902, 0.572549, 0.376471, 1.0 ],
+						"color2" : [ 0.0, 0.0, 0.0, 1.0 ],
+						"angle" : 90.0,
+						"proportion" : 0.390909,
+						"autogradient" : 0,
+						"pt1" : [ 0.504951, 0.956522 ],
+						"pt2" : [ 0.504951, 0.0 ]
+					}
+
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "section dividers",
+				"default" : 				{
+					"fontsize" : [ 15.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 3 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "section info reg",
+				"default" : 				{
+					"fontsize" : [ 12.0 ],
+					"fontname" : [ "Arial" ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "titles",
+				"default" : 				{
+					"fontsize" : [ 20.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",

@@ -213,7 +213,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "signal", "signal", "jit_matrix", "" ],
 					"patching_rect" : [ 72.0, 168.0, 350.0, 22.0 ],
-					"text" : "jit.movie~ @autostart 0"
+					"text" : "jit.movie~ @autostart 0 @automatic 0"
 				}
 
 			}

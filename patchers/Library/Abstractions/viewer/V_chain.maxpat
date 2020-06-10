@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 85.0, 454.0, 428.0, 279.0 ],
+		"rect" : [ 141.0, 233.0, 830.0, 642.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -848,7 +848,7 @@
 													"autopopulate" : 1,
 													"depth" : 2,
 													"id" : "obj-1",
-													"items" : [ "EffectsEngine/COMBFILTER.json", ",", "EffectsEngine/DISTORTION.json", ",", "EffectsEngine/MASTER.json", ",", "EffectsEngine/MODULATION.json", ",", "EffectsEngine/ONE-FILTER.json", ",", "EffectsEngine/PITCHSHIFT.json", ",", "EffectsEngine/Resources/dikom.hd.nemlin.chebyshev.maxpat", ",", "EffectsEngine/Resources/dikom.hu.gui.input~.maxpat", ",", "EffectsEngine/Resources/dikom.hu.gui.output~.maxpat", ",", "EffectsEngine/Resources/ebe.ctlin.maxpat", ",", "EffectsEngine/Resources/gh.sfplayer~.maxpat", ",", "EffectsEngine/Resources/jk.bindto.maxpat", ",", "EffectsEngine/Resources/jk.chordfilter.maxpat", ",", "EffectsEngine/Resources/jk.chordfilter1.maxpat", ",", "EffectsEngine/Resources/jk.dry-wet.maxpat", ",", "EffectsEngine/Resources/jk.ebe.ctlin.maxpat", ",", "EffectsEngine/Resources/jk.filtervoice.maxpat", ",", "EffectsEngine/Resources/jk.iphone-button.maxpat", ",", "EffectsEngine/Resources/jk.iphone-multitoggle.maxpat", ",", "EffectsEngine/Resources/jk.iphone-numberbox.maxpat", ",", "EffectsEngine/Resources/jk.iphone-numberbox2.maxpat", ",", "EffectsEngine/Resources/jk.iphone-numberbox3.maxpat", ",", "EffectsEngine/Resources/jk.iphone-slider-v.maxpat", ",", "EffectsEngine/Resources/jk.iphone-slider.maxpat", ",", "EffectsEngine/Resources/jk.iphone-toggle.maxpat", ",", "EffectsEngine/Resources/jk.iphone-umenu.maxpat", ",", "EffectsEngine/Resources/jk.master-bp.maxpat", ",", "EffectsEngine/Resources/jk.master-preset-control.maxpat", ",", "EffectsEngine/Resources/jk.pattrhelper.maxpat", ",", "EffectsEngine/Resources/jk.prst.maxpat", ",", "EffectsEngine/Resources/jk.scale~.maxpat", ",", "EffectsEngine/Resources/jk.slash-remover.maxpat", ",", "EffectsEngine/Resources/jk.spectralmap-pfft.maxpat", ",", "EffectsEngine/Resources/jk.spectralmap-poly~.maxpat", ",", "EffectsEngine/Resources/jk.syncwindow.maxpat", ",", "EffectsEngine/Resources/jk.waveshape-poly.maxpat", ",", "EffectsEngine/Resources/par-iphone.maxpat", ",", "EffectsEngine/Resources/par.maxpat", ",", "EffectsEngine/Resources/poly.cascade~.maxpat", ",", "EffectsEngine/Resources/poly.gizmo_loadme~.maxpat", ",", "EffectsEngine/Resources/poly.teeth~.maxpat", ",", "EffectsEngine/Resources/test.iphone.maxpat", ",", "EffectsEngine/SPECTRAL.json", ",", "EffectsEngine/TO-Library-Audio-Extensions/EffectsEngine~.ext.maxpat", ",", "EffectsEngine/TO-Library-Inputs/EffectsEngine.input.maxpat", ",", "EffectsEngine/WaveShape.json", ",", "Five/Conductor/Five.controlpanel.maxpat", ",", "Five/Conductor/Five.sequence.json", ",", "RadioMusic/Audio-Extensions/RadioMusic~.ext.maxpat", ",", "RadioMusic/Conductor/RadioMusic.controlpanel.maxpat", ",", "RadioMusic/Inputs/RadioMusic.input.maxpat", ",", "RadioMusic/Resources/BellCurve.maxpat", ",", "RadioMusic/Resources/gh.pwr_mate.maxpat", ",", "RadioMusic/Resources/poly.radiomusic.maxpat", ",", "RadioMusic/Resources/RadioMusic-Score-Generator.maxpat", ",", "Sirenen/Audio-Extensions/Sirenen~.ext.maxpat", ",", "Sirenen/Conductor/Sirenen.condfile.json", ",", "Sirenen/Conductor/Sirenen.condtrol.maxpat", ",", "Sirenen/Inputs/Sirenen.input.maxpat", ",", "Tutorial/Audio-Extensions/Cycle~.ext.maxpat", ",", "Tutorial/Conductor/Tutorial.controlpanel.maxpat", ",", "Tutorial/Conductor/Tutorial.sequence.json", ",", "Tutorial/Inputs/Cycle~.input.maxpat", ",", "Tutorial/Processes/tutorial.process.maxpat", ",", "Tutorial/Resources/Create-your-own-tuning.maxpat" ],
+													"items" : [ "EffectsEngine/COMBFILTER.json", ",", "EffectsEngine/DISTORTION.json", ",", "EffectsEngine/MASTER.json", ",", "EffectsEngine/MODULATION.json", ",", "EffectsEngine/ONE-FILTER.json", ",", "EffectsEngine/PITCHSHIFT.json", ",", "EffectsEngine/Resources/dikom.hd.nemlin.chebyshev.maxpat", ",", "EffectsEngine/Resources/dikom.hu.gui.input~.maxpat", ",", "EffectsEngine/Resources/dikom.hu.gui.output~.maxpat", ",", "EffectsEngine/Resources/ebe.ctlin.maxpat", ",", "EffectsEngine/Resources/gh.sfplayer~.maxpat", ",", "EffectsEngine/Resources/jk.bindto.maxpat", ",", "EffectsEngine/Resources/jk.chordfilter.maxpat", ",", "EffectsEngine/Resources/jk.chordfilter1.maxpat", ",", "EffectsEngine/Resources/jk.dry-wet.maxpat", ",", "EffectsEngine/Resources/jk.ebe.ctlin.maxpat", ",", "EffectsEngine/Resources/jk.filtervoice.maxpat", ",", "EffectsEngine/Resources/jk.iphone-button.maxpat", ",", "EffectsEngine/Resources/jk.iphone-multitoggle.maxpat", ",", "EffectsEngine/Resources/jk.iphone-numberbox.maxpat", ",", "EffectsEngine/Resources/jk.iphone-numberbox2.maxpat", ",", "EffectsEngine/Resources/jk.iphone-numberbox3.maxpat", ",", "EffectsEngine/Resources/jk.iphone-slider-v.maxpat", ",", "EffectsEngine/Resources/jk.iphone-slider.maxpat", ",", "EffectsEngine/Resources/jk.iphone-toggle.maxpat", ",", "EffectsEngine/Resources/jk.iphone-umenu.maxpat", ",", "EffectsEngine/Resources/jk.master-bp.maxpat", ",", "EffectsEngine/Resources/jk.master-preset-control.maxpat", ",", "EffectsEngine/Resources/jk.pattrhelper.maxpat", ",", "EffectsEngine/Resources/jk.prst.maxpat", ",", "EffectsEngine/Resources/jk.scale~.maxpat", ",", "EffectsEngine/Resources/jk.slash-remover.maxpat", ",", "EffectsEngine/Resources/jk.spectralmap-pfft.maxpat", ",", "EffectsEngine/Resources/jk.spectralmap-poly~.maxpat", ",", "EffectsEngine/Resources/jk.syncwindow.maxpat", ",", "EffectsEngine/Resources/jk.waveshape-poly.maxpat", ",", "EffectsEngine/Resources/par-iphone.maxpat", ",", "EffectsEngine/Resources/par.maxpat", ",", "EffectsEngine/Resources/poly.cascade~.maxpat", ",", "EffectsEngine/Resources/poly.gizmo_loadme~.maxpat", ",", "EffectsEngine/Resources/poly.teeth~.maxpat", ",", "EffectsEngine/Resources/test.iphone.maxpat", ",", "EffectsEngine/SPECTRAL.json", ",", "EffectsEngine/TO-Library-Audio-Extensions/EffectsEngine~.ext.maxpat", ",", "EffectsEngine/TO-Library-Inputs/EffectsEngine.input.maxpat", ",", "EffectsEngine/WaveShape.json", ",", "Five/Conductor/Five.controlpanel.maxpat", ",", "Five/Conductor/Five.sequence.json", ",", "RadioMusic/Audio-Extensions/RadioMusic~.ext.maxpat", ",", "RadioMusic/Conductor/RadioMusic.controlpanel.maxpat", ",", "RadioMusic/Inputs/RadioMusic.input.maxpat", ",", "RadioMusic/Resources/gh.pwr_mate.maxpat", ",", "RadioMusic/Resources/poly.radiomusic.maxpat", ",", "RadioMusic/Resources/RadioMusic-Score-Generator.maxpat", ",", "RadioMusic/Resources/RadioMusicBellCurve.maxpat", ",", "RadioMusic/Viewer/radio-music.vgen.maxpat", ",", "Sirenen/Audio-Extensions/Sirenen~.ext.maxpat", ",", "Sirenen/Conductor/Sirenen.controlpanel.maxpat", ",", "Sirenen/Inputs/Sirenen.input.maxpat", ",", "Tutorial/Audio-Extensions/Cycle~.ext.maxpat", ",", "Tutorial/Conductor/Tutorial.controlpanel.maxpat", ",", "Tutorial/Inputs/Cycle~.input.maxpat", ",", "Tutorial/Processes/tutorial.process.maxpat", ",", "Tutorial/Resources/Create-your-own-tuning.maxpat", ",", "Tutorial/Resources/Tutorial.sequence.json", ",", "Tutorial/Viewer/template.vgen.maxpat" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -1478,7 +1478,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 50.0, 47.0, 17.0 ],
+									"patching_rect" : [ 50.0, 50.0, 47.0, 19.0 ],
 									"text" : "route on"
 								}
 
@@ -1492,7 +1492,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 122.0, 175.0, 61.0, 17.0 ],
+									"patching_rect" : [ 122.0, 175.0, 61.0, 19.0 ],
 									"text" : "prepend set"
 								}
 
@@ -1506,7 +1506,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 104.0, 155.0, 61.0, 17.0 ],
+									"patching_rect" : [ 104.0, 155.0, 61.0, 19.0 ],
 									"text" : "prepend set"
 								}
 
@@ -1520,7 +1520,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 86.0, 135.0, 61.0, 17.0 ],
+									"patching_rect" : [ 86.0, 135.0, 61.0, 19.0 ],
 									"text" : "prepend set"
 								}
 
@@ -1534,7 +1534,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 68.0, 113.0, 61.0, 17.0 ],
+									"patching_rect" : [ 68.0, 113.0, 61.0, 19.0 ],
 									"text" : "prepend set"
 								}
 
@@ -1548,7 +1548,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 94.0, 61.0, 17.0 ],
+									"patching_rect" : [ 50.0, 94.0, 61.0, 19.0 ],
 									"text" : "prepend set"
 								}
 
@@ -1562,7 +1562,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "int", "int", "int", "int", "int" ],
-									"patching_rect" : [ 50.0, 73.0, 85.0, 17.0 ],
+									"patching_rect" : [ 50.0, 73.0, 85.0, 19.0 ],
 									"text" : "unpack 1 1 1 1 1"
 								}
 
@@ -2171,7 +2171,7 @@
 					"fontname" : "Gill Sans",
 					"fontsize" : 10.0,
 					"id" : "obj-19",
-					"items" : [ "basic", ",", "blotch", ",", "brass", ",", "cursor", ",", "dot_screen", ",", "drift", ",", "eclipse", ",", "edgeblend", ",", "feedback", ",", "kaleidoscope", ",", "led", ",", "perspective_tile", ",", "pointillize", ",", "robcross", ",", "rotation", ",", "slide", ",", "spot_light", ",", "tiffany", ",", "twirl", ",", "type", ",", "wake", ",", "xfade" ],
+					"items" : [ "basic", ",", "blotch", ",", "brass", ",", "cursor", ",", "dot_screen-gl3", ",", "dot_screen", ",", "drift", ",", "eclipse", ",", "edgeblend", ",", "feedback", ",", "kaleidoscope", ",", "led", ",", "perspective_tile", ",", "pointillize", ",", "repos", ",", "robcross", ",", "rotation", ",", "slide", ",", "spot_light", ",", "tiffany", ",", "twirl", ",", "type", ",", "wake", ",", "xfade" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2199,7 +2199,7 @@
 					"fontname" : "Gill Sans",
 					"fontsize" : 10.0,
 					"id" : "obj-20",
-					"items" : [ "basic", ",", "blotch", ",", "brass", ",", "cursor", ",", "dot_screen", ",", "drift", ",", "eclipse", ",", "edgeblend", ",", "feedback", ",", "kaleidoscope", ",", "led", ",", "perspective_tile", ",", "pointillize", ",", "robcross", ",", "rotation", ",", "slide", ",", "spot_light", ",", "tiffany", ",", "twirl", ",", "type", ",", "wake", ",", "xfade" ],
+					"items" : [ "basic", ",", "blotch", ",", "brass", ",", "cursor", ",", "dot_screen-gl3", ",", "dot_screen", ",", "drift", ",", "eclipse", ",", "edgeblend", ",", "feedback", ",", "kaleidoscope", ",", "led", ",", "perspective_tile", ",", "pointillize", ",", "repos", ",", "robcross", ",", "rotation", ",", "slide", ",", "spot_light", ",", "tiffany", ",", "twirl", ",", "type", ",", "wake", ",", "xfade" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2227,7 +2227,7 @@
 					"fontname" : "Gill Sans",
 					"fontsize" : 10.0,
 					"id" : "obj-21",
-					"items" : [ "basic", ",", "blotch", ",", "brass", ",", "cursor", ",", "dot_screen", ",", "drift", ",", "eclipse", ",", "edgeblend", ",", "feedback", ",", "kaleidoscope", ",", "led", ",", "perspective_tile", ",", "pointillize", ",", "robcross", ",", "rotation", ",", "slide", ",", "spot_light", ",", "tiffany", ",", "twirl", ",", "type", ",", "wake", ",", "xfade" ],
+					"items" : [ "basic", ",", "blotch", ",", "brass", ",", "cursor", ",", "dot_screen-gl3", ",", "dot_screen", ",", "drift", ",", "eclipse", ",", "edgeblend", ",", "feedback", ",", "kaleidoscope", ",", "led", ",", "perspective_tile", ",", "pointillize", ",", "repos", ",", "robcross", ",", "rotation", ",", "slide", ",", "spot_light", ",", "tiffany", ",", "twirl", ",", "type", ",", "wake", ",", "xfade" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2255,7 +2255,7 @@
 					"fontname" : "Gill Sans",
 					"fontsize" : 10.0,
 					"id" : "obj-22",
-					"items" : [ "basic", ",", "blotch", ",", "brass", ",", "cursor", ",", "dot_screen", ",", "drift", ",", "eclipse", ",", "edgeblend", ",", "feedback", ",", "kaleidoscope", ",", "led", ",", "perspective_tile", ",", "pointillize", ",", "robcross", ",", "rotation", ",", "slide", ",", "spot_light", ",", "tiffany", ",", "twirl", ",", "type", ",", "wake", ",", "xfade" ],
+					"items" : [ "basic", ",", "blotch", ",", "brass", ",", "cursor", ",", "dot_screen-gl3", ",", "dot_screen", ",", "drift", ",", "eclipse", ",", "edgeblend", ",", "feedback", ",", "kaleidoscope", ",", "led", ",", "perspective_tile", ",", "pointillize", ",", "repos", ",", "robcross", ",", "rotation", ",", "slide", ",", "spot_light", ",", "tiffany", ",", "twirl", ",", "type", ",", "wake", ",", "xfade" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2283,7 +2283,7 @@
 					"fontname" : "Gill Sans",
 					"fontsize" : 10.0,
 					"id" : "obj-23",
-					"items" : [ "basic", ",", "blotch", ",", "brass", ",", "cursor", ",", "dot_screen", ",", "drift", ",", "eclipse", ",", "edgeblend", ",", "feedback", ",", "kaleidoscope", ",", "led", ",", "perspective_tile", ",", "pointillize", ",", "robcross", ",", "rotation", ",", "slide", ",", "spot_light", ",", "tiffany", ",", "twirl", ",", "type", ",", "wake", ",", "xfade" ],
+					"items" : [ "basic", ",", "blotch", ",", "brass", ",", "cursor", ",", "dot_screen-gl3", ",", "dot_screen", ",", "drift", ",", "eclipse", ",", "edgeblend", ",", "feedback", ",", "kaleidoscope", ",", "led", ",", "perspective_tile", ",", "pointillize", ",", "repos", ",", "robcross", ",", "rotation", ",", "slide", ",", "spot_light", ",", "tiffany", ",", "twirl", ",", "type", ",", "wake", ",", "xfade" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2331,11 +2331,11 @@
 						"on.4" : [ 0 ],
 						"on.5" : [ 0 ],
 						"source" : [ 0 ],
-						"vxf_1" : [ "dot_screen" ],
-						"vxf_2" : [ "tiffany" ],
+						"vxf_1" : [ "basic" ],
+						"vxf_2" : [ "eclipse" ],
 						"vxf_3" : [ "rotation" ],
 						"vxf_4" : [ "kaleidoscope" ],
-						"vxf_5" : [ "drift" ]
+						"vxf_5" : [ "led" ]
 					}
 ,
 					"text" : "autopattr #1fx-chain",

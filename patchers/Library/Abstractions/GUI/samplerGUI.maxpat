@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 190.0, -1109.0, 1241.0, 872.0 ],
+		"rect" : [ 34.0, 193.0, 1241.0, 872.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -151,7 +151,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 21.0, 637.5, 237.0, 22.0 ],
-					"restore" : [ 2375 ],
+					"restore" : [ 1402 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1554,14 +1554,14 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 156.0, 9.5, 358.0, 20.0 ],
-													"restore" : [ 0 ],
+													"restore" : [ "Triangle" ],
 													"saved_object_attributes" : 													{
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
 													}
 ,
 													"text" : "pattr @invisible 1 @autorestore 0 @bindto parent::parent::parent::Project::path",
-													"varname" : "u754018667"
+													"varname" : "u482008747"
 												}
 
 											}
@@ -5824,9 +5824,10 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"button" : 1,
 					"fontsize" : 11.595186999999999,
-					"gradient" : 1.0,
+					"htabcolor" : [ 0.047058823529412, 0.423529411764706, 0.847058823529412, 1.0 ],
 					"id" : "obj-63",
 					"maxclass" : "tab",
 					"mode" : 1,
@@ -5838,6 +5839,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 103.0, 1.0, 533.0, 20.0 ],
 					"segmented" : 1,
+					"tabcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"tabs" : [ "New Bank", "Open Bank...", "Save Bank as...", "Save All", "Generate Bank from Instrument Folder..." ]
 				}
 
@@ -5947,7 +5949,7 @@
 				"box" : 				{
 					"button" : 1,
 					"fontsize" : 11.595186999999999,
-					"gradient" : 1.0,
+					"htabcolor" : [ 0.047058823529412, 0.423529411764706, 0.847058823529412, 1.0 ],
 					"id" : "obj-42",
 					"maxclass" : "tab",
 					"numinlets" : 1,
@@ -5966,7 +5968,7 @@
 				"box" : 				{
 					"button" : 1,
 					"fontsize" : 11.595186999999999,
-					"gradient" : 1.0,
+					"htabcolor" : [ 0.047058823529412, 0.423529411764706, 0.847058823529412, 1.0 ],
 					"id" : "obj-41",
 					"maxclass" : "tab",
 					"mode" : 1,
@@ -5991,7 +5993,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "clear", "clear" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -6674,29 +6676,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "#0" ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-28",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "bank-waveform-editor.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 338.0, 743.0, 545.0, 107.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 432.0, 724.0, 210.0 ],
-					"varname" : "bank-waveform-editor",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-51",
@@ -6884,7 +6863,7 @@
 					"bgfillcolor_type" : "color",
 					"fontsize" : 18.0,
 					"id" : "obj-33",
-					"items" : "sine.bank.txt",
+					"items" : "Triangle.bank.txt",
 					"maxclass" : "umenu",
 					"menumode" : 2,
 					"numinlets" : 1,
@@ -6894,7 +6873,7 @@
 					"patching_rect" : [ 472.0, 411.0, 198.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 233.0, 21.0, 273.0, 29.0 ],
-					"textcolor" : [ 0.376471, 0.376471, 0.376471, 1.0 ],
+					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -6939,28 +6918,11 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 335.0, 91.0, 388.0, 288.0 ],
 					"rowhead" : 1,
-					"rows" : 3,
+					"rows" : 20,
 					"selmode" : 5,
 					"selsync" : 0,
 					"varname" : "SampleList",
 					"vsync" : 0
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 0.0,
-					"bgcolor" : [ 0.666667, 0.666667, 0.666667, 0.26 ],
-					"border" : 1,
-					"id" : "obj-40",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 915.0, 211.0, 128.0, 128.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 441.0, 727.0, 207.0 ],
-					"proportion" : 0.39
 				}
 
 			}
@@ -7017,7 +6979,7 @@
 					"presentation_rect" : [ 5.0, 69.0, 314.0, 310.0 ],
 					"rowhead" : 1,
 					"rowheight" : 20,
-					"rows" : 1,
+					"rows" : 13,
 					"selmode" : 3,
 					"varname" : "instrument-list"
 				}
@@ -7028,6 +6990,7 @@
 					"angle" : 0.0,
 					"bgcolor" : [ 0.666667, 0.666667, 0.666667, 0.26 ],
 					"border" : 1,
+					"bordercolor" : [ 0.745098039215686, 0.745098039215686, 0.745098039215686, 1.0 ],
 					"id" : "obj-39",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -7053,6 +7016,47 @@
 					"presentation_rect" : [ 19.0, 231.0, 272.0, 47.0 ],
 					"text" : "Instrument List",
 					"textcolor" : [ 0.388235, 0.388235, 0.388235, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "#0" ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-28",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "bank-waveform-editor.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 338.0, 743.0, 545.0, 107.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 4.0, 432.0, 724.0, 210.0 ],
+					"varname" : "bank-waveform-editor",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 0.0,
+					"bgcolor" : [ 0.666667, 0.666667, 0.666667, 0.26 ],
+					"border" : 1,
+					"bordercolor" : [ 0.745098039215686, 0.745098039215686, 0.745098039215686, 1.0 ],
+					"id" : "obj-40",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 915.0, 211.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 441.0, 727.0, 207.0 ],
+					"proportion" : 0.39
 				}
 
 			}

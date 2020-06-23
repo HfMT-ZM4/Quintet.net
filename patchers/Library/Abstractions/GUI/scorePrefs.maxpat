@@ -40,14 +40,15 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"bgcolor" : [ 0.047058823529412, 0.423529411764706, 0.847058823529412, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"bgfillcolor_color" : [ 0.047058823529412, 0.423529411764706, 0.847058823529412, 1.0 ],
 					"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "color",
+					"color" : [ 0.047058823529412, 0.423529411764706, 0.847058823529412, 1.0 ],
 					"id" : "obj-36",
 					"items" : [ "Network", ",", "Control", "Panel" ],
 					"maxclass" : "umenu",
@@ -58,7 +59,7 @@
 					"patching_rect" : [ 173.0, 118.0, 153.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 144.0, 24.0, 113.0, 22.0 ],
-					"textcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ],
 					"varname" : "messdest"
 				}
 
@@ -76,7 +77,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 17.0, 24.0, 82.0, 20.0 ],
 					"text" : "Messages to:",
-					"textcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
+					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 				}
 
 			}
@@ -122,7 +123,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 17.0, 55.0, 80.0, 20.0 ],
 					"text" : "Send cursor:",
-					"textcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
+					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 				}
 
 			}
@@ -209,14 +210,14 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 47.0, 375.0, 238.0, 22.0 ],
-					"restore" : [ 0, 0, 0 ],
+					"restore" : [ 0, 0, 1, 0, 1, 1, 0, 2, 1, 0, 3, 1, 0, 4, 1, 0, 5, 1, 1, 0, 1, 1, 1, 1, 1, 2, 1, 1, 3, 1, 1, 4, 1, 1, 5, 1, 2, 0, 1, 2, 1, 1, 2, 2, 1, 2, 3, 1, 2, 4, 1, 2, 5, 1, 3, 0, 1, 3, 1, 1, 3, 2, 1, 3, 3, 1, 3, 4, 1, 3, 5, 1, 4, 0, 1, 4, 1, 1, 4, 2, 1, 4, 3, 1, 4, 4, 1, 4, 5, 1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
 					"text" : "pattr @bindto score-matrix @autorestore 0",
-					"varname" : "u285009685"
+					"varname" : "u591005586"
 				}
 
 			}
@@ -475,7 +476,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "open" ],
 									"patching_rect" : [ 50.0, 40.0, 25.0, 25.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 532.0, 285.0, 25.0, 25.0 ]
@@ -1092,7 +1093,7 @@
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "color",
 					"id" : "obj-53",
-					"items" : "<empty>",
+					"items" : "-",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1139,7 +1140,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 262.0, 44.0, 59.5, 22.0 ],
 					"restore" : 					{
-						"cursor" : [ 0 ],
+						"cursor" : [ 1 ],
 						"messdest" : [ 1 ],
 						"output2controlpanel" : [ 0 ],
 						"paint" : [ 0 ],
@@ -1148,7 +1149,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u756004359"
+					"varname" : "u950006006"
 				}
 
 			}

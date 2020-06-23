@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 504.0, 177.0, 696.0, 631.0 ],
+		"rect" : [ 371.0, 167.0, 696.0, 631.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -47,7 +47,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 121.0, 4.0, 54.0, 22.0 ],
-					"text" : "Enable"
+					"text" : "Enable",
+					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 				}
 
 			}
@@ -60,7 +61,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 175.0, 4.0, 46.0, 22.0 ],
-					"text" : "Local"
+					"text" : "Local",
+					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 				}
 
 			}
@@ -94,7 +96,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u541022233"
+					"varname" : "u917012169"
 				}
 
 			}
@@ -149,7 +151,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 224.0, 4.0, 46.0, 22.0 ],
-					"text" : "Panel"
+					"text" : "Panel",
+					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 				}
 
 			}
@@ -163,6 +166,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 18.0, 4.0, 50.0, 22.0 ],
 					"text" : "Input:",
+					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ],
 					"varname" : "Label"
 				}
 
@@ -216,6 +220,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -533,14 +538,14 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 121.5, 61.0, 430.0, 22.0 ],
-													"restore" : [ "Five" ],
+													"restore" : [ 0 ],
 													"saved_object_attributes" : 													{
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
 													}
 ,
 													"text" : "pattr @invisible 1 @bindto parent::parent::parent::Project::path @autorestore 0",
-													"varname" : "u654018602"
+													"varname" : "u073008515"
 												}
 
 											}
@@ -1991,6 +1996,7 @@
 
 			}
  ],
+		"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 		"bgcolor" : [ 0.909803921568627, 0.909803921568627, 0.909803921568627, 1.0 ]
 	}
 

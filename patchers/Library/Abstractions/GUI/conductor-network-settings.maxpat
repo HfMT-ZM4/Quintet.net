@@ -78,7 +78,8 @@
 					"patching_rect" : [ 127.0, 129.0, 183.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 112.0, 37.0, 183.0, 20.0 ],
-					"text" : "Print messages to Max Window:"
+					"text" : "Print messages to Max Window:",
+					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 				}
 
 			}

@@ -2,15 +2,15 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
+			"major" : 8,
+			"minor" : 1,
 			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
+		"classnamespace" : "box",
 		"rect" : [ 126.0, 79.0, 704.0, 335.0 ],
-		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontsize" : 10.0,
@@ -46,7 +47,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 23.5, 108.0, 71.0, 20.0 ],
-					"style" : "",
 					"text" : "sprintf %s.sf2"
 				}
 
@@ -60,7 +60,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
 					"patching_rect" : [ 23.5, 72.0, 49.0, 20.0 ],
-					"style" : "",
 					"text" : "strippath"
 				}
 
@@ -74,12 +73,12 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 91.0, 284.0, 184.0, 20.0 ],
-					"restore" : [ "Macintosh HD:/Library/Audio/Sounds/Banks/Kalimba" ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 0
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
 					}
 ,
-					"style" : "",
 					"text" : "pattr bank @invisible 1 @autorestore 0",
 					"varname" : "bank"
 				}
@@ -94,7 +93,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 23.5, 141.0, 63.0, 20.0 ],
-					"style" : "",
 					"text" : "prepend set"
 				}
 
@@ -108,7 +106,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 6.5, 6.0, 78.0, 20.0 ],
-					"style" : "",
 					"text" : "loadmess clear"
 				}
 
@@ -122,7 +119,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 91.0, 30.0, 58.0, 20.0 ],
-					"style" : "",
 					"text" : "route bank"
 				}
 
@@ -135,7 +131,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 515.5, 94.0, 29.5, 22.0 ],
-					"style" : "",
 					"text" : "#1"
 				}
 
@@ -148,7 +143,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 515.5, 125.0, 180.0, 22.0 ],
-					"style" : "",
 					"text" : "pattrforward parent::select-bank"
 				}
 
@@ -168,9 +162,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 6.5, 173.0, 80.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 37.0, 121.0, 18.241611 ],
-					"style" : "",
-					"text" : "Kalimba.sf2",
+					"presentation_rect" : [ 1.0, 37.0, 121.0, 18.241610999999999 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -178,9 +170,9 @@
 , 			{
 				"box" : 				{
 					"button" : 1,
-					"fontsize" : 11.595187,
-					"gradient" : 1.0,
+					"fontsize" : 11.595186999999999,
 					"hint" : "Download entire project from server",
+					"htabcolor" : [ 0.047058823529412, 0.423529411764706, 0.847058823529412, 1.0 ],
 					"id" : "obj-22",
 					"maxclass" : "tab",
 					"multiline" : 0,
@@ -192,7 +184,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 17.0, 118.0, 20.0 ],
 					"segmented" : 1,
-					"style" : "",
 					"tabs" : [ "Select Bank File..." ]
 				}
 
@@ -207,7 +198,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 130.0, 236.0, 96.0, 22.0 ],
-					"style" : "",
 					"text" : "prepend symbol"
 				}
 
@@ -222,7 +212,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 130.0, 203.0, 40.0, 22.0 ],
-					"style" : "",
 					"text" : "zl reg"
 				}
 
@@ -237,7 +226,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 130.0, 56.0, 59.0, 20.0 ],
-					"style" : "",
 					"text" : "t l l"
 				}
 
@@ -252,7 +240,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 130.0, 83.0, 69.0, 20.0 ],
-					"style" : "",
 					"text" : "route append"
 				}
 
@@ -267,7 +254,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 130.0, 108.0, 89.0, 20.0 ],
-					"style" : "",
 					"text" : "sel <channel_10>"
 				}
 
@@ -284,10 +270,10 @@
 					"patching_rect" : [ 212.0, 6.0, 178.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 170.0, 79.0, 178.0, 22.0 ],
-					"restore" : [ "Cams ThmbPno Accent" ],
+					"restore" : [ "" ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "sound[4]",
+							"parameter_longname" : "sound[3]",
 							"parameter_mmax" : 129.0,
 							"parameter_shortname" : "sound",
 							"parameter_type" : 1
@@ -296,11 +282,10 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"annotation_name" : "",
-						"parameter_enable" : 1
+						"parameter_enable" : 1,
+						"parameter_mappable" : 0
 					}
 ,
-					"style" : "",
 					"text" : "pattr sound @bindto instrument",
 					"varname" : "sound"
 				}
@@ -316,7 +301,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 362.0, 89.0, 79.0, 22.0 ],
-					"style" : "",
 					"text" : "loadmess #1"
 				}
 
@@ -331,7 +315,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 362.0, 125.0, 120.0, 22.0 ],
-					"style" : "",
 					"text" : "sprintf set Player %i:"
 				}
 
@@ -346,7 +329,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 91.0, 6.0, 94.0, 20.0 ],
-					"style" : "",
 					"text" : "r #1populate-menu"
 				}
 
@@ -363,8 +345,8 @@
 					"patching_rect" : [ 362.0, 154.0, 85.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 0.0, 85.0, 18.0 ],
-					"style" : "",
-					"text" : "Player 1:"
+					"text" : "Player 1:",
+					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 				}
 
 			}
@@ -381,7 +363,7 @@
 					"fontface" : 1,
 					"fontsize" : 10.0,
 					"id" : "obj-25",
-					"items" : [ "<none>", ",", "Cams ThmbPno Norm", ",", "Cams ThmbPno Dry", ",", "Cams ThmbPno Accent", ",", "Cams ThmbPno Stereo", ",", "Cams ThmbPno Pan", ",", "Cams ThmbPno Dynamic", ",", "<channel_10>" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -390,8 +372,7 @@
 					"patching_rect" : [ 170.0, 153.0, 125.0, 20.0 ],
 					"pattrmode" : 1,
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 55.241611, 121.0, 20.0 ],
-					"style" : "",
+					"presentation_rect" : [ 1.0, 55.241610999999999, 121.0, 20.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "instrument"
 				}
@@ -544,7 +525,8 @@
 				}
 
 			}
- ]
+ ],
+		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ]
 	}
 
 }

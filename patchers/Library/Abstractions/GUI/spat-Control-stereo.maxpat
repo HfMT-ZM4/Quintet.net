@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 389.0, -1355.0, 1356.0, 680.0 ],
+		"rect" : [ 265.0, 321.0, 1356.0, 680.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -831,7 +831,8 @@
 					"patching_rect" : [ 165.0, 392.0, 91.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 131.0, 271.0, 91.0, 20.0 ],
-					"text" : "Stereo:"
+					"text" : "Stereo:",
+					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 				}
 
 			}
@@ -1113,7 +1114,8 @@
 					"patching_rect" : [ 360.0, 392.0, 45.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 326.0, 271.0, 45.0, 20.0 ],
-					"text" : "Angle"
+					"text" : "Angle",
+					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 				}
 
 			}
@@ -1129,7 +1131,8 @@
 					"patching_rect" : [ 282.0, 392.0, 49.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 247.0, 271.0, 49.0, 20.0 ],
-					"text" : "Spread"
+					"text" : "Spread",
+					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 				}
 
 			}
@@ -1144,7 +1147,8 @@
 					"patching_rect" : [ 165.0, 541.0, 95.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 131.0, 420.0, 95.0, 20.0 ],
-					"text" : "Audio Stream:"
+					"text" : "Audio Stream:",
+					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 				}
 
 			}
@@ -1159,7 +1163,8 @@
 					"patching_rect" : [ 165.0, 520.0, 95.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 131.0, 399.0, 95.0, 20.0 ],
-					"text" : "Granular Synth:"
+					"text" : "Granular Synth:",
+					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 				}
 
 			}
@@ -1174,7 +1179,8 @@
 					"patching_rect" : [ 165.0, 499.0, 58.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 131.0, 378.0, 58.0, 20.0 ],
-					"text" : "Player 5:"
+					"text" : "Player 5:",
+					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 				}
 
 			}
@@ -1189,7 +1195,8 @@
 					"patching_rect" : [ 165.0, 478.0, 58.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 131.0, 357.0, 58.0, 20.0 ],
-					"text" : "Player 4:"
+					"text" : "Player 4:",
+					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 				}
 
 			}
@@ -1204,7 +1211,8 @@
 					"patching_rect" : [ 165.0, 457.0, 58.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 131.0, 336.0, 58.0, 20.0 ],
-					"text" : "Player 3:"
+					"text" : "Player 3:",
+					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 				}
 
 			}
@@ -1219,7 +1227,8 @@
 					"patching_rect" : [ 165.0, 436.0, 58.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 131.0, 315.0, 58.0, 20.0 ],
-					"text" : "Player 2:"
+					"text" : "Player 2:",
+					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 				}
 
 			}
@@ -1234,7 +1243,8 @@
 					"patching_rect" : [ 165.0, 415.0, 58.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 131.0, 294.0, 58.0, 20.0 ],
-					"text" : "Player 1:"
+					"text" : "Player 1:",
+					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 				}
 
 			}
@@ -1256,7 +1266,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 11.595186999999999,
-					"gradient" : 1.0,
+					"htabcolor" : [ 0.047058823529412, 0.423529411764706, 0.847058823529412, 1.0 ],
 					"id" : "obj-4",
 					"maxclass" : "tab",
 					"numinlets" : 1,
@@ -1632,7 +1642,7 @@
 					"patching_rect" : [ 164.0, 319.0, 59.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 164.0, 240.0, 59.0, 22.0 ],
-					"textcolor" : [ 0.149, 0.149, 0.149, 1.0 ],
+					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ],
 					"underline" : 1
 				}
 
@@ -1756,7 +1766,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 647.0, 36.0, 144.0, 22.0 ],
 					"restore" : 					{
-						"Mode" : [ 1 ],
+						"Mode" : [ 0 ],
 						"angl0" : [ 0 ],
 						"angl1" : [ 0 ],
 						"angl2" : [ 0 ],
@@ -1775,7 +1785,7 @@
 					}
 ,
 					"text" : "autopattr @autorestore 0",
-					"varname" : "u053007022"
+					"varname" : "u124012167"
 				}
 
 			}

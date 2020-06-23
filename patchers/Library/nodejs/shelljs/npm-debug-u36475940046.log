@@ -1,0 +1,5 @@
+npm ERR! code EINVALIDTAGNAME
+npm ERR! Invalid tag name "[-g]": Tags may not have any characters that encodeURIComponent encodes.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hajdu/.npm/_logs/2020-06-12T17_29_54_483Z-debug.log

@@ -1,0 +1,10 @@
+npm ERR! code ENOSELF
+npm ERR! Refusing to install package with name "shelljs" under a package
+npm ERR! also called "shelljs". Did you name your project the same
+npm ERR! as the dependency you're installing?
+npm ERR! 
+npm ERR! For more information, see:
+npm ERR!     <https://docs.npmjs.com/cli/install#limitations-of-npms-install-algorithm>
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hajdu/.npm/_logs/2020-06-12T17_30_09_090Z-debug.log

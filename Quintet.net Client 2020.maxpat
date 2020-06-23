@@ -12,7 +12,7 @@
 		"classnamespace" : "box",
 		"rect" : [ 0.0, 45.0, 1142.0, 728.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -665,7 +665,7 @@
 												"box" : 												{
 													"id" : "obj-21",
 													"maxclass" : "newobj",
-													"numinlets" : 0,
+													"numinlets" : 4,
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 196.999995105263167, 309.0, 76.0, 22.0 ],
@@ -14256,7 +14256,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::Preferences::Mapper::outlet @autorestore 0 @invisible 1",
-													"varname" : "u351004100"
+													"varname" : "u920002278"
 												}
 
 											}
@@ -15539,7 +15539,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 235.0, 3.0, 633.0, 44.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 201.0, 3.0, 629.0, 39.0 ],
+					"presentation_rect" : [ 323.0, 2.0, 629.0, 39.0 ],
 					"varname" : "Register",
 					"viewvisibility" : 1
 				}
@@ -15611,10 +15611,10 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 20, 74, 660, 314 ],
+						"client_rect" : [ 814, 139, 1423, 455 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 30, 89, 670, 329 ]
+						"storage_rect" : [ 780, 524, 1380, 824 ]
 					}
 ,
 					"text" : "pattrstorage client @outputmode 4 @fileusagemode 1",
@@ -15715,7 +15715,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 247.0, 44.5, 629.0, 44.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 210.0, 45.0, 727.0, 44.0 ],
+					"presentation_rect" : [ 332.0, 44.0, 647.0, 44.0 ],
 					"varname" : "toolbar",
 					"viewvisibility" : 1
 				}
@@ -15733,7 +15733,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 1068.0, 700.0, 53.0, 19.0 ],
 					"text" : "autopattr",
-					"varname" : "u235010356"
+					"varname" : "u482008509"
 				}
 
 			}
@@ -15869,7 +15869,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1146.0, 89.5, 158.0, 118.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 982.0, 92.0, 158.0, 118.0 ],
+					"presentation_rect" : [ 1146.0, 89.5, 158.0, 118.0 ],
 					"varname" : "ekranz.1",
 					"viewvisibility" : 1
 				}
@@ -15893,7 +15893,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1146.0, 209.5, 158.0, 118.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 982.0, 213.0, 158.0, 118.0 ],
+					"presentation_rect" : [ 1146.0, 209.5, 158.0, 118.0 ],
 					"varname" : "ekranz.2",
 					"viewvisibility" : 1
 				}
@@ -15916,7 +15916,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1146.0, 329.5, 158.0, 118.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 982.0, 332.0, 158.0, 118.0 ],
+					"presentation_rect" : [ 1146.0, 329.5, 158.0, 118.0 ],
 					"varname" : "ekranz.3",
 					"viewvisibility" : 1
 				}
@@ -15939,7 +15939,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1146.0, 449.5, 158.0, 118.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 982.0, 451.0, 158.0, 118.0 ],
+					"presentation_rect" : [ 1146.0, 449.5, 158.0, 118.0 ],
 					"varname" : "ekranz.4",
 					"viewvisibility" : 1
 				}
@@ -15962,7 +15962,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1146.0, 570.5, 158.0, 118.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 982.0, 570.0, 158.0, 118.0 ],
+					"presentation_rect" : [ 1146.0, 570.5, 158.0, 118.0 ],
 					"varname" : "ekranz.5",
 					"viewvisibility" : 1
 				}
@@ -16087,10 +16087,15 @@
 			"obj-20::obj-16::obj-16.1::obj-42::obj-24" : [ "vst~", "vst~", 0 ],
 			"obj-20::obj-16::obj-4.1::obj-42::obj-24" : [ "vst~[4]", "vst~[4]", 0 ],
 			"obj-20::obj-16::obj-7.1::obj-42::obj-24" : [ "vst~[3]", "vst~[3]", 0 ],
+			"obj-5::obj-62::obj-26::obj-12::obj-26::obj-104" : [ "umenu[9]", "umenu", 0 ],
 			"obj-5::obj-62::obj-26::obj-1::obj-26::obj-104" : [ "umenu[4]", "umenu", 0 ],
+			"obj-5::obj-62::obj-27::obj-12::obj-26::obj-104" : [ "umenu[8]", "umenu", 0 ],
 			"obj-5::obj-62::obj-27::obj-1::obj-26::obj-104" : [ "umenu[3]", "umenu", 0 ],
+			"obj-5::obj-62::obj-28::obj-12::obj-26::obj-104" : [ "umenu[7]", "umenu", 0 ],
 			"obj-5::obj-62::obj-28::obj-1::obj-26::obj-104" : [ "umenu[2]", "umenu", 0 ],
+			"obj-5::obj-62::obj-29::obj-12::obj-26::obj-104" : [ "umenu[6]", "umenu", 0 ],
 			"obj-5::obj-62::obj-29::obj-1::obj-26::obj-104" : [ "umenu[1]", "umenu", 0 ],
+			"obj-5::obj-62::obj-30::obj-12::obj-26::obj-104" : [ "umenu[5]", "umenu", 0 ],
 			"obj-5::obj-62::obj-30::obj-1::obj-26::obj-104" : [ "umenu", "umenu", 0 ],
 			"obj-8::obj-24" : [ "live.text[2]", "live.text[2]", 0 ],
 			"obj-8::obj-34" : [ "live.text[7]", "live.text[2]", 0 ],
@@ -16845,13 +16850,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "audio-controller3-stereo.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/GUI",
-				"patcherrelativepath" : "./patchers/Library/Abstractions/GUI",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "audio-controller2-stereo.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/GUI",
 				"patcherrelativepath" : "./patchers/Library/Abstractions/GUI",
@@ -16859,7 +16857,21 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "SliderBG-dark.png",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/media/Images",
+				"patcherrelativepath" : "./media/Images",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "gigaverb~GUI.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/GUI",
+				"patcherrelativepath" : "./patchers/Library/Abstractions/GUI",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "audio-controller3-stereo.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/GUI",
 				"patcherrelativepath" : "./patchers/Library/Abstractions/GUI",
 				"type" : "JSON",
@@ -16884,76 +16896,6 @@
 				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/GUI",
 				"patcherrelativepath" : "./patchers/Library/Abstractions/GUI",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Inputs.png",
-				"bootpath" : "/Users/Shared/Max 8/Library/Quintet.net/Images",
-				"patcherrelativepath" : "../../Library/Quintet.net/Images",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "MIDI.png",
-				"bootpath" : "/Users/Shared/Max 8/Library/Quintet.net/Images",
-				"patcherrelativepath" : "../../Library/Quintet.net/Images",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Sampler.png",
-				"bootpath" : "/Users/Shared/Max 8/Library/Quintet.net/Images",
-				"patcherrelativepath" : "../../Library/Quintet.net/Images",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Spatialization.png",
-				"bootpath" : "/Users/Shared/Max 8/Library/Quintet.net/Images",
-				"patcherrelativepath" : "../../Library/Quintet.net/Images",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Plugins.png",
-				"bootpath" : "/Users/Shared/Max 8/Library/Quintet.net/Images",
-				"patcherrelativepath" : "../../Library/Quintet.net/Images",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Audio-Levels.png",
-				"bootpath" : "/Users/Shared/Max 8/Library/Quintet.net/Images",
-				"patcherrelativepath" : "../../Library/Quintet.net/Images",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Network.png",
-				"bootpath" : "/Users/Shared/Max 8/Library/Quintet.net/Images",
-				"patcherrelativepath" : "../../Library/Quintet.net/Images",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Attributes.png",
-				"bootpath" : "/Users/Shared/Max 8/Library/Quintet.net/Images",
-				"patcherrelativepath" : "../../Library/Quintet.net/Images",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Mapping.png",
-				"bootpath" : "/Users/Shared/Max 8/Library/Quintet.net/Images",
-				"patcherrelativepath" : "../../Library/Quintet.net/Images",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Project.png",
-				"bootpath" : "/Users/Shared/Max 8/Library/Quintet.net/Images",
-				"patcherrelativepath" : "../../Library/Quintet.net/Images",
-				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
@@ -17146,8 +17088,8 @@
 			}
 , 			{
 				"name" : "shell-git-clone.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/node.js/shelljs",
-				"patcherrelativepath" : "./patchers/Library/node.js/shelljs",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/nodejs/shelljs",
+				"patcherrelativepath" : "./patchers/Library/nodejs/shelljs",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -17544,15 +17486,15 @@
 			}
 , 			{
 				"name" : "drawsocket-server.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/node.js/drawsocket4quintet.net/code/node",
-				"patcherrelativepath" : "./patchers/Library/node.js/drawsocket4quintet.net/code/node",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/nodejs/drawsocket4quintetnet/code/node",
+				"patcherrelativepath" : "./patchers/Library/nodejs/drawsocket4quintetnet/code/node",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "startscript.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/node.js/drawsocket4quintet.net/code",
-				"patcherrelativepath" : "./patchers/Library/node.js/drawsocket4quintet.net/code",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/nodejs/drawsocket4quintetnet/code",
+				"patcherrelativepath" : "./patchers/Library/nodejs/drawsocket4quintetnet/code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

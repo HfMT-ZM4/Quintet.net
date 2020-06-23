@@ -8,4 +8,4 @@ patchers/Projects/*
 !patchers/Projects/Five
 !patchers/Projects/Tutorial
 !patchers/Projects/EffectsEngine
-public/media/project/score.svg
+public/media/project/*

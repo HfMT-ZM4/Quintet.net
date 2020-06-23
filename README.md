@@ -21,6 +21,9 @@ Get from http://www.computermusicnotation.com/downloadmaxscore/.
 ## odot
 Download or clone the GitHub repo from https://github.com/HfMT-ZM4/CNMAT-odot.git/ to your Max 8/Packages folder
 
+## drawsocket
+Download or clone the GitHub repo from https://github.com/HfMT-ZM4/drawsocket to your Max 8/Packages folder
+
 ## Java
 Quintet.net and MaxScore also require the installation of the Java SDK which you can find [here](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html) for your operation system.
 

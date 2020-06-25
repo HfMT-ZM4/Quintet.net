@@ -1,11 +1,9 @@
 {
 	"init" : 	{
 		"/marker" : "Section1",
-		"/!target/0.0.0.0/player.2||resolution" : [ 480, 360 ],
-		"/!target/0.0.0.0/mix||time" : 0.0,
-		"/!target/0.0.0.0/player.1||resolution" : [ 480, 360 ],
+		"/viewer/mix||time" : 0.0,
 		"/client/panel.5||instrument" : [ "*", "Bell1.instr" ],
-		"/!target/0.0.0.0/player.1||loop" : 1,
+		"/viewer/player.1||loop" : 1,
 		"/client/panel.2||instrument" : [ "*", "Bell2.instr" ],
 		"/client/panel.4||instrument" : [ "*", "Kalimbell.instr" ],
 		"/client/panel.3||processPreset" : "-",
@@ -17,7 +15,7 @@
 		"/client/panel.1||instrument" : [ "*", "Celeste.instr" ],
 		"/client/panel.3||displayMode" : "events&parts",
 		"/client/panel.3||displayStaves" : "Treble",
-		"/!target/0.0.0.0/viewer/player.1||clip" : "Five1.tif",
+		"/viewer/player.1||clip" : "Five1.tif",
 		"/client/panel.4||displayMode" : "events&parts",
 		"/client/panel.5||displayMode" : "events&parts",
 		"/client/panel.4||displayStaves" : "Treble",
@@ -34,31 +32,31 @@
 	}
 ,
 	"60000" : 	{
-		"/!target/0.0.0.0/player.2||clip" : "Five2.tif",
-		"/!target/0.0.0.0/player.2||loop" : 1,
-		"/!target/0.0.0.0/mix||time" : 25000.0,
-		"/!target/0.0.0.0/player.2||play" : 1
+		"/viewer/player.2||clip" : "Five2.tif",
+		"/viewer/player.2||loop" : 1,
+		"/viewer/mix||time" : 25000.0,
+		"/viewer/player.2||play" : 1
 	}
 ,
 	"134000" : 	{
 		"/marker" : "Section2",
 		"/maxscore/message/render" : 2,
 		"/command" : "page 2",
-		"/!target/0.0.0.0/player.1||clip" : "Five3.tif",
-		"/!target/0.0.0.0/mix||time" : 1000.0
+		"/viewer/player.1||clip" : "Five3.tif",
+		"/viewer/mix||time" : 1000.0
 	}
 ,
 	"164000" : 	{
 		"/marker" : "Section3",
-		"//!target/0.0.0.0/player.2||clip" : "Five4.tif",
-		"/!target/0.0.0.0/mix||time" : 1000.0,
+		"//viewer/player.2||clip" : "Five4.tif",
+		"/viewer/mix||time" : 1000.0,
 		"/maxscore/message/render" : 3,
 		"/command" : "page 3"
 	}
 ,
 	"225000" : 	{
-		"/!target/0.0.0.0/player.1||clip" : "Five5.tif",
-		"/!target/0.0.0.0/mix||time" : 25000.0
+		"/viewer/player.1||clip" : "Five5.tif",
+		"/viewer/mix||time" : 25000.0
 	}
 ,
 	"2300000" : 	{

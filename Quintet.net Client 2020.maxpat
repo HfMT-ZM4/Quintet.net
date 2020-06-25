@@ -42,6 +42,20 @@
 		"title" : "Quintet.net Client",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "jweb",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1169.0, 60.0, 320.0, 240.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1142.0, 0.0, 157.0, 695.0 ],
+					"rendermode" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-1",
@@ -2366,7 +2380,7 @@
 																					"autopopulate" : 1,
 																					"depth" : 2,
 																					"id" : "obj-1",
-																					"items" : [ "EffectsEngine/COMBFILTER.json", ",", "EffectsEngine/DISTORTION.json", ",", "EffectsEngine/MASTER.json", ",", "EffectsEngine/MODULATION.json", ",", "EffectsEngine/ONE-FILTER.json", ",", "EffectsEngine/PITCHSHIFT.json", ",", "EffectsEngine/Resources/dikom.hd.nemlin.chebyshev.maxpat", ",", "EffectsEngine/Resources/dikom.hu.gui.input~.maxpat", ",", "EffectsEngine/Resources/dikom.hu.gui.output~.maxpat", ",", "EffectsEngine/Resources/ebe.ctlin.maxpat", ",", "EffectsEngine/Resources/gh.sfplayer~.maxpat", ",", "EffectsEngine/Resources/jk.bindto.maxpat", ",", "EffectsEngine/Resources/jk.chordfilter.maxpat", ",", "EffectsEngine/Resources/jk.chordfilter1.maxpat", ",", "EffectsEngine/Resources/jk.dry-wet.maxpat", ",", "EffectsEngine/Resources/jk.ebe.ctlin.maxpat", ",", "EffectsEngine/Resources/jk.filtervoice.maxpat", ",", "EffectsEngine/Resources/jk.iphone-button.maxpat", ",", "EffectsEngine/Resources/jk.iphone-multitoggle.maxpat", ",", "EffectsEngine/Resources/jk.iphone-numberbox.maxpat", ",", "EffectsEngine/Resources/jk.iphone-numberbox2.maxpat", ",", "EffectsEngine/Resources/jk.iphone-numberbox3.maxpat", ",", "EffectsEngine/Resources/jk.iphone-slider-v.maxpat", ",", "EffectsEngine/Resources/jk.iphone-slider.maxpat", ",", "EffectsEngine/Resources/jk.iphone-toggle.maxpat", ",", "EffectsEngine/Resources/jk.iphone-umenu.maxpat", ",", "EffectsEngine/Resources/jk.master-bp.maxpat", ",", "EffectsEngine/Resources/jk.master-preset-control.maxpat", ",", "EffectsEngine/Resources/jk.pattrhelper.maxpat", ",", "EffectsEngine/Resources/jk.prst.maxpat", ",", "EffectsEngine/Resources/jk.scale~.maxpat", ",", "EffectsEngine/Resources/jk.slash-remover.maxpat", ",", "EffectsEngine/Resources/jk.spectralmap-pfft.maxpat", ",", "EffectsEngine/Resources/jk.spectralmap-poly~.maxpat", ",", "EffectsEngine/Resources/jk.syncwindow.maxpat", ",", "EffectsEngine/Resources/jk.waveshape-poly.maxpat", ",", "EffectsEngine/Resources/par-iphone.maxpat", ",", "EffectsEngine/Resources/par.maxpat", ",", "EffectsEngine/Resources/poly.cascade~.maxpat", ",", "EffectsEngine/Resources/poly.gizmo_loadme~.maxpat", ",", "EffectsEngine/Resources/poly.teeth~.maxpat", ",", "EffectsEngine/Resources/test.iphone.maxpat", ",", "EffectsEngine/SPECTRAL.json", ",", "EffectsEngine/TO-Library-Audio-Extensions/EffectsEngine~.ext.maxpat", ",", "EffectsEngine/TO-Library-Inputs/EffectsEngine.input.maxpat", ",", "EffectsEngine/WaveShape.json", ",", "Five/Conductor/Five.controlpanel.maxpat", ",", "Five/Conductor/Five.sequence.json", ",", "hgzb-cake2020/hfmt.say.maxhelp", ",", "hgzb-cake2020/hfmt.say.maxpat", ",", "hgzb-cake2020/hgzb_cake.maxpat", ",", "hgzb-cake2020/multex.maxpat", ",", "RadioMusic/Audio-Extensions/RadioMusic~.ext.maxpat", ",", "RadioMusic/Conductor/RadioMusic.controlpanel.maxpat", ",", "RadioMusic/Inputs/RadioMusic.input.maxpat", ",", "RadioMusic/Resources/gh.pwr_mate.maxpat", ",", "RadioMusic/Resources/poly.radiomusic.maxpat", ",", "RadioMusic/Resources/RadioMusic-Score-Generator.maxpat", ",", "RadioMusic/Resources/RadioMusicBellCurve.maxpat", ",", "RadioMusic/Viewer/radio-music.vgen.maxpat", ",", "Sirenen/Audio-Extensions/Sirenen~.ext.maxpat", ",", "Sirenen/Conductor/Sirenen.controlpanel.maxpat", ",", "Sirenen/Inputs/Sirenen.input.maxpat", ",", "Tutorial/Audio-Extensions/Cycle~.ext.maxpat", ",", "Tutorial/Conductor/Tutorial.controlpanel.maxpat", ",", "Tutorial/Inputs/Cycle~.input.maxpat", ",", "Tutorial/Processes/tutorial.process.maxpat", ",", "Tutorial/Resources/Create-your-own-tuning.maxpat", ",", "Tutorial/Resources/Tutorial.sequence.json", ",", "Tutorial/Viewer/template.vgen.maxpat" ],
+																					"items" : [ "EffectsEngine/COMBFILTER.json", ",", "EffectsEngine/DISTORTION.json", ",", "EffectsEngine/MASTER.json", ",", "EffectsEngine/MODULATION.json", ",", "EffectsEngine/ONE-FILTER.json", ",", "EffectsEngine/PITCHSHIFT.json", ",", "EffectsEngine/Resources/dikom.hd.nemlin.chebyshev.maxpat", ",", "EffectsEngine/Resources/dikom.hu.gui.input~.maxpat", ",", "EffectsEngine/Resources/dikom.hu.gui.output~.maxpat", ",", "EffectsEngine/Resources/ebe.ctlin.maxpat", ",", "EffectsEngine/Resources/gh.sfplayer~.maxpat", ",", "EffectsEngine/Resources/jk.bindto.maxpat", ",", "EffectsEngine/Resources/jk.chordfilter.maxpat", ",", "EffectsEngine/Resources/jk.chordfilter1.maxpat", ",", "EffectsEngine/Resources/jk.dry-wet.maxpat", ",", "EffectsEngine/Resources/jk.ebe.ctlin.maxpat", ",", "EffectsEngine/Resources/jk.filtervoice.maxpat", ",", "EffectsEngine/Resources/jk.iphone-button.maxpat", ",", "EffectsEngine/Resources/jk.iphone-multitoggle.maxpat", ",", "EffectsEngine/Resources/jk.iphone-numberbox.maxpat", ",", "EffectsEngine/Resources/jk.iphone-numberbox2.maxpat", ",", "EffectsEngine/Resources/jk.iphone-numberbox3.maxpat", ",", "EffectsEngine/Resources/jk.iphone-slider-v.maxpat", ",", "EffectsEngine/Resources/jk.iphone-slider.maxpat", ",", "EffectsEngine/Resources/jk.iphone-toggle.maxpat", ",", "EffectsEngine/Resources/jk.iphone-umenu.maxpat", ",", "EffectsEngine/Resources/jk.master-bp.maxpat", ",", "EffectsEngine/Resources/jk.master-preset-control.maxpat", ",", "EffectsEngine/Resources/jk.pattrhelper.maxpat", ",", "EffectsEngine/Resources/jk.prst.maxpat", ",", "EffectsEngine/Resources/jk.scale~.maxpat", ",", "EffectsEngine/Resources/jk.slash-remover.maxpat", ",", "EffectsEngine/Resources/jk.spectralmap-pfft.maxpat", ",", "EffectsEngine/Resources/jk.spectralmap-poly~.maxpat", ",", "EffectsEngine/Resources/jk.syncwindow.maxpat", ",", "EffectsEngine/Resources/jk.waveshape-poly.maxpat", ",", "EffectsEngine/Resources/par-iphone.maxpat", ",", "EffectsEngine/Resources/par.maxpat", ",", "EffectsEngine/Resources/poly.cascade~.maxpat", ",", "EffectsEngine/Resources/poly.gizmo_loadme~.maxpat", ",", "EffectsEngine/Resources/poly.teeth~.maxpat", ",", "EffectsEngine/Resources/test.iphone.maxpat", ",", "EffectsEngine/SPECTRAL.json", ",", "EffectsEngine/TO-Library-Audio-Extensions/EffectsEngine~.ext.maxpat", ",", "EffectsEngine/TO-Library-Inputs/EffectsEngine.input.maxpat", ",", "EffectsEngine/WaveShape.json", ",", "Five/Conductor/Five.controlpanel.maxpat", ",", "Five/Conductor/Five.sequence.json", ",", "hgzb-cake2020/hfmt.say.maxhelp", ",", "hgzb-cake2020/hfmt.say.maxpat", ",", "hgzb-cake2020/hgzb_cake.maxpat", ",", "hgzb-cake2020/multex.maxpat", ",", "RadioMusic/Audio-Extensions/RadioMusic~.ext.maxpat", ",", "RadioMusic/Conductor/RadioMusic.controlpanel.maxpat", ",", "RadioMusic/Inputs/RadioMusic.input.maxpat", ",", "RadioMusic/Resources/gh.pwr_mate.maxpat", ",", "RadioMusic/Resources/poly.radiomusic.maxpat", ",", "RadioMusic/Resources/RadioMusic-Score-Generator.maxpat", ",", "RadioMusic/Resources/RadioMusicBellCurve.maxpat", ",", "RadioMusic/Viewer/radio-music.vgen.maxpat", ",", "Rectangle/Conductor/Rectangle.controlpanel.maxpat", ",", "Rectangle/Conductor/Rectangle.sequence.json", ",", "Sirenen/Audio-Extensions/Sirenen~.ext.maxpat", ",", "Sirenen/Conductor/Sirenen.controlpanel.maxpat", ",", "Sirenen/Inputs/Sirenen.input.maxpat", ",", "Tutorial/Audio-Extensions/Cycle~.ext.maxpat", ",", "Tutorial/Conductor/Tutorial.controlpanel.maxpat", ",", "Tutorial/Inputs/Cycle~.input.maxpat", ",", "Tutorial/Processes/tutorial.process.maxpat", ",", "Tutorial/Resources/Create-your-own-tuning.maxpat", ",", "Tutorial/Resources/Tutorial.sequence.json", ",", "Tutorial/Viewer/template.vgen.maxpat" ],
 																					"maxclass" : "umenu",
 																					"numinlets" : 1,
 																					"numoutlets" : 3,
@@ -4870,24 +4884,12 @@
 											}
 , 											{
 												"box" : 												{
-													"id" : "obj-6",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 355.25, 551.0, 54.0, 22.0 ],
-													"text" : "deferlow"
-												}
-
-											}
-, 											{
-												"box" : 												{
 													"id" : "obj-46",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 355.25, 458.0, 58.0, 22.0 ],
+													"patching_rect" : [ 236.25, 479.0, 58.0, 22.0 ],
 													"text" : "loadbang"
 												}
 
@@ -4926,8 +4928,8 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 416.25, 707.0, 321.0, 48.0 ],
-													"text" : "/stdout : \"received socket close /1 Xu3DUIy+dtky5IoSHrdW4g==\""
+													"patching_rect" : [ 511.25, 699.0, 321.0, 48.0 ],
+													"text" : "/port/ip : \"http://192.168.178.146:3003\",\n/port/localhost : \"http://localhost:3003\""
 												}
 
 											}
@@ -5344,8 +5346,8 @@
 													"numinlets" : 1,
 													"numoutlets" : 3,
 													"outlettype" : [ "FullPacket", "", "FullPacket" ],
-													"patching_rect" : [ 238.25, 637.0, 197.0, 22.0 ],
-													"text" : "hfmt.drawsocket public @port 3003"
+													"patching_rect" : [ 238.25, 637.0, 292.0, 22.0 ],
+													"text" : "hfmt.drawsocket.min public @port 3003 @autostart 1"
 												}
 
 											}
@@ -6088,9 +6090,9 @@
 														"styles" : [ 															{
 																"name" : "black on white",
 																"number" : 																{
+																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 																	"fontsize" : [ 12.0 ],
-																	"fontname" : [ "Arial" ],
-																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+																	"fontname" : [ "Arial" ]
 																}
 ,
 																"umenu" : 																{
@@ -6113,8 +6115,8 @@
 , 															{
 																"name" : "caption text",
 																"default" : 																{
-																	"fontsize" : [ 11.0 ],
-																	"fontface" : [ 2 ]
+																	"fontface" : [ 2 ],
+																	"fontsize" : [ 11.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -6123,9 +6125,9 @@
 , 															{
 																"name" : "section dividers",
 																"default" : 																{
+																	"fontface" : [ 3 ],
 																	"fontsize" : [ 15.0 ],
-																	"fontname" : [ "Arial" ],
-																	"fontface" : [ 3 ]
+																	"fontname" : [ "Arial" ]
 																}
 ,
 																"parentstyle" : "",
@@ -6144,9 +6146,9 @@
 , 															{
 																"name" : "titles",
 																"default" : 																{
+																	"fontface" : [ 1 ],
 																	"fontsize" : [ 20.0 ],
-																	"fontname" : [ "Arial" ],
-																	"fontface" : [ 1 ]
+																	"fontname" : [ "Arial" ]
 																}
 ,
 																"parentstyle" : "",
@@ -13860,15 +13862,6 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-42", 0 ],
-													"order" : 1,
-													"source" : [ "obj-46", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-6", 0 ],
-													"order" : 0,
 													"source" : [ "obj-46", 0 ]
 												}
 
@@ -13901,13 +13894,6 @@
 													"destination" : [ "obj-28", 0 ],
 													"midpoints" : [ 202.5, 250.5, 274.5, 250.5 ],
 													"source" : [ "obj-54", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-31", 0 ],
-													"source" : [ "obj-6", 0 ]
 												}
 
 											}
@@ -13950,9 +13936,9 @@
 										"styles" : [ 											{
 												"name" : "black on white",
 												"number" : 												{
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 													"fontsize" : [ 12.0 ],
-													"fontname" : [ "Arial" ],
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+													"fontname" : [ "Arial" ]
 												}
 ,
 												"umenu" : 												{
@@ -13975,8 +13961,8 @@
 , 											{
 												"name" : "caption text",
 												"default" : 												{
-													"fontsize" : [ 11.0 ],
-													"fontface" : [ 2 ]
+													"fontface" : [ 2 ],
+													"fontsize" : [ 11.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -13985,9 +13971,9 @@
 , 											{
 												"name" : "section dividers",
 												"default" : 												{
+													"fontface" : [ 3 ],
 													"fontsize" : [ 15.0 ],
-													"fontname" : [ "Arial" ],
-													"fontface" : [ 3 ]
+													"fontname" : [ "Arial" ]
 												}
 ,
 												"parentstyle" : "",
@@ -14006,9 +13992,9 @@
 , 											{
 												"name" : "titles",
 												"default" : 												{
+													"fontface" : [ 1 ],
 													"fontsize" : [ 20.0 ],
-													"fontname" : [ "Arial" ],
-													"fontface" : [ 1 ]
+													"fontname" : [ "Arial" ]
 												}
 ,
 												"parentstyle" : "",
@@ -14256,7 +14242,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::Preferences::Mapper::outlet @autorestore 0 @invisible 1",
-													"varname" : "u583001715"
+													"varname" : "u661008419"
 												}
 
 											}
@@ -15539,7 +15525,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 235.0, 3.0, 633.0, 44.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 323.0, 2.0, 629.0, 39.0 ],
+					"presentation_rect" : [ 320.0, 2.0, 629.0, 39.0 ],
 					"varname" : "Register",
 					"viewvisibility" : 1
 				}
@@ -15611,10 +15597,10 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 20, 74, 660, 314 ],
+						"client_rect" : [ 814, 139, 1423, 455 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 30, 89, 670, 329 ]
+						"storage_rect" : [ 780, 524, 1380, 824 ]
 					}
 ,
 					"text" : "pattrstorage client @outputmode 4 @fileusagemode 1",
@@ -15715,7 +15701,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 247.0, 44.5, 629.0, 44.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 332.0, 44.0, 647.0, 44.0 ],
+					"presentation_rect" : [ 329.0, 44.0, 647.0, 44.0 ],
 					"varname" : "toolbar",
 					"viewvisibility" : 1
 				}
@@ -15733,7 +15719,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 1068.0, 700.0, 53.0, 19.0 ],
 					"text" : "autopattr",
-					"varname" : "u939007946"
+					"varname" : "u380014648"
 				}
 
 			}
@@ -15848,122 +15834,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 570.0, 157.0, 115.0 ],
 					"varname" : "panel.5",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ 1 ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-27",
-					"lockeddragscroll" : 1,
-					"maxclass" : "bpatcher",
-					"name" : "ekranz3.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 1146.0, 89.5, 158.0, 118.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1146.0, 89.5, 158.0, 118.0 ],
-					"varname" : "ekranz.1",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ 2 ],
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-17",
-					"lockeddragscroll" : 1,
-					"maxclass" : "bpatcher",
-					"name" : "ekranz3.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 1146.0, 209.5, 158.0, 118.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1146.0, 209.5, 158.0, 118.0 ],
-					"varname" : "ekranz.2",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ 3 ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-16",
-					"lockeddragscroll" : 1,
-					"maxclass" : "bpatcher",
-					"name" : "ekranz3.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 1146.0, 329.5, 158.0, 118.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1146.0, 329.5, 158.0, 118.0 ],
-					"varname" : "ekranz.3",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ 4 ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-15",
-					"lockeddragscroll" : 1,
-					"maxclass" : "bpatcher",
-					"name" : "ekranz3.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 1146.0, 449.5, 158.0, 118.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1146.0, 449.5, 158.0, 118.0 ],
-					"varname" : "ekranz.4",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ 5 ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-14",
-					"lockeddragscroll" : 1,
-					"maxclass" : "bpatcher",
-					"name" : "ekranz3.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 1146.0, 570.5, 158.0, 118.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1146.0, 570.5, 158.0, 118.0 ],
-					"varname" : "ekranz.5",
 					"viewvisibility" : 1
 				}
 
@@ -16087,10 +15957,15 @@
 			"obj-20::obj-16::obj-16.1::obj-42::obj-24" : [ "vst~", "vst~", 0 ],
 			"obj-20::obj-16::obj-4.1::obj-42::obj-24" : [ "vst~[4]", "vst~[4]", 0 ],
 			"obj-20::obj-16::obj-7.1::obj-42::obj-24" : [ "vst~[3]", "vst~[3]", 0 ],
+			"obj-5::obj-62::obj-26::obj-12::obj-26::obj-104" : [ "umenu[9]", "umenu", 0 ],
 			"obj-5::obj-62::obj-26::obj-1::obj-26::obj-104" : [ "umenu[4]", "umenu", 0 ],
+			"obj-5::obj-62::obj-27::obj-12::obj-26::obj-104" : [ "umenu[8]", "umenu", 0 ],
 			"obj-5::obj-62::obj-27::obj-1::obj-26::obj-104" : [ "umenu[3]", "umenu", 0 ],
+			"obj-5::obj-62::obj-28::obj-12::obj-26::obj-104" : [ "umenu[7]", "umenu", 0 ],
 			"obj-5::obj-62::obj-28::obj-1::obj-26::obj-104" : [ "umenu[2]", "umenu", 0 ],
+			"obj-5::obj-62::obj-29::obj-12::obj-26::obj-104" : [ "umenu[6]", "umenu", 0 ],
 			"obj-5::obj-62::obj-29::obj-1::obj-26::obj-104" : [ "umenu[1]", "umenu", 0 ],
+			"obj-5::obj-62::obj-30::obj-12::obj-26::obj-104" : [ "umenu[5]", "umenu", 0 ],
 			"obj-5::obj-62::obj-30::obj-1::obj-26::obj-104" : [ "umenu", "umenu", 0 ],
 			"obj-8::obj-24" : [ "live.text[2]", "live.text[2]", 0 ],
 			"obj-8::obj-34" : [ "live.text[7]", "live.text[2]", 0 ],
@@ -16123,13 +15998,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ekranz3.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/GUI",
-				"patcherrelativepath" : "./patchers/Library/Abstractions/GUI",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "client-panel3.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/GUI",
 				"patcherrelativepath" : "./patchers/Library/Abstractions/GUI",
@@ -16137,9 +16005,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sine.bank.txt",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/media",
-				"patcherrelativepath" : "../MaxScore/media",
+				"name" : "Rectangle.bank.txt",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Rectangle",
+				"patcherrelativepath" : "./patchers/Projects/Rectangle",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -16299,9 +16167,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sine.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/media",
-				"patcherrelativepath" : "../MaxScore/media",
+				"name" : "Tamara.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Rectangle/Instruments",
+				"patcherrelativepath" : "./patchers/Projects/Rectangle/Instruments",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -16663,6 +16531,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "Aigerim.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Rectangle/Instruments",
+				"patcherrelativepath" : "./patchers/Projects/Rectangle/Instruments",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "appender.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/audio",
 				"patcherrelativepath" : "./patchers/Library/Abstractions/audio",
@@ -16996,6 +16871,83 @@
 				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/GUI",
 				"patcherrelativepath" : "./patchers/Library/Abstractions/GUI",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Tam01.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Rectangle/Instruments",
+				"patcherrelativepath" : "./patchers/Projects/Rectangle/Instruments",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sara-1.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Rectangle/Instruments",
+				"patcherrelativepath" : "./patchers/Projects/Rectangle/Instruments",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Sander.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Rectangle/Instruments",
+				"patcherrelativepath" : "./patchers/Projects/Rectangle/Instruments",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Ryszard.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Rectangle/Instruments",
+				"patcherrelativepath" : "./patchers/Projects/Rectangle/Instruments",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Robert.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Rectangle/Instruments",
+				"patcherrelativepath" : "./patchers/Projects/Rectangle/Instruments",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Mélanie.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Rectangle/Instruments",
+				"patcherrelativepath" : "./patchers/Projects/Rectangle/Instruments",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "kelsey.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Rectangle/Instruments",
+				"patcherrelativepath" : "./patchers/Projects/Rectangle/Instruments",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Juan.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Rectangle/Instruments",
+				"patcherrelativepath" : "./patchers/Projects/Rectangle/Instruments",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Jana.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Rectangle/Instruments",
+				"patcherrelativepath" : "./patchers/Projects/Rectangle/Instruments",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Jan.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Rectangle/Instruments",
+				"patcherrelativepath" : "./patchers/Projects/Rectangle/Instruments",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Giorgos.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Rectangle/Instruments",
+				"patcherrelativepath" : "./patchers/Projects/Rectangle/Instruments",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -17543,23 +17495,23 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "hfmt.drawsocket.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/drawsocket/patchers",
-				"patcherrelativepath" : "../drawsocket/patchers",
+				"name" : "hfmt.drawsocket.min.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/nodejs/drawsocket-min",
+				"patcherrelativepath" : "./patchers/Library/nodejs/drawsocket-min",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "drawsocket-server.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/nodejs/drawsocket4quintetnet/code/node",
-				"patcherrelativepath" : "./patchers/Library/nodejs/drawsocket4quintetnet/code/node",
+				"name" : "drawsocket-server.min.js",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/nodejs/drawsocket-min/node",
+				"patcherrelativepath" : "./patchers/Library/nodejs/drawsocket-min/node",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "startscript.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/nodejs/drawsocket4quintetnet/code",
-				"patcherrelativepath" : "./patchers/Library/nodejs/drawsocket4quintetnet/code",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/nodejs/drawsocket-min",
+				"patcherrelativepath" : "./patchers/Library/nodejs/drawsocket-min",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -18188,13 +18140,12 @@
 				"type" : "iLaX"
 			}
  ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "black on white",
 				"number" : 				{
+					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"fontsize" : [ 12.0 ],
-					"fontname" : [ "Arial" ],
-					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"umenu" : 				{
@@ -18217,8 +18168,8 @@
 , 			{
 				"name" : "caption text",
 				"default" : 				{
-					"fontsize" : [ 11.0 ],
-					"fontface" : [ 2 ]
+					"fontface" : [ 2 ],
+					"fontsize" : [ 11.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -18227,9 +18178,9 @@
 , 			{
 				"name" : "section dividers",
 				"default" : 				{
+					"fontface" : [ 3 ],
 					"fontsize" : [ 15.0 ],
-					"fontname" : [ "Arial" ],
-					"fontface" : [ 3 ]
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
@@ -18248,9 +18199,9 @@
 , 			{
 				"name" : "titles",
 				"default" : 				{
+					"fontface" : [ 1 ],
 					"fontsize" : [ 20.0 ],
-					"fontname" : [ "Arial" ],
-					"fontface" : [ 1 ]
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",

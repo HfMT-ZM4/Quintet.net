@@ -4962,7 +4962,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 511.25, 699.0, 321.0, 48.0 ],
-													"text" : "/port/localhost : \"http://localhost:3003\",\n/port/ip : \"http://192.168.178.146:3003\""
+													"text" : "/stdout : \"received socket close /1 WTjMq3hfcgPtnZVvW08VbA==\""
 												}
 
 											}
@@ -5379,8 +5379,8 @@
 													"numinlets" : 1,
 													"numoutlets" : 3,
 													"outlettype" : [ "FullPacket", "", "FullPacket" ],
-													"patching_rect" : [ 238.25, 637.0, 269.0, 22.0 ],
-													"text" : "hfmt.drawsocket public @port 3003 @autostart 1"
+													"patching_rect" : [ 238.25, 637.0, 292.0, 22.0 ],
+													"text" : "hfmt.drawsocket.min public @port 3003 @autostart 1"
 												}
 
 											}
@@ -17632,16 +17632,16 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "hfmt.drawsocket.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/drawsocket/patchers",
-				"patcherrelativepath" : "../drawsocket/patchers",
+				"name" : "hfmt.drawsocket.min.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/nodejs/drawsocket-min",
+				"patcherrelativepath" : "./patchers/Library/nodejs/drawsocket-min",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "drawsocket-server.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/drawsocket/code/node",
-				"patcherrelativepath" : "../drawsocket/code/node",
+				"name" : "drawsocket-server.min.js",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/nodejs/drawsocket-min/node",
+				"patcherrelativepath" : "./patchers/Library/nodejs/drawsocket-min/node",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

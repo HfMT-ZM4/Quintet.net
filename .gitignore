@@ -9,3 +9,4 @@ patchers/Projects/*
 !patchers/Projects/Tutorial
 !patchers/Projects/EffectsEngine
 public/media/project/*
+!public/media/project/.keep

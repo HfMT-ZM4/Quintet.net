@@ -1,0 +1,161 @@
+
+
+<div id="quintetnet" class="quintetnet_div">
+    <style type="text/css">
+        #drawsocket {
+            top: 0px;
+        }
+    
+        /* Buttons styles start */
+        button {
+            display: inline-block;
+            border: none;
+            margin: 0;
+            text-decoration: none;
+            background: #333333;
+            color: #DDDDe6;
+            font-family: sans-serif;
+            font-size: 0.75rem;
+            line-height: 1;
+            cursor: pointer;
+            text-align: center;
+            transition: background 250ms ease-in-out, transform 150ms ease;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+        }
+
+        button:hover,
+        button:focus {
+            background: #0053ba;
+        }
+
+        button:focus {
+            outline: 1px solid #fff;
+            outline-offset: -4px;
+        }
+
+        button:active {
+            transform: scale(0.99);
+        }
+        /* Button styles end */
+
+
+        .quintetnet_div {
+          width: 160px;
+          top: 0px;
+          overflow: hidden; 
+        }
+    
+        .quintetnet_div video {
+            width: 155px;
+            height: 117px;
+            background-color: black;
+        }
+    
+        .quintetnet_div #quintetnet-local {
+            height: 95px;
+        }
+    
+        .quintetnet_div #startbutton {
+            height: 20px;
+        }
+    
+        #quintetnet {
+            z-index: 200;
+        }
+    
+    </style>
+    <button id="startbutton">start stream</button> 
+    <video id="quintetnet-local" autoplay playsinline muted></video>
+    <video id="quintetnet-1" autoplay playsinline muted></video>
+    <video id="quintetnet-2" autoplay playsinline muted></video>
+    <video id="quintetnet-3" autoplay playsinline muted></video>
+    <video id="quintetnet-4" autoplay playsinline muted></video>
+    <video id="quintetnet-5" autoplay playsinline muted></video>
+</div>
+
+<script>
+    const url_args = new URLSearchParams(window.location.search);
+    console.log(`hello user ${url_args.get('id')}`);
+
+
+    async function streamHandler(stream, kind, id) {
+        console.log('----> received stream ');
+
+        const quintetnet_idIDX = id.indexOf('-id-');
+        if( quintetnet_idIDX > -1 )
+        {
+            const qID = id.substring(quintetnet_idIDX+4);
+            if( kind == "video" )
+            {
+                let vid = document.getElementById(`quintetnet-${qID}`);
+                vid.srcObject = stream;
+            }
+        }
+
+
+        return 1; // return 1 to disable default action
+
+    }
+
+    drawsocket.on_newPeerStream = async (stream, kind, id) => {
+        streamHandler(stream, kind, id);
+        return 1;
+    }
+
+    drawsocket.on_newLocalStream = async (stream) => {
+        let localvid = document.getElementById("quintetnet-local");
+        localvid.srcObject = stream;
+
+        let qvid = document.getElementById(`quintetnet-${url_args.get('id')}`);
+        if( qvid )
+            qvid.srcObject = stream;
+
+        return 1;
+    }
+
+
+    function init() {
+
+
+        const quintetdiv = document.getElementById('quintetnet');
+        document.body.appendChild(quintetdiv);
+
+        let ui_div = document.getElementById('default_ui');
+        let localUI_div = document.getElementById('local_ui');
+
+        ui_div.parentElement.removeChild(ui_div);
+        localUI_div.parentElement.removeChild(localUI_div);
+        
+        let log = document.getElementById('statusDiv');
+        log.style.visibility = "hidden";
+
+        let startbutton = document.getElementById('startbutton');
+
+        if( url_args.get('id') )
+        {
+            startbutton.addEventListener("click", drawsocket.startStream );
+        }
+        else
+        {
+            //startbutton.parentElement.removeChild(startbutton);
+            startbutton.disabled = true;
+        }
+
+//        console.log( drawsocket.getMediaStreams() );
+
+        const streams = drawsocket.getMediaStreams();
+        const videoIds = Object.keys(streams.video);
+        if (videoIds.length > 0) {
+            const firstStream = streams.video[videoIds[0]];
+            streamHandler(firstStream.stream, 'video', videoIds[0]);
+        }
+
+    }
+
+
+
+    init();
+
+
+</script>

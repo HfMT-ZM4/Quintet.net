@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 436.0, 127.0, 739.0, 587.0 ],
+		"rect" : [ 46.0, 45.0, 739.0, 587.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -137,7 +137,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -451,11 +451,11 @@
 					"presentation_rect" : [ 298.5, 19.0, 141.0, 38.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.text",
+							"parameter_enum" : [ "", " Server Running" ],
 							"parameter_invisible" : 2,
+							"parameter_longname" : "live.text",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
-							"parameter_enum" : [ "", " Server Running" ],
 							"parameter_type" : 2
 						}
 
@@ -526,7 +526,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -572,7 +572,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1007,6 +1007,12 @@
  ],
 										"styles" : [ 											{
 												"name" : "black on white",
+												"number" : 												{
+													"fontsize" : [ 12.0 ],
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+													"fontname" : [ "Arial" ]
+												}
+,
 												"umenu" : 												{
 													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 													"bgfillcolor" : 													{
@@ -1021,20 +1027,14 @@
 
 												}
 ,
-												"number" : 												{
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-													"fontsize" : [ 12.0 ],
-													"fontname" : [ "Arial" ]
-												}
-,
 												"parentstyle" : "",
 												"multi" : 0
 											}
 , 											{
 												"name" : "caption text",
 												"default" : 												{
-													"fontsize" : [ 11.0 ],
-													"fontface" : [ 2 ]
+													"fontface" : [ 2 ],
+													"fontsize" : [ 11.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -1043,9 +1043,9 @@
 , 											{
 												"name" : "section dividers",
 												"default" : 												{
+													"fontface" : [ 3 ],
 													"fontsize" : [ 15.0 ],
-													"fontname" : [ "Arial" ],
-													"fontface" : [ 3 ]
+													"fontname" : [ "Arial" ]
 												}
 ,
 												"parentstyle" : "",
@@ -1064,9 +1064,9 @@
 , 											{
 												"name" : "titles",
 												"default" : 												{
+													"fontface" : [ 1 ],
 													"fontsize" : [ 20.0 ],
-													"fontname" : [ "Arial" ],
-													"fontface" : [ 1 ]
+													"fontname" : [ "Arial" ]
 												}
 ,
 												"parentstyle" : "",
@@ -1099,7 +1099,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1477,7 +1477,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::myIP::info @invisible 1 @autorestore 0",
-									"varname" : "u042001080"
+									"varname" : "u443039383"
 								}
 
 							}
@@ -1501,7 +1501,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 618.504854142665863, 178.470873773097992, 96.0, 22.0 ],
-									"text" : "2126937085 0"
+									"text" : "242626085 0"
 								}
 
 							}
@@ -1544,7 +1544,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::StartServer @invisible 1 @autorestore 0",
-									"varname" : "u412001082"
+									"varname" : "u669039385"
 								}
 
 							}
@@ -1648,7 +1648,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2374,6 +2374,12 @@
  ],
 										"styles" : [ 											{
 												"name" : "black on white",
+												"number" : 												{
+													"fontsize" : [ 12.0 ],
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+													"fontname" : [ "Arial" ]
+												}
+,
 												"umenu" : 												{
 													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 													"bgfillcolor" : 													{
@@ -2388,20 +2394,14 @@
 
 												}
 ,
-												"number" : 												{
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-													"fontsize" : [ 12.0 ],
-													"fontname" : [ "Arial" ]
-												}
-,
 												"parentstyle" : "",
 												"multi" : 0
 											}
 , 											{
 												"name" : "caption text",
 												"default" : 												{
-													"fontsize" : [ 11.0 ],
-													"fontface" : [ 2 ]
+													"fontface" : [ 2 ],
+													"fontsize" : [ 11.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -2410,9 +2410,9 @@
 , 											{
 												"name" : "section dividers",
 												"default" : 												{
+													"fontface" : [ 3 ],
 													"fontsize" : [ 15.0 ],
-													"fontname" : [ "Arial" ],
-													"fontface" : [ 3 ]
+													"fontname" : [ "Arial" ]
 												}
 ,
 												"parentstyle" : "",
@@ -2431,9 +2431,9 @@
 , 											{
 												"name" : "titles",
 												"default" : 												{
+													"fontface" : [ 1 ],
 													"fontsize" : [ 20.0 ],
-													"fontname" : [ "Arial" ],
-													"fontface" : [ 1 ]
+													"fontname" : [ "Arial" ]
 												}
 ,
 												"parentstyle" : "",
@@ -2518,7 +2518,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2641,7 +2641,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 4,
+															"revision" : 5,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -3003,7 +3003,7 @@
 																		"appversion" : 																		{
 																			"major" : 8,
 																			"minor" : 1,
-																			"revision" : 4,
+																			"revision" : 5,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -3082,7 +3082,7 @@
 																						"appversion" : 																						{
 																							"major" : 8,
 																							"minor" : 1,
-																							"revision" : 4,
+																							"revision" : 5,
 																							"architecture" : "x64",
 																							"modernui" : 1
 																						}
@@ -3374,7 +3374,7 @@
 																										"appversion" : 																										{
 																											"major" : 8,
 																											"minor" : 1,
-																											"revision" : 4,
+																											"revision" : 5,
 																											"architecture" : "x64",
 																											"modernui" : 1
 																										}
@@ -4414,7 +4414,7 @@
 																						"appversion" : 																						{
 																							"major" : 8,
 																							"minor" : 1,
-																							"revision" : 4,
+																							"revision" : 5,
 																							"architecture" : "x64",
 																							"modernui" : 1
 																						}
@@ -4725,7 +4725,7 @@
 																										"appversion" : 																										{
 																											"major" : 8,
 																											"minor" : 1,
-																											"revision" : 4,
+																											"revision" : 5,
 																											"architecture" : "x64",
 																											"modernui" : 1
 																										}
@@ -6374,7 +6374,7 @@
 																				"box" : 																				{
 																					"autopopulate" : 1,
 																					"id" : "obj-14",
-																					"items" : [ "EffectsEngine", ",", "Five", ",", "RadioMusic", ",", "Sirenen", ",", "Triangle", ",", "Tutorial" ],
+																					"items" : [ "EffectsEngine", ",", "Five", ",", "hgzb-cake2020", ",", "RadioMusic", ",", "Rectangle", ",", "Sirenen", ",", "Triangle", ",", "Tutorial" ],
 																					"maxclass" : "umenu",
 																					"numinlets" : 1,
 																					"numoutlets" : 3,
@@ -6854,6 +6854,12 @@
  ],
 														"styles" : [ 															{
 																"name" : "black on white",
+																"number" : 																{
+																	"fontsize" : [ 12.0 ],
+																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+																	"fontname" : [ "Arial" ]
+																}
+,
 																"umenu" : 																{
 																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 																	"bgfillcolor" : 																	{
@@ -6868,20 +6874,14 @@
 
 																}
 ,
-																"number" : 																{
-																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-																	"fontsize" : [ 12.0 ],
-																	"fontname" : [ "Arial" ]
-																}
-,
 																"parentstyle" : "",
 																"multi" : 0
 															}
 , 															{
 																"name" : "caption text",
 																"default" : 																{
-																	"fontsize" : [ 11.0 ],
-																	"fontface" : [ 2 ]
+																	"fontface" : [ 2 ],
+																	"fontsize" : [ 11.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -6890,9 +6890,9 @@
 , 															{
 																"name" : "section dividers",
 																"default" : 																{
+																	"fontface" : [ 3 ],
 																	"fontsize" : [ 15.0 ],
-																	"fontname" : [ "Arial" ],
-																	"fontface" : [ 3 ]
+																	"fontname" : [ "Arial" ]
 																}
 ,
 																"parentstyle" : "",
@@ -6911,9 +6911,9 @@
 , 															{
 																"name" : "titles",
 																"default" : 																{
+																	"fontface" : [ 1 ],
 																	"fontsize" : [ 20.0 ],
-																	"fontname" : [ "Arial" ],
-																	"fontface" : [ 1 ]
+																	"fontname" : [ "Arial" ]
 																}
 ,
 																"parentstyle" : "",
@@ -6947,7 +6947,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 4,
+															"revision" : 5,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -7214,7 +7214,7 @@
 																		"appversion" : 																		{
 																			"major" : 8,
 																			"minor" : 1,
-																			"revision" : 4,
+																			"revision" : 5,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -7524,6 +7524,12 @@
  ],
 														"styles" : [ 															{
 																"name" : "black on white",
+																"number" : 																{
+																	"fontsize" : [ 12.0 ],
+																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+																	"fontname" : [ "Arial" ]
+																}
+,
 																"umenu" : 																{
 																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 																	"bgfillcolor" : 																	{
@@ -7538,20 +7544,14 @@
 
 																}
 ,
-																"number" : 																{
-																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-																	"fontsize" : [ 12.0 ],
-																	"fontname" : [ "Arial" ]
-																}
-,
 																"parentstyle" : "",
 																"multi" : 0
 															}
 , 															{
 																"name" : "caption text",
 																"default" : 																{
-																	"fontsize" : [ 11.0 ],
-																	"fontface" : [ 2 ]
+																	"fontface" : [ 2 ],
+																	"fontsize" : [ 11.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -7560,9 +7560,9 @@
 , 															{
 																"name" : "section dividers",
 																"default" : 																{
+																	"fontface" : [ 3 ],
 																	"fontsize" : [ 15.0 ],
-																	"fontname" : [ "Arial" ],
-																	"fontface" : [ 3 ]
+																	"fontname" : [ "Arial" ]
 																}
 ,
 																"parentstyle" : "",
@@ -7581,9 +7581,9 @@
 , 															{
 																"name" : "titles",
 																"default" : 																{
+																	"fontface" : [ 1 ],
 																	"fontsize" : [ 20.0 ],
-																	"fontname" : [ "Arial" ],
-																	"fontface" : [ 1 ]
+																	"fontname" : [ "Arial" ]
 																}
 ,
 																"parentstyle" : "",
@@ -7617,7 +7617,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 4,
+															"revision" : 5,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -7662,7 +7662,7 @@
 																		"appversion" : 																		{
 																			"major" : 8,
 																			"minor" : 1,
-																			"revision" : 4,
+																			"revision" : 5,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -8446,7 +8446,7 @@
 																		"appversion" : 																		{
 																			"major" : 8,
 																			"minor" : 1,
-																			"revision" : 4,
+																			"revision" : 5,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -8525,7 +8525,7 @@
 																						"appversion" : 																						{
 																							"major" : 8,
 																							"minor" : 1,
-																							"revision" : 4,
+																							"revision" : 5,
 																							"architecture" : "x64",
 																							"modernui" : 1
 																						}
@@ -8817,7 +8817,7 @@
 																										"appversion" : 																										{
 																											"major" : 8,
 																											"minor" : 1,
-																											"revision" : 4,
+																											"revision" : 5,
 																											"architecture" : "x64",
 																											"modernui" : 1
 																										}
@@ -9857,7 +9857,7 @@
 																						"appversion" : 																						{
 																							"major" : 8,
 																							"minor" : 1,
-																							"revision" : 4,
+																							"revision" : 5,
 																							"architecture" : "x64",
 																							"modernui" : 1
 																						}
@@ -10168,7 +10168,7 @@
 																										"appversion" : 																										{
 																											"major" : 8,
 																											"minor" : 1,
-																											"revision" : 4,
+																											"revision" : 5,
 																											"architecture" : "x64",
 																											"modernui" : 1
 																										}
@@ -11817,7 +11817,7 @@
 																				"box" : 																				{
 																					"autopopulate" : 1,
 																					"id" : "obj-14",
-																					"items" : [ "EffectsEngine", ",", "Five", ",", "RadioMusic", ",", "Sirenen", ",", "Triangle", ",", "Tutorial" ],
+																					"items" : [ "EffectsEngine", ",", "Five", ",", "hgzb-cake2020", ",", "RadioMusic", ",", "Rectangle", ",", "Sirenen", ",", "Triangle", ",", "Tutorial" ],
 																					"maxclass" : "umenu",
 																					"numinlets" : 1,
 																					"numoutlets" : 3,
@@ -12297,6 +12297,12 @@
  ],
 														"styles" : [ 															{
 																"name" : "black on white",
+																"number" : 																{
+																	"fontsize" : [ 12.0 ],
+																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+																	"fontname" : [ "Arial" ]
+																}
+,
 																"umenu" : 																{
 																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 																	"bgfillcolor" : 																	{
@@ -12311,20 +12317,14 @@
 
 																}
 ,
-																"number" : 																{
-																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-																	"fontsize" : [ 12.0 ],
-																	"fontname" : [ "Arial" ]
-																}
-,
 																"parentstyle" : "",
 																"multi" : 0
 															}
 , 															{
 																"name" : "caption text",
 																"default" : 																{
-																	"fontsize" : [ 11.0 ],
-																	"fontface" : [ 2 ]
+																	"fontface" : [ 2 ],
+																	"fontsize" : [ 11.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -12333,9 +12333,9 @@
 , 															{
 																"name" : "section dividers",
 																"default" : 																{
+																	"fontface" : [ 3 ],
 																	"fontsize" : [ 15.0 ],
-																	"fontname" : [ "Arial" ],
-																	"fontface" : [ 3 ]
+																	"fontname" : [ "Arial" ]
 																}
 ,
 																"parentstyle" : "",
@@ -12354,9 +12354,9 @@
 , 															{
 																"name" : "titles",
 																"default" : 																{
+																	"fontface" : [ 1 ],
 																	"fontsize" : [ 20.0 ],
-																	"fontname" : [ "Arial" ],
-																	"fontface" : [ 1 ]
+																	"fontname" : [ "Arial" ]
 																}
 ,
 																"parentstyle" : "",
@@ -12403,7 +12403,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 4,
+															"revision" : 5,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -12730,7 +12730,7 @@
 																		"appversion" : 																		{
 																			"major" : 8,
 																			"minor" : 1,
-																			"revision" : 4,
+																			"revision" : 5,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -12809,7 +12809,7 @@
 																						"appversion" : 																						{
 																							"major" : 8,
 																							"minor" : 1,
-																							"revision" : 4,
+																							"revision" : 5,
 																							"architecture" : "x64",
 																							"modernui" : 1
 																						}
@@ -13101,7 +13101,7 @@
 																										"appversion" : 																										{
 																											"major" : 8,
 																											"minor" : 1,
-																											"revision" : 4,
+																											"revision" : 5,
 																											"architecture" : "x64",
 																											"modernui" : 1
 																										}
@@ -14141,7 +14141,7 @@
 																						"appversion" : 																						{
 																							"major" : 8,
 																							"minor" : 1,
-																							"revision" : 4,
+																							"revision" : 5,
 																							"architecture" : "x64",
 																							"modernui" : 1
 																						}
@@ -14452,7 +14452,7 @@
 																										"appversion" : 																										{
 																											"major" : 8,
 																											"minor" : 1,
-																											"revision" : 4,
+																											"revision" : 5,
 																											"architecture" : "x64",
 																											"modernui" : 1
 																										}
@@ -16101,7 +16101,7 @@
 																				"box" : 																				{
 																					"autopopulate" : 1,
 																					"id" : "obj-14",
-																					"items" : [ "EffectsEngine", ",", "Five", ",", "RadioMusic", ",", "Sirenen", ",", "Triangle", ",", "Tutorial" ],
+																					"items" : [ "EffectsEngine", ",", "Five", ",", "hgzb-cake2020", ",", "RadioMusic", ",", "Rectangle", ",", "Sirenen", ",", "Triangle", ",", "Tutorial" ],
 																					"maxclass" : "umenu",
 																					"numinlets" : 1,
 																					"numoutlets" : 3,
@@ -16730,6 +16730,12 @@
  ],
 														"styles" : [ 															{
 																"name" : "black on white",
+																"number" : 																{
+																	"fontsize" : [ 12.0 ],
+																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+																	"fontname" : [ "Arial" ]
+																}
+,
 																"umenu" : 																{
 																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 																	"bgfillcolor" : 																	{
@@ -16744,20 +16750,14 @@
 
 																}
 ,
-																"number" : 																{
-																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-																	"fontsize" : [ 12.0 ],
-																	"fontname" : [ "Arial" ]
-																}
-,
 																"parentstyle" : "",
 																"multi" : 0
 															}
 , 															{
 																"name" : "caption text",
 																"default" : 																{
-																	"fontsize" : [ 11.0 ],
-																	"fontface" : [ 2 ]
+																	"fontface" : [ 2 ],
+																	"fontsize" : [ 11.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -16766,9 +16766,9 @@
 , 															{
 																"name" : "section dividers",
 																"default" : 																{
+																	"fontface" : [ 3 ],
 																	"fontsize" : [ 15.0 ],
-																	"fontname" : [ "Arial" ],
-																	"fontface" : [ 3 ]
+																	"fontname" : [ "Arial" ]
 																}
 ,
 																"parentstyle" : "",
@@ -16787,9 +16787,9 @@
 , 															{
 																"name" : "titles",
 																"default" : 																{
+																	"fontface" : [ 1 ],
 																	"fontsize" : [ 20.0 ],
-																	"fontname" : [ "Arial" ],
-																	"fontface" : [ 1 ]
+																	"fontname" : [ "Arial" ]
 																}
 ,
 																"parentstyle" : "",
@@ -17013,6 +17013,12 @@
  ],
 										"styles" : [ 											{
 												"name" : "black on white",
+												"number" : 												{
+													"fontsize" : [ 12.0 ],
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+													"fontname" : [ "Arial" ]
+												}
+,
 												"umenu" : 												{
 													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 													"bgfillcolor" : 													{
@@ -17027,20 +17033,14 @@
 
 												}
 ,
-												"number" : 												{
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-													"fontsize" : [ 12.0 ],
-													"fontname" : [ "Arial" ]
-												}
-,
 												"parentstyle" : "",
 												"multi" : 0
 											}
 , 											{
 												"name" : "caption text",
 												"default" : 												{
-													"fontsize" : [ 11.0 ],
-													"fontface" : [ 2 ]
+													"fontface" : [ 2 ],
+													"fontsize" : [ 11.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -17049,9 +17049,9 @@
 , 											{
 												"name" : "section dividers",
 												"default" : 												{
+													"fontface" : [ 3 ],
 													"fontsize" : [ 15.0 ],
-													"fontname" : [ "Arial" ],
-													"fontface" : [ 3 ]
+													"fontname" : [ "Arial" ]
 												}
 ,
 												"parentstyle" : "",
@@ -17070,9 +17070,9 @@
 , 											{
 												"name" : "titles",
 												"default" : 												{
+													"fontface" : [ 1 ],
 													"fontsize" : [ 20.0 ],
-													"fontname" : [ "Arial" ],
-													"fontface" : [ 1 ]
+													"fontname" : [ "Arial" ]
 												}
 ,
 												"parentstyle" : "",
@@ -17116,7 +17116,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -17479,7 +17479,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -18509,7 +18509,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -18849,7 +18849,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -19183,7 +19183,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -19788,7 +19788,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -20213,78 +20213,6 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-32",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 10.504854142665863, 166.970873773097992, 57.0, 22.0 ],
-									"text" : "v version"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-33",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 10.504854142665863, 20.970873773097992, 58.0, 22.0 ],
-									"text" : "loadbang"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-34",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 10.504854142665863, 57.970873773097992, 55.0, 22.0 ],
-									"text" : "del 1000"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-35",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "dump" ],
-									"patching_rect" : [ 10.504854142665863, 82.970873773097992, 45.0, 22.0 ],
-									"text" : "t dump"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-36",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "bang", "int" ],
-									"patching_rect" : [ 10.504854142665863, 106.970873773097992, 150.0, 22.0 ],
-									"text" : "text Quintet.net-Version.txt"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-37",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 10.504854142665863, 137.970873773097992, 55.0, 22.0 ],
-									"text" : "route set"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-38",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -20294,7 +20222,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -20719,42 +20647,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-34", 0 ],
-									"source" : [ "obj-33", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-35", 0 ],
-									"source" : [ "obj-34", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-36", 0 ],
-									"midpoints" : [ 20.004854142665863, 94.970873773097992, 20.004854142665863, 94.970873773097992 ],
-									"source" : [ "obj-35", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-37", 0 ],
-									"source" : [ "obj-36", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-32", 0 ],
-									"source" : [ "obj-37", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-13", 0 ],
 									"source" : [ "obj-4", 0 ]
 								}
@@ -21027,6 +20919,12 @@
  ],
 						"styles" : [ 							{
 								"name" : "black on white",
+								"number" : 								{
+									"fontsize" : [ 12.0 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+									"fontname" : [ "Arial" ]
+								}
+,
 								"umenu" : 								{
 									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"bgfillcolor" : 									{
@@ -21041,20 +20939,14 @@
 
 								}
 ,
-								"number" : 								{
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"fontsize" : [ 12.0 ],
-									"fontname" : [ "Arial" ]
-								}
-,
 								"parentstyle" : "",
 								"multi" : 0
 							}
 , 							{
 								"name" : "caption text",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
-									"fontface" : [ 2 ]
+									"fontface" : [ 2 ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -21063,9 +20955,9 @@
 , 							{
 								"name" : "section dividers",
 								"default" : 								{
+									"fontface" : [ 3 ],
 									"fontsize" : [ 15.0 ],
-									"fontname" : [ "Arial" ],
-									"fontface" : [ 3 ]
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -21084,9 +20976,9 @@
 , 							{
 								"name" : "titles",
 								"default" : 								{
+									"fontface" : [ 1 ],
 									"fontsize" : [ 20.0 ],
-									"fontname" : [ "Arial" ],
-									"fontface" : [ 1 ]
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -21180,7 +21072,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u511001271"
+					"varname" : "u982039569"
 				}
 
 			}
@@ -21232,11 +21124,11 @@
 					"presentation_rect" : [ 13.0, 363.5, 124.0, 26.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.text[1]",
+							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
+							"parameter_longname" : "live.text[1]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text[1]",
-							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2
 						}
 
@@ -21321,7 +21213,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -21601,7 +21493,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -21983,7 +21875,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -22357,7 +22249,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -22776,7 +22668,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -23006,7 +22898,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 587.0, 39.0, 60.0, 19.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 436, 127, 1175, 714, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 46, 45, 785, 632, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 
@@ -23301,8 +23193,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-34" : [ "live.text", "live.text", 0 ],
 			"obj-13" : [ "live.text[1]", "live.text[1]", 0 ],
+			"obj-34" : [ "live.text", "live.text", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -23426,9 +23318,14 @@
 				"type" : "iLaX"
 			}
  ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "black on white",
+				"number" : 				{
+					"fontsize" : [ 12.0 ],
+					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"fontname" : [ "Arial" ]
+				}
+,
 				"umenu" : 				{
 					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"bgfillcolor" : 					{
@@ -23443,20 +23340,14 @@
 
 				}
 ,
-				"number" : 				{
-					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-					"fontsize" : [ 12.0 ],
-					"fontname" : [ "Arial" ]
-				}
-,
 				"parentstyle" : "",
 				"multi" : 0
 			}
 , 			{
 				"name" : "caption text",
 				"default" : 				{
-					"fontsize" : [ 11.0 ],
-					"fontface" : [ 2 ]
+					"fontface" : [ 2 ],
+					"fontsize" : [ 11.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -23465,9 +23356,9 @@
 , 			{
 				"name" : "section dividers",
 				"default" : 				{
+					"fontface" : [ 3 ],
 					"fontsize" : [ 15.0 ],
-					"fontname" : [ "Arial" ],
-					"fontface" : [ 3 ]
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
@@ -23486,9 +23377,9 @@
 , 			{
 				"name" : "titles",
 				"default" : 				{
+					"fontface" : [ 1 ],
 					"fontsize" : [ 20.0 ],
-					"fontname" : [ "Arial" ],
-					"fontface" : [ 1 ]
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",

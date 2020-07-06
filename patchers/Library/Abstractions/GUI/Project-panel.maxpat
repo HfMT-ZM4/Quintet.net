@@ -90,11 +90,11 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 331.916605666666726, 20.5, 56.0, 22.0 ],
 					"restore" : 					{
-						"listproject" : [ -1 ]
+						"listprojects" : [ -1 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u060007653"
+					"varname" : "u568031105"
 				}
 
 			}
@@ -117,7 +117,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 36.0, 231.5, 66.0, 22.0 ],
+					"patching_rect" : [ 36.0, 235.5, 66.0, 22.0 ],
 					"text" : "route bang"
 				}
 
@@ -217,7 +217,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 546.0, 221.0, 617.0, 740.0 ],
+						"rect" : [ 879.0, 171.0, 589.0, 739.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -247,6 +247,30 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 94.5, 135.5, 55.0, 22.0 ],
+									"text" : "zl.ecils 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 94.5, 108.5, 143.0, 22.0 ],
+									"text" : "fromsymbol @separator /"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-63",
@@ -254,7 +278,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 11.5, 581.0, 101.0, 23.0 ],
+									"patching_rect" : [ 11.5, 648.0, 101.0, 23.0 ],
 									"text" : "prepend symbol"
 								}
 
@@ -267,7 +291,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 12.0, 634.0, 30.0, 30.0 ]
+									"patching_rect" : [ 11.5, 687.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -291,7 +315,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 12.0, 423.0, 69.0, 22.0 ],
+									"patching_rect" : [ 12.0, 476.0, 69.0, 22.0 ],
 									"text" : "zl.reg",
 									"varname" : "u720000044"
 								}
@@ -305,9 +329,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 86.5, 344.0, 23.0, 23.0 ],
-									"text" : "t b"
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 86.5, 446.0, 23.0, 23.0 ],
+									"text" : "t 0"
 								}
 
 							}
@@ -320,7 +344,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 86.5, 374.0, 187.0, 23.0 ],
+									"patching_rect" : [ 86.5, 476.0, 187.0, 23.0 ],
 									"text" : "pattrforward parent::listprojects"
 								}
 
@@ -334,7 +358,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 62.0, 302.0, 64.0, 23.0 ],
+									"patching_rect" : [ 62.0, 376.0, 64.0, 23.0 ],
 									"text" : "zl.change"
 								}
 
@@ -348,7 +372,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 62.0, 272.0, 127.5, 23.0 ],
+									"patching_rect" : [ 62.0, 333.0, 127.5, 23.0 ],
 									"text" : "zl reg"
 								}
 
@@ -362,7 +386,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 62.0, 47.0, 236.0, 23.0 ],
+									"patching_rect" : [ 62.0, 46.0, 236.0, 23.0 ],
 									"text" : "t l l l"
 								}
 
@@ -376,7 +400,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 12.0, 538.0, 286.0, 23.0 ],
+									"patching_rect" : [ 12.0, 605.0, 286.0, 23.0 ],
 									"text" : "zl reg"
 								}
 
@@ -389,7 +413,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 12.0, 461.0, 543.0, 35.0 ],
+									"patching_rect" : [ 12.0, 528.0, 543.0, 35.0 ],
 									"text" : "label Project $1 not found on this volume\\, but it was located on Github.com, symbol \"Would you like to clone it?\""
 								}
 
@@ -401,7 +425,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "bang", "bang" ],
-									"patching_rect" : [ 12.0, 504.0, 96.0, 22.0 ],
+									"patching_rect" : [ 12.0, 571.0, 96.0, 22.0 ],
 									"text" : "dialog @mode 2"
 								}
 
@@ -415,7 +439,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 62.0, 206.499999999999972, 79.0, 23.0 ],
+									"patching_rect" : [ 62.0, 273.5, 79.0, 23.0 ],
 									"text" : "sel notfound"
 								}
 
@@ -429,7 +453,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 62.0, 172.991637999999995, 40.0, 23.0 ],
+									"patching_rect" : [ 62.0, 239.991637999999995, 40.0, 23.0 ],
 									"text" : "zl reg"
 								}
 
@@ -441,7 +465,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 132.166666666666629, 133.991637999999995, 77.0, 22.0 ],
+									"patching_rect" : [ 132.166666666666629, 200.991637999999995, 77.0, 22.0 ],
 									"text" : "route symbol"
 								}
 
@@ -467,7 +491,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 94.5, 106.5, 132.0, 22.0 ],
+									"patching_rect" : [ 94.5, 169.5, 132.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
 										"precision" : 6
@@ -498,7 +522,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 450.0, 634.0, 30.0, 30.0 ]
+									"patching_rect" : [ 313.5, 687.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -507,6 +531,20 @@
 								"patchline" : 								{
 									"destination" : [ "obj-34", 0 ],
 									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-39", 0 ],
+									"source" : [ "obj-3", 1 ]
 								}
 
 							}
@@ -547,7 +585,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-39", 0 ],
+									"destination" : [ "obj-2", 0 ],
 									"source" : [ "obj-40", 1 ]
 								}
 
@@ -634,7 +672,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-59", 0 ],
-									"midpoints" : [ 131.5, 248.25, 459.5, 248.25 ],
+									"midpoints" : [ 131.5, 315.25, 323.0, 315.25 ],
 									"source" : [ "obj-57", 1 ]
 								}
 
@@ -665,8 +703,8 @@
 								"name" : "black on white",
 								"number" : 								{
 									"fontsize" : [ 12.0 ],
-									"fontname" : [ "Arial" ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"umenu" : 								{
@@ -907,7 +945,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 14.5, 37.364578000000002, 185.0, 20.0 ],
 					"readonly" : 1,
-					"text" : "<none>",
+					"text" : "Rectangle",
 					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ],
 					"textjustification" : 1
 				}
@@ -952,7 +990,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 344.24993900000004, 135.0, 216.0, 22.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ "Macintosh HD:/Users/Shared/Max 8/packages/Quintet.net/patchers/Projects/Rectangle" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1013,6 +1051,20 @@
 						"assistshowspatchername" : 0,
 						"title" : "Select Project...",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 213.0, 8.0, 58.0, 22.0 ],
+									"text" : "loadbang"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -2083,7 +2135,7 @@
 									"patching_rect" : [ 184.0, 296.0, 308.0, 390.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 0.0, 308.0, 390.0 ],
-									"rows" : 8,
+									"rows" : 9,
 									"sccolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 									"sgcolor" : [ 0.517647058823529, 0.517647058823529, 0.517647058823529, 1.0 ],
 									"stcolor" : [ 0.517647058823529, 0.517647058823529, 0.517647058823529, 1.0 ],
@@ -2287,6 +2339,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-23", 1 ],
 									"source" : [ "obj-29", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"source" : [ "obj-3", 0 ]
 								}
 
 							}
@@ -2750,14 +2809,14 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 619.0, 100.0, 351.0, 22.0 ],
-									"restore" : [ 0 ],
+									"restore" : [ "Macintosh HD:/Users/Shared/Max 8/packages/Quintet.net/patchers/Projects/Rectangle" ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
 									"text" : "pattr @bindto parent::path @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u500002411"
+									"varname" : "u884053164"
 								}
 
 							}
@@ -3759,7 +3818,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 14.5, 125.999999999999972, 184.5, 20.0 ],
 					"tabs" : [ "List Projects On Github.com" ],
-					"varname" : "listproject"
+					"varname" : "listprojects"
 				}
 
 			}
@@ -3811,7 +3870,7 @@
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "color",
 					"id" : "obj-6",
-					"items" : "<empty>",
+					"items" : [ "Five", ",", "RadioMusic", ",", "Rectangle", ",", "Sirenen", ",", "Triangle" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,

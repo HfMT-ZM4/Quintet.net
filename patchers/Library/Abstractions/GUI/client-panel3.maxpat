@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -226,7 +226,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -743,7 +743,7 @@
 					"fontsize" : 10.0,
 					"hint" : "Clefs and Staves",
 					"id" : "obj-18",
-					"items" : [ "Grand_Staff", ",", "Treble", ",", "Alto", ",", "Tenor", ",", "Bass", ",", "Percussion", ",", "None" ],
+					"items" : "Grand_Staff",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -782,7 +782,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u157018407"
+					"varname" : "u158006757"
 				}
 
 			}
@@ -985,7 +985,7 @@
 					"fontsize" : 10.0,
 					"hint" : "Instrument",
 					"id" : "obj-39",
-					"items" : [ "none", ",", "MIDI", ",", "Plugin", ",", "AudioExtension", ",", "Sampler:" ],
+					"items" : [ "none", ",", "MIDI", ",", "Plugin", ",", "AudioExtension", ",", "Sampler:", ",", "*", "Aigerim.instr", ",", "*", "Giorgos.instr", ",", "*", "Jan.instr", ",", "*", "Jana.instr", ",", "*", "Juan.instr", ",", "*", "kelsey.instr", ",", "*", "Mélanie.instr", ",", "*", "Robert.instr", ",", "*", "Ryszard.instr", ",", "*", "Sander.instr", ",", "*", "sara-1.instr", ",", "*", "Tam01.instr", ",", "*", "Tamara.instr", ",", "*", "James.instr" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1006,13 +1006,13 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "int" ],
+					"outlettype" : [ "clear", "int" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1342,7 +1342,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1814,7 +1814,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1938,13 +1938,13 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "clear" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2016,14 +2016,14 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 77.5, 33.0, 409.0, 20.0 ],
-									"restore" : [ 4846 ],
+									"restore" : [ 1857813 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
 									"text" : "pattr @bindto parent::parent::Preferences::Sampler::instance @invisible 1 @autorestore 0",
-									"varname" : "u841018114"
+									"varname" : "u299003910"
 								}
 
 							}

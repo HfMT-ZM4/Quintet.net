@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 30.0, 45.0, 1308.0, 765.0 ],
+		"rect" : [ 0.0, 45.0, 1142.0, 765.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -42,19 +42,6 @@
 		"title" : "Quintet.net Client",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-28",
-					"linecount" : 4,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 913.0, 7.0, 213.0, 53.0 ],
-					"text" : "url https://hfmt.live/quintetnet?id=1&get=https://raw.githubusercontent.com/HfMT-ZM4/hfmt.live/master/quintetnet-video.html"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-1",
@@ -63,8 +50,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1044.5, 730.0, 99.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 1043.0, 735.0, 88.0, 29.0 ],
+					"presentation_rect" : [ 1043.0, 734.5, 114.0, 18.0 ],
 					"text" : "version 2020-07-06",
 					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ],
 					"varname" : "version"
@@ -115,7 +101,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 1142.0, 0.0, 200.0, 800.0 ],
 					"rendermode" : 2,
-					"url" : "https://hfmt.live/quintetnet?id=1&get=https://raw.githubusercontent.com/HfMT-ZM4/hfmt.live/master/quintetnet-video.html",
+					"url" : "https://hfmt.live/quintetnet?id=1&get=https://raw.githubusercontent.com/HfMT-ZM4/quintet.net/master/public/media/quintetnet-video.html",
 					"varname" : "sidebar"
 				}
 
@@ -5015,7 +5001,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 511.25, 699.0, 321.0, 48.0 ],
-													"text" : "/stdout : \"received socket close /1 7eY90n44mwGZPqhuMY/RDQ==\""
+													"text" : "/stdout : \"received socket close /1 WKWRT9tMeR4WLX3R9W+VWA==\""
 												}
 
 											}
@@ -15783,7 +15769,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 884.0, 79.0, 59.0, 19.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 30, 45, 1338, 810, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 0, 45, 1142, 810, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 
@@ -15944,7 +15930,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 5.0, 86.0, 59.0, 19.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 30, 45, 1338, 810, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 0, 45, 1142, 810, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 
@@ -16185,13 +16171,6 @@
 					"midpoints" : [ 978.5, 61.0, 978.5, 61.0 ],
 					"order" : 1,
 					"source" : [ "obj-22", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"source" : [ "obj-28", 0 ]
 				}
 
 			}
@@ -18392,6 +18371,10 @@
 			}
 , 			{
 				"name" : "zero.resolve.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "sadam.empty.mxo",
 				"type" : "iLaX"
 			}
 , 			{

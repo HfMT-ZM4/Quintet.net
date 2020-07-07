@@ -114,6 +114,16 @@
         return 1;
     }
 
+ 	drawsocket.on_removedPeerStream = async (id) => {
+        const quintetnet_idIDX = id.indexOf('-id-');
+        if( quintetnet_idIDX > -1 )
+        {
+            const qID = id.substring(quintetnet_idIDX+4);
+            let vid = document.getElementById(`quintetnet-${qID}`);
+            vid.srcObject = null;
+        }
+
+    }
 
     function init() {
 

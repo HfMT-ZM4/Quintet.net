@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 153.0, 389.0, 1295.0, 408.0 ],
+		"rect" : [ 156.0, 631.0, 1295.0, 408.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -75,7 +75,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 167.0, 62.0, 91.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 168.0, 12.0, 91.0, 24.0 ],
+					"presentation_rect" : [ 168.0, 11.0, 91.0, 24.0 ],
 					"text" : "Messages:",
 					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 				}
@@ -94,7 +94,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -496,10 +496,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 260.0, 59.5, 780.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 261.0, 9.5, 780.0, 29.0 ],
+					"presentation_rect" : [ 261.0, 8.5, 872.0, 29.0 ],
 					"readonly" : 1,
 					"rounded" : 5.0,
-					"text" : "now things are stable it seems",
 					"textcolor" : [ 0.992156862745098, 0.980392156862745, 1.0, 1.0 ]
 				}
 
@@ -515,7 +514,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 46.0, 161.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 0.5, 161.0, 47.0 ]
+					"presentation_rect" : [ 2.0, -0.5, 161.0, 47.0 ]
 				}
 
 			}
@@ -528,10 +527,10 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1.0, 46.0, 161.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 0.5, 161.0, 47.0 ],
-					"text" : "-00:00:01",
+					"presentation_rect" : [ 2.0, -0.5, 161.0, 47.0 ],
+					"text" : "00:00:00",
 					"textcolor" : [ 0.986246049404144, 0.007120788097382, 0.027434188872576, 1.0 ],
-					"textjustification" : 2
+					"textjustification" : 0
 				}
 
 			}

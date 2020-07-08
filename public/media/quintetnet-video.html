@@ -1,5 +1,3 @@
-
-
 <div id="quintetnet" class="quintetnet_div">
     <style type="text/css">
         #drawsocket {
@@ -66,6 +64,7 @@
     
     </style>
     <button id="startbutton">start stream</button> 
+    <button id="mutebutton">mute</button> 
     <video id="quintetnet-local" autoplay playsinline muted></video>
     <video id="quintetnet-1" autoplay playsinline muted></video>
     <video id="quintetnet-2" autoplay playsinline muted></video>
@@ -77,6 +76,7 @@
     <audio id="quintetnet-3a" autoplay playsinline ></audio>
     <audio id="quintetnet-4a" autoplay playsinline ></audio>
     <audio id="quintetnet-5a" autoplay playsinline ></audio>
+
 </div>
 
 <script>
@@ -124,24 +124,21 @@
         return 1;
     }
 
- 	drawsocket.on_removedPeerStream = async (id) => {
-        const quintetnet_idIDX = id.indexOf('-id-');
-        if( quintetnet_idIDX > -1 )
-        {
-            const qID = id.substring(quintetnet_idIDX+4);
-            let vid = document.getElementById(`quintetnet-${qID}`);
-            vid.srcObject = null;
-        }
+    drawsocket.on_removedPeerStream = async (id) => {
+        const quintetnet_idIDX = id.indexOf('-id-');
+        if( quintetnet_idIDX > -1 )
+        {
+            const qID = id.substring(quintetnet_idIDX+4);
+            let vid = document.getElementById(`quintetnet-${qID}`);
+            vid.srcObject = null;
+        }
 
-    }
+    }
+
+
 
     function init() {
 
-        const audioIds = Object.keys(streams.audio);
-        if (audioIds.length > 0) {
-            const firstStream = streams.video[audioIds[0]];
-            streamHandler(firstStream.stream, 'audio', audioIds[0]);
-        }
 
         const quintetdiv = document.getElementById('quintetnet');
         document.body.appendChild(quintetdiv);
@@ -164,9 +161,20 @@
         else
         {
             //startbutton.parentElement.removeChild(startbutton);
-           	drawsocket.joinRoom();
+            drawsocket.joinRoom();
             startbutton.disabled = true;
         }
+
+        let mutebutton = document.getElementById('mutebutton');
+        let isMuted = false;
+        mutebutton.addEventListener("click", () => {
+            isMuted = !isMuted;
+            console.log('setting mute to', isMuted);
+            document.querySelectorAll("audio").forEach(a => {
+                a.setAttribute("muted", isMuted);
+            })
+        });
+
 
 //        console.log( drawsocket.getMediaStreams() );
 
@@ -176,7 +184,12 @@
             const firstStream = streams.video[videoIds[0]];
             streamHandler(firstStream.stream, 'video', videoIds[0]);
         }
-
+        
+        const audioIds = Object.keys(streams.audio);
+        if (audioIds.length > 0) {
+            const firstStream = streams.video[audioIds[0]];
+            streamHandler(firstStream.stream, 'audio', audioIds[0]);
+        }
     }
 
 
@@ -184,4 +197,4 @@
     init();
 
 
-</script>
+</script

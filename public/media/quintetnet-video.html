@@ -43,7 +43,7 @@
           top: 0px;
           overflow: hidden; 
         }
-    
+
         .quintetnet_div video {
             width: 160px;
             height: 117px;
@@ -171,7 +171,7 @@
             isMuted = !isMuted;
             console.log('setting mute to', isMuted);
             document.querySelectorAll("audio").forEach(a => {
-                a.setAttribute("muted", isMuted);
+                a.setAttribute("muted", (isMuted ? "true" : "false"));
             })
         });
 
@@ -197,4 +197,4 @@
     init();
 
 
-</script
+</script>

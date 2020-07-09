@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 156.0, -1013.0, 1308.0, 765.0 ],
+		"rect" : [ 83.0, 45.0, 1308.0, 765.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -51,7 +51,7 @@
 					"patching_rect" : [ 1180.5, 730.0, 99.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1185.0, 735.5, 114.0, 18.0 ],
-					"text" : "version 2020-07-08",
+					"text" : "version 2020-07-09",
 					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ],
 					"varname" : "version"
 				}
@@ -1065,8 +1065,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 19.0, 415.0, 82.0, 22.0 ],
-									"text" : "prepend draw"
+									"patching_rect" : [ 19.0, 415.0, 138.0, 22.0 ],
+									"text" : "prepend draw quintetnet"
 								}
 
 							}
@@ -4999,7 +4999,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 511.25, 699.0, 321.0, 48.0 ],
-													"text" : "/stdout : \"received socket close /1 +PV4b0FP8pqZh6X2jPpf+A==\""
+													"text" : "/stdout : \"received socket close /1 sEfPX50oHT37IqIlRuXTPw==\""
 												}
 
 											}
@@ -14264,7 +14264,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 19.0, 458.0, 162.0, 22.0 ],
+									"patching_rect" : [ 19.0, 454.0, 162.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -15164,7 +15164,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 140.0, 382.0, 79.0, 22.0 ],
+									"patching_rect" : [ 205.0, 382.0, 79.0, 22.0 ],
 									"text" : "r OUT-device"
 								}
 
@@ -15175,7 +15175,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 110.0, 415.0, 48.0, 22.0 ],
+									"patching_rect" : [ 175.0, 415.0, 48.0, 22.0 ],
 									"text" : "midiout"
 								}
 
@@ -15187,7 +15187,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 110.0, 382.0, 27.0, 22.0 ],
+									"patching_rect" : [ 175.0, 382.0, 27.0, 22.0 ],
 									"text" : "iter"
 								}
 
@@ -15464,7 +15464,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-38", 0 ],
-									"midpoints" : [ 96.5, 370.0, 119.5, 370.0 ],
+									"midpoints" : [ 96.5, 370.0, 184.5, 370.0 ],
 									"source" : [ "obj-26", 5 ]
 								}
 
@@ -15725,7 +15725,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-45", 0 ],
-									"midpoints" : [ 28.5, 452.5, 28.5, 452.5 ],
 									"source" : [ "obj-68", 0 ]
 								}
 
@@ -15764,7 +15763,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 884.0, 79.0, 59.0, 19.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 156, -1013, 1464, -248, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 83, 45, 1391, 810, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 
@@ -15925,7 +15924,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 5.0, 86.0, 59.0, 19.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 156, -1013, 1464, -248, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 83, 45, 1391, 810, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 
@@ -16242,10 +16241,15 @@
 			"obj-20::obj-16::obj-16.1::obj-42::obj-24" : [ "vst~", "vst~", 0 ],
 			"obj-20::obj-16::obj-4.1::obj-42::obj-24" : [ "vst~[4]", "vst~[4]", 0 ],
 			"obj-20::obj-16::obj-7.1::obj-42::obj-24" : [ "vst~[3]", "vst~[3]", 0 ],
+			"obj-5::obj-62::obj-26::obj-12::obj-26::obj-104" : [ "umenu[9]", "umenu", 0 ],
 			"obj-5::obj-62::obj-26::obj-1::obj-26::obj-104" : [ "umenu[4]", "umenu", 0 ],
+			"obj-5::obj-62::obj-27::obj-12::obj-26::obj-104" : [ "umenu[8]", "umenu", 0 ],
 			"obj-5::obj-62::obj-27::obj-1::obj-26::obj-104" : [ "umenu[3]", "umenu", 0 ],
+			"obj-5::obj-62::obj-28::obj-12::obj-26::obj-104" : [ "umenu[7]", "umenu", 0 ],
 			"obj-5::obj-62::obj-28::obj-1::obj-26::obj-104" : [ "umenu[2]", "umenu", 0 ],
+			"obj-5::obj-62::obj-29::obj-12::obj-26::obj-104" : [ "umenu[6]", "umenu", 0 ],
 			"obj-5::obj-62::obj-29::obj-1::obj-26::obj-104" : [ "umenu[1]", "umenu", 0 ],
+			"obj-5::obj-62::obj-30::obj-12::obj-26::obj-104" : [ "umenu[5]", "umenu", 0 ],
 			"obj-5::obj-62::obj-30::obj-1::obj-26::obj-104" : [ "umenu", "umenu", 0 ],
 			"obj-8::obj-24" : [ "live.text[2]", "live.text[2]", 0 ],
 			"obj-8::obj-34" : [ "live.text[7]", "live.text[2]", 0 ],
@@ -16285,9 +16289,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sine.bank.txt",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/media",
-				"patcherrelativepath" : "../MaxScore/media",
+				"name" : "Triangle.bank.txt",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Triangle",
+				"patcherrelativepath" : "./patchers/Projects/Triangle",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -16447,9 +16451,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sine.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/media",
-				"patcherrelativepath" : "../MaxScore/media",
+				"name" : "NaNa.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Triangle/Instruments",
+				"patcherrelativepath" : "./patchers/Projects/Triangle/Instruments",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -16790,6 +16794,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "Tam01.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Rectangle/Instruments",
+				"patcherrelativepath" : "./patchers/Projects/Rectangle/Instruments",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "appender.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/audio",
 				"patcherrelativepath" : "./patchers/Library/Abstractions/audio",
@@ -17105,6 +17116,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "Giorgos.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Rectangle/Instruments",
+				"patcherrelativepath" : "./patchers/Projects/Rectangle/Instruments",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "first-int.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/extensions",
 				"patcherrelativepath" : "../MaxScore/patchers/extensions",
@@ -17123,6 +17141,83 @@
 				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/GUI",
 				"patcherrelativepath" : "./patchers/Library/Abstractions/GUI",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Sander.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Rectangle/Instruments",
+				"patcherrelativepath" : "./patchers/Projects/Rectangle/Instruments",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Aigerim.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Rectangle/Instruments",
+				"patcherrelativepath" : "./patchers/Projects/Rectangle/Instruments",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Ryszard.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Rectangle/Instruments",
+				"patcherrelativepath" : "./patchers/Projects/Rectangle/Instruments",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Tamara.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Rectangle/Instruments",
+				"patcherrelativepath" : "./patchers/Projects/Rectangle/Instruments",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sara-1.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Rectangle/Instruments",
+				"patcherrelativepath" : "./patchers/Projects/Rectangle/Instruments",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Robert.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Rectangle/Instruments",
+				"patcherrelativepath" : "./patchers/Projects/Rectangle/Instruments",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Mélanie.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Rectangle/Instruments",
+				"patcherrelativepath" : "./patchers/Projects/Rectangle/Instruments",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "kelsey.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Rectangle/Instruments",
+				"patcherrelativepath" : "./patchers/Projects/Rectangle/Instruments",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Juan.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Rectangle/Instruments",
+				"patcherrelativepath" : "./patchers/Projects/Rectangle/Instruments",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Jana.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Rectangle/Instruments",
+				"patcherrelativepath" : "./patchers/Projects/Rectangle/Instruments",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Jan.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Rectangle/Instruments",
+				"patcherrelativepath" : "./patchers/Projects/Rectangle/Instruments",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -17937,8 +18032,8 @@
 			}
 , 			{
 				"name" : "my-makenote.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/Macaque/lib/abstractions",
-				"patcherrelativepath" : "../MaxScore/patchers/Macaque/lib/abstractions",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/utilities",
+				"patcherrelativepath" : "./patchers/Library/Abstractions/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}

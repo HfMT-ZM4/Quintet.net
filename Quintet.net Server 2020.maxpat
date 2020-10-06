@@ -529,7 +529,8 @@
 					"pattrmode" : 1,
 					"presentation" : 1,
 					"presentation_rect" : [ 12.5, 79.0, 127.0, 22.0 ],
-					"textcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
+					"textcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"varname" : "myIP"
 				}
 
 			}
@@ -3679,8 +3680,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 419.171520809332605, 80.970873773097992, 86.0, 22.0 ],
-									"text" : "route <empty>"
+									"patching_rect" : [ 419.171520809332605, 80.970873773097992, 46.0, 22.0 ],
+									"text" : "route 0"
 								}
 
 							}
@@ -3763,7 +3764,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 486.171520809332605, 108.970873773097992, 99.0, 22.0 ],
+									"patching_rect" : [ 446.171520809332605, 114.970873773097992, 99.0, 22.0 ],
 									"text" : "prepend address"
 								}
 
@@ -3787,14 +3788,14 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 419.593041618665211, 52.970873773097992, 333.0, 22.0 ],
-									"restore" : [ 0 ],
+									"patching_rect" : [ 419.593041618665211, 52.970873773097992, 306.0, 22.0 ],
+									"restore" : [ "127.0.0.1" ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "pattr @bindto parent::myIP::info @invisible 1 @autorestore 0",
+									"text" : "pattr @bindto parent::myIP @invisible 1 @autorestore 0",
 									"varname" : "u443039383"
 								}
 
@@ -6904,6 +6905,7 @@
 					"patching_rect" : [ 243.0, 5.0, 54.0, 19.0 ],
 					"restore" : 					{
 						"live.text" : [ 0.0 ],
+						"myIP" : [ "127.0.0.1" ],
 						"refresh" : [ 1.0 ]
 					}
 ,

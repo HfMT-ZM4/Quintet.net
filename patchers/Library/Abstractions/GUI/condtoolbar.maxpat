@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -238,7 +238,6 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 0.0 ],
-					"activetextcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ],
 					"bgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 0.0 ],
 					"bgoncolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 0.0 ],
 					"bordercolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 0.0 ],
@@ -252,14 +251,13 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 108.0, 45.0, 50.0, 50.0 ],
-					"pictures" : [ "project.svg", "<none>" ],
+					"pictures" : [ "folders_on.svg", "<none>" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 130.0, 44.0, 40.0, 40.0 ],
-					"remapsvgcolors" : 1,
+					"presentation_rect" : [ 49.0, 45.0, 40.0, 40.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[39]",
+							"parameter_longname" : "live.text[7]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text[2]",
 							"parameter_type" : 2
@@ -299,7 +297,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -554,9 +552,10 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 715.5, 19.0, 59.5, 22.0 ],
 					"restore" : 					{
+						"Project" : [ 0.0 ],
 						"layout" : [ 2 ],
 						"live.text" : [ 0.0 ],
-						"live.text[1]" : [ 1.0 ],
+						"live.text[1]" : [ 0.0 ],
 						"live.text[3]" : [ 0.0 ],
 						"live.text[6]" : [ 0.0 ],
 						"live.text[7]" : [ 0.0 ],
@@ -598,7 +597,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -912,7 +911,7 @@
 									"presentation_rect" : [ 134.0, 40.0, 81.0, 20.0 ],
 									"prototypename" : "Classic",
 									"rounded" : 0.0,
-									"text" : "00:00:21"
+									"text" : "00:00:00"
 								}
 
 							}
@@ -1080,7 +1079,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1581,7 +1580,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2640,7 +2639,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3054,7 +3053,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3262,7 +3261,7 @@
 					"patching_rect" : [ 29.0, 45.0, 45.0, 45.0 ],
 					"pictures" : [ "viewbyname_on.svg", "<none>" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 49.0, 45.0, 40.0, 40.0 ],
+					"presentation_rect" : [ 128.5, 45.0, 40.0, 40.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -3432,10 +3431,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 275.0, 5.0, 58.0, 20.0 ],
-					"restore" : 					{
-						"Project" : [ 0.0 ]
-					}
-,
 					"text" : "autopattr",
 					"varname" : "u715022031"
 				}

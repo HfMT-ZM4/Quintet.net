@@ -5,24 +5,22 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="drawsocket-defaults.css">
 
-    <!-- our stylesheet -->
-    <link rel="stylesheet" href="lib/drawsocket-defaults.css">
-
-    <!-- library dependencies -->
-
-    <script src="lib/scripts/d3-selection.min.js"></script>
-    <script src="lib/scripts/pdf.js"></script>
-    <script src="lib/scripts/Tone.js"></script>
-    <script src="lib/scripts/StartAudioContext.js"></script>
-    <script src="lib/scripts/timesync.js"></script>
-    <script src="lib/scripts/TweenMax.min.js"></script>
-    <script src="lib/scripts/TimelineMax.min.js"></script>
+<!-- local max version, is local, so these scripts are not routed by the server -->
+    <script src="scripts/d3-selection.min.js"></script>
+    <script src="scripts/pdf.js"></script>
+    <script src="scripts/Tone.js"></script>
+    <script src="scripts/StartAudioContext.js"></script>
+    <script src="scripts/timesync.js"></script>
+    <script src="scripts/TweenMax.min.js"></script>
+    <script src="scripts/TimelineMax.min.js"></script>
 
   </head>
   <body>
+
     <!--main html setup -->
-    <div class="log" id="log"></div>
+    <div class="log" id="log">TEST</div>
 
     <div id="touchdiv"></div>
 
@@ -51,7 +49,7 @@
 
     <!-- our scripts -->
 
-    <script src="lib/drawsocket-client.js"></script>
+    <script src="drawsocket-client.max.js"></script>
 
 
   </body>

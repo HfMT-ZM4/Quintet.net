@@ -1,3 +1,4 @@
+
 /* global TweenMax:readonly, TimelineMax:readonly, Tone:readonly, StartAudioContext:readonly, d3:readonly, timesync:readonly, SVGPoints:readonly  */
 
 /*
@@ -2475,6 +2476,7 @@ var drawsocket = (function(){
 
   let softlock = 0;
 
+  /*
   function _SocketPort_()
   {
 
@@ -2536,7 +2538,7 @@ var drawsocket = (function(){
           statusDiv.style.visibility = "visible";
           console.log("tring to reconnect, softlock", softlock );
           try {
-            port = new _SocketPort_();
+            //port = new _SocketPort_();
           } catch(err) {
             console.log("failed to connect", err);
           }
@@ -2574,6 +2576,7 @@ var drawsocket = (function(){
     };
 
   }
+*/
 
   /**
   * Main window setup
@@ -2612,7 +2615,7 @@ var drawsocket = (function(){
       console.log('handleVisibilityChange, typeof port.readyState === "undefined" || port.readyState !== port.OPEN');
 
       port.close();
-      port = new _SocketPort_();
+    //  port = new _SocketPort_();
       hasstate = false;
     }
     else
@@ -2637,6 +2640,8 @@ var drawsocket = (function(){
 
    window.addEventListener("load", function() {
   //  display_log("loaded");
+
+  document.getElementById("loading").style.visibility = "hidden";
 
   // if we have no URL arguments, then we can go forward with websockets,
   // otherwise, don't make a socket, but prepare the read message for the json file fetch
@@ -2666,8 +2671,8 @@ var drawsocket = (function(){
       return;
     }
 
-    if( typeof port === "undefined" )
-        port = new _SocketPort_();
+   // if( typeof port === "undefined" )
+   //     port = new _SocketPort_();
 
     ts = timesync.create({
         server:   port,
@@ -2771,6 +2776,13 @@ var drawsocket = (function(){
       addMouseListeners();
 
     //initMultitouch();
+   /*
+    document.body.addEventListener("touchstart", handleStart, true);
+    document.body.addEventListener("touchend", handleEnd, true);
+    document.body.addEventListener("touchcancel", handleCancel, true);
+    document.body.addEventListener("touchleave", handleEnd, true);
+    document.body.addEventListener("touchmove", handleMove, true);
+    */
    
     initMultitouch("main-svg");
     initMultitouch("main-div");
@@ -3066,15 +3078,10 @@ var drawsocket = (function(){
       port.sendObj(_obj);
     }
 
-    if( typeof window.max != "undefined" )
-    {
-      window.max.outlet("drawsocketOutput", JSON.stringify(_obj) );
-    }
+    window.max.outlet("drawsocketOutput", JSON.stringify(_obj) );
+
   }
 
-
-  if( typeof window.max != "undefined" )
-  {
 
     window.max.bindInlet('drawsocket', function (a) {
       try {
@@ -3088,7 +3095,6 @@ var drawsocket = (function(){
         window.max.outlet("error", err);
       }
     });
-  }
 
 
   return {
@@ -3112,3 +3118,13 @@ var drawsocket = (function(){
   }
 
 })();
+
+
+/*
+window.max.bindInlet('drawsocket', function (a) {
+    let log = document.getElementById("log");
+    log.innerHTML = `hi! ${a}` ;
+
+    window.max.outlet("json", a);
+});
+*/

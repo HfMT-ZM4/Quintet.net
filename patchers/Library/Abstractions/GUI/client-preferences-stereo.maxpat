@@ -69,7 +69,6 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"hidden" : 1,
 					"id" : "obj-51",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
@@ -77,7 +76,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 600.0, 200.0, 218.0, 233.0 ],
+					"patching_rect" : [ 263.0, 90.0, 218.0, 233.0 ],
 					"varname" : "Project",
 					"viewvisibility" : 1
 				}
@@ -1114,7 +1113,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 17.0, 180.0, 61.0, 19.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 423, 47, 1165, 675, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 382, 331, 1124, 841, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 
@@ -1436,7 +1435,7 @@
 					}
 ,
 					"usepicture" : 1,
-					"varname" : "live.tab[1]"
+					"varname" : "Tab"
 				}
 
 			}
@@ -1447,6 +1446,7 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"hidden" : 1,
 					"id" : "obj-3",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
@@ -1454,7 +1454,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ -6.0, -7.0 ],
-					"patching_rect" : [ 50.0, 98.0, 660.0, 468.0 ],
+					"patching_rect" : [ 600.0, 200.0, 660.0, 468.0 ],
 					"varname" : "Audio-Levels",
 					"viewvisibility" : 1
 				}

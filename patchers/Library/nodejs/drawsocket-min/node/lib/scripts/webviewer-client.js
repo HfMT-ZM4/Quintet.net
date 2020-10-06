@@ -1,63 +1,42 @@
-/* global TweenMax:readonly, TimelineMax:readonly, Tone:readonly, StartAudioContext:readonly, d3:readonly, timesync:readonly, SVGPoints:readonly  */
 
-/*
-
-MIT License
-
-Copyright (c) 2019 Rama Gottfried, Hochschule für Musik und Theater Hamburg
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-*/
-
-
+/**
+ * 
+ * this version is without the objectStack, which we expect will function just fine since the browsers keeps a global hashtable for all node ids
+ *  to do:
+ * 
+ * complete sound support
+ * complete form support
+ * test user event scripts
+ * add video html
+ * add canvas commands
+ * add bezier line path for tweens
+ * 
+ * 
+ */
 
 'use strict';
 
 // we return a external access function drawsocket
 var drawsocket = (function(){
 
-  let event_connected_callback = null;
-
-
-  TweenMax.ticker.fps(60);
-  TweenMax.ticker.useRAF(true);
-  console.log(TweenMax.ticker.fps() );
-
   let oscprefix = window.location.pathname; // document.getElementById("OSC").getAttribute("OSCprefix");
-  if( oscprefix.includes('.html') )
-  {
-    oscprefix = oscprefix.slice(0, oscprefix.indexOf('.html') );
-  }
-
-  console.log(oscprefix);
+  console.log(window.location.pathname);
 
   let url_args = new URLSearchParams( window.location.search.substr(1)  );
 
+  
 
   console.log( Array.from(url_args.keys()).length );
+  // //Iterate the search parameters.
+  // for (let p of url_args) {
+  //   console.log(p);
+  // }
+  
 
-  const ws_prefix = (window.location.protocol === "https:") ? "wss" : "ws";
-  const ws_url = `${ws_prefix}://${location.host}${oscprefix}`;
 
+  const ws_url = `ws://${location.host}${oscprefix}`;
   const svg_ns = 'http://www.w3.org/2000/svg';
-  // const html_ns = 'http://www.w3.org/1999/xhtml';
+  const html_ns = 'http://www.w3.org/1999/xhtml';
 
   let port; // = new WebSocket(`ws://${location.host}${oscprefix}`);
   let ts; // timesync object
@@ -65,17 +44,6 @@ var drawsocket = (function(){
 
   // touch array
   let ongoingTouches = [];
-
-  let prevMousePos = [0,0];
-
-  
-  let mouseCallbacks = {
-    mousemove: new Map(),
-    mousedown: new Map(),
-    mouseup: new Map(),
-    mouseover: new Map(),
-    wheel: new Map()
-  }
 
   // audio files
   let audioObj = {};
@@ -88,9 +56,6 @@ var drawsocket = (function(){
   // pdf
   let pdfstack = {};
 
-  // events
-  let eventStack = {};
-
   // webaudio context
   let audioCtx;
 
@@ -99,8 +64,6 @@ var drawsocket = (function(){
   let mainSVG = d3.select("#svg"); // actual svg
   let maindef = d3.select("#defs");
   let forms = d3.select("#forms");
-  let statusDiv = document.getElementById("loading");
-  let log_enabled = false;
 
   function removeNode(node) {
     let parent = node.parentNode;
@@ -113,12 +76,9 @@ var drawsocket = (function(){
 
 
   function display_log(msg) {
-    if( log_enabled )
-    {
-      let time = new Date();
-      let p = document.getElementById('log');
-      p.innerHTML ="["+time.toLocaleTimeString()+"] : "+msg ;
-    }
+    let time = new Date();
+    let p = document.getElementById('log');
+    p.innerHTML ="["+time.toLocaleTimeString()+"] : "+msg ;
   }
 
 
@@ -130,22 +90,6 @@ var drawsocket = (function(){
   async function delayProcess(ms, obj) {
     await wait(ms);
     drawsocket_input(obj);
-  }
-
-  function scheduleEvent(_objarr, timeTag)
-  {
-    for( let node of _objarr)
-    {
-      // do timetag adjustment here to sync events to server clock
-      if( node.hasOwnProperty('id') && node.hasOwnProperty('del') && node.hasOwnProperty('obj') )
-      {
-        eventStack[node.id] = setTimeout( () => {
-          node.timetag = Date.now();
-          drawsocket_input(node.obj);
-          delete eventStack[node.id];
-        }, node.del );
-      }
-    }
   }
 
   /**
@@ -294,88 +238,6 @@ var drawsocket = (function(){
   */
 
 
-  function generateStyleDefs(svgDomElement) {
-    var styleDefs = "";
-    var sheets = document.styleSheets;
-    for (var i = 0; i < sheets.length; i++) {
-      var rules = sheets[i].cssRules;
-      for (var j = 0; j < rules.length; j++) {
-        var rule = rules[j];
-        if (rule.style) {
-          var selectorText = rule.selectorText;
-          var elems = svgDomElement.querySelectorAll(selectorText);
-
-          if (elems.length) {
-            styleDefs += selectorText + " { " + rule.style.cssText + " }\n";
-          }
-        }
-      }
-    }
-
-    var s = document.createElement('style');
-    s.setAttribute('type', 'text/css');
-    s.innerHTML = "<![CDATA[\n" + styleDefs + "\n]]>";
-    //somehow cdata section doesn't always work; you could use this instead:
-    //s.innerHTML = styleDefs;
-
-    console.log(styleDefs);
-    var defs = document.createElement('defs');
-    defs.appendChild(s);
-    svgDomElement.insertBefore(defs, svgDomElement.firstChild);
-  }
-
-  // kind of sort of working, but the image is cut off... 
-  // maybe later try: https://www.npmjs.com/package/save-svg-as-png
-  function rasterizeSVG() 
-  {
-    
-    console.log('calling' );
-
-    // add copy from svg object by id 
-
-    let svg = mainSVG.node();
-
-    generateStyleDefs(svg);
-
-
-    let svgData = new XMLSerializer().serializeToString( svg );
-
-    //let svgData = new Blob([svg], {type:"data:image/svg+xml;charset=utf-8"});
-    //let domURL = self.URL || self.webkitURL || self;
-    //let url = domURL.createObjectURL(svg);
-
-    let canvas = document.createElement( "canvas" );
-    let svgSize = svg.getBBox();
-    console.log(svgSize);
-    
-    canvas.width = svgSize.width;
-    canvas.height = svgSize.height;
-
-    main.append( ()=> {
-      return canvas;
-    });
-
-    mainSVG.remove();
-
-    let ctx = canvas.getContext( "2d" );
-
-    let img = new Image(svgSize.width, svgSize.height);
-
-    img.onload = function() {
-      ctx.drawImage( img, 0, 0 );
-
-       //console.log( canvas.toDataURL( "image/png" ) );
-    };
-
-    let sanitized = btoa(unescape(encodeURIComponent(svgData)));
-    console.log(sanitized.length);
-    img.src = "data:image/svg+xml;base64," + btoa(unescape(encodeURIComponent(svgData))); //encodeURIComponent(svgData));//  
-
-
-  }
-
-
-
   function getHTML_element(node)
   {
 
@@ -419,7 +281,6 @@ var drawsocket = (function(){
     // remove "new" from node?
     for( let prop in node)
     {
-      
       if( prop !== 'new' && prop != 'href' && prop != 'timetag' && prop != 'parent' )
       {
         if(prop === "style" )
@@ -431,13 +292,13 @@ var drawsocket = (function(){
           {
 
             el.node().style[cssprop] = cssnode[cssprop];
-        //    console.log("setting", cssprop, cssnode[cssprop]);
+            //console.log("settingh", cssprop, cssnode[cssprop]);
 
           }
           //console.log("style", el.node().style);
 
         }
-        else if( prop === "child" || prop === "children" || prop === "text" || prop === "html"  )
+        else if( prop === "child" || prop === "text" || prop === "html")
         {
           // case of child node
           // if it's an array, parse for nodes, otherwise, add as text
@@ -452,21 +313,10 @@ var drawsocket = (function(){
   //              console.log("subnode", subnode);
               if( typeof childobj[subnode] == "object" )
               {
-
                 // recusive child node creation
-                let _childnode = ( el.node().tagName === 'svg' ) ? d3_processJSON_SVG_node(childobj[subnode]) : processJSON_HTML_node( childobj[subnode] );
+                let _childnode = processJSON_HTML_node( childobj[subnode] );
                 if( _childnode.node !== null )
                 {
-                  
-                  let _childID = _childnode.node.id;
-                  if( _childID )
-                  {
-                    let existing = d3.select(`#${_childID}`);
-                    if( existing )
-                      existing.remove();
-                    
-                  }
-
                   el.append( ()=>{
                     return _childnode.node;
                   });
@@ -516,7 +366,7 @@ var drawsocket = (function(){
 
     const el_type = el.node().nodeName;
 
-    if( el_type === 'use' || el_type == 'textPath')
+    if( el_type === 'use' )
     {
       if( typeof node.href == 'object' && node.href.length === 2 )
       {
@@ -537,25 +387,17 @@ var drawsocket = (function(){
 
           let retries = 100;
 
-          let fix_position = () => { //timestamp
+          let fix_position = (timestamp) => {
             let bb = el.node().getBBox();
-            if( bb.width === 0 && retries-- > 0){
-//              console.log('retrying');
+            if( bb.width === 0 && retries-- > 0)
               window.requestAnimationFrame(fix_position);
-            }
             else
             {
-              if( retries <= 0 )
-                console.log("retry timeout", retries);
-/*
-              console.log(node.href[0], "bbox y h", bb.y, bb.height);
-              console.log( "client rect", el.node().getBoundingClientRect() );
-  */            
               TweenMax.set(el.node(), {x: oldx - bb.x, y: oldy - bb.y, width: bb.width, height: bb.height} );
               el.node().classList.remove("invisible");
             }
           };
-          
+
           window.requestAnimationFrame( fix_position );
 
         }
@@ -669,7 +511,7 @@ var drawsocket = (function(){
       // remove "new" from node?
       for( let prop in node)
       {
-        if( prop !== 'new' && prop != 'href' && prop != 'timetag' && prop != 'parent' )
+        if( prop !== 'new' && prop != 'href' && prop != 'timetag' && prop != 'parent')
         {
           if(prop === "style" )
           {
@@ -682,11 +524,7 @@ var drawsocket = (function(){
               el.style(cssprop, cssnode[cssprop]);
             }
           }
-          else if( prop === "points" && Array.isArray(node.points) ) // must be an array (i.e. more than one point)
-          {
-            el.attr('d',  SVGPoints.toPath(node.points));
-          }
-          else if( prop === "child" || prop === "children" || prop === "text" || prop === "html")
+          else if( prop === "child" || prop === "text" || prop === "html")
           {
             // case of child node
             // if it's an array, parse for nodes, otherwise, add as text
@@ -869,18 +707,6 @@ var drawsocket = (function(){
 
   }
 
-  function functionize(_obj)
-  {
-    if( _obj.hasOwnProperty('function') )
-    {
-      let _args = _obj.hasOwnProperty("args") ? _obj.args : "";
-      return new Function( _args, _obj.function );
-    }
-
-    return _obj;
-
-  }
-
   // temp version, should check for object type and recurse
   function booleanize(_obj)
   {
@@ -889,18 +715,10 @@ var drawsocket = (function(){
 
       if( _obj[key] == "true" )
         _obj[key] = true;
-      else if( _obj[key] == "false" )
+
+      if( _obj[key] == "false" )
         _obj[key] = false;
-      else if( typeof _obj[key] == "object" )
-      {        
-        _obj[key] = functionize( _obj[key] );
-      }
-     /* else if( key == "onUpdate" )
-      {
-        //_obj[key] = new Function( ..._obj[key] );
-        _obj[key] = new Function( "", _obj[key] );
-      }
-*/
+
     }    
     return _obj;
   }
@@ -909,8 +727,7 @@ var drawsocket = (function(){
 
   function processJSON_Tween(node, timetag)
   {
- //   console.log("processJSON_Tween", node);
-
+    
     if( node.hasOwnProperty('target') &&
         node.hasOwnProperty('vars') )
     {
@@ -954,7 +771,7 @@ var drawsocket = (function(){
 
     // if node has timetag then use that, otherwise use top-level timetag, need to test this!
     const _timetag = node.hasOwnProperty('timetag') ? node.timetag : timetag;
-//    console.log(_timetag);
+    console.log(_timetag);
     const cmds = ( typeof node.cmd != 'object' ) ? [node.cmd] : node.cmd;
     for( let _cmd of cmds )
     {
@@ -969,10 +786,10 @@ var drawsocket = (function(){
           {
             let latestart = (ts.now() - _timetag) * 0.001;
 
-            if( latestart > 0 ){              
+            if( latestart > 0 ){
               animStack[id].play(latestart);
             } else {
-              TweenMax.delayedCall(Math.abs(latestart), ()=>{
+              TweenMax.delayedCall(latestart, ()=>{
                 animStack[id].restart();
               }, this );
             }
@@ -980,15 +797,13 @@ var drawsocket = (function(){
           }
           else
           {
-            animStack[id].pause(animStack[id].totalDuration());
-            //TweenMax.set( animStack[id].target, animStack[id].vars );
+            TweenMax.set( animStack[id].target, animStack[id].vars );
           }
         }
         break;
         case "play":
         {
-          
-          let currentposition = node.hasOwnProperty("time") ? node.time : animStack[id].totalTime();
+          let currentposition = animStack[id].totalTime();
 
           if( !ts ) {
             animStack[id].play( currentposition );
@@ -1021,13 +836,7 @@ var drawsocket = (function(){
 
         case "stop":
         case "pause":
-          
-          if( node.hasOwnProperty("time") ){
-            animStack[id].pause( node.time );
-          }
-          else
-            animStack[id].pause();
-
+          animStack[id].pause();
         break;
 
         case "kill":
@@ -1064,7 +873,7 @@ var drawsocket = (function(){
   {
     
       
-    if( node.hasOwnProperty('tweens') || node.hasOwnProperty('callbacks') )
+    if( node.hasOwnProperty('tweens') )
     {
       const id = node.id;
 
@@ -1093,44 +902,16 @@ var drawsocket = (function(){
         newTimeline = new TimelineMax( timelineparams );
       }
 
-      if( node.hasOwnProperty('tweens') )
-      {
-        for( let tween of node.tweens )
-        {
-          newTimeline.add( TweenMax.to( tween.target, tween.dur, booleanize(tween.vars) ) );
-        }
-      }
-        
 
-      /**
-       * untested -- was about to add a connection to addLabel, but we want to avoid too specific wrapping here
-       * best would be if we somehow parsed the object and converted all functions to callable js Functions and then
-       * use the processMethods function, since the addCallback and addLabel are both methods.
-       * 
-       * in either case, to add an event with TimelineMax that can be cancelled, we might need to always use labels (but better for the user to decide how to do that)
-       */
-      if( node.hasOwnProperty('callbacks') )
+      for( let tween of node.tweens )
       {
-        for( let cb of node.callbacks )
-        {
-          if( typeof cb == "object" && cb.hasOwnProperty('function') && cb.hasOwnProperty('time') )
-          {
-            let _args = cb.hasOwnProperty("args") ? cb.args : "";
-            newTimeline.addCallback( new Function( _args, cb.function ), cb.time  );
-          }    
-        }
+        newTimeline.add( TweenMax.to( tween.target, tween.dur, tween.vars ) );
       }
 
       animStack[id] = newTimeline;
 
     }
     
-    if( animStack.hasOwnProperty(node.id) )
-    {
-      if( node.hasOwnProperty('call') && typeof node.call === 'object' )
-        processMethodCalls( animStack[node.id], node.call );
-    }
-
     if( node.hasOwnProperty('cmd') )
     {
       tween_cmd_node(node, timetag);
@@ -1146,7 +927,7 @@ var drawsocket = (function(){
     {
       if( node.hasOwnProperty('id') ) // must have id always
       {
-        if( node.hasOwnProperty('tweens') || node.hasOwnProperty('timeline') ) // setting tweens, must be timeline
+        if( node.hasOwnProperty('tweens') ) // setting tweens, must be timeline
         {
           processJSON_Timeline(node, timetag);
         }
@@ -1294,18 +1075,6 @@ var drawsocket = (function(){
 
   }
 
-  function clearSound()
-  {
-    /*
-    let keys = Object.keys(audioObj);
-
-    for( let k of keys )    
-      audioObj[k].kill();
-    */
-
-    audioObj = {};
-
-  }
 
   /*
   case "sample/load":
@@ -1354,12 +1123,7 @@ var drawsocket = (function(){
 
   Tone.Buffer.on('load', function(){
     let msg = {};
-    msg.event = {
-      key: 'status',
-      val: {
-        bufferloaded: 1
-      }
-    };
+    msg[oscprefix+'/bufferloaded'] = 1;
     sendMsg(msg);
   })
 
@@ -1451,9 +1215,6 @@ var drawsocket = (function(){
         return Tone[member];
       case "Tone.Object":
         return audioObj[member];
-      case 'tween':
-        return animStack[member];
-
       default:
         return null;
 
@@ -1487,29 +1248,20 @@ var drawsocket = (function(){
           
           if( typeof args_ === 'object' )
           {
-
             let argsObjs = Array.isArray(args_) ? args_ : [args_];
 
             let ref_args = argsObjs.map( (a_) => {
               if( typeof a_ === 'object' ) {
                 if( a_.hasOwnProperty('obj') && a_.hasOwnProperty('get') )
-                {
                   return getRef(a_.obj, a_.get );
-                }
                 else if( a_.hasOwnProperty('val') )
                   return a_.val;
-                else if( a_.hasOwnProperty('function') )
-                {
-                  return functionize(a_);
-                }
-                else
-                  return a_;
               } else {
                 return a_;
               }
             });
 
-            // console.log(ref_args);
+            console.log(ref_args);
             
             ret = _obj[call.method]( ...ref_args );
             
@@ -1519,13 +1271,12 @@ var drawsocket = (function(){
         }
         else
         {
-        //  console.log(_obj);
           ret = _obj[call.method]();
         }
 
-        if (ret && typeof ret.then === 'function' && ret !== null) {
-          ret.catch( (e) => { 
-             console.log(`caught error ${e}`);
+        if (typeof ret.then === 'function' && ret !== null) {
+          ret.catch((e) => { 
+            console.log(`caught error ${e}`);
           })
         }
         else if( ret !== undefined )
@@ -1534,7 +1285,7 @@ var drawsocket = (function(){
           {
             processMethodCalls( ret, call.then );
           }
-          // console.log(`return value ${ret}`);
+          console.log(`return value ${ret}`);
         }
 
       }
@@ -1601,7 +1352,7 @@ var drawsocket = (function(){
       display_log("Started Audio");
     });
 
-   // console.log( Tone.context );
+    console.log( Tone.context );
 
   }
 
@@ -1695,10 +1446,6 @@ var drawsocket = (function(){
      if( node.hasOwnProperty('fetch') )
      {
 
-      if( !node.fetch.startsWith("/") ){
-        node.fetch = "/"+node.fetch;
-      }
-        
       fetch(node.fetch).then( function(response) {
 
         try {
@@ -1746,97 +1493,26 @@ var drawsocket = (function(){
       {
         if( o.hasOwnProperty('body') )
         {
-          let fill_;
-          
-          if( o.hasOwnProperty('args') )
-          {
-            if( typeof o.args === "string" )
-              fill_ = [o.args, o.body];
-            else
-              fill_ = [...o.args, o.body];
-
-          } 
-          else
-          {
-            fill_ = o.body;
-          }
-
-          functionStack[o.id] = new Function( ...fill_);
-
-        //  console.log(typeof functionStack[o.id], fill_);
+          let fill_ = o.hasOwnProperty('args') ? [fill_, o.body] : [o.body];
+          functionStack[o.id] = new Function( ...fill_)
+          console.log(typeof functionStack[o.id], functionStack[o.id]);
         }
         
         if( o.hasOwnProperty('call') && typeof functionStack[o.id] === 'function')
         {
-          let ret = null;
-          
-          try {
-            
-            if( o.call === "" )
-            {
-              ret = functionStack[o.id]();
-            }
-            else
-            {
-              if( Array.isArray(o.call) )
-              {
-              //  console.log("calling with args", ...o.call );    
-                ret = functionStack[o.id]( ...o.call );
-              }
-              else
-                ret = functionStack[o.id](o.call);
-
-            }
-              
-            if( ret )
-            {
-              sendMsg({ 
-                event : {
-                  key : "function",
-                  val : {
-                    id : o.id,
-                    return : ret
-                  }
-                }
-              });
-            }
-
-          } catch (err) {
-            sendMsg({
-              event : {
-                key : "function",
-                val : {
-                  id : o.id,
-                  error : err
-                }
-              }
-            });
-          }
-          
-          
-
-          //processMethodCalls(functionStack[o.id], o.call );
+          processMethodCalls(functionStack[o.id], o.call );
         }
         
       }   
     }
   }
 
-
-  /**
-   * can be overwritten by user to listen to drawsocket input
-   */
-
-  let input_listener = null;// = function(key, obj_arr) {};
-
-  /**
-   *  the main input to drawsocket
-   */
-  
+  /*
+  */
   function drawsocket_input(obj)
   {
   //  const keys = Object.keys(obj);
-    //console.log("keys", keys);
+    // console.log("keys", keys);
     let iter_obj_arr;
 
     let toplevel_timetag;
@@ -1849,15 +1525,13 @@ var drawsocket = (function(){
       iter_obj_arr = obj;
     
 
-//  console.log(iter_obj_arr);
+  //console.log(iter_obj_arr);
 
-    let wasHandled = true;
-
-    for( let i = 0; i < iter_obj_arr.length; i++ )  
+    for( let i = 0; i < iter_obj_arr.length; i++ )
     {
       const key = iter_obj_arr[i].key;
       
-      const timetag = iter_obj_arr[i].timetag ? iter_obj_arr[i].timetag : (toplevel_timetag ? toplevel_timetag : Date.now());
+      const timetag = iter_obj_arr[i].timetag ? iter_obj_arr[i].timetag : toplevel_timetag;
 
       const objValue =  iter_obj_arr[i].val;
 
@@ -1897,18 +1571,10 @@ var drawsocket = (function(){
 
             ongoingTouches = [];
 
-            mouseCallbacks = {
-              mousemove: new Map(),
-              mousedown: new Map(),
-              mouseup: new Map(),
-              mouseover: new Map(),
-              wheel: new Map()
-            };
-            
             clearCSS();
             clearAnim();
             clearPDF();
-            clearSound();
+  // clearSound()            
           }
           else
           {
@@ -1990,7 +1656,7 @@ var drawsocket = (function(){
         case "sound":
           if( objValue === "clear" )
           {
-            clearSound();
+      //        clearCSS();
             break;
           }
           processJSON_Sound(_objarr, timetag);
@@ -2007,10 +1673,6 @@ var drawsocket = (function(){
           processJSON_PDF(_objarr);
         break;
 
-        case "event":
-          scheduleEvent(_objarr, timetag);
-        break;
-
         case "file":
           processJSON_file(_objarr);
         break;
@@ -2024,65 +1686,16 @@ var drawsocket = (function(){
           break;
         */
         case "multitouch":
-            //console.log("multitouch", objValue);
             ongoingTouches = [];
             if( objValue > 0 )
               enableMultitouch();
             else
               disableMultitouch();
         break;
-        case "mouse":
-            processJSON_mouse(_objarr);
-        break;
-
-        case "key":
-          
-          if( _objarr[0].hasOwnProperty('enable') )
-          {
-            if( _objarr[0].enable == 0 )
-              removeKeyListeners()
-            else
-              addKeyListeners();
-          }
-
-        break;
-
-        case "do_sync":
-          do_sync();
-        break;
-        case "log":
-          log_enabled = ( objValue > 0 );
-        break;
-        case "canvas":
-          rasterizeSVG();
-        break;
-        case "writeSVG":
-          {
-            //console.log("svgElement", mainSVG.node().outerHTML );
-            generateStyleDefs(mainSVG.node());
-
-            sendMsg({
-                key: 'svgElement',
-                val :  mainSVG.node().outerHTML
-              });
-          }
-        break;
         default:
-            sendMsg({
-              event: {
-                key: "input",
-                val: {
-                  error: `unrouted command key: ${key}`
-                }
-              }
-            });
             console.log("unrouted command key:", key, objValue );
-            wasHandled = false;
         break;
       }
-
-      if( input_listener != null )
-        input_listener(key, _objarr, wasHandled);
 
     }
   }
@@ -2091,169 +1704,85 @@ var drawsocket = (function(){
   /**
   *   mouse handling
   */
-  let mouseIsEnabled = true;
-  
-  function processJSON_mouse(_objarr)
-  {
-    for( const obj of _objarr)
-    {
-
-      if( obj.hasOwnProperty('enable') )
-      {
-        if( obj.enable == 0 )
-          removeMouseListeners()
-        else
-          addMouseListeners();
-
-        mouseIsEnabled = obj.enable;
-
-      }
-      else if( obj.hasOwnProperty("id") && obj.hasOwnProperty("callback") && obj.callback.hasOwnProperty("event") && obj.callback.hasOwnProperty("function") )
-      {
-        if( !obj.callback.hasOwnProperty('args') ){
-          obj.callback.args = "event";
-        }
-
-        mouseCallbacks[obj.callback.event].set( obj.id, functionize(obj.callback) );
-
-      }
-      else if( obj.hasOwnProperty('remove') && obj.hasOwnProperty("event") )
-      {
-        /**
-         * key: mouse,
-         * val: {
-         *    remove: id,
-         *    event: 
-         * }
-         */
-
-        mouseCallbacks[obj.event].delete( obj.remove );
-      }
-
-    }
-  }
-
 
   function emptybundle(){
     return {
-      timeTag : Date.now,
+      timeTag : osc.timeTag(),
       packets : []
     }
-  }
+  };
 
-  function initMultitouch(name) { //(name)
- /*
-    document.body.addEventListener("touchstart", handleStart, true);
-    document.body.addEventListener("touchend", handleEnd, true);
-    document.body.addEventListener("touchcancel", handleCancel, true);
-    document.body.addEventListener("touchleave", handleEnd, true);
-    document.body.addEventListener("touchmove", handleMove, true);
-    */
+  function initMultitouch(name) {
     let el = document.getElementById(name);
     el.ontouchstart = handleStart;
     el.ontouchmove =  handleMove;
     el.ontouchend =  handleEnd;
     el.ontouchcancel =  handleEnd;
-   
     //el.touchleave =  handleEnd;
   //  display_log("initialized multitouch");
   }
 
   function disableMultitouch() {
-    document.body.removeEventListener("touchstart", handleStart, true);
-    document.body.removeEventListener("touchend", handleEnd, true);
-    document.body.removeEventListener("touchcancel", handleCancel, true);
-    document.body.removeEventListener("touchleave", handleEnd, true);
-    document.body.removeEventListener("touchmove", handleMove, true);
+    document.body.removeEventListener("touchstart", handleStart);
+    document.body.removeEventListener("touchend", handleEnd);
+    document.body.removeEventListener("touchcancel", handleCancel);
+    document.body.removeEventListener("touchleave", handleEnd);
+    document.body.removeEventListener("touchmove", handleMove);
   //  display_log("disabled multitouch");
 
   }
 
-
-  function procTouchEvent(event, caller)
-  {
-    
-    let obj = {};
-    obj.event = {
-      key: 'touch',
-      val: {
-        action: caller,
-        button: event.buttons,
-        mods : {
-          alt: event.altKey,
-          shift: event.shiftKey,
-          ctrl: event.ctrlKey,
-          meta: event.metaKey
-        },
-        target: elementToJSON(event.target),
-        fingers: ongoingTouches
-      }
-    };
-
-    sendMsg(obj);
-
-  }
-
-
-  function handleStart(event) {
-    event.preventDefault();
-
-    let touches = event.changedTouches;
-   
+  function handleStart(evt) {
+    evt.preventDefault();
+    let touches = evt.changedTouches;
+    let bndl = {};
     for (let i = 0; i < touches.length; i++) {
       ongoingTouches.push(copyTouch(touches[i]));
-      //let idx = ongoingTouchIndexById(touches[i].identifier);
-
+      let idx = ongoingTouchIndexById(touches[i].identifier);
+      bndl[oscprefix+"/"+evt.target.id+"/finger/"+idx+"/start/xy"] = [touches[i].clientX, touches[i].clientY];
     }
-    
-    procTouchEvent(event, "touchstart");
-
+    sendMsg(bndl);
   }
 
-  function handleMove(event) {
-    event.preventDefault();
-    let touches = event.changedTouches;
-    
+  function handleMove(evt) {
+    evt.preventDefault();
+    let touches = evt.changedTouches;
+    let bndl = {};
     for (let i = 0; i < touches.length; i++) {
       let idx = ongoingTouchIndexById(touches[i].identifier);
       ongoingTouches.splice(idx, 1, copyTouch(touches[i])); // swap in the new touch record
-
+      bndl[oscprefix+"/"+evt.target.id+"/finger/"+idx+"/move/xy"] = [touches[i].clientX, touches[i].clientY];
     }
-    procTouchEvent(event, "touchmove");
-
+    sendMsg(bndl);
 
   }
 
-  function handleEnd(event) {
-    event.preventDefault();
-    let touches = event.changedTouches;
-
+  function handleEnd(evt) {
+    evt.preventDefault();
+    let touches = evt.changedTouches;
+    let bndl = {};
     for (let i = 0; i < touches.length; i++) {
       let idx = ongoingTouchIndexById(touches[i].identifier);
-      ongoingTouches.splice(idx, 1); // remove it; we're done
-
+      ongoingTouches.splice(i, 1); // remove it; we're done
+      bndl[oscprefix+"/"+evt.target.id+"/finger/"+idx+"/end/xy"] = [touches[i].clientX, touches[i].clientY];
     }
-
-    procTouchEvent(event, "touchend");
-
+    sendMsg(bndl);
   }
 
-  function handleCancel(event) {
-    event.preventDefault();
-    let touches = event.changedTouches;
-
+  function handleCancel(evt) {
+    evt.preventDefault();
+    let touches = evt.changedTouches;
+    let bndl = emptybundle();
     for (let i = 0; i < touches.length; i++) {
       let idx = ongoingTouchIndexById(touches[i].identifier);
-      ongoingTouches.splice(idx, 1); // remove it; we're done
-
+      ongoingTouches.splice(i, 1); // remove it; we're done
+      bndl[oscprefix+"/"+evt.target.id+"/finger/"+idx+"/cancel/xy"] = [touches[i].clientX, touches[i].clientY];
     }
-
-    procTouchEvent(event, "touchcancel");
-
+    sendMsg(bndl);
   }
 
   function copyTouch(touch) {
-    return { identifier: touch.identifier, x: touch.clientX, y: touch.clientY };
+    return { identifier: touch.identifier, clientX: touch.clientX, clientY: touch.clientY };
   }
 
   function ongoingTouchIndexById(idToFind) {
@@ -2266,7 +1795,7 @@ var drawsocket = (function(){
     }
     return -1; // not found
   }
-/*
+
   function findPos (obj) {
       let curleft = 0,
           curtop = 0;
@@ -2280,200 +1809,42 @@ var drawsocket = (function(){
           return { x: curleft-document.body.scrollLeft, y: curtop-document.body.scrollTop };
       }
   }
-*/
 
-  function elementToJSON(elm)
+
+  document.body.addEventListener("mousemove", function(event)
   {
-    let obj = {};
-    obj.type = elm.tagName;
-    Array.prototype.forEach.call(elm.attributes, (attr) => {
-      if( attr.specified )
-      {
-        if( obj.type === 'path' && attr.name === 'd' )
-        {                
-          obj.points = SVGPoints.toPoints({ type: "path", d: attr.value });
-        }
-
-        obj[attr.name] = attr.value;
-      }
-    });
-
-    return obj;
-  }
-
-
-
-  function procMouseEvent(event, caller)
-  {
-   
-    // considering removing this user callback system, since it seems better performing to addEventListeners separately in a separate file    
-    if( mouseCallbacks[caller].size > 0 )
-      mouseCallbacks[caller].forEach( cb => cb(event) );
-
-    let obj = {
-      event: {
-        key: 'mouse',
-        val: {
-          action: caller,
-          xy: [ event.clientX, event.clientY ],
-          button: event.buttons,
-          mods : {
-            alt: event.altKey,
-            shift: event.shiftKey,
-            ctrl: event.ctrlKey,
-            meta: event.metaKey
-          },
-          target: elementToJSON(event.target)
-        }
-      }
-    };
-  
-    if( caller == 'wheel' )
-    {
-      obj.event.val.delta = [ event.deltaX, event.deltaY ];
-    }
-
+    const obj = {};
+    obj[oscprefix+"/"+event.target.id+"/mouse/xy"] = [ event.clientX, event.clientY ];
     sendMsg(obj);
 
-  }
+      //posterror(event.clientX + " " + event.clientY);
+  });
 
-  function mousemove_callback(event)
+  document.body.addEventListener("mousedown", function(event)
   {
-    if( event.clientX != prevMousePos[0] && event.clientY != prevMousePos[1] )
-    {
-    //event.preventDefault();
-      procMouseEvent(event, "mousemove");
-    }
+    const obj = {};
+    obj[oscprefix+"/"+event.target.id+"/mouse/state"] = 1;
+    sendMsg(obj);
+  });
 
-    prevMousePos = [ event.clientX, event.clientY ];
-  }
-
-  function mousedown_callback(event)
+  document.body.addEventListener("mouseup", function(event)
   {
-    //event.preventDefault();
-    procMouseEvent(event, "mousedown");
-    prevMousePos = [ event.clientX, event.clientY ];
-    
-  }
-
-  function mouseup_callback(event)
-  {
-    //event.preventDefault();
-    procMouseEvent(event, "mouseup");
-    prevMousePos = [ event.clientX, event.clientY ];
-    
-  }
-
-  function mouseover_callback(event)
-  {
-    //event.preventDefault();
-    procMouseEvent(event, "mouseover");
-    prevMousePos = [ event.clientX, event.clientY ];
-    
-  }
-
-  function wheel_callback(event)
-  {
-    event.preventDefault();
-    procMouseEvent(event, "wheel");  
-  }
-
-  function addMouseListeners()
-  {
-    document.body.addEventListener("mousemove", mousemove_callback, true);
-    document.body.addEventListener("mousedown", mousedown_callback, true);
-    document.body.addEventListener("mouseup", mouseup_callback, true);
-    document.body.addEventListener("mouseover", mouseover_callback, true);
-    document.body.addEventListener("wheel", wheel_callback, {passive:false} );
-  }
-  
-  function removeMouseListeners()
-  {    
-    document.body.removeEventListener("mousemove", mousemove_callback, true);
-    document.body.removeEventListener("mousedown", mousedown_callback, true);
-    document.body.removeEventListener("mouseup", mouseup_callback, true);
-    document.body.removeEventListener("mouseover", mouseover_callback, true);
-    document.body.removeEventListener("wheel", wheel_callback, {passive:false});
-  }
-  
-  function procKeyEvent(event, caller)
-  {
-
-   // console.log("drawsocket handler");
-    
-    sendMsg({
-      event: {
-        key: 'key',
-        val: {
-          action: caller,
-          keyVal: event.key,
-          mods : {
-            alt: event.altKey,
-            shift: event.shiftKey,
-            ctrl: event.ctrlKey,
-            meta: event.metaKey
-          }
-        }
-      }
-    });
-
-  }
-  
-  function keydownhandler(event)
-  {
-    procKeyEvent(event, "keydown");
-  }
-
-  function keyuphandler(event)
-  {
-    procKeyEvent(event, "keyup");
-  }
-
-  function addKeyListeners()
-  {
-    console.log("add");
-
-    document.body.addEventListener("keydown", keydownhandler, true);
-    document.body.addEventListener("keyup", keyuphandler, true);
-  }
-
-  function removeKeyListeners()
-  {
-    console.log("removeKeyListeners");
-    
-    document.body.removeEventListener("keydown", keydownhandler, true);
-    document.body.removeEventListener("keyup", keyuphandler, true);
-  }
-
-
+    const obj = {};
+    obj[oscprefix+"/"+event.target.id+"/mouse/state"] = 0;
+    sendMsg(obj);
+      //posterror(event.clientX + " " + event.clientY);
+  });
 
   function pingResponse()
   {
-    sendMsg({
-      event: {
-        key: 'status',
-        val: {
-          connected: 1,
-          screensize: [window.innerWidth, window.innerHeight]
-        }
-      }
-    });
+
+    let msg = {};
+    msg[oscprefix+"/connected"] = 1;
+    msg[oscprefix+"/screensize"] = [window.innerWidth, window.innerHeight];
+
+    sendMsg(msg);
 
   }
-
-  function do_sync()
-  {
-    console.log('starting sync');
-
-    statusDiv.innerHTML = "<p>synchronizing...</p>";
-    statusDiv.style.visibility = "visible";
-
-    setTimeout(function () {
-      ts.sync().catch(err => console.log('timesync err', err));
-    }, 100);
-  }
-
-  let softlock = 0;
 
   function _SocketPort_()
   {
@@ -2497,9 +1868,6 @@ var drawsocket = (function(){
           case 'ping':
             pingResponse();
           break;
-          case 'statereq':
-            port.sendObj({ statereq: 1 });
-          break;
           default:
             drawsocket_input(obj);
           break;
@@ -2516,35 +1884,23 @@ var drawsocket = (function(){
     this.port.onopen = function() {
   //    display_log("opened port");
       console.log("connected");
-      statusDiv.style.visibility = "hidden";
-
-      do_sync();
 
       pingResponse();
-      
-      softlock = 1;
+
     }
 
     this.port.onclose = function() 
     {
-     // port.readyState = port.CLOSED;
-      softlock = 0;
       setTimeout( ()=>{
-        if( (typeof port.readyState === "undefined" || port.readyState !== 1 ) && softlock == 0)
-        {
-          statusDiv.innerHTML = "<p>reconnecting...</p>";
-          statusDiv.style.visibility = "visible";
-          console.log("tring to reconnect, softlock", softlock );
-          try {
-            port = new _SocketPort_();
-          } catch(err) {
-            console.log("failed to connect", err);
-          }
-          softlock = 1;
+        console.log("tring to reconnect");
+        try {
+          //port = new _SocketPort_();
+        } catch(err){
+          console.log("failed to connect", err);
+          
         }
+        
       }, 1000 );
-
-
     }
 
     this.sendObj = function( obj )
@@ -2561,10 +1917,10 @@ var drawsocket = (function(){
     }
 
     this.senderror = function (err) {
-      let _obj = {};
-      _obj[oscprefix+"/error"] = err;
-      _obj.timetag = Date.now();
-      this.sendObj(_obj);
+      let erroraddr = oscprefix+"/error";
+      this.sendObj({
+        erroraddr : err
+      });
     }
 
     this.port.onerror = function(error) {
@@ -2593,31 +1949,24 @@ var drawsocket = (function(){
 
   function handleVisibilityChange() 
   {
-    if( !port ){
-      console.log('handleVisibilityChange, no port');
+    if( !port )
       return;
-    }
-      
 
     display_log (document[hidden] + " " + (typeof port.readyState) );
     if( document[hidden] )
     {
   //    port.sendObj({ "/bye" : "skinny" });
-      console.log('handleVisibilityChange, document[hidden]');
-
       port.close();
     }
     else if( typeof port.readyState === "undefined" || port.readyState !== port.OPEN )
     {
-      console.log('handleVisibilityChange, typeof port.readyState === "undefined" || port.readyState !== port.OPEN');
-
-      port.close();
-      port = new _SocketPort_();
+      // port = new _SocketPort_();
       hasstate = false;
+      document.getElementById("loading").style.visibility = "visible";
+      ts.sync();
     }
     else
     {
-      console.log('handleVisibilityChange, unhandled case');
       // returning with open port ... shouldn't happen anymore
       //port.sendObj({ "/helloAgain" : "skinny" });
     }
@@ -2634,8 +1983,7 @@ var drawsocket = (function(){
 
   let hasstate = false;
 
-
-   window.addEventListener("load", function() {
+  window.onload = function() {
   //  display_log("loaded");
 
   // if we have no URL arguments, then we can go forward with websockets,
@@ -2654,11 +2002,6 @@ var drawsocket = (function(){
         _val.prefix = url_args.get("prefix");
       }
 
-      console.log({
-        key: "file",
-        val: _val
-      });
-      
       drawsocket_input({
         key: "file",
         val: _val
@@ -2666,41 +2009,30 @@ var drawsocket = (function(){
       return;
     }
 
-    if( typeof port === "undefined" )
-        port = new _SocketPort_();
+    //port = new _SocketPort_();
 
     ts = timesync.create({
         server:   port,
-        interval: null,
-        repeat: 5,
-        delay: 100
+        interval: 5000,
+        delay: 250
     });
 
     ts.on('sync', function (state) {
 
-      console.log('syncing', state);
-      statusDiv.innerHTML = "<p>synchronizing...</p>";
-      statusDiv.style.visibility = "visible";
-
       if( state === 'end' )
       {
         display_log('sync offset: ' + ts.offset + ' ms');
-        statusDiv.style.visibility = "hidden";
 
         if( !hasstate )
         {
+  //        let loading = document.getElementById("loading");
+  //        document.body.removeChild(loading);
+          document.getElementById("loading").style.visibility = "hidden";
+
           // ask server for current state
-          port.sendObj({ statereq: 1 });
-
-          hasstate = true;
+        port.sendObj({ statereq: 1 });
+        hasstate = true;
         }
-
-
-        if( event_connected_callback )
-        {
-          event_connected_callback();
-        }
-      
       }
       else
       {
@@ -2716,29 +2048,23 @@ var drawsocket = (function(){
 
     //let prev_offset = 0;
 
-    ts.on('change', function () { // (offset) optional arg
-       
+    ts.on('change', function (offset) {
+      
     //  prev_offset = prev_offset - ts.offset;
    //   console.log(`dx=${prev_offset} new=${ts.offset}`);
       let msg = {};
-      msg['event'] = {
-        key: 'sync',
-        val: {
-          syncOffset: ts.offset
-        }
-      };
+      msg[oscprefix+"/syncOffset"] = ts.offset;
       sendMsg(msg);
   //    port.sendObj({ syncClient: ts.offset });
     });
   
 
     ts.send = function (socket, data, timeout) {
-  //    console.log('sending', data, timeout);
       return new Promise(function (resolve, reject) {
         let timeoutFn = setTimeout(reject, timeout);
         if(port.readyState === port.OPEN)
         {
-         //console.log('data',data);
+      //    console.log(data);
           port.sendObj({
             timesync: data
           });
@@ -2758,8 +2084,7 @@ var drawsocket = (function(){
       this.ts.receive(null, data);
     });
     */
-    
-    
+
 
     if (typeof document.addEventListener === "undefined" || hidden === undefined) {
       console.log("Page Visibility API not found");
@@ -2767,20 +2092,11 @@ var drawsocket = (function(){
       document.addEventListener(visibilityChange, handleVisibilityChange, false);
     }
 
-    if( mouseIsEnabled )
-      addMouseListeners();
-
-    //initMultitouch();
-   
     initMultitouch("main-svg");
     initMultitouch("main-div");
     initMultitouch("touchdiv");
-   
-    addKeyListeners();
-    
-    console.log("drawsocket finished loading");
 
-  });
+  }
 
 
   
@@ -2801,12 +2117,7 @@ var drawsocket = (function(){
 
   window.onresize = function(){
     let msg = {};
-    msg['event'] = {
-      key: 'status',
-      val: {
-        screensize: [window.innerWidth, window.innerHeight]
-      }
-    };
+    msg[oscprefix+"/screensize"] = [window.innerWidth, window.innerHeight];
     sendMsg(msg)
   }
 
@@ -2839,9 +2150,8 @@ var drawsocket = (function(){
 
   }
 
-    function jsonSound_obj(_obj) {  }
-
   */
+  function jsonSound_obj(_obj) {  }
 
   /**
    * PDF handler
@@ -2916,8 +2226,8 @@ var drawsocket = (function(){
 
       // size of pdf
       let viewport = _page.getViewport(this.scale);
-      
-      //let mainDiv_bbox = main.node().getBoundingClientRect();
+
+      let mainDiv_bbox = main.node().getBoundingClientRect();
 
       // scale to fit
 
@@ -3001,7 +2311,7 @@ var drawsocket = (function(){
   /**
    * fastObjEqual
    */
-/*
+
 
   function fastObjEqual(a, b) {
 
@@ -3056,59 +2366,22 @@ var drawsocket = (function(){
     }
 
     return a!==a && b!==b;
-  }
-*/
+  };
 
-  function sendMsg(_obj)
+function sendMsg(_obj)
+{
+  if( port )
   {
-    if( port )
-    {
-      port.sendObj(_obj);
-    }
-
-    if( typeof window.max != "undefined" )
-    {
-      window.max.outlet("drawsocketOutput", JSON.stringify(_obj) );
-    }
+    port.sendObj(_obj);
   }
-
-
-  if( typeof window.max != "undefined" )
-  {
-
-    window.max.bindInlet('drawsocket', function (a) {
-      try {
-        const obj = JSON.parse(a);
-        drawsocket_input(obj);
-        window.max.outlet("received", a);
-
-      }
-      catch(err)
-      {
-        window.max.outlet("error", err);
-      }
-    });
-  }
-
+}
 
   return {
     input: drawsocket_input,
-//    submitOnEnterKey: submitOnEnterKey,
+    submitOnEnterKey: submitOnEnterKey,
     send: sendMsg,
-    oscprefix: oscprefix, // legacy name from previous API
-    url: oscprefix,
-    startAudio: startAudio,
-
-    setInputListener: function(cb_fn) {
-      console.log("setting listener, function signature: (key, objarray, wasHandled");
-      input_listener = cb_fn;
-    },
-
-    setConnectionCallback: function(cb) {
-      console.log("setting on connection callback");
-      event_connected_callback = cb;
-    }
-
+    oscprefix: oscprefix,
+    startAudio: startAudio
   }
 
 })();

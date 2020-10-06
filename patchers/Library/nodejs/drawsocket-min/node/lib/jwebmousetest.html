@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+</head>
+
+<body>
+
+    All your base are belong to us.
+    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        x="0px" y="0px" width="800px" height="600px" viewBox="0 0 800 600" style="enable-background:new 0 0 800 600;"
+        xml:space="preserve">
+        <style type="text/css">
+            .st0 {
+                fill: #4D4D4D;
+            }
+
+            .st1 {
+                opacity: 0.33;
+            }
+
+            .st2 {
+                fill: #0000FF;
+            }
+
+            .st3 {
+                fill: #FCEE21;
+            }
+
+            .st4 {
+                opacity: 0.38;
+            }
+
+            .st5 {
+                fill: #ED1C24;
+            }
+        </style>
+        <g id="background">
+            <circle class="st0" cx="72.5" cy="70.5" r="71.5" />
+            <path d="M72.5,0C111.4,0,143,31.6,143,70.5S111.4,141,72.5,141S2,109.4,2,70.5S33.6,0,72.5,0 M72.5-2C32.5-2,0,30.5,0,70.5
+           S32.5,143,72.5,143S145,110.5,145,70.5S112.5-2,72.5-2L72.5-2z" />
+        </g>
+        <g id="blue" class="st1">
+            <circle class="st2" cx="81.5" cy="56.5" r="15.5" />
+            <path d="M81.5,42c8,0,14.5,6.5,14.5,14.5S89.5,71,81.5,71S67,64.5,67,56.5S73.5,42,81.5,42 M81.5,40C72.4,40,65,47.4,65,56.5
+           S72.4,73,81.5,73S98,65.6,98,56.5S90.6,40,81.5,40L81.5,40z" />
+        </g>
+        <g id="yellow" class="st1">
+            <circle class="st3" cx="82" cy="91" r="28" />
+            <path d="M82,64c14.9,0,27,12.1,27,27s-12.1,27-27,27s-27-12.1-27-27S67.1,64,82,64 M82,62c-16,0-29,13-29,29s13,29,29,29
+           s29-13,29-29S98,62,82,62L82,62z" />
+        </g>
+        <g id="red" class="st4">
+            <circle class="st5" cx="44" cy="62" r="28" />
+            <path d="M44,35c14.9,0,27,12.1,27,27S58.9,89,44,89S17,76.9,17,62S29.1,35,44,35 M44,33c-16,0-29,13-29,29s13,29,29,29s29-13,29-29
+           S60,33,44,33L44,33z" />
+        </g>
+    </svg>
+
+    <script>
+
+        function procMouseEvent(event, caller) {
+
+            let obj = {
+                event: {
+                    key: 'mouse',
+                    val: {
+                        action: caller,
+                        xy: [event.clientX, event.clientY],
+                        button: event.buttons,
+                        mods: {
+                            alt: event.altKey,
+                            shift: event.shiftKey,
+                            ctrl: event.ctrlKey,
+                            meta: event.metaKey
+                        }
+                    }
+                }
+            };
+
+            if (caller == 'wheel') {
+                obj.event.val.delta = [event.deltaX, event.deltaY];
+            }
+
+            return obj;
+
+        }
+
+
+        document.addEventListener("mousemove", event => {
+
+            var eventStr = JSON.stringify(procMouseEvent(event, "mousemove"));
+            console.log("mousemove", eventStr);
+
+            if (typeof window.max !== "undefined") {
+                window.max.outlet("mousemove", eventStr);
+            }
+
+        });
+
+    </script>
+</body>
+
+</html>
+<!--
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+
+        All your base are belong to us.
+
+        <script>
+            /*
+            var obj = {
+                a : '1',
+                b : '2',
+                c : '3'
+            };
+
+            window.max.setDict('eventObj', obj);
+        */
+
+          //  window.addEventListener("load", () => {
+
+                document.addEventListener("mousemove", event => {
+                    console.log("mousemove", event);
+
+                    var evstr = JSON.stringify(event);
+                    if( typeof window.max !== "undefined" )
+                    {
+                        window.max.outlet('mousemove', evstr);
+                        /*
+                        window.max.setDict('eventObj', event);
+                        window.max.outlet("eventObjWrite", "bang");
+                        */
+                    }
+                });
+
+                document.addEventListener("mousedown", event => {
+                    console.log("mousedown", event);
+
+                    if( typeof window.max !== "undefined" )
+                        window.max.outlet("mousedown", JSON.stringify(event));
+                });
+
+                document.addEventListener("touchmove", event => {
+                    console.log("touchmove", event);
+
+                    if( typeof window.max !== "undefined" )
+                        window.max.outlet("touchmove", JSON.stringify(event));
+
+                });
+         //   });
+        </script>
+    </body>
+</html>
+-->

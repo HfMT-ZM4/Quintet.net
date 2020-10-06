@@ -528,7 +528,7 @@
 					"patching_rect" : [ 12.5, 151.0, 127.0, 22.0 ],
 					"pattrmode" : 1,
 					"presentation" : 1,
-					"presentation_rect" : [ 12.5, 150.5, 123.0, 22.0 ],
+					"presentation_rect" : [ 12.5, 79.0, 127.0, 22.0 ],
 					"textcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 				}
 
@@ -542,7 +542,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 183.5, 15.0, 24.0, 24.0 ],
+					"patching_rect" : [ 162.5, 15.0, 24.0, 24.0 ],
 					"varname" : "refresh"
 				}
 
@@ -575,74 +575,6 @@
 					"patching_rect" : [ 162.5, 79.0, 554.0, 486.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 162.5, 79.0, 554.0, 486.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"hidden" : 1,
-					"id" : "obj-26",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 99.5, 48.0, 24.0, 24.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ 144, 0.608, 0.839, 0.757, 1.0, 0.2, 0.2, 0.2, 1.0, 0.608, 0.839, 0.757, 0.0 ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"hint" : "Set the network adapter the server is receiving its input from. The corresponding IP number will be shown in the text field.",
-					"id" : "obj-4",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "InfoMenu.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 5,
-					"offset" : [ 1.0, 1.0 ],
-					"outlettype" : [ "", "int", "", "", "" ],
-					"patching_rect" : [ 48.0, 22.75, 127.0, 23.5 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 79.0, 123.0, 23.5 ],
-					"varname" : "myIP",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 9.0,
-					"hidden" : 1,
-					"id" : "obj-8",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "127.0.0.1", "int" ],
-					"patching_rect" : [ 99.5, 79.0, 38.0, 19.0 ],
-					"text" : "my-ip"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 9.0,
-					"hidden" : 1,
-					"id" : "obj-17",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 99.5, 100.0, 61.0, 19.0 ],
-					"text" : "prepend set"
 				}
 
 			}
@@ -704,7 +636,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 12.5, 129.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 63.0, 100.0, 20.0 ],
+					"presentation_rect" : [ 12.5, 57.0, 100.0, 20.0 ],
 					"textcolor" : [ 0.886274509803922, 0.83921568627451, 0.83921568627451, 1.0 ]
 				}
 
@@ -3856,7 +3788,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 419.593041618665211, 52.970873773097992, 333.0, 22.0 ],
-									"restore" : [ "127.0.0.1" ],
+									"restore" : [ 0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -3887,7 +3819,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 367.75, 215.470873773097992, 96.0, 22.0 ],
-									"text" : "2099415704 0"
+									"text" : "2107922194 0"
 								}
 
 							}
@@ -6911,6 +6843,7 @@
 					"bgcolor" : [ 0.607843137254902, 0.83921568627451, 0.756862745098039, 1.0 ],
 					"bgoncolor" : [ 0.607843137254902, 0.83921568627451, 0.756862745098039, 1.0 ],
 					"fontsize" : 12.0,
+					"hidden" : 1,
 					"id" : "obj-3",
 					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
@@ -6952,7 +6885,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 12.5, 366.5, 59.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 283.5, 59.0, 18.0 ],
+					"presentation_rect" : [ 12.5, 294.5, 59.0, 18.0 ],
 					"text" : "Messages:",
 					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 				}
@@ -6989,7 +6922,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 12.5, 248.5, 60.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 169.5, 60.0, 18.0 ],
+					"presentation_rect" : [ 12.5, 176.5, 60.0, 18.0 ],
 					"text" : "Sequencer:",
 					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 				}
@@ -7024,7 +6957,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 12.5, 383.5, 127.5, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 297.5, 124.0, 26.0 ],
+					"presentation_rect" : [ 12.5, 311.5, 127.5, 24.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -7065,7 +6998,7 @@
 					"patching_rect" : [ 12.5, 324.5, 127.0, 22.0 ],
 					"pattrmode" : 1,
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 243.5, 123.0, 22.0 ],
+					"presentation_rect" : [ 12.5, 252.5, 127.0, 22.0 ],
 					"textcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 				}
 
@@ -7080,7 +7013,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 12.5, 306.5, 59.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 225.5, 59.0, 18.0 ],
+					"presentation_rect" : [ 12.5, 234.5, 59.0, 18.0 ],
 					"text" : "Log:",
 					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 				}
@@ -7317,7 +7250,7 @@
 					"patching_rect" : [ 12.5, 266.5, 127.0, 22.0 ],
 					"pattrmode" : 1,
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 187.5, 123.0, 22.0 ],
+					"presentation_rect" : [ 12.5, 194.5, 127.0, 22.0 ],
 					"textcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 				}
 
@@ -7332,7 +7265,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 12.5, 189.5, 99.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 113.5, 99.0, 18.0 ],
+					"presentation_rect" : [ 12.5, 117.5, 99.0, 18.0 ],
 					"text" : "Clear:",
 					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 				}
@@ -7360,7 +7293,7 @@
 					"patching_rect" : [ 12.5, 207.5, 127.0, 22.0 ],
 					"pattrmode" : 1,
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 131.5, 123.0, 22.0 ],
+					"presentation_rect" : [ 12.5, 135.5, 127.0, 22.0 ],
 					"textcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 				}
 
@@ -8801,27 +8734,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"hidden" : 1,
-					"source" : [ "obj-17", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
 					"hidden" : 1,
 					"midpoints" : [ 22.0, 159.0, 6.0, 159.0, 6.0, 87.0, 22.0, 87.0 ],
-					"order" : 1,
-					"source" : [ "obj-18", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"hidden" : 1,
-					"order" : 0,
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -8863,14 +8778,6 @@
 					"destination" : [ "obj-22", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-25", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"hidden" : 1,
-					"source" : [ "obj-26", 0 ]
 				}
 
 			}
@@ -8934,31 +8841,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 1 ],
-					"hidden" : 1,
-					"midpoints" : [ 165.5, 182.5, 143.0, 182.5, 143.0, 68.0, 128.0, 68.0 ],
-					"source" : [ "obj-4", 4 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
-					"hidden" : 1,
-					"source" : [ "obj-8", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 1 ],
-					"hidden" : 1,
-					"source" : [ "obj-8", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-9", 1 ]
@@ -9009,34 +8891,6 @@
 				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/doublecolon",
 				"patcherrelativepath" : "./patchers/Library/doublecolon",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "my-ip.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/network",
-				"patcherrelativepath" : "./patchers/Library/Abstractions/network",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "extract-ip.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/network",
-				"patcherrelativepath" : "./patchers/Library/Abstractions/network",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "InfoMenu.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/GUI",
-				"patcherrelativepath" : "./patchers/Library/Abstractions/GUI",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "SearchIcon.png",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/media/Images",
-				"patcherrelativepath" : "./media/Images",
-				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{

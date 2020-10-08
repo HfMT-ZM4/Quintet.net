@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 4,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 221.0, 79.0, 549.0, 627.0 ],
+		"rect" : [ 703.0, 258.0, 549.0, 665.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -45,7 +45,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 315.0, 371.0, 29.5, 20.0 ],
+					"patching_rect" : [ 341.0, 366.0, 29.5, 20.0 ],
 					"text" : "t 2 i",
 					"varname" : "u636014884[2]"
 				}
@@ -58,7 +58,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 276.0, 371.0, 22.0, 20.0 ],
+					"patching_rect" : [ 302.0, 366.0, 22.0, 20.0 ],
 					"text" : "t 1",
 					"varname" : "u636014884[1]"
 				}
@@ -71,7 +71,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 276.0, 345.0, 58.0, 20.0 ],
+					"patching_rect" : [ 302.0, 340.0, 58.0, 20.0 ],
 					"text" : "sel 0",
 					"varname" : "u636014884"
 				}
@@ -99,7 +99,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 276.0, 320.0, 185.0, 20.0 ],
+					"patching_rect" : [ 302.0, 315.0, 185.0, 20.0 ],
 					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
@@ -159,7 +159,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 165.0, 345.0, 48.0, 20.0 ],
+					"patching_rect" : [ 164.0, 340.0, 48.0, 20.0 ],
 					"text" : "zl join"
 				}
 
@@ -270,7 +270,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 164.0, 371.0, 53.0, 20.0 ],
+					"patching_rect" : [ 164.0, 366.0, 53.0, 20.0 ],
 					"text" : "zl change"
 				}
 
@@ -423,7 +423,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 164.0, 298.0, 49.0, 20.0 ],
+					"patching_rect" : [ 164.0, 290.0, 49.0, 20.0 ],
 					"text" : "prepend"
 				}
 
@@ -437,8 +437,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 165.0, 320.0, 96.0, 20.0 ],
-					"text" : "sprintf /event/%i%s"
+					"patching_rect" : [ 164.0, 315.0, 136.0, 20.0 ],
+					"text" : "sprintf /event/oscstring %i%s"
 				}
 
 			}
@@ -470,13 +470,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 553.0, 536.0, 287.0, 412.0 ],
+						"rect" : [ 572.0, 428.0, 287.0, 412.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 10.0,
@@ -505,6 +505,7 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"title" : "Network Input",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
@@ -1125,7 +1126,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1452,7 +1453,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
-					"midpoints" : [ 285.5, 401.0, 145.5, 401.0 ],
+					"midpoints" : [ 311.5, 401.0, 145.5, 401.0 ],
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -1488,7 +1489,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
-					"midpoints" : [ 324.5, 401.0, 145.5, 401.0 ],
+					"midpoints" : [ 350.5, 401.0, 145.5, 401.0 ],
 					"source" : [ "obj-31", 0 ]
 				}
 
@@ -1496,7 +1497,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-33", 1 ],
-					"midpoints" : [ 335.0, 418.0, 218.5, 418.0 ],
+					"midpoints" : [ 361.0, 418.0, 218.5, 418.0 ],
 					"source" : [ "obj-31", 1 ]
 				}
 

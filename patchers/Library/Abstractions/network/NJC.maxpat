@@ -299,7 +299,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
-									"patching_rect" : [ 170.0, 100.0, 33.0, 20.0 ],
+									"patching_rect" : [ 170.0, 100.0, 33.0, 22.0 ],
 									"text" : "t l b"
 								}
 
@@ -313,7 +313,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 170.0, 251.0, 136.0, 20.0 ],
+									"patching_rect" : [ 170.0, 251.0, 136.0, 22.0 ],
 									"text" : "prepend indexnumber"
 								}
 
@@ -327,7 +327,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 277.0, 97.0, 18.0 ],
+									"patching_rect" : [ 50.0, 277.0, 97.0, 22.0 ],
 									"text" : "$1, remove $1"
 								}
 
@@ -341,7 +341,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "int" ],
-									"patching_rect" : [ 50.0, 183.0, 33.0, 20.0 ],
+									"patching_rect" : [ 50.0, 183.0, 33.0, 22.0 ],
 									"text" : "t i i"
 								}
 
@@ -355,7 +355,7 @@
 									"numinlets" : 5,
 									"numoutlets" : 4,
 									"outlettype" : [ "int", "", "", "int" ],
-									"patching_rect" : [ 50.0, 152.0, 87.0, 20.0 ],
+									"patching_rect" : [ 50.0, 152.0, 87.0, 22.0 ],
 									"text" : "counter 10000"
 								}
 
@@ -369,7 +369,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 64.0, 205.0, 79.0, 20.0 ],
+									"patching_rect" : [ 64.0, 205.0, 79.0, 22.0 ],
 									"text" : "prepend set"
 								}
 
@@ -383,7 +383,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 247.0, 83.0, 20.0 ],
+									"patching_rect" : [ 50.0, 247.0, 83.0, 22.0 ],
 									"text" : "pipe 500"
 								}
 
@@ -397,7 +397,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 50.0, 317.0, 66.0, 20.0 ],
+									"patching_rect" : [ 50.0, 317.0, 66.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
 										"precision" : 6
@@ -651,7 +651,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 182.666672000000005, 527.0, 115.0, 20.0 ],
+					"patching_rect" : [ 183.0, 521.0, 115.0, 20.0 ],
 					"text" : "route /player /midi /note"
 				}
 
@@ -777,7 +777,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 182.666672000000005, 230.0, 50.0, 20.0 ],
+					"patching_rect" : [ 182.666672000000005, 222.0, 50.0, 20.0 ],
 					"text" : "gate 2 1"
 				}
 
@@ -1003,6 +1003,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-39", 0 ],
+					"disabled" : 1,
 					"midpoints" : [ 349.166672000000005, 314.0, 497.166687000000024, 314.0 ],
 					"source" : [ "obj-12", 4 ]
 				}
@@ -1292,7 +1293,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
-					"midpoints" : [ 256.166672000000005, 651.5, 192.5, 651.5 ],
+					"midpoints" : [ 256.5, 651.5, 192.5, 651.5 ],
 					"source" : [ "obj-4", 2 ]
 				}
 

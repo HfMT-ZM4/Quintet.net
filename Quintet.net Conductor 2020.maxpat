@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 118.0, 169.0, 816.0, 542.0 ],
+		"rect" : [ 463.0, 45.0, 816.0, 542.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -51,7 +51,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 720.0, 97.0, 89.0, 29.0 ],
-					"text" : "version 2020-10-04",
+					"text" : "version 2020-10-08",
 					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ],
 					"varname" : "version"
 				}
@@ -124,7 +124,7 @@
 					"bgfillcolor_type" : "color",
 					"fontsize" : 14.0,
 					"id" : "obj-9",
-					"items" : ": JMSLMaxScore-31 ()",
+					"items" : "Untitled",
 					"maxclass" : "umenu",
 					"menumode" : 2,
 					"numinlets" : 1,
@@ -2755,7 +2755,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 858.299999999999955, 654.5, 136.0, 35.0 ],
-									"restore" : [ "", "JMSLMaxScore-31", "" ],
+									"restore" : [ 0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -5167,6 +5167,7 @@
 						"styles" : [ 							{
 								"name" : "black on white",
 								"umenu" : 								{
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -5176,14 +5177,13 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-,
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+
 								}
 ,
 								"number" : 								{
-									"fontsize" : [ 12.0 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"fontname" : [ "Arial" ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5202,9 +5202,9 @@
 , 							{
 								"name" : "section dividers",
 								"default" : 								{
+									"fontname" : [ "Arial" ],
 									"fontface" : [ 3 ],
-									"fontsize" : [ 15.0 ],
-									"fontname" : [ "Arial" ]
+									"fontsize" : [ 15.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5213,8 +5213,8 @@
 , 							{
 								"name" : "section info reg",
 								"default" : 								{
-									"fontsize" : [ 12.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5223,9 +5223,9 @@
 , 							{
 								"name" : "titles",
 								"default" : 								{
+									"fontname" : [ "Arial" ],
 									"fontface" : [ 1 ],
-									"fontsize" : [ 20.0 ],
-									"fontname" : [ "Arial" ]
+									"fontsize" : [ 20.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9236,7 +9236,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 691.5, 68.0, 64.0, 20.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 118, 169, 934, 711, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 463, 45, 1279, 587, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 
@@ -9350,10 +9350,10 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 20, 74, 660, 314 ],
+						"client_rect" : [ 1187, 252, 1796, 568 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 30, 89, 670, 329 ]
+						"storage_rect" : [ 780, 524, 1380, 824 ]
 					}
 ,
 					"text" : "pattrstorage conductor @outputmode 4 @fileusagemode 1 @greedy 1 @autorestore 0",
@@ -9363,7 +9363,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 4, "SelectBBank" ],
+					"args" : [ 4, "SelectBBank", "conductor" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -9416,7 +9416,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 5, "SelectBBank" ],
+					"args" : [ 5, "SelectBBank", "conductor" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -9439,7 +9439,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 1, "SelectBBank" ],
+					"args" : [ 1, "SelectBBank", "conductor" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -9462,7 +9462,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 3, "SelectBBank" ],
+					"args" : [ 3, "SelectBBank", "conductor" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -9485,7 +9485,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 2, "SelectBBank" ],
+					"args" : [ 2, "SelectBBank", "conductor" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -10454,7 +10454,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 521.0, 456.0, 344.0, 22.0 ],
-									"restore" : [ "", "JMSLMaxScore-31", "" ],
+									"restore" : [ 0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -10622,7 +10622,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 118.5, 38.0, 418.0, 22.0 ],
-									"restore" : [ "Macintosh HD:/Users/Shared/Max 8/packages/Quintet.net/patchers/Projects/Tutorial" ],
+									"restore" : [ 0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -11002,7 +11002,7 @@
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
 					"name" : "Tutorial.controlpanel.maxpat",
-					"numinlets" : 1,
+					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 5.0, 392.0, 804.0, 143.0 ],
@@ -11144,66 +11144,6 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-10::obj-27::obj-17::obj-14::obj-12::obj-16" : [ "live.menu[7]", "live.menu", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-12::obj-19" : [ "live.toggle[2]", "live.toggle", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-12::obj-21" : [ "live.toggle[4]", "live.toggle", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-12::obj-237" : [ "live.menu[9]", "live.menu", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-12::obj-24" : [ "live.button[2]", "live.button", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-12::obj-26" : [ "live.menu[8]", "bracket", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-12::obj-28" : [ "live.toggle[5]", "live.toggle", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-12::obj-43" : [ "live.text[18]", "live.text", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-12::obj-51" : [ "live.toggle[1]", "live.toggle", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-12::obj-70" : [ "live.text[17]", "live.text", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-12::obj-72" : [ "track[2]", "track", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-12::obj-8" : [ "live.toggle[3]", "live.toggle", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-14::obj-16" : [ "live.menu[10]", "live.menu", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-14::obj-19" : [ "live.toggle[7]", "live.toggle", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-14::obj-21" : [ "live.toggle[9]", "live.toggle", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-14::obj-237" : [ "live.menu[58]", "live.menu", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-14::obj-24" : [ "live.button[3]", "live.button", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-14::obj-26" : [ "live.menu[57]", "bracket", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-14::obj-28" : [ "live.toggle[10]", "live.toggle", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-14::obj-43" : [ "live.text[20]", "live.text", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-14::obj-51" : [ "live.toggle[6]", "live.toggle", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-14::obj-70" : [ "live.text[19]", "live.text", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-14::obj-72" : [ "track[3]", "track", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-14::obj-8" : [ "live.toggle[8]", "live.toggle", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-17::obj-16" : [ "live.menu[60]", "live.menu", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-17::obj-19" : [ "live.toggle[12]", "live.toggle", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-17::obj-21" : [ "live.toggle[14]", "live.toggle", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-17::obj-237" : [ "live.menu[59]", "live.menu", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-17::obj-24" : [ "live.button[4]", "live.button", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-17::obj-26" : [ "live.menu[61]", "bracket", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-17::obj-28" : [ "live.toggle[15]", "live.toggle", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-17::obj-43" : [ "live.text[21]", "live.text", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-17::obj-51" : [ "live.toggle[11]", "live.toggle", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-17::obj-70" : [ "live.text[22]", "live.text", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-17::obj-72" : [ "track[4]", "track", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-17::obj-8" : [ "live.toggle[13]", "live.toggle", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-22::obj-16" : [ "live.menu[12]", "live.menu", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-22::obj-19" : [ "live.toggle[18]", "live.toggle", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-22::obj-21" : [ "live.toggle[19]", "live.toggle", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-22::obj-237" : [ "live.menu[13]", "live.menu", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-22::obj-24" : [ "live.button[5]", "live.button", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-22::obj-26" : [ "live.menu[11]", "bracket", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-22::obj-28" : [ "live.toggle[20]", "live.toggle", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-22::obj-43" : [ "live.text[41]", "live.text", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-22::obj-51" : [ "live.toggle[17]", "live.toggle", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-22::obj-70" : [ "live.text[42]", "live.text", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-22::obj-72" : [ "track[5]", "track", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-22::obj-8" : [ "live.toggle[16]", "live.toggle", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-3::obj-16" : [ "live.menu[56]", "live.menu", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-3::obj-19" : [ "live.toggle[109]", "live.toggle", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-3::obj-21" : [ "live.toggle[122]", "live.toggle", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-3::obj-237" : [ "live.menu[55]", "live.menu", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-3::obj-24" : [ "live.button[1]", "live.button", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-3::obj-26" : [ "live.menu[54]", "bracket", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-3::obj-28" : [ "live.toggle[123]", "live.toggle", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-3::obj-43" : [ "live.text[55]", "live.text", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-3::obj-51" : [ "live.toggle[108]", "live.toggle", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-3::obj-70" : [ "live.text[54]", "live.text", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-3::obj-72" : [ "track[1]", "track", 0 ],
-			"obj-10::obj-27::obj-17::obj-14::obj-3::obj-8" : [ "live.toggle[124]", "live.toggle", 0 ],
 			"obj-10::obj-27::obj-17::obj-14::obj-402::obj-6::obj-8::obj-177" : [ "live.gain~[5]", "live.gain~", 0 ],
 			"obj-10::obj-27::obj-17::obj-23" : [ "live.tab[97]", "live.tab", 0 ],
 			"obj-10::obj-27::obj-17::obj-28::obj-19" : [ "action", "live.tab", 0 ],
@@ -11282,182 +11222,6 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-10::obj-27::obj-17::obj-14::obj-12::obj-16" : 				{
-					"parameter_longname" : "live.menu[7]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-14::obj-12::obj-19" : 				{
-					"parameter_longname" : "live.toggle[2]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-14::obj-12::obj-21" : 				{
-					"parameter_longname" : "live.toggle[4]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-14::obj-12::obj-237" : 				{
-					"parameter_longname" : "live.menu[9]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-14::obj-12::obj-24" : 				{
-					"parameter_longname" : "live.button[2]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-14::obj-12::obj-26" : 				{
-					"parameter_longname" : "live.menu[8]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-14::obj-12::obj-28" : 				{
-					"parameter_longname" : "live.toggle[5]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-14::obj-12::obj-43" : 				{
-					"parameter_longname" : "live.text[18]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-14::obj-12::obj-51" : 				{
-					"parameter_longname" : "live.toggle[1]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-14::obj-12::obj-70" : 				{
-					"parameter_longname" : "live.text[17]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-14::obj-12::obj-8" : 				{
-					"parameter_longname" : "live.toggle[3]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-14::obj-14::obj-16" : 				{
-					"parameter_longname" : "live.menu[10]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-14::obj-14::obj-19" : 				{
-					"parameter_longname" : "live.toggle[7]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-14::obj-14::obj-21" : 				{
-					"parameter_longname" : "live.toggle[9]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-14::obj-14::obj-237" : 				{
-					"parameter_longname" : "live.menu[58]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-14::obj-14::obj-24" : 				{
-					"parameter_longname" : "live.button[3]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-14::obj-14::obj-26" : 				{
-					"parameter_longname" : "live.menu[57]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-14::obj-14::obj-28" : 				{
-					"parameter_longname" : "live.toggle[10]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-14::obj-14::obj-43" : 				{
-					"parameter_longname" : "live.text[20]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-14::obj-14::obj-51" : 				{
-					"parameter_longname" : "live.toggle[6]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-14::obj-14::obj-70" : 				{
-					"parameter_longname" : "live.text[19]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-14::obj-14::obj-8" : 				{
-					"parameter_longname" : "live.toggle[8]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-14::obj-17::obj-16" : 				{
-					"parameter_longname" : "live.menu[60]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-14::obj-17::obj-19" : 				{
-					"parameter_longname" : "live.toggle[12]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-14::obj-17::obj-21" : 				{
-					"parameter_longname" : "live.toggle[14]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-14::obj-17::obj-237" : 				{
-					"parameter_longname" : "live.menu[59]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-14::obj-17::obj-24" : 				{
-					"parameter_longname" : "live.button[4]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-14::obj-17::obj-26" : 				{
-					"parameter_longname" : "live.menu[61]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-14::obj-17::obj-28" : 				{
-					"parameter_longname" : "live.toggle[15]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-14::obj-17::obj-43" : 				{
-					"parameter_longname" : "live.text[21]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-14::obj-17::obj-51" : 				{
-					"parameter_longname" : "live.toggle[11]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-14::obj-17::obj-70" : 				{
-					"parameter_longname" : "live.text[22]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-14::obj-17::obj-8" : 				{
-					"parameter_longname" : "live.toggle[13]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-14::obj-22::obj-16" : 				{
-					"parameter_longname" : "live.menu[12]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-14::obj-22::obj-19" : 				{
-					"parameter_longname" : "live.toggle[18]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-14::obj-22::obj-21" : 				{
-					"parameter_longname" : "live.toggle[19]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-14::obj-22::obj-237" : 				{
-					"parameter_longname" : "live.menu[13]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-14::obj-22::obj-24" : 				{
-					"parameter_longname" : "live.button[5]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-14::obj-22::obj-26" : 				{
-					"parameter_longname" : "live.menu[11]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-14::obj-22::obj-28" : 				{
-					"parameter_longname" : "live.toggle[20]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-14::obj-22::obj-43" : 				{
-					"parameter_longname" : "live.text[41]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-14::obj-22::obj-51" : 				{
-					"parameter_longname" : "live.toggle[17]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-14::obj-22::obj-70" : 				{
-					"parameter_longname" : "live.text[42]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-14::obj-22::obj-8" : 				{
-					"parameter_longname" : "live.toggle[16]"
-				}
-,
 				"obj-10::obj-27::obj-17::obj-28::obj-4::obj-32" : 				{
 					"parameter_longname" : "live.menu[5]"
 				}
@@ -11550,171 +11314,10 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Tutorial.controlpanel.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial/Conductor",
-				"patcherrelativepath" : "./patchers/Projects/Tutorial/Conductor",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Tutorial.bank.txt",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial",
-				"patcherrelativepath" : "./patchers/Projects/Tutorial",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "bank-editor-scripted-colls.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Library/Legacy Sampler",
 				"patcherrelativepath" : "../../Library/Legacy Sampler",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Bandoneon.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial/Instruments",
-				"patcherrelativepath" : "./patchers/Projects/Tutorial/Instruments",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "FretSound.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial/Instruments",
-				"patcherrelativepath" : "./patchers/Projects/Tutorial/Instruments",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Cymbales_Antiques.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial/Instruments",
-				"patcherrelativepath" : "./patchers/Projects/Tutorial/Instruments",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Stopped_Piano.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial/Instruments",
-				"patcherrelativepath" : "./patchers/Projects/Tutorial/Instruments",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Marimba.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial/Instruments",
-				"patcherrelativepath" : "./patchers/Projects/Tutorial/Instruments",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "percussion_glockenspiel_Glockenspiel-beaters_ordinario.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial/Instruments",
-				"patcherrelativepath" : "./patchers/Projects/Tutorial/Instruments",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Celeste.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial/Instruments",
-				"patcherrelativepath" : "./patchers/Projects/Tutorial/Instruments",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Venus_Pad.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial/Instruments",
-				"patcherrelativepath" : "./patchers/Projects/Tutorial/Instruments",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Galaxis.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial/Instruments",
-				"patcherrelativepath" : "./patchers/Projects/Tutorial/Instruments",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Equinox.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial/Instruments",
-				"patcherrelativepath" : "./patchers/Projects/Tutorial/Instruments",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "E-Pad.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial/Instruments",
-				"patcherrelativepath" : "./patchers/Projects/Tutorial/Instruments",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Synth_1980.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial/Instruments",
-				"patcherrelativepath" : "./patchers/Projects/Tutorial/Instruments",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Mini_Moog.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial/Instruments",
-				"patcherrelativepath" : "./patchers/Projects/Tutorial/Instruments",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Digi_Vocal.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial/Instruments",
-				"patcherrelativepath" : "./patchers/Projects/Tutorial/Instruments",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Dark_Monkey.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial/Instruments",
-				"patcherrelativepath" : "./patchers/Projects/Tutorial/Instruments",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Wave_4.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial/Instruments",
-				"patcherrelativepath" : "./patchers/Projects/Tutorial/Instruments",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Kalimbell.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial/Instruments",
-				"patcherrelativepath" : "./patchers/Projects/Tutorial/Instruments",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Dreamers.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial/Instruments",
-				"patcherrelativepath" : "./patchers/Projects/Tutorial/Instruments",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Hi_Voweler.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial/Instruments",
-				"patcherrelativepath" : "./patchers/Projects/Tutorial/Instruments",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Bell-2.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial/Instruments",
-				"patcherrelativepath" : "./patchers/Projects/Tutorial/Instruments",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Bell-1.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial/Instruments",
-				"patcherrelativepath" : "./patchers/Projects/Tutorial/Instruments",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -12054,38 +11657,17 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "chat-bpatcher2.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/chat",
-				"patcherrelativepath" : "./patchers/Library/Abstractions/chat",
+				"name" : "gh.split@.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/abstractions",
+				"patcherrelativepath" : "../MaxScore/patchers/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jk.display.maxpat",
+				"name" : "chat-bpatcher2.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/chat",
 				"patcherrelativepath" : "./patchers/Library/Abstractions/chat",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "emoticons copy.jpg",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/chat",
-				"patcherrelativepath" : "./patchers/Library/Abstractions/chat",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "KNOB2.png",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/chat",
-				"patcherrelativepath" : "./patchers/Library/Abstractions/chat",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "KNOB.png",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/chat",
-				"patcherrelativepath" : "./patchers/Library/Abstractions/chat",
-				"type" : "PNG",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
@@ -12317,34 +11899,6 @@
 				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/extensions",
 				"patcherrelativepath" : "../MaxScore/patchers/extensions",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "setStaffAttributes.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/extensions",
-				"patcherrelativepath" : "../MaxScore/patchers/extensions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "maxscore.styles.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/javascript",
-				"patcherrelativepath" : "../MaxScore/javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "M4L.api.GetID.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/extensions",
-				"patcherrelativepath" : "../MaxScore/patchers/extensions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "maxscore.setStaffAttributes.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/javascript",
-				"patcherrelativepath" : "../MaxScore/javascript",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -12884,13 +12438,6 @@
 				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/javascript",
 				"patcherrelativepath" : "../MaxScore/javascript",
 				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "gh.split@.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/abstractions",
-				"patcherrelativepath" : "../MaxScore/patchers/abstractions",
-				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
@@ -13783,10 +13330,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "o.route.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "shell.mxo",
 				"type" : "iLaX"
 			}
@@ -13804,6 +13347,10 @@
 			}
 , 			{
 				"name" : "zero.resolve.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
 , 			{

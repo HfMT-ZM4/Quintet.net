@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -94,7 +94,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -496,9 +496,10 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 260.0, 59.5, 780.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 261.0, 8.5, 872.0, 29.0 ],
+					"presentation_rect" : [ 261.0, 8.5, 884.0, 29.0 ],
 					"readonly" : 1,
 					"rounded" : 5.0,
+					"text" : "play solo",
 					"textcolor" : [ 0.992156862745098, 0.980392156862745, 1.0, 1.0 ]
 				}
 
@@ -529,8 +530,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, -0.5, 161.0, 47.0 ],
 					"text" : "00:00:00",
-					"textcolor" : [ 0.986246049404144, 0.007120788097382, 0.027434188872576, 1.0 ],
-					"textjustification" : 0
+					"textcolor" : [ 0.986246049404144, 0.007120788097382, 0.027434188872576, 1.0 ]
 				}
 
 			}

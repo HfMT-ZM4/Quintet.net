@@ -85,7 +85,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -498,7 +497,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 355.5, 404.5, 72.0, 19.0 ],
+					"patching_rect" : [ 355.5, 404.5, 89.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"precision" : 6
@@ -723,7 +722,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 40.5, 568.0, 72.0, 19.0 ],
+					"patching_rect" : [ 40.5, 568.0, 89.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"precision" : 6
@@ -742,7 +741,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 73.583333333333343, 346.5, 95.0, 19.0 ],
+					"patching_rect" : [ 73.583333333333343, 346.5, 107.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"precision" : 6

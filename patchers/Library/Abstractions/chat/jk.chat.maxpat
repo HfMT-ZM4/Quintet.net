@@ -229,7 +229,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 209.0, 814.0, 417.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.0, 519.0, 417.0, 22.0 ],
+					"presentation_rect" : [ 19.0, 526.0, 417.0, 22.0 ],
 					"tabcolor" : [ 0.607843137254902, 0.83921568627451, 0.756862745098039, 1.0 ],
 					"tabs" : [ "Save chat...", "Restore saved chat...", "Clear chat" ],
 					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ]
@@ -254,7 +254,7 @@
 , 			{
 				"box" : 				{
 					"border" : 0,
-					"embedstate" : [ [ "percentage", 27.397260273972602 ], [ "orientation", "Vertical" ], [ "bordercolorh", 0.447, 0.447, 0.522, 1 ], [ "guttercolorh", 0.487, 0.487, 0.5, 0.5 ], [ "bodycolorh", 0.741, 0.741, 0.871, 1 ], [ "bordercolor", 0.608, 0.608, 0.678, 1 ], [ "guttercolor", 0.487, 0.487, 0.5, 0.125 ], [ "bgcolor", 0.9, 0.9, 0.9, 1 ], [ "arrowcolorh", 0.996, 0.996, 0.996, 1 ], [ "type", "wide" ], [ "bodycolor", 0.75, 0.75, 0.852, 0.75 ] ],
+					"embedstate" : [ [ "percentage", 27.397260273972602 ], [ "orientation", "Vertical" ], [ "bordercolorh", 0.447, 0.447, 0.522, 1 ], [ "guttercolorh", 0.487, 0.487, 0.5, 0.5 ], [ "bodycolorh", 0.741, 0.741, 0.741, 0.9 ], [ "bordercolor", 0.608, 0.608, 0.608, 1 ], [ "guttercolor", 0.487, 0.487, 0.5, 0.125 ], [ "bgcolor", 0.9, 0.9, 0.9, 0 ], [ "arrowcolorh", 0.996, 0.996, 0.996, 0.5 ], [ "type", "wide" ], [ "bodycolor", 0.75, 0.75, 0.75, 0.75 ] ],
 					"filename" : "scrollbar.js",
 					"id" : "obj-61",
 					"maxclass" : "jsui",
@@ -1916,7 +1916,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 568.0, 787.0, 54.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 378.0, 491.0, 54.0, 17.0 ],
+					"presentation_rect" : [ 379.0, 496.0, 54.0, 17.0 ],
 					"readonly" : 1,
 					"rounded" : 0.0,
 					"wordwrap" : 0
@@ -1935,7 +1935,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 363.0, 783.0, 69.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 173.0, 487.0, 69.0, 19.0 ],
+					"presentation_rect" : [ 174.0, 492.0, 69.0, 19.0 ],
 					"text" : "saturation $1"
 				}
 
@@ -1952,7 +1952,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 347.0, 780.0, 9.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 157.0, 484.0, 9.0, 29.0 ],
+					"presentation_rect" : [ 161.0, 489.0, 9.0, 29.0 ],
 					"setminmax" : [ 0.0, 255.0 ],
 					"settype" : 0,
 					"slidercolor" : [ 0.607843137254902, 0.83921568627451, 0.756862745098039, 1.0 ]
@@ -2166,7 +2166,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 713.0, 837.0, 61.0, 19.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 391, -819, 867, -256, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 289, 150, 765, 713, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 
@@ -2181,7 +2181,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 448.0, 787.0, 90.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 258.0, 491.0, 90.0, 19.0 ],
+					"presentation_rect" : [ 259.0, 495.0, 90.0, 19.0 ],
 					"text" : "Activity Monitor:",
 					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 				}
@@ -2253,8 +2253,8 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 724.0, 369.0, 53.0, 19.0 ],
 					"restore" : 					{
-						"textcolor" : [ 255, 255, 255 ],
-						"vertical_scroll" : [ 86.301369863013704, 27.397260273972602 ]
+						"textcolor" : [ 255, 118, 118 ],
+						"vertical_scroll" : [ 60.934811041508951, 27.397260273972602 ]
 					}
 ,
 					"text" : "autopattr",
@@ -2293,7 +2293,7 @@
 					"offset" : [ -59.0, -60.0 ],
 					"patching_rect" : [ 544.0, 786.0, 21.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 354.0, 490.0, 21.0, 19.0 ],
+					"presentation_rect" : [ 355.0, 495.0, 21.0, 19.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -2309,8 +2309,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 268.0, 780.0, 80.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 78.0, 484.0, 80.0, 29.0 ],
-					"saturation" : 0
+					"presentation_rect" : [ 82.0, 489.0, 80.0, 29.0 ],
+					"saturation" : 252
 				}
 
 			}
@@ -2349,7 +2349,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 542.0, 780.0, 86.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 352.0, 484.0, 86.0, 29.0 ],
+					"presentation_rect" : [ 353.0, 489.0, 86.0, 29.0 ],
 					"rounded" : 0
 				}
 
@@ -2379,7 +2379,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 208.0, 787.0, 64.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 18.0, 491.0, 64.0, 19.0 ],
+					"presentation_rect" : [ 19.0, 495.0, 64.0, 19.0 ],
 					"text" : "Text Color:",
 					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 				}

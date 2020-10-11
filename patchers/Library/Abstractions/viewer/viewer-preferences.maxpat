@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 370.0, 179.0, 640.0, 424.0 ],
+		"rect" : [ 489.0, 233.0, 694.0, 510.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,79 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-51",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "Project-panel.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 243.0, 90.0, 218.0, 233.0 ],
+					"varname" : "Project",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"hidden" : 1,
+					"id" : "obj-17",
+					"lockeddragscroll" : 1,
+					"maxclass" : "bpatcher",
+					"name" : "network-settings.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ -52.0, -15.0 ],
+					"patching_rect" : [ 600.0, 200.0, 589.0, 220.0 ],
+					"varname" : "Network",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.211764705882353, 0.211764705882353, 0.211764705882353, 0.611764705882353 ],
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-50",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 430.5, 58.0, 69.0, 18.0 ],
+					"text" : "Project",
+					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ],
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.211764705882353, 0.211764705882353, 0.211764705882353, 0.611764705882353 ],
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-25",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 280.0, 58.0, 70.0, 18.0 ],
+					"text" : "Network",
+					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ],
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.211764705882353, 0.211764705882353, 0.211764705882353, 0.611764705882353 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -47,7 +120,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 318.0, 58.0, 68.0, 18.0 ],
+					"patching_rect" : [ 355.0, 58.0, 68.0, 18.0 ],
 					"text" : "Mapper",
 					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ],
 					"textjustification" : 1
@@ -63,7 +136,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 244.0, 58.0, 68.0, 18.0 ],
+					"patching_rect" : [ 205.0, 58.0, 68.0, 18.0 ],
 					"text" : "Attributes",
 					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ],
 					"textjustification" : 1
@@ -85,16 +158,16 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 240.0, 0.0, 151.0, 78.0 ],
-					"pictures" : [ "Attributes.png", "Mapping.png" ],
+					"patching_rect" : [ 201.0, 0.0, 302.0, 78.0 ],
+					"pictures" : [ "Attributes.png", "Network.png", "Mapping.png", "Project.png" ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "attributes", "mapper" ],
+							"parameter_enum" : [ "attributes", "network", "mapper", "project" ],
 							"parameter_longname" : "live.tab[3]",
-							"parameter_mmax" : 1,
+							"parameter_mmax" : 3,
 							"parameter_shortname" : "live.tab",
 							"parameter_type" : 2,
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 9
 						}
 
 					}
@@ -134,6 +207,7 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"hidden" : 1,
 					"id" : "obj-2",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
@@ -141,7 +215,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ -26.0, -20.0 ],
-					"patching_rect" : [ 150.0, 108.0, 289.0, 280.0 ],
+					"patching_rect" : [ 600.0, 200.0, 289.0, 280.0 ],
 					"varname" : "Attributes",
 					"viewvisibility" : 1
 				}
@@ -253,13 +327,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 607.0, 317.0, 713.0, 669.0 ],
+						"rect" : [ 278.0, 137.0, 713.0, 669.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -653,14 +727,22 @@
 , 							{
 								"box" : 								{
 									"coll_data" : 									{
-										"count" : 2,
+										"count" : 4,
 										"data" : [ 											{
 												"key" : "attributes",
 												"value" : [ "Attributes", 150, 108, 452, 236 ]
 											}
 , 											{
 												"key" : "mapper",
-												"value" : [ "Mapper", 14, 97, 630, 450 ]
+												"value" : [ "Mapper", 54, 97, 630, 450 ]
+											}
+, 											{
+												"key" : "network",
+												"value" : [ "Network", 85, 108, 452, 185 ]
+											}
+, 											{
+												"key" : "project",
+												"value" : [ "Project", 243, 90, 400, 340 ]
 											}
  ]
 									}
@@ -1017,7 +1099,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 0.0, 165.0, 61.0, 19.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 370, 179, 1010, 603, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 489, 233, 1183, 743, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 

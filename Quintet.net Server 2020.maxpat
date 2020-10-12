@@ -90,6 +90,7 @@
 								"box" : 								{
 									"bgcolor" : [ 0.301961, 0.301961, 0.301961, 1 ],
 									"bgcolor2" : [ 0.2, 0.2, 0.2, 1 ],
+									"bgfillcolor_autogradient" : 0.0,
 									"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 1 ],
 									"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1 ],
 									"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1 ],
@@ -121,6 +122,7 @@
 								"box" : 								{
 									"bgcolor" : [ 0.301961, 0.301961, 0.301961, 1 ],
 									"bgcolor2" : [ 0.2, 0.2, 0.2, 1 ],
+									"bgfillcolor_autogradient" : 0.0,
 									"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 1 ],
 									"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1 ],
 									"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1 ],
@@ -176,6 +178,7 @@
 								"box" : 								{
 									"bgcolor" : [ 0.301961, 0.301961, 0.301961, 1 ],
 									"bgcolor2" : [ 0.2, 0.2, 0.2, 1 ],
+									"bgfillcolor_autogradient" : 0.0,
 									"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 1 ],
 									"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1 ],
 									"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1 ],
@@ -426,7 +429,6 @@
 						"styles" : [ 							{
 								"name" : "black on white",
 								"umenu" : 								{
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -436,12 +438,13 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-
+,
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 								}
 ,
 								"number" : 								{
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"fontname" : [ "Arial" ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"fontsize" : [ 12.0 ]
 								}
 ,
@@ -653,7 +656,7 @@
 					"patching_rect" : [ 627.0, 567.0, 111.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 631.0, 569.0, 111.0, 17.0 ],
-					"text" : "version 2020-10-04",
+					"text" : "version 2020-10-12",
 					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ],
 					"varname" : "version"
 				}
@@ -2616,7 +2619,6 @@
 														"styles" : [ 															{
 																"name" : "black on white",
 																"umenu" : 																{
-																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 																	"bgfillcolor" : 																	{
 																		"type" : "color",
 																		"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -2626,12 +2628,13 @@
 																		"proportion" : 0.39,
 																		"autogradient" : 0
 																	}
-
+,
+																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 																}
 ,
 																"number" : 																{
-																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 																	"fontname" : [ "Arial" ],
+																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 																	"fontsize" : [ 12.0 ]
 																}
 ,
@@ -3369,7 +3372,6 @@
 														"styles" : [ 															{
 																"name" : "black on white",
 																"umenu" : 																{
-																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 																	"bgfillcolor" : 																	{
 																		"type" : "color",
 																		"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -3379,12 +3381,13 @@
 																		"proportion" : 0.39,
 																		"autogradient" : 0
 																	}
-
+,
+																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 																}
 ,
 																"number" : 																{
-																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 																	"fontname" : [ "Arial" ],
+																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 																	"fontsize" : [ 12.0 ]
 																}
 ,
@@ -4131,7 +4134,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 188.0, 444.0, 67.0, 22.0 ],
-													"presentation_linecount" : 3,
 													"text" : "get untitled"
 												}
 
@@ -5914,7 +5916,6 @@
 														"styles" : [ 															{
 																"name" : "black on white",
 																"umenu" : 																{
-																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 																	"bgfillcolor" : 																	{
 																		"type" : "color",
 																		"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -5924,12 +5925,13 @@
 																		"proportion" : 0.39,
 																		"autogradient" : 0
 																	}
-
+,
+																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 																}
 ,
 																"number" : 																{
-																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 																	"fontname" : [ "Arial" ],
+																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 																	"fontsize" : [ 12.0 ]
 																}
 ,
@@ -6552,7 +6554,6 @@
 										"styles" : [ 											{
 												"name" : "black on white",
 												"umenu" : 												{
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 													"bgfillcolor" : 													{
 														"type" : "color",
 														"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -6562,12 +6563,13 @@
 														"proportion" : 0.39,
 														"autogradient" : 0
 													}
-
+,
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 												}
 ,
 												"number" : 												{
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 													"fontname" : [ "Arial" ],
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 													"fontsize" : [ 12.0 ]
 												}
 ,
@@ -7041,7 +7043,6 @@
 						"styles" : [ 							{
 								"name" : "black on white",
 								"umenu" : 								{
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -7051,12 +7052,13 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-
+,
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 								}
 ,
 								"number" : 								{
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"fontname" : [ "Arial" ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"fontsize" : [ 12.0 ]
 								}
 ,
@@ -7188,7 +7190,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 243.0, 5.0, 54.0, 19.0 ],
 					"restore" : 					{
-						"live.text" : [ 1.0 ],
+						"live.text" : [ 0.0 ],
 						"myIP" : [ "127.0.0.1" ],
 						"refresh" : [ 1.0 ]
 					}
@@ -9204,7 +9206,6 @@
 		"styles" : [ 			{
 				"name" : "black on white",
 				"umenu" : 				{
-					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -9214,12 +9215,13 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
+,
+					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 				}
 ,
 				"number" : 				{
-					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"fontname" : [ "Arial" ],
+					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"fontsize" : [ 12.0 ]
 				}
 ,

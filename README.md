@@ -19,7 +19,7 @@ MaxScore is the notation environment necessary to display scores and real-time n
 Get from http://www.computermusicnotation.com/downloadmaxscore/. 
 
 ## odot
-Download or clone the GitHub repo from https://github.com/HfMT-ZM4/CNMAT-odot.git/ to your Max 8/Packages folder
+Download the most recent GitHub repo from https://github.com/CNMAT/CNMAT-odot/releases to your Max 8/Packages folder
 
 ## Java
 Quintet.net and MaxScore also require the installation of the Java SDK which you can find [here](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html) for your operation system.

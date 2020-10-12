@@ -51,7 +51,7 @@
 					"patching_rect" : [ 1180.5, 730.0, 99.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1185.0, 735.5, 114.0, 18.0 ],
-					"text" : "version 2020-10-11",
+					"text" : "version 2020-10-12",
 					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ],
 					"varname" : "version"
 				}
@@ -79,7 +79,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 164.0, 730.5, 194.0, 20.0 ],
-					"restore" : [ "drawsocketOutput", "{\"event\":{\"key\":\"mouse\",\"val\":{\"action\":\"mousemove\",\"xy\":[442,2],\"button\":0,\"mods\":{\"alt\":false,\"shift\":false,\"ctrl\":false,\"meta\":false},\"target\":{\"type\":\"svg\",\"id\":\"svg\",\"version\":\"1.1\",\"baseProfile\":\"full\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"xmlns:xlink\":\"http://www.w3.org/1999/xlink\"}}}}" ],
+					"restore" : [ "drawsocketOutput", "{\"event\":{\"key\":\"mouse\",\"val\":{\"action\":\"mouseover\",\"xy\":[251,1],\"button\":0,\"mods\":{\"alt\":false,\"shift\":false,\"ctrl\":false,\"meta\":false},\"target\":{\"type\":\"svg\",\"id\":\"svg\",\"version\":\"1.1\",\"baseProfile\":\"full\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"xmlns:xlink\":\"http://www.w3.org/1999/xlink\"}}}}" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -453,7 +453,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 247.0, 273.0, 1399.0, 552.0 ],
+						"rect" : [ 147.0, 333.0, 1399.0, 552.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -489,17 +489,6 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 630.052631578947285, 345.0, 63.0, 22.0 ],
 									"text" : "print client"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-4",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 302.184210526315837, 105.0, 36.0, 20.0 ],
-									"text" : "filter!"
 								}
 
 							}
@@ -6052,7 +6041,7 @@
 																	"numoutlets" : 3,
 																	"outlettype" : [ "", "", "" ],
 																	"patching_rect" : [ 61.333327999999995, 171.0, 402.0, 22.0 ],
-																	"restore" : [ "drawsocketOutput", "{\"event\":{\"key\":\"mouse\",\"val\":{\"action\":\"mousemove\",\"xy\":[442,2],\"button\":0,\"mods\":{\"alt\":false,\"shift\":false,\"ctrl\":false,\"meta\":false},\"target\":{\"type\":\"svg\",\"id\":\"svg\",\"version\":\"1.1\",\"baseProfile\":\"full\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"xmlns:xlink\":\"http://www.w3.org/1999/xlink\"}}}}" ],
+																	"restore" : [ "drawsocketOutput", "{\"event\":{\"key\":\"mouse\",\"val\":{\"action\":\"mouseover\",\"xy\":[251,1],\"button\":0,\"mods\":{\"alt\":false,\"shift\":false,\"ctrl\":false,\"meta\":false},\"target\":{\"type\":\"svg\",\"id\":\"svg\",\"version\":\"1.1\",\"baseProfile\":\"full\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"xmlns:xlink\":\"http://www.w3.org/1999/xlink\"}}}}" ],
 																	"saved_object_attributes" : 																	{
 																		"parameter_enable" : 0,
 																		"parameter_mappable" : 0
@@ -14297,11 +14286,11 @@
 								"box" : 								{
 									"id" : "obj-32",
 									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "FullPacket" ],
-									"patching_rect" : [ 207.0, 66.0, 91.0, 22.0 ],
-									"text" : "o.route /*/event"
+									"numinlets" : 3,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "FullPacket" ],
+									"patching_rect" : [ 207.0, 66.0, 149.0, 22.0 ],
+									"text" : "o.route /*/event /maxscore"
 								}
 
 							}
@@ -14657,8 +14646,9 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-16", 0 ],
+									"midpoints" : [ 346.5, 189.0, 288.5, 189.0 ],
 									"order" : 1,
-									"source" : [ "obj-32", 1 ]
+									"source" : [ "obj-32", 2 ]
 								}
 
 							}
@@ -14673,11 +14663,10 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 0.990445077419281, 0.502227902412415, 0.032891403883696, 1.0 ],
 									"destination" : [ "obj-44", 1 ],
-									"midpoints" : [ 288.5, 128.0, 506.5, 128.0 ],
+									"midpoints" : [ 346.5, 131.0, 506.5, 131.0 ],
 									"order" : 0,
-									"source" : [ "obj-32", 1 ]
+									"source" : [ "obj-32", 2 ]
 								}
 
 							}

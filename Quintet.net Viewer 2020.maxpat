@@ -119,7 +119,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 519.0, 756.5, 59.5, 20.0 ],
+					"patching_rect" : [ 518.0, 756.5, 59.5, 20.0 ],
 					"restore" : 					{
 						"render" : [ 1 ]
 					}

@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 4,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 485.0, 198.0, 620.0, 636.0 ],
+		"rect" : [ 595.0, 380.0, 620.0, 636.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 349.0, 333.0, 89.0, 22.0 ],
+					"patching_rect" : [ 238.0, 338.0, 89.0, 22.0 ],
 					"text" : "prepend cursor"
 				}
 
@@ -94,6 +94,7 @@
 			}
 , 			{
 				"box" : 				{
+					"focusbordercolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 0.0 ],
 					"hint" : "Set Speed",
 					"id" : "obj-7",
 					"maxclass" : "live.slider",
@@ -103,43 +104,29 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 278.0, 42.0, 23.0, 50.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 139.0, 0.0, 18.0, 51.0 ],
+					"presentation_rect" : [ 138.0, 0.0, 18.0, 51.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 2.5,
+							"parameter_exponent" : 3.39,
 							"parameter_initial" : [ 0.25 ],
+							"parameter_initial_enable" : 1,
+							"parameter_invisible" : 2,
+							"parameter_longname" : "live.slider",
+							"parameter_mmax" : 2.5,
 							"parameter_shortname" : "live.slider",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 1,
-							"parameter_exponent" : 3.39,
-							"parameter_longname" : "live.slider",
-							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 2
+							"parameter_unitstyle" : 1
 						}
 
 					}
 ,
 					"showname" : 0,
 					"shownumber" : 0,
+					"slidercolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 0.0 ],
+					"tribordercolor" : [ 0.235294117647059, 0.129411764705882, 0.152941176470588, 1.0 ],
+					"tricolor" : [ 0.596078, 0.333333, 0.388235, 1.0 ],
+					"trioncolor" : [ 0.411764705882353, 0.231372549019608, 0.266666666666667, 1.0 ],
 					"varname" : "speed"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"addpoints" : [ 0.0, 0.0, 0, 486.666655999999989, 1.0, 2, 973.154358000000002, 0.0, 0 ],
-					"bgcolor" : [ 0.8, 0.8, 0.8, 0.05 ],
-					"gridcolor" : [ 0.5, 0.5, 0.5, 0.5 ],
-					"id" : "obj-2",
-					"linecolor" : [ 0.33, 0.33, 0.33, 1.0 ],
-					"maxclass" : "function",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "float", "", "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 181.0, 402.0, 120.0, 67.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 137.0, 53.0 ]
 				}
 
 			}
@@ -377,7 +364,7 @@
 					"patching_rect" : [ 11.0, 17.0, 81.0, 19.0 ],
 					"restore" : 					{
 						"on" : [ 1 ],
-						"speed" : [ 0.166382602291549 ]
+						"speed" : [ 0.144439045145617 ]
 					}
 ,
 					"text" : "autopattr #1curve",
@@ -387,15 +374,22 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-51",
-					"maxclass" : "panel",
+					"addpoints" : [ 10.638297, 0.0, 0, 495.652173913043498, 0.772727272727273, 0, 1000.0, 0.0, 0 ],
+					"bgcolor" : [ 0.596078431372549, 0.333333333333333, 0.388235294117647, 0.0 ],
+					"grid" : 3,
+					"gridcolor" : [ 0.596078, 0.333333, 0.388235, 1.0 ],
+					"id" : "obj-2",
+					"legend" : 0,
+					"linecolor" : [ 0.596078, 0.333333, 0.388235, 1.0 ],
+					"maxclass" : "function",
 					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 450.0, 26.0, 160.0, 160.0 ],
+					"numoutlets" : 4,
+					"outlettype" : [ "float", "", "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 181.0, 402.0, 127.0, 67.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 157.0, 51.0 ],
-					"rounded" : 0,
-					"style" : "panel_black_brown"
+					"presentation_rect" : [ 0.0, 0.0, 144.0, 51.0 ],
+					"textcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 				}
 
 			}
@@ -634,7 +628,7 @@
 				"multi" : 0
 			}
  ],
-		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ]
+		"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 	}
 
 }

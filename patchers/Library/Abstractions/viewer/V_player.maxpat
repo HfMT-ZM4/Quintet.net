@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 4,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -76,7 +76,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -576,7 +576,7 @@
 					"patching_rect" : [ 638.5, 833.0, 86.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 68.0, 47.0, 83.0, 20.0 ],
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor" : [ 0.654901960784314, 0.572549019607843, 0.376470588235294, 1.0 ],
 					"varname" : "scale"
 				}
 
@@ -737,7 +737,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2442,7 +2442,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 668.0, 135.0, 292.0, 19.0 ],
-					"restore" : [ 1 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2663,7 +2663,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 88.0, 51.0, 19.0 ],
 					"text" : "Position:",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 0.654901960784314, 0.572549019607843, 0.376470588235294, 1.0 ]
 				}
 
 			}
@@ -2758,7 +2758,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 88.0, 72.0, 34.0, 18.0 ],
 					"text" : "brgb:",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 0.654901960784314, 0.572549019607843, 0.376470588235294, 1.0 ]
 				}
 
 			}
@@ -2934,7 +2934,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 107.0, 52.0, 19.0 ],
 					"text" : "LPoints:",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 0.654901960784314, 0.572549019607843, 0.376470588235294, 1.0 ]
 				}
 
 			}
@@ -2969,7 +2969,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 81.0, 125.0, 52.0, 19.0 ],
 					"text" : "Volume:",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 0.654901960784314, 0.572549019607843, 0.376470588235294, 1.0 ]
 				}
 
 			}
@@ -2991,7 +2991,7 @@
 					"patching_rect" : [ 605.0, 354.5, 38.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 124.0, 125.0, 37.0, 20.0 ],
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor" : [ 0.654901960784314, 0.572549019607843, 0.376470588235294, 1.0 ],
 					"triangle" : 0,
 					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"triscale" : 0.9,
@@ -3023,7 +3023,7 @@
 					"patching_rect" : [ 165.0, 178.0, 32.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 21.0, 32.0, 20.0 ],
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 0.654901960784314, 0.572549019607843, 0.376470588235294, 1.0 ]
 				}
 
 			}
@@ -3081,7 +3081,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 125.0, 39.0, 19.0 ],
 					"text" : "Rate:",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 0.654901960784314, 0.572549019607843, 0.376470588235294, 1.0 ]
 				}
 
 			}
@@ -3103,7 +3103,7 @@
 					"patching_rect" : [ 559.0, 354.5, 34.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 54.0, 125.0, 33.0, 20.0 ],
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor" : [ 0.654901960784314, 0.572549019607843, 0.376470588235294, 1.0 ],
 					"triangle" : 0,
 					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"triscale" : 0.9,
@@ -3125,7 +3125,7 @@
 					"restore" : 					{
 						"autofirst" : [ 0 ],
 						"bgcolor" : [ 144, 144, 144 ],
-						"clip" : [ "bball.mov" ],
+						"clip" : [ 0 ],
 						"count" : [ 36 ],
 						"loop" : [ 1 ],
 						"looppoints" : [ 0.010753, 1.0 ],
@@ -3185,7 +3185,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 69.0, 40.0, 19.0 ],
 					"text" : "Loop:",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 0.654901960784314, 0.572549019607843, 0.376470588235294, 1.0 ]
 				}
 
 			}
@@ -3201,7 +3201,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 54.0, 4.0, 70.0, 20.0 ],
 					"text" : "Movie 1",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 0.654901960784314, 0.572549019607843, 0.376470588235294, 1.0 ]
 				}
 
 			}
@@ -3217,7 +3217,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 48.0, 37.0, 19.0 ],
 					"text" : "Play:",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 0.654901960784314, 0.572549019607843, 0.376470588235294, 1.0 ]
 				}
 
 			}
@@ -3244,11 +3244,10 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 148.0, 486.5, 94.0, 20.0 ],
-					"pattrmode" : 1,
-					"prefix" : "Macintosh HD:/Applications/Max.app/Contents/Resources/C74/media/jitter/",
+					"prefix" : "C74:/media/jitter/",
 					"presentation" : 1,
 					"presentation_rect" : [ 46.0, 21.0, 105.0, 20.0 ],
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor" : [ 0.654901960784314, 0.572549019607843, 0.376470588235294, 1.0 ],
 					"textjustification" : 1,
 					"types" : [ "JPEG", "M4V ", "MooV", "mpg4", "PNG ", "PNGf", "TIFF" ],
 					"varname" : "clip"
@@ -3257,15 +3256,21 @@
 			}
 , 			{
 				"box" : 				{
+					"angle" : 90.0,
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
+					"border" : 3,
+					"bordercolor" : [ 0.654901960784314, 0.572549019607843, 0.376470588235294, 1.0 ],
 					"id" : "obj-51",
 					"maxclass" : "panel",
+					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 237.0, 18.5, 160.0, 160.0 ],
+					"patching_rect" : [ 237.0, 18.5, 160.0, 146.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 160.0, 146.0 ],
+					"proportion" : 0.554546,
 					"rounded" : 0,
-					"style" : "panel_middle"
+					"style" : "panel_middle_light"
 				}
 
 			}
@@ -4395,6 +4400,26 @@
 				"multi" : 0
 			}
 , 			{
+				"name" : "panel_middle_light",
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color1" : [ 0.654902, 0.572549, 0.376471, 1.0 ],
+						"color2" : [ 0.0, 0.0, 0.0, 1.0 ],
+						"angle" : 90.0,
+						"proportion" : 0.554546,
+						"autogradient" : 0,
+						"pt1" : [ 0.504951, 0.956522 ],
+						"pt2" : [ 0.504951, 0.0 ]
+					}
+
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
 				"name" : "panel_middle_raw",
 				"default" : 				{
 					"bgfillcolor" : 					{
@@ -4411,6 +4436,11 @@
 				}
 ,
 				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "panel_middle_raw_new",
+				"parentstyle" : "panel_middle_raw",
 				"multi" : 0
 			}
  ],

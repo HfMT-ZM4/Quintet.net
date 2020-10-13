@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 156.0, 631.0, 1295.0, 408.0 ],
+		"rect" : [ -71.0, -812.0, 1295.0, 408.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -496,10 +496,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 260.0, 59.5, 780.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 261.0, 8.5, 884.0, 29.0 ],
+					"presentation_rect" : [ 261.0, 8.5, 879.0, 29.0 ],
 					"readonly" : 1,
 					"rounded" : 5.0,
-					"text" : "play solo",
 					"textcolor" : [ 0.992156862745098, 0.980392156862745, 1.0, 1.0 ]
 				}
 

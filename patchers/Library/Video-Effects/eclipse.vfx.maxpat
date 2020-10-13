@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-15",
@@ -45,18 +46,19 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 201.0, 284.0, 34.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 63.0, 103.0, 34.0, 18.0 ],
+					"presentation_rect" : [ 9.0, 119.0, 34.0, 18.0 ],
 					"style" : "comment_viewer_normal",
-					"text" : "Mode"
+					"text" : "Mode",
+					"textcolor" : [ 0.047058823529412, 0.423529411764706, 0.847058823529412, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.631372549019608, 0.631372549019608, 0.631372549019608, 1.0 ],
+					"bgcolor" : [ 0.898039215686275, 0.898039215686275, 0.898039215686275, 0.53 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.631372549019608, 0.631372549019608, 0.631372549019608, 1.0 ],
+					"bgfillcolor_color" : [ 0.898039215686275, 0.898039215686275, 0.898039215686275, 0.53 ],
 					"bgfillcolor_color1" : [ 0.745098039215686, 0.745098039215686, 0.745098039215686, 1.0 ],
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
@@ -71,8 +73,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 151.5, 307.0, 127.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 16.5, 121.0, 127.0, 20.0 ],
-					"textcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
+					"presentation_rect" : [ 48.0, 118.0, 103.5, 20.0 ],
+					"textcolor" : [ 0.047058823529412, 0.423529411764706, 0.847058823529412, 1.0 ]
 				}
 
 			}
@@ -216,7 +218,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -249,6 +251,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -540,7 +543,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -573,7 +576,46 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-32",
+									"linecount" : 2,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 163.0, 539.0, 132.0, 35.0 ],
+									"presentation_linecount" : 2,
+									"text" : "11.985 108.12 215.985 132.6"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-31",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 259.0, 495.0, 93.0, 22.0 ],
+									"text" : "vexpr $f1 * 255."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-29",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 195.0, 448.0, 132.0, 22.0 ],
+									"text" : "0.047 0.424 0.847 0.52"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
@@ -940,8 +982,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 190.0, 350.0, 137.0, 19.0 ],
-									"text" : "clear, brgb 120 120 120, local 0"
+									"patching_rect" : [ 190.0, 350.0, 201.0, 19.0 ],
+									"text" : "clear, brgb 11.985 108.12 215.985 132.6, local 0"
 								}
 
 							}
@@ -1150,6 +1192,20 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-31", 0 ],
+									"source" : [ "obj-29", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-32", 1 ],
+									"source" : [ "obj-31", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-3", 0 ],
 									"source" : [ "obj-4", 0 ]
 								}
@@ -1235,7 +1291,7 @@
 					"outlettype" : [ "list", "list", "int", "" ],
 					"patching_rect" : [ 158.0, 218.0, 64.0, 64.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 18.0, 44.0, 64.0, 64.0 ]
+					"presentation_rect" : [ 49.5, 27.0, 64.0, 64.0 ]
 				}
 
 			}
@@ -1250,7 +1306,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 108.0, 15.0, 110.0, 20.0 ],
 					"restore" : 					{
-						"c+r" : [ 31, 31 ],
+						"c+r" : [ 48, 46 ],
 						"tint" : [ 0 ]
 					}
 ,
@@ -1352,14 +1408,17 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 248.0, 201.0, 30.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 113.0, 27.0, 30.0, 18.0 ],
+					"presentation_rect" : [ 9.0, 95.0, 30.0, 18.0 ],
 					"style" : "comment_viewer_normal",
-					"text" : "Tint"
+					"text" : "Tint",
+					"textcolor" : [ 0.047058823529412, 0.423529411764706, 0.847058823529412, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.047058823529412, 0.423529411764706, 0.847058823529412, 1.0 ],
+					"checkedcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ],
 					"id" : "obj-38",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -1368,7 +1427,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 253.0, 240.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 118.0, 62.5, 20.0, 20.0 ],
+					"presentation_rect" : [ 71.5, 95.0, 20.0, 20.0 ],
 					"varname" : "tint"
 				}
 
@@ -1381,9 +1440,10 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 170.0, 198.0, 34.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 23.0, 51.0, 18.0 ],
+					"presentation_rect" : [ 9.0, 42.0, 42.0, 18.0 ],
 					"style" : "comment_viewer_normal",
-					"text" : "Steps"
+					"text" : "Steps",
+					"textcolor" : [ 0.047058823529412, 0.423529411764706, 0.847058823529412, 1.0 ]
 				}
 
 			}
@@ -1397,19 +1457,26 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 48.0, 1.0, 67.0, 20.0 ],
 					"style" : "comment_font_viewer",
-					"text" : "Eclipse 1"
+					"text" : "Eclipse 1",
+					"textcolor" : [ 0.047058823529412, 0.423529411764706, 0.847058823529412, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"angle" : -90.0,
+					"bgcolor" : [ 0.047058823529412, 0.423529411764706, 0.847058823529412, 0.0 ],
+					"border" : 3,
+					"bordercolor" : [ 0.047058823529412, 0.423529411764706, 0.847058823529412, 1.0 ],
 					"id" : "obj-43",
 					"maxclass" : "panel",
+					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 138.0, 175.0, 160.0, 160.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 160.0, 146.0 ],
+					"proportion" : 0.39,
 					"rounded" : 0,
 					"style" : "panel_grey_blue"
 				}
@@ -1606,9 +1673,9 @@
 		"styles" : [ 			{
 				"name" : "comment_font_viewer",
 				"default" : 				{
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontname" : [ "Gill Sans" ],
 					"fontsize" : [ 12.0 ],
-					"fontname" : [ "Gill Sans" ]
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1617,9 +1684,9 @@
 , 			{
 				"name" : "comment_viewer_normal",
 				"default" : 				{
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontname" : [ "Arial" ],
 					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1628,13 +1695,28 @@
 , 			{
 				"name" : "number001",
 				"default" : 				{
+					"fontname" : [ "Arial" ],
 					"accentcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"fontface" : [ 1 ],
 					"selectioncolor" : [ 0.87, 0.82, 0.24, 1.0 ],
+					"fontface" : [ 1 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontsize" : [ 10.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "number_white",
+				"default" : 				{
+					"fontname" : [ "Gill Sans" ],
+					"accentcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"selectioncolor" : [ 0.87, 0.82, 0.24, 1.0 ],
+					"fontface" : [ 1 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",

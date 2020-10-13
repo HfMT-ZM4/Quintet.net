@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 108.0, 613.0, 1211.0, 209.0 ],
+		"rect" : [ 126.0, 311.0, 1211.0, 510.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -111,7 +111,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 122.0, 178.0, 61.0, 17.0 ],
+									"patching_rect" : [ 122.0, 178.0, 61.0, 19.0 ],
 									"text" : "prepend set"
 								}
 
@@ -125,7 +125,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 104.0, 158.0, 61.0, 17.0 ],
+									"patching_rect" : [ 104.0, 158.0, 61.0, 19.0 ],
 									"text" : "prepend set"
 								}
 
@@ -139,7 +139,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 86.0, 138.0, 61.0, 17.0 ],
+									"patching_rect" : [ 86.0, 138.0, 61.0, 19.0 ],
 									"text" : "prepend set"
 								}
 
@@ -153,7 +153,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 68.0, 116.0, 61.0, 17.0 ],
+									"patching_rect" : [ 68.0, 116.0, 61.0, 19.0 ],
 									"text" : "prepend set"
 								}
 
@@ -167,7 +167,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 97.0, 61.0, 17.0 ],
+									"patching_rect" : [ 50.0, 97.0, 61.0, 19.0 ],
 									"text" : "prepend set"
 								}
 
@@ -181,7 +181,7 @@
 									"numinlets" : 6,
 									"numoutlets" : 6,
 									"outlettype" : [ "", "", "", "", "", "" ],
-									"patching_rect" : [ 50.0, 68.0, 109.5, 17.0 ],
+									"patching_rect" : [ 50.0, 68.0, 109.5, 19.0 ],
 									"text" : "route 1 2 3 4 5"
 								}
 
@@ -430,7 +430,7 @@
 					"depth" : 1,
 					"fontface" : 1,
 					"id" : "obj-1",
-					"items" : [ "audio", ",", "bpf", ",", "findbounds", ",", "hi", ",", "linear", ",", "lissajous", ",", "midi", ",", "video-randomizer", ",", "wacom" ],
+					"items" : [ "audio", ",", "bpf", ",", "findbounds", ",", "hi", ",", "linear", ",", "lissajous", ",", "midi", ",", "network", ",", "video-randomizer", ",", "wacom" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -900,7 +900,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 50.0, 47.0, 17.0 ],
+									"patching_rect" : [ 50.0, 50.0, 47.0, 19.0 ],
 									"text" : "route on"
 								}
 
@@ -914,7 +914,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 122.0, 178.0, 61.0, 17.0 ],
+									"patching_rect" : [ 122.0, 178.0, 61.0, 19.0 ],
 									"text" : "prepend set"
 								}
 
@@ -928,7 +928,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 104.0, 158.0, 61.0, 17.0 ],
+									"patching_rect" : [ 104.0, 158.0, 61.0, 19.0 ],
 									"text" : "prepend set"
 								}
 
@@ -942,7 +942,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 86.0, 138.0, 61.0, 17.0 ],
+									"patching_rect" : [ 86.0, 138.0, 61.0, 19.0 ],
 									"text" : "prepend set"
 								}
 
@@ -956,7 +956,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 68.0, 116.0, 61.0, 17.0 ],
+									"patching_rect" : [ 68.0, 116.0, 61.0, 19.0 ],
 									"text" : "prepend set"
 								}
 
@@ -970,7 +970,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 97.0, 61.0, 17.0 ],
+									"patching_rect" : [ 50.0, 97.0, 61.0, 19.0 ],
 									"text" : "prepend set"
 								}
 
@@ -984,7 +984,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "int", "int", "int", "int", "int" ],
-									"patching_rect" : [ 50.0, 76.0, 85.0, 17.0 ],
+									"patching_rect" : [ 50.0, 76.0, 85.0, 19.0 ],
 									"text" : "unpack 1 1 1 1 1"
 								}
 
@@ -1480,7 +1480,7 @@
 					"depth" : 1,
 					"fontface" : 1,
 					"id" : "obj-10",
-					"items" : [ "audio", ",", "bpf", ",", "findbounds", ",", "hi", ",", "linear", ",", "lissajous", ",", "midi", ",", "video-randomizer", ",", "wacom" ],
+					"items" : [ "audio", ",", "bpf", ",", "findbounds", ",", "hi", ",", "linear", ",", "lissajous", ",", "midi", ",", "network", ",", "video-randomizer", ",", "wacom" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1509,7 +1509,7 @@
 					"depth" : 1,
 					"fontface" : 1,
 					"id" : "obj-11",
-					"items" : [ "audio", ",", "bpf", ",", "findbounds", ",", "hi", ",", "linear", ",", "lissajous", ",", "midi", ",", "video-randomizer", ",", "wacom" ],
+					"items" : [ "audio", ",", "bpf", ",", "findbounds", ",", "hi", ",", "linear", ",", "lissajous", ",", "midi", ",", "network", ",", "video-randomizer", ",", "wacom" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1538,7 +1538,7 @@
 					"depth" : 1,
 					"fontface" : 1,
 					"id" : "obj-12",
-					"items" : [ "audio", ",", "bpf", ",", "findbounds", ",", "hi", ",", "linear", ",", "lissajous", ",", "midi", ",", "video-randomizer", ",", "wacom" ],
+					"items" : [ "audio", ",", "bpf", ",", "findbounds", ",", "hi", ",", "linear", ",", "lissajous", ",", "midi", ",", "network", ",", "video-randomizer", ",", "wacom" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1567,7 +1567,7 @@
 					"depth" : 1,
 					"fontface" : 1,
 					"id" : "obj-13",
-					"items" : [ "audio", ",", "bpf", ",", "findbounds", ",", "hi", ",", "linear", ",", "lissajous", ",", "midi", ",", "video-randomizer", ",", "wacom" ],
+					"items" : [ "audio", ",", "bpf", ",", "findbounds", ",", "hi", ",", "linear", ",", "lissajous", ",", "midi", ",", "network", ",", "video-randomizer", ",", "wacom" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1611,7 +1611,7 @@
 					"patching_rect" : [ 21.0, 24.0, 75.0, 19.0 ],
 					"restore" : 					{
 						"curve_1" : [ "bpf" ],
-						"curve_2" : [ "wacom" ],
+						"curve_2" : [ "network" ],
 						"curve_3" : [ "lissajous" ],
 						"curve_4" : [ "midi" ],
 						"curve_5" : [ "audio" ],

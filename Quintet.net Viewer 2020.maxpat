@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 248.0, 45.0, 1128.0, 785.0 ],
+		"rect" : [ 251.0, 45.0, 1128.0, 785.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -4844,7 +4844,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 847.0, 30.0, 61.0, 19.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 248, 45, 1376, 830, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 251, 45, 1379, 830, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 
@@ -6164,7 +6164,7 @@
 													"maxclass" : "inlet",
 													"numinlets" : 0,
 													"numoutlets" : 1,
-													"outlettype" : [ "FullPacket" ],
+													"outlettype" : [ "" ],
 													"patching_rect" : [ 18.0, 8.0, 30.0, 30.0 ]
 												}
 
@@ -6419,9 +6419,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 986.0, 153.0, 19.0, 20.0 ],
+									"patching_rect" : [ 986.0, 269.0, 19.0, 20.0 ],
 									"text" : "t l",
-									"varname" : "setport"
+									"varname" : "2pattrstorage"
 								}
 
 							}
@@ -6432,7 +6432,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
-									"patching_rect" : [ 986.0, 332.0, 128.0, 20.0 ],
+									"patching_rect" : [ 986.0, 309.0, 128.0, 20.0 ],
 									"text" : "regexp ^\\\\/ @substitute %0"
 								}
 
@@ -7331,7 +7331,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 208.899993999999992, 226.0, 232.0, 18.0 ],
-													"restore" : [ 1.0, 0.0, 0.0, 1.0 ],
+													"restore" : [ 0.5, 0.5, 0.5, 1 ],
 													"saved_object_attributes" : 													{
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
@@ -7604,19 +7604,6 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 380.0, 214.0, 77.0, 20.0 ],
 									"text" : "r viewer.curves"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
-									"id" : "obj-83",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 1024.0, 247.0, 41.0, 20.0 ],
-									"text" : "s extra"
 								}
 
 							}
@@ -8154,21 +8141,6 @@
 							}
 , 							{
 								"box" : 								{
-									"fontface" : 0,
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
-									"id" : "obj-7",
-									"maxclass" : "newobj",
-									"numinlets" : 3,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "FullPacket" ],
-									"patching_rect" : [ 986.0, 221.0, 95.0, 20.0 ],
-									"text" : "o.route /pattr /extra"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-8",
@@ -8480,20 +8452,6 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 463.0, 621.0, 104.0, 20.0 ],
 									"text" : "s viewer-pattrstorage"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
-									"id" : "obj-26",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 986.0, 195.0, 84.0, 20.0 ],
-									"text" : "udpreceive 7999"
 								}
 
 							}
@@ -8853,13 +8811,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-7", 0 ],
-									"source" : [ "obj-26", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-15", 0 ],
 									"source" : [ "obj-3", 0 ]
 								}
@@ -9003,7 +8954,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-26", 0 ],
+									"destination" : [ "obj-14", 0 ],
 									"source" : [ "obj-42", 0 ]
 								}
 
@@ -9241,28 +9192,6 @@
 								"patchline" : 								{
 									"destination" : [ "obj-71", 0 ],
 									"source" : [ "obj-69", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-14", 0 ],
-									"source" : [ "obj-7", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-67", 0 ],
-									"midpoints" : [ 1071.5, 289.0, 472.5, 289.0 ],
-									"source" : [ "obj-7", 2 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-83", 0 ],
-									"source" : [ "obj-7", 1 ]
 								}
 
 							}
@@ -21445,29 +21374,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 1 ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-63",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "camera.vgen.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 162.0, 316.0, 160.0, 146.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 162.0, 315.0, 160.0, 146.0 ],
-					"varname" : "1camera",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"args" : [ 2, 5 ],
 					"bgmode" : 0,
 					"border" : 0,
@@ -21554,6 +21460,29 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 484.0, 463.0, 160.0, 146.0 ],
 					"varname" : "1_3type",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ 1 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-92",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "camera.vgen.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 162.0, 315.0, 160.0, 146.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 162.0, 315.0, 160.0, 146.0 ],
+					"varname" : "1camera",
 					"viewvisibility" : 1
 				}
 
@@ -21705,6 +21634,13 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "camera.vgen.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Video-Generators",
+				"patcherrelativepath" : "./patchers/Library/Video-Generators",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "type.vfx.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Video-Effects",
 				"patcherrelativepath" : "./patchers/Library/Video-Effects",
@@ -21740,13 +21676,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "camera.vgen.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Video-Generators",
-				"patcherrelativepath" : "./patchers/Library/Video-Generators",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "eclipse.vfx.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Video-Effects",
 				"patcherrelativepath" : "./patchers/Library/Video-Effects",
@@ -21761,23 +21690,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "wacom.curve.maxpat",
+				"name" : "network.curve.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Curve-Generators",
 				"patcherrelativepath" : "./patchers/Library/Curve-Generators",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "platform.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/DJster/javascript",
-				"patcherrelativepath" : "../DJster/javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "divmod.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/DJster/patchers/DJster/Abstractions",
-				"patcherrelativepath" : "../DJster/patchers/DJster/Abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -22001,6 +21916,13 @@
 				"name" : "configs.vgen.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Video-Generators",
 				"patcherrelativepath" : "./patchers/Library/Video-Generators",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "divmod.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/DJster/patchers/DJster/Abstractions",
+				"patcherrelativepath" : "../DJster/patchers/DJster/Abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -22542,15 +22464,15 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "o.route.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "bonk~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
 				"name" : "analyzer~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
 , 			{

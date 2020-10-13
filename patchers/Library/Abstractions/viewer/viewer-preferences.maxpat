@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 489.0, 233.0, 694.0, 510.0 ],
+		"rect" : [ 489.0, 233.0, 694.0, 627.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,6 +45,7 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"hidden" : 1,
 					"id" : "obj-51",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
@@ -52,7 +53,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 243.0, 90.0, 218.0, 233.0 ],
+					"patching_rect" : [ 600.0, 200.0, 218.0, 233.0 ],
 					"varname" : "Project",
 					"viewvisibility" : 1
 				}
@@ -173,7 +174,7 @@
 					}
 ,
 					"usepicture" : 1,
-					"varname" : "live.tab[1]"
+					"varname" : "tab"
 				}
 
 			}
@@ -185,7 +186,6 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"hidden" : 1,
 					"id" : "obj-42",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
@@ -194,7 +194,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "list" ],
-					"patching_rect" : [ 600.0, 200.0, 625.0, 463.0 ],
+					"patching_rect" : [ 54.0, 97.0, 625.0, 463.0 ],
 					"varname" : "Mapper",
 					"viewvisibility" : 1
 				}
@@ -1099,8 +1099,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 0.0, 165.0, 61.0, 19.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 489, 233, 1183, 743, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
-					"text" : "thispatcher"
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 489, 233, 1183, 860, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"text" : "thispatcher",
+					"varname" : "thispatcher"
 				}
 
 			}

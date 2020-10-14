@@ -43,6 +43,20 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 41.446281499999998, 28.5, 89.0, 22.0 ],
+					"text" : "loadmess draw"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-56",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -2249,7 +2263,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 35.946280999999999, 28.5, 55.0, 20.0 ],
+					"patching_rect" : [ 81.946280999999999, 72.5, 55.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 44.0, 20.0 ],
 					"text" : "Mode:"
@@ -3474,7 +3488,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.400000035762787, 1.0, 0.400000035762787, 1.0 ],
+					"bgcolor" : [ 0.986246049404144, 0.007120788097382, 0.027434188872576, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"id" : "obj-70",
 					"legacytextcolor" : 1,
@@ -4143,7 +4157,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 262.619872999999984, 873.0, 150.0, 22.0 ],
-					"restore" : [ "/painter/clear" ],
+					"restore" : [ "/painter/draw", 259, 99, 400, 83, 251, 1, 6, 255, 10, 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -4166,7 +4180,7 @@
 					"outlettype" : [ "list", "list", "int", "" ],
 					"patching_rect" : [ 326.0, 333.0, 326.0, 308.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 20.0, 720.0, 540.0 ],
+					"presentation_rect" : [ -39.0, 22.0, 720.0, 540.0 ],
 					"varname" : "canvas"
 				}
 
@@ -4445,6 +4459,13 @@
 					"destination" : [ "obj-14", 8 ],
 					"midpoints" : [ 593.60797100000002, 815.0, 143.619872999999984, 815.0 ],
 					"source" : [ "obj-28", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}

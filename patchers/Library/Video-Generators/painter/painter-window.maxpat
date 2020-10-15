@@ -48,8 +48,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.446281499999998, 28.5, 89.0, 22.0 ],
-					"text" : "loadmess draw"
+					"patching_rect" : [ 41.446281499999998, 28.5, 70.0, 22.0 ],
+					"text" : "loadmess 0"
 				}
 
 			}
@@ -4157,7 +4157,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 262.619872999999984, 873.0, 150.0, 22.0 ],
-					"restore" : [ "/painter/draw", 259, 99, 400, 83, 251, 1, 6, 255, 10, 0 ],
+					"restore" : [ "/painter/draw", 669, 315, 669, 315, 0, 0, 0, 255, 10, 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -4180,7 +4180,7 @@
 					"outlettype" : [ "list", "list", "int", "" ],
 					"patching_rect" : [ 326.0, 333.0, 326.0, 308.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -39.0, 22.0, 720.0, 540.0 ],
+					"presentation_rect" : [ 0.0, 22.0, 720.0, 540.0 ],
 					"varname" : "canvas"
 				}
 

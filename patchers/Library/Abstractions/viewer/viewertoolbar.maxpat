@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 85.0, 625.0, 370.0, 226.0 ],
+		"rect" : [ 85.0, 625.0, 696.0, 349.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,75 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-3",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 358.0, 116.0, 54.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 288.0, 196.0, 54.0, 20.0 ],
+					"text" : "inx front"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 358.0, 143.0, 216.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 288.0, 223.0, 216.0, 20.0 ],
+					"text" : "pattrforward parent::Register::chat-parent::chat"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"activebgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 0.0 ],
+					"activebgoncolor" : [ 1.0, 0.709803921568627, 0.196078431372549, 0.0 ],
+					"activetextcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ],
+					"bgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 0.0 ],
+					"bgoncolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 0.0 ],
+					"bordercolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 0.0 ],
+					"focusbordercolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 0.0 ],
+					"hint" : "Chat",
+					"id" : "obj-27",
+					"maxclass" : "live.text",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 358.0, 49.0, 50.0, 50.0 ],
+					"pictures" : [ "remarks2.svg", "<none>" ],
+					"presentation" : 1,
+					"presentation_rect" : [ 210.0, 4.0, 40.0, 40.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_longname" : "live.text[3]",
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "live.text[2]",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"usepicture" : 1,
+					"varname" : "live.text[6]"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -100,7 +169,7 @@
 					"patching_rect" : [ 214.0, 45.0, 50.0, 50.0 ],
 					"pictures" : [ "folders_on.svg", "<none>" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 127.0, 42.0, 40.0, 40.0 ],
+					"presentation_rect" : [ 70.0, 4.0, 40.0, 40.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -135,7 +204,7 @@
 					"patching_rect" : [ 279.5, 45.0, 50.0, 50.0 ],
 					"pictures" : [ "pencil_on.svg", "<none>" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 196.5, 42.0, 40.0, 40.0 ],
+					"presentation_rect" : [ 139.5, 4.0, 40.0, 40.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -183,7 +252,7 @@
 					"patching_rect" : [ 62.0, 45.0, 45.0, 45.0 ],
 					"pictures" : [ "viewbyname_on.svg", "<none>" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 60.0, 42.0, 40.0, 40.0 ],
+					"presentation_rect" : [ 3.0, 4.0, 40.0, 40.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -212,6 +281,10 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 51.0, 17.0, 53.0, 19.0 ],
+					"restore" : 					{
+						"live.text[6]" : [ 0.0 ]
+					}
+,
 					"text" : "autopattr",
 					"varname" : "u229031042"
 				}
@@ -238,6 +311,13 @@
 					"destination" : [ "obj-29", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-27", 0 ]
 				}
 
 			}
@@ -271,6 +351,13 @@
 					"destination" : [ "obj-18", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}

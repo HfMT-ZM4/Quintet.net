@@ -24,6 +24,9 @@ Download the most recent GitHub repo from https://github.com/CNMAT/CNMAT-odot/re
 ## Java
 Quintet.net and MaxScore also require the installation of the Java SDK which you can find [here](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html) for your operation system.
 
+## zero
+In Max, use the Package Manager to download the _zero_ package. This will enable the zeroconf protocol, useful in local network performance.
+
 # Intro
 Quintet.net is a network multimedia performance environment invented and developed by composer and computer musician Georg Hajdu. It enables performers at up to five locations to play music over the Internet or a local network under the control of a “conductor.” 
 Quintet.net uses a sampler or MIDI for instrumental playback. It also features granular synthesis as well as Downloadable Sounds and plug-ins for sound processing and playback, and has additional video and graphical properties, which permit better interaction and control on a symbolical level: The performers along with the audience see the music which the participants produce on screen in “space” notation on five staves. In addition video clips and/or live video can be displayed by the Viewer add-on and mixed with real-time music notation for an enhanced viewing experience. The Conductor can also read musical scores and send parts to the performers, which will be displayed along with the notes produced by the musicians.

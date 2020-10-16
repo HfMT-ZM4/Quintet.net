@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"openrect" : [ 404.0, 166.0, 720.0, 560.0 ],
+		"openrect" : [ 387.0, 103.0, 721.0, 563.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -31,7 +31,7 @@
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
+		"devicewidth" : 721.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
@@ -3488,7 +3488,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.986246049404144, 0.007120788097382, 0.027434188872576, 1.0 ],
+					"bgcolor" : [ 0.990445077419281, 0.502227902412415, 0.032891403883696, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"id" : "obj-70",
 					"legacytextcolor" : 1,
@@ -4157,7 +4157,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 262.619872999999984, 873.0, 150.0, 22.0 ],
-					"restore" : [ "/painter/draw", 669, 315, 669, 315, 0, 0, 0, 255, 10, 0 ],
+					"restore" : [ "/painter/draw", 462, 310, 166, 410, 252, 128, 8, 255, 10, 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0

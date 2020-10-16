@@ -219,7 +219,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 26.0, 30.0, 30.0 ]
+					"patching_rect" : [ 41.0, 4.0, 30.0, 30.0 ]
 				}
 
 			}

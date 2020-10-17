@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 118.0, 113.0, 1308.0, 765.0 ],
+		"rect" : [ 95.0, 63.0, 1308.0, 765.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -51,7 +51,7 @@
 					"patching_rect" : [ 1180.5, 730.0, 99.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1185.0, 735.5, 114.0, 18.0 ],
-					"text" : "version 2020-10-16",
+					"text" : "version 2020-10-17",
 					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ],
 					"varname" : "version"
 				}
@@ -79,7 +79,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 164.0, 730.5, 194.0, 20.0 ],
-					"restore" : [ "drawsocketOutput", "{\"event\":{\"key\":\"mouse\",\"val\":{\"action\":\"mousemove\",\"xy\":[233,3],\"button\":0,\"mods\":{\"alt\":false,\"shift\":false,\"ctrl\":false,\"meta\":false},\"target\":{\"type\":\"svg\",\"id\":\"svg\",\"version\":\"1.1\",\"baseProfile\":\"full\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"xmlns:xlink\":\"http://www.w3.org/1999/xlink\"}}}}" ],
+					"restore" : [ "drawsocketOutput", "{\"event\":{\"key\":\"mouse\",\"val\":{\"action\":\"mousemove\",\"xy\":[195,130],\"button\":0,\"mods\":{\"alt\":false,\"shift\":false,\"ctrl\":false,\"meta\":false},\"target\":{\"type\":\"svg\",\"id\":\"svg\",\"version\":\"1.1\",\"baseProfile\":\"full\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"xmlns:xlink\":\"http://www.w3.org/1999/xlink\"}}}}" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -101,7 +101,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 1142.0, 0.0, 200.0, 800.0 ],
 					"rendermode" : 2,
-					"url" : "https://hfmt.live/untitled?id=3&get=https://raw.githubusercontent.com/HfMT-ZM4/quintet.net/master/public/media/quintetnet-video.html",
+					"url" : "https://hfmt.live/untitled?id=1&get=https://raw.githubusercontent.com/HfMT-ZM4/quintet.net/master/public/media/quintetnet-video.html",
 					"varname" : "sidebar"
 				}
 
@@ -6041,7 +6041,7 @@
 																	"numoutlets" : 3,
 																	"outlettype" : [ "", "", "" ],
 																	"patching_rect" : [ 61.333327999999995, 171.0, 402.0, 22.0 ],
-																	"restore" : [ "drawsocketOutput", "{\"event\":{\"key\":\"mouse\",\"val\":{\"action\":\"mousemove\",\"xy\":[233,3],\"button\":0,\"mods\":{\"alt\":false,\"shift\":false,\"ctrl\":false,\"meta\":false},\"target\":{\"type\":\"svg\",\"id\":\"svg\",\"version\":\"1.1\",\"baseProfile\":\"full\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"xmlns:xlink\":\"http://www.w3.org/1999/xlink\"}}}}" ],
+																	"restore" : [ "drawsocketOutput", "{\"event\":{\"key\":\"mouse\",\"val\":{\"action\":\"mousemove\",\"xy\":[195,130],\"button\":0,\"mods\":{\"alt\":false,\"shift\":false,\"ctrl\":false,\"meta\":false},\"target\":{\"type\":\"svg\",\"id\":\"svg\",\"version\":\"1.1\",\"baseProfile\":\"full\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"xmlns:xlink\":\"http://www.w3.org/1999/xlink\"}}}}" ],
 																	"saved_object_attributes" : 																	{
 																		"parameter_enable" : 0,
 																		"parameter_mappable" : 0
@@ -14841,7 +14841,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 884.0, 79.0, 59.0, 19.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 118, 113, 1426, 878, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 95, 63, 1403, 828, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 
@@ -14935,10 +14935,10 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 20, 74, 660, 314 ],
+						"client_rect" : [ 316, 148, 925, 879 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 30, 89, 670, 329 ]
+						"storage_rect" : [ 780, 524, 1380, 824 ]
 					}
 ,
 					"text" : "pattrstorage client @outputmode 4 @fileusagemode 1",
@@ -15002,7 +15002,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 5.0, 86.0, 59.0, 19.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 118, 113, 1426, 878, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 95, 63, 1403, 828, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 

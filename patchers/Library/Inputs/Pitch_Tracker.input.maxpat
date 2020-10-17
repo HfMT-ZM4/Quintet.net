@@ -72,7 +72,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 784.0, 278.0, 533.0, 518.0 ],
+						"rect" : [ 1096.0, 378.0, 533.0, 518.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -589,20 +589,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 29.5, 75.0, 111.0, 19.0 ],
 					"text" : "s toClientPattrstorage"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-78",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 143.0, 613.0, 125.0, 20.0 ],
-					"text" : "prepend /event/player"
 				}
 
 			}
@@ -2747,15 +2733,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-78", 0 ],
-					"source" : [ "obj-76", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-77", 0 ],
-					"source" : [ "obj-78", 0 ]
+					"source" : [ "obj-76", 0 ]
 				}
 
 			}

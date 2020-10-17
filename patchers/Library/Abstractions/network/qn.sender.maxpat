@@ -3214,118 +3214,6 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"fontname" : "Geneva",
-					"fontsize" : 9.0,
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 124.0, 115.0, 20.0 ],
-					"text" : "AudioCube.input.maxpat",
-					"varname" : "AudioCube"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Geneva",
-					"fontsize" : 9.0,
-					"id" : "obj-2",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 110.0, 124.0, 158.0, 20.0 ],
-					"text" : "Computer_Keyboard.input.maxpat",
-					"varname" : "Computer_Keyboard"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Geneva",
-					"fontsize" : 9.0,
-					"id" : "obj-5",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 220.0, 124.0, 128.0, 20.0 ],
-					"text" : "EffectsEngine.input.maxpat",
-					"varname" : "EffectsEngine"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Geneva",
-					"fontsize" : 9.0,
-					"id" : "obj-8",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 330.0, 124.0, 129.0, 20.0 ],
-					"text" : "GranularSynth.input.maxpat",
-					"varname" : "GranularSynth"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Geneva",
-					"fontsize" : 9.0,
-					"id" : "obj-9",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 440.0, 124.0, 118.0, 20.0 ],
-					"text" : "LeapMotion.input.maxpat",
-					"varname" : "LeapMotion"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Geneva",
-					"fontsize" : 9.0,
-					"id" : "obj-10",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 550.0, 124.0, 100.0, 20.0 ],
-					"text" : "MIDI.input.maxpat",
-					"varname" : "MIDI"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Geneva",
-					"fontsize" : 9.0,
-					"id" : "obj-11",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 660.0, 124.0, 105.0, 20.0 ],
-					"text" : "Network.input.maxpat",
-					"varname" : "Network"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Geneva",
-					"fontsize" : 9.0,
-					"id" : "obj-12",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 770.0, 124.0, 128.0, 20.0 ],
-					"text" : "Pitch_Tracker.input.maxpat",
-					"varname" : "Pitch_Tracker"
-				}
-
-			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -3334,7 +3222,38 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"parameterbanks" : 			{
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "vel-curve.txt",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Data",
+				"patcherrelativepath" : "../../Data",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "maxfolder.js",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/PatMap/javascript",
+				"patcherrelativepath" : "../../../PatMap/javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "strtok.js",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/javascript",
+				"patcherrelativepath" : "../../../../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

@@ -505,7 +505,6 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"title" : "Network Input",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],

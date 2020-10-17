@@ -70,7 +70,7 @@
 					"presentation_rect" : [ 410.0, 453.0, 27.0, 21.0 ],
 					"readonly" : 1,
 					"rounded" : 0.0,
-					"text" : "❌"
+					"text" : "😀"
 				}
 
 			}
@@ -517,7 +517,7 @@
 					"comment" : "",
 					"hidden" : 1,
 					"id" : "obj-6",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -922,7 +922,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 155.0, 360.0, 50.0, 24.0 ],
-													"text" : "4 1 😍"
+													"text" : "0 0 😀"
 												}
 
 											}
@@ -1258,7 +1258,6 @@
 													"rowheight" : 28,
 													"rows" : 8,
 													"savemode" : 1,
-													"selmode" : 5,
 													"signalusecols" : 1,
 													"vscroll" : 0
 												}
@@ -2119,7 +2118,7 @@
 					"comment" : "",
 					"hidden" : 1,
 					"id" : "obj-50",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2234,7 +2233,7 @@
 					"comment" : "",
 					"hidden" : 1,
 					"id" : "obj-59",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2862,6 +2861,70 @@
 
 			}
  ],
+		"dependency_cache" : [ 			{
+				"name" : "jk.chat-scribble-indicator.maxpat",
+				"bootpath" : "~/Library/Mobile Documents/com~apple~CloudDocs/Documents/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/chat",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jk.chat-scribble-icon.maxpat",
+				"bootpath" : "~/Library/Mobile Documents/com~apple~CloudDocs/Documents/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/chat",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "wfmodes.png",
+				"bootpath" : "C74:/media/max/picts",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jk.chat-engine2.maxpat",
+				"bootpath" : "~/Library/Mobile Documents/com~apple~CloudDocs/Documents/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/chat",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jk.textfield-gate.maxpat",
+				"bootpath" : "~/Library/Mobile Documents/com~apple~CloudDocs/Documents/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/chat",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jk.workup-chat-display.maxpat",
+				"bootpath" : "~/Library/Mobile Documents/com~apple~CloudDocs/Documents/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/chat",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gh.split@.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/abstractions",
+				"patcherrelativepath" : "../../../../../../../../../../../../Shared/Max 8/Packages/MaxScore/patchers/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "chat-bpatcher2.maxpat",
+				"bootpath" : "~/Library/Mobile Documents/com~apple~CloudDocs/Documents/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/chat",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "scrollbar.js",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/jsui",
+				"patcherrelativepath" : "../../../../../../../../../../../../Shared/Max 8/Packages/MaxScore/jsui",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 	}
 

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<?xml-stylesheet href="./_c74_tut.xsl" type="text/xsl"?>
+
+<chapter name="Quintet.net: Installation">
+
+<!--
+<setdocpatch name="02jJavascriptScripting" patch="02jJavascriptScripting.maxpat"/>
+<previous name="javascriptchapter01">Basic JavaScripting</previous>
+<next name="javascriptchapter03">Tasks, Arguments and Globals</next>
+<parent name="00_maxindex">Quintet.net Tutorials</parent>
+
+<indexinfo category="JavaScript" title="JavaScript Scripting">Using JavaScript to create patcher elements</indexinfo>
+-->
+
+<h1>Quintet.net</h1>
+
+<h2><b>Installation</b></h2>
+
+<p>Download or clone the GitHub repo from <a href="https://github.com/HfMT-ZM4/Quintet.net/">https://github.com/HfMT-ZM4/Quintet.net/</a> to your Max 8/Packages folder (the Max 8 folder is typically located in ~/Documents).</p>
+<p><i>In addition, Quintet.net requires the following Max packages:  </i></p>
+
+<h2>MaxScore</h2>
+
+<p>MaxScore is the notation environment necessary to display scores and real-time notation Get from <a href="http://www.computermusicnotation.com/downloadmaxscore/">http://www.computermusicnotation.com/downloadmaxscore/</a>.</p>
+
+<h2>odot</h2>
+
+<p>Download the most recent GitHub repo from <a href="https://github.com/CNMAT/CNMAT-odot/releases">https://github.com/CNMAT/CNMAT-odot/releases</a> to your Max 8/Packages folder  </p>
+
+<h2>Java</h2>
+
+<p>Quintet.net and MaxScore also require the installation of the Java SDK which you can find <a href="https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html">here</a> for your operation system. </p>
+
+<h2>zero</h2>
+
+<p>In Max, use the Package Manager to download the zero package. This will enable the zeroconf protocol, useful in local network performance.  </p>
+
+<!--
+
+<seealsolist>
+<seealso name="js">Max JavaScript object</seealso>
+<seealso name="jsintro" type="vignette" module="js" >javascriptinmax</seealso>
+</seealsolist>
+-->
+</chapter>

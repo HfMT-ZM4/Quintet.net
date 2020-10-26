@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<?xml-stylesheet href="./_c74_tut.xsl" type="text/xsl"?>
+
+<chapter name="Quintet.net: Intro">
+
+<!--
+<setdocpatch name="02jJavascriptScripting" patch="02jJavascriptScripting.maxpat"/>
+<previous name="javascriptchapter01">Basic JavaScripting</previous>
+<next name="javascriptchapter03">Tasks, Arguments and Globals</next>
+<parent name="00_maxindex">Max Tutorials</parent>
+
+<indexinfo category="JavaScript" title="JavaScript Scripting">Using JavaScript to create patcher elements</indexinfo>
+-->
+
+
+<h1>Quintet.net</h1>
+
+<h2><b>Intro</b></h2>
+
+<p>Quintet.net is a network multimedia performance environment invented and developed by composer and computer musician Georg Hajdu. It enables performers at up to five locations to play music over the Internet or a local network under the control of a “conductor.” Quintet.net uses a sampler or MIDI for instrumental playback. It also features granular synthesis as well as Downloadable Sounds and plug-ins for sound processing and playback, and has additional video and graphical properties, which permit better interaction and control on a symbolical level: The performers along with the audience see the music which the participants produce on screen in “space” notation on five staves. In addition video clips and/or live video can be displayed by the Viewer add-on and mixed with real-time music notation for an enhanced viewing experience. The Conductor can also read musical scores and send parts to the performers, which will be displayed along with the notes produced by the musicians.</p>
+<p>The environment, which was programmed with the graphical programming language Max consists of the following four components: </p>
+
+<h2><b>1: Server</b></h2>
+
+<p>
+<illustration><img src="images/Server.png"/><m>Quintet.net Server</m> </illustration>
+</p>
+<p>
+The central hub of Quintet.netis the Server which all participants first log in to. The performers interact with the Clients and send control messages on their journeys through cyberspace. Having arrived at the Server, the messages are mirrored to all Clients (including the originating computer). The server caches the state of the system so that when new players log on their Clients will immediately reflect the current state.
+</p>
+
+<h2><b>2: Client</b></h2>
+
+<p>
+<illustration><img src="images/Client.png"/> <m>Quintet.net Client</m> </illustration>
+</p>
+<p>The Client has several functional units: an input unit, a sound synthesis unit and a notation unit. Musical events can be entered into the computer through either a microphone, a controller (including MIDI devices) or simply the computer keyboard. If the music is input via microphone, a pitch tracker integrated into the program provides for the recognition of the pitches and their transformation into corresponding MIDI messages. The input unit employs OpenSoundControl messages based on a modified MIDI protocol for the transmission of note events using MIDI cents and velocity for steady pitch and amplitude as well as for continuous pitch and amplitude changes, resp. The note and bend events are played back by a built-in microtonal, multitimbral, polyphonic sampler. With this, every piece can sound distinctively different. The sounds can be further processed with VST plug-ins and its own audio-extension plug-ins. Thus, a pianist located in Hamburg could play on a Yamaha Disklavier placed anywhere else in the world. As soon as a note event arrives to the Client, the music will be drawn onto the computer screen in “space” notation. The Client can import an unlimited number of arbitrary tuning maps. The use of (pitch) filters, constituting a secondary tuning map or pitch grid, permits further control of melodic and harmonic events. Real-time notation facilitates the interaction of players who are sometimes thousands of miles apart from one another, even with non-pitched or complex samples. American composer and computer musician Chris Brown wrote about the use of real-time notation: “Sharing a notation space really broke new ground for this kind of music”. When logging on to the Server, the user can choose a role. He/she can be one of the five players or a listener. There is no limit on the number of listeners.</p>
+
+<h2><b>3: Conductor</b></h2>
+
+<p>
+<illustration><img src="images/Conductor.png"/> <m>Quintet.net Conductor</m> </illustration>
+</p>
+<p>Quintet.net uses the metaphor of an ensemble under the control of a conductor——a sixth player using the Conductor component——to monitor and influence the performance by selecting sounds, tunings, processes and filters (which, without a conductor, can also be changed by each of the Clients). The conductor stays in contact with the musicians through textual directions that appear in the Clients’ command lines, while a chat window facilitates the exchange of more complicated issues between the participants (including the cyber-audience; see below). If a piece employs a score, the conductor can also send parts and control the background sounds. On the Client, different display modes allow su- perimposition of parts and note events. Entering messages into a score and executing them during the performance can automate all this.
+
+</p>
+
+<h2><b>4: Viewer</b></h2>
+
+<p>
+<illustration><img src="images/Viewer.png"/><m>Quintet.net Viewer</m> </illustration>
+</p>
+<p>The Viewer was conceived to extend the Quintet.net performance into the visual domain. Using the Jitter matrix processing objects, this component implements a number of live video generating and processing algorithms that can be controlled either manually or by sending messages over the network. The media on which the algorithms operate can be either video clips or input from the video generators. The algorithms in turn can be controlled by the actions of the musicians. Thus, the Viewer enables composers/artists to create complex artworks in which the visual components represent an autonomous formal element. Several instances of the Viewer can be employed together in a performance.</p>
+
+
+
+<h2>Internet Server Address</h2>
+
+<p>An online server is accessible at 193.175.151.142</p>
+
+<h2>Support</h2>
+
+<p>For help on how to use the software, please refer to the Quintet.net repository at http://www.quintet.net. Questions can be directed to <a href= "mailto:ageorg.hajdu@hfmt-hamburg.de.">Georg Hajdu.</a></p>
+
+<!-->
+
+<seealsolist>
+<seealso name="js">Max JavaScript object</seealso>
+<seealso name="jsintro" type="vignette" module="js" >javascriptinmax</seealso>
+</seealsolist>
+-->
+</chapter>

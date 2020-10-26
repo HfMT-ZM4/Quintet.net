@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<?xml-stylesheet href="./_c74_tut.xsl" type="text/xsl"?>
+
+<chapter name="Welcome to MaxScore">
+
+<setdocpatch name="Introduction" patch="Introduction.maxpat"/>
+<previous name="Basics">Designing Equations</previous>
+<next name="MaxScoreBasics1">Note Management</next>
+<parent name="00_maxindex">Max Tutorials</parent>
+
+<indexinfo category="Intro" title="Introduction">Getting MIDI input and output</indexinfo>
+
+<h1>Welcome to MaxScore</h1>
+
+<h2>Introduction</h2>
+
+<p>MaxScore provides a barrage of different possibilities for musicians, composers, creators, programmers and not only. It offers maximum flexibility for music notation, as it gives the opportunity to create a score and interfere with it in multiple groundbreaking and creative ways.</p>
+<p>The advantage of using MaxScore in comparison to other professional notation environments is its integration into the Max environment, allowing programmers to adapt the application to their needs.</p>
+<p>MaxScore is a leading application for graphical and microtonal notation. It gives the opportunity to integrate graphics and it is designed to represent pitch with visually unlimited precision.</p>
+<p>Furthermore, the API part of MaxScore is capable of rendering different environments and interacting with 3d objects. It is the perfect tool to combine music notation with VR/AR environments and it interferes with Jitter or Max Canvas.</p>
+<p>Another feature that makes MaxScore unique is its capability to export a score to different popular formats for professional publishing.</p>
+
+<p>In the <o>Tutorials</o> section, you could get to know all these and much more about the MaxScore environment. You can learn step by step how to use the multiple possibilities it offers and benefit from it.</p>
+
+
+<h2>Download and Install
+
+<p>First of all, you would need to download the right Version of MaxScore for your operating system. You can achieve this by visiting the MaxScore Website http://www.computermusicnotation.com and clicking on the ‘Download’ section. <b>Please make sure that you always have the most recent version of MaxScore on your computer.</b> MaxScore requires the Java SDK. In order to be able to use MaxScore you will need to have a proper version of Java already installed in your operating system. If not, in the <o>Download</o> section of MaxScore Website you will find the option to download the Java SDK. Just click on the ‘Get the Java SDK for your operating System’, chose the version suitable for your operating system and install it. If you don’t have a proper version of Java, MaxScore will let you know by the moment you open it. A URL will pop up on the top of the window and it will redirect you to the equivalent site for you to install Java.</p>
+
+<p>After the download and installation has completed, you should be ready to go. Welcome to MaxScore!</p>
+
+
+
+
+<seealsolist>
+<seealso name="midiin">Output incoming MIDI bytes</seealso>
+<seealso name="midiout">Sent integers as raw MIDI data</seealso>
+<seealso name="notein">Output incoming MIDI note messages</seealso>
+<seealso name="noteout">Send MIDI note-on and note-off messages</seealso>
+<seealso name="ctlin">Output incoming MIDI control change messages</seealso>
+<seealso name="ctlout">Send MIDI control change messages</seealso>
+<seealso name="midiinfo">Set a pop-up menu with current names of MIDI devices</seealso>
+<seealso name="gswitch2">Switches the right inlet between two outputs</seealso>
+</seealsolist>
+
+</chapter>

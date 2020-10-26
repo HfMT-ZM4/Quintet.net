@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 4,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 279.0, 556.0, 990.0, 550.0 ],
+		"rect" : [ 218.0, 273.0, 990.0, 550.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -138,7 +138,7 @@
 					"bgfillcolor_type" : "color",
 					"fontsize" : 9.0,
 					"id" : "obj-28",
-					"items" : [ "audio-input~.ext.maxpat", ",", "EffectsEngine~.ext.maxpat", ",", "f0choir.ext.maxpat", ",", "fluidsynth~.ext.maxpat", ",", "friedrich~.ext.maxpat", ",", "gain~.ext.maxpat", ",", "granular~.ext.maxpat", ",", "guest4~.ext.pat", ",", "Ivresse~.ext.pat", ",", "Oscil~.ext.maxpat", ",", "Raindrops~.ext.maxpat", ",", "SINUS.ext.maxpat", ",", "Spigot~.ext.maxpat", ",", "thru~.ext.maxpat", ",", "Vera~.ext.maxpat", ",", "RadioMusic~.ext.maxpat", ",", "Sirenen~.ext.maxpat", ",", "Cycle~.ext.maxpat" ],
+					"items" : [ "audio-input~.ext.maxpat", ",", "EffectsEngine~.ext.maxpat", ",", "f0choir.ext.maxpat", ",", "fluidsynth~.ext.maxpat", ",", "friedrich~.ext.maxpat", ",", "gain~.ext.maxpat", ",", "granular~.ext.maxpat", ",", "guest4~.ext.pat", ",", "Ivresse~.ext.pat", ",", "Oscil~.ext.maxpat", ",", "Raindrops~.ext.maxpat", ",", "SINUS.ext.maxpat", ",", "Spigot~.ext.maxpat", ",", "thru~.ext.maxpat", ",", "Vera~.ext.maxpat", ",", "RadioMusic~.ext.maxpat", ",", "Sirenen~.ext.maxpat", ",", "Cycle~.ext.maxpat", ",", "RadioMusic~.ext.maxpat", ",", "Sirenen~.ext.maxpat", ",", "Cycle~.ext.maxpat" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -146,7 +146,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 518.0, 260.0, 121.0, 19.0 ],
 					"pattrmode" : 1,
-					"prefix" : "Macintosh HD:/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Audio-Extensions/",
+					"prefix" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Audio-Extensions/",
 					"prefix_mode" : 2,
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"types" : [ "TEXT", "maxb", "maxt", "JSON" ],
@@ -166,7 +166,7 @@
 					"bgfillcolor_type" : "color",
 					"fontsize" : 9.0,
 					"id" : "obj-29",
-					"items" : [ "audio-input~.ext.maxpat", ",", "EffectsEngine~.ext.maxpat", ",", "f0choir.ext.maxpat", ",", "fluidsynth~.ext.maxpat", ",", "friedrich~.ext.maxpat", ",", "gain~.ext.maxpat", ",", "granular~.ext.maxpat", ",", "guest4~.ext.pat", ",", "Ivresse~.ext.pat", ",", "Oscil~.ext.maxpat", ",", "Raindrops~.ext.maxpat", ",", "SINUS.ext.maxpat", ",", "Spigot~.ext.maxpat", ",", "thru~.ext.maxpat", ",", "Vera~.ext.maxpat", ",", "RadioMusic~.ext.maxpat", ",", "Sirenen~.ext.maxpat", ",", "Cycle~.ext.maxpat" ],
+					"items" : [ "audio-input~.ext.maxpat", ",", "EffectsEngine~.ext.maxpat", ",", "f0choir.ext.maxpat", ",", "fluidsynth~.ext.maxpat", ",", "friedrich~.ext.maxpat", ",", "gain~.ext.maxpat", ",", "granular~.ext.maxpat", ",", "guest4~.ext.pat", ",", "Ivresse~.ext.pat", ",", "Oscil~.ext.maxpat", ",", "Raindrops~.ext.maxpat", ",", "SINUS.ext.maxpat", ",", "Spigot~.ext.maxpat", ",", "thru~.ext.maxpat", ",", "Vera~.ext.maxpat", ",", "RadioMusic~.ext.maxpat", ",", "Sirenen~.ext.maxpat", ",", "Cycle~.ext.maxpat", ",", "RadioMusic~.ext.maxpat", ",", "Sirenen~.ext.maxpat", ",", "Cycle~.ext.maxpat" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -174,7 +174,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 134.0, 260.0, 121.0, 19.0 ],
 					"pattrmode" : 1,
-					"prefix" : "Macintosh HD:/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Audio-Extensions/",
+					"prefix" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Audio-Extensions/",
 					"prefix_mode" : 2,
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"types" : [ "TEXT", "maxb", "maxt", "JSON" ],
@@ -194,7 +194,7 @@
 					"bgfillcolor_type" : "color",
 					"fontsize" : 9.0,
 					"id" : "obj-30",
-					"items" : [ "audio-input~.ext.maxpat", ",", "EffectsEngine~.ext.maxpat", ",", "f0choir.ext.maxpat", ",", "fluidsynth~.ext.maxpat", ",", "friedrich~.ext.maxpat", ",", "gain~.ext.maxpat", ",", "granular~.ext.maxpat", ",", "guest4~.ext.pat", ",", "Ivresse~.ext.pat", ",", "Oscil~.ext.maxpat", ",", "Raindrops~.ext.maxpat", ",", "SINUS.ext.maxpat", ",", "Spigot~.ext.maxpat", ",", "thru~.ext.maxpat", ",", "Vera~.ext.maxpat", ",", "RadioMusic~.ext.maxpat", ",", "Sirenen~.ext.maxpat", ",", "Cycle~.ext.maxpat" ],
+					"items" : [ "audio-input~.ext.maxpat", ",", "EffectsEngine~.ext.maxpat", ",", "f0choir.ext.maxpat", ",", "fluidsynth~.ext.maxpat", ",", "friedrich~.ext.maxpat", ",", "gain~.ext.maxpat", ",", "granular~.ext.maxpat", ",", "guest4~.ext.pat", ",", "Ivresse~.ext.pat", ",", "Oscil~.ext.maxpat", ",", "Raindrops~.ext.maxpat", ",", "SINUS.ext.maxpat", ",", "Spigot~.ext.maxpat", ",", "thru~.ext.maxpat", ",", "Vera~.ext.maxpat", ",", "RadioMusic~.ext.maxpat", ",", "Sirenen~.ext.maxpat", ",", "Cycle~.ext.maxpat", ",", "RadioMusic~.ext.maxpat", ",", "Sirenen~.ext.maxpat", ",", "Cycle~.ext.maxpat" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -202,7 +202,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 390.0, 259.0, 121.0, 19.0 ],
 					"pattrmode" : 1,
-					"prefix" : "Macintosh HD:/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Audio-Extensions/",
+					"prefix" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Audio-Extensions/",
 					"prefix_mode" : 2,
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"types" : [ "TEXT", "maxb", "maxt", "JSON" ],
@@ -222,7 +222,7 @@
 					"bgfillcolor_type" : "color",
 					"fontsize" : 9.0,
 					"id" : "obj-31",
-					"items" : [ "audio-input~.ext.maxpat", ",", "EffectsEngine~.ext.maxpat", ",", "f0choir.ext.maxpat", ",", "fluidsynth~.ext.maxpat", ",", "friedrich~.ext.maxpat", ",", "gain~.ext.maxpat", ",", "granular~.ext.maxpat", ",", "guest4~.ext.pat", ",", "Ivresse~.ext.pat", ",", "Oscil~.ext.maxpat", ",", "Raindrops~.ext.maxpat", ",", "SINUS.ext.maxpat", ",", "Spigot~.ext.maxpat", ",", "thru~.ext.maxpat", ",", "Vera~.ext.maxpat", ",", "RadioMusic~.ext.maxpat", ",", "Sirenen~.ext.maxpat", ",", "Cycle~.ext.maxpat" ],
+					"items" : [ "audio-input~.ext.maxpat", ",", "EffectsEngine~.ext.maxpat", ",", "f0choir.ext.maxpat", ",", "fluidsynth~.ext.maxpat", ",", "friedrich~.ext.maxpat", ",", "gain~.ext.maxpat", ",", "granular~.ext.maxpat", ",", "guest4~.ext.pat", ",", "Ivresse~.ext.pat", ",", "Oscil~.ext.maxpat", ",", "Raindrops~.ext.maxpat", ",", "SINUS.ext.maxpat", ",", "Spigot~.ext.maxpat", ",", "thru~.ext.maxpat", ",", "Vera~.ext.maxpat", ",", "RadioMusic~.ext.maxpat", ",", "Sirenen~.ext.maxpat", ",", "Cycle~.ext.maxpat", ",", "RadioMusic~.ext.maxpat", ",", "Sirenen~.ext.maxpat", ",", "Cycle~.ext.maxpat" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -230,7 +230,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 262.0, 260.0, 121.0, 19.0 ],
 					"pattrmode" : 1,
-					"prefix" : "Macintosh HD:/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Audio-Extensions/",
+					"prefix" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Audio-Extensions/",
 					"prefix_mode" : 2,
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"types" : [ "TEXT", "maxb", "maxt", "JSON" ],
@@ -250,7 +250,7 @@
 					"bgfillcolor_type" : "color",
 					"fontsize" : 9.0,
 					"id" : "obj-32",
-					"items" : [ "audio-input~.ext.maxpat", ",", "EffectsEngine~.ext.maxpat", ",", "f0choir.ext.maxpat", ",", "fluidsynth~.ext.maxpat", ",", "friedrich~.ext.maxpat", ",", "gain~.ext.maxpat", ",", "granular~.ext.maxpat", ",", "guest4~.ext.pat", ",", "Ivresse~.ext.pat", ",", "Oscil~.ext.maxpat", ",", "Raindrops~.ext.maxpat", ",", "SINUS.ext.maxpat", ",", "Spigot~.ext.maxpat", ",", "thru~.ext.maxpat", ",", "Vera~.ext.maxpat", ",", "RadioMusic~.ext.maxpat", ",", "Sirenen~.ext.maxpat", ",", "Cycle~.ext.maxpat" ],
+					"items" : [ "audio-input~.ext.maxpat", ",", "EffectsEngine~.ext.maxpat", ",", "f0choir.ext.maxpat", ",", "fluidsynth~.ext.maxpat", ",", "friedrich~.ext.maxpat", ",", "gain~.ext.maxpat", ",", "granular~.ext.maxpat", ",", "guest4~.ext.pat", ",", "Ivresse~.ext.pat", ",", "Oscil~.ext.maxpat", ",", "Raindrops~.ext.maxpat", ",", "SINUS.ext.maxpat", ",", "Spigot~.ext.maxpat", ",", "thru~.ext.maxpat", ",", "Vera~.ext.maxpat", ",", "RadioMusic~.ext.maxpat", ",", "Sirenen~.ext.maxpat", ",", "Cycle~.ext.maxpat", ",", "RadioMusic~.ext.maxpat", ",", "Sirenen~.ext.maxpat", ",", "Cycle~.ext.maxpat" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -258,7 +258,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 6.0, 260.0, 121.0, 19.0 ],
 					"pattrmode" : 1,
-					"prefix" : "Macintosh HD:/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Audio-Extensions/",
+					"prefix" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Audio-Extensions/",
 					"prefix_mode" : 2,
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"types" : [ "TEXT", "maxb", "maxt", "JSON" ],
@@ -409,13 +409,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 359.0, 79.0, 749.0, 337.0 ],
+						"rect" : [ 397.0, 216.0, 777.0, 384.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -445,18 +445,27 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-16",
+									"fontsize" : 10.0,
+									"id" : "obj-17",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 239.0, 172.0, 257.0, 20.0 ],
+									"text" : "Package/Quintet.net/patchers/Library/Audio-Extensions/"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontsize" : 10.0,
+									"id" : "obj-12",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 239.0, 149.0, 385.0, 22.0 ],
-									"saved_object_attributes" : 									{
-										"filename" : "maxfolder",
-										"parameter_enable" : 0
-									}
-,
-									"text" : "js maxfolder /packages/Quintet.net/patchers/Library/Audio-Extensions/"
+									"patching_rect" : [ 239.0, 202.0, 66.0, 20.0 ],
+									"text" : "absolutepath"
 								}
 
 							}
@@ -474,7 +483,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 4,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -510,6 +519,33 @@
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-11",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 181.0, 51.0, 162.0, 19.0 ],
+													"text" : "Package/Quintet.net/patchers/Projects"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontsize" : 10.0,
+													"id" : "obj-12",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 181.0, 74.0, 66.0, 20.0 ],
+													"text" : "absolutepath"
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"id" : "obj-14",
 													"maxclass" : "message",
 													"numinlets" : 2,
@@ -517,23 +553,6 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 413.0, 180.0, 32.0, 20.0 ],
 													"text" : "clear"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-6",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 181.0, 57.0, 245.0, 20.0 ],
-													"saved_object_attributes" : 													{
-														"filename" : "maxfolder",
-														"parameter_enable" : 0
-													}
-,
-													"text" : "js maxfolder /packages/Quintet.net/patchers/Projects"
 												}
 
 											}
@@ -574,7 +593,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 181.0, 100.0, 49.0, 20.0 ],
+													"patching_rect" : [ 181.0, 105.0, 49.0, 20.0 ],
 													"text" : "prefix $1"
 												}
 
@@ -751,14 +770,14 @@
 													"autopopulate" : 1,
 													"depth" : 2,
 													"id" : "obj-1",
-													"items" : [ "EffectsEngine/COMBFILTER.json", ",", "EffectsEngine/DISTORTION.json", ",", "EffectsEngine/MASTER.json", ",", "EffectsEngine/MODULATION.json", ",", "EffectsEngine/ONE-FILTER.json", ",", "EffectsEngine/PITCHSHIFT.json", ",", "EffectsEngine/Resources/dikom.hd.nemlin.chebyshev.maxpat", ",", "EffectsEngine/Resources/dikom.hu.gui.input~.maxpat", ",", "EffectsEngine/Resources/dikom.hu.gui.output~.maxpat", ",", "EffectsEngine/Resources/ebe.ctlin.maxpat", ",", "EffectsEngine/Resources/gh.sfplayer~.maxpat", ",", "EffectsEngine/Resources/jk.bindto.maxpat", ",", "EffectsEngine/Resources/jk.chordfilter.maxpat", ",", "EffectsEngine/Resources/jk.chordfilter1.maxpat", ",", "EffectsEngine/Resources/jk.dry-wet.maxpat", ",", "EffectsEngine/Resources/jk.ebe.ctlin.maxpat", ",", "EffectsEngine/Resources/jk.filtervoice.maxpat", ",", "EffectsEngine/Resources/jk.iphone-button.maxpat", ",", "EffectsEngine/Resources/jk.iphone-multitoggle.maxpat", ",", "EffectsEngine/Resources/jk.iphone-numberbox.maxpat", ",", "EffectsEngine/Resources/jk.iphone-numberbox2.maxpat", ",", "EffectsEngine/Resources/jk.iphone-numberbox3.maxpat", ",", "EffectsEngine/Resources/jk.iphone-slider-v.maxpat", ",", "EffectsEngine/Resources/jk.iphone-slider.maxpat", ",", "EffectsEngine/Resources/jk.iphone-toggle.maxpat", ",", "EffectsEngine/Resources/jk.iphone-umenu.maxpat", ",", "EffectsEngine/Resources/jk.master-bp.maxpat", ",", "EffectsEngine/Resources/jk.master-preset-control.maxpat", ",", "EffectsEngine/Resources/jk.pattrhelper.maxpat", ",", "EffectsEngine/Resources/jk.prst.maxpat", ",", "EffectsEngine/Resources/jk.scale~.maxpat", ",", "EffectsEngine/Resources/jk.slash-remover.maxpat", ",", "EffectsEngine/Resources/jk.spectralmap-pfft.maxpat", ",", "EffectsEngine/Resources/jk.spectralmap-poly~.maxpat", ",", "EffectsEngine/Resources/jk.syncwindow.maxpat", ",", "EffectsEngine/Resources/jk.waveshape-poly.maxpat", ",", "EffectsEngine/Resources/par-iphone.maxpat", ",", "EffectsEngine/Resources/par.maxpat", ",", "EffectsEngine/Resources/poly.cascade~.maxpat", ",", "EffectsEngine/Resources/poly.gizmo_loadme~.maxpat", ",", "EffectsEngine/Resources/poly.teeth~.maxpat", ",", "EffectsEngine/Resources/test.iphone.maxpat", ",", "EffectsEngine/SPECTRAL.json", ",", "EffectsEngine/TO-Library-Audio-Extensions/EffectsEngine~.ext.maxpat", ",", "EffectsEngine/TO-Library-Inputs/EffectsEngine.input.maxpat", ",", "EffectsEngine/WaveShape.json", ",", "Five/Conductor/Five.controlpanel.maxpat", ",", "Five/Conductor/Five.sequence.json", ",", "RadioMusic/Audio-Extensions/RadioMusic~.ext.maxpat", ",", "RadioMusic/Conductor/RadioMusic.controlpanel.maxpat", ",", "RadioMusic/Inputs/RadioMusic.input.maxpat", ",", "RadioMusic/Resources/gh.pwr_mate.maxpat", ",", "RadioMusic/Resources/poly.radiomusic.maxpat", ",", "RadioMusic/Resources/RadioMusic-Score-Generator.maxpat", ",", "RadioMusic/Resources/RadioMusicBellCurve.maxpat", ",", "RadioMusic/Viewer/radio-music.vgen.maxpat", ",", "Sirenen/Audio-Extensions/Sirenen~.ext.maxpat", ",", "Sirenen/Conductor/Sirenen.controlpanel.maxpat", ",", "Sirenen/Inputs/Sirenen.input.maxpat", ",", "Tutorial/Audio-Extensions/Cycle~.ext.maxpat", ",", "Tutorial/Conductor/Tutorial.controlpanel.maxpat", ",", "Tutorial/Inputs/Cycle~.input.maxpat", ",", "Tutorial/Processes/tutorial.process.maxpat", ",", "Tutorial/Resources/Create-your-own-tuning.maxpat", ",", "Tutorial/Resources/Tutorial.sequence.json", ",", "Tutorial/Viewer/template.vgen.maxpat" ],
+													"items" : [ "EffectsEngine/COMBFILTER.json", ",", "EffectsEngine/DISTORTION.json", ",", "EffectsEngine/MASTER.json", ",", "EffectsEngine/MODULATION.json", ",", "EffectsEngine/ONE-FILTER.json", ",", "EffectsEngine/PITCHSHIFT.json", ",", "EffectsEngine/Resources/dikom.hd.nemlin.chebyshev.maxpat", ",", "EffectsEngine/Resources/dikom.hu.gui.input~.maxpat", ",", "EffectsEngine/Resources/dikom.hu.gui.output~.maxpat", ",", "EffectsEngine/Resources/ebe.ctlin.maxpat", ",", "EffectsEngine/Resources/gh.sfplayer~.maxpat", ",", "EffectsEngine/Resources/jk.bindto.maxpat", ",", "EffectsEngine/Resources/jk.chordfilter.maxpat", ",", "EffectsEngine/Resources/jk.chordfilter1.maxpat", ",", "EffectsEngine/Resources/jk.dry-wet.maxpat", ",", "EffectsEngine/Resources/jk.ebe.ctlin.maxpat", ",", "EffectsEngine/Resources/jk.filtervoice.maxpat", ",", "EffectsEngine/Resources/jk.iphone-button.maxpat", ",", "EffectsEngine/Resources/jk.iphone-multitoggle.maxpat", ",", "EffectsEngine/Resources/jk.iphone-numberbox.maxpat", ",", "EffectsEngine/Resources/jk.iphone-numberbox2.maxpat", ",", "EffectsEngine/Resources/jk.iphone-numberbox3.maxpat", ",", "EffectsEngine/Resources/jk.iphone-slider-v.maxpat", ",", "EffectsEngine/Resources/jk.iphone-slider.maxpat", ",", "EffectsEngine/Resources/jk.iphone-toggle.maxpat", ",", "EffectsEngine/Resources/jk.iphone-umenu.maxpat", ",", "EffectsEngine/Resources/jk.master-bp.maxpat", ",", "EffectsEngine/Resources/jk.master-preset-control.maxpat", ",", "EffectsEngine/Resources/jk.pattrhelper.maxpat", ",", "EffectsEngine/Resources/jk.prst.maxpat", ",", "EffectsEngine/Resources/jk.scale~.maxpat", ",", "EffectsEngine/Resources/jk.slash-remover.maxpat", ",", "EffectsEngine/Resources/jk.spectralmap-pfft.maxpat", ",", "EffectsEngine/Resources/jk.spectralmap-poly~.maxpat", ",", "EffectsEngine/Resources/jk.syncwindow.maxpat", ",", "EffectsEngine/Resources/jk.waveshape-poly.maxpat", ",", "EffectsEngine/Resources/par-iphone.maxpat", ",", "EffectsEngine/Resources/par.maxpat", ",", "EffectsEngine/Resources/poly.cascade~.maxpat", ",", "EffectsEngine/Resources/poly.gizmo_loadme~.maxpat", ",", "EffectsEngine/Resources/poly.teeth~.maxpat", ",", "EffectsEngine/Resources/test.iphone.maxpat", ",", "EffectsEngine/SPECTRAL.json", ",", "EffectsEngine/TO-Library-Audio-Extensions/EffectsEngine~.ext.maxpat", ",", "EffectsEngine/TO-Library-Inputs/EffectsEngine.input.maxpat", ",", "EffectsEngine/WaveShape.json", ",", "Five/Conductor/Five.controlpanel.maxpat", ",", "Five/Conductor/Five.sequence.json", ",", "hgzb-cake2020/hfmt.say.maxhelp", ",", "hgzb-cake2020/hfmt.say.maxpat", ",", "hgzb-cake2020/hgzb_cake.maxpat", ",", "hgzb-cake2020/multex.maxpat", ",", "RadioMusic/Audio-Extensions/RadioMusic~.ext.maxpat", ",", "RadioMusic/Conductor/RadioMusic.controlpanel.maxpat", ",", "RadioMusic/Inputs/RadioMusic.input.maxpat", ",", "RadioMusic/Resources/gh.pwr_mate.maxpat", ",", "RadioMusic/Resources/poly.radiomusic.maxpat", ",", "RadioMusic/Resources/RadioMusic-Score-Generator.maxpat", ",", "RadioMusic/Resources/RadioMusicBellCurve.maxpat", ",", "RadioMusic/Viewer/radio-music.vgen.maxpat", ",", "Rectangle/Conductor/Rectangle.controlpanel.maxpat", ",", "Rectangle/Conductor/Rectangle.sequence.json", ",", "Sirenen/Audio-Extensions/Sirenen~.ext.maxpat", ",", "Sirenen/Conductor/Sirenen.controlpanel.maxpat", ",", "Sirenen/Inputs/Sirenen.input.maxpat", ",", "Triangle/Clips/Triangle.controlpanel.maxpat", ",", "Triangle/Conductor/Triangle.controlpanel.maxpat", ",", "Triangle/Resources/Triangle.sequence.json", ",", "Tutorial/Audio-Extensions/Cycle~.ext.maxpat", ",", "Tutorial/Conductor/Tutorial.controlpanel.maxpat", ",", "Tutorial/Inputs/Cycle~.input.maxpat", ",", "Tutorial/Processes/tutorial.process.maxpat", ",", "Tutorial/Resources/Create-your-own-tuning.maxpat", ",", "Tutorial/Resources/Tutorial.sequence.json", ",", "Tutorial/Viewer/template.vgen.maxpat" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
 													"outlettype" : [ "int", "", "" ],
 													"parameter_enable" : 0,
 													"patching_rect" : [ 181.0, 137.0, 100.0, 20.0 ],
-													"prefix" : "Macintosh HD:/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/",
+													"prefix" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/",
 													"prefix_mode" : 2,
 													"types" : "JSON"
 												}
@@ -795,6 +814,20 @@
 												"patchline" : 												{
 													"destination" : [ "obj-9", 0 ],
 													"source" : [ "obj-10", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-12", 0 ],
+													"source" : [ "obj-11", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-3", 0 ],
+													"source" : [ "obj-12", 0 ]
 												}
 
 											}
@@ -856,7 +889,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-6", 0 ],
+													"destination" : [ "obj-11", 0 ],
 													"source" : [ "obj-2", 0 ]
 												}
 
@@ -900,13 +933,6 @@
 												"patchline" : 												{
 													"destination" : [ "obj-1", 0 ],
 													"source" : [ "obj-5", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-3", 0 ],
-													"source" : [ "obj-6", 0 ]
 												}
 
 											}
@@ -1065,7 +1091,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 239.0, 191.0, 83.0, 20.0 ],
+									"patching_rect" : [ 239.0, 233.0, 83.0, 20.0 ],
 									"text" : "prepend prefix"
 								}
 
@@ -1094,6 +1120,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"source" : [ "obj-12", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-15", 0 ],
 									"source" : [ "obj-14", 0 ]
 								}
@@ -1101,7 +1134,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-16", 0 ],
+									"destination" : [ "obj-17", 0 ],
 									"source" : [ "obj-15", 2 ]
 								}
 
@@ -1140,8 +1173,8 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-9", 0 ],
-									"source" : [ "obj-16", 0 ]
+									"destination" : [ "obj-12", 0 ],
+									"source" : [ "obj-17", 0 ]
 								}
 
 							}
@@ -1238,7 +1271,7 @@
 					"bgfillcolor_type" : "color",
 					"fontsize" : 9.0,
 					"id" : "obj-11",
-					"items" : [ "audio-input~.ext.maxpat", ",", "EffectsEngine~.ext.maxpat", ",", "f0choir.ext.maxpat", ",", "fluidsynth~.ext.maxpat", ",", "friedrich~.ext.maxpat", ",", "gain~.ext.maxpat", ",", "granular~.ext.maxpat", ",", "guest4~.ext.pat", ",", "Ivresse~.ext.pat", ",", "Oscil~.ext.maxpat", ",", "Raindrops~.ext.maxpat", ",", "SINUS.ext.maxpat", ",", "Spigot~.ext.maxpat", ",", "thru~.ext.maxpat", ",", "Vera~.ext.maxpat", ",", "RadioMusic~.ext.maxpat", ",", "Sirenen~.ext.maxpat", ",", "Cycle~.ext.maxpat" ],
+					"items" : [ "audio-input~.ext.maxpat", ",", "EffectsEngine~.ext.maxpat", ",", "f0choir.ext.maxpat", ",", "fluidsynth~.ext.maxpat", ",", "friedrich~.ext.maxpat", ",", "gain~.ext.maxpat", ",", "granular~.ext.maxpat", ",", "guest4~.ext.pat", ",", "Ivresse~.ext.pat", ",", "Oscil~.ext.maxpat", ",", "Raindrops~.ext.maxpat", ",", "SINUS.ext.maxpat", ",", "Spigot~.ext.maxpat", ",", "thru~.ext.maxpat", ",", "Vera~.ext.maxpat", ",", "RadioMusic~.ext.maxpat", ",", "Sirenen~.ext.maxpat", ",", "Cycle~.ext.maxpat", ",", "RadioMusic~.ext.maxpat", ",", "Sirenen~.ext.maxpat", ",", "Cycle~.ext.maxpat" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1246,7 +1279,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 518.0, 217.0, 121.0, 19.0 ],
 					"pattrmode" : 1,
-					"prefix" : "Macintosh HD:/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Audio-Extensions/",
+					"prefix" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Audio-Extensions/",
 					"prefix_mode" : 2,
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"types" : [ "TEXT", "maxb", "maxt", "JSON" ],
@@ -1266,7 +1299,7 @@
 					"bgfillcolor_type" : "color",
 					"fontsize" : 9.0,
 					"id" : "obj-12",
-					"items" : [ "audio-input~.ext.maxpat", ",", "EffectsEngine~.ext.maxpat", ",", "f0choir.ext.maxpat", ",", "fluidsynth~.ext.maxpat", ",", "friedrich~.ext.maxpat", ",", "gain~.ext.maxpat", ",", "granular~.ext.maxpat", ",", "guest4~.ext.pat", ",", "Ivresse~.ext.pat", ",", "Oscil~.ext.maxpat", ",", "Raindrops~.ext.maxpat", ",", "SINUS.ext.maxpat", ",", "Spigot~.ext.maxpat", ",", "thru~.ext.maxpat", ",", "Vera~.ext.maxpat", ",", "RadioMusic~.ext.maxpat", ",", "Sirenen~.ext.maxpat", ",", "Cycle~.ext.maxpat" ],
+					"items" : [ "audio-input~.ext.maxpat", ",", "EffectsEngine~.ext.maxpat", ",", "f0choir.ext.maxpat", ",", "fluidsynth~.ext.maxpat", ",", "friedrich~.ext.maxpat", ",", "gain~.ext.maxpat", ",", "granular~.ext.maxpat", ",", "guest4~.ext.pat", ",", "Ivresse~.ext.pat", ",", "Oscil~.ext.maxpat", ",", "Raindrops~.ext.maxpat", ",", "SINUS.ext.maxpat", ",", "Spigot~.ext.maxpat", ",", "thru~.ext.maxpat", ",", "Vera~.ext.maxpat", ",", "RadioMusic~.ext.maxpat", ",", "Sirenen~.ext.maxpat", ",", "Cycle~.ext.maxpat", ",", "RadioMusic~.ext.maxpat", ",", "Sirenen~.ext.maxpat", ",", "Cycle~.ext.maxpat" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1274,7 +1307,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 134.0, 217.0, 121.0, 19.0 ],
 					"pattrmode" : 1,
-					"prefix" : "Macintosh HD:/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Audio-Extensions/",
+					"prefix" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Audio-Extensions/",
 					"prefix_mode" : 2,
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"types" : [ "TEXT", "maxb", "maxt", "JSON" ],
@@ -1294,7 +1327,7 @@
 					"bgfillcolor_type" : "color",
 					"fontsize" : 9.0,
 					"id" : "obj-13",
-					"items" : [ "audio-input~.ext.maxpat", ",", "EffectsEngine~.ext.maxpat", ",", "f0choir.ext.maxpat", ",", "fluidsynth~.ext.maxpat", ",", "friedrich~.ext.maxpat", ",", "gain~.ext.maxpat", ",", "granular~.ext.maxpat", ",", "guest4~.ext.pat", ",", "Ivresse~.ext.pat", ",", "Oscil~.ext.maxpat", ",", "Raindrops~.ext.maxpat", ",", "SINUS.ext.maxpat", ",", "Spigot~.ext.maxpat", ",", "thru~.ext.maxpat", ",", "Vera~.ext.maxpat", ",", "RadioMusic~.ext.maxpat", ",", "Sirenen~.ext.maxpat", ",", "Cycle~.ext.maxpat" ],
+					"items" : [ "audio-input~.ext.maxpat", ",", "EffectsEngine~.ext.maxpat", ",", "f0choir.ext.maxpat", ",", "fluidsynth~.ext.maxpat", ",", "friedrich~.ext.maxpat", ",", "gain~.ext.maxpat", ",", "granular~.ext.maxpat", ",", "guest4~.ext.pat", ",", "Ivresse~.ext.pat", ",", "Oscil~.ext.maxpat", ",", "Raindrops~.ext.maxpat", ",", "SINUS.ext.maxpat", ",", "Spigot~.ext.maxpat", ",", "thru~.ext.maxpat", ",", "Vera~.ext.maxpat", ",", "RadioMusic~.ext.maxpat", ",", "Sirenen~.ext.maxpat", ",", "Cycle~.ext.maxpat", ",", "RadioMusic~.ext.maxpat", ",", "Sirenen~.ext.maxpat", ",", "Cycle~.ext.maxpat" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1302,7 +1335,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 390.0, 217.0, 121.0, 19.0 ],
 					"pattrmode" : 1,
-					"prefix" : "Macintosh HD:/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Audio-Extensions/",
+					"prefix" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Audio-Extensions/",
 					"prefix_mode" : 2,
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"types" : [ "TEXT", "maxb", "maxt", "JSON" ],
@@ -1322,7 +1355,7 @@
 					"bgfillcolor_type" : "color",
 					"fontsize" : 9.0,
 					"id" : "obj-14",
-					"items" : [ "audio-input~.ext.maxpat", ",", "EffectsEngine~.ext.maxpat", ",", "f0choir.ext.maxpat", ",", "fluidsynth~.ext.maxpat", ",", "friedrich~.ext.maxpat", ",", "gain~.ext.maxpat", ",", "granular~.ext.maxpat", ",", "guest4~.ext.pat", ",", "Ivresse~.ext.pat", ",", "Oscil~.ext.maxpat", ",", "Raindrops~.ext.maxpat", ",", "SINUS.ext.maxpat", ",", "Spigot~.ext.maxpat", ",", "thru~.ext.maxpat", ",", "Vera~.ext.maxpat", ",", "RadioMusic~.ext.maxpat", ",", "Sirenen~.ext.maxpat", ",", "Cycle~.ext.maxpat" ],
+					"items" : [ "audio-input~.ext.maxpat", ",", "EffectsEngine~.ext.maxpat", ",", "f0choir.ext.maxpat", ",", "fluidsynth~.ext.maxpat", ",", "friedrich~.ext.maxpat", ",", "gain~.ext.maxpat", ",", "granular~.ext.maxpat", ",", "guest4~.ext.pat", ",", "Ivresse~.ext.pat", ",", "Oscil~.ext.maxpat", ",", "Raindrops~.ext.maxpat", ",", "SINUS.ext.maxpat", ",", "Spigot~.ext.maxpat", ",", "thru~.ext.maxpat", ",", "Vera~.ext.maxpat", ",", "RadioMusic~.ext.maxpat", ",", "Sirenen~.ext.maxpat", ",", "Cycle~.ext.maxpat", ",", "RadioMusic~.ext.maxpat", ",", "Sirenen~.ext.maxpat", ",", "Cycle~.ext.maxpat" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1330,7 +1363,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 262.0, 217.0, 121.0, 19.0 ],
 					"pattrmode" : 1,
-					"prefix" : "Macintosh HD:/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Audio-Extensions/",
+					"prefix" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Audio-Extensions/",
 					"prefix_mode" : 2,
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"types" : [ "TEXT", "maxb", "maxt", "JSON" ],
@@ -1350,7 +1383,7 @@
 					"bgfillcolor_type" : "color",
 					"fontsize" : 9.0,
 					"id" : "obj-15",
-					"items" : [ "audio-input~.ext.maxpat", ",", "EffectsEngine~.ext.maxpat", ",", "f0choir.ext.maxpat", ",", "fluidsynth~.ext.maxpat", ",", "friedrich~.ext.maxpat", ",", "gain~.ext.maxpat", ",", "granular~.ext.maxpat", ",", "guest4~.ext.pat", ",", "Ivresse~.ext.pat", ",", "Oscil~.ext.maxpat", ",", "Raindrops~.ext.maxpat", ",", "SINUS.ext.maxpat", ",", "Spigot~.ext.maxpat", ",", "thru~.ext.maxpat", ",", "Vera~.ext.maxpat", ",", "RadioMusic~.ext.maxpat", ",", "Sirenen~.ext.maxpat", ",", "Cycle~.ext.maxpat" ],
+					"items" : [ "audio-input~.ext.maxpat", ",", "EffectsEngine~.ext.maxpat", ",", "f0choir.ext.maxpat", ",", "fluidsynth~.ext.maxpat", ",", "friedrich~.ext.maxpat", ",", "gain~.ext.maxpat", ",", "granular~.ext.maxpat", ",", "guest4~.ext.pat", ",", "Ivresse~.ext.pat", ",", "Oscil~.ext.maxpat", ",", "Raindrops~.ext.maxpat", ",", "SINUS.ext.maxpat", ",", "Spigot~.ext.maxpat", ",", "thru~.ext.maxpat", ",", "Vera~.ext.maxpat", ",", "RadioMusic~.ext.maxpat", ",", "Sirenen~.ext.maxpat", ",", "Cycle~.ext.maxpat", ",", "RadioMusic~.ext.maxpat", ",", "Sirenen~.ext.maxpat", ",", "Cycle~.ext.maxpat" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1358,7 +1391,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 6.0, 217.0, 121.0, 19.0 ],
 					"pattrmode" : 1,
-					"prefix" : "Macintosh HD:/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Audio-Extensions/",
+					"prefix" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Audio-Extensions/",
 					"prefix_mode" : 2,
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"types" : [ "TEXT", "maxb", "maxt", "JSON" ],

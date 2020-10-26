@@ -148,7 +148,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 50.0, 192.5, 202.0, 22.0 ],
-									"restore" : [ 1 ],
+									"restore" : [ 2 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -1612,7 +1612,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 301.0, 206.0, 74.0, 20.0 ],
+									"patching_rect" : [ 301.0, 206.0, 74.0, 22.0 ],
 									"text" : "prepend ctlr"
 								}
 
@@ -1627,7 +1627,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 289.0, 189.0, 80.0, 20.0 ],
+									"patching_rect" : [ 289.0, 189.0, 80.0, 22.0 ],
 									"text" : "prepend shift"
 								}
 
@@ -1642,7 +1642,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 279.0, 172.0, 95.0, 20.0 ],
+									"patching_rect" : [ 279.0, 172.0, 95.0, 22.0 ],
 									"text" : "prepend regular"
 								}
 
@@ -1727,7 +1727,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 260.0, 37.0, 80.0, 20.0 ],
+									"patching_rect" : [ 260.0, 37.0, 80.0, 22.0 ],
 									"text" : "s read-layout"
 								}
 
@@ -1753,7 +1753,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 63.0, 79.0, 500.0, 251.0 ],
+										"rect" : [ 63.0, 79.0, 539.0, 305.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
@@ -1783,13 +1783,40 @@
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-5",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 96.0, 106.0, 256.0, 19.0 ],
+													"presentation_linecount" : 4,
+													"text" : "\"Package/Quintet.net/patchers/Library/Data/Keyboard Layout\""
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-1",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 96.0, 137.0, 66.0, 20.0 ],
+													"text" : "absolutepath"
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"comment" : "",
 													"id" : "obj-2",
 													"index" : 1,
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 96.0, 196.0, 25.0, 25.0 ]
+													"patching_rect" : [ 96.0, 235.5, 25.0, 25.0 ]
 												}
 
 											}
@@ -1802,7 +1829,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 221.0, 131.0, 75.0, 19.0 ],
+													"patching_rect" : [ 363.0, 106.0, 75.0, 19.0 ],
 													"text" : "autopopulate 1"
 												}
 
@@ -1816,25 +1843,8 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 96.0, 131.0, 76.0, 19.0 ],
+													"patching_rect" : [ 96.0, 173.0, 76.0, 19.0 ],
 													"text" : "prepend prefix"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-7",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 96.0, 104.0, 352.0, 20.0 ],
-													"saved_object_attributes" : 													{
-														"filename" : "maxfolder",
-														"parameter_enable" : 0
-													}
-,
-													"text" : "js maxfolder \"/packages/Quintet.net/patchers/Library/Data/Keyboard Layout\""
 												}
 
 											}
@@ -1847,7 +1857,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 96.0, 54.0, 48.0, 19.0 ],
+													"patching_rect" : [ 96.0, 30.0, 48.0, 19.0 ],
 													"text" : "loadbang"
 												}
 
@@ -1855,8 +1865,15 @@
  ],
 										"lines" : [ 											{
 												"patchline" : 												{
+													"destination" : [ "obj-4", 0 ],
+													"source" : [ "obj-1", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-2", 0 ],
-													"midpoints" : [ 230.5, 174.0, 105.5, 174.0 ],
+													"midpoints" : [ 372.5, 212.0, 105.5, 212.0 ],
 													"source" : [ "obj-3", 0 ]
 												}
 
@@ -1870,15 +1887,15 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-4", 0 ],
-													"source" : [ "obj-7", 0 ]
+													"destination" : [ "obj-1", 0 ],
+													"source" : [ "obj-5", 0 ]
 												}
 
 											}
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-3", 0 ],
-													"midpoints" : [ 105.5, 84.0, 230.5, 84.0 ],
+													"midpoints" : [ 105.5, 84.0, 372.5, 84.0 ],
 													"order" : 0,
 													"source" : [ "obj-9", 0 ]
 												}
@@ -1886,7 +1903,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-7", 0 ],
+													"destination" : [ "obj-5", 0 ],
 													"midpoints" : [ 105.5, 84.0, 105.5, 84.0 ],
 													"order" : 1,
 													"source" : [ "obj-9", 0 ]
@@ -1896,7 +1913,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 149.0, 9.0, 67.0, 20.0 ],
+									"patching_rect" : [ 149.0, 9.0, 67.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -1965,7 +1982,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 8.0, 210.0, 59.5, 20.0 ],
+									"patching_rect" : [ 8.0, 210.0, 59.5, 22.0 ],
 									"restore" : 									{
 										"Layout" : [ "Diagonal.txt" ],
 										"shift-with-tab" : [ 1 ],

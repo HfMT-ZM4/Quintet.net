@@ -90,6 +90,33 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-7",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 285.5, 235.0, 184.0, 19.0 ],
+									"text" : "Package/Quintet.net/patchers/Library/Inputs"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontsize" : 10.0,
+									"id" : "obj-10",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 285.5, 258.0, 66.0, 20.0 ],
+									"text" : "absolutepath"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-46",
 									"maxclass" : "newobj",
@@ -151,7 +178,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 390.5, 329.0, 83.0, 20.0 ],
+									"patching_rect" : [ 390.5, 339.0, 83.0, 20.0 ],
 									"text" : "prepend remove"
 								}
 
@@ -165,7 +192,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 390.5, 301.0, 32.5, 20.0 ],
+									"patching_rect" : [ 390.5, 311.0, 32.5, 20.0 ],
 									"text" : "t l l"
 								}
 
@@ -708,7 +735,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 239.75, 269.0, 119.0, 20.0 ],
+									"patching_rect" : [ 239.75, 280.0, 119.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -1435,25 +1462,6 @@
 , 							{
 								"box" : 								{
 									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-17",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 285.5, 242.0, 321.0, 22.0 ],
-									"saved_object_attributes" : 									{
-										"filename" : "maxfolder",
-										"parameter_enable" : 0
-									}
-,
-									"text" : "js maxfolder /packages/Quintet.net/patchers/Library/Inputs"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-19",
 									"maxclass" : "newobj",
@@ -1544,7 +1552,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 285.5, 329.0, 102.0, 20.0 ],
+									"patching_rect" : [ 285.5, 339.0, 102.0, 20.0 ],
 									"text" : "route append clear"
 								}
 
@@ -1559,7 +1567,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "int" ],
-									"patching_rect" : [ 285.5, 301.0, 41.0, 20.0 ],
+									"patching_rect" : [ 285.5, 311.0, 41.0, 20.0 ],
 									"text" : "folder"
 								}
 
@@ -1637,6 +1645,13 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
+									"destination" : [ "obj-27", 0 ],
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-11", 0 ],
 									"source" : [ "obj-12", 0 ]
 								}
@@ -1668,13 +1683,6 @@
 								"patchline" : 								{
 									"destination" : [ "obj-5", 0 ],
 									"source" : [ "obj-16", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-27", 0 ],
-									"source" : [ "obj-17", 0 ]
 								}
 
 							}
@@ -1910,7 +1918,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-14", 0 ],
-									"midpoints" : [ 349.25, 293.5, 400.0, 293.5 ],
+									"midpoints" : [ 349.25, 309.5, 400.0, 309.5 ],
 									"source" : [ "obj-35", 1 ]
 								}
 
@@ -1918,7 +1926,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-23", 0 ],
-									"midpoints" : [ 249.25, 359.0, 295.0, 359.0 ],
+									"midpoints" : [ 249.25, 364.0, 295.0, 364.0 ],
 									"source" : [ "obj-35", 0 ]
 								}
 
@@ -1986,16 +1994,16 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-17", 0 ],
-									"midpoints" : [ 295.0, 234.0, 295.0, 234.0 ],
-									"source" : [ "obj-40", 1 ]
+									"destination" : [ "obj-35", 0 ],
+									"source" : [ "obj-40", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-35", 0 ],
-									"source" : [ "obj-40", 0 ]
+									"destination" : [ "obj-7", 0 ],
+									"midpoints" : [ 295.0, 234.0, 295.0, 234.0 ],
+									"source" : [ "obj-40", 1 ]
 								}
 
 							}
@@ -2084,6 +2092,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-38", 0 ],
 									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"source" : [ "obj-7", 0 ]
 								}
 
 							}
@@ -3222,38 +3237,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"parameterbanks" : 			{
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "vel-curve.txt",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Data",
-				"patcherrelativepath" : "../../Data",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "maxfolder.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/PatMap/javascript",
-				"patcherrelativepath" : "../../../PatMap/javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "strtok.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/javascript",
-				"patcherrelativepath" : "../../../../javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

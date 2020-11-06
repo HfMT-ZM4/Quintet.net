@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -69,6 +69,7 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"hidden" : 1,
 					"id" : "obj-51",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
@@ -76,7 +77,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 263.0, 90.0, 218.0, 233.0 ],
+					"patching_rect" : [ 600.0, 200.0, 218.0, 233.0 ],
 					"varname" : "Project",
 					"viewvisibility" : 1
 				}
@@ -292,7 +293,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -687,7 +688,7 @@
 											}
 , 											{
 												"key" : "network",
-												"value" : [ "Network", 105, 108, 452, 185 ]
+												"value" : [ "Network", 105, 108, 452, 235 ]
 											}
 , 											{
 												"key" : "attributes",
@@ -1113,7 +1114,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 17.0, 180.0, 61.0, 19.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 382, 331, 1124, 841, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 382, 331, 1124, 704, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 
@@ -1164,7 +1165,6 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"hidden" : 1,
 					"id" : "obj-17",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
@@ -1172,7 +1172,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ -52.0, -15.0 ],
-					"patching_rect" : [ 600.0, 200.0, 589.0, 220.0 ],
+					"patching_rect" : [ 101.0, 108.0, 593.0, 271.0 ],
 					"varname" : "Network",
 					"viewvisibility" : 1
 				}
@@ -1429,7 +1429,7 @@
 							"parameter_mmax" : 9,
 							"parameter_shortname" : "live.tab",
 							"parameter_type" : 2,
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 9
 						}
 
 					}

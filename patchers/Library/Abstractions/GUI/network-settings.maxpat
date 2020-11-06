@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 262.0, 366.0, 703.0, 443.0 ],
+		"rect" : [ 846.0, 551.0, 703.0, 443.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,96 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-37",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 342.0, 384.0, 242.0, 22.0 ],
+					"text" : "pattrforward parent::parent::Register::debug"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"embedstate" : [ [ "bgcolor", 0.29, 0.31, 0.302, 1 ], [ "checkedcolor", 0.804, 0.898, 0.91, 1 ], [ "uncheckedcolor", 0.376, 0.384, 0.4, 1 ], [ "checkedcolor", 0.804, 0.898, 0.91, 1 ], [ "uncheckedcolor", 0.376, 0.384, 0.4, 1 ], [ "bgcolor", 0.29, 0.31, 0.302, 1 ] ],
+					"filename" : "btoggle.js",
+					"id" : "obj-35",
+					"maxclass" : "jsui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 342.0, 354.0, 23.0, 23.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 393.0, 178.0, 23.0, 23.0 ],
+					"varname" : "btoggle[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-36",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 177.0, 356.5, 153.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 228.0, 181.0, 153.0, 18.0 ],
+					"text" : "Print messages to Max Window:",
+					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"embedstate" : [ [ "bgcolor", 0.29, 0.31, 0.302, 1 ], [ "checkedcolor", 0.804, 0.898, 0.91, 1 ], [ "uncheckedcolor", 0.376, 0.384, 0.4, 1 ], [ "checkedcolor", 0.804, 0.898, 0.91, 1 ], [ "uncheckedcolor", 0.376, 0.384, 0.4, 1 ], [ "bgcolor", 0.29, 0.31, 0.302, 1 ] ],
+					"filename" : "btoggle.js",
+					"id" : "obj-33",
+					"maxclass" : "jsui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 342.0, 299.0, 23.0, 23.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 393.0, 153.0, 23.0, 23.0 ],
+					"varname" : "btoggle"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-32",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 342.0, 328.0, 337.0, 22.0 ],
+					"text" : "pattrforward parent::parent::Register::forward_udp_via_server"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-30",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 177.0, 301.0, 156.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 228.0, 156.0, 156.0, 18.0 ],
+					"text" : "Send  UDP messages via server:",
+					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-29",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -52,6 +142,8 @@
 						"3NJC" : [ 0 ],
 						"4NJC" : [ 0 ],
 						"5NJC" : [ 0 ],
+						"btoggle" : [ 1 ],
+						"btoggle[1]" : [ 1 ],
 						"protocol" : [ 1 ]
 					}
 ,
@@ -67,7 +159,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 341.0, 269.0, 29.5, 22.0 ],
+					"patching_rect" : [ 342.0, 243.0, 29.5, 22.0 ],
 					"text" : "+ 1"
 				}
 
@@ -79,7 +171,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 341.0, 298.0, 313.0, 22.0 ],
+					"patching_rect" : [ 342.0, 272.0, 313.0, 22.0 ],
 					"text" : "pattrforward parent::parent::Register::messages::protocol"
 				}
 
@@ -93,9 +185,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 341.0, 237.0, 100.0, 22.0 ],
+					"patching_rect" : [ 342.0, 211.0, 100.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 374.5, 129.0, 52.0, 22.0 ],
+					"presentation_rect" : [ 383.0, 129.0, 52.0, 22.0 ],
 					"varname" : "protocol"
 				}
 
@@ -108,7 +200,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 176.0, 140.0, 153.0, 18.0 ],
+					"patching_rect" : [ 177.0, 212.0, 153.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 228.0, 131.0, 153.0, 18.0 ],
 					"text" : "Events sent via:",
@@ -124,9 +216,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 341.0, 204.0, 15.0, 15.0 ],
+					"patching_rect" : [ 342.0, 178.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 393.0, 182.0, 15.0, 15.0 ]
+					"presentation_rect" : [ 393.0, 228.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -138,9 +230,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 176.0, 204.0, 153.0, 18.0 ],
+					"patching_rect" : [ 177.0, 181.0, 153.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 228.0, 182.0, 153.0, 18.0 ],
+					"presentation_rect" : [ 228.0, 231.0, 153.0, 18.0 ],
 					"text" : "Broadcast Level Meters:",
 					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 				}
@@ -155,7 +247,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 358.0, 204.0, 96.0, 20.0 ],
+					"patching_rect" : [ 383.5, 179.0, 96.0, 20.0 ],
 					"text" : "s broadcast-meters"
 				}
 
@@ -170,7 +262,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 358.0, 171.0, 230.0, 19.0 ],
+					"patching_rect" : [ 383.5, 149.0, 230.0, 19.0 ],
 					"text" : "pattrforward parent::parent::receiver::verbose"
 				}
 
@@ -183,9 +275,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 341.0, 172.0, 15.0, 15.0 ],
+					"patching_rect" : [ 342.0, 149.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 393.0, 157.0, 15.0, 15.0 ]
+					"presentation_rect" : [ 393.0, 203.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -197,9 +289,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 176.0, 172.0, 153.0, 18.0 ],
+					"patching_rect" : [ 177.0, 149.0, 153.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 228.0, 157.0, 153.0, 18.0 ],
+					"presentation_rect" : [ 228.0, 206.0, 153.0, 18.0 ],
 					"text" : "Print messages to Max Window:",
 					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 				}
@@ -239,7 +331,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -294,14 +386,14 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 67.0, 77.0, 458.0, 35.0 ],
-									"restore" : [ "193.175.151.142" ],
+									"restore" : [ "localhost" ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
 									"text" : "pattr @bindto parent::parent::parent::Register::address @autorestore 0 @invisible 1 @thru 0",
-									"varname" : "address"
+									"varname" : "u850012012"
 								}
 
 							}
@@ -421,9 +513,9 @@
 						"styles" : [ 							{
 								"name" : "black on white",
 								"number" : 								{
-									"fontsize" : [ 12.0 ],
+									"fontname" : [ "Arial" ],
 									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"fontname" : [ "Arial" ]
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"umenu" : 								{
@@ -446,8 +538,8 @@
 , 							{
 								"name" : "caption text",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
-									"fontface" : [ 2 ]
+									"fontface" : [ 2 ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -456,9 +548,9 @@
 , 							{
 								"name" : "section dividers",
 								"default" : 								{
-									"fontsize" : [ 15.0 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 3 ]
+									"fontface" : [ 3 ],
+									"fontsize" : [ 15.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -467,8 +559,8 @@
 , 							{
 								"name" : "section info reg",
 								"default" : 								{
-									"fontsize" : [ 12.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -477,9 +569,9 @@
 , 							{
 								"name" : "titles",
 								"default" : 								{
-									"fontsize" : [ 20.0 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 20.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -850,6 +942,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
 					"source" : [ "obj-28", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-32", 0 ],
+					"source" : [ "obj-33", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-37", 0 ],
+					"source" : [ "obj-35", 0 ]
 				}
 
 			}

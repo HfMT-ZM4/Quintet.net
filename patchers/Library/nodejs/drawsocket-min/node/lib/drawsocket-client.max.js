@@ -1353,6 +1353,18 @@ var drawsocket = (function(){
   }
 
 
+  Tone.loaded().then(() => {
+    // all your samples are loaded
+    let msg = {};
+    msg.event = {
+      key: 'status',
+      val: {
+        bufferloaded: 1
+      }
+    };
+    sendMsg(msg);
+  })
+/*
   Tone.Buffer.on('load', function(){
     let msg = {};
     msg.event = {
@@ -1363,6 +1375,7 @@ var drawsocket = (function(){
     };
     sendMsg(msg);
   })
+*/
 
   function toneObjectFactory(type, vars, callback_id)
   {

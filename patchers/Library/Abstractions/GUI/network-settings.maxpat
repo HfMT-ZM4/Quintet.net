@@ -52,7 +52,7 @@
 			}
 , 			{
 				"box" : 				{
-					"embedstate" : [ [ "bgcolor", 0.29, 0.31, 0.302, 1 ], [ "checkedcolor", 0.804, 0.898, 0.91, 1 ], [ "uncheckedcolor", 0.376, 0.384, 0.4, 1 ], [ "checkedcolor", 0.804, 0.898, 0.91, 1 ], [ "uncheckedcolor", 0.376, 0.384, 0.4, 1 ], [ "bgcolor", 0.29, 0.31, 0.302, 1 ] ],
+					"embedstate" : [ [ "bgcolor", 0.29, 0.31, 0.302, 1 ], [ "checkedcolor", 0.804, 0.898, 0.91, 1 ], [ "uncheckedcolor", 0.376, 0.384, 0.4, 1 ], [ "uncheckedcolor", 0.376, 0.384, 0.4, 1 ], [ "bgcolor", 0.29, 0.31, 0.302, 1 ], [ "checkedcolor", 0.804, 0.898, 0.91, 1 ] ],
 					"filename" : "btoggle.js",
 					"id" : "obj-35",
 					"maxclass" : "jsui",
@@ -62,7 +62,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 342.0, 354.0, 23.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 393.0, 178.0, 23.0, 23.0 ],
+					"presentation_rect" : [ 406.0, 178.0, 23.0, 23.0 ],
 					"varname" : "btoggle[1]"
 				}
 
@@ -72,20 +72,21 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-36",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 177.0, 356.5, 153.0, 18.0 ],
+					"patching_rect" : [ 177.0, 356.5, 153.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 228.0, 181.0, 153.0, 18.0 ],
-					"text" : "Print messages to Max Window:",
+					"presentation_rect" : [ 209.0, 181.0, 185.0, 18.0 ],
+					"text" : "Print debug messages to Max Window:",
 					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"embedstate" : [ [ "bgcolor", 0.29, 0.31, 0.302, 1 ], [ "checkedcolor", 0.804, 0.898, 0.91, 1 ], [ "uncheckedcolor", 0.376, 0.384, 0.4, 1 ], [ "checkedcolor", 0.804, 0.898, 0.91, 1 ], [ "uncheckedcolor", 0.376, 0.384, 0.4, 1 ], [ "bgcolor", 0.29, 0.31, 0.302, 1 ] ],
+					"embedstate" : [ [ "bgcolor", 0.29, 0.31, 0.302, 1 ], [ "checkedcolor", 0.804, 0.898, 0.91, 1 ], [ "uncheckedcolor", 0.376, 0.384, 0.4, 1 ], [ "uncheckedcolor", 0.376, 0.384, 0.4, 1 ], [ "bgcolor", 0.29, 0.31, 0.302, 1 ], [ "checkedcolor", 0.804, 0.898, 0.91, 1 ] ],
 					"filename" : "btoggle.js",
 					"id" : "obj-33",
 					"maxclass" : "jsui",
@@ -95,7 +96,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 342.0, 299.0, 23.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 393.0, 153.0, 23.0, 23.0 ],
+					"presentation_rect" : [ 406.0, 153.0, 23.0, 23.0 ],
 					"varname" : "btoggle"
 				}
 
@@ -122,7 +123,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 177.0, 301.0, 156.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 228.0, 156.0, 156.0, 18.0 ],
+					"presentation_rect" : [ 209.0, 156.0, 188.0, 18.0 ],
 					"text" : "Send  UDP messages via server:",
 					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 				}
@@ -187,7 +188,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 342.0, 211.0, 100.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 383.0, 129.0, 52.0, 22.0 ],
+					"presentation_rect" : [ 396.0, 129.0, 52.0, 22.0 ],
 					"varname" : "protocol"
 				}
 
@@ -202,7 +203,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 177.0, 212.0, 153.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 228.0, 131.0, 153.0, 18.0 ],
+					"presentation_rect" : [ 209.0, 131.0, 185.0, 18.0 ],
 					"text" : "Events sent via:",
 					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 				}
@@ -218,7 +219,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 342.0, 178.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 393.0, 228.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 406.0, 228.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -232,7 +233,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 177.0, 181.0, 153.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 228.0, 231.0, 153.0, 18.0 ],
+					"presentation_rect" : [ 209.0, 231.0, 185.0, 18.0 ],
 					"text" : "Broadcast Level Meters:",
 					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 				}
@@ -277,7 +278,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 342.0, 149.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 393.0, 203.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 406.0, 203.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -286,13 +287,14 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-3",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 177.0, 149.0, 153.0, 18.0 ],
+					"patching_rect" : [ 177.0, 149.0, 153.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 228.0, 206.0, 153.0, 18.0 ],
-					"text" : "Print messages to Max Window:",
+					"presentation_rect" : [ 209.0, 206.0, 185.0, 18.0 ],
+					"text" : "Print event messages to Max Window:",
 					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 				}
 
@@ -514,12 +516,11 @@
 								"name" : "black on white",
 								"number" : 								{
 									"fontname" : [ "Arial" ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"fontsize" : [ 12.0 ]
+									"fontsize" : [ 12.0 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 								}
 ,
 								"umenu" : 								{
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -529,7 +530,8 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-
+,
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",

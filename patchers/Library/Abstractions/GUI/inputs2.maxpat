@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 371.0, 167.0, 696.0, 631.0 ],
+		"rect" : [ 104.0, 328.0, 696.0, 631.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 121.0, 4.0, 54.0, 22.0 ],
+					"patching_rect" : [ 124.0, 4.0, 54.0, 22.0 ],
 					"text" : "Enable",
 					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 				}
@@ -60,8 +60,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 175.0, 4.0, 46.0, 22.0 ],
-					"text" : "Local",
+					"patching_rect" : [ 178.0, 4.0, 47.0, 22.0 ],
+					"text" : "Target",
 					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 				}
 
@@ -75,7 +75,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 317.0, 179.0, 113.0, 22.0 ],
+					"patching_rect" : [ 405.0, 182.0, 113.0, 22.0 ],
 					"text" : "s enable_all_inputs"
 				}
 
@@ -90,7 +90,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 315.0, 225.0, 59.5, 19.0 ],
+					"patching_rect" : [ 403.0, 228.0, 59.5, 19.0 ],
 					"restore" : 					{
 						"enable_all" : [ 0 ]
 					}
@@ -109,22 +109,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 317.0, 152.0, 20.0, 20.0 ],
+					"patching_rect" : [ 405.0, 155.0, 20.0, 20.0 ],
 					"varname" : "enable_all"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 9.0,
-					"hidden" : 1,
-					"id" : "obj-2",
-					"maxclass" : "newobj",
-					"numinlets" : 4,
-					"numoutlets" : 0,
-					"patching_rect" : [ 316.0, 102.0, 106.0, 19.0 ],
-					"text" : "bgcolor 232 232 232"
 				}
 
 			}
@@ -150,7 +136,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 224.0, 4.0, 46.0, 22.0 ],
+					"patching_rect" : [ 237.0, 4.0, 46.0, 22.0 ],
 					"text" : "Panel",
 					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 				}
@@ -186,7 +172,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -220,6 +206,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -373,7 +360,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -872,7 +859,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1012,7 +999,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1414,13 +1401,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-17",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 194.0, 801.0, 462.0, 31.0 ],
-									"text" : "script new $2 bpatcher 13 $3 250 27 0 0 Input-Panel.pat 0 $4, script offsetfrom $2 Label 0 0 $3, script bringtofront $2"
+									"patching_rect" : [ 194.0, 801.0, 525.0, 20.0 ],
+									"text" : "script new $2 bpatcher 13 $3 300 27 0 0 Input-Panel.pat 0 $4, script offsetfrom $2 Label 0 0 $3, script bringtofront $2"
 								}
 
 							}
@@ -1984,7 +1970,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 316.0, 42.0, 93.0, 19.0 ],
+					"patching_rect" : [ 404.0, 45.0, 93.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -2007,7 +1993,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 316.0, 71.0, 61.0, 19.0 ],
+					"patching_rect" : [ 404.0, 74.0, 61.0, 19.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}

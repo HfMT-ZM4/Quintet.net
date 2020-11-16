@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 4,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 341.0, 310.0, 491.0, 355.0 ],
+		"rect" : [ 341.0, 309.0, 491.0, 355.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -85,13 +85,16 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 1,
 					"id" : "obj-25",
-					"maxclass" : "toggle",
+					"items" : [ "udp", ",", "tcp", ",", "map" ],
+					"maxclass" : "umenu",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 169.0, 4.0, 20.0, 20.0 ],
+					"patching_rect" : [ 161.0, 4.0, 45.0, 20.0 ],
+					"textjustification" : 1,
 					"varname" : "local"
 				}
 
@@ -379,7 +382,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 3.0, 9.0, 114.0, 16.0 ],
-					"text" : "Pitch_Tracker:",
+					"text" : "AudioCube:",
 					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 				}
 
@@ -449,7 +452,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 216.0, 7.0, 37.0, 18.0 ],
+					"patching_rect" : [ 224.5, 4.0, 37.0, 18.0 ],
 					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 				}
 
@@ -598,7 +601,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 225.5, 78.0, 294.5, 78.0 ],
+					"midpoints" : [ 234.0, 78.0, 294.5, 78.0 ],
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -624,7 +627,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-27", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 178.5, 107.0, 218.5, 107.0 ],
+					"midpoints" : [ 170.5, 107.0, 218.5, 107.0 ],
 					"source" : [ "obj-25", 0 ]
 				}
 

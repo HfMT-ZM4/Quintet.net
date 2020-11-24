@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 466.0, 104.0, 739.0, 587.0 ],
+		"rect" : [ 620.0, -750.0, 739.0, 587.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -474,12 +474,6 @@
  ],
 										"styles" : [ 											{
 												"name" : "black on white",
-												"number" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 12.0 ],
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
-												}
-,
 												"umenu" : 												{
 													"bgfillcolor" : 													{
 														"type" : "color",
@@ -491,6 +485,12 @@
 														"autogradient" : 0
 													}
 ,
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+												}
+,
+												"number" : 												{
+													"fontsize" : [ 12.0 ],
+													"fontname" : [ "Arial" ],
 													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 												}
 ,
@@ -510,9 +510,9 @@
 , 											{
 												"name" : "section dividers",
 												"default" : 												{
-													"fontname" : [ "Arial" ],
 													"fontface" : [ 3 ],
-													"fontsize" : [ 15.0 ]
+													"fontsize" : [ 15.0 ],
+													"fontname" : [ "Arial" ]
 												}
 ,
 												"parentstyle" : "",
@@ -521,8 +521,8 @@
 , 											{
 												"name" : "section info reg",
 												"default" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 12.0 ]
+													"fontsize" : [ 12.0 ],
+													"fontname" : [ "Arial" ]
 												}
 ,
 												"parentstyle" : "",
@@ -531,9 +531,9 @@
 , 											{
 												"name" : "titles",
 												"default" : 												{
-													"fontname" : [ "Arial" ],
 													"fontface" : [ 1 ],
-													"fontsize" : [ 20.0 ]
+													"fontsize" : [ 20.0 ],
+													"fontname" : [ "Arial" ]
 												}
 ,
 												"parentstyle" : "",
@@ -759,7 +759,7 @@
 					"patching_rect" : [ 627.0, 567.0, 111.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 631.0, 569.0, 111.0, 17.0 ],
-					"text" : "version 2020-10-21",
+					"text" : "version 2020-11-14",
 					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ],
 					"varname" : "version"
 				}
@@ -2774,12 +2774,6 @@
  ],
 														"styles" : [ 															{
 																"name" : "black on white",
-																"number" : 																{
-																	"fontname" : [ "Arial" ],
-																	"fontsize" : [ 12.0 ],
-																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
-																}
-,
 																"umenu" : 																{
 																	"bgfillcolor" : 																	{
 																		"type" : "color",
@@ -2791,6 +2785,12 @@
 																		"autogradient" : 0
 																	}
 ,
+																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+																}
+,
+																"number" : 																{
+																	"fontsize" : [ 12.0 ],
+																	"fontname" : [ "Arial" ],
 																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 																}
 ,
@@ -2810,9 +2810,9 @@
 , 															{
 																"name" : "section dividers",
 																"default" : 																{
-																	"fontname" : [ "Arial" ],
 																	"fontface" : [ 3 ],
-																	"fontsize" : [ 15.0 ]
+																	"fontsize" : [ 15.0 ],
+																	"fontname" : [ "Arial" ]
 																}
 ,
 																"parentstyle" : "",
@@ -2821,8 +2821,8 @@
 , 															{
 																"name" : "section info reg",
 																"default" : 																{
-																	"fontname" : [ "Arial" ],
-																	"fontsize" : [ 12.0 ]
+																	"fontsize" : [ 12.0 ],
+																	"fontname" : [ "Arial" ]
 																}
 ,
 																"parentstyle" : "",
@@ -2831,9 +2831,9 @@
 , 															{
 																"name" : "titles",
 																"default" : 																{
-																	"fontname" : [ "Arial" ],
 																	"fontface" : [ 1 ],
-																	"fontsize" : [ 20.0 ]
+																	"fontsize" : [ 20.0 ],
+																	"fontname" : [ "Arial" ]
 																}
 ,
 																"parentstyle" : "",
@@ -3527,12 +3527,6 @@
  ],
 														"styles" : [ 															{
 																"name" : "black on white",
-																"number" : 																{
-																	"fontname" : [ "Arial" ],
-																	"fontsize" : [ 12.0 ],
-																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
-																}
-,
 																"umenu" : 																{
 																	"bgfillcolor" : 																	{
 																		"type" : "color",
@@ -3544,6 +3538,12 @@
 																		"autogradient" : 0
 																	}
 ,
+																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+																}
+,
+																"number" : 																{
+																	"fontsize" : [ 12.0 ],
+																	"fontname" : [ "Arial" ],
 																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 																}
 ,
@@ -3563,9 +3563,9 @@
 , 															{
 																"name" : "section dividers",
 																"default" : 																{
-																	"fontname" : [ "Arial" ],
 																	"fontface" : [ 3 ],
-																	"fontsize" : [ 15.0 ]
+																	"fontsize" : [ 15.0 ],
+																	"fontname" : [ "Arial" ]
 																}
 ,
 																"parentstyle" : "",
@@ -3574,8 +3574,8 @@
 , 															{
 																"name" : "section info reg",
 																"default" : 																{
-																	"fontname" : [ "Arial" ],
-																	"fontsize" : [ 12.0 ]
+																	"fontsize" : [ 12.0 ],
+																	"fontname" : [ "Arial" ]
 																}
 ,
 																"parentstyle" : "",
@@ -3584,9 +3584,9 @@
 , 															{
 																"name" : "titles",
 																"default" : 																{
-																	"fontname" : [ "Arial" ],
 																	"fontface" : [ 1 ],
-																	"fontsize" : [ 20.0 ]
+																	"fontsize" : [ 20.0 ],
+																	"fontname" : [ "Arial" ]
 																}
 ,
 																"parentstyle" : "",
@@ -4140,7 +4140,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 65.0, 79.0, 973.0, 856.0 ],
+										"rect" : [ 441.0, 93.0, 973.0, 856.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -4169,6 +4169,17 @@
 										"subpatcher_template" : "",
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-16",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 540.833333333333258, 60.0, 54.0, 22.0 ],
+													"text" : "print this"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"id" : "obj-12",
 													"maxclass" : "newobj",
@@ -6976,12 +6987,6 @@
  ],
 														"styles" : [ 															{
 																"name" : "black on white",
-																"number" : 																{
-																	"fontname" : [ "Arial" ],
-																	"fontsize" : [ 12.0 ],
-																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
-																}
-,
 																"umenu" : 																{
 																	"bgfillcolor" : 																	{
 																		"type" : "color",
@@ -6993,6 +6998,12 @@
 																		"autogradient" : 0
 																	}
 ,
+																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+																}
+,
+																"number" : 																{
+																	"fontsize" : [ 12.0 ],
+																	"fontname" : [ "Arial" ],
 																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 																}
 ,
@@ -7012,9 +7023,9 @@
 , 															{
 																"name" : "section dividers",
 																"default" : 																{
-																	"fontname" : [ "Arial" ],
 																	"fontface" : [ 3 ],
-																	"fontsize" : [ 15.0 ]
+																	"fontsize" : [ 15.0 ],
+																	"fontname" : [ "Arial" ]
 																}
 ,
 																"parentstyle" : "",
@@ -7023,8 +7034,8 @@
 , 															{
 																"name" : "section info reg",
 																"default" : 																{
-																	"fontname" : [ "Arial" ],
-																	"fontsize" : [ 12.0 ]
+																	"fontsize" : [ 12.0 ],
+																	"fontname" : [ "Arial" ]
 																}
 ,
 																"parentstyle" : "",
@@ -7033,9 +7044,9 @@
 , 															{
 																"name" : "titles",
 																"default" : 																{
-																	"fontname" : [ "Arial" ],
 																	"fontface" : [ 1 ],
-																	"fontsize" : [ 20.0 ]
+																	"fontsize" : [ 20.0 ],
+																	"fontname" : [ "Arial" ]
 																}
 ,
 																"parentstyle" : "",
@@ -7344,7 +7355,16 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-16", 0 ],
+													"order" : 1,
+													"source" : [ "obj-28", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-23", 0 ],
+													"order" : 0,
 													"source" : [ "obj-28", 0 ]
 												}
 
@@ -7675,12 +7695,6 @@
  ],
 										"styles" : [ 											{
 												"name" : "black on white",
-												"number" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 12.0 ],
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
-												}
-,
 												"umenu" : 												{
 													"bgfillcolor" : 													{
 														"type" : "color",
@@ -7692,6 +7706,12 @@
 														"autogradient" : 0
 													}
 ,
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+												}
+,
+												"number" : 												{
+													"fontsize" : [ 12.0 ],
+													"fontname" : [ "Arial" ],
 													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 												}
 ,
@@ -7711,9 +7731,9 @@
 , 											{
 												"name" : "section dividers",
 												"default" : 												{
-													"fontname" : [ "Arial" ],
 													"fontface" : [ 3 ],
-													"fontsize" : [ 15.0 ]
+													"fontsize" : [ 15.0 ],
+													"fontname" : [ "Arial" ]
 												}
 ,
 												"parentstyle" : "",
@@ -7722,8 +7742,8 @@
 , 											{
 												"name" : "section info reg",
 												"default" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 12.0 ]
+													"fontsize" : [ 12.0 ],
+													"fontname" : [ "Arial" ]
 												}
 ,
 												"parentstyle" : "",
@@ -7732,9 +7752,9 @@
 , 											{
 												"name" : "titles",
 												"default" : 												{
-													"fontname" : [ "Arial" ],
 													"fontface" : [ 1 ],
-													"fontsize" : [ 20.0 ]
+													"fontsize" : [ 20.0 ],
+													"fontname" : [ "Arial" ]
 												}
 ,
 												"parentstyle" : "",
@@ -8145,12 +8165,6 @@
  ],
 						"styles" : [ 							{
 								"name" : "black on white",
-								"number" : 								{
-									"fontname" : [ "Arial" ],
-									"fontsize" : [ 12.0 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
-								}
-,
 								"umenu" : 								{
 									"bgfillcolor" : 									{
 										"type" : "color",
@@ -8162,6 +8176,12 @@
 										"autogradient" : 0
 									}
 ,
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+								}
+,
+								"number" : 								{
+									"fontsize" : [ 12.0 ],
+									"fontname" : [ "Arial" ],
 									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 								}
 ,
@@ -8181,9 +8201,9 @@
 , 							{
 								"name" : "section dividers",
 								"default" : 								{
-									"fontname" : [ "Arial" ],
 									"fontface" : [ 3 ],
-									"fontsize" : [ 15.0 ]
+									"fontsize" : [ 15.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -8192,8 +8212,8 @@
 , 							{
 								"name" : "section info reg",
 								"default" : 								{
-									"fontname" : [ "Arial" ],
-									"fontsize" : [ 12.0 ]
+									"fontsize" : [ 12.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -8202,9 +8222,9 @@
 , 							{
 								"name" : "titles",
 								"default" : 								{
-									"fontname" : [ "Arial" ],
 									"fontface" : [ 1 ],
-									"fontsize" : [ 20.0 ]
+									"fontsize" : [ 20.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -8294,6 +8314,7 @@
 					"patching_rect" : [ 243.0, 5.0, 54.0, 19.0 ],
 					"restore" : 					{
 						"live.text" : [ 0.0 ],
+						"live.text[1]" : [ 0.0 ],
 						"participant" : [ "untitled" ],
 						"refresh" : [ 1.0 ]
 					}
@@ -8369,28 +8390,36 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.607843137254902, 0.83921568627451, 0.756862745098039, 1.0 ],
-					"bgfillcolor_angle" : 270.0,
-					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.607843137254902, 0.83921568627451, 0.756862745098039, 1.0 ],
-					"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"bgfillcolor_proportion" : 0.39,
-					"bgfillcolor_type" : "color",
-					"depth" : 1,
+					"activebgcolor" : [ 0.607843137254902, 0.83921568627451, 0.756862745098039, 1.0 ],
+					"activebgoncolor" : [ 0.929411764705882, 0.341176470588235, 0.270588235294118, 1.0 ],
+					"bordercolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 0.0 ],
+					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-20",
-					"items" : [ "open", ",", "write", ",", "clear" ],
-					"maxclass" : "umenu",
+					"maxclass" : "live.text",
+					"mode" : 0,
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "int", "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 12.5, 194.5, 127.0, 22.0 ],
-					"pattrmode" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 12.5, 194.5, 127.5, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 12.5, 214.0, 127.0, 22.0 ],
-					"textcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
+					"presentation_rect" : [ 12.5, 214.0, 127.5, 24.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_invisible" : 2,
+							"parameter_longname" : "live.text[2]",
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "live.text[1]",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"text" : "Open",
+					"texton" : "Printing To Console",
+					"varname" : "live.text[1]"
 				}
 
 			}
@@ -8884,7 +8913,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 617.0, 347.0, 463.0, 383.0 ],
+						"rect" : [ 617.0, 347.0, 307.0, 196.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -8914,86 +8943,13 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-16",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 135.0, 251.0, 289.0, 22.0 ],
-									"saved_object_attributes" : 									{
-										"filename" : "maxfolder",
-										"parameter_enable" : 0
-									}
-,
-									"text" : "js maxfolder \"/packages/Quintet.net/Quintet.net Log\""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
-									"id" : "obj-1",
+									"id" : "obj-15",
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 135.0, 285.0, 46.0, 20.0 ],
-									"text" : "write $1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
-									"id" : "obj-2",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 135.0, 210.0, 58.0, 20.0 ],
-									"text" : "closebang"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
-									"id" : "obj-3",
-									"maxclass" : "newobj",
-									"numinlets" : 6,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 57.0, 177.0, 151.0, 20.0 ],
-									"text" : "sprintf %i-%i-%i %i:%i:%i"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-4",
-									"maxclass" : "button",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 13.0, 16.5, 15.0, 15.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
-									"id" : "obj-5",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 57.0, 15.0, 34.0, 20.0 ],
-									"text" : "r log"
+									"patching_rect" : [ 20.0, 67.0, 197.0, 22.0 ],
+									"text" : "read /tmp/qn-client-server.log, open"
 								}
 
 							}
@@ -9006,91 +8962,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 30.0, 233.0, 15.0, 15.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
-									"id" : "obj-7",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 57.0, 209.0, 75.0, 20.0 ],
-									"text" : "zl join"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
-									"id" : "obj-8",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 57.0, 140.0, 41.0, 20.0 ],
-									"text" : "zl join"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
-									"id" : "obj-9",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 57.0, 79.0, 61.0, 20.0 ],
-									"text" : "time, date"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
-									"id" : "obj-10",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 57.0, 49.0, 77.0, 20.0 ],
-									"text" : "t b l"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
-									"id" : "obj-11",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "list", "list", "int" ],
-									"patching_rect" : [ 57.0, 106.0, 63.0, 20.0 ],
-									"text" : "date"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
-									"id" : "obj-12",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 57.0, 232.0, 58.0, 20.0 ],
-									"text" : "append cr"
+									"patching_rect" : [ 20.0, 21.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -9103,7 +8975,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "bang", "int" ],
-									"patching_rect" : [ 57.0, 330.0, 123.0, 20.0 ],
+									"patching_rect" : [ 20.0, 122.0, 123.0, 20.0 ],
 									"text" : "text \"Quintet.net Log\""
 								}
 
@@ -9112,120 +8984,21 @@
 						"lines" : [ 							{
 								"patchline" : 								{
 									"destination" : [ "obj-13", 0 ],
-									"midpoints" : [ 144.5, 317.0, 66.5, 317.0 ],
-									"source" : [ "obj-1", 0 ]
+									"source" : [ "obj-15", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-7", 1 ],
-									"source" : [ "obj-10", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-9", 0 ],
-									"source" : [ "obj-10", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-8", 1 ],
-									"source" : [ "obj-11", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-8", 0 ],
-									"source" : [ "obj-11", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-13", 0 ],
-									"source" : [ "obj-12", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-1", 0 ],
-									"source" : [ "obj-16", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-16", 0 ],
-									"source" : [ "obj-2", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-7", 0 ],
-									"source" : [ "obj-3", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-10", 0 ],
-									"source" : [ "obj-4", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-10", 0 ],
-									"source" : [ "obj-5", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-13", 0 ],
+									"destination" : [ "obj-15", 0 ],
 									"source" : [ "obj-6", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-12", 0 ],
-									"source" : [ "obj-7", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-3", 3 ],
-									"source" : [ "obj-8", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-3", 0 ],
-									"source" : [ "obj-8", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-11", 0 ],
-									"source" : [ "obj-9", 0 ]
 								}
 
 							}
  ]
 					}
 ,
-					"patching_rect" : [ 66.5, 226.5, 32.0, 19.0 ],
+					"patching_rect" : [ 121.0, 226.5, 32.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -9901,7 +9674,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 587.0, 39.0, 76.0, 22.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 466, 104, 1205, 691, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 620, -750, 1359, -163, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 
@@ -10007,6 +9780,7 @@
  ],
 		"parameters" : 		{
 			"obj-13" : [ "live.text[1]", "live.text[1]", 0 ],
+			"obj-20" : [ "live.text[2]", "live.text[1]", 0 ],
 			"obj-34" : [ "live.text", "live.text", 0 ],
 			"parameterbanks" : 			{
 
@@ -10074,12 +9848,6 @@
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "black on white",
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"fontsize" : [ 12.0 ],
-					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
-				}
-,
 				"umenu" : 				{
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -10091,6 +9859,12 @@
 						"autogradient" : 0
 					}
 ,
+					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+				}
+,
+				"number" : 				{
+					"fontsize" : [ 12.0 ],
+					"fontname" : [ "Arial" ],
 					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 				}
 ,
@@ -10110,9 +9884,9 @@
 , 			{
 				"name" : "section dividers",
 				"default" : 				{
-					"fontname" : [ "Arial" ],
 					"fontface" : [ 3 ],
-					"fontsize" : [ 15.0 ]
+					"fontsize" : [ 15.0 ],
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
@@ -10121,8 +9895,8 @@
 , 			{
 				"name" : "section info reg",
 				"default" : 				{
-					"fontname" : [ "Arial" ],
-					"fontsize" : [ 12.0 ]
+					"fontsize" : [ 12.0 ],
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
@@ -10131,9 +9905,9 @@
 , 			{
 				"name" : "titles",
 				"default" : 				{
-					"fontname" : [ "Arial" ],
 					"fontface" : [ 1 ],
-					"fontsize" : [ 20.0 ]
+					"fontsize" : [ 20.0 ],
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",

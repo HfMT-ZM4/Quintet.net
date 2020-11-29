@@ -500,7 +500,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 764.25, 27.0, 59.5, 20.0 ],
 					"restore" : 					{
-						"volume" : [ 57 ]
+						"volume" : [ 23 ]
 					}
 ,
 					"text" : "autopattr",
@@ -1598,7 +1598,8 @@
 									"patching_rect" : [ 68.0, 70.0, 157.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 24.0, 52.0, 157.0, 20.0 ],
-									"text" : "Shift keyboard with tab key:"
+									"text" : "Shift keyboard with tab key:",
+									"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 								}
 
 							}
@@ -1671,7 +1672,8 @@
 									"patching_rect" : [ 80.0, 214.0, 30.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 36.0, 196.0, 30.0, 20.0 ],
-									"text" : "ctlr:"
+									"text" : "ctlr:",
+									"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 								}
 
 							}
@@ -1686,7 +1688,8 @@
 									"patching_rect" : [ 80.0, 197.0, 36.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 36.0, 179.0, 36.0, 20.0 ],
-									"text" : "shift:"
+									"text" : "shift:",
+									"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 								}
 
 							}
@@ -1708,7 +1711,7 @@
 									"patching_rect" : [ 238.0, 179.0, 41.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 194.0, 161.0, 41.0, 22.0 ],
-									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ],
 									"triangle" : 0,
 									"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 									"triscale" : 0.9,
@@ -1727,7 +1730,8 @@
 									"patching_rect" : [ 80.0, 180.0, 72.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 36.0, 162.0, 72.0, 20.0 ],
-									"text" : "no shift/ctlr:"
+									"text" : "no shift/ctlr:",
+									"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 								}
 
 							}
@@ -1941,15 +1945,6 @@
 , 							{
 								"box" : 								{
 									"autopopulate" : 1,
-									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgfillcolor_angle" : 270.0,
-									"bgfillcolor_color" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-									"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-									"bgfillcolor_proportion" : 0.39,
-									"bgfillcolor_type" : "color",
-									"fontface" : 0,
-									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-15",
 									"items" : [ "Diagonal.txt", ",", "Legacy.txt", ",", "U.S.txt" ],
@@ -1963,7 +1958,6 @@
 									"prefix" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Data/Keyboard Layout/",
 									"presentation" : 1,
 									"presentation_rect" : [ 105.0, 18.0, 109.0, 22.0 ],
-									"textcolor" : [ 0.121569, 0.121569, 0.121569, 1.0 ],
 									"types" : [ "TEXT", "maxb", "maxt" ],
 									"varname" : "Layout"
 								}
@@ -2022,7 +2016,8 @@
 									"presentation" : 1,
 									"presentation_linecount" : 2,
 									"presentation_rect" : [ 24.0, 93.5, 140.0, 33.0 ],
-									"text" : "Simulate continuous control with arrow keys:"
+									"text" : "Simulate continuous control with arrow keys:",
+									"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 								}
 
 							}
@@ -2050,7 +2045,8 @@
 									"patching_rect" : [ 68.0, 36.0, 50.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 24.0, 18.0, 50.0, 20.0 ],
-									"text" : "Layout:"
+									"text" : "Layout:",
+									"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 								}
 
 							}
@@ -2065,7 +2061,8 @@
 									"patching_rect" : [ 68.0, 161.0, 65.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 24.0, 143.0, 65.0, 20.0 ],
-									"text" : "Velocities:"
+									"text" : "Velocities:",
+									"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ]
 								}
 
 							}
@@ -2087,7 +2084,7 @@
 									"patching_rect" : [ 238.0, 196.0, 43.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 194.0, 178.0, 43.0, 22.0 ],
-									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ],
 									"triangle" : 0,
 									"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 									"triscale" : 0.9,
@@ -2113,7 +2110,7 @@
 									"patching_rect" : [ 238.0, 213.0, 41.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 194.0, 195.0, 41.0, 22.0 ],
-									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ],
 									"triangle" : 0,
 									"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 									"triscale" : 0.9,
@@ -2195,7 +2192,7 @@
 
 							}
  ],
-						"bgcolor" : [ 0.909804, 0.909804, 0.909804, 1.0 ]
+						"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 					}
 ,
 					"patching_rect" : [ 36.0, 178.0, 77.0, 20.0 ],
@@ -2204,7 +2201,7 @@
 						"digest" : "",
 						"fontsize" : 10.0,
 						"globalpatchername" : "",
-						"locked_bgcolor" : [ 0.909804, 0.909804, 0.909804, 1.0 ],
+						"locked_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 						"tags" : ""
 					}
 ,

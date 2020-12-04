@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 4,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -847,20 +847,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-33",
-					"maxclass" : "newobj",
-					"numinlets" : 4,
-					"numoutlets" : 0,
-					"patching_rect" : [ 305.0, 26.0, 117.0, 20.0 ],
-					"text" : "bgcolor 232 232 232"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bkgndpict" : "SliderBG.png",
+					"bkgndpict" : "SliderBG-dark.png",
 					"hint" : "Gain",
 					"id" : "obj-35",
 					"imagemask" : 1,
@@ -897,7 +884,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bkgndpict" : "SliderBG.png",
+					"bkgndpict" : "SliderBG-dark.png",
 					"hint" : "Gain",
 					"id" : "obj-37",
 					"imagemask" : 1,
@@ -934,7 +921,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bkgndpict" : "SliderBG.png",
+					"bkgndpict" : "SliderBG-dark.png",
 					"hint" : "Gain",
 					"id" : "obj-39",
 					"imagemask" : 1,
@@ -972,7 +959,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bkgndpict" : "SliderBG.png",
+					"bkgndpict" : "SliderBG-dark.png",
 					"hint" : "Gain",
 					"id" : "obj-41",
 					"imagemask" : 1,
@@ -1076,7 +1063,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bkgndpict" : "SliderBG.png",
+					"bkgndpict" : "SliderBG-dark.png",
 					"hint" : "Gain",
 					"id" : "obj-46",
 					"imagemask" : 1,
@@ -1113,7 +1100,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bkgndpict" : "SliderBG.png",
+					"bkgndpict" : "SliderBG-dark.png",
 					"hint" : "Gain",
 					"id" : "obj-48",
 					"imagemask" : 1,
@@ -1151,7 +1138,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bkgndpict" : "SliderBG.png",
+					"bkgndpict" : "SliderBG-dark.png",
 					"hint" : "Gain",
 					"id" : "obj-50",
 					"imagemask" : 1,
@@ -1653,7 +1640,7 @@
 
 			}
  ],
-		"bgcolor" : [ 0.909803921568627, 0.909803921568627, 0.909803921568627, 1.0 ]
+		"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 	}
 
 }

@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 703.0, 258.0, 549.0, 665.0 ],
+		"rect" : [ 473.0, 142.0, 549.0, 665.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -200,7 +200,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 85.0, 572.0, 86.0, 20.0 ],
+					"patching_rect" : [ 85.0, 575.0, 86.0, 20.0 ],
 					"text" : "s toClientMapper"
 				}
 
@@ -438,7 +438,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 164.0, 315.0, 136.0, 20.0 ],
-					"text" : "sprintf /event/oscstring %i%s"
+					"text" : "sprintf /event/oscstring/%i%s"
 				}
 
 			}
@@ -470,13 +470,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 572.0, 428.0, 287.0, 412.0 ],
+						"rect" : [ 697.0, 434.0, 287.0, 412.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 10.0,
@@ -1125,7 +1125,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}

@@ -36,11 +36,11 @@
 
 <p>In Max, use the Package Manager to download the zero package. This will enable the zeroconf protocol, useful in local network performance.  </p>
 
-<!--
+
 
 <seealsolist>
 <seealso name="js">Max JavaScript object</seealso>
 <seealso name="jsintro" type="vignette" module="js" >javascriptinmax</seealso>
 </seealsolist>
--->
+
 </chapter>

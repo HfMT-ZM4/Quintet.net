@@ -2,21 +2,15 @@
 
 <?xml-stylesheet href="./_c74_tut.xsl" type="text/xsl"?>
 
-<chapter name="Quintet.net:Creating an Instrument">
-
-<!--
-<setdocpatch name="02jJavascriptScripting" patch="02jJavascriptScripting.maxpat"/>
-<previous name="javascriptchapter01">Basic JavaScripting</previous>
-<next name="javascriptchapter03">Tasks, Arguments and Globals</next>
-<parent name="00_maxindex">Max Tutorials</parent>
-
-<indexinfo category="JavaScript" title="JavaScript Scripting">Using JavaScript to create patcher elements</indexinfo>
--->
+<chapter name="Quintet.net: Creating a Piece">
 
 
 <h1>Quintet.net</h1>
+<previous name="03manual">Quintet.net: Manual</previous>
+<next name="05creatinganinstrument">Quintet.net: Creating an Instrument</next>
+<parent name="00index">Quintet.net: Table of Contents</parent>
 
-<h2><b>Tutorial</b></h2>
+<h2><b>Creating a Piece</b></h2>
 
 
 <p>This tutorial document gives an introduction to the creation of a Quintet.net piece and its preparation for rehearsals and concerts. We will refer to the project called Tutorial found in Quintet.net/patchers/Projects. Bear in mind that every project needs to reside in this folder and needs to have a particular folder structure which you can generate in the Client by clicking on "Create Local Project..." in the Client Project preferences pane. This structure needs to be adhered to so that your files will be properly loaded when you open your project.</p>
@@ -86,7 +80,6 @@
 
 <h2><b>Clips</b></h2>
 
-
 <p>Inputs are Max patches sending input received from the Quintet.net periphery to either the Server from where the events are are distributed to the other participants or to the Mapper (see below) where they are mapped onto a Quintet.net parameter for further distribution. An input require following components to operate and need to be saved as foo.input.maxpat:</p>
 <ul>
   <li>a "r inputPanel" object connected to a "route foo" (foo being the name of the input patch) connected to a "route open enable local". The first outlet of this route object triggers a front messages to thispatcher which prompts the GUI to open when it receive an open message from the Preferences Input panel. When receiving enable 0 or 1, the patcher either disables or enables output from the input patch by closing or opening a gate, while the local 0 or 1 message will either route the events either directly to the network or to the mapper via the "s client-tcpsender" and "s toClientMapper", resp. Note that while "s client-udpsender" will also work, the events will currently still be sent via TCP.</li>
@@ -139,10 +132,10 @@
 
 <h3><b>curve generators</b></h3>
 
-
+<!--
 <seealsolist>
 <seealso name="js">Max JavaScript object</seealso>
 <seealso name="jsintro" type="vignette" module="js" >javascriptinmax</seealso>
 </seealsolist>
-
+-->
 </chapter>

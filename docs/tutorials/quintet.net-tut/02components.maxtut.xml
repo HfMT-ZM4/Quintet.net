@@ -2,19 +2,16 @@
 
 <?xml-stylesheet href="./_c74_tut.xsl" type="text/xsl"?>
 
-<chapter name="Quintet.net: Intro">
-
+<chapter name="Quintet.net: Components">
 <!--
-<setdocpatch name="02jJavascriptScripting" patch="02jJavascriptScripting.maxpat"/>
-<previous name="javascriptchapter01">Basic JavaScripting</previous>
-<next name="javascriptchapter03">Tasks, Arguments and Globals</next>
-<parent name="00_maxindex">Max Tutorials</parent>
-
-<indexinfo category="JavaScript" title="JavaScript Scripting">Using JavaScript to create patcher elements</indexinfo>
--->
+<setdocpatch name="02quintetnet_Intro"/>
+--><previous name="01installation">Quintet.net: Installation</previous>
+<next name="03manual">Quintet.net: Manual</next>
+<parent name="00index">Quintet.net Tutorials: Table of Contents</parent>
 
 
-<h1>Quintet.net</h1>
+
+<h1>Quintet.net Components</h1>
 
 <h2><b>Intro</b></h2>
 

@@ -4,15 +4,10 @@
 
 <chapter name="Quintet.net: Manual">
 
-<!--
-<setdocpatch name="02jJavascriptScripting" patch="02jJavascriptScripting.maxpat"/>
-<previous name="javascriptchapter01">Basic JavaScripting</previous>
-<next name="javascriptchapter03">Tasks, Arguments and Globals</next>
-<parent name="00_maxindex">Max Tutorials</parent>
-
-<indexinfo category="JavaScript" title="JavaScript Scripting">Using JavaScript to create patcher elements</indexinfo>
--->
-
+<!--<setdocpatch name="02jJavascriptScripting" patch="02jJavascriptScripting.maxpat"/>-->
+<previous name="02components">Quintet.net: Intro</previous>
+<next name="04tutorial">Quintet.net: Tutorial</next>
+<parent name="00index">Quintet.net: Table of Contents</parent>
 
 <h1>Quintet.net</h1>
 
@@ -54,6 +49,7 @@ Let’s return to the Client. Turn on audio by clicking on the Power icon in the
 
 <p>If you launch the Conductor for the first time, you probably won’t see a control panel in the bottom part of the window. This is because no compositions have been saved with the Conductor preferences yet. Register the Conductor just as you did with the Client by clicking on the red connect button AFTER entering your name and your address. Open the project called Five (the same way we did in the previous section). All changes made to the “Display”, “Instrument”, “Tuning”, “Process” and “Filter” menus by the Conductor should instantaneously be reflected by the Clients and vice versa.</p>
 <p>Next, we want to start the piece. Follow the sequence of buttons in left to right order in the Five control panel to execute the following functions:</p>
+
 <ul>
   <li>Initialize: Send the initial settings to the Clients</li>
   <li>Send Score: The score will now display on the Clients</li>
@@ -73,10 +69,10 @@ To demonstrate some basic features of the Viewer, the score of Five will be disp
 
 Now start the piece in the Conductor and verify that the page turns happen as expected.</p>
 
-
+<!--
 <seealsolist>
 <seealso name="js">Max JavaScript object</seealso>
 <seealso name="jsintro" type="vignette" module="js" >javascriptinmax</seealso>
 </seealsolist>
-
+-->
 </chapter>

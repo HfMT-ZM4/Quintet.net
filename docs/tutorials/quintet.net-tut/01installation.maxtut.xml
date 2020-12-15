@@ -4,21 +4,15 @@
 
 <chapter name="Quintet.net: Installation">
 
-<!--
-<setdocpatch name="02jJavascriptScripting" patch="02jJavascriptScripting.maxpat"/>
-<previous name="javascriptchapter01">Basic JavaScripting</previous>
-<next name="javascriptchapter03">Tasks, Arguments and Globals</next>
-<parent name="00_maxindex">Quintet.net Tutorials</parent>
-
-<indexinfo category="JavaScript" title="JavaScript Scripting">Using JavaScript to create patcher elements</indexinfo>
--->
+<next name="02components"></next>
+<parent name="00index">Quintet.net Tutorials: Table of Contents</parent>
 
 <h1>Quintet.net</h1>
 
 <h2><b>Installation</b></h2>
 
 <p>Download or clone the GitHub repo from <a href="https://github.com/HfMT-ZM4/Quintet.net/">https://github.com/HfMT-ZM4/Quintet.net/</a> to your Max 8/Packages folder (the Max 8 folder is typically located in ~/Documents).</p>
-<p><i>In addition, Quintet.net requires the following Max packages:  </i></p>
+<p>For succesful installation Quintet.net requires the following Max packages:  </p>
 
 <h2>MaxScore</h2>
 
@@ -37,10 +31,11 @@
 <p>In Max, use the Package Manager to download the zero package. This will enable the zeroconf protocol, useful in local network performance.  </p>
 
 
-
+<!--
 <seealsolist>
 <seealso name="js">Max JavaScript object</seealso>
 <seealso name="jsintro" type="vignette" module="js" >javascriptinmax</seealso>
 </seealsolist>
+-->
 
 </chapter>

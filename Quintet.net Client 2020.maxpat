@@ -51,7 +51,7 @@
 					"patching_rect" : [ 1180.5, 730.0, 99.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1185.0, 735.5, 114.0, 18.0 ],
-					"text" : "version 2020-12-11",
+					"text" : "version 2020-12-14",
 					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ],
 					"varname" : "version"
 				}
@@ -79,7 +79,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 164.0, 730.5, 194.0, 20.0 ],
-					"restore" : [ "drawsocketOutput", "{\"event\":{\"key\":\"mouse\",\"val\":{\"action\":\"mouseover\",\"xy\":[90,330],\"button\":0,\"mods\":{\"alt\":false,\"shift\":false,\"ctrl\":false,\"meta\":false},\"target\":{\"type\":\"svg\",\"id\":\"svg\",\"version\":\"1.1\",\"baseProfile\":\"full\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"xmlns:xlink\":\"http://www.w3.org/1999/xlink\"}}}}" ],
+					"restore" : [ "drawsocketOutput", "{\"event\":{\"key\":\"sync\",\"val\":{\"syncOffset\":0}}}" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -101,7 +101,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 1142.0, 0.0, 200.0, 800.0 ],
 					"rendermode" : 2,
-					"url" : "https://hfmt.live/Sirenen?id=1&get=https://raw.githubusercontent.com/HfMT-ZM4/quintet.net/master/public/media/quintetnet-video.html",
+					"url" : "https://hfmt.live/untitled?id=1&get=https://raw.githubusercontent.com/HfMT-ZM4/quintet.net/master/public/media/quintetnet-video.html",
 					"varname" : "sidebar"
 				}
 
@@ -6277,7 +6277,7 @@
 																	"numoutlets" : 3,
 																	"outlettype" : [ "", "", "" ],
 																	"patching_rect" : [ 61.333327999999995, 171.0, 402.0, 22.0 ],
-																	"restore" : [ "drawsocketOutput", "{\"event\":{\"key\":\"mouse\",\"val\":{\"action\":\"mouseover\",\"xy\":[90,330],\"button\":0,\"mods\":{\"alt\":false,\"shift\":false,\"ctrl\":false,\"meta\":false},\"target\":{\"type\":\"svg\",\"id\":\"svg\",\"version\":\"1.1\",\"baseProfile\":\"full\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"xmlns:xlink\":\"http://www.w3.org/1999/xlink\"}}}}" ],
+																	"restore" : [ "drawsocketOutput", "{\"event\":{\"key\":\"sync\",\"val\":{\"syncOffset\":0}}}" ],
 																	"saved_object_attributes" : 																	{
 																		"parameter_enable" : 0,
 																		"parameter_mappable" : 0
@@ -13956,7 +13956,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 18.0, 255.0, 470.0, 22.0 ],
-													"restore" : [ "udp", "synthesis::extensions::1_Sirenen~.ext.maxpat.1::gain", 0.0 ],
+													"restore" : [ 0 ],
 													"saved_object_attributes" : 													{
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
@@ -14542,7 +14542,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "FullPacket" ],
-									"patching_rect" : [ 207.0, 70.0, 149.0, 22.0 ],
+									"patching_rect" : [ 207.0, 73.0, 149.0, 22.0 ],
 									"text" : "o.route /event /maxscore"
 								}
 
@@ -15190,10 +15190,10 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 20, 79, 954, 917 ],
+						"client_rect" : [ 1187, 252, 1796, 568 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 30, 89, 670, 329 ]
+						"storage_rect" : [ 780, 524, 1380, 824 ]
 					}
 ,
 					"text" : "pattrstorage client @outputmode 4 @fileusagemode 1",
@@ -15629,6 +15629,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "sine.bank.txt",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/media",
+				"patcherrelativepath" : "../MaxScore/media",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "choices2.txt",
 				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Data",
 				"patcherrelativepath" : "./patchers/Library/Data",
@@ -15710,13 +15717,6 @@
 				"name" : "qn.sender.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/network",
 				"patcherrelativepath" : "./patchers/Library/Abstractions/network",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Sirenen.input.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Sirenen/Inputs",
-				"patcherrelativepath" : "./patchers/Projects/Sirenen/Inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -16296,8 +16296,8 @@
 			}
 , 			{
 				"name" : "my-LtoColl.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/extensions",
-				"patcherrelativepath" : "../MaxScore/patchers/extensions",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/utilities",
+				"patcherrelativepath" : "./patchers/Library/Abstractions/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -16450,8 +16450,8 @@
 			}
 , 			{
 				"name" : "first-int.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/extensions",
-				"patcherrelativepath" : "../MaxScore/patchers/extensions",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/Macaque/lib/abstractions",
+				"patcherrelativepath" : "../MaxScore/patchers/Macaque/lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}

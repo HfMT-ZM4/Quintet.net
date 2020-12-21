@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<?xml-stylesheet href="./_c74_tut.xsl" type="text/xsl"?>
+
+<chapter name="Johann Niegl: Sirenen">
+
+
+<chapter name="Quintet.net: Creating an Instrument">
+
+
+<!--<previous name="02intro">Quintet.net: Intro</next>
+<parent name="00index">Quintet.net: Tutorials Table of Contents</parent>
+
+<setdocpatch name="02jJavascriptScripting" patch="02jJavascriptScripting.maxpat"/>
+--><previous name="04tutorial">Quintet.net: Tutorial</previous>
+<!--<next name="02intro">Tutorial</next>-->
+<parent name="00index">Quintet.net: Table of Contents</parent>
+
+
+
+<h1>Johann Niegl</h1>
+
+<h2><b>Sirenen</b></h2>
+
+
+<p>""Sirenen"" is a piece composed by german composer Johann Niegl, written for laptop ensemble using Quintet.net</p>
+<p><illustration><img src="images/sirenen1.png"/></illustration></p>
+
+<p>The Setting is following:</p>
+
+<ol outputclass="number-alpha">
+    <li>5 Performers on stage (+ 5 small monitor speakers on stands placed behind performers.) – Large Semicircle</li>
+   
+    
+</ol>
+
+<h2><b>Audio</b></h2>
+
+<p>5 Audio Channels + 5 small monitor speakers on stands placed behind performers. (e.g. Genelec 8030A)</p>
+
+<h2><b>Concept:</b></h2>
+
+<p>Piece is built on noice sounds concept. Performers are controlling the sound through their smartphones, using f.E. Touch OSC (needs to be installed separately)</p>
+
+<!--
+<seealsolist>
+<seealso name="js">Max JavaScript object</seealso>
+<seealso name="jsintro" type="vignette" module="js" >javascriptinmax</seealso>
+</seealsolist>
+-->
+</chapter>

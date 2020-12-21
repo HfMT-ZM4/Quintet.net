@@ -10,7 +10,7 @@
 
 <setdocpatch name="02jJavascriptScripting" patch="02jJavascriptScripting.maxpat"/>
 --><previous name="04tutorial">Quintet.net: Tutorial</previous>
-<!--<next name="02intro">Tutorial</next>-->
+<next name="06sirenen">Example: Johann Niegl - Sirenen</next>-->
 <parent name="00index">Quintet.net: Table of Contents</parent>
 
 

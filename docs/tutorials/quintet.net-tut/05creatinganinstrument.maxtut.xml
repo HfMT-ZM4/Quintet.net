@@ -5,9 +5,7 @@
 <chapter name="Quintet.net: Creating an Instrument">
 
 
-<!--<previous name="02intro">Quintet.net: Intro</next>
-<parent name="00index">Quintet.net: Tutorials Table of Contents</parent>
-
+<!--
 <setdocpatch name="02jJavascriptScripting" patch="02jJavascriptScripting.maxpat"/>
 --><previous name="04tutorial">Quintet.net: Tutorial</previous>
 <next name="06sirenen">Example: Johann Niegl - Sirenen</next>-->

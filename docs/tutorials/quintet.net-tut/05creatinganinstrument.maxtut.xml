@@ -5,12 +5,10 @@
 <chapter name="Quintet.net: Creating an Instrument">
 
 
-<!--<previous name="02intro">Quintet.net: Intro</next>
-<parent name="00index">Quintet.net: Tutorials Table of Contents</parent>
-
+<!--
 <setdocpatch name="02jJavascriptScripting" patch="02jJavascriptScripting.maxpat"/>
 --><previous name="04tutorial">Quintet.net: Tutorial</previous>
-<!--<next name="02intro">Tutorial</next>-->
+<next name="06sirenen">Example: Johann Niegl - Sirenen</next>-->
 <parent name="00index">Quintet.net: Table of Contents</parent>
 
 
@@ -139,6 +137,7 @@
 <p>Video effects are Max Jitter patches with either green or blue backgrounds depending on whether they perform matrix or texture processing.</p>
 
 <h3><b>curve generators</b></h3>
+
 
 <!--
 <seealsolist>

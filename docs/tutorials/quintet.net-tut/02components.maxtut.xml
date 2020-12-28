@@ -3,9 +3,7 @@
 <?xml-stylesheet href="./_c74_tut.xsl" type="text/xsl"?>
 
 <chapter name="Quintet.net: Components">
-<!--
-<setdocpatch name="02quintetnet_Intro"/>
---><previous name="01installation">Quintet.net: Installation</previous>
+<previous name="01installation">Quintet.net: Installation</previous>
 <next name="03manual">Quintet.net: Manual</next>
 <parent name="00index">Quintet.net Tutorials: Table of Contents</parent>
 

@@ -14,9 +14,8 @@
 <h2><b>Sirenen</b></h2>
 
 
-<p>"Sirenen" is a piece composed by german composer Johann Niegl, written for laptop ensemble using Quintet.net in 2014</p>
+<p>"Sirenen" is a piece composed by german composer Johann Niegl.</p>
 <p><illustration><img src="images/sirenen1.png"/></illustration></p>
-<p> </p>
 <p>The settings are following:</p>
 
 <ul>
@@ -35,10 +34,13 @@
 
 <h2><b>Concept:</b></h2>
 
-<p>Piece is built on noice sounds concept. Performers are controlling the sound through their smartphones, using TouchOSC (needs to be installed separately)</p>
+<p><p> The piece Sirenen was developed in 2014 as part of a seminar for performative computer music of the master's program in multimedia composition at the HfMT Hamburg. The initial idea was to develop a virtual sound generation that delivers sound results that are as chaotic as possible and to organize and "steer" them into orderly paths with the help of sensors as input devices and a graphic score.</p>
+
+<p>The sound generation was realized in Max, the underlying patch was developed in a "trial and error" process. The main principle of sound generation is feedback, i.e. the return of audio signals (often through a sound-modifying processing stage) to a previous point in the signal chain. Changeable parameters were inserted at several points in the patch to shape the sound result. Originally a Leapmotion controller served as an input device. Only 3 information signals were used as main input parameters: the position of the player's hand in terms of X, Y and Z coordinates. The Z-coordinate always controlled the loudness of the sound generation. The X and Y coordinates were mapped to all previously defined sound shaping parameters using a nodes object.</p>
+
+<p>The score provides for 5 players, all controlling the same sound generation via sensors in the same way. During the course of a performance, the players are given playing instructions through a graphical score. These are abstract and leave room for the players' own interpretations of the score. At the same time, the score takes into account the peculiarities of sound production, e.g. when it prompts players to aim at the coordinates near a certain node. The most important influence of the score on the form is the specification of the sequence and duration of the players' actions. Thus, the overall sound impression is condensed or thinned out depending on how many players are performing actions and how many actions are performed consecutively in a given time.</p>
 
 
--->
 <!--
 <seealsolist>
 <seealso name="js">Max JavaScript object</seealso>

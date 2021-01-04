@@ -6,7 +6,7 @@
 
 
 <previous name="05creatinganinstrument">Quintet.net: Manual</previous>
-<!--<next name="05creatinganinstrument">Quintet.net: Creating an Instrument</next>
+<!--<next name="NN">NN</next>
 -->
 <parent name="00index">Quintet.net: Table of Contents</parent>
 
@@ -15,7 +15,7 @@
 
 
 <p>"Sirenen" is a piece composed by german composer Johann Niegl.</p>
-<p><illustration><img src="images/sirenen1.png"/></illustration></p>
+<p><illustration><img src="images/sirenenScore.png"/></illustration></p>
 <p>The settings are following:</p>
 
 <ul>
@@ -45,11 +45,23 @@
 <p> </p>
 <p><illustration><img src="images/input2.png"/></illustration></p>
 
+<h2><b>TouchOSC</b></h2>
+<p>TouchOSC application is available on both iOS and Android. Download it from AppStore or Google Play Market.</p>
 
-<!--
-<seealsolist>
-<seealso name="js">Max JavaScript object</seealso>
-<seealso name="jsintro" type="vignette" module="js" >javascriptinmax</seealso>
-</seealsolist>
--->
+<h3><b>Settings:</b></h3> 
+<p>In <i>“Connections”</i> set your local network IP address. OSC -> Host</p>
+<p>Port (outgoing) needs to be set at 8000</p>
+<p>Port (incoming) needs to be set at 9000</p>
+<p><illustration><img src="images/TouchOSC1.png"/></illustration></p>
+<p>In <i>“Layout”</i> select <i>“Simple”</i> view.</p>
+<p><illustration><img src="images/TouchOSC2.png"/></illustration></p>
+<p>Afterwards in <i>“Options”</i> activate <i>“Touch messages</i> (/z)”.</p>
+<p><illustration><img src="images/TouchOSC3.png"/></illustration></p>
+
+<p>You will be forwarded to UI subsequently.  </p>
+<p><illustration><img src="images/TouchOSC4.png"/></illustration></p>
+<p>Select third tool. You will be ending up with following view:</p>
+<p><illustration><img src="images/TouchOSC5.png"/></illustration></p>
+
+
 </chapter>

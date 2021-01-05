@@ -2,6 +2,18 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="980px" height="599px" viewBox="0 0 980 599" style="background:rgb(253.98,253.98,239.7)" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <g id="1" transform="matrix(1,0,0,1,0,0)">
-<image x="88" y="53" width="980" height="600" xlink:href="/media/project/page_04_Ryszard.png" transform="matrix(1,0,0,1,-107,-53)"/>
+<text x="0" y="0" font-family="Bravura" font-style="normal" font-weight="normal" font-size="24" fill="rgb(0,0,0)" fill-opacity="1" transform="matrix(1,0,0,1,22,49.959999084472656)" ></text>
+<text x="0" y="0" font-family="Bravura" font-style="normal" font-weight="normal" font-size="24" fill="rgb(0,0,0)" fill-opacity="1" transform="matrix(1,0,0,1,22,169.9600067138672)" ></text>
+<text x="0" y="0" font-family="Bravura" font-style="normal" font-weight="normal" font-size="24" fill="rgb(0,0,0)" fill-opacity="1" transform="matrix(1,0,0,1,22,289.9599914550781)" ></text>
+<text x="0" y="0" font-family="Bravura" font-style="normal" font-weight="normal" font-size="24" fill="rgb(0,0,0)" fill-opacity="1" transform="matrix(1,0,0,1,22,409.9599914550781)" ></text>
+<text x="0" y="0" font-family="Bravura" font-style="normal" font-weight="normal" font-size="24" fill="rgb(0,0,0)" fill-opacity="1" transform="matrix(1,0,0,1,22,529.9600219726562)" ></text>
+<path d="M20 91 L960.000 91 M20 85 L960.000 85 M20 79 L960.000 79 M20 73 L960.000 73 M20 67 L960.000 67 M20 55 L960.000 55 M20 49 L960.000 49 M20 43 L960.000 43 M20 37 L960.000 37 M20 31 L960.000 31 M20 211 L960.000 211 M20 205 L960.000 205 M20 199 L960.000 199 M20 193 L960.000 193 M20 187 L960.000 187 M20 175 L960.000 175 M20 169 L960.000 169 M20 163 L960.000 163 M20 157 L960.000 157 M20 151 L960.000 151 M20 331 L960.000 331 M20 325 L960.000 325 M20 319 L960.000 319 M20 313 L960.000 313 M20 307 L960.000 307 M20 295 L960.000 295 M20 289 L960.000 289 M20 283 L960.000 283 M20 277 L960.000 277 M20 271 L960.000 271 M20 451 L960.000 451 M20 445 L960.000 445 M20 439 L960.000 439 M20 433 L960.000 433 M20 427 L960.000 427 M20 415 L960.000 415 M20 409 L960.000 409 M20 403 L960.000 403 M20 397 L960.000 397 M20 391 L960.000 391 M20 571 L960.000 571 M20 565 L960.000 565 M20 559 L960.000 559 M20 553 L960.000 553 M20 547 L960.000 547 M20 535 L960.000 535 M20 529 L960.000 529 M20 523 L960.000 523 M20 517 L960.000 517 M20 511 L960.000 511 " stroke="rgb(0,0,0)" stroke-width="0.4" fill="rgb(0,0,0)" transform="matrix(1,0,0,1,0,0)"/>
+<rect x="960" y="31" width="0.6" height="540" fill="rgb(0,0,0)" stroke="none" stroke-width="0.4" fill-opacity="1.0" stroke-opacity="1.0" transform="matrix(1,0,0,1,0,0)"/>
+<rect x="20" y="31" width="0.6" height="540" fill="rgb(0,0,0)" stroke="none" stroke-width="0.4" fill-opacity="1.0" stroke-opacity="1.0" transform="matrix(1,0,0,1,0,0)"/>
+<text x="33" y="103" font-family="Bravura" font-size="24" font-style="normal" font-weight="normal" text-decoration="none" fill="rgb(0,0,0)" fill-opacity="1" transform="matrix(1,0,0,1,-10.5,-29.5)"> </text>
+<text x="33" y="103" font-family="Bravura" font-size="24" font-style="normal" font-weight="normal" text-decoration="none" fill="rgb(0,0,0)" fill-opacity="1" transform="matrix(1,0,0,1,-10.5,90)"> </text>
+<text x="33" y="103" font-family="Bravura" font-size="24" font-style="normal" font-weight="normal" text-decoration="none" fill="rgb(0,0,0)" fill-opacity="1" transform="matrix(1,0,0,1,-10.5,210)"> </text>
+<text x="33" y="103" font-family="Bravura" font-size="24" font-style="normal" font-weight="normal" text-decoration="none" fill="rgb(0,0,0)" fill-opacity="1" transform="matrix(1,0,0,1,-10.5,330)"> </text>
+<text x="33" y="103" font-family="Bravura" font-size="24" font-style="normal" font-weight="normal" text-decoration="none" fill="rgb(0,0,0)" fill-opacity="1" transform="matrix(1,0,0,1,-10.5,450)"> </text>
 </g>
 </svg>

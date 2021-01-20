@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 133.0, 145.0, 609.0, 307.0 ],
+		"rect" : [ 133.0, 145.0, 858.0, 724.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,222 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-29",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 568.0, 676.0, 67.0, 22.0 ],
+					"text" : "pvar codec"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-34",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 811.0, 647.0, 34.0, 22.0 ],
+					"text" : "print"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-33",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 689.5, 647.0, 76.0, 22.0 ],
+					"text" : "print WRITE"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-25",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "clear" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 1,
+							"revision" : 8,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 59.0, 104.0, 325.0, 339.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "clear" ],
+									"patching_rect" : [ 50.0, 100.0, 49.0, 22.0 ],
+									"text" : "t l clear"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 124.0, 27.0, 22.0 ],
+									"text" : "iter"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-50",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 148.0, 98.0, 22.0 ],
+									"text" : "prepend append"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-9",
+									"index" : 1,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-10",
+									"index" : 1,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 44.0, 230.0, 30.0, 30.0 ]
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"source" : [ "obj-50", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-50", 0 ],
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"source" : [ "obj-7", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"source" : [ "obj-9", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 568.0, 647.0, 84.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p make-menu"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-45",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 568.0, 620.0, 262.0, 22.0 ],
+					"text" : "route codeclist write"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-24",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 649.0, 530.0, 127.0, 22.0 ],
+					"text" : "loadmess getcodeclist"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -330,7 +546,7 @@
 					"bgfillcolor_type" : "color",
 					"fontsize" : 10.0,
 					"id" : "obj-14",
-					"items" : [ "raw", ",", "cinepak", ",", "graphics", ",", "animation", ",", "video", ",", "componentvideo", ",", "jpeg", ",", "mjpega", ",", "mjpegb", ",", "sgi", ",", "planarrgb", ",", "macpaint", ",", "gif", ",", "photocd", ",", "qdgx", ",", "avrjpeg", ",", "opendmljpeg", ",", "bmp", ",", "winraw", ",", "vector", ",", "qd", ",", "h261", ",", "h263", ",", "dvntsc", ",", "dvpal", ",", "dvprontsc", ",", "dvpropal", ",", "flc", ",", "targa", ",", "png", ",", "tiff", ",", "componentvideosigned", ",", "componentvideounsigned", ",", "cmyk", ",", "microsoft", ",", "sorenson", ",", "indeo4", ",", "argb64", ",", "rgb48", ",", "alphagrey32", ",", "grey16", ",", "mpegyuv420", ",", "yuv420", ",", "sorensonyuv9" ],
+					"items" : [ "a64multi", ",", "a64multi5", ",", "alias_pix", ",", "amv", ",", "apng", ",", "asv1", ",", "asv2", ",", "avrp", ",", "avui", ",", "ayuv", ",", "bmp", ",", "cinepak", ",", "cljr", ",", "dnxhd", ",", "dpx", ",", "dvvideo", ",", "ffv1", ",", "ffvhuff", ",", "fits", ",", "flashsv", ",", "flashsv2", ",", "flv", ",", "gif", ",", "h261", ",", "h263", ",", "h263p", ",", "huffyuv", ",", "jpeg2000", ",", "jpegls", ",", "ljpeg", ",", "magicyuv", ",", "mjpeg", ",", "mpeg1video", ",", "mpeg2video", ",", "mpeg4", ",", "msmpeg4v2", ",", "msmpeg4", ",", "msvideo1", ",", "pam", ",", "pbm", ",", "pcx", ",", "pgm", ",", "pgmyuv", ",", "png", ",", "ppm", ",", "prores", ",", "prores_aw", ",", "prores_ks", ",", "qtrle", ",", "r10k", ",", "r210", ",", "rawvideo", ",", "roqvideo", ",", "rv10", ",", "rv20", ",", "sgi", ",", "snow", ",", "sunrast", ",", "svq1", ",", "targa", ",", "tiff", ",", "utvideo", ",", "v210", ",", "v308", ",", "v408", ",", "v410", ",", "vc2", ",", "wmv1", ",", "wmv2", ",", "xbm", ",", "xface", ",", "xwd", ",", "y41p", ",", "yuv4", ",", "zlib", ",", "zmbv", ",", "libvpx", ",", "libvpx-vp9", ",", "libopenh264", ",", "h264_videotoolbox", ",", "hevc_videotoolbox", ",", "aasc", ",", "aic", ",", "agm", ",", "anm", ",", "ansi", ",", "arbc", ",", "aura", ",", "aura2", ",", "avrn", ",", "avs", ",", "bethsoftvid", ",", "bfi", ",", "binkvideo", ",", "bitpacked", ",", "bmv_video", ",", "brender_pix", ",", "c93", ",", "cavs", ",", "cdgraphics", ",", "cdxl", ",", "cfhd", ",", "clearvideo", ",", "cllc", ",", "cpia", ",", "camstudio", ",", "cyuv", ",", "dds", ",", "dfa", ",", "dirac", ",", "dsicinvideo", ",", "dxa", ",", "dxtory", ",", "dxv", ",", "eacmv", ",", "eamad", ",", "eatgq", ",", "eatgv", ",", "eatqi", ",", "8bps", ",", "escape124", ",", "escape130", ",", "exr", ",", "fic", ",", "flic", ",", "fmvc", ",", "4xm", ",", "fraps", ",", "frwu", ",", "g2m", ",", "gdv", ",", "h263i", ",", "h264", ",", "hap", ",", "hevc", ",", "hnm4video", ",", "hq_hqa", ",", "hqx", ",", "hymt", ",", "idcinvideo", ",", "iff", ",", "imm4", ",", "indeo2", ",", "indeo3", ",", "indeo4", ",", "indeo5", ",", "interplayvideo", ",", "jv", ",", "kgv1", ",", "kmvc", ",", "lagarith", ",", "loco", ",", "lscr", ",", "m101", ",", "mdec", ",", "mimic", ",", "mjpegb", ",", "mmvideo", ",", "motionpixels", ",", "mpegvideo", ",", "msa1", ",", "mscc", ",", "msmpeg4v1", ",", "msrle", ",", "mss1", ",", "mss2", ",", "mszh", ",", "mts2", ",", "mvc1", ",", "mvc2", ",", "mwsc", ",", "mxpeg", ",", "nuv", ",", "paf_video", ",", "pictor", ",", "pixlet", ",", "prosumer", ",", "psd", ",", "ptx", ",", "qdraw", ",", "qpeg", ",", "rasc", ",", "rl2", ",", "rpza", ",", "rscc", ",", "rv30", ",", "rv40", ",", "sanm", ",", "scpr", ",", "screenpresso", ",", "sgirle", ",", "sheervideo", ",", "smackvid", ",", "smc", ",", "smvjpeg", ",", "sp5x", ",", "speedhq", ",", "srgc", ",", "svq3", ",", "targa_y216", ",", "tdsc", ",", "theora", ",", "thp", ",", "tiertexseqvideo", ",", "tmv", ",", "truemotion1", ",", "truemotion2", ",", "truemotion2rt", ",", "camtasia", ",", "tscc2", ",", "txd", ",", "ultimotion", ",", "v210x", ",", "vb", ",", "vble", ",", "vc1", ",", "vc1image", ",", "vcr1", ",", "vmdvideo", ",", "vmnc", ",", "vp3", ",", "vp4", ",", "vp5", ",", "vp6", ",", "vp6a", ",", "vp6f", ",", "vp7", ",", "vp8", ",", "vp9", ",", "vqavideo", ",", "webp", ",", "wcmv", ",", "wmv3", ",", "wmv3image", ",", "wnv1", ",", "xan_wc3", ",", "xan_wc4", ",", "xl", ",", "xpm", ",", "ylc", ",", "yop", ",", "012v", ",", "zerocodec" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -484,7 +700,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 502.0, 601.0, 85.0, 22.0 ],
+					"patching_rect" : [ 502.0, 587.0, 85.0, 22.0 ],
 					"text" : "jit.qt.record"
 				}
 
@@ -500,7 +716,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 13.0, 292.0, 110.0, 22.0 ],
 					"restore" : 					{
-						"codec" : [ 6 ],
+						"codec" : [ 0 ],
 						"framerate" : [ 25.0 ],
 						"quality" : [ 4 ],
 						"realtime" : [ 0 ],
@@ -657,6 +873,27 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-45", 0 ],
+					"source" : [ "obj-23", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-29", 0 ],
+					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-28", 0 ]
@@ -692,6 +929,27 @@
 					"destination" : [ "obj-17", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"source" : [ "obj-45", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"source" : [ "obj-45", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-34", 0 ],
+					"source" : [ "obj-45", 2 ]
 				}
 
 			}
@@ -742,9 +1000,9 @@
 		"styles" : [ 			{
 				"name" : "comment_font_viewer",
 				"default" : 				{
-					"fontname" : [ "Gill Sans" ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 12.0 ],
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"fontname" : [ "Gill Sans" ]
 				}
 ,
 				"parentstyle" : "",
@@ -753,9 +1011,9 @@
 , 			{
 				"name" : "comment_viewer_normal",
 				"default" : 				{
-					"fontname" : [ "Arial" ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",

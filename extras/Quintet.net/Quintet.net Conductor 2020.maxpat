@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 302.0, 114.0, 819.0, 558.0 ],
+		"rect" : [ 408.0, 193.0, 819.0, 558.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -187,7 +187,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [  ],
 						"lines" : [  ]
 					}
@@ -5271,9 +5270,9 @@
 						"styles" : [ 							{
 								"name" : "black on white",
 								"number" : 								{
-									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ],
 									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"fontsize" : [ 12.0 ]
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"umenu" : 								{
@@ -5306,9 +5305,9 @@
 , 							{
 								"name" : "section dividers",
 								"default" : 								{
-									"fontname" : [ "Arial" ],
 									"fontface" : [ 3 ],
-									"fontsize" : [ 15.0 ]
+									"fontsize" : [ 15.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -5317,8 +5316,8 @@
 , 							{
 								"name" : "section info reg",
 								"default" : 								{
-									"fontname" : [ "Arial" ],
-									"fontsize" : [ 12.0 ]
+									"fontsize" : [ 12.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -5327,9 +5326,9 @@
 , 							{
 								"name" : "titles",
 								"default" : 								{
-									"fontname" : [ "Arial" ],
 									"fontface" : [ 1 ],
-									"fontsize" : [ 20.0 ]
+									"fontsize" : [ 20.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -9340,7 +9339,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 691.5, 68.0, 64.0, 20.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 302, 114, 1121, 672, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 408, 193, 1227, 751, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 
@@ -9454,10 +9453,10 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 20, 74, 660, 314 ],
+						"client_rect" : [ 1187, 252, 1796, 568 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 30, 89, 670, 329 ]
+						"storage_rect" : [ 780, 524, 1380, 824 ]
 					}
 ,
 					"text" : "pattrstorage conductor @outputmode 4 @fileusagemode 1 @greedy 1 @autorestore 0",
@@ -11230,7 +11229,6 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-10::obj-27::obj-17::obj-14::obj-402::obj-6::obj-8::obj-177" : [ "live.gain~[5]", "live.gain~", 0 ],
 			"obj-10::obj-27::obj-17::obj-23" : [ "live.tab[97]", "live.tab", 0 ],
 			"obj-10::obj-27::obj-17::obj-28::obj-4::obj-55" : [ "live.menu", "live.menu", 0 ],
 			"obj-10::obj-27::obj-17::obj-28::obj-4::obj-62" : [ "live.menu[54]", "live.menu", 0 ],
@@ -11238,64 +11236,34 @@
 			"obj-10::obj-27::obj-17::obj-28::obj-4::obj-73::obj-32" : [ "live.menu[26]", "live.menu", 0 ],
 			"obj-10::obj-27::obj-17::obj-28::obj-4::obj-73::obj-45" : [ "live.menu[27]", "live.menu", 0 ],
 			"obj-10::obj-27::obj-17::obj-28::obj-4::obj-80" : [ "live.tab[2]", "live.tab", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-149::obj-13" : [ "button[1]", "button", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-150::obj-1" : [ "outset_pulses[1]", "outset", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-150::obj-11" : [ "eventfulness[1]", "Eventfulness", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-150::obj-12" : [ "event_length[1]", "Event length", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-150::obj-13" : [ "melody_scope[1]", "Melody scope", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-150::obj-22" : [ "pulse_length[1]", "Pulse length", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-150::obj-23" : [ "chordal_weight[4]", "Chordal weight", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-150::obj-24" : [ "harmoniclarity[4]", "Harmoniclarity", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-150::obj-25" : [ "pitch_center[1]", "Pitch center", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-150::obj-26" : [ "pitch_range[1]", "Pitch range", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-150::obj-27" : [ "dynamics[1]", "Dynamics", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-150::obj-28" : [ "attenuation[1]", "Attenuation", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-150::obj-29" : [ "ostinato[1]", "ostinato", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-150::obj-47" : [ "silent_downbeat[1]", "SDB", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-150::obj-5" : [ "metriclarity[1]", "Metriclarity", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-150::obj-52" : [ "tonic_pitch[1]", "Tonic Pitch", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-156::obj-89" : [ "live.text[21]", "live.text", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-38::obj-13" : [ "button", "button", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-47::obj-1" : [ "outset_pulses", "outset", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-47::obj-11" : [ "eventfulness", "Eventfulness", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-47::obj-12" : [ "event_length", "Event length", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-47::obj-13" : [ "melody_scope", "Melody scope", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-47::obj-22" : [ "pulse_length", "Pulse length", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-47::obj-23" : [ "chordal_weight[3]", "Chordal weight", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-47::obj-24" : [ "harmoniclarity[3]", "Harmoniclarity", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-47::obj-25" : [ "pitch_center", "Pitch center", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-47::obj-26" : [ "pitch_range", "Pitch range", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-47::obj-27" : [ "dynamics", "Dynamics", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-47::obj-28" : [ "attenuation", "Attenuation", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-47::obj-29" : [ "ostinato", "ostinato", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-47::obj-47" : [ "silent_downbeat", "SDB", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-47::obj-5" : [ "metriclarity", "Metriclarity", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-47::obj-52" : [ "tonic_pitch", "Tonic Pitch", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-49::obj-89" : [ "live.text[1]", "live.text", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-58::obj-13" : [ "button[2]", "button", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-59::obj-1" : [ "outset_pulses[2]", "outset", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-59::obj-11" : [ "eventfulness[2]", "Eventfulness", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-59::obj-12" : [ "event_length[2]", "Event length", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-59::obj-13" : [ "melody_scope[2]", "Melody scope", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-59::obj-22" : [ "pulse_length[2]", "Pulse length", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-59::obj-23" : [ "chordal_weight[5]", "Chordal weight", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-59::obj-24" : [ "harmoniclarity[5]", "Harmoniclarity", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-59::obj-25" : [ "pitch_center[2]", "Pitch center", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-59::obj-26" : [ "pitch_range[2]", "Pitch range", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-59::obj-27" : [ "dynamics[2]", "Dynamics", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-59::obj-28" : [ "attenuation[2]", "Attenuation", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-59::obj-29" : [ "ostinato[2]", "ostinato", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-59::obj-47" : [ "silent_downbeat[2]", "SDB", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-59::obj-5" : [ "metriclarity[2]", "Metriclarity", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-59::obj-52" : [ "tonic_pitch[2]", "Tonic Pitch", 0 ],
-			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-60::obj-89" : [ "live.text[22]", "live.text", 0 ],
+			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-38::obj-1" : [ "outset_pulses", "outset", 0 ],
+			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-38::obj-11" : [ "eventfulness", "Eventfulness", 0 ],
+			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-38::obj-12" : [ "event_length", "Event length", 0 ],
+			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-38::obj-13" : [ "button", "Melody scope", 0 ],
+			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-38::obj-22" : [ "pulse_length", "Pulse length", 0 ],
+			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-38::obj-23" : [ "chordal_weight[3]", "Chordal weight", 0 ],
+			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-38::obj-24" : [ "harmoniclarity[3]", "Harmoniclarity", 0 ],
+			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-38::obj-25" : [ "pitch_center", "Pitch center", 0 ],
+			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-38::obj-26" : [ "pitch_range", "Pitch range", 0 ],
+			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-38::obj-27" : [ "dynamics", "Dynamics", 0 ],
+			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-38::obj-28" : [ "attenuation", "Attenuation", 0 ],
+			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-38::obj-29" : [ "ostinato", "ostinato", 0 ],
+			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-38::obj-42" : [ "live.tab[10]", "live.tab[4]", 0 ],
+			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-38::obj-47" : [ "silent_downbeat", "SDB", 0 ],
+			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-38::obj-5" : [ "metriclarity", "Metriclarity", 0 ],
+			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-38::obj-52" : [ "tonic_pitch", "Tonic pitch", 0 ],
+			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-38::obj-7" : [ "live.text[24]", "live.text", 0 ],
+			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-38::obj-8" : [ "live.text[42]", "live.text", 0 ],
+			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-47::obj-15" : [ "live.text[55]", "live.text", 0 ],
+			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-47::obj-89" : [ "live.text[54]", "live.text", 0 ],
 			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-83" : [ "live.text[19]", "live.text", 0 ],
 			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-84" : [ "live.text[18]", "live.text", 0 ],
 			"obj-10::obj-27::obj-17::obj-28::obj-7::obj-89" : [ "live.text[41]", "live.text", 0 ],
 			"obj-10::obj-27::obj-17::obj-31" : [ "live.tab[9]", "live.tab", 0 ],
 			"obj-10::obj-27::obj-17::obj-38" : [ "live.tab[7]", "live.tab", 0 ],
-			"obj-10::obj-27::obj-17::obj-60::obj-1" : [ "live.tab[6]", "live.tab", 0 ],
-			"obj-10::obj-27::obj-17::obj-60::obj-65" : [ "live.tab[3]", "live.tab", 0 ],
+			"obj-10::obj-27::obj-17::obj-60::obj-34::obj-1" : [ "live.tab[6]", "live.tab", 0 ],
+			"obj-10::obj-27::obj-17::obj-60::obj-34::obj-65" : [ "live.tab[3]", "live.tab", 0 ],
+			"obj-10::obj-27::obj-17::obj-60::obj-9::obj-8::obj-177" : [ "live.gain~[5]", "live.gain~", 0 ],
 			"obj-10::obj-27::obj-17::obj-81::obj-263::obj-42::obj-27" : [ "live.tab", "live.tab", 0 ],
 			"obj-10::obj-27::obj-17::obj-81::obj-263::obj-60::obj-43" : [ "store", "store", 0 ],
 			"obj-10::obj-27::obj-17::obj-9::obj-100" : [ "live.tab[65]", "live.tab", 0 ],
@@ -11346,136 +11314,24 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-10::obj-27::obj-17::obj-28::obj-4::obj-73::obj-32" : 				{
+					"parameter_longname" : "live.menu[26]"
+				}
+,
+				"obj-10::obj-27::obj-17::obj-28::obj-4::obj-73::obj-45" : 				{
+					"parameter_longname" : "live.menu[27]"
+				}
+,
 				"obj-10::obj-27::obj-17::obj-28::obj-4::obj-80" : 				{
 					"parameter_longname" : "live.tab[2]"
 				}
 ,
-				"obj-10::obj-27::obj-17::obj-28::obj-7::obj-150::obj-1" : 				{
-					"parameter_longname" : "outset_pulses[1]"
+				"obj-10::obj-27::obj-17::obj-28::obj-7::obj-38::obj-13" : 				{
+					"parameter_longname" : "button"
 				}
 ,
-				"obj-10::obj-27::obj-17::obj-28::obj-7::obj-150::obj-11" : 				{
-					"parameter_longname" : "eventfulness[1]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-28::obj-7::obj-150::obj-12" : 				{
-					"parameter_longname" : "event_length[1]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-28::obj-7::obj-150::obj-13" : 				{
-					"parameter_longname" : "melody_scope[1]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-28::obj-7::obj-150::obj-22" : 				{
-					"parameter_longname" : "pulse_length[1]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-28::obj-7::obj-150::obj-23" : 				{
-					"parameter_longname" : "chordal_weight[4]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-28::obj-7::obj-150::obj-24" : 				{
-					"parameter_longname" : "harmoniclarity[4]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-28::obj-7::obj-150::obj-25" : 				{
-					"parameter_longname" : "pitch_center[1]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-28::obj-7::obj-150::obj-26" : 				{
-					"parameter_longname" : "pitch_range[1]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-28::obj-7::obj-150::obj-27" : 				{
-					"parameter_longname" : "dynamics[1]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-28::obj-7::obj-150::obj-28" : 				{
-					"parameter_longname" : "attenuation[1]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-28::obj-7::obj-150::obj-29" : 				{
-					"parameter_longname" : "ostinato[1]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-28::obj-7::obj-150::obj-47" : 				{
-					"parameter_longname" : "silent_downbeat[1]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-28::obj-7::obj-150::obj-5" : 				{
-					"parameter_longname" : "metriclarity[1]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-28::obj-7::obj-150::obj-52" : 				{
-					"parameter_longname" : "tonic_pitch[1]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-28::obj-7::obj-156::obj-89" : 				{
-					"parameter_longname" : "live.text[21]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-28::obj-7::obj-59::obj-1" : 				{
-					"parameter_longname" : "outset_pulses[2]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-28::obj-7::obj-59::obj-11" : 				{
-					"parameter_longname" : "eventfulness[2]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-28::obj-7::obj-59::obj-12" : 				{
-					"parameter_longname" : "event_length[2]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-28::obj-7::obj-59::obj-13" : 				{
-					"parameter_longname" : "melody_scope[2]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-28::obj-7::obj-59::obj-22" : 				{
-					"parameter_longname" : "pulse_length[2]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-28::obj-7::obj-59::obj-23" : 				{
-					"parameter_longname" : "chordal_weight[5]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-28::obj-7::obj-59::obj-24" : 				{
-					"parameter_longname" : "harmoniclarity[5]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-28::obj-7::obj-59::obj-25" : 				{
-					"parameter_longname" : "pitch_center[2]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-28::obj-7::obj-59::obj-26" : 				{
-					"parameter_longname" : "pitch_range[2]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-28::obj-7::obj-59::obj-27" : 				{
-					"parameter_longname" : "dynamics[2]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-28::obj-7::obj-59::obj-28" : 				{
-					"parameter_longname" : "attenuation[2]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-28::obj-7::obj-59::obj-29" : 				{
-					"parameter_longname" : "ostinato[2]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-28::obj-7::obj-59::obj-47" : 				{
-					"parameter_longname" : "silent_downbeat[2]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-28::obj-7::obj-59::obj-5" : 				{
-					"parameter_longname" : "metriclarity[2]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-28::obj-7::obj-59::obj-52" : 				{
-					"parameter_longname" : "tonic_pitch[2]"
-				}
-,
-				"obj-10::obj-27::obj-17::obj-28::obj-7::obj-60::obj-89" : 				{
-					"parameter_longname" : "live.text[22]"
+				"obj-10::obj-27::obj-17::obj-28::obj-7::obj-38::obj-8" : 				{
+					"parameter_longname" : "live.text[42]"
 				}
 ,
 				"obj-10::obj-27::obj-17::obj-28::obj-7::obj-89" : 				{
@@ -11486,8 +11342,104 @@
 					"parameter_longname" : "live.tab[7]"
 				}
 ,
+				"obj-10::obj-27::obj-17::obj-9::obj-100" : 				{
+					"parameter_longname" : "live.tab[65]"
+				}
+,
+				"obj-10::obj-27::obj-17::obj-9::obj-16" : 				{
+					"parameter_longname" : "live.tab[57]"
+				}
+,
+				"obj-10::obj-27::obj-17::obj-9::obj-167" : 				{
+					"parameter_longname" : "live.tab[31]"
+				}
+,
+				"obj-10::obj-27::obj-17::obj-9::obj-193" : 				{
+					"parameter_longname" : "live.tab[61]"
+				}
+,
+				"obj-10::obj-27::obj-17::obj-9::obj-225::obj-5::obj-34" : 				{
+					"parameter_longname" : "live.slider[3]"
+				}
+,
+				"obj-10::obj-27::obj-17::obj-9::obj-225::obj-5::obj-43" : 				{
+					"parameter_longname" : "live.slider[4]"
+				}
+,
+				"obj-10::obj-27::obj-17::obj-9::obj-33" : 				{
+					"parameter_longname" : "live.tab[59]"
+				}
+,
+				"obj-10::obj-27::obj-17::obj-9::obj-44" : 				{
+					"parameter_longname" : "live.tab[40]"
+				}
+,
+				"obj-10::obj-27::obj-17::obj-9::obj-52" : 				{
+					"parameter_longname" : "live.text[20]"
+				}
+,
+				"obj-10::obj-27::obj-17::obj-9::obj-57" : 				{
+					"parameter_longname" : "live.tab[62]"
+				}
+,
+				"obj-10::obj-27::obj-17::obj-9::obj-59" : 				{
+					"parameter_longname" : "live.tab[38]"
+				}
+,
+				"obj-10::obj-27::obj-17::obj-9::obj-60" : 				{
+					"parameter_longname" : "live.tab[66]"
+				}
+,
 				"obj-10::obj-27::obj-17::obj-9::obj-64" : 				{
 					"parameter_longname" : "live.tab[1]"
+				}
+,
+				"obj-10::obj-27::obj-17::obj-9::obj-66" : 				{
+					"parameter_longname" : "live.tab[36]"
+				}
+,
+				"obj-10::obj-27::obj-17::obj-9::obj-67" : 				{
+					"parameter_longname" : "live.tab[67]"
+				}
+,
+				"obj-10::obj-27::obj-17::obj-9::obj-68" : 				{
+					"parameter_longname" : "live.tab[60]"
+				}
+,
+				"obj-10::obj-27::obj-17::obj-9::obj-69" : 				{
+					"parameter_longname" : "live.tab[29]"
+				}
+,
+				"obj-10::obj-27::obj-17::obj-9::obj-71" : 				{
+					"parameter_longname" : "live.tab[58]"
+				}
+,
+				"obj-10::obj-27::obj-17::obj-9::obj-72" : 				{
+					"parameter_longname" : "live.tab[39]"
+				}
+,
+				"obj-10::obj-27::obj-17::obj-9::obj-75" : 				{
+					"parameter_longname" : "live.tab[64]"
+				}
+,
+				"obj-10::obj-27::obj-17::obj-9::obj-80" : 				{
+					"parameter_longname" : "live.tab[30]"
+				}
+,
+				"obj-10::obj-27::obj-17::obj-9::obj-85" : 				{
+					"parameter_longname" : "live.menu[18]"
+				}
+,
+				"obj-10::obj-27::obj-17::obj-9::obj-86" : 				{
+					"parameter_longname" : "live.menu[25]"
+				}
+,
+				"obj-10::obj-27::obj-17::obj-9::obj-88" : 				{
+					"parameter_longname" : "live.tab[63]"
+				}
+,
+				"obj-10::obj-27::obj-17::obj-9::obj-99" : 				{
+					"parameter_longname" : "live.tab[37]"
 				}
 
 			}
@@ -12098,128 +12050,72 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "maxscore.styles.maxpat",
+				"name" : "maxscore.parse2.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/abstractions",
+				"patcherrelativepath" : "../../../MaxScore/patchers/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "MaxScoreNoteheads.txt",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/maps/Font Mappings",
+				"patcherrelativepath" : "../../../MaxScore/patchers/maps/Font Mappings",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "selectInterval.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/extensions",
 				"patcherrelativepath" : "../../../MaxScore/patchers/extensions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "justintonation.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/maps/styleMaps",
-				"patcherrelativepath" : "../../../MaxScore/patchers/maps/styleMaps",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ratio-finder.maxpat",
+				"name" : "maxscore.empty.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/extensions",
 				"patcherrelativepath" : "../../../MaxScore/patchers/extensions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "µUtil.rtom.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/muUtilities/patchers",
-				"patcherrelativepath" : "../../../muUtilities/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fdivmod.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/extensions",
-				"patcherrelativepath" : "../../../MaxScore/patchers/extensions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "removeAllTablatureMessages.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/extensions",
-				"patcherrelativepath" : "../../../MaxScore/patchers/extensions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "BP-tenor-clarinet.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/maps/styleMaps",
-				"patcherrelativepath" : "../../../MaxScore/patchers/maps/styleMaps",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "BP-soprano-clarinet.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/maps/styleMaps",
-				"patcherrelativepath" : "../../../MaxScore/patchers/maps/styleMaps",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "BP-keyboard.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/maps/styleMaps",
-				"patcherrelativepath" : "../../../MaxScore/patchers/maps/styleMaps",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "µUtil.StepToPitch.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/muUtilities/patchers",
-				"patcherrelativepath" : "../../../muUtilities/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "µUtil.PitchToStep.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/muUtilities/patchers",
-				"patcherrelativepath" : "../../../muUtilities/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "BP-contra-clarinet.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/maps/styleMaps",
-				"patcherrelativepath" : "../../../MaxScore/patchers/maps/styleMaps",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "BP-alto-kalimba.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/maps/styleMaps",
-				"patcherrelativepath" : "../../../MaxScore/patchers/maps/styleMaps",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "19EDO.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/maps/styleMaps",
-				"patcherrelativepath" : "../../../MaxScore/patchers/maps/styleMaps",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "17EDO.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/maps/styleMaps",
-				"patcherrelativepath" : "../../../MaxScore/patchers/maps/styleMaps",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tablature.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/maps/styleMaps",
-				"patcherrelativepath" : "../../../MaxScore/patchers/maps/styleMaps",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tablature-editor.js",
+				"name" : "quote2backslashquote.js",
 				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/javascript",
 				"patcherrelativepath" : "../../../MaxScore/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "percussion.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/maps/styleMaps",
-				"patcherrelativepath" : "../../../MaxScore/patchers/maps/styleMaps",
+				"name" : "ExpandExponential.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/extensions",
+				"patcherrelativepath" : "../../../MaxScore/patchers/extensions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "maxscore.sax.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/extensions",
+				"patcherrelativepath" : "../../../MaxScore/patchers/extensions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "maxscore.split2.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/abstractions",
+				"patcherrelativepath" : "../../../MaxScore/patchers/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "my-ltocoll.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/extensions",
+				"patcherrelativepath" : "../../../MaxScore/patchers/extensions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rearrange.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/extensions",
+				"patcherrelativepath" : "../../../MaxScore/patchers/extensions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -12298,125 +12194,6 @@
 				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/modules/MaxScore-Sampler",
 				"patcherrelativepath" : "../../../MaxScore/patchers/modules/MaxScore-Sampler",
 				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "MaxScore.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/abstractions",
-				"patcherrelativepath" : "../../../MaxScore/patchers/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "n4m_musicxml2jmsl.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/node.js/musicxml2jmsl",
-				"patcherrelativepath" : "../../../MaxScore/patchers/node.js/musicxml2jmsl",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "clefdesigner.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/maps/styleMaps",
-				"patcherrelativepath" : "../../../MaxScore/patchers/maps/styleMaps",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "BP-chromatic.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/maps/styleMaps",
-				"patcherrelativepath" : "../../../MaxScore/patchers/maps/styleMaps",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "default.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/maps/styleMaps",
-				"patcherrelativepath" : "../../../MaxScore/patchers/maps/styleMaps",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "scriptStyles.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/javascript",
-				"patcherrelativepath" : "../../../MaxScore/javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "maxfolder.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/extensions",
-				"patcherrelativepath" : "../../../MaxScore/patchers/extensions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "maxscore.parse2.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/abstractions",
-				"patcherrelativepath" : "../../../MaxScore/patchers/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "MaxScoreNoteheads.txt",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/maps/Font Mappings",
-				"patcherrelativepath" : "../../../MaxScore/patchers/maps/Font Mappings",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "selectInterval.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/extensions",
-				"patcherrelativepath" : "../../../MaxScore/patchers/extensions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "maxscore.empty.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/extensions",
-				"patcherrelativepath" : "../../../MaxScore/patchers/extensions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "quote2backslashquote.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/javascript",
-				"patcherrelativepath" : "../../../MaxScore/javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ExpandExponential.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/extensions",
-				"patcherrelativepath" : "../../../MaxScore/patchers/extensions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "maxscore.sax.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/extensions",
-				"patcherrelativepath" : "../../../MaxScore/patchers/extensions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "maxscore.split2.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/abstractions",
-				"patcherrelativepath" : "../../../MaxScore/patchers/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "my-ltocoll.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/extensions",
-				"patcherrelativepath" : "../../../MaxScore/patchers/extensions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rearrange.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/extensions",
-				"patcherrelativepath" : "../../../MaxScore/patchers/extensions",
-				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
@@ -13239,6 +13016,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "maxfolder.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/extensions",
+				"patcherrelativepath" : "../../../MaxScore/patchers/extensions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "expression-editors.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/extensions",
 				"patcherrelativepath" : "../../../MaxScore/patchers/extensions",
@@ -13323,6 +13107,160 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "BP-tenor-clarinet.style.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/maps/styleMaps",
+				"patcherrelativepath" : "../../../MaxScore/patchers/maps/styleMaps",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "removeAllTablatureMessages.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/extensions",
+				"patcherrelativepath" : "../../../MaxScore/patchers/extensions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "BP-soprano-clarinet.style.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/maps/styleMaps",
+				"patcherrelativepath" : "../../../MaxScore/patchers/maps/styleMaps",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "BP-keyboard.style.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/maps/styleMaps",
+				"patcherrelativepath" : "../../../MaxScore/patchers/maps/styleMaps",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "µUtil.StepToPitch.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/muUtilities/patchers",
+				"patcherrelativepath" : "../../../muUtilities/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "µUtil.PitchToStep.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/muUtilities/patchers",
+				"patcherrelativepath" : "../../../muUtilities/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "BP-contra-clarinet.style.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/maps/styleMaps",
+				"patcherrelativepath" : "../../../MaxScore/patchers/maps/styleMaps",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "BP-alto-kalimba.style.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/maps/styleMaps",
+				"patcherrelativepath" : "../../../MaxScore/patchers/maps/styleMaps",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "19EDO.style.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/maps/styleMaps",
+				"patcherrelativepath" : "../../../MaxScore/patchers/maps/styleMaps",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "17EDO.style.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/maps/styleMaps",
+				"patcherrelativepath" : "../../../MaxScore/patchers/maps/styleMaps",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tablature.style.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/maps/styleMaps",
+				"patcherrelativepath" : "../../../MaxScore/patchers/maps/styleMaps",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tablature-editor.js",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/javascript",
+				"patcherrelativepath" : "../../../MaxScore/javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "percussion.style.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/maps/styleMaps",
+				"patcherrelativepath" : "../../../MaxScore/patchers/maps/styleMaps",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "MaxScore.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/abstractions",
+				"patcherrelativepath" : "../../../MaxScore/patchers/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "n4m_musicxml2jmsl.js",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/node.js/musicxml2jmsl",
+				"patcherrelativepath" : "../../../MaxScore/patchers/node.js/musicxml2jmsl",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "clefdesigner.style.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/maps/styleMaps",
+				"patcherrelativepath" : "../../../MaxScore/patchers/maps/styleMaps",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "BP-chromatic.style.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/maps/styleMaps",
+				"patcherrelativepath" : "../../../MaxScore/patchers/maps/styleMaps",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "justintonation.style.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/maps/styleMaps",
+				"patcherrelativepath" : "../../../MaxScore/patchers/maps/styleMaps",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ratio-finder.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/extensions",
+				"patcherrelativepath" : "../../../MaxScore/patchers/extensions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "µUtil.rtom.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/muUtilities/patchers",
+				"patcherrelativepath" : "../../../muUtilities/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fdivmod.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/extensions",
+				"patcherrelativepath" : "../../../MaxScore/patchers/extensions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "default.style.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/maps/styleMaps",
+				"patcherrelativepath" : "../../../MaxScore/patchers/maps/styleMaps",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "stepup.svg",
 				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/media/Images/svg",
 				"patcherrelativepath" : "../../../MaxScore/media/Images/svg",
@@ -13376,6 +13314,13 @@
 				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/media/Images/svg",
 				"patcherrelativepath" : "../../../MaxScore/media/Images/svg",
 				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "scriptStyles.js",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/javascript",
+				"patcherrelativepath" : "../../../MaxScore/javascript",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -13669,7 +13614,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "sadam.split.mxo",
+				"name" : "sadam.rapidXML.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -13677,10 +13622,11 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "sadam.rapidXML.mxo",
+				"name" : "sadam.split.mxo",
 				"type" : "iLaX"
 			}
  ],
+		"autosave" : 0,
 		"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 	}
 

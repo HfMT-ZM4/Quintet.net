@@ -1,0 +1,4 @@
+Script re-instantiate qn.client after trying to connect to inexistant server
+Viewer: exclude_self_in_others true
+review refresh clients in register.maxpat (use names message from qn.client)
+

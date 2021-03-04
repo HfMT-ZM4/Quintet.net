@@ -842,7 +842,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 345.5, 505.0, 233.0, 22.0 ],
-					"restore" : [ "localhost" ],
+					"restore" : [ "quintetnet.hfmt-hamburg.de" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -3336,7 +3336,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 88.5, 231.0, 459.0, 22.0 ],
-									"restore" : [ "Macintosh HD:/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Sirenen" ],
+									"restore" : [ "Macintosh HD:/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Five" ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -3442,8 +3442,6 @@
 									"saved_object_attributes" : 									{
 										"autostart" : 1,
 										"defer" : 0,
-										"node_bin_path" : "",
-										"npm_bin_path" : "",
 										"watch" : 0
 									}
 ,
@@ -5522,7 +5520,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 185.5, 342.0, 309.0, 22.0 ],
-					"restore" : [ "localhost" ],
+					"restore" : [ "quintetnet.hfmt-hamburg.de" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -6808,16 +6806,16 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
-					"midpoints" : [ 591.638888888888914, 793.0, 324.166666666666629, 793.0 ],
-					"source" : [ "obj-59", 1 ]
+					"midpoints" : [ 630.749999999999886, 793.0, 324.166666666666629, 793.0 ],
+					"source" : [ "obj-59", 3 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 1 ],
-					"midpoints" : [ 630.749999999999886, 594.5, 324.166666666666629, 594.5 ],
-					"source" : [ "obj-59", 3 ]
+					"midpoints" : [ 591.638888888888914, 594.5, 324.166666666666629, 594.5 ],
+					"source" : [ "obj-59", 1 ]
 				}
 
 			}

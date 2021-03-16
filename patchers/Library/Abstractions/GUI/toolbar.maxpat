@@ -55,7 +55,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"openrect" : [ 548.0, 320.0, 735.0, 577.0 ],
+						"openrect" : [ 548.0, 320.0, 352.0, 314.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -76,7 +76,7 @@
 						"boxanimatetime" : 200,
 						"enablehscroll" : 0,
 						"enablevscroll" : 0,
-						"devicewidth" : 735.0,
+						"devicewidth" : 352.0,
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
@@ -149,18 +149,6 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-7",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 100.0, 671.0, 22.0 ],
-									"text" : "url https://hfmt.live/demo?get=https://raw.githubusercontent.com/HfMT-ZM4/hfmt.live/master/quintetnet-video-local.html&id=1"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-1",
 									"maxclass" : "jweb",
 									"numinlets" : 1,
@@ -194,13 +182,6 @@
 								"patchline" : 								{
 									"destination" : [ "obj-9", 0 ],
 									"source" : [ "obj-6", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-1", 0 ],
-									"source" : [ "obj-7", 0 ]
 								}
 
 							}

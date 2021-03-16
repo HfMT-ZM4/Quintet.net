@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1308.0, 765.0 ],
+		"rect" : [ 123.0, 53.0, 1308.0, 765.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -42,6 +42,19 @@
 		"title" : "Quintet.net Client",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontface" : 0,
+					"fontsize" : 10.0,
+					"id" : "obj-16",
+					"maxclass" : "o.expr.codebox",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "FullPacket", "FullPacket" ],
+					"patching_rect" : [ 264.0, -11.0, 150.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-1",
@@ -51,7 +64,7 @@
 					"patching_rect" : [ 1180.5, 730.0, 99.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1185.0, 735.5, 114.0, 18.0 ],
-					"text" : "version 2021-03-04",
+					"text" : "version 2021-03-15",
 					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ],
 					"varname" : "version"
 				}
@@ -79,7 +92,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 164.0, 730.5, 194.0, 20.0 ],
-					"restore" : [ "drawsocketOutput", "{\"event\":{\"key\":\"mouse\",\"val\":{\"action\":\"mousemove\",\"xy\":[936,38],\"button\":0,\"mods\":{\"alt\":false,\"shift\":false,\"ctrl\":false,\"meta\":false},\"target\":{\"type\":\"svg\",\"id\":\"svg\",\"version\":\"1.1\",\"baseProfile\":\"full\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"xmlns:xlink\":\"http://www.w3.org/1999/xlink\",\"style\":\"background: rgb(254, 254, 240);\"}}}}" ],
+					"restore" : [ "drawsocketOutput", "{\"event\":{\"key\":\"sync\",\"val\":{\"syncOffset\":0}}}" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -97,11 +110,11 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1146.0, 0.0, 200.0, 800.0 ],
+					"patching_rect" : [ 1146.0, 99.0, 200.0, 800.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1142.0, 0.0, 200.0, 800.0 ],
+					"presentation_rect" : [ 1142.0, 98.0, 200.0, 800.0 ],
 					"rendermode" : 2,
-					"url" : "https://hfmt.live/Five?id=1&get=https://raw.githubusercontent.com/HfMT-ZM4/quintet.net/master/hfmt-live/quintetnet-video.html",
+					"url" : "https://hfmt.live/demo?get=https://raw.githubusercontent.com/HfMT-ZM4/hfmt.live/master/quintetnet-video-peers.html",
 					"varname" : "sidebar"
 				}
 
@@ -1303,8 +1316,8 @@
 														"styles" : [ 															{
 																"name" : "black on white",
 																"number" : 																{
-																	"fontsize" : [ 12.0 ],
 																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+																	"fontsize" : [ 12.0 ],
 																	"fontname" : [ "Arial" ]
 																}
 ,
@@ -1328,8 +1341,8 @@
 , 															{
 																"name" : "caption text",
 																"default" : 																{
-																	"fontsize" : [ 11.0 ],
-																	"fontface" : [ 2 ]
+																	"fontface" : [ 2 ],
+																	"fontsize" : [ 11.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -1338,9 +1351,9 @@
 , 															{
 																"name" : "section dividers",
 																"default" : 																{
+																	"fontface" : [ 3 ],
 																	"fontsize" : [ 15.0 ],
-																	"fontname" : [ "Arial" ],
-																	"fontface" : [ 3 ]
+																	"fontname" : [ "Arial" ]
 																}
 ,
 																"parentstyle" : "",
@@ -1359,9 +1372,9 @@
 , 															{
 																"name" : "titles",
 																"default" : 																{
+																	"fontface" : [ 1 ],
 																	"fontsize" : [ 20.0 ],
-																	"fontname" : [ "Arial" ],
-																	"fontface" : [ 1 ]
+																	"fontname" : [ "Arial" ]
 																}
 ,
 																"parentstyle" : "",
@@ -5970,8 +5983,8 @@
 														"styles" : [ 															{
 																"name" : "black on white",
 																"number" : 																{
-																	"fontsize" : [ 12.0 ],
 																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+																	"fontsize" : [ 12.0 ],
 																	"fontname" : [ "Arial" ]
 																}
 ,
@@ -5995,8 +6008,8 @@
 , 															{
 																"name" : "caption text",
 																"default" : 																{
-																	"fontsize" : [ 11.0 ],
-																	"fontface" : [ 2 ]
+																	"fontface" : [ 2 ],
+																	"fontsize" : [ 11.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -6005,9 +6018,9 @@
 , 															{
 																"name" : "section dividers",
 																"default" : 																{
+																	"fontface" : [ 3 ],
 																	"fontsize" : [ 15.0 ],
-																	"fontname" : [ "Arial" ],
-																	"fontface" : [ 3 ]
+																	"fontname" : [ "Arial" ]
 																}
 ,
 																"parentstyle" : "",
@@ -6026,9 +6039,9 @@
 , 															{
 																"name" : "titles",
 																"default" : 																{
+																	"fontface" : [ 1 ],
 																	"fontsize" : [ 20.0 ],
-																	"fontname" : [ "Arial" ],
-																	"fontface" : [ 1 ]
+																	"fontname" : [ "Arial" ]
 																}
 ,
 																"parentstyle" : "",
@@ -6246,7 +6259,7 @@
 																	"numoutlets" : 3,
 																	"outlettype" : [ "", "", "" ],
 																	"patching_rect" : [ 61.333327999999995, 171.0, 402.0, 22.0 ],
-																	"restore" : [ "drawsocketOutput", "{\"event\":{\"key\":\"mouse\",\"val\":{\"action\":\"mousemove\",\"xy\":[936,38],\"button\":0,\"mods\":{\"alt\":false,\"shift\":false,\"ctrl\":false,\"meta\":false},\"target\":{\"type\":\"svg\",\"id\":\"svg\",\"version\":\"1.1\",\"baseProfile\":\"full\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"xmlns:xlink\":\"http://www.w3.org/1999/xlink\",\"style\":\"background: rgb(254, 254, 240);\"}}}}" ],
+																	"restore" : [ "drawsocketOutput", "{\"event\":{\"key\":\"sync\",\"val\":{\"syncOffset\":0}}}" ],
 																	"saved_object_attributes" : 																	{
 																		"parameter_enable" : 0,
 																		"parameter_mappable" : 0
@@ -12964,8 +12977,8 @@
 														"styles" : [ 															{
 																"name" : "black on white",
 																"number" : 																{
-																	"fontsize" : [ 12.0 ],
 																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+																	"fontsize" : [ 12.0 ],
 																	"fontname" : [ "Arial" ]
 																}
 ,
@@ -12989,8 +13002,8 @@
 , 															{
 																"name" : "caption text",
 																"default" : 																{
-																	"fontsize" : [ 11.0 ],
-																	"fontface" : [ 2 ]
+																	"fontface" : [ 2 ],
+																	"fontsize" : [ 11.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -12999,9 +13012,9 @@
 , 															{
 																"name" : "section dividers",
 																"default" : 																{
+																	"fontface" : [ 3 ],
 																	"fontsize" : [ 15.0 ],
-																	"fontname" : [ "Arial" ],
-																	"fontface" : [ 3 ]
+																	"fontname" : [ "Arial" ]
 																}
 ,
 																"parentstyle" : "",
@@ -13020,9 +13033,9 @@
 , 															{
 																"name" : "titles",
 																"default" : 																{
+																	"fontface" : [ 1 ],
 																	"fontsize" : [ 20.0 ],
-																	"fontname" : [ "Arial" ],
-																	"fontface" : [ 1 ]
+																	"fontname" : [ "Arial" ]
 																}
 ,
 																"parentstyle" : "",
@@ -13592,8 +13605,8 @@
 										"styles" : [ 											{
 												"name" : "black on white",
 												"number" : 												{
-													"fontsize" : [ 12.0 ],
 													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+													"fontsize" : [ 12.0 ],
 													"fontname" : [ "Arial" ]
 												}
 ,
@@ -13617,8 +13630,8 @@
 , 											{
 												"name" : "caption text",
 												"default" : 												{
-													"fontsize" : [ 11.0 ],
-													"fontface" : [ 2 ]
+													"fontface" : [ 2 ],
+													"fontsize" : [ 11.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -13627,9 +13640,9 @@
 , 											{
 												"name" : "section dividers",
 												"default" : 												{
+													"fontface" : [ 3 ],
 													"fontsize" : [ 15.0 ],
-													"fontname" : [ "Arial" ],
-													"fontface" : [ 3 ]
+													"fontname" : [ "Arial" ]
 												}
 ,
 												"parentstyle" : "",
@@ -13648,9 +13661,9 @@
 , 											{
 												"name" : "titles",
 												"default" : 												{
+													"fontface" : [ 1 ],
 													"fontsize" : [ 20.0 ],
-													"fontname" : [ "Arial" ],
-													"fontface" : [ 1 ]
+													"fontname" : [ "Arial" ]
 												}
 ,
 												"parentstyle" : "",
@@ -15080,7 +15093,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 884.0, 79.0, 59.0, 19.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 0, 53, 1308, 818, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 123, 53, 1431, 818, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 
@@ -15174,10 +15187,10 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 20, 74, 660, 314 ],
+						"client_rect" : [ 814, 139, 1423, 455 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 30, 89, 670, 329 ]
+						"storage_rect" : [ 780, 524, 1380, 824 ]
 					}
 ,
 					"text" : "pattrstorage client @outputmode 4 @fileusagemode 1",
@@ -15241,7 +15254,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 5.0, 86.0, 59.0, 19.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 0, 53, 1308, 818, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 123, 53, 1431, 818, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 
@@ -15563,6 +15576,7 @@
 			"obj-5::obj-62::obj-28::obj-1::obj-26::obj-104" : [ "umenu[2]", "umenu", 0 ],
 			"obj-5::obj-62::obj-29::obj-1::obj-26::obj-104" : [ "umenu[1]", "umenu", 0 ],
 			"obj-5::obj-62::obj-30::obj-1::obj-26::obj-104" : [ "umenu", "umenu", 0 ],
+			"obj-8::obj-10" : [ "live.text[17]", "live.text[2]", 0 ],
 			"obj-8::obj-24" : [ "live.text[2]", "live.text[2]", 0 ],
 			"obj-8::obj-34" : [ "live.text[7]", "live.text[2]", 0 ],
 			"obj-8::obj-36" : [ "live.text[12]", "live.text[2]", 0 ],
@@ -15601,9 +15615,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Five.bank.txt",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Five",
-				"patcherrelativepath" : "../../patchers/Projects/Five",
+				"name" : "sine.bank.txt",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/media",
+				"patcherrelativepath" : "../../../MaxScore/media",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -15686,6 +15700,12 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "eye_on.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "qn.sender.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/network",
 				"patcherrelativepath" : "../../patchers/Library/Abstractions/network",
@@ -15763,9 +15783,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ThaiGong.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Five/Instruments",
-				"patcherrelativepath" : "../../patchers/Projects/Five/Instruments",
+				"name" : "sine.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/media",
+				"patcherrelativepath" : "../../../MaxScore/media",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -16233,8 +16253,8 @@
 			}
 , 			{
 				"name" : "my-LtoColl.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/utilities",
-				"patcherrelativepath" : "../../patchers/Library/Abstractions/utilities",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/extensions",
+				"patcherrelativepath" : "../../../MaxScore/patchers/extensions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -16386,16 +16406,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "3angle.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Five/Instruments",
-				"patcherrelativepath" : "../../patchers/Projects/Five/Instruments",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "first-int.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/Macaque/lib/abstractions",
-				"patcherrelativepath" : "../../../MaxScore/patchers/Macaque/lib/abstractions",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/extensions",
+				"patcherrelativepath" : "../../../MaxScore/patchers/extensions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -16411,27 +16424,6 @@
 				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/GUI",
 				"patcherrelativepath" : "../../patchers/Library/Abstractions/GUI",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Synth2.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Five/Instruments",
-				"patcherrelativepath" : "../../patchers/Projects/Five/Instruments",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Flauto.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Five/Instruments",
-				"patcherrelativepath" : "../../patchers/Projects/Five/Instruments",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Clarinetto.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Five/Instruments",
-				"patcherrelativepath" : "../../patchers/Projects/Five/Instruments",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -17573,10 +17565,6 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "sadam.empty.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "o.pack.mxo",
 				"type" : "iLaX"
 			}
@@ -17621,8 +17609,8 @@
 		"styles" : [ 			{
 				"name" : "black on white",
 				"number" : 				{
-					"fontsize" : [ 12.0 ],
 					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"fontsize" : [ 12.0 ],
 					"fontname" : [ "Arial" ]
 				}
 ,
@@ -17646,8 +17634,8 @@
 , 			{
 				"name" : "caption text",
 				"default" : 				{
-					"fontsize" : [ 11.0 ],
-					"fontface" : [ 2 ]
+					"fontface" : [ 2 ],
+					"fontsize" : [ 11.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -17656,9 +17644,9 @@
 , 			{
 				"name" : "section dividers",
 				"default" : 				{
+					"fontface" : [ 3 ],
 					"fontsize" : [ 15.0 ],
-					"fontname" : [ "Arial" ],
-					"fontface" : [ 3 ]
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
@@ -17677,9 +17665,9 @@
 , 			{
 				"name" : "titles",
 				"default" : 				{
+					"fontface" : [ 1 ],
 					"fontsize" : [ 20.0 ],
-					"fontname" : [ "Arial" ],
-					"fontface" : [ 1 ]
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",

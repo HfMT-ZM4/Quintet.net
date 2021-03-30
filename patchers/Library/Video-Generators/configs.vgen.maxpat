@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 10,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -137,7 +137,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 10,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -797,7 +797,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 10,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -971,7 +971,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 6,
+															"revision" : 10,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -3902,9 +3902,9 @@
 						"styles" : [ 							{
 								"name" : "comment_font_viewer",
 								"default" : 								{
+									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"fontname" : [ "Gill Sans" ],
-									"fontsize" : [ 12.0 ],
-									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3913,6 +3913,7 @@
 , 							{
 								"name" : "panel_black_grey_frame",
 								"default" : 								{
+									"color" : [ 0.682353, 0.705882, 0.776471, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -3921,8 +3922,7 @@
 										"angle" : -90.0,
 										"proportion" : 0.39
 									}
-,
-									"color" : [ 0.682353, 0.705882, 0.776471, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -3974,7 +3974,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 10,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4757,7 +4757,7 @@
 					"bordercolor" : [ 0.972549, 1.0, 1.0, 0.0 ],
 					"cols" : 3,
 					"colwidth" : 19,
-					"fgcolor" : [ 0.654901960784314, 0.572549019607843, 0.376470588235294, 1.0 ],
+					"fgcolor" : [ 0.874509803921569, 0.756862745098039, 0.494117647058824, 1.0 ],
 					"fontface" : 1,
 					"fontname" : "Gill Sans",
 					"fontsize" : 10.0,
@@ -4814,8 +4814,8 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"checkedcolor" : [ 0.835941, 0.83802, 0.894216, 1.0 ],
+					"bgcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 0.25 ],
+					"checkedcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 1.0 ],
 					"id" : "obj-7",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -4825,23 +4825,22 @@
 					"patching_rect" : [ 216.0, 297.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 78.0, 122.0, 20.0, 20.0 ],
+					"uncheckedcolor" : [ 0.874509803921569, 0.756862745098039, 0.494117647058824, 1.0 ],
 					"varname" : "random"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Gill Sans",
-					"fontsize" : 10.0,
 					"id" : "obj-8",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 151.0, 299.0, 47.0, 18.0 ],
+					"patching_rect" : [ 151.0, 299.0, 48.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 13.0, 124.0, 47.0, 18.0 ],
-					"text" : "Random:",
-					"textcolor" : [ 0.654901960784314, 0.572549019607843, 0.376470588235294, 1.0 ]
+					"style" : "comment_font_normal",
+					"text" : "Random:"
 				}
 
 			}
@@ -4869,17 +4868,15 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Gill Sans",
-					"fontsize" : 10.0,
 					"id" : "obj-10",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 151.0, 233.0, 43.0, 18.0 ],
+					"patching_rect" : [ 151.0, 233.0, 44.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 13.0, 58.0, 43.0, 18.0 ],
-					"text" : "Matrix:",
-					"textcolor" : [ 0.654901960784314, 0.572549019607843, 0.376470588235294, 1.0 ]
+					"style" : "comment_font_normal",
+					"text" : "Matrix:"
 				}
 
 			}
@@ -5004,11 +5001,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"fontface" : 1,
-					"fontname" : "Gill Sans",
-					"fontsize" : 10.0,
-					"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
 					"id" : "obj-25",
 					"maxclass" : "number",
 					"maximum" : 3,
@@ -5021,9 +5013,8 @@
 					"patching_rect" : [ 202.0, 208.0, 36.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 64.0, 33.0, 36.0, 20.0 ],
-					"textcolor" : [ 0.654901960784314, 0.572549019607843, 0.376470588235294, 1.0 ],
+					"style" : "number_brown",
 					"triangle" : 0,
-					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"triscale" : 0.9,
 					"varname" : "fields_x"
 				}
@@ -5048,7 +5039,7 @@
 					"patching_rect" : [ 237.0, 208.0, 36.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 99.0, 33.0, 36.0, 20.0 ],
-					"textcolor" : [ 0.654901960784314, 0.572549019607843, 0.376470588235294, 1.0 ],
+					"textcolor" : [ 0.874509803921569, 0.756862745098039, 0.494117647058824, 1.0 ],
 					"triangle" : 0,
 					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"triscale" : 0.9,
@@ -5058,8 +5049,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Gill Sans",
-					"fontsize" : 10.0,
 					"id" : "obj-27",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -5067,8 +5056,8 @@
 					"patching_rect" : [ 151.0, 208.0, 40.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 13.0, 33.0, 40.0, 18.0 ],
-					"text" : "Fields:",
-					"textcolor" : [ 0.654901960784314, 0.572549019607843, 0.376470588235294, 1.0 ]
+					"style" : "comment_font_normal",
+					"text" : "Fields:"
 				}
 
 			}
@@ -5084,7 +5073,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 30.0, 5.0, 90.0, 20.0 ],
 					"text" : "Configurations",
-					"textcolor" : [ 0.654901960784314, 0.572549019607843, 0.376470588235294, 1.0 ]
+					"textcolor" : [ 0.874509803921569, 0.756862745098039, 0.494117647058824, 1.0 ]
 				}
 
 			}
@@ -5105,19 +5094,14 @@
 			}
 , 			{
 				"box" : 				{
-					"angle" : 90.0,
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
 					"border" : 3,
-					"bordercolor" : [ 0.654901960784314, 0.572549019607843, 0.376470588235294, 1.0 ],
 					"id" : "obj-30",
 					"maxclass" : "panel",
-					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 138.0, 175.0, 160.0, 146.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 160.0, 146.0 ],
-					"proportion" : 0.554546,
 					"rounded" : 0,
 					"style" : "panel_middle_light"
 				}
@@ -5378,6 +5362,32 @@
 			}
  ],
 		"styles" : [ 			{
+				"name" : "comment_font_normal",
+				"default" : 				{
+					"textcolor" : [ 0.874509803921569, 0.756862745098039, 0.494117647058824, 1.0 ],
+					"fontname" : [ "Gill Sans" ],
+					"fontsize" : [ 10.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "number_brown",
+				"default" : 				{
+					"fontname" : [ "Gill Sans" ],
+					"textcolor_inverse" : [ 0.874509803921569, 0.756862745098039, 0.494117647058824, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.87, 0.82, 0.24, 1.0 ],
+					"accentcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"fontsize" : [ 10.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
 				"name" : "panel_blue_yellow",
 				"default" : 				{
 					"bgfillcolor" : 					{
@@ -5417,13 +5427,14 @@
 , 			{
 				"name" : "panel_middle_light",
 				"default" : 				{
+					"color" : [ 0.874509803921569, 0.756862745098039, 0.494117647058824, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
-						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"type" : "color",
+						"color" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
 						"color1" : [ 0.654902, 0.572549, 0.376471, 1.0 ],
 						"color2" : [ 0.0, 0.0, 0.0, 1.0 ],
 						"angle" : 90.0,
-						"proportion" : 0.663636,
+						"proportion" : 0.554546,
 						"autogradient" : 0,
 						"pt1" : [ 0.504951, 0.956522 ],
 						"pt2" : [ 0.504951, 0.0 ]

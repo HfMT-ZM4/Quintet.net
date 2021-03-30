@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 10,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 549.0, 303.0, 570.0, 557.0 ],
+		"rect" : [ 1048.0, 286.0, 570.0, 557.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -44,21 +44,20 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 201.0, 284.0, 34.0, 18.0 ],
+					"patching_rect" : [ 201.0, 284.0, 35.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 9.0, 119.0, 34.0, 18.0 ],
-					"style" : "comment_viewer_normal",
-					"text" : "Mode",
-					"textcolor" : [ 0.047058823529412, 0.423529411764706, 0.847058823529412, 1.0 ]
+					"style" : "comment_viewer_blue",
+					"text" : "Mode"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.898039215686275, 0.898039215686275, 0.898039215686275, 0.53 ],
+					"bgcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.898039215686275, 0.898039215686275, 0.898039215686275, 0.53 ],
+					"bgfillcolor_color" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 1.0 ],
 					"bgfillcolor_color1" : [ 0.745098039215686, 0.745098039215686, 0.745098039215686, 1.0 ],
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
@@ -74,7 +73,7 @@
 					"patching_rect" : [ 151.5, 307.0, 127.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 48.0, 118.0, 103.5, 20.0 ],
-					"textcolor" : [ 0.047058823529412, 0.423529411764706, 0.847058823529412, 1.0 ]
+					"textcolor" : [ 0.364705882352941, 0.415686274509804, 0.592156862745098, 1.0 ]
 				}
 
 			}
@@ -218,7 +217,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 10,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -543,7 +542,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 10,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -586,7 +585,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 163.0, 539.0, 132.0, 35.0 ],
-									"presentation_linecount" : 2,
 									"text" : "11.985 108.12 215.985 132.6"
 								}
 
@@ -1406,19 +1404,18 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 248.0, 201.0, 30.0, 18.0 ],
+					"patching_rect" : [ 248.0, 201.0, 31.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 9.0, 95.0, 30.0, 18.0 ],
-					"style" : "comment_viewer_normal",
-					"text" : "Tint",
-					"textcolor" : [ 0.047058823529412, 0.423529411764706, 0.847058823529412, 1.0 ]
+					"style" : "comment_viewer_blue",
+					"text" : "Tint"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.047058823529412, 0.423529411764706, 0.847058823529412, 1.0 ],
-					"checkedcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ],
+					"bgcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 0.25 ],
+					"checkedcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 1.0 ],
 					"id" : "obj-38",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -1428,6 +1425,7 @@
 					"patching_rect" : [ 253.0, 240.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 71.5, 95.0, 20.0, 20.0 ],
+					"uncheckedcolor" : [ 0.364705882352941, 0.415686274509804, 0.592156862745098, 1.0 ],
 					"varname" : "tint"
 				}
 
@@ -1438,12 +1436,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 170.0, 198.0, 34.0, 18.0 ],
+					"patching_rect" : [ 170.0, 198.0, 30.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 42.0, 42.0, 18.0 ],
-					"style" : "comment_viewer_normal",
-					"text" : "Steps",
-					"textcolor" : [ 0.047058823529412, 0.423529411764706, 0.847058823529412, 1.0 ]
+					"presentation_rect" : [ 9.0, 42.0, 38.0, 18.0 ],
+					"style" : "comment_viewer_blue",
+					"text" : "Steps"
 				}
 
 			}
@@ -1457,28 +1454,23 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 48.0, 1.0, 67.0, 20.0 ],
 					"style" : "comment_font_viewer",
-					"text" : "Eclipse 1",
-					"textcolor" : [ 0.047058823529412, 0.423529411764706, 0.847058823529412, 1.0 ]
+					"text" : "Eclipse #1",
+					"textcolor" : [ 0.364705882352941, 0.415686274509804, 0.592156862745098, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"angle" : -90.0,
-					"bgcolor" : [ 0.047058823529412, 0.423529411764706, 0.847058823529412, 0.0 ],
 					"border" : 3,
-					"bordercolor" : [ 0.047058823529412, 0.423529411764706, 0.847058823529412, 1.0 ],
 					"id" : "obj-43",
 					"maxclass" : "panel",
-					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 138.0, 175.0, 160.0, 160.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 160.0, 146.0 ],
-					"proportion" : 0.39,
 					"rounded" : 0,
-					"style" : "panel_grey_blue"
+					"style" : "panel_blue"
 				}
 
 			}
@@ -1670,12 +1662,32 @@
 
 			}
  ],
+		"dependency_cache" : [ 			{
+				"name" : "eclipse.genjit",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/jitter-examples/gen",
+				"patcherrelativepath" : "../../../../../../../Library/Application Support/Cycling '74/Max 8/Examples/jitter-examples/gen",
+				"type" : "gJIT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "comment_font_viewer",
 				"default" : 				{
-					"fontname" : [ "Gill Sans" ],
 					"fontsize" : [ 12.0 ],
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontname" : [ "Gill Sans" ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "comment_viewer_blue",
+				"default" : 				{
+					"fontsize" : [ 10.0 ],
+					"textcolor" : [ 0.364705882352941, 0.415686274509804, 0.592156862745098, 1.0 ],
+					"fontname" : [ "Gill Sans" ]
 				}
 ,
 				"parentstyle" : "",
@@ -1684,9 +1696,9 @@
 , 			{
 				"name" : "comment_viewer_normal",
 				"default" : 				{
-					"fontname" : [ "Arial" ],
 					"fontsize" : [ 10.0 ],
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 0.364705882352941, 0.415686274509804, 0.592156862745098, 1.0 ],
+					"fontname" : [ "Gill Sans" ]
 				}
 ,
 				"parentstyle" : "",
@@ -1695,13 +1707,13 @@
 , 			{
 				"name" : "number001",
 				"default" : 				{
-					"fontname" : [ "Arial" ],
-					"accentcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"selectioncolor" : [ 0.87, 0.82, 0.24, 1.0 ],
-					"fontface" : [ 1 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"fontsize" : [ 10.0 ]
+					"fontsize" : [ 10.0 ],
+					"fontname" : [ "Arial" ],
+					"accentcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1710,13 +1722,32 @@
 , 			{
 				"name" : "number_white",
 				"default" : 				{
-					"fontname" : [ "Gill Sans" ],
-					"accentcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"selectioncolor" : [ 0.87, 0.82, 0.24, 1.0 ],
-					"fontface" : [ 1 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"fontsize" : [ 10.0 ]
+					"fontsize" : [ 10.0 ],
+					"fontname" : [ "Gill Sans" ],
+					"accentcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"fontface" : [ 1 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "panel_blue",
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color" : [ 0.047058823529412, 0.423529411764706, 0.847058823529412, 0.0 ],
+						"color1" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+						"color2" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
+						"angle" : -90.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+,
+					"color" : [ 0.364705882352941, 0.415686274509804, 0.592156862745098, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1797,15 +1828,16 @@
 				"name" : "panel_grey_blue",
 				"default" : 				{
 					"bgfillcolor" : 					{
-						"type" : "gradient",
-						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"type" : "color",
+						"color" : [ 0.047058823529412, 0.423529411764706, 0.847058823529412, 0.0 ],
 						"color1" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 						"color2" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
 						"angle" : -90.0,
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
+,
+					"color" : [ 0.364705882352941, 0.415686274509804, 0.592156862745098, 1.0 ]
 				}
 ,
 				"parentstyle" : "panel_blue_grad",

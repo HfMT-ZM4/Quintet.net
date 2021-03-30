@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 10,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -45.0, -765.0, 820.0, 632.0 ],
+		"rect" : [ 508.0, 285.0, 820.0, 632.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -46,7 +46,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 97.0, 328.0, 136.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "bgcolor 0.169 0.169 0.169 1."
 				}
 
@@ -268,7 +267,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-19",
 					"maxclass" : "newobj",
-					"numinlets" : 4,
+					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "FullPacket" ],
 					"patching_rect" : [ 283.0, 38.0, 354.0, 22.0 ],
@@ -459,8 +458,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Gill Sans",
-					"fontsize" : 12.0,
 					"id" : "obj-39",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -468,26 +465,21 @@
 					"patching_rect" : [ 40.0, 16.0, 92.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 29.0, 2.0, 92.0, 20.0 ],
-					"text" : "Music Notation",
-					"textcolor" : [ 0.654901960784314, 0.572549019607843, 0.376470588235294, 1.0 ]
+					"style" : "comment_font_viewer-1",
+					"text" : "Music Notation"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"angle" : 90.0,
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
 					"border" : 3,
-					"bordercolor" : [ 0.654901960784314, 0.572549019607843, 0.376470588235294, 1.0 ],
 					"id" : "obj-41",
 					"maxclass" : "panel",
-					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 13.0, 14.0, 160.0, 146.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 160.0, 146.0 ],
-					"proportion" : 0.554546,
 					"rounded" : 0,
 					"style" : "panel_middle_light"
 				}
@@ -754,9 +746,105 @@
 
 			}
  ],
+		"dependency_cache" : [ 			{
+				"name" : "maxscore.bcanvas.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MaxScore/patchers/abstractions",
+				"patcherrelativepath" : "../../../../MaxScore/patchers/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pane.js",
+				"bootpath" : "~/Documents/Max 8/Packages/MaxScore/javascript",
+				"patcherrelativepath" : "../../../../MaxScore/javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "picster-select.js",
+				"bootpath" : "~/Documents/Max 8/Packages/MaxScore/javascript",
+				"patcherrelativepath" : "../../../../MaxScore/javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "render2canvas.js",
+				"bootpath" : "~/Documents/Max 8/Packages/MaxScore/javascript",
+				"patcherrelativepath" : "../../../../MaxScore/javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "maxscore.proportionalNotation.js",
+				"bootpath" : "~/Documents/Max 8/Packages/MaxScore/javascript",
+				"patcherrelativepath" : "../../../../MaxScore/javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "MaxScoreKeyMap.txt",
+				"bootpath" : "~/Documents/Max 8/Packages/MaxScore/patchers/maps",
+				"patcherrelativepath" : "../../../../MaxScore/patchers/maps",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mouseEvents.js",
+				"bootpath" : "~/Documents/Max 8/Packages/MaxScore/javascript",
+				"patcherrelativepath" : "../../../../MaxScore/javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "boxSize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/MaxScore/javascript",
+				"patcherrelativepath" : "../../../../MaxScore/javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jit.pane.js",
+				"bootpath" : "~/Documents/Max 8/Packages/MaxScore/javascript",
+				"patcherrelativepath" : "../../../../MaxScore/javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "socket.pane.js",
+				"bootpath" : "~/Documents/Max 8/Packages/MaxScore/javascript",
+				"patcherrelativepath" : "../../../../MaxScore/javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "n4m.max-fs.js",
+				"bootpath" : "C74:/packages/Node For Max/examples/filesystem",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "swissarmyknife.js",
+				"bootpath" : "~/Documents/Max 8/Packages/MaxScore/patchers/modules/MaxScore-Sampler",
+				"patcherrelativepath" : "../../../../MaxScore/patchers/modules/MaxScore-Sampler",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.route.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "black on white",
+				"number" : 				{
+					"fontname" : [ "Arial" ],
+					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"fontsize" : [ 12.0 ]
+				}
+,
 				"umenu" : 				{
+					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -766,14 +854,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
-				}
-,
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-					"fontsize" : [ 12.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -792,9 +873,20 @@
 , 			{
 				"name" : "comment_font_viewer",
 				"default" : 				{
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontname" : [ "Gill Sans" ],
-					"fontsize" : [ 12.0 ],
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"fontsize" : [ 12.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "comment_font_viewer-1",
+				"default" : 				{
+					"textcolor" : [ 0.874509803921569, 0.756862745098039, 0.494117647058824, 1.0 ],
+					"fontname" : [ "Gill Sans" ],
+					"fontsize" : [ 12.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -803,9 +895,9 @@
 , 			{
 				"name" : "comment_viewer_normal",
 				"default" : 				{
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontname" : [ "Arial" ],
-					"fontsize" : [ 10.0 ],
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -815,11 +907,11 @@
 				"name" : "number001",
 				"default" : 				{
 					"fontname" : [ "Arial" ],
-					"accentcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"selectioncolor" : [ 0.87, 0.82, 0.24, 1.0 ],
-					"fontface" : [ 1 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.87, 0.82, 0.24, 1.0 ],
+					"accentcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
@@ -829,6 +921,7 @@
 , 			{
 				"name" : "panel_black_grey_frame",
 				"default" : 				{
+					"color" : [ 0.682353, 0.705882, 0.776471, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -837,8 +930,7 @@
 						"angle" : -90.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.682353, 0.705882, 0.776471, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -918,9 +1010,10 @@
 , 			{
 				"name" : "panel_middle_light",
 				"default" : 				{
+					"color" : [ 0.874509803921569, 0.756862745098039, 0.494117647058824, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
-						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"type" : "color",
+						"color" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
 						"color1" : [ 0.654902, 0.572549, 0.376471, 1.0 ],
 						"color2" : [ 0.0, 0.0, 0.0, 1.0 ],
 						"angle" : 90.0,

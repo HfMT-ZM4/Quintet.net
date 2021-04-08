@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 217.0, 53.0, 1128.0, 785.0 ],
+		"rect" : [ 119.0, 53.0, 1128.0, 785.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -41,6 +41,20 @@
 		"title" : "Quintet.net Viewer",
 		"boxes" : [ 			{
 				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-40",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1035.0, 30.0, 57.0, 20.0 ],
+					"text" : "bottom-bar",
+					"varname" : "bottom-bar"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-1",
@@ -50,7 +64,7 @@
 					"patching_rect" : [ 992.0, 760.5, 126.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 983.5, 760.5, 128.0, 17.0 ],
-					"text" : "version 2021-03-02",
+					"text" : "version 2021-03-16",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "version"
 				}
@@ -4466,8 +4480,8 @@
 , 							{
 								"name" : "black on white",
 								"number" : 								{
-									"fontsize" : [ 12.0 ],
 									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+									"fontsize" : [ 12.0 ],
 									"fontname" : [ "Arial" ]
 								}
 ,
@@ -4491,8 +4505,8 @@
 , 							{
 								"name" : "caption text",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
-									"fontface" : [ 2 ]
+									"fontface" : [ 2 ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4501,9 +4515,9 @@
 , 							{
 								"name" : "comment_font_viewer",
 								"default" : 								{
-									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"fontsize" : [ 12.0 ],
-									"fontname" : [ "Gill Sans" ]
+									"fontname" : [ "Gill Sans" ],
+									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4512,9 +4526,9 @@
 , 							{
 								"name" : "comment_viewer_normal",
 								"default" : 								{
-									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4523,13 +4537,13 @@
 , 							{
 								"name" : "number001",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"selectioncolor" : [ 0.87, 0.82, 0.24, 1.0 ],
+									"fontface" : [ 1 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 1 ],
-									"accentcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"selectioncolor" : [ 0.87, 0.82, 0.24, 1.0 ]
+									"accentcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4538,13 +4552,13 @@
 , 							{
 								"name" : "number_white",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"selectioncolor" : [ 0.87, 0.82, 0.24, 1.0 ],
+									"fontface" : [ 1 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 									"fontname" : [ "Gill Sans" ],
-									"fontface" : [ 1 ],
-									"accentcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"selectioncolor" : [ 0.87, 0.82, 0.24, 1.0 ]
+									"accentcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4741,9 +4755,9 @@
 , 							{
 								"name" : "section dividers",
 								"default" : 								{
+									"fontface" : [ 3 ],
 									"fontsize" : [ 15.0 ],
-									"fontname" : [ "Arial" ],
-									"fontface" : [ 3 ]
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -4762,9 +4776,9 @@
 , 							{
 								"name" : "titles",
 								"default" : 								{
+									"fontface" : [ 1 ],
 									"fontsize" : [ 20.0 ],
-									"fontname" : [ "Arial" ],
-									"fontface" : [ 1 ]
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -4842,7 +4856,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 847.0, 30.0, 61.0, 19.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 217, 53, 1345, 838, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 119, 53, 1247, 838, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 
@@ -5060,7 +5074,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 9.0, 317.0, 54.0, 31.0 ],
-									"text" : "player.1::play 0"
+									"text" : "player.2::play 0"
 								}
 
 							}
@@ -5418,8 +5432,8 @@
 														"styles" : [ 															{
 																"name" : "black on white",
 																"number" : 																{
-																	"fontsize" : [ 12.0 ],
 																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+																	"fontsize" : [ 12.0 ],
 																	"fontname" : [ "Arial" ]
 																}
 ,
@@ -5443,8 +5457,8 @@
 , 															{
 																"name" : "caption text",
 																"default" : 																{
-																	"fontsize" : [ 11.0 ],
-																	"fontface" : [ 2 ]
+																	"fontface" : [ 2 ],
+																	"fontsize" : [ 11.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -5453,9 +5467,9 @@
 , 															{
 																"name" : "section dividers",
 																"default" : 																{
+																	"fontface" : [ 3 ],
 																	"fontsize" : [ 15.0 ],
-																	"fontname" : [ "Arial" ],
-																	"fontface" : [ 3 ]
+																	"fontname" : [ "Arial" ]
 																}
 ,
 																"parentstyle" : "",
@@ -5474,9 +5488,9 @@
 , 															{
 																"name" : "titles",
 																"default" : 																{
+																	"fontface" : [ 1 ],
 																	"fontsize" : [ 20.0 ],
-																	"fontname" : [ "Arial" ],
-																	"fontface" : [ 1 ]
+																	"fontname" : [ "Arial" ]
 																}
 ,
 																"parentstyle" : "",
@@ -9126,9 +9140,9 @@
 						"styles" : [ 							{
 								"name" : "comment_font_viewer",
 								"default" : 								{
-									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"fontsize" : [ 12.0 ],
-									"fontname" : [ "Gill Sans" ]
+									"fontname" : [ "Gill Sans" ],
+									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9137,9 +9151,9 @@
 , 							{
 								"name" : "comment_viewer_normal",
 								"default" : 								{
-									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11727,9 +11741,9 @@
 , 															{
 																"name" : "comment_font_viewer",
 																"default" : 																{
-																	"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 																	"fontsize" : [ 12.0 ],
-																	"fontname" : [ "Gill Sans" ]
+																	"fontname" : [ "Gill Sans" ],
+																	"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -11738,9 +11752,9 @@
 , 															{
 																"name" : "comment_viewer_normal",
 																"default" : 																{
-																	"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
-																	"fontname" : [ "Arial" ]
+																	"fontname" : [ "Arial" ],
+																	"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -11749,13 +11763,13 @@
 , 															{
 																"name" : "number001",
 																"default" : 																{
-																	"fontsize" : [ 10.0 ],
+																	"selectioncolor" : [ 0.87, 0.82, 0.24, 1.0 ],
+																	"fontface" : [ 1 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+																	"fontsize" : [ 10.0 ],
 																	"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 																	"fontname" : [ "Arial" ],
-																	"fontface" : [ 1 ],
-																	"accentcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"selectioncolor" : [ 0.87, 0.82, 0.24, 1.0 ]
+																	"accentcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -12436,13 +12450,13 @@
 																	"fontname" : "Arial",
 																	"fontsize" : 10.0,
 																	"id" : "obj-3",
-																	"linecount" : 2,
+																	"linecount" : 4,
 																	"maxclass" : "message",
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 157.0, 197.0, 80.0, 27.0 ],
-																	"text" : "param color 0. 0. 0. 1."
+																	"text" : "param color 0.066667 0.039216 0.023529 1. 1."
 																}
 
 															}
@@ -21695,8 +21709,8 @@
 			}
 , 			{
 				"name" : "swissarmyknife.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/modules/MaxScore-Sampler",
-				"patcherrelativepath" : "../../../MaxScore/patchers/modules/MaxScore-Sampler",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/javascript",
+				"patcherrelativepath" : "../../../MaxScore/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -21749,8 +21763,8 @@
 			}
 , 			{
 				"name" : "maxfolder.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/PatMap/javascript",
-				"patcherrelativepath" : "../../patchers/PatMap/javascript",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/javascript",
+				"patcherrelativepath" : "../../../MaxScore/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -21763,8 +21777,8 @@
 			}
 , 			{
 				"name" : "packback.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/abstractions",
-				"patcherrelativepath" : "../../../MaxScore/patchers/abstractions",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/utilities",
+				"patcherrelativepath" : "../../patchers/Library/Abstractions/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -22283,6 +22297,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "bottom-bar.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/GUI",
+				"patcherrelativepath" : "../../patchers/Library/Abstractions/GUI",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
@@ -22335,10 +22356,6 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "sadam.empty.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "o.prepend.mxo",
 				"type" : "iLaX"
 			}
@@ -22347,8 +22364,8 @@
 		"styles" : [ 			{
 				"name" : "black on white",
 				"number" : 				{
-					"fontsize" : [ 12.0 ],
 					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"fontsize" : [ 12.0 ],
 					"fontname" : [ "Arial" ]
 				}
 ,
@@ -22372,8 +22389,8 @@
 , 			{
 				"name" : "caption text",
 				"default" : 				{
-					"fontsize" : [ 11.0 ],
-					"fontface" : [ 2 ]
+					"fontface" : [ 2 ],
+					"fontsize" : [ 11.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -22402,9 +22419,9 @@
 , 			{
 				"name" : "section dividers",
 				"default" : 				{
+					"fontface" : [ 3 ],
 					"fontsize" : [ 15.0 ],
-					"fontname" : [ "Arial" ],
-					"fontface" : [ 3 ]
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
@@ -22423,9 +22440,9 @@
 , 			{
 				"name" : "titles",
 				"default" : 				{
+					"fontface" : [ 1 ],
 					"fontsize" : [ 20.0 ],
-					"fontname" : [ "Arial" ],
-					"fontface" : [ 1 ]
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",

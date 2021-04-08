@@ -51,7 +51,7 @@
 					"patching_rect" : [ 1180.5, 730.0, 99.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1185.0, 735.5, 114.0, 18.0 ],
-					"text" : "version 2021-03-16",
+					"text" : "version 2021-04-08",
 					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ],
 					"varname" : "version"
 				}
@@ -79,7 +79,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 164.0, 730.5, 194.0, 20.0 ],
-					"restore" : [ "drawsocketOutput", "{\"event\":{\"key\":\"mouse\",\"val\":{\"action\":\"mousemove\",\"xy\":[284,2],\"button\":0,\"mods\":{\"alt\":false,\"shift\":false,\"ctrl\":false,\"meta\":false},\"target\":{\"type\":\"svg\",\"id\":\"svg\",\"version\":\"1.1\",\"baseProfile\":\"full\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"xmlns:xlink\":\"http://www.w3.org/1999/xlink\",\"style\":\"background: rgb(254, 254, 240);\"}}}}" ],
+					"restore" : [ "title", "https://quintetnet.hfmt-hamburg.de/tunnel_webviewer/webview.html?fetch=tunnel_webviewer/scores/lindsay/dekompression-2.json&prefix=/2&21:40:06" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -101,7 +101,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 1142.0, 98.0, 200.0, 800.0 ],
 					"rendermode" : 1,
-					"url" : "https://hfmt.live/Tutorial?get=https://raw.githubusercontent.com/HfMT-ZM4/hfmt.live/master/quintetnet-video-peers.html",
+					"url" : "https://hfmt.live/untilted?get=https://raw.githubusercontent.com/HfMT-ZM4/hfmt.live/master/quintetnet-video-peers.html",
 					"varname" : "sidebar"
 				}
 
@@ -117,7 +117,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 160.0, 120.0, 980.0, 600.0 ],
 					"rendermode" : 1,
-					"url" : "localhost:3003/1",
+					"url" : "https://quintetnet.hfmt-hamburg.de/tunnel_webviewer/webview.html?fetch=tunnel_webviewer/scores/lindsay/dekompression-2.json&prefix=/2&21:40:06",
 					"varname" : "jweb"
 				}
 
@@ -453,7 +453,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 46.0, 156.0, 1197.0, 636.0 ],
+						"rect" : [ 199.0, 237.0, 1197.0, 636.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -482,6 +482,37 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-28",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 337.0, 314.0, 61.0, 22.0 ],
+									"restore" : [ "url", "https://quintetnet.hfmt-hamburg.de/tunnel_webviewer/webview.html?fetch=tunnel_webviewer/scores/lindsay/dekompression-2.json&prefix=/2&21:40:06" ],
+									"saved_object_attributes" : 									{
+										"parameter_enable" : 0,
+										"parameter_mappable" : 0
+									}
+,
+									"text" : "pattr jweb",
+									"varname" : "jweb"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 337.0, 381.0, 141.0, 22.0 ],
+									"text" : "pattrforward parent::jweb"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-4",
 									"maxclass" : "newobj",
@@ -1303,13 +1334,12 @@
 														"styles" : [ 															{
 																"name" : "black on white",
 																"number" : 																{
-																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+																	"fontname" : [ "Arial" ],
 																	"fontsize" : [ 12.0 ],
-																	"fontname" : [ "Arial" ]
+																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 																}
 ,
 																"umenu" : 																{
-																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 																	"bgfillcolor" : 																	{
 																		"type" : "color",
 																		"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -1319,7 +1349,8 @@
 																		"proportion" : 0.39,
 																		"autogradient" : 0
 																	}
-
+,
+																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -1338,9 +1369,9 @@
 , 															{
 																"name" : "section dividers",
 																"default" : 																{
+																	"fontname" : [ "Arial" ],
 																	"fontface" : [ 3 ],
-																	"fontsize" : [ 15.0 ],
-																	"fontname" : [ "Arial" ]
+																	"fontsize" : [ 15.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -1349,8 +1380,8 @@
 , 															{
 																"name" : "section info reg",
 																"default" : 																{
-																	"fontsize" : [ 12.0 ],
-																	"fontname" : [ "Arial" ]
+																	"fontname" : [ "Arial" ],
+																	"fontsize" : [ 12.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -1359,9 +1390,9 @@
 , 															{
 																"name" : "titles",
 																"default" : 																{
+																	"fontname" : [ "Arial" ],
 																	"fontface" : [ 1 ],
-																	"fontsize" : [ 20.0 ],
-																	"fontname" : [ "Arial" ]
+																	"fontsize" : [ 20.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -4723,6 +4754,18 @@
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
+													"id" : "obj-11",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 97.0, 559.0, 63.0, 22.0 ],
+													"text" : "scroll start"
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"fontsize" : 12.0,
 													"id" : "obj-3",
 													"maxclass" : "newobj",
@@ -4821,7 +4864,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 511.25, 690.0, 321.0, 48.0 ],
-													"text" : "/port/localhost : \"http://localhost:3003\",\n/port/ip : \"http://192.168.178.197:3003\""
+													"text" : "/stdout : \"received socket close /1 JtSlty9jLLn4BgBbmza3kg==\""
 												}
 
 											}
@@ -5970,13 +6013,12 @@
 														"styles" : [ 															{
 																"name" : "black on white",
 																"number" : 																{
-																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+																	"fontname" : [ "Arial" ],
 																	"fontsize" : [ 12.0 ],
-																	"fontname" : [ "Arial" ]
+																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 																}
 ,
 																"umenu" : 																{
-																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 																	"bgfillcolor" : 																	{
 																		"type" : "color",
 																		"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -5986,7 +6028,8 @@
 																		"proportion" : 0.39,
 																		"autogradient" : 0
 																	}
-
+,
+																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -6005,9 +6048,9 @@
 , 															{
 																"name" : "section dividers",
 																"default" : 																{
+																	"fontname" : [ "Arial" ],
 																	"fontface" : [ 3 ],
-																	"fontsize" : [ 15.0 ],
-																	"fontname" : [ "Arial" ]
+																	"fontsize" : [ 15.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -6016,8 +6059,8 @@
 , 															{
 																"name" : "section info reg",
 																"default" : 																{
-																	"fontsize" : [ 12.0 ],
-																	"fontname" : [ "Arial" ]
+																	"fontname" : [ "Arial" ],
+																	"fontsize" : [ 12.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -6026,9 +6069,9 @@
 , 															{
 																"name" : "titles",
 																"default" : 																{
+																	"fontname" : [ "Arial" ],
 																	"fontface" : [ 1 ],
-																	"fontsize" : [ 20.0 ],
-																	"fontname" : [ "Arial" ]
+																	"fontsize" : [ 20.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -6246,7 +6289,7 @@
 																	"numoutlets" : 3,
 																	"outlettype" : [ "", "", "" ],
 																	"patching_rect" : [ 61.333327999999995, 171.0, 402.0, 22.0 ],
-																	"restore" : [ "drawsocketOutput", "{\"event\":{\"key\":\"mouse\",\"val\":{\"action\":\"mousemove\",\"xy\":[284,2],\"button\":0,\"mods\":{\"alt\":false,\"shift\":false,\"ctrl\":false,\"meta\":false},\"target\":{\"type\":\"svg\",\"id\":\"svg\",\"version\":\"1.1\",\"baseProfile\":\"full\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"xmlns:xlink\":\"http://www.w3.org/1999/xlink\",\"style\":\"background: rgb(254, 254, 240);\"}}}}" ],
+																	"restore" : [ "title", "https://quintetnet.hfmt-hamburg.de/tunnel_webviewer/webview.html?fetch=tunnel_webviewer/scores/lindsay/dekompression-2.json&prefix=/2&21:40:06" ],
 																	"saved_object_attributes" : 																	{
 																		"parameter_enable" : 0,
 																		"parameter_mappable" : 0
@@ -6279,8 +6322,8 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 165.333327999999995, 448.0, 223.0, 22.0 ],
-																	"text" : "pattrforward parent::parent::parent::jweb"
+																	"patching_rect" : [ 165.333327999999995, 448.0, 272.0, 22.0 ],
+																	"text" : "pattrforward parent::parent::parent::receiver::jweb"
 																}
 
 															}
@@ -12964,13 +13007,12 @@
 														"styles" : [ 															{
 																"name" : "black on white",
 																"number" : 																{
-																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+																	"fontname" : [ "Arial" ],
 																	"fontsize" : [ 12.0 ],
-																	"fontname" : [ "Arial" ]
+																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 																}
 ,
 																"umenu" : 																{
-																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 																	"bgfillcolor" : 																	{
 																		"type" : "color",
 																		"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -12980,7 +13022,8 @@
 																		"proportion" : 0.39,
 																		"autogradient" : 0
 																	}
-
+,
+																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -12999,9 +13042,9 @@
 , 															{
 																"name" : "section dividers",
 																"default" : 																{
+																	"fontname" : [ "Arial" ],
 																	"fontface" : [ 3 ],
-																	"fontsize" : [ 15.0 ],
-																	"fontname" : [ "Arial" ]
+																	"fontsize" : [ 15.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -13010,8 +13053,8 @@
 , 															{
 																"name" : "section info reg",
 																"default" : 																{
-																	"fontsize" : [ 12.0 ],
-																	"fontname" : [ "Arial" ]
+																	"fontname" : [ "Arial" ],
+																	"fontsize" : [ 12.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -13020,9 +13063,9 @@
 , 															{
 																"name" : "titles",
 																"default" : 																{
+																	"fontname" : [ "Arial" ],
 																	"fontface" : [ 1 ],
-																	"fontsize" : [ 20.0 ],
-																	"fontname" : [ "Arial" ]
+																	"fontsize" : [ 20.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -13197,6 +13240,13 @@
 												"patchline" : 												{
 													"destination" : [ "obj-45", 0 ],
 													"source" : [ "obj-10", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-14", 0 ],
+													"source" : [ "obj-11", 0 ]
 												}
 
 											}
@@ -13592,13 +13642,12 @@
 										"styles" : [ 											{
 												"name" : "black on white",
 												"number" : 												{
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+													"fontname" : [ "Arial" ],
 													"fontsize" : [ 12.0 ],
-													"fontname" : [ "Arial" ]
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 												}
 ,
 												"umenu" : 												{
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 													"bgfillcolor" : 													{
 														"type" : "color",
 														"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -13608,7 +13657,8 @@
 														"proportion" : 0.39,
 														"autogradient" : 0
 													}
-
+,
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -13627,9 +13677,9 @@
 , 											{
 												"name" : "section dividers",
 												"default" : 												{
+													"fontname" : [ "Arial" ],
 													"fontface" : [ 3 ],
-													"fontsize" : [ 15.0 ],
-													"fontname" : [ "Arial" ]
+													"fontsize" : [ 15.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -13638,8 +13688,8 @@
 , 											{
 												"name" : "section info reg",
 												"default" : 												{
-													"fontsize" : [ 12.0 ],
-													"fontname" : [ "Arial" ]
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 12.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -13648,9 +13698,9 @@
 , 											{
 												"name" : "titles",
 												"default" : 												{
+													"fontname" : [ "Arial" ],
 													"fontface" : [ 1 ],
-													"fontsize" : [ 20.0 ],
-													"fontname" : [ "Arial" ]
+													"fontsize" : [ 20.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -14151,7 +14201,7 @@
 									"numoutlets" : 13,
 									"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "FullPacket" ],
 									"patching_rect" : [ 337.0, 205.0, 581.105263157894797, 22.0 ],
-									"text" : "o.route /bogus /cursor /chat /clock /client /annotation /command /id /project /SPAT /projects /download"
+									"text" : "o.route /browser /cursor /chat /clock /client /annotation /command /id /project /SPAT /projects /download"
 								}
 
 							}
@@ -14673,6 +14723,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-28", 0 ],
+									"source" : [ "obj-16", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-40", 0 ],
 									"source" : [ "obj-16", 3 ]
 								}
@@ -14867,6 +14924,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-28", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-27", 0 ],
 									"source" : [ "obj-29", 0 ]
 								}
@@ -15053,6 +15117,74 @@
 								}
 
 							}
+ ],
+						"styles" : [ 							{
+								"name" : "black on white",
+								"number" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+								}
+,
+								"umenu" : 								{
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+,
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "caption text",
+								"default" : 								{
+									"fontface" : [ 2 ],
+									"fontsize" : [ 11.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "section dividers",
+								"default" : 								{
+									"fontname" : [ "Arial" ],
+									"fontface" : [ 3 ],
+									"fontsize" : [ 15.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "section info reg",
+								"default" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "titles",
+								"default" : 								{
+									"fontname" : [ "Arial" ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 20.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
  ]
 					}
 ,
@@ -15174,10 +15306,10 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 1187, 252, 1796, 568 ],
+						"client_rect" : [ 20, 74, 660, 314 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 780, 524, 1380, 824 ]
+						"storage_rect" : [ 30, 89, 670, 329 ]
 					}
 ,
 					"text" : "pattrstorage client @outputmode 4 @fileusagemode 1",
@@ -15602,9 +15734,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Tutorial.bank.txt",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial",
-				"patcherrelativepath" : "../../patchers/Projects/Tutorial",
+				"name" : "sine.bank.txt",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/media",
+				"patcherrelativepath" : "../../../MaxScore/media",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -15700,13 +15832,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Cycle~.input.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial/Inputs",
-				"patcherrelativepath" : "../../patchers/Projects/Tutorial/Inputs",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "Pitch_Tracker.input.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Inputs",
 				"patcherrelativepath" : "../../patchers/Library/Inputs",
@@ -15777,9 +15902,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Bandoneon.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial/Instruments",
-				"patcherrelativepath" : "../../patchers/Projects/Tutorial/Instruments",
+				"name" : "sine.instr",
+				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/media",
+				"patcherrelativepath" : "../../../MaxScore/media",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -16100,8 +16225,8 @@
 			}
 , 			{
 				"name" : "qn.envelopes.txt",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/modules/MaxScore-Sampler",
-				"patcherrelativepath" : "../../../MaxScore/patchers/modules/MaxScore-Sampler",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Data",
+				"patcherrelativepath" : "../../patchers/Library/Data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -16163,8 +16288,8 @@
 			}
 , 			{
 				"name" : "my-change.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/Macaque/lib/abstractions",
-				"patcherrelativepath" : "../../../MaxScore/patchers/Macaque/lib/abstractions",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/utilities",
+				"patcherrelativepath" : "../../patchers/Library/Abstractions/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -16247,8 +16372,8 @@
 			}
 , 			{
 				"name" : "my-LtoColl.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/extensions",
-				"patcherrelativepath" : "../../../MaxScore/patchers/extensions",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/utilities",
+				"patcherrelativepath" : "../../patchers/Library/Abstractions/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -16400,16 +16525,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Bell-1.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial/Instruments",
-				"patcherrelativepath" : "../../patchers/Projects/Tutorial/Instruments",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "first-int.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/extensions",
-				"patcherrelativepath" : "../../../MaxScore/patchers/extensions",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/utilities",
+				"patcherrelativepath" : "../../patchers/Library/Abstractions/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -16428,142 +16546,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "FretSound.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial/Instruments",
-				"patcherrelativepath" : "../../patchers/Projects/Tutorial/Instruments",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Cymbales_Antiques.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial/Instruments",
-				"patcherrelativepath" : "../../patchers/Projects/Tutorial/Instruments",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Stopped_Piano.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial/Instruments",
-				"patcherrelativepath" : "../../patchers/Projects/Tutorial/Instruments",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Marimba.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial/Instruments",
-				"patcherrelativepath" : "../../patchers/Projects/Tutorial/Instruments",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "percussion_glockenspiel_Glockenspiel-beaters_ordinario.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial/Instruments",
-				"patcherrelativepath" : "../../patchers/Projects/Tutorial/Instruments",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Celeste.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial/Instruments",
-				"patcherrelativepath" : "../../patchers/Projects/Tutorial/Instruments",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Venus_Pad.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial/Instruments",
-				"patcherrelativepath" : "../../patchers/Projects/Tutorial/Instruments",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Galaxis.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial/Instruments",
-				"patcherrelativepath" : "../../patchers/Projects/Tutorial/Instruments",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Equinox.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial/Instruments",
-				"patcherrelativepath" : "../../patchers/Projects/Tutorial/Instruments",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "E-Pad.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial/Instruments",
-				"patcherrelativepath" : "../../patchers/Projects/Tutorial/Instruments",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Synth_1980.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial/Instruments",
-				"patcherrelativepath" : "../../patchers/Projects/Tutorial/Instruments",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Mini_Moog.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial/Instruments",
-				"patcherrelativepath" : "../../patchers/Projects/Tutorial/Instruments",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Digi_Vocal.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial/Instruments",
-				"patcherrelativepath" : "../../patchers/Projects/Tutorial/Instruments",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Dark_Monkey.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial/Instruments",
-				"patcherrelativepath" : "../../patchers/Projects/Tutorial/Instruments",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Wave_4.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial/Instruments",
-				"patcherrelativepath" : "../../patchers/Projects/Tutorial/Instruments",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Kalimbell.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial/Instruments",
-				"patcherrelativepath" : "../../patchers/Projects/Tutorial/Instruments",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Dreamers.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial/Instruments",
-				"patcherrelativepath" : "../../patchers/Projects/Tutorial/Instruments",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Hi_Voweler.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial/Instruments",
-				"patcherrelativepath" : "../../patchers/Projects/Tutorial/Instruments",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Bell-2.instr",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Tutorial/Instruments",
-				"patcherrelativepath" : "../../patchers/Projects/Tutorial/Instruments",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "packback.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/abstractions",
-				"patcherrelativepath" : "../../../MaxScore/patchers/abstractions",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/utilities",
+				"patcherrelativepath" : "../../patchers/Library/Abstractions/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -17365,8 +17350,8 @@
 			}
 , 			{
 				"name" : "my-makenote.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/Macaque/lib/abstractions",
-				"patcherrelativepath" : "../../../MaxScore/patchers/Macaque/lib/abstractions",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/utilities",
+				"patcherrelativepath" : "../../patchers/Library/Abstractions/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -17743,13 +17728,12 @@
 		"styles" : [ 			{
 				"name" : "black on white",
 				"number" : 				{
-					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"fontname" : [ "Arial" ],
 					"fontsize" : [ 12.0 ],
-					"fontname" : [ "Arial" ]
+					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 				}
 ,
 				"umenu" : 				{
-					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -17759,7 +17743,8 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
+,
+					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -17778,9 +17763,9 @@
 , 			{
 				"name" : "section dividers",
 				"default" : 				{
+					"fontname" : [ "Arial" ],
 					"fontface" : [ 3 ],
-					"fontsize" : [ 15.0 ],
-					"fontname" : [ "Arial" ]
+					"fontsize" : [ 15.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -17789,8 +17774,8 @@
 , 			{
 				"name" : "section info reg",
 				"default" : 				{
-					"fontsize" : [ 12.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 12.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -17799,9 +17784,9 @@
 , 			{
 				"name" : "titles",
 				"default" : 				{
+					"fontname" : [ "Arial" ],
 					"fontface" : [ 1 ],
-					"fontsize" : [ 20.0 ],
-					"fontname" : [ "Arial" ]
+					"fontsize" : [ 20.0 ]
 				}
 ,
 				"parentstyle" : "",

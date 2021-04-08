@@ -22,7 +22,7 @@ Get from http://www.computermusicnotation.com/downloadmaxscore/.
 Download the most recent GitHub repo from https://github.com/CNMAT/CNMAT-odot/releases to your Max 8/Packages folder
 
 ## Java
-Quintet.net and MaxScore also require the installation of the Java SDK which you can find [here](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html) for your operation system.
+Quintet.net and MaxScore also require the installation of the JDK. As of MaxScore 1.2, the JDK Installer is included in the download.
 
 ## zero
 In Max, use the Package Manager to download the _zero_ package. This will enable the zeroconf protocol, useful in local network performance.

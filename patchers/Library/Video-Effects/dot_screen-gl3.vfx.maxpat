@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 4,
+			"revision" : 10,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 94.0, -456.0, 561.0, 320.0 ],
+		"rect" : [ 374.0, 676.0, 561.0, 320.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,44 +40,35 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontname" : "Gill Sans",
-					"fontsize" : 11.0,
 					"id" : "obj-2",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 77.0, 156.0, 67.0, 19.0 ],
+					"patching_rect" : [ 77.0, 156.0, 64.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 12.0, 91.0, 67.0, 19.0 ],
-					"text" : "Width",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"presentation_rect" : [ 12.0, 91.0, 64.0, 18.0 ],
+					"style" : "comment_viewer_blue",
+					"text" : "Width"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Gill Sans",
-					"fontsize" : 11.0,
 					"id" : "obj-1",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 77.0, 115.5, 55.0, 19.0 ],
+					"patching_rect" : [ 77.0, 115.5, 51.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 60.0, 55.0, 19.0 ],
-					"text" : "Angle",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"presentation_rect" : [ 11.0, 60.0, 51.0, 18.0 ],
+					"style" : "comment_viewer_blue",
+					"text" : "Angle"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"fontface" : 1,
-					"fontname" : "Gill Sans",
-					"fontsize" : 10.0,
 					"format" : 6,
-					"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
 					"id" : "obj-4",
 					"maxclass" : "flonum",
 					"maximum" : 10.0,
@@ -86,12 +77,11 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 142.0, 155.0, 37.0, 20.0 ],
+					"patching_rect" : [ 142.0, 155.0, 38.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 77.0, 90.0, 37.0, 20.0 ],
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"style" : "number_blue_n",
 					"triangle" : 0,
-					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"triscale" : 0.9,
 					"varname" : "width"
 				}
@@ -237,7 +227,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 10,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -271,7 +261,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-27",
@@ -771,24 +760,18 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"fontface" : 1,
-					"fontname" : "Gill Sans",
-					"fontsize" : 10.0,
 					"format" : 6,
-					"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
 					"id" : "obj-49",
 					"maxclass" : "flonum",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 143.0, 117.5, 39.0, 20.0 ],
+					"patching_rect" : [ 143.0, 117.5, 40.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 77.0, 62.0, 39.0, 20.0 ],
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"style" : "number_blue_n",
 					"triangle" : 0,
-					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"triscale" : 0.9,
 					"varname" : "angle"
 				}
@@ -817,31 +800,30 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Gill Sans",
-					"fontsize" : 12.0,
 					"id" : "obj-66",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 97.0, 73.0, 98.0, 20.0 ],
+					"patching_rect" : [ 97.0, 73.0, 105.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 32.0, 5.0, 98.0, 20.0 ],
-					"text" : "Dot Screen (gl3) 2",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"presentation_rect" : [ 32.0, 5.0, 105.0, 20.0 ],
+					"style" : "comment_header_blue",
+					"text" : "Dot Screen (gl3) #1"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-3",
+					"border" : 3,
+					"id" : "obj-43",
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 66.0, 69.0, 160.0, 160.0 ],
+					"patching_rect" : [ 138.0, 175.0, 160.0, 160.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 160.0, 146.0 ],
 					"rounded" : 0,
-					"style" : "panel_grey_blue"
+					"style" : "panel_blue"
 				}
 
 			}
@@ -922,11 +904,62 @@
 
 			}
  ],
+		"dependency_cache" : [ 			{
+				"name" : "divmod.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MaxScore/patchers/DJster/core",
+				"patcherrelativepath" : "../../../../MaxScore/patchers/DJster/core",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "comment_font_viewer",
 				"default" : 				{
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 12.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontname" : [ "Gill Sans" ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "comment_green",
+				"default" : 				{
+					"fontsize" : [ 10.0 ],
+					"textcolor" : [ 0.545098039215686, 0.76078431372549, 0.431372549019608, 1.0 ],
+					"fontname" : [ "Gill Sans" ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "comment_header_blue",
+				"default" : 				{
+					"fontsize" : [ 12.0 ],
+					"textcolor" : [ 0.364705882352941, 0.415686274509804, 0.592156862745098, 1.0 ],
+					"fontname" : [ "Gill Sans" ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "comment_header_green",
+				"default" : 				{
+					"textcolor" : [ 0.545098039215686, 0.76078431372549, 0.431372549019608, 1.0 ]
+				}
+,
+				"parentstyle" : "comment_font_viewer",
+				"multi" : 0
+			}
+, 			{
+				"name" : "comment_viewer_blue",
+				"default" : 				{
+					"fontsize" : [ 10.0 ],
+					"textcolor" : [ 0.364705882352941, 0.415686274509804, 0.592156862745098, 1.0 ],
 					"fontname" : [ "Gill Sans" ]
 				}
 ,
@@ -936,8 +969,8 @@
 , 			{
 				"name" : "comment_viewer_normal",
 				"default" : 				{
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontname" : [ "Arial" ]
 				}
 ,
@@ -947,13 +980,77 @@
 , 			{
 				"name" : "number001",
 				"default" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"fontsize" : [ 10.0 ],
 					"selectioncolor" : [ 0.87, 0.82, 0.24, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"fontsize" : [ 10.0 ],
 					"fontname" : [ "Arial" ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+					"accentcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"fontface" : [ 1 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "number_blue_n",
+				"default" : 				{
+					"selectioncolor" : [ 0.87, 0.82, 0.24, 1.0 ],
+					"textcolor_inverse" : [ 0.364705882352941, 0.415686274509804, 0.592156862745098, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"fontsize" : [ 10.0 ],
+					"fontname" : [ "Gill Sans" ],
+					"accentcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"fontface" : [ 1 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "number_green",
+				"default" : 				{
+					"selectioncolor" : [ 0.87, 0.82, 0.24, 1.0 ],
+					"textcolor_inverse" : [ 0.545098039215686, 0.76078431372549, 0.431372549019608, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"fontsize" : [ 10.0 ],
+					"fontname" : [ "Gill Sans" ],
+					"accentcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"fontface" : [ 1 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "number_white",
+				"default" : 				{
+					"selectioncolor" : [ 0.87, 0.82, 0.24, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"fontsize" : [ 10.0 ],
+					"fontname" : [ "Gill Sans" ],
+					"accentcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"fontface" : [ 1 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "panel_blue",
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color" : [ 0.047058823529412, 0.423529411764706, 0.847058823529412, 0.0 ],
+						"color1" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+						"color2" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
+						"angle" : -90.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+,
+					"color" : [ 0.364705882352941, 0.415686274509804, 0.592156862745098, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -996,6 +1093,25 @@
 				"multi" : 0
 			}
 , 			{
+				"name" : "panel_green",
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color" : [ 0.047058823529412, 0.423529411764706, 0.847058823529412, 0.0 ],
+						"color1" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+						"color2" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
+						"angle" : -90.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+,
+					"color" : [ 0.545098039215686, 0.76078431372549, 0.431372549019608, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
 				"name" : "panel_green_grad",
 				"default" : 				{
 					"bgfillcolor" : 					{
@@ -1032,6 +1148,24 @@
 				"multi" : 0
 			}
 , 			{
+				"name" : "panel_green_grey_more",
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color1" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+						"color2" : [ 0.439216, 0.74902, 0.254902, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.44686,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
 				"name" : "panel_grey_blue",
 				"default" : 				{
 					"bgfillcolor" : 					{
@@ -1047,6 +1181,126 @@
 				}
 ,
 				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "panel_middle_brown",
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
+						"color1" : [ 0.654902, 0.572549, 0.376471, 1.0 ],
+						"color2" : [ 0.0, 0.0, 0.0, 1.0 ],
+						"angle" : 90.0,
+						"proportion" : 0.554546,
+						"autogradient" : 0,
+						"pt1" : [ 0.504951, 0.956522 ],
+						"pt2" : [ 0.504951, 0.0 ]
+					}
+,
+					"color" : [ 0.874509803921569, 0.756862745098039, 0.494117647058824, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "panel_middle_light",
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
+						"color1" : [ 0.654902, 0.572549, 0.376471, 1.0 ],
+						"color2" : [ 0.0, 0.0, 0.0, 1.0 ],
+						"angle" : 90.0,
+						"proportion" : 0.554546,
+						"autogradient" : 0,
+						"pt1" : [ 0.504951, 0.956522 ],
+						"pt2" : [ 0.504951, 0.0 ]
+					}
+,
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "tab_green",
+				"default" : 				{
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontsize" : [ 10.0 ],
+					"fontname" : [ "Gill Sans" ],
+					"color" : [ 0.6, 0.6, 0.6, 1.0 ],
+					"elementcolor" : [ 0.85, 0.85, 0.85, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "textbutton_green",
+				"default" : 				{
+					"bgcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 0.25 ],
+					"fontsize" : [ 10.0 ],
+					"fontname" : [ "Gill Sans" ],
+					"accentcolor" : [ 0.592157, 0.74902, 0.466667, 1.0 ],
+					"color" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 1.0 ],
+					"elementcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 0.25 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "textedit_green",
+				"default" : 				{
+					"textcolor_inverse" : [ 0.545098039215686, 0.76078431372549, 0.431372549019608, 1.0 ],
+					"bgcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 0.25 ],
+					"fontsize" : [ 10.0 ],
+					"fontname" : [ "Gill Sans" ],
+					"elementcolor" : [ 0.545098039215686, 0.76078431372549, 0.431372549019608, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "toggle_green",
+				"parentstyle" : "toggle_grey",
+				"multi" : 0
+			}
+, 			{
+				"name" : "toggle_grey",
+				"default" : 				{
+					"bgcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 0.25 ],
+					"color" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 1.0 ],
+					"elementcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 0.25 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "umenu_green",
+				"default" : 				{
+					"textcolor_inverse" : [ 0.545098039215686, 0.76078431372549, 0.431372549019608, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 0.25 ],
+						"color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+						"color" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 0.25 ],
+						"angle" : 270.0,
+						"autogradient" : 0.0,
+						"proportion" : 0.5
+					}
+,
+					"fontname" : [ "Gill Sans" ],
+					"color" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 1.0 ],
+					"elementcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 0.25 ]
+				}
+,
+				"parentstyle" : "comment_viewer_normal",
 				"multi" : 0
 			}
  ],

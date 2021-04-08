@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 10,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -87,9 +87,8 @@
 					"fontsize" : 12.0,
 					"id" : "obj-75",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numinlets" : 1,
+					"numoutlets" : 0,
 					"patching_rect" : [ 461.893951000000015, 330.0, 266.0, 22.0 ],
 					"text" : "jit.gl.syphonserver @servername #1_Quintet.net"
 				}
@@ -925,19 +924,14 @@
 			}
 , 			{
 				"box" : 				{
-					"angle" : 90.0,
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
 					"border" : 3,
-					"bordercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-54",
 					"maxclass" : "panel",
-					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 35.0, 331.0, 160.0, 146.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 160.0, 146.0 ],
-					"proportion" : 0.554546,
 					"rounded" : 0,
 					"style" : "panel_middle_light"
 				}
@@ -1399,12 +1393,21 @@
 
 			}
  ],
+		"dependency_cache" : [ 			{
+				"name" : "boxposition.js",
+				"bootpath" : "~/Documents/Max 8/Packages/Quintet.net/javascript",
+				"patcherrelativepath" : "../../../../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "comment_font_viewer",
 				"default" : 				{
-					"fontname" : [ "Gill Sans" ],
 					"fontsize" : [ 12.0 ],
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontname" : [ "Gill Sans" ]
 				}
 ,
 				"parentstyle" : "",
@@ -1413,9 +1416,9 @@
 , 			{
 				"name" : "comment_viewer_normal",
 				"default" : 				{
-					"fontname" : [ "Arial" ],
 					"fontsize" : [ 10.0 ],
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
@@ -1424,6 +1427,7 @@
 , 			{
 				"name" : "message001",
 				"default" : 				{
+					"fontsize" : [ 10.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.0, 0.078431, 0.321569, 1.0 ],
@@ -1434,8 +1438,7 @@
 						"autogradient" : 0.0
 					}
 ,
-					"fontname" : [ "Arial" ],
-					"fontsize" : [ 10.0 ]
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
@@ -1517,8 +1520,8 @@
 				"name" : "panel_middle_light",
 				"default" : 				{
 					"bgfillcolor" : 					{
-						"type" : "gradient",
-						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"type" : "color",
+						"color" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
 						"color1" : [ 0.654902, 0.572549, 0.376471, 1.0 ],
 						"color2" : [ 0.0, 0.0, 0.0, 1.0 ],
 						"angle" : 90.0,
@@ -1527,7 +1530,8 @@
 						"pt1" : [ 0.504951, 0.956522 ],
 						"pt2" : [ 0.504951, 0.0 ]
 					}
-
+,
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "panel_middle",

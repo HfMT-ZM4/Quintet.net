@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 10,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 676.0, 259.0, 381.0, 594.0 ],
+		"rect" : [ 676.0, 259.0, 533.0, 402.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -54,7 +54,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 30.0, 63.5, 100.0, 20.0 ],
 					"text" : "Open Canvas",
-					"textcolor" : [ 0.654901960784314, 0.572549019607843, 0.376470588235294, 1.0 ],
+					"textcolor" : [ 0.874509803921569, 0.756862745098039, 0.494117647058824, 1.0 ],
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
 					"usebgoncolor" : 1,
@@ -320,7 +320,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 55.5, 5.0, 45.0, 20.0 ],
 					"text" : "Painter",
-					"textcolor" : [ 0.654901960784314, 0.572549019607843, 0.376470588235294, 1.0 ]
+					"textcolor" : [ 0.874509803921569, 0.756862745098039, 0.494117647058824, 1.0 ]
 				}
 
 			}
@@ -423,7 +423,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 10,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -497,7 +497,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 10,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -664,7 +664,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 10,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1568,9 +1568,9 @@
 										"styles" : [ 											{
 												"name" : "comment_font_viewer",
 												"default" : 												{
+													"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 													"fontname" : [ "Gill Sans" ],
-													"fontsize" : [ 12.0 ],
-													"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+													"fontsize" : [ 12.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -1579,6 +1579,7 @@
 , 											{
 												"name" : "panel_black_grey_frame",
 												"default" : 												{
+													"color" : [ 0.682353, 0.705882, 0.776471, 1.0 ],
 													"bgfillcolor" : 													{
 														"type" : "gradient",
 														"color1" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -1587,8 +1588,7 @@
 														"angle" : -90.0,
 														"proportion" : 0.39
 													}
-,
-													"color" : [ 0.682353, 0.705882, 0.776471, 1.0 ]
+
 												}
 ,
 												"parentstyle" : "",
@@ -1986,7 +1986,7 @@
 					"angle" : 90.0,
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
 					"border" : 3,
-					"bordercolor" : [ 0.654901960784314, 0.572549019607843, 0.376470588235294, 1.0 ],
+					"bordercolor" : [ 0.874509803921569, 0.756862745098039, 0.494117647058824, 1.0 ],
 					"id" : "obj-32",
 					"maxclass" : "panel",
 					"mode" : 0,

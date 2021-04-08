@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 10,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -68,7 +68,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 10,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -419,18 +419,9 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.494117647058824, 0.494117647058824, 0.517647058823529, 0.25 ],
-					"bgfillcolor_angle" : 270.0,
-					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.494117647058824, 0.494117647058824, 0.517647058823529, 0.25 ],
-					"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"bgfillcolor_proportion" : 0.39,
-					"bgfillcolor_type" : "color",
 					"depth" : 1,
-					"fontface" : 1,
 					"id" : "obj-1",
-					"items" : [ "audio", ",", "bpf", ",", "findbounds", ",", "hi", ",", "linear", ",", "lissajous", ",", "midi", ",", "network", ",", "video-randomizer", ",", "wacom" ],
+					"items" : [ "audio", ",", "bpf", ",", "findbounds", ",", "hi", ",", "linear", ",", "lissajous", ",", "midi", ",", "network", ",", "video-randomizer" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -441,7 +432,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 507.0, 3.0, 134.0, 20.0 ],
 					"style" : "umenu001_white",
-					"textcolor" : [ 0.596078, 0.333333, 0.388235, 1.0 ],
 					"varname" : "curve_3"
 				}
 
@@ -461,7 +451,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 10,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -857,7 +847,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 10,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1177,7 +1167,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 10,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1469,18 +1459,9 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.494117647058824, 0.494117647058824, 0.517647058823529, 0.25 ],
-					"bgfillcolor_angle" : 270.0,
-					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.494117647058824, 0.494117647058824, 0.517647058823529, 0.25 ],
-					"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"bgfillcolor_proportion" : 0.39,
-					"bgfillcolor_type" : "color",
 					"depth" : 1,
-					"fontface" : 1,
 					"id" : "obj-10",
-					"items" : [ "audio", ",", "bpf", ",", "findbounds", ",", "hi", ",", "linear", ",", "lissajous", ",", "midi", ",", "network", ",", "video-randomizer", ",", "wacom" ],
+					"items" : [ "audio", ",", "bpf", ",", "findbounds", ",", "hi", ",", "linear", ",", "lissajous", ",", "midi", ",", "network", ",", "video-randomizer" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1491,25 +1472,15 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 828.0, 3.0, 135.0, 20.0 ],
 					"style" : "umenu001_white",
-					"textcolor" : [ 0.596078, 0.333333, 0.388235, 1.0 ],
 					"varname" : "curve_5"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.494117647058824, 0.494117647058824, 0.517647058823529, 0.25 ],
-					"bgfillcolor_angle" : 270.0,
-					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.494117647058824, 0.494117647058824, 0.517647058823529, 0.25 ],
-					"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"bgfillcolor_proportion" : 0.39,
-					"bgfillcolor_type" : "color",
 					"depth" : 1,
-					"fontface" : 1,
 					"id" : "obj-11",
-					"items" : [ "audio", ",", "bpf", ",", "findbounds", ",", "hi", ",", "linear", ",", "lissajous", ",", "midi", ",", "network", ",", "video-randomizer", ",", "wacom" ],
+					"items" : [ "audio", ",", "bpf", ",", "findbounds", ",", "hi", ",", "linear", ",", "lissajous", ",", "midi", ",", "network", ",", "video-randomizer" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1520,25 +1491,15 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 668.0, 3.0, 134.0, 20.0 ],
 					"style" : "umenu001_white",
-					"textcolor" : [ 0.596078, 0.333333, 0.388235, 1.0 ],
 					"varname" : "curve_4"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.494117647058824, 0.494117647058824, 0.517647058823529, 0.25 ],
-					"bgfillcolor_angle" : 270.0,
-					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.494117647058824, 0.494117647058824, 0.517647058823529, 0.25 ],
-					"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"bgfillcolor_proportion" : 0.39,
-					"bgfillcolor_type" : "color",
 					"depth" : 1,
-					"fontface" : 1,
 					"id" : "obj-12",
-					"items" : [ "audio", ",", "bpf", ",", "findbounds", ",", "hi", ",", "linear", ",", "lissajous", ",", "midi", ",", "network", ",", "video-randomizer", ",", "wacom" ],
+					"items" : [ "audio", ",", "bpf", ",", "findbounds", ",", "hi", ",", "linear", ",", "lissajous", ",", "midi", ",", "network", ",", "video-randomizer" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1549,25 +1510,15 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 344.0, 3.0, 136.0, 20.0 ],
 					"style" : "umenu001_white",
-					"textcolor" : [ 0.596078, 0.333333, 0.388235, 1.0 ],
 					"varname" : "curve_2"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.494117647058824, 0.494117647058824, 0.517647058823529, 0.25 ],
-					"bgfillcolor_angle" : 270.0,
-					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.494117647058824, 0.494117647058824, 0.517647058823529, 0.25 ],
-					"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"bgfillcolor_proportion" : 0.39,
-					"bgfillcolor_type" : "color",
 					"depth" : 1,
-					"fontface" : 1,
 					"id" : "obj-13",
-					"items" : [ "audio", ",", "bpf", ",", "findbounds", ",", "hi", ",", "linear", ",", "lissajous", ",", "midi", ",", "network", ",", "video-randomizer", ",", "wacom" ],
+					"items" : [ "audio", ",", "bpf", ",", "findbounds", ",", "hi", ",", "linear", ",", "lissajous", ",", "midi", ",", "network", ",", "video-randomizer" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1578,7 +1529,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 187.0, 3.0, 132.0, 20.0 ],
 					"style" : "umenu001_white",
-					"textcolor" : [ 0.596078, 0.333333, 0.388235, 1.0 ],
 					"varname" : "curve_1"
 				}
 
@@ -1649,7 +1599,7 @@
 					"patching_rect" : [ 467.0, 63.0, 116.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 21.0, 1.0, 116.0, 22.0 ],
-					"textcolor" : [ 0.596078, 0.333333, 0.388235, 1.0 ]
+					"textcolor" : [ 0.596078431372549, 0.333333333333333, 0.388235294117647, 1.0 ]
 				}
 
 			}
@@ -1721,7 +1671,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activecolor" : [ 0.596078, 0.333333, 0.388235, 1.0 ],
+					"activecolor" : [ 0.596078431372549, 0.333333333333333, 0.388235294117647, 1.0 ],
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"disabled" : [ 0 ],
 					"id" : "obj-20",
@@ -1743,7 +1693,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activecolor" : [ 0.596078, 0.333333, 0.388235, 1.0 ],
+					"activecolor" : [ 0.596078431372549, 0.333333333333333, 0.388235294117647, 1.0 ],
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"disabled" : [ 0 ],
 					"id" : "obj-21",
@@ -2118,23 +2068,47 @@
 
 			}
  ],
+		"dependency_cache" : [ 			{
+				"name" : "maxfolder.js",
+				"bootpath" : "~/Documents/Max 8/Packages/Quintet.net/patchers/PatMap/javascript",
+				"patcherrelativepath" : "../../../PatMap/javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "my-change.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MaxScore/patchers/Macaque/lib/abstractions",
+				"patcherrelativepath" : "../../../../../MaxScore/patchers/Macaque/lib/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "packback.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MaxScore/patchers/abstractions",
+				"patcherrelativepath" : "../../../../../MaxScore/patchers/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "umenu001_white",
 				"default" : 				{
+					"fontname" : [ "Gill Sans" ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 0.596078431372549, 0.333333333333333, 0.388235294117647, 1.0 ],
+					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
+						"color" : [ 0.494117647058824, 0.494117647058824, 0.517647058823529, 0.25 ],
 						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"autogradient" : 0.0
 					}
 ,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontname" : [ "Gill Sans" ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 10,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -186,7 +186,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activecolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
+					"activecolor" : [ 0.925490196078431, 0.364705882352941, 0.341176470588235, 1.0 ],
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"disabled" : [ 0 ],
 					"id" : "obj-35",
@@ -514,7 +514,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 10,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1183,7 +1183,7 @@
 					"patching_rect" : [ 124.0, 81.0, 39.0, 36.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 69.0, 17.0, 39.0, 36.0 ],
-					"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"textcolor" : [ 0.925490196078431, 0.364705882352941, 0.341176470588235, 1.0 ],
 					"triangle" : 0,
 					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"triscale" : 0.9
@@ -1738,12 +1738,14 @@
 
 			}
  ],
+		"dependency_cache" : [  ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "comment_font_viewer",
 				"default" : 				{
+					"fontname" : [ "Gill Sans" ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontsize" : [ 12.0 ],
-					"fontname" : [ "Gill Sans" ]
+					"fontsize" : [ 12.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1752,9 +1754,9 @@
 , 			{
 				"name" : "comment_viewer_normal",
 				"default" : 				{
+					"fontname" : [ "Arial" ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",

@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 10,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 400.0, 153.0, 504.0, 371.0 ],
+		"rect" : [ 341.0, 586.0, 540.0, 443.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -85,15 +85,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.866667, 0.866667, 0.866667, 0.0 ],
-					"bgfillcolor_angle" : 270.0,
-					"bgfillcolor_color" : [ 0.866667, 0.866667, 0.866667, 0.0 ],
-					"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"bgfillcolor_proportion" : 0.39,
-					"bgfillcolor_type" : "color",
-					"fontname" : "Gill Sans",
-					"fontsize" : 10.0,
 					"id" : "obj-9",
 					"items" : "getformatlist",
 					"labelclick" : 1,
@@ -106,22 +97,12 @@
 					"patching_rect" : [ 144.0, 256.0, 58.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.0, 77.0, 58.0, 20.0 ],
-					"textcolor" : [ 0.654901960784314, 0.572549019607843, 0.376470588235294, 1.0 ]
+					"style" : "umenu_brown"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 0.25 ],
-					"bgfillcolor_angle" : 270.0,
-					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 0.25 ],
-					"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"bgfillcolor_proportion" : 0.39,
-					"bgfillcolor_type" : "color",
-					"fontname" : "Gill Sans",
-					"fontsize" : 10.0,
 					"id" : "obj-10",
 					"items" : [ "(null) - 640 x 480", ",", "(null) - 1280 x 720", ",", "Y'CbCr 4:2:2 - yuvy - 640 x 480", ",", "Y'CbCr 4:2:2 - yuvy - 1280 x 720" ],
 					"maxclass" : "umenu",
@@ -133,7 +114,7 @@
 					"pattrmode" : 1,
 					"presentation" : 1,
 					"presentation_rect" : [ 71.0, 78.0, 80.0, 20.0 ],
-					"textcolor" : [ 0.654901960784314, 0.572549019607843, 0.376470588235294, 1.0 ]
+					"style" : "umenu_brown"
 				}
 
 			}
@@ -250,7 +231,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 10,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -887,8 +868,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Gill Sans",
-					"fontsize" : 10.0,
 					"id" : "obj-22",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -896,23 +875,13 @@
 					"patching_rect" : [ 144.0, 277.0, 58.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.0, 101.0, 58.0, 18.0 ],
-					"text" : "Settings:",
-					"textcolor" : [ 0.654901960784314, 0.572549019607843, 0.376470588235294, 1.0 ]
+					"style" : "comment_font_normal",
+					"text" : "Settings:"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 0.25 ],
-					"bgfillcolor_angle" : 270.0,
-					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 0.25 ],
-					"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"bgfillcolor_proportion" : 0.39,
-					"bgfillcolor_type" : "color",
-					"fontname" : "Gill Sans",
-					"fontsize" : 10.0,
 					"id" : "obj-23",
 					"items" : [ "clear", ",", "settings", ",", "snd_settings", ",", "getdim" ],
 					"maxclass" : "umenu",
@@ -924,37 +893,26 @@
 					"pattrmode" : 1,
 					"presentation" : 1,
 					"presentation_rect" : [ 71.0, 101.0, 80.0, 20.0 ],
-					"textcolor" : [ 0.654901960784314, 0.572549019607843, 0.376470588235294, 1.0 ]
+					"style" : "umenu_brown"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Gill Sans",
-					"fontsize" : 10.0,
 					"id" : "obj-24",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 144.0, 300.0, 68.0, 18.0 ],
+					"patching_rect" : [ 144.0, 300.0, 69.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.0, 124.0, 68.0, 18.0 ],
-					"text" : "Interpolation:",
-					"textcolor" : [ 0.654901960784314, 0.572549019607843, 0.376470588235294, 1.0 ]
+					"style" : "comment_font_normal",
+					"text" : "Interpolation:"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.866667, 0.866667, 0.866667, 0.0 ],
-					"bgfillcolor_angle" : 270.0,
-					"bgfillcolor_color" : [ 0.866667, 0.866667, 0.866667, 0.0 ],
-					"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"bgfillcolor_proportion" : 0.39,
-					"bgfillcolor_type" : "color",
-					"fontname" : "Gill Sans",
-					"fontsize" : 10.0,
 					"id" : "obj-25",
 					"items" : "getinputlist",
 					"labelclick" : 1,
@@ -967,21 +925,12 @@
 					"patching_rect" : [ 144.0, 234.0, 58.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.0, 54.0, 58.0, 20.0 ],
-					"textcolor" : [ 0.654901960784314, 0.572549019607843, 0.376470588235294, 1.0 ]
+					"style" : "umenu_brown"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.866667, 0.866667, 0.866667, 0.0 ],
-					"bgfillcolor_angle" : 270.0,
-					"bgfillcolor_color" : [ 0.866667, 0.866667, 0.866667, 0.0 ],
-					"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"bgfillcolor_proportion" : 0.39,
-					"bgfillcolor_type" : "color",
-					"fontname" : "Gill Sans",
-					"fontsize" : 10.0,
 					"id" : "obj-26",
 					"items" : "getvdevlist",
 					"labelclick" : 1,
@@ -994,7 +943,7 @@
 					"patching_rect" : [ 144.0, 212.0, 53.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.0, 32.0, 53.0, 20.0 ],
-					"textcolor" : [ 0.654901960784314, 0.572549019607843, 0.376470588235294, 1.0 ]
+					"style" : "umenu_brown"
 				}
 
 			}
@@ -1015,16 +964,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 0.25 ],
-					"bgfillcolor_angle" : 270.0,
-					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 0.25 ],
-					"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"bgfillcolor_proportion" : 0.39,
-					"bgfillcolor_type" : "color",
-					"fontname" : "Gill Sans",
-					"fontsize" : 10.0,
 					"id" : "obj-28",
 					"items" : "Built-in iSight",
 					"maxclass" : "umenu",
@@ -1036,7 +975,7 @@
 					"pattrmode" : 1,
 					"presentation" : 1,
 					"presentation_rect" : [ 71.0, 55.0, 80.0, 20.0 ],
-					"textcolor" : [ 0.654901960784314, 0.572549019607843, 0.376470588235294, 1.0 ]
+					"style" : "umenu_brown"
 				}
 
 			}
@@ -1057,16 +996,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 0.25 ],
-					"bgfillcolor_angle" : 270.0,
-					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 0.25 ],
-					"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"bgfillcolor_proportion" : 0.39,
-					"bgfillcolor_type" : "color",
-					"fontname" : "Gill Sans",
-					"fontsize" : 10.0,
 					"id" : "obj-30",
 					"items" : "FaceTime HD Camera",
 					"maxclass" : "umenu",
@@ -1078,7 +1007,7 @@
 					"pattrmode" : 1,
 					"presentation" : 1,
 					"presentation_rect" : [ 71.0, 32.0, 79.0, 20.0 ],
-					"textcolor" : [ 0.654901960784314, 0.572549019607843, 0.376470588235294, 1.0 ]
+					"style" : "umenu_brown"
 				}
 
 			}
@@ -1173,6 +1102,7 @@
 					"patching_rect" : [ 209.0, 299.0, 18.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 71.0, 124.0, 18.0, 18.0 ],
+					"style" : "toggle_green",
 					"varname" : "interp"
 				}
 
@@ -1194,8 +1124,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Gill Sans",
-					"fontsize" : 12.0,
 					"id" : "obj-39",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1203,26 +1131,21 @@
 					"patching_rect" : [ 178.0, 179.0, 77.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 40.0, 4.0, 77.0, 20.0 ],
-					"text" : "Live Camera",
-					"textcolor" : [ 0.654901960784314, 0.572549019607843, 0.376470588235294, 1.0 ]
+					"style" : "comment_font_viewer",
+					"text" : "Live Camera"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"angle" : 90.0,
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
 					"border" : 3,
-					"bordercolor" : [ 0.654901960784314, 0.572549019607843, 0.376470588235294, 1.0 ],
 					"id" : "obj-8",
 					"maxclass" : "panel",
-					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 138.0, 175.0, 160.0, 146.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 160.0, 146.0 ],
-					"proportion" : 0.554546,
 					"rounded" : 0,
 					"style" : "panel_middle_light"
 				}
@@ -1544,12 +1467,78 @@
 
 			}
  ],
+		"dependency_cache" : [  ],
+		"autosave" : 0,
 		"styles" : [ 			{
-				"name" : "panel_middle_light",
+				"name" : "comment_font_normal",
+				"default" : 				{
+					"fontname" : [ "Gill Sans" ],
+					"textcolor" : [ 0.874509803921569, 0.756862745098039, 0.494117647058824, 1.0 ],
+					"fontsize" : [ 10.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "comment_font_viewer",
+				"default" : 				{
+					"fontname" : [ "Gill Sans" ],
+					"textcolor" : [ 0.874509803921569, 0.756862745098039, 0.494117647058824, 1.0 ],
+					"fontsize" : [ 12.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "panel_blue_yellow",
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color1" : [ 0.0, 0.078431, 0.321569, 1.0 ],
+						"color2" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"angle" : -90.0,
+						"proportion" : 0.39
+					}
+
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "panel_middle",
 				"default" : 				{
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color1" : [ 0.654902, 0.572549, 0.376471, 1.0 ],
+						"color2" : [ 0.0, 0.0, 0.0, 1.0 ],
+						"angle" : 90.0,
+						"proportion" : 0.390909,
+						"autogradient" : 0,
+						"pt1" : [ 0.504951, 0.956522 ],
+						"pt2" : [ 0.504951, 0.0 ]
+					}
+
+				}
+,
+				"parentstyle" : "panel_middle_raw",
+				"multi" : 0
+			}
+, 			{
+				"name" : "panel_middle_brown",
+				"parentstyle" : "panel_middle_light",
+				"multi" : 0
+			}
+, 			{
+				"name" : "panel_middle_light",
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
 						"color1" : [ 0.654902, 0.572549, 0.376471, 1.0 ],
 						"color2" : [ 0.0, 0.0, 0.0, 1.0 ],
 						"angle" : 90.0,
@@ -1558,7 +1547,8 @@
 						"pt1" : [ 0.504951, 0.956522 ],
 						"pt2" : [ 0.504951, 0.0 ]
 					}
-
+,
+					"color" : [ 0.874509803921569, 0.756862745098039, 0.494117647058824, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1587,6 +1577,49 @@
 , 			{
 				"name" : "panel_middle_raw_new",
 				"parentstyle" : "panel_middle_raw",
+				"multi" : 0
+			}
+, 			{
+				"name" : "toggle_brown",
+				"default" : 				{
+					"color" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 1.0 ],
+					"bgcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 0.25 ],
+					"elementcolor" : [ 0.874509803921569, 0.756862745098039, 0.494117647058824, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "toggle_green",
+				"default" : 				{
+					"color" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 1.0 ],
+					"bgcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 0.25 ],
+					"elementcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 0.25 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "umenu_brown",
+				"default" : 				{
+					"textcolor_inverse" : [ 0.874509803921569, 0.756862745098039, 0.494117647058824, 1.0 ],
+					"fontname" : [ "Gill Sans" ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 0.25 ],
+						"angle" : 270.0,
+						"autogradient" : 0.0,
+						"proportion" : 0.39
+					}
+,
+					"fontsize" : [ 10.0 ]
+				}
+,
+				"parentstyle" : "",
 				"multi" : 0
 			}
  ],

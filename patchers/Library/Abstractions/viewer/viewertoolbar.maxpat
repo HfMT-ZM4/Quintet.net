@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 6,
+			"minor" : 2,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 85.0, 625.0, 696.0, 349.0 ],
+		"rect" : [ 139.0, 325.0, 696.0, 349.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -92,6 +92,34 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 210.0, 4.0, 40.0, 40.0 ],
 					"saved_attribute_attributes" : 					{
+						"activebgoncolor" : 						{
+							"expression" : ""
+						}
+,
+						"bordercolor" : 						{
+							"expression" : ""
+						}
+,
+						"bgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"activebgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"focusbordercolor" : 						{
+							"expression" : ""
+						}
+,
+						"activetextcolor" : 						{
+							"expression" : ""
+						}
+,
+						"bgoncolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[3]",
@@ -169,8 +197,28 @@
 					"patching_rect" : [ 214.0, 45.0, 50.0, 50.0 ],
 					"pictures" : [ "folders_on.svg", "<none>" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 70.0, 4.0, 40.0, 40.0 ],
+					"presentation_rect" : [ 3.0, 4.0, 40.0, 40.0 ],
 					"saved_attribute_attributes" : 					{
+						"bordercolor" : 						{
+							"expression" : ""
+						}
+,
+						"bgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"activebgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"focusbordercolor" : 						{
+							"expression" : ""
+						}
+,
+						"bgoncolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[10]",
@@ -206,6 +254,26 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 139.5, 4.0, 40.0, 40.0 ],
 					"saved_attribute_attributes" : 					{
+						"bordercolor" : 						{
+							"expression" : ""
+						}
+,
+						"bgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"activebgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"focusbordercolor" : 						{
+							"expression" : ""
+						}
+,
+						"bgoncolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[11]",
@@ -252,8 +320,28 @@
 					"patching_rect" : [ 62.0, 45.0, 45.0, 45.0 ],
 					"pictures" : [ "viewbyname_on.svg", "<none>" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 4.0, 40.0, 40.0 ],
+					"presentation_rect" : [ 70.0, 4.0, 40.0, 40.0 ],
 					"saved_attribute_attributes" : 					{
+						"bordercolor" : 						{
+							"expression" : ""
+						}
+,
+						"bgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"activebgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"focusbordercolor" : 						{
+							"expression" : ""
+						}
+,
+						"bgoncolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
@@ -308,8 +396,7 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-29", 0 ],
-					"hidden" : 1,
+					"destination" : [ "obj-40", 0 ],
 					"source" : [ "obj-20", 0 ]
 				}
 
@@ -370,7 +457,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-40", 0 ],
+					"destination" : [ "obj-29", 0 ],
+					"hidden" : 1,
 					"source" : [ "obj-37", 0 ]
 				}
 

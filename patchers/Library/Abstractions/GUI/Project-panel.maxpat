@@ -106,7 +106,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 344.24993900000004, 156.5, 497.0, 22.0 ],
-					"restore" : [ 0.0 ],
+					"restore" : [ 1.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -173,7 +173,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "bang" ],
-					"patching_rect" : [ 344.24993900000004, 223.5, 286.0, 49.0 ],
+					"patching_rect" : [ 344.24993900000004, 223.5, 288.0, 49.0 ],
 					"text" : "dialog You cannot change a project while connected to the Server. Would you like to reconnect? @mode 3"
 				}
 
@@ -841,14 +841,7 @@
  ],
 						"styles" : [ 							{
 								"name" : "black on white",
-								"number" : 								{
-									"fontsize" : [ 12.0 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"fontname" : [ "Arial" ]
-								}
-,
 								"umenu" : 								{
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -858,7 +851,14 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-
+,
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+								}
+,
+								"number" : 								{
+									"fontsize" : [ 12.0 ],
+									"fontname" : [ "Arial" ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1085,7 +1085,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 14.5, 37.364578000000002, 185.0, 20.0 ],
 					"readonly" : 1,
-					"text" : "<none>",
+					"text" : "Disembodiment-1",
 					"textcolor" : [ 0.866666666666667, 0.866666666666667, 0.901960784313726, 1.0 ],
 					"textjustification" : 1
 				}
@@ -1118,7 +1118,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 381.74996950000002, 442.0, 216.0, 22.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ "Macintosh HD:/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Disembodiment-1" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1186,7 +1186,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 187.0, 905.0, 179.0, 20.0 ],
+									"patching_rect" : [ 158.0, 909.0, 179.0, 20.0 ],
 									"text" : "Package/Quintet.net/patchers/Projects"
 								}
 
@@ -1199,7 +1199,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 187.0, 930.0, 66.0, 20.0 ],
+									"patching_rect" : [ 158.0, 934.0, 66.0, 20.0 ],
 									"text" : "absolutepath"
 								}
 
@@ -1352,7 +1352,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 187.0, 879.0, 29.5, 22.0 ],
+									"patching_rect" : [ 158.0, 883.0, 29.5, 22.0 ],
 									"text" : "t b l"
 								}
 
@@ -1366,7 +1366,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 187.0, 954.0, 125.0, 22.0 ],
+									"patching_rect" : [ 158.0, 958.0, 125.0, 22.0 ],
 									"text" : "sprintf symout %s/%s"
 								}
 
@@ -1380,7 +1380,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 113.5, 813.0, 24.0, 22.0 ],
+									"patching_rect" : [ 87.5, 805.0, 24.0, 22.0 ],
 									"text" : "t b"
 								}
 
@@ -1944,7 +1944,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 113.5, 843.0, 59.5, 20.0 ],
+									"patching_rect" : [ 87.5, 835.0, 59.5, 20.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -1979,22 +1979,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 208.0, 808.0, 32.5, 22.0 ],
+									"patching_rect" : [ 179.0, 812.0, 32.5, 22.0 ],
 									"text" : "$2"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-11",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 179.0, 769.0, 48.0, 22.0 ],
-									"text" : "route 0"
 								}
 
 							}
@@ -2035,7 +2021,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 187.0, 843.0, 40.0, 22.0 ],
+									"patching_rect" : [ 158.0, 847.0, 40.0, 22.0 ],
 									"text" : "zl reg"
 								}
 
@@ -2101,7 +2087,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 187.0, 981.0, 25.0, 25.0 ]
+									"patching_rect" : [ 158.0, 985.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -2291,7 +2277,7 @@
 									"patching_rect" : [ 179.0, 330.0, 308.0, 390.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 0.0, 308.0, 390.0 ],
-									"rows" : 9,
+									"rows" : 11,
 									"sccolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 									"sgcolor" : [ 0.517647058823529, 0.517647058823529, 0.517647058823529, 1.0 ],
 									"stcolor" : [ 0.517647058823529, 0.517647058823529, 0.517647058823529, 1.0 ],
@@ -2338,23 +2324,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-18", 0 ],
-									"midpoints" : [ 217.5, 795.0, 123.0, 795.0 ],
-									"order" : 1,
-									"source" : [ "obj-11", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-29", 0 ],
-									"order" : 0,
-									"source" : [ "obj-11", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
 									"source" : [ "obj-12", 0 ]
 								}
@@ -2386,7 +2355,17 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-11", 0 ],
+									"destination" : [ "obj-18", 0 ],
+									"midpoints" : [ 188.5, 795.0, 97.0, 795.0 ],
+									"order" : 1,
+									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-29", 0 ],
+									"order" : 0,
 									"source" : [ "obj-15", 0 ]
 								}
 
@@ -2457,7 +2436,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-23", 0 ],
-									"midpoints" : [ 286.5, 801.0, 196.5, 801.0 ],
+									"midpoints" : [ 286.5, 801.0, 167.5, 801.0 ],
 									"source" : [ "obj-24", 1 ]
 								}
 
@@ -2563,7 +2542,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-24", 0 ],
-									"midpoints" : [ 163.5, 870.0, 297.5, 870.0, 297.5, 761.0, 241.5, 761.0 ],
+									"midpoints" : [ 137.5, 875.0, 297.5, 875.0, 297.5, 761.0, 241.5, 761.0 ],
 									"source" : [ "obj-45", 1 ]
 								}
 
@@ -2884,6 +2863,8 @@
 									"saved_object_attributes" : 									{
 										"autostart" : 1,
 										"defer" : 0,
+										"node_bin_path" : "",
+										"npm_bin_path" : "",
 										"watch" : 0
 									}
 ,
@@ -2983,7 +2964,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 619.0, 100.0, 351.0, 22.0 ],
-									"restore" : [ 0 ],
+									"restore" : [ "Macintosh HD:/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Disembodiment-1" ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -3478,6 +3459,8 @@
 									"saved_object_attributes" : 									{
 										"autostart" : 1,
 										"defer" : 0,
+										"node_bin_path" : "",
+										"npm_bin_path" : "",
 										"watch" : 0
 									}
 ,

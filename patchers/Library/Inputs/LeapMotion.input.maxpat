@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 201.0, 162.0, 999.0, 806.0 ],
+		"rect" : [ 139.0, 79.0, 999.0, 772.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1087,7 +1087,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 282.0, 177.0, 463.0, 482.0 ],
+						"rect" : [ 209.0, 242.0, 463.0, 482.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -1116,6 +1116,7 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"title" : "LeapMotion Input",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -3104,8 +3105,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 50.0, 121.0, 43.0, 19.0 ],
-									"text" : "del 1000"
+									"patching_rect" : [ 50.0, 121.0, 38.0, 19.0 ],
+									"text" : "del 100"
 								}
 
 							}
@@ -3131,7 +3132,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 50.0, 192.5, 202.0, 22.0 ],
-									"restore" : [ 0 ],
+									"restore" : [ 5 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -3193,7 +3194,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 664.5, 363.0, 31.0, 22.0 ],
+					"patching_rect" : [ 664.5, 331.0, 31.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -3311,7 +3312,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 51.0, 79.0, 1772.0, 753.0 ],
+						"rect" : [ 80.0, 79.0, 1772.0, 753.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -3361,18 +3362,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 1472.5, 600.0, 25.0, 25.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-25",
-									"maxclass" : "slider",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 942.0, 146.0, 20.0, 140.0 ]
 								}
 
 							}
@@ -8089,7 +8078,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 547.0, 119.0, 1097.0, 831.0 ],
+										"rect" : [ 115.0, 79.0, 1353.0, 719.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
@@ -8119,13 +8108,45 @@
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
+													"id" : "obj-35",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "bang", "" ],
+													"patching_rect" : [ 590.999997854232788, 337.399998903274536, 29.5, 20.0 ],
+													"text" : "t b l"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-48",
+													"linecount" : 2,
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 3,
+													"outlettype" : [ "", "", "" ],
+													"patching_rect" : [ 590.999997854232788, 369.999999523162842, 391.0, 31.0 ],
+													"restore" : [ 5 ],
+													"saved_object_attributes" : 													{
+														"parameter_enable" : 0,
+														"parameter_mappable" : 0
+													}
+,
+													"text" : "pattr @bindto parent::parent::parent::parent::Register::ID @autorestore 0 @invisible 1 @thru 0",
+													"varname" : "u903019589"
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"id" : "obj-31",
 													"maxclass" : "newobj",
-													"numinlets" : 3,
+													"numinlets" : 4,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 545.999997854232788, 425.400003015995026, 140.0, 20.0 ],
-													"text" : "sprintf /leapmotion/%s/%s/%s"
+													"patching_rect" : [ 590.999997854232788, 415.800002872943878, 154.0, 20.0 ],
+													"text" : "sprintf /leapmotion/%i/%s/%s/%s"
 												}
 
 											}
@@ -8170,7 +8191,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 545.999997854232788, 397.60000158548354, 87.0, 20.0 ],
+													"patching_rect" : [ 590.999997854232788, 308.000000000000057, 87.0, 20.0 ],
 													"text" : "join 2 @triggers 1"
 												}
 
@@ -8893,7 +8914,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-31", 0 ],
+													"destination" : [ "obj-35", 0 ],
 													"source" : [ "obj-26", 0 ]
 												}
 
@@ -8928,6 +8949,20 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-31", 1 ],
+													"source" : [ "obj-35", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-48", 0 ],
+													"source" : [ "obj-35", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-135", 0 ],
 													"source" : [ "obj-4", 0 ]
 												}
@@ -8951,6 +8986,13 @@
 												"patchline" : 												{
 													"destination" : [ "obj-5", 0 ],
 													"source" : [ "obj-45", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-31", 0 ],
+													"source" : [ "obj-48", 0 ]
 												}
 
 											}
@@ -9980,7 +10022,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 689.0, 119.0, 1097.0, 831.0 ],
+										"rect" : [ 115.0, 79.0, 1353.0, 719.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
@@ -10010,13 +10052,45 @@
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
+													"id" : "obj-35",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "bang", "" ],
+													"patching_rect" : [ 590.999997854232788, 337.399998903274536, 29.5, 20.0 ],
+													"text" : "t b l"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-48",
+													"linecount" : 2,
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 3,
+													"outlettype" : [ "", "", "" ],
+													"patching_rect" : [ 590.999997854232788, 369.999999523162842, 391.0, 31.0 ],
+													"restore" : [ 5 ],
+													"saved_object_attributes" : 													{
+														"parameter_enable" : 0,
+														"parameter_mappable" : 0
+													}
+,
+													"text" : "pattr @bindto parent::parent::parent::parent::Register::ID @autorestore 0 @invisible 1 @thru 0",
+													"varname" : "u903019589"
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"id" : "obj-31",
 													"maxclass" : "newobj",
-													"numinlets" : 3,
+													"numinlets" : 4,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 545.999997854232788, 425.400003015995026, 140.0, 20.0 ],
-													"text" : "sprintf /leapmotion/%s/%s/%s"
+													"patching_rect" : [ 590.999997854232788, 415.800002872943878, 154.0, 20.0 ],
+													"text" : "sprintf /leapmotion/%i/%s/%s/%s"
 												}
 
 											}
@@ -10061,7 +10135,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 545.999997854232788, 397.60000158548354, 87.0, 20.0 ],
+													"patching_rect" : [ 590.999997854232788, 308.000000000000057, 87.0, 20.0 ],
 													"text" : "join 2 @triggers 1"
 												}
 
@@ -10784,7 +10858,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-31", 0 ],
+													"destination" : [ "obj-35", 0 ],
 													"source" : [ "obj-26", 0 ]
 												}
 
@@ -10819,6 +10893,20 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-31", 1 ],
+													"source" : [ "obj-35", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-48", 0 ],
+													"source" : [ "obj-35", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-135", 0 ],
 													"source" : [ "obj-4", 0 ]
 												}
@@ -10842,6 +10930,13 @@
 												"patchline" : 												{
 													"destination" : [ "obj-5", 0 ],
 													"source" : [ "obj-45", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-31", 0 ],
+													"source" : [ "obj-48", 0 ]
 												}
 
 											}
@@ -12159,7 +12254,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
-					"midpoints" : [ 674.0, 410.0, 625.5, 410.0 ],
+					"midpoints" : [ 674.0, 379.0, 625.5, 379.0 ],
 					"order" : 0,
 					"source" : [ "obj-20", 0 ]
 				}

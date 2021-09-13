@@ -48,7 +48,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 199.0, 176.0, 39.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 49.0, 1.0, 69.0, 20.0 ],
+					"presentation_rect" : [ 60.0, 1.0, 37.0, 20.0 ],
 					"text" : "Noise",
 					"textcolor" : [ 0.874509803921569, 0.756862745098039, 0.494117647058824, 1.0 ]
 				}

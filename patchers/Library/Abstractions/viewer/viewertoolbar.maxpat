@@ -47,7 +47,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 358.0, 116.0, 54.0, 20.0 ],
+					"patching_rect" : [ 358.0, 151.0, 54.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 288.0, 196.0, 54.0, 20.0 ],
 					"text" : "inx front"
@@ -63,7 +63,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 358.0, 143.0, 216.0, 20.0 ],
+					"patching_rect" : [ 358.0, 178.0, 216.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 288.0, 223.0, 216.0, 20.0 ],
 					"text" : "pattrforward parent::Register::chat-parent::chat"
@@ -87,12 +87,20 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 358.0, 49.0, 50.0, 50.0 ],
+					"patching_rect" : [ 358.0, 84.0, 50.0, 50.0 ],
 					"pictures" : [ "remarks2.svg", "<none>" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 210.0, 4.0, 40.0, 40.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
+							"expression" : ""
+						}
+,
+						"bgoncolor" : 						{
+							"expression" : ""
+						}
+,
+						"activebgcolor" : 						{
 							"expression" : ""
 						}
 ,
@@ -104,19 +112,11 @@
 							"expression" : ""
 						}
 ,
-						"activebgcolor" : 						{
-							"expression" : ""
-						}
-,
 						"focusbordercolor" : 						{
 							"expression" : ""
 						}
 ,
 						"activetextcolor" : 						{
-							"expression" : ""
-						}
-,
-						"bgoncolor" : 						{
 							"expression" : ""
 						}
 ,
@@ -144,7 +144,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 278.0, 139.0, 24.0, 22.0 ],
+					"patching_rect" : [ 278.0, 174.0, 24.0, 22.0 ],
 					"text" : "t 1"
 				}
 
@@ -158,7 +158,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 212.5, 139.0, 24.0, 22.0 ],
+					"patching_rect" : [ 212.5, 174.0, 24.0, 22.0 ],
 					"text" : "t 0"
 				}
 
@@ -173,7 +173,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 212.5, 171.0, 157.0, 19.0 ],
+					"patching_rect" : [ 212.5, 206.0, 157.0, 19.0 ],
 					"text" : "pattrforward parent::presets::settings",
 					"varname" : "select[1]"
 				}
@@ -186,7 +186,7 @@
 					"bgoncolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 0.0 ],
 					"bordercolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 0.0 ],
 					"focusbordercolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 0.0 ],
-					"hint" : "Open Preset File",
+					"hint" : "Preferences",
 					"id" : "obj-37",
 					"maxclass" : "live.text",
 					"mode" : 0,
@@ -194,11 +194,19 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 214.0, 45.0, 50.0, 50.0 ],
-					"pictures" : [ "folders_on.svg", "<none>" ],
+					"patching_rect" : [ 62.333333333333343, 86.5, 45.0, 45.0 ],
+					"pictures" : [ "viewbyname_on.svg", "<none>" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 4.0, 40.0, 40.0 ],
 					"saved_attribute_attributes" : 					{
+						"bgoncolor" : 						{
+							"expression" : ""
+						}
+,
+						"activebgcolor" : 						{
+							"expression" : ""
+						}
+,
 						"bordercolor" : 						{
 							"expression" : ""
 						}
@@ -207,21 +215,14 @@
 							"expression" : ""
 						}
 ,
-						"activebgcolor" : 						{
-							"expression" : ""
-						}
-,
 						"focusbordercolor" : 						{
-							"expression" : ""
-						}
-,
-						"bgoncolor" : 						{
 							"expression" : ""
 						}
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[10]",
+							"parameter_invisible" : 2,
+							"parameter_longname" : "live.text[13]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text[2]",
 							"parameter_type" : 2
@@ -249,11 +250,19 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 279.5, 45.0, 50.0, 50.0 ],
+					"patching_rect" : [ 279.5, 80.0, 50.0, 50.0 ],
 					"pictures" : [ "pencil_on.svg", "<none>" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 139.5, 4.0, 40.0, 40.0 ],
 					"saved_attribute_attributes" : 					{
+						"bgoncolor" : 						{
+							"expression" : ""
+						}
+,
+						"activebgcolor" : 						{
+							"expression" : ""
+						}
+,
 						"bordercolor" : 						{
 							"expression" : ""
 						}
@@ -262,15 +271,7 @@
 							"expression" : ""
 						}
 ,
-						"activebgcolor" : 						{
-							"expression" : ""
-						}
-,
 						"focusbordercolor" : 						{
-							"expression" : ""
-						}
-,
-						"bgoncolor" : 						{
 							"expression" : ""
 						}
 ,
@@ -298,7 +299,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 62.0, 149.0, 30.0, 30.0 ]
+					"patching_rect" : [ 62.0, 184.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -309,7 +310,7 @@
 					"bgoncolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 0.0 ],
 					"bordercolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 0.0 ],
 					"focusbordercolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 0.0 ],
-					"hint" : "Preferences",
+					"hint" : "Open Preset File",
 					"id" : "obj-20",
 					"maxclass" : "live.text",
 					"mode" : 0,
@@ -317,11 +318,19 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 62.0, 45.0, 45.0, 45.0 ],
-					"pictures" : [ "viewbyname_on.svg", "<none>" ],
+					"patching_rect" : [ 212.5, 80.0, 50.0, 50.0 ],
+					"pictures" : [ "folders_on.svg", "<none>" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 70.0, 4.0, 40.0, 40.0 ],
 					"saved_attribute_attributes" : 					{
+						"bgoncolor" : 						{
+							"expression" : ""
+						}
+,
+						"activebgcolor" : 						{
+							"expression" : ""
+						}
+,
 						"bordercolor" : 						{
 							"expression" : ""
 						}
@@ -330,22 +339,13 @@
 							"expression" : ""
 						}
 ,
-						"activebgcolor" : 						{
-							"expression" : ""
-						}
-,
 						"focusbordercolor" : 						{
-							"expression" : ""
-						}
-,
-						"bgoncolor" : 						{
 							"expression" : ""
 						}
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_invisible" : 2,
-							"parameter_longname" : "live.text[2]",
+							"parameter_longname" : "live.text[12]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text[2]",
 							"parameter_type" : 2
@@ -388,7 +388,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 62.0, 116.0, 33.0, 19.0 ],
+					"patching_rect" : [ 62.0, 151.0, 33.0, 19.0 ],
 					"text" : "front"
 				}
 
@@ -412,7 +412,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"hidden" : 1,
-					"order" : 2,
+					"order" : 1,
 					"source" : [ "obj-28", 1 ]
 				}
 
@@ -428,7 +428,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-28", 1 ]
 				}
 

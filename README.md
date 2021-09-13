@@ -19,13 +19,13 @@ MaxScore is the notation environment necessary to display scores and real-time n
 Get from http://www.computermusicnotation.com/downloadmaxscore/. 
 
 ## odot
-Download the most recent GitHub repo from https://github.com/CNMAT/CNMAT-odot/releases to your Max 8/Packages folder
+Use the Max 8 Package Manager to download the _odot_ package.
+
+## zero
+Use the Max 8 Package Manager to download the _zero_ package. This will enable the zeroconf protocol, useful in local network performance.
 
 ## Java
 Quintet.net and MaxScore also require the installation of the JDK. As of MaxScore 1.2, the JDK Installer is included in the download.
-
-## zero
-In Max, use the Package Manager to download the _zero_ package. This will enable the zeroconf protocol, useful in local network performance.
 
 # Intro
 Quintet.net is a network multimedia performance environment invented and developed by composer and computer musician Georg Hajdu. It enables performers at up to five locations to play music over the Internet or a local network under the control of a “conductor.” 

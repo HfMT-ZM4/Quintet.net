@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 6,
+			"minor" : 2,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -66,8 +66,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 6,
+							"minor" : 2,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -459,14 +459,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 6,
+							"minor" : 2,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 218.0, 360.0, 600.0, 426.0 ],
+						"rect" : [ 218.0, 359.0, 600.0, 426.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -507,14 +507,14 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 6,
+											"minor" : 2,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 34.0, 95.0, 510.0, 583.0 ],
+										"rect" : [ 34.0, 94.0, 510.0, 583.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
@@ -576,13 +576,8 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 181.0, 57.0, 245.0, 20.0 ],
-													"saved_object_attributes" : 													{
-														"filename" : "maxfolder",
-														"parameter_enable" : 0
-													}
-,
-													"text" : "js maxfolder /packages/Quintet.net/patchers/Projects"
+													"patching_rect" : [ 181.0, 57.0, 225.0, 20.0 ],
+													"text" : "maxfolder package:Quintet.net/patchers/Projects"
 												}
 
 											}
@@ -801,7 +796,7 @@
 													"autopopulate" : 1,
 													"depth" : 2,
 													"id" : "obj-1",
-													"items" : [ "EffectsEngine/COMBFILTER.json", ",", "EffectsEngine/DISTORTION.json", ",", "EffectsEngine/MASTER.json", ",", "EffectsEngine/MODULATION.json", ",", "EffectsEngine/ONE-FILTER.json", ",", "EffectsEngine/PITCHSHIFT.json", ",", "EffectsEngine/Resources/dikom.hd.nemlin.chebyshev.maxpat", ",", "EffectsEngine/Resources/dikom.hu.gui.input~.maxpat", ",", "EffectsEngine/Resources/dikom.hu.gui.output~.maxpat", ",", "EffectsEngine/Resources/ebe.ctlin.maxpat", ",", "EffectsEngine/Resources/gh.sfplayer~.maxpat", ",", "EffectsEngine/Resources/jk.bindto.maxpat", ",", "EffectsEngine/Resources/jk.chordfilter.maxpat", ",", "EffectsEngine/Resources/jk.chordfilter1.maxpat", ",", "EffectsEngine/Resources/jk.dry-wet.maxpat", ",", "EffectsEngine/Resources/jk.ebe.ctlin.maxpat", ",", "EffectsEngine/Resources/jk.filtervoice.maxpat", ",", "EffectsEngine/Resources/jk.iphone-button.maxpat", ",", "EffectsEngine/Resources/jk.iphone-multitoggle.maxpat", ",", "EffectsEngine/Resources/jk.iphone-numberbox.maxpat", ",", "EffectsEngine/Resources/jk.iphone-numberbox2.maxpat", ",", "EffectsEngine/Resources/jk.iphone-numberbox3.maxpat", ",", "EffectsEngine/Resources/jk.iphone-slider-v.maxpat", ",", "EffectsEngine/Resources/jk.iphone-slider.maxpat", ",", "EffectsEngine/Resources/jk.iphone-toggle.maxpat", ",", "EffectsEngine/Resources/jk.iphone-umenu.maxpat", ",", "EffectsEngine/Resources/jk.master-bp.maxpat", ",", "EffectsEngine/Resources/jk.master-preset-control.maxpat", ",", "EffectsEngine/Resources/jk.pattrhelper.maxpat", ",", "EffectsEngine/Resources/jk.prst.maxpat", ",", "EffectsEngine/Resources/jk.scale~.maxpat", ",", "EffectsEngine/Resources/jk.slash-remover.maxpat", ",", "EffectsEngine/Resources/jk.spectralmap-pfft.maxpat", ",", "EffectsEngine/Resources/jk.spectralmap-poly~.maxpat", ",", "EffectsEngine/Resources/jk.syncwindow.maxpat", ",", "EffectsEngine/Resources/jk.waveshape-poly.maxpat", ",", "EffectsEngine/Resources/par-iphone.maxpat", ",", "EffectsEngine/Resources/par.maxpat", ",", "EffectsEngine/Resources/poly.cascade~.maxpat", ",", "EffectsEngine/Resources/poly.gizmo_loadme~.maxpat", ",", "EffectsEngine/Resources/poly.teeth~.maxpat", ",", "EffectsEngine/Resources/test.iphone.maxpat", ",", "EffectsEngine/SPECTRAL.json", ",", "EffectsEngine/TO-Library-Audio-Extensions/EffectsEngine~.ext.maxpat", ",", "EffectsEngine/TO-Library-Inputs/EffectsEngine.input.maxpat", ",", "EffectsEngine/WaveShape.json", ",", "Five/Conductor/Five.controlpanel.maxpat", ",", "Five/Conductor/Five.sequence.json", ",", "hgzb-cake2020/hfmt.say.maxhelp", ",", "hgzb-cake2020/hfmt.say.maxpat", ",", "hgzb-cake2020/hgzb_cake.maxpat", ",", "hgzb-cake2020/multex.maxpat", ",", "RadioMusic/Audio-Extensions/RadioMusic~.ext.maxpat", ",", "RadioMusic/Conductor/RadioMusic.controlpanel.maxpat", ",", "RadioMusic/Inputs/RadioMusic.input.maxpat", ",", "RadioMusic/Resources/gh.pwr_mate.maxpat", ",", "RadioMusic/Resources/poly.radiomusic.maxpat", ",", "RadioMusic/Resources/RadioMusic-Score-Generator.maxpat", ",", "RadioMusic/Resources/RadioMusicBellCurve.maxpat", ",", "RadioMusic/Viewer/radio-music.vgen.maxpat", ",", "Rectangle/Conductor/Rectangle.controlpanel.maxpat", ",", "Rectangle/Conductor/Rectangle.sequence.json", ",", "Sirenen/Audio-Extensions/Sirenen~.ext.maxpat", ",", "Sirenen/Conductor/Sirenen.controlpanel.maxpat", ",", "Sirenen/Inputs/Sirenen.input.maxpat", ",", "Triangle/Clips/Triangle.controlpanel.maxpat", ",", "Triangle/Conductor/Triangle.controlpanel.maxpat", ",", "Triangle/Resources/Triangle.sequence.json", ",", "Tutorial/Audio-Extensions/Cycle~.ext.maxpat", ",", "Tutorial/Conductor/Tutorial.controlpanel.maxpat", ",", "Tutorial/Inputs/Cycle~.input.maxpat", ",", "Tutorial/Processes/tutorial.process.maxpat", ",", "Tutorial/Resources/Create-your-own-tuning.maxpat", ",", "Tutorial/Resources/Tutorial.sequence.json", ",", "Tutorial/Viewer/template.vgen.maxpat" ],
+													"items" : [ "AFewPlateaus/Audio-Extensions/Plateau-AE~.ext.maxpat", ",", "AFewPlateaus/Conductor/AFewPlateaus.controlpanel.maxpat", ",", "AFewPlateaus/Resources/>-or_nothing.maxpat", ",", "AFewPlateaus/Resources/Cube2Trigger.maxpat", ",", "AFewPlateaus/Resources/ebe-rhythm-output.maxpat", ",", "AFewPlateaus/Resources/ebe-rhythm-unit alt.maxpat", ",", "AFewPlateaus/Resources/ebe-rhythm-unit.maxpat", ",", "AFewPlateaus/Resources/empty-poly.maxpat", ",", "AFewPlateaus/Resources/piano-loader.maxpat", ",", "AFewPlateaus/Resources/Player-Shell alt.maxpat", ",", "AFewPlateaus/Resources/Player-Shell.maxpat", ",", "AFewPlateaus/Resources/rec-plat.maxpat", ",", "EffectsEngine/COMBFILTER.json", ",", "EffectsEngine/DISTORTION.json", ",", "EffectsEngine/MASTER.json", ",", "EffectsEngine/MODULATION.json", ",", "EffectsEngine/ONE-FILTER.json", ",", "EffectsEngine/PITCHSHIFT.json", ",", "EffectsEngine/Resources/dikom.hd.nemlin.chebyshev.maxpat", ",", "EffectsEngine/Resources/dikom.hu.gui.input~.maxpat", ",", "EffectsEngine/Resources/dikom.hu.gui.output~.maxpat", ",", "EffectsEngine/Resources/ebe.ctlin.maxpat", ",", "EffectsEngine/Resources/gh.sfplayer~.maxpat", ",", "EffectsEngine/Resources/jk.bindto.maxpat", ",", "EffectsEngine/Resources/jk.chordfilter.maxpat", ",", "EffectsEngine/Resources/jk.chordfilter1.maxpat", ",", "EffectsEngine/Resources/jk.dry-wet.maxpat", ",", "EffectsEngine/Resources/jk.ebe.ctlin.maxpat", ",", "EffectsEngine/Resources/jk.filtervoice.maxpat", ",", "EffectsEngine/Resources/jk.iphone-button.maxpat", ",", "EffectsEngine/Resources/jk.iphone-multitoggle.maxpat", ",", "EffectsEngine/Resources/jk.iphone-numberbox.maxpat", ",", "EffectsEngine/Resources/jk.iphone-numberbox2.maxpat", ",", "EffectsEngine/Resources/jk.iphone-numberbox3.maxpat", ",", "EffectsEngine/Resources/jk.iphone-slider-v.maxpat", ",", "EffectsEngine/Resources/jk.iphone-slider.maxpat", ",", "EffectsEngine/Resources/jk.iphone-toggle.maxpat", ",", "EffectsEngine/Resources/jk.iphone-umenu.maxpat", ",", "EffectsEngine/Resources/jk.master-bp.maxpat", ",", "EffectsEngine/Resources/jk.master-preset-control.maxpat", ",", "EffectsEngine/Resources/jk.pattrhelper.maxpat", ",", "EffectsEngine/Resources/jk.prst.maxpat", ",", "EffectsEngine/Resources/jk.scale~.maxpat", ",", "EffectsEngine/Resources/jk.slash-remover.maxpat", ",", "EffectsEngine/Resources/jk.spectralmap-pfft.maxpat", ",", "EffectsEngine/Resources/jk.spectralmap-poly~.maxpat", ",", "EffectsEngine/Resources/jk.syncwindow.maxpat", ",", "EffectsEngine/Resources/jk.waveshape-poly.maxpat", ",", "EffectsEngine/Resources/par-iphone.maxpat", ",", "EffectsEngine/Resources/par.maxpat", ",", "EffectsEngine/Resources/poly.cascade~.maxpat", ",", "EffectsEngine/Resources/poly.gizmo_loadme~.maxpat", ",", "EffectsEngine/Resources/poly.teeth~.maxpat", ",", "EffectsEngine/Resources/test.iphone.maxpat", ",", "EffectsEngine/SPECTRAL.json", ",", "EffectsEngine/TO-Library-Audio-Extensions/EffectsEngine~.ext.maxpat", ",", "EffectsEngine/TO-Library-Inputs/EffectsEngine.input.maxpat", ",", "EffectsEngine/WaveShape.json", ",", "Five/Conductor/Five.controlpanel.maxpat", ",", "Five/Conductor/Five.sequence.json", ",", "hgzb-cake2020/hfmt.say.maxhelp", ",", "hgzb-cake2020/hfmt.say.maxpat", ",", "hgzb-cake2020/hgzb_cake.maxpat", ",", "hgzb-cake2020/multex.maxpat", ",", "RadioMusic/Audio-Extensions/RadioMusic~.ext.maxpat", ",", "RadioMusic/Conductor/RadioMusic.controlpanel.maxpat", ",", "RadioMusic/Inputs/RadioMusic.input.maxpat", ",", "RadioMusic/Resources/gh.pwr_mate.maxpat", ",", "RadioMusic/Resources/poly.radiomusic.maxpat", ",", "RadioMusic/Resources/RadioMusic-Score-Generator.maxpat", ",", "RadioMusic/Resources/RadioMusicBellCurve.maxpat", ",", "RadioMusic/Viewer/radio-music.vgen.maxpat", ",", "Rectangle/Conductor/Rectangle.controlpanel.maxpat", ",", "Rectangle/Conductor/Rectangle.sequence.json", ",", "Sirenen/Audio-Extensions/Sirenen~.ext.maxpat", ",", "Sirenen/Conductor/Sirenen.controlpanel.maxpat", ",", "Sirenen/Inputs/Sirenen.input.maxpat", ",", "Triangle/Clips/Triangle.controlpanel.maxpat", ",", "Triangle/Conductor/Triangle.controlpanel.maxpat", ",", "Triangle/Resources/Triangle.sequence.json", ",", "Tutorial/Audio-Extensions/Tutorial~.ext.maxpat", ",", "Tutorial/Conductor/Tutorial.controlpanel.maxpat", ",", "Tutorial/Inputs/Cycle~.input.maxpat", ",", "Tutorial/Processes/tutorial.process.maxpat", ",", "Tutorial/Resources/Create-your-own-tuning.maxpat", ",", "Tutorial/Resources/Tutorial.sequence.json", ",", "Tutorial/Viewer/template.vgen.maxpat" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -810,7 +805,7 @@
 													"patching_rect" : [ 181.0, 137.0, 100.0, 20.0 ],
 													"prefix" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/",
 													"prefix_mode" : 2,
-													"types" : "JSON"
+													"types" : "-¨"
 												}
 
 											}
@@ -1160,13 +1155,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 161.0, 78.0, 386.0, 22.0 ],
-									"saved_object_attributes" : 									{
-										"filename" : "maxfolder",
-										"parameter_enable" : 0
-									}
-,
-									"text" : "js maxfolder /packages/Quintet.net/patchers/Library/Video-Generators/"
+									"patching_rect" : [ 161.0, 78.0, 362.0, 22.0 ],
+									"text" : "maxfolder package:Quintet.net/patchers/Library/Video-Generators/"
 								}
 
 							}
@@ -1363,8 +1353,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 6,
+							"minor" : 2,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1683,8 +1673,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 6,
+							"minor" : 2,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2117,12 +2107,12 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 21.0, 24.0, 104.0, 19.0 ],
 					"restore" : 					{
-						"on.1" : [ 0 ],
-						"on.2" : [ 1 ],
+						"on.1" : [ 1 ],
+						"on.2" : [ 0 ],
 						"on.3" : [ 0 ],
 						"on.4" : [ 0 ],
-						"on.5" : [ 1 ],
-						"vgen_1" : [ "camera" ],
+						"on.5" : [ 0 ],
+						"vgen_1" : [ "noise" ],
 						"vgen_2" : [ "painter" ],
 						"vgen_3" : [ "configs" ],
 						"vgen_4" : [ "gradient" ],
@@ -2177,7 +2167,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 12.0, 119.0, 18.0, 25.0 ],
 					"size" : 1,
-					"values" : [ 1 ],
+					"values" : [ 0 ],
 					"varname" : "on.5"
 				}
 
@@ -2243,7 +2233,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 12.0, 59.0, 18.0, 25.0 ],
 					"size" : 1,
-					"values" : [ 1 ],
+					"values" : [ 0 ],
 					"varname" : "on.2"
 				}
 
@@ -2265,7 +2255,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 12.0, 39.0, 18.0, 25.0 ],
 					"size" : 1,
-					"values" : [ 0 ],
+					"values" : [ 1 ],
 					"varname" : "on.1"
 				}
 
@@ -2656,8 +2646,8 @@
 				"name" : "comment_font_viewer",
 				"default" : 				{
 					"fontname" : [ "Gill Sans" ],
-					"fontsize" : [ 12.0 ],
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontsize" : [ 12.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2667,8 +2657,8 @@
 				"name" : "comment_viewer_normal",
 				"default" : 				{
 					"fontname" : [ "Arial" ],
-					"fontsize" : [ 10.0 ],
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2677,6 +2667,7 @@
 , 			{
 				"name" : "panel_black_grey_frame",
 				"default" : 				{
+					"color" : [ 0.682353, 0.705882, 0.776471, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -2685,8 +2676,7 @@
 						"angle" : -90.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.682353, 0.705882, 0.776471, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",

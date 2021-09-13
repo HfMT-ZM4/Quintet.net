@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 10,
+			"minor" : 2,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 126.0, 311.0, 1211.0, 510.0 ],
+		"rect" : [ 494.0, 357.0, 1211.0, 510.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -67,8 +67,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 10,
+							"minor" : 2,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -450,14 +450,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 10,
+							"minor" : 2,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 218.0, 360.0, 577.0, 454.0 ],
+						"rect" : [ 203.0, 261.0, 577.0, 454.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -660,13 +660,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 160.5, 73.0, 381.0, 22.0 ],
-									"saved_object_attributes" : 									{
-										"filename" : "maxfolder",
-										"parameter_enable" : 0
-									}
-,
-									"text" : "js maxfolder packages/Quintet.net/patchers/Library/Curve-Generators"
+									"patching_rect" : [ 160.5, 73.0, 361.0, 22.0 ],
+									"text" : "maxfolder package:Quintet.net/patchers/Library/Curve-Generators"
 								}
 
 							}
@@ -846,8 +841,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 10,
+							"minor" : 2,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1166,8 +1161,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 10,
+							"minor" : 2,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1560,12 +1555,12 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 21.0, 24.0, 75.0, 19.0 ],
 					"restore" : 					{
-						"curve_1" : [ "bpf" ],
-						"curve_2" : [ "network" ],
-						"curve_3" : [ "lissajous" ],
-						"curve_4" : [ "midi" ],
+						"curve_1" : [ "audio" ],
+						"curve_2" : [ "audio" ],
+						"curve_3" : [ "audio" ],
+						"curve_4" : [ "audio" ],
 						"curve_5" : [ "audio" ],
-						"on.1" : [ 0 ],
+						"on.1" : [ 1 ],
 						"on.2" : [ 0 ],
 						"on.3" : [ 0 ],
 						"on.4" : [ 0 ],
@@ -1708,7 +1703,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 166.0, 2.0, 18.0, 25.0 ],
 					"size" : 1,
-					"values" : [ 0 ],
+					"values" : [ 1 ],
 					"varname" : "on.1"
 				}
 
@@ -2068,35 +2063,12 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "maxfolder.js",
-				"bootpath" : "~/Documents/Max 8/Packages/Quintet.net/patchers/PatMap/javascript",
-				"patcherrelativepath" : "../../../PatMap/javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "my-change.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MaxScore/patchers/Macaque/lib/abstractions",
-				"patcherrelativepath" : "../../../../../MaxScore/patchers/Macaque/lib/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "packback.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MaxScore/patchers/abstractions",
-				"patcherrelativepath" : "../../../../../MaxScore/patchers/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "umenu001_white",
 				"default" : 				{
 					"fontname" : [ "Gill Sans" ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 0.596078431372549, 0.333333333333333, 0.388235294117647, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "color",

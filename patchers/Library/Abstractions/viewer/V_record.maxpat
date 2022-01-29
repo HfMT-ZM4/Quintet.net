@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 8,
+			"minor" : 2,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 133.0, 145.0, 858.0, 724.0 ],
+		"rect" : [ 382.0, 164.0, 858.0, 724.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 568.0, 676.0, 67.0, 22.0 ],
+					"patching_rect" : [ 568.0, 675.0, 67.0, 22.0 ],
 					"text" : "pvar codec"
 				}
 
@@ -83,8 +83,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 8,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -294,7 +294,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 206.0, 220.0, 48.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 23.0, 48.0, 18.0 ],
+					"presentation_rect" : [ 9.0, 41.0, 48.0, 18.0 ],
 					"text" : "Realtime:",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -346,7 +346,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 279.0, 307.0, 38.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 82.0, 109.0, 38.0, 20.0 ],
+					"presentation_rect" : [ 82.0, 125.0, 38.0, 20.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"triangle" : 0,
 					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
@@ -397,7 +397,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 279.0, 199.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 82.0, 2.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 82.0, 21.0, 16.0, 16.0 ],
 					"uncheckedcolor" : [ 0.282353, 0.309804, 0.266667, 1.0 ]
 				}
 
@@ -412,7 +412,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 206.0, 199.0, 42.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 2.0, 42.0, 18.0 ],
+					"presentation_rect" : [ 9.0, 20.0, 42.0, 18.0 ],
 					"text" : "Record:",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -428,7 +428,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 206.0, 305.0, 56.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 107.0, 56.0, 18.0 ],
+					"presentation_rect" : [ 9.0, 125.0, 56.0, 18.0 ],
 					"text" : "Time Scale:",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -451,7 +451,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 279.0, 285.0, 37.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 82.0, 87.0, 37.0, 20.0 ],
+					"presentation_rect" : [ 82.0, 105.0, 37.0, 20.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"triangle" : 0,
 					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
@@ -470,7 +470,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 206.0, 284.0, 59.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 86.0, 59.0, 18.0 ],
+					"presentation_rect" : [ 9.0, 104.0, 59.0, 18.0 ],
 					"text" : "Frame Rate:",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -496,7 +496,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 279.0, 265.0, 72.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 82.0, 67.0, 72.0, 20.0 ],
+					"presentation_rect" : [ 82.0, 85.0, 72.0, 20.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "quality"
 				}
@@ -512,7 +512,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 206.0, 263.0, 42.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 65.0, 42.0, 18.0 ],
+					"presentation_rect" : [ 9.0, 83.0, 42.0, 18.0 ],
 					"text" : "Quality:",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -528,7 +528,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 206.0, 241.0, 40.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 44.0, 40.0, 18.0 ],
+					"presentation_rect" : [ 9.0, 62.0, 40.0, 18.0 ],
 					"text" : "Codec:",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -546,7 +546,7 @@
 					"bgfillcolor_type" : "color",
 					"fontsize" : 10.0,
 					"id" : "obj-14",
-					"items" : [ "a64multi", ",", "a64multi5", ",", "alias_pix", ",", "amv", ",", "apng", ",", "asv1", ",", "asv2", ",", "avrp", ",", "avui", ",", "ayuv", ",", "bmp", ",", "cinepak", ",", "cljr", ",", "dnxhd", ",", "dpx", ",", "dvvideo", ",", "ffv1", ",", "ffvhuff", ",", "fits", ",", "flashsv", ",", "flashsv2", ",", "flv", ",", "gif", ",", "h261", ",", "h263", ",", "h263p", ",", "huffyuv", ",", "jpeg2000", ",", "jpegls", ",", "ljpeg", ",", "magicyuv", ",", "mjpeg", ",", "mpeg1video", ",", "mpeg2video", ",", "mpeg4", ",", "msmpeg4v2", ",", "msmpeg4", ",", "msvideo1", ",", "pam", ",", "pbm", ",", "pcx", ",", "pgm", ",", "pgmyuv", ",", "png", ",", "ppm", ",", "prores", ",", "prores_aw", ",", "prores_ks", ",", "qtrle", ",", "r10k", ",", "r210", ",", "rawvideo", ",", "roqvideo", ",", "rv10", ",", "rv20", ",", "sgi", ",", "snow", ",", "sunrast", ",", "svq1", ",", "targa", ",", "tiff", ",", "utvideo", ",", "v210", ",", "v308", ",", "v408", ",", "v410", ",", "vc2", ",", "wmv1", ",", "wmv2", ",", "xbm", ",", "xface", ",", "xwd", ",", "y41p", ",", "yuv4", ",", "zlib", ",", "zmbv", ",", "libvpx", ",", "libvpx-vp9", ",", "libopenh264", ",", "h264_videotoolbox", ",", "hevc_videotoolbox", ",", "aasc", ",", "aic", ",", "agm", ",", "anm", ",", "ansi", ",", "arbc", ",", "aura", ",", "aura2", ",", "avrn", ",", "avs", ",", "bethsoftvid", ",", "bfi", ",", "binkvideo", ",", "bitpacked", ",", "bmv_video", ",", "brender_pix", ",", "c93", ",", "cavs", ",", "cdgraphics", ",", "cdxl", ",", "cfhd", ",", "clearvideo", ",", "cllc", ",", "cpia", ",", "camstudio", ",", "cyuv", ",", "dds", ",", "dfa", ",", "dirac", ",", "dsicinvideo", ",", "dxa", ",", "dxtory", ",", "dxv", ",", "eacmv", ",", "eamad", ",", "eatgq", ",", "eatgv", ",", "eatqi", ",", "8bps", ",", "escape124", ",", "escape130", ",", "exr", ",", "fic", ",", "flic", ",", "fmvc", ",", "4xm", ",", "fraps", ",", "frwu", ",", "g2m", ",", "gdv", ",", "h263i", ",", "h264", ",", "hap", ",", "hevc", ",", "hnm4video", ",", "hq_hqa", ",", "hqx", ",", "hymt", ",", "idcinvideo", ",", "iff", ",", "imm4", ",", "indeo2", ",", "indeo3", ",", "indeo4", ",", "indeo5", ",", "interplayvideo", ",", "jv", ",", "kgv1", ",", "kmvc", ",", "lagarith", ",", "loco", ",", "lscr", ",", "m101", ",", "mdec", ",", "mimic", ",", "mjpegb", ",", "mmvideo", ",", "motionpixels", ",", "mpegvideo", ",", "msa1", ",", "mscc", ",", "msmpeg4v1", ",", "msrle", ",", "mss1", ",", "mss2", ",", "mszh", ",", "mts2", ",", "mvc1", ",", "mvc2", ",", "mwsc", ",", "mxpeg", ",", "nuv", ",", "paf_video", ",", "pictor", ",", "pixlet", ",", "prosumer", ",", "psd", ",", "ptx", ",", "qdraw", ",", "qpeg", ",", "rasc", ",", "rl2", ",", "rpza", ",", "rscc", ",", "rv30", ",", "rv40", ",", "sanm", ",", "scpr", ",", "screenpresso", ",", "sgirle", ",", "sheervideo", ",", "smackvid", ",", "smc", ",", "smvjpeg", ",", "sp5x", ",", "speedhq", ",", "srgc", ",", "svq3", ",", "targa_y216", ",", "tdsc", ",", "theora", ",", "thp", ",", "tiertexseqvideo", ",", "tmv", ",", "truemotion1", ",", "truemotion2", ",", "truemotion2rt", ",", "camtasia", ",", "tscc2", ",", "txd", ",", "ultimotion", ",", "v210x", ",", "vb", ",", "vble", ",", "vc1", ",", "vc1image", ",", "vcr1", ",", "vmdvideo", ",", "vmnc", ",", "vp3", ",", "vp4", ",", "vp5", ",", "vp6", ",", "vp6a", ",", "vp6f", ",", "vp7", ",", "vp8", ",", "vp9", ",", "vqavideo", ",", "webp", ",", "wcmv", ",", "wmv3", ",", "wmv3image", ",", "wnv1", ",", "xan_wc3", ",", "xan_wc4", ",", "xl", ",", "xpm", ",", "ylc", ",", "yop", ",", "012v", ",", "zerocodec" ],
+					"items" : [ "a64multi", ",", "a64multi5", ",", "alias_pix", ",", "amv", ",", "apng", ",", "asv1", ",", "asv2", ",", "avrp", ",", "avui", ",", "ayuv", ",", "bmp", ",", "cinepak", ",", "cljr", ",", "dnxhd", ",", "dpx", ",", "dvvideo", ",", "ffv1", ",", "ffvhuff", ",", "fits", ",", "flashsv", ",", "flashsv2", ",", "flv", ",", "gif", ",", "h261", ",", "h263", ",", "h263p", ",", "huffyuv", ",", "jpeg2000", ",", "jpegls", ",", "ljpeg", ",", "magicyuv", ",", "mjpeg", ",", "mpeg1video", ",", "mpeg2video", ",", "mpeg4", ",", "msmpeg4v2", ",", "msmpeg4", ",", "msvideo1", ",", "pam", ",", "pbm", ",", "pcx", ",", "pgm", ",", "pgmyuv", ",", "png", ",", "ppm", ",", "prores", ",", "prores_aw", ",", "prores_ks", ",", "qtrle", ",", "r10k", ",", "r210", ",", "rawvideo", ",", "roqvideo", ",", "rv10", ",", "rv20", ",", "sgi", ",", "snow", ",", "sunrast", ",", "svq1", ",", "targa", ",", "tiff", ",", "utvideo", ",", "v210", ",", "v308", ",", "v408", ",", "v410", ",", "vc2", ",", "wmv1", ",", "wmv2", ",", "xbm", ",", "xface", ",", "xwd", ",", "y41p", ",", "yuv4", ",", "zlib", ",", "zmbv", ",", "libopenjpeg", ",", "libvpx", ",", "libvpx-vp9", ",", "libwebp_anim", ",", "libwebp", ",", "libopenh264", ",", "h264_videotoolbox", ",", "hevc_videotoolbox", ",", "aasc", ",", "aic", ",", "agm", ",", "anm", ",", "ansi", ",", "arbc", ",", "aura", ",", "aura2", ",", "avrn", ",", "avs", ",", "bethsoftvid", ",", "bfi", ",", "binkvideo", ",", "bitpacked", ",", "bmv_video", ",", "brender_pix", ",", "c93", ",", "cavs", ",", "cdgraphics", ",", "cdtoons", ",", "cdxl", ",", "cfhd", ",", "clearvideo", ",", "cllc", ",", "cpia", ",", "camstudio", ",", "cyuv", ",", "dds", ",", "dfa", ",", "dirac", ",", "dsicinvideo", ",", "dxa", ",", "dxtory", ",", "dxv", ",", "eacmv", ",", "eamad", ",", "eatgq", ",", "eatgv", ",", "eatqi", ",", "8bps", ",", "escape124", ",", "escape130", ",", "exr", ",", "fic", ",", "flic", ",", "fmvc", ",", "4xm", ",", "fraps", ",", "frwu", ",", "g2m", ",", "gdv", ",", "h263i", ",", "h264", ",", "hap", ",", "hevc", ",", "hnm4video", ",", "hq_hqa", ",", "hqx", ",", "hymt", ",", "idcinvideo", ",", "iff", ",", "imm4", ",", "imm5", ",", "indeo2", ",", "indeo3", ",", "indeo4", ",", "indeo5", ",", "interplayvideo", ",", "jv", ",", "kgv1", ",", "kmvc", ",", "lagarith", ",", "loco", ",", "lscr", ",", "m101", ",", "mdec", ",", "mimic", ",", "mjpegb", ",", "mmvideo", ",", "motionpixels", ",", "mpegvideo", ",", "msa1", ",", "mscc", ",", "msmpeg4v1", ",", "msrle", ",", "mss1", ",", "mss2", ",", "mszh", ",", "mts2", ",", "mv30", ",", "mvc1", ",", "mvc2", ",", "mvdv", ",", "mvha", ",", "mwsc", ",", "mxpeg", ",", "notchlc", ",", "nuv", ",", "paf_video", ",", "pfm", ",", "pictor", ",", "pixlet", ",", "prosumer", ",", "psd", ",", "ptx", ",", "qdraw", ",", "qpeg", ",", "rasc", ",", "rl2", ",", "rpza", ",", "rscc", ",", "rv30", ",", "rv40", ",", "sanm", ",", "scpr", ",", "screenpresso", ",", "sgirle", ",", "sheervideo", ",", "smackvid", ",", "smc", ",", "smvjpeg", ",", "sp5x", ",", "speedhq", ",", "srgc", ",", "svq3", ",", "targa_y216", ",", "tdsc", ",", "theora", ",", "thp", ",", "tiertexseqvideo", ",", "tmv", ",", "truemotion1", ",", "truemotion2", ",", "truemotion2rt", ",", "camtasia", ",", "tscc2", ",", "txd", ",", "ultimotion", ",", "v210x", ",", "vb", ",", "vble", ",", "vc1", ",", "vc1image", ",", "vcr1", ",", "vmdvideo", ",", "vmnc", ",", "vp3", ",", "vp4", ",", "vp5", ",", "vp6", ",", "vp6a", ",", "vp6f", ",", "vp7", ",", "vp8", ",", "vp9", ",", "vqavideo", ",", "webp", ",", "wcmv", ",", "wmv3", ",", "wmv3image", ",", "wnv1", ",", "xan_wc3", ",", "xan_wc4", ",", "xl", ",", "xpm", ",", "ylc", ",", "yop", ",", "012v", ",", "zerocodec" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -554,7 +554,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 279.0, 243.0, 72.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 82.0, 46.0, 72.0, 20.0 ],
+					"presentation_rect" : [ 82.0, 64.0, 72.0, 20.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "codec"
 				}
@@ -577,22 +577,28 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.495624, 0.529709, 0.636972, 1.0 ],
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.0,
+					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
+					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_proportion" : 0.5,
+					"bgfillcolor_type" : "color",
+					"fontface" : 1,
 					"fontsize" : 10.0,
 					"id" : "obj-16",
-					"legacytextcolor" : 1,
-					"maxclass" : "textbutton",
+					"items" : [ "Record", "To", "File..." ],
+					"maxclass" : "umenu",
+					"menumode" : 2,
 					"numinlets" : 1,
 					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
+					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 237.0, 326.0, 83.0, 16.0 ],
+					"patching_rect" : [ 237.0, 326.0, 114.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 40.0, 127.0, 83.0, 16.0 ],
-					"text" : "Save Video to...",
-					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"usebgoncolor" : 1,
-					"usetextovercolor" : 1
+					"presentation_rect" : [ 38.0, 1.0, 114.0, 20.0 ],
+					"underline" : 1
 				}
 
 			}
@@ -624,7 +630,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 279.0, 220.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 82.0, 23.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 82.0, 42.0, 16.0, 16.0 ],
 					"uncheckedcolor" : [ 0.282353, 0.309804, 0.266667, 1.0 ],
 					"varname" : "realtime"
 				}
@@ -685,7 +691,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 517.0, 418.0, 60.0, 22.0 ],
+					"patching_rect" : [ 517.0, 407.0, 60.0, 22.0 ],
 					"text" : "r Vrecord"
 				}
 
@@ -716,7 +722,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 13.0, 292.0, 110.0, 22.0 ],
 					"restore" : 					{
-						"codec" : [ 0 ],
+						"codec" : [ 27 ],
 						"framerate" : [ 25.0 ],
 						"quality" : [ 4 ],
 						"realtime" : [ 0 ],
@@ -998,11 +1004,29 @@
 			}
  ],
 		"styles" : [ 			{
+				"name" : "AudioStatus_Menu",
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+						"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
 				"name" : "comment_font_viewer",
 				"default" : 				{
+					"fontname" : [ "Gill Sans" ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontsize" : [ 12.0 ],
-					"fontname" : [ "Gill Sans" ]
+					"fontsize" : [ 12.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1011,9 +1035,9 @@
 , 			{
 				"name" : "comment_viewer_normal",
 				"default" : 				{
+					"fontname" : [ "Arial" ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",

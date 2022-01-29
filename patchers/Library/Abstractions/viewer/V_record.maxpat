@@ -40,6 +40,21 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-37",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 237.0, 357.0, 22.0, 22.0 ],
+					"text" : "t b"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-29",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -325,7 +340,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 209.0, 458.0, 35.0, 22.0 ],
+					"patching_rect" : [ 212.0, 461.0, 35.0, 22.0 ],
 					"text" : "stop"
 				}
 
@@ -380,7 +395,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 187.0, 388.0, 39.0, 22.0 ],
+					"patching_rect" : [ 190.0, 391.0, 39.0, 22.0 ],
 					"text" : "sel 1"
 				}
 
@@ -570,7 +585,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 187.0, 424.0, 254.0, 22.0 ],
+					"patching_rect" : [ 190.0, 427.0, 254.0, 22.0 ],
 					"text" : "pack write file.mov 25. jpeg normal 600"
 				}
 
@@ -589,6 +604,7 @@
 					"fontsize" : 10.0,
 					"id" : "obj-16",
 					"items" : [ "Record", "To", "File..." ],
+					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 2,
 					"numinlets" : 1,
@@ -612,7 +628,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "bang" ],
-					"patching_rect" : [ 234.0, 386.0, 73.0, 22.0 ],
+					"patching_rect" : [ 237.0, 389.0, 73.0, 22.0 ],
 					"text" : "savedialog"
 				}
 
@@ -814,8 +830,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
-					"hidden" : 1,
+					"destination" : [ "obj-37", 0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -927,6 +942,13 @@
 					"destination" : [ "obj-23", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"source" : [ "obj-37", 0 ]
 				}
 
 			}

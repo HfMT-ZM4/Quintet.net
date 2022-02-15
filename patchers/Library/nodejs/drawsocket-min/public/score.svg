@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="320px" height="240px" viewBox="0 0 320 240" style="background:rgb(253.98,253.98,239.7)" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+<g id="1" transform="matrix(1,0,0,1,0,0)">
+<text x="20" y="39" font-family="Arial" font-style="normal" font-weight="normal" font-size="10" fill="rgb(0,0,0)" fill-opacity="1" transform="matrix(1,0,0,1,0,0)" >1</text>
+<text x="20" y="33" font-family="Arial" font-style="normal" font-weight="normal" font-size="10" fill="rgb(0,0,0)" fill-opacity="1" transform="matrix(1,0,0,1,0,0)" >  &lt;&lt;</text>
+<text x="280.6607971191406" y="33" font-family="Arial" font-style="normal" font-weight="normal" font-size="10" fill="rgb(0,0,0)" fill-opacity="1" transform="matrix(1,0,0,1,0,0)" >&gt;&gt;</text>
+<text x="20" y="21" font-family="Bravura" font-style="normal" font-weight="normal" font-size="12" fill="rgb(0,0,0)" fill-opacity="1" transform="matrix(1,0,0,1,0,0)" ></text>
+<text x="25" y="21" font-family="Bravura" font-style="normal" font-weight="normal" font-size="8" fill="rgb(0,0,0)" fill-opacity="1" transform="matrix(1,0,0,1,0,0)" ></text>
+<text x="30" y="24" font-family="Arial" font-style="normal" font-weight="normal" font-size="10" fill="rgb(0,0,0)" fill-opacity="1" transform="matrix(1,0,0,1,0,0)" >60.0</text>
+<text x="0" y="0" font-family="Bravura" font-style="normal" font-weight="normal" font-size="24" fill="rgb(0,0,0)" fill-opacity="1" transform="matrix(1,0,0,1,22,69.95999908447266)" ></text>
+<text x="0" y="0" font-family="Arial" font-style="normal" font-weight="normal" font-size="10" fill="rgb(0,0,0)" fill-opacity="1" transform="matrix(1,0,0,1,-78.6953125,65)" >MaxScoreIns-0</text>
+<text x="0" y="0" font-family="Bravura" font-style="normal" font-weight="normal" font-size="24" fill="rgb(0,0,0)" fill-opacity="1" transform="matrix(1,0,0,1,43,57)" ></text>
+<text x="0" y="0" font-family="Bravura" font-style="normal" font-weight="normal" font-size="24" fill="rgb(0,0,0)" fill-opacity="1" transform="matrix(1,0,0,1,43,69)" ></text>
+<path d="M81.22068786621094,45 L94.02069091796875,45" stroke="rgb(0,0,0)" stroke-width="0.6" fill="rgb(0,0,0)" transform="matrix(1,0,0,1,0,0)"/>
+<path d="M81.22068786621094,39 L94.02069091796875,39" stroke="rgb(0,0,0)" stroke-width="0.6" fill="rgb(0,0,0)" transform="matrix(1,0,0,1,0,0)"/>
+<path d="M81.22068786621094,33 L94.02069091796875,33" stroke="rgb(0,0,0)" stroke-width="0.6" fill="rgb(0,0,0)" transform="matrix(1,0,0,1,0,0)"/>
+<path d="M81.22068786621094,27 L94.02069091796875,27" stroke="rgb(0,0,0)" stroke-width="0.6" fill="rgb(0,0,0)" transform="matrix(1,0,0,1,0,0)"/>
+<text x="0" y="0" font-family="Bravura" font-style="normal" font-weight="normal" font-size="24" fill="rgb(0,0,0)" fill-opacity="1" transform="matrix(1,0,0,1,83.62068939208984,24)" ></text>
+<path d="M135.22068786621094,45 L148.02069091796875,45" stroke="rgb(0,0,0)" stroke-width="0.6" fill="rgb(0,0,0)" transform="matrix(1,0,0,1,0,0)"/>
+<path d="M135.22068786621094,39 L148.02069091796875,39" stroke="rgb(0,0,0)" stroke-width="0.6" fill="rgb(0,0,0)" transform="matrix(1,0,0,1,0,0)"/>
+<path d="M135.22068786621094,33 L148.02069091796875,33" stroke="rgb(0,0,0)" stroke-width="0.6" fill="rgb(0,0,0)" transform="matrix(1,0,0,1,0,0)"/>
+<path d="M135.22068786621094,27 L148.02069091796875,27" stroke="rgb(0,0,0)" stroke-width="0.6" fill="rgb(0,0,0)" transform="matrix(1,0,0,1,0,0)"/>
+<text x="0" y="0" font-family="Bravura" font-style="normal" font-weight="normal" font-size="24" fill="rgb(0,0,0)" fill-opacity="1" transform="matrix(1,0,0,1,137.62069702148438,27)" ></text>
+<rect x="83.62068939208984" y="24" width="0.75" height="38" fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.4" fill-opacity="1.0" stroke-opacity="1.0" transform="matrix(1,0,0,1,0,0)"/>
+<path d="M189.22068786621094,45 L202.02069091796875,45" stroke="rgb(0,0,0)" stroke-width="0.6" fill="rgb(0,0,0)" transform="matrix(1,0,0,1,0,0)"/>
+<path d="M189.22068786621094,39 L202.02069091796875,39" stroke="rgb(0,0,0)" stroke-width="0.6" fill="rgb(0,0,0)" transform="matrix(1,0,0,1,0,0)"/>
+<path d="M189.22068786621094,33 L202.02069091796875,33" stroke="rgb(0,0,0)" stroke-width="0.6" fill="rgb(0,0,0)" transform="matrix(1,0,0,1,0,0)"/>
+<path d="M189.22068786621094,27 L202.02069091796875,27" stroke="rgb(0,0,0)" stroke-width="0.6" fill="rgb(0,0,0)" transform="matrix(1,0,0,1,0,0)"/>
+<path d="M189.22068786621094,21 L202.02069091796875,21" stroke="rgb(0,0,0)" stroke-width="0.6" fill="rgb(0,0,0)" transform="matrix(1,0,0,1,0,0)"/>
+<text x="0" y="0" font-family="Bravura" font-style="normal" font-weight="normal" font-size="24" fill="rgb(0,0,0)" fill-opacity="1" transform="matrix(1,0,0,1,191.62069702148438,18)" ></text>
+<rect x="137.62069702148438" y="27" width="0.75" height="35" fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.4" fill-opacity="1.0" stroke-opacity="1.0" transform="matrix(1,0,0,1,0,0)"/>
+<text x="0" y="0" font-family="Bravura" font-style="normal" font-weight="normal" font-size="24" fill="rgb(0,0,0)" fill-opacity="1" transform="matrix(1,0,0,1,22,165.9600067138672)" ></text>
+<text x="0" y="0" font-family="Arial" font-style="normal" font-weight="normal" font-size="10" fill="rgb(0,0,0)" fill-opacity="1" transform="matrix(1,0,0,1,-78.6953125,161)" >MaxScoreIns-1</text>
+<text x="0" y="0" font-family="Bravura" font-style="normal" font-weight="normal" font-size="24" fill="rgb(0,0,0)" fill-opacity="1" transform="matrix(1,0,0,1,43,153)" ></text>
+<text x="0" y="0" font-family="Bravura" font-style="normal" font-weight="normal" font-size="24" fill="rgb(0,0,0)" fill-opacity="1" transform="matrix(1,0,0,1,43,165)" ></text>
+<path d="M81.22068786621094,141 L94.02069091796875,141" stroke="rgb(0,0,0)" stroke-width="0.6" fill="rgb(0,0,0)" transform="matrix(1,0,0,1,0,0)"/>
+<path d="M81.22068786621094,135 L94.02069091796875,135" stroke="rgb(0,0,0)" stroke-width="0.6" fill="rgb(0,0,0)" transform="matrix(1,0,0,1,0,0)"/>
+<path d="M81.22068786621094,129 L94.02069091796875,129" stroke="rgb(0,0,0)" stroke-width="0.6" fill="rgb(0,0,0)" transform="matrix(1,0,0,1,0,0)"/>
+<text x="0" y="0" font-family="Bravura" font-style="normal" font-weight="normal" font-size="24" fill="rgb(0,0,0)" fill-opacity="1" transform="matrix(1,0,0,1,83.62068939208984,126)" ></text>
+<rect x="191.62069702148438" y="18" width="0.75" height="44" fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.4" fill-opacity="1.0" stroke-opacity="1.0" transform="matrix(1,0,0,1,0,0)"/>
+<path d="M135.22068786621094,141 L148.02069091796875,141" stroke="rgb(0,0,0)" stroke-width="0.6" fill="rgb(0,0,0)" transform="matrix(1,0,0,1,0,0)"/>
+<path d="M135.22068786621094,135 L148.02069091796875,135" stroke="rgb(0,0,0)" stroke-width="0.6" fill="rgb(0,0,0)" transform="matrix(1,0,0,1,0,0)"/>
+<path d="M135.22068786621094,129 L148.02069091796875,129" stroke="rgb(0,0,0)" stroke-width="0.6" fill="rgb(0,0,0)" transform="matrix(1,0,0,1,0,0)"/>
+<path d="M135.22068786621094,123 L148.02069091796875,123" stroke="rgb(0,0,0)" stroke-width="0.6" fill="rgb(0,0,0)" transform="matrix(1,0,0,1,0,0)"/>
+<text x="0" y="0" font-family="Bravura" font-style="normal" font-weight="normal" font-size="24" fill="rgb(0,0,0)" fill-opacity="1" transform="matrix(1,0,0,1,137.62069702148438,120)" ></text>
+<rect x="83.62068939208984" y="126" width="0.75" height="32" fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.4" fill-opacity="1.0" stroke-opacity="1.0" transform="matrix(1,0,0,1,0,0)"/>
+<path d="M189.22068786621094,141 L202.02069091796875,141" stroke="rgb(0,0,0)" stroke-width="0.6" fill="rgb(0,0,0)" transform="matrix(1,0,0,1,0,0)"/>
+<path d="M189.22068786621094,135 L202.02069091796875,135" stroke="rgb(0,0,0)" stroke-width="0.6" fill="rgb(0,0,0)" transform="matrix(1,0,0,1,0,0)"/>
+<path d="M189.22068786621094,129 L202.02069091796875,129" stroke="rgb(0,0,0)" stroke-width="0.6" fill="rgb(0,0,0)" transform="matrix(1,0,0,1,0,0)"/>
+<path d="M189.22068786621094,123 L202.02069091796875,123" stroke="rgb(0,0,0)" stroke-width="0.6" fill="rgb(0,0,0)" transform="matrix(1,0,0,1,0,0)"/>
+<path d="M189.22068786621094,117 L202.02069091796875,117" stroke="rgb(0,0,0)" stroke-width="0.6" fill="rgb(0,0,0)" transform="matrix(1,0,0,1,0,0)"/>
+<text x="0" y="0" font-family="Bravura" font-style="normal" font-weight="normal" font-size="24" fill="rgb(0,0,0)" fill-opacity="1" transform="matrix(1,0,0,1,191.62069702148438,117)" ></text>
+<rect x="137.62069702148438" y="120" width="0.75" height="38" fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.4" fill-opacity="1.0" stroke-opacity="1.0" transform="matrix(1,0,0,1,0,0)"/>
+<rect x="191.62069702148438" y="117" width="0.75" height="41" fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.4" fill-opacity="1.0" stroke-opacity="1.0" transform="matrix(1,0,0,1,0,0)"/>
+<path d="M20,75H300.7M20,69H300.7M20,63H300.7M20,57H300.7M20,51H300.7M20,171H300.7M20,165H300.7M20,159H300.7M20,153H300.7M20,147H300.7" stroke="rgb(0,0,0)" stroke-width="0.8" fill="rgb(0,0,0)" transform="matrix(1,0,0,1,0,0)"/>
+<rect x="300.6607971191406" y="51" width="0.6" height="120" fill="rgb(0,0,0)" stroke="none" stroke-width="0.4" fill-opacity="1.0" stroke-opacity="1.0" transform="matrix(1,0,0,1,0,0)"/>
+<rect x="20" y="51" width="0.6" height="120" fill="rgb(0,0,0)" stroke="none" stroke-width="0.4" fill-opacity="1.0" stroke-opacity="1.0" transform="matrix(1,0,0,1,0,0)"/>
+</g>
+</svg>

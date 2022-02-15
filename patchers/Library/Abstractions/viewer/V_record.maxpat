@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1205.0, 207.0, 781.0, 660.0 ],
+		"rect" : [ 1140.0, 206.0, 781.0, 660.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -504,30 +504,17 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
-					"bgfillcolor_angle" : 270.0,
-					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 0.0 ],
-					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
-					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
-					"bgfillcolor_proportion" : 0.5,
-					"bgfillcolor_type" : "color",
-					"fontface" : 0,
-					"fontname" : "Gill Sans",
-					"fontsize" : 10.0,
 					"id" : "obj-16",
-					"items" : [ "Record", "To", "File..." ],
-					"labelclick" : 1,
-					"maxclass" : "umenu",
-					"menumode" : 2,
+					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
-					"outlettype" : [ "int", "", "" ],
+					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 278.0, 236.0, 114.0, 20.0 ],
+					"patching_rect" : [ 278.0, 236.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 38.0, 91.0, 114.0, 20.0 ],
-					"underline" : 1
+					"presentation_rect" : [ 34.5, 91.0, 91.0, 20.0 ],
+					"text" : "Record To File...",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}

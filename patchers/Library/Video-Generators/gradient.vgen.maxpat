@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 10,
+			"minor" : 5,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -76,7 +76,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 138.0, 206.0, 36.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 31.0, 36.0, 18.0 ],
+					"presentation_rect" : [ 2.0, 31.0, 36.0, 18.0 ],
 					"style" : "comment_font_normal",
 					"text" : "coeffs"
 				}
@@ -103,7 +103,7 @@
 					"patching_rect" : [ 167.0, 198.0, 124.0, 32.0 ],
 					"peakcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 29.0, 24.0, 127.0, 32.0 ],
+					"presentation_rect" : [ 37.0, 24.0, 119.0, 32.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"settype" : 7,
 					"size" : 16,
@@ -152,7 +152,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 139.0, 291.0, 31.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 116.0, 30.0, 18.0 ],
+					"presentation_rect" : [ 3.0, 116.0, 30.0, 18.0 ],
 					"style" : "comment_font_normal",
 					"text" : "end"
 				}
@@ -166,7 +166,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 139.0, 248.0, 32.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 73.0, 31.0, 18.0 ],
+					"presentation_rect" : [ 3.0, 73.0, 31.0, 18.0 ],
 					"style" : "comment_font_normal",
 					"text" : "start"
 				}
@@ -183,6 +183,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-11",
 					"lockeddragscroll" : 1,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "my-swatch.maxpat",
 					"numinlets" : 1,
@@ -191,7 +192,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 167.0, 278.0, 127.0, 38.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 29.0, 103.0, 127.0, 38.0 ],
+					"presentation_rect" : [ 37.0, 103.0, 119.0, 38.0 ],
 					"varname" : "end",
 					"viewvisibility" : 1
 				}
@@ -208,6 +209,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-12",
 					"lockeddragscroll" : 1,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "my-swatch.maxpat",
 					"numinlets" : 1,
@@ -216,7 +218,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 167.0, 235.0, 127.0, 38.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 29.0, 60.0, 127.0, 38.0 ],
+					"presentation_rect" : [ 37.0, 60.0, 119.0, 38.0 ],
 					"varname" : "start",
 					"viewvisibility" : 1
 				}
@@ -232,7 +234,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 187.0, 176.0, 69.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 49.0, 1.0, 69.0, 20.0 ],
+					"presentation_rect" : [ 55.0, 2.0, 52.0, 20.0 ],
 					"text" : "Gradient",
 					"textcolor" : [ 0.874509803921569, 0.756862745098039, 0.494117647058824, 1.0 ]
 				}
@@ -336,8 +338,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 10,
+							"minor" : 5,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -577,7 +579,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 31.0, 341.0, 91.0, 19.0 ],
 					"restore" : 					{
-						"coeffs" : [ 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.5, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+						"coeffs" : [ 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.90625, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 					}
 ,
 					"text" : "autopattr #1gradient",
@@ -751,21 +753,12 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "my-swatch.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
-				"patcherrelativepath" : "../Abstractions/viewer",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "comment_font_normal",
 				"default" : 				{
-					"textcolor" : [ 0.874509803921569, 0.756862745098039, 0.494117647058824, 1.0 ],
 					"fontname" : [ "Gill Sans" ],
-					"fontsize" : [ 10.0 ]
+					"fontsize" : [ 10.0 ],
+					"textcolor" : [ 0.874509803921569, 0.756862745098039, 0.494117647058824, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -775,12 +768,12 @@
 				"name" : "panel_blue_yellow",
 				"default" : 				{
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : -90.0,
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.0, 0.078431, 0.321569, 1.0 ],
 						"color2" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : -90.0,
-						"proportion" : 0.39
+						"proportion" : 0.39,
+						"type" : "gradient"
 					}
 
 				}
@@ -792,15 +785,15 @@
 				"name" : "panel_middle",
 				"default" : 				{
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 90.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.654902, 0.572549, 0.376471, 1.0 ],
 						"color2" : [ 0.0, 0.0, 0.0, 1.0 ],
-						"angle" : 90.0,
 						"proportion" : 0.390909,
-						"autogradient" : 0,
 						"pt1" : [ 0.504951, 0.956522 ],
-						"pt2" : [ 0.504951, 0.0 ]
+						"pt2" : [ 0.504951, 0.0 ],
+						"type" : "gradient"
 					}
 
 				}
@@ -811,19 +804,19 @@
 , 			{
 				"name" : "panel_middle_light",
 				"default" : 				{
-					"color" : [ 0.874509803921569, 0.756862745098039, 0.494117647058824, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "color",
+						"angle" : 90.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
 						"color1" : [ 0.654902, 0.572549, 0.376471, 1.0 ],
 						"color2" : [ 0.0, 0.0, 0.0, 1.0 ],
-						"angle" : 90.0,
 						"proportion" : 0.554546,
-						"autogradient" : 0,
 						"pt1" : [ 0.504951, 0.956522 ],
-						"pt2" : [ 0.504951, 0.0 ]
+						"pt2" : [ 0.504951, 0.0 ],
+						"type" : "color"
 					}
-
+,
+					"color" : [ 0.874509803921569, 0.756862745098039, 0.494117647058824, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -833,14 +826,14 @@
 				"name" : "panel_middle_raw",
 				"default" : 				{
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 90.0,
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.0, 0.0, 0.0, 1.0 ],
 						"color2" : [ 0.654902, 0.572549, 0.376471, 1.0 ],
-						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 90.0,
 						"proportion" : 0.390909,
 						"pt1" : [ 0.504951, 0.956522 ],
-						"pt2" : [ 0.504951, 0.0 ]
+						"pt2" : [ 0.504951, 0.0 ],
+						"type" : "gradient"
 					}
 
 				}

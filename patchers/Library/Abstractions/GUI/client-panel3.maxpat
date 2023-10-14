@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 6,
+			"minor" : 3,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 381.0, 335.0, 1149.0, 421.0 ],
+		"rect" : [ 361.0, 491.0, 1149.0, 421.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,27 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-20",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 617.0, 359.0, 227.0, 20.0 ],
+					"restore" : [ "harmonizer" ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr processName2 @invisible 1 @autorestore 0",
+					"varname" : "processName2"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -107,7 +128,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "int", "" ],
 					"patching_rect" : [ 115.0, 228.0, 32.0, 20.0 ],
 					"text" : "t #1 l"
 				}
@@ -225,8 +246,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 6,
+							"minor" : 3,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -749,7 +770,7 @@
 						"displayToggle" : [ 1 ],
 						"filterName" : [ "-bypass-" ],
 						"filterTransposition" : [ 0 ],
-						"instrument" : [ "none" ],
+						"instrument" : [ "* sine.instr" ],
 						"processName" : [ "thru" ],
 						"processPreset" : [ "on" ],
 						"sendDelay" : [ 0 ],
@@ -962,7 +983,7 @@
 					"fontsize" : 10.0,
 					"hint" : "Instrument",
 					"id" : "obj-39",
-					"items" : [ "none", ",", "MIDI", ",", "Plugin", ",", "AudioExtension", ",", "Sampler:" ],
+					"items" : [ "none", ",", "MIDI", ",", "Plugin", ",", "AudioExtension", ",", "Sampler:", ",", "*", "sine.instr" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -988,8 +1009,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 6,
+							"minor" : 3,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1032,7 +1053,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 171.0, 187.0, 62.0, 16.0 ],
+									"patching_rect" : [ 171.0, 187.0, 62.0, 20.0 ],
 									"text" : "symbol thru"
 								}
 
@@ -1046,7 +1067,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 101.0, 58.0, 271.0, 16.0 ],
+									"patching_rect" : [ 101.0, 58.0, 271.0, 20.0 ],
 									"text" : "clear, 0 none, 1 thru, 2 transformation, 3 harmonizer, dump"
 								}
 
@@ -1072,7 +1093,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "clear" ],
-									"patching_rect" : [ 11.0, 58.0, 46.0, 18.0 ],
+									"patching_rect" : [ 11.0, 58.0, 46.0, 20.0 ],
 									"text" : "t b clear"
 								}
 
@@ -1086,7 +1107,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 11.0, 34.0, 32.5, 18.0 ],
+									"patching_rect" : [ 11.0, 34.0, 32.5, 20.0 ],
 									"text" : "sel 9"
 								}
 
@@ -1100,7 +1121,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 11.0, 11.0, 41.0, 18.0 ],
+									"patching_rect" : [ 11.0, 11.0, 41.0, 20.0 ],
 									"text" : "r panic"
 								}
 
@@ -1114,7 +1135,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 11.0, 82.0, 62.0, 16.0 ],
+									"patching_rect" : [ 11.0, 82.0, 62.0, 20.0 ],
 									"text" : "clear, dump"
 								}
 
@@ -1128,7 +1149,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 113.0, 283.0, 124.0, 18.0 ],
+									"patching_rect" : [ 113.0, 283.0, 124.0, 20.0 ],
 									"text" : "substitute symbol append"
 								}
 
@@ -1142,7 +1163,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 113.0, 142.0, 49.0, 18.0 ],
+									"patching_rect" : [ 113.0, 142.0, 49.0, 20.0 ],
 									"text" : "zl slice 2"
 								}
 
@@ -1156,7 +1177,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "bang", "dump", "clear" ],
-									"patching_rect" : [ 171.0, 160.0, 74.0, 18.0 ],
+									"patching_rect" : [ 171.0, 160.0, 74.0, 20.0 ],
 									"text" : "t b dump clear"
 								}
 
@@ -1170,7 +1191,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 171.0, 138.0, 96.0, 18.0 ],
+									"patching_rect" : [ 171.0, 138.0, 96.0, 20.0 ],
 									"text" : "r update-processes"
 								}
 
@@ -1178,7 +1199,7 @@
 , 							{
 								"box" : 								{
 									"coll_data" : 									{
-										"count" : 5,
+										"count" : 6,
 										"data" : [ 											{
 												"key" : 1,
 												"value" : [ "DJster" ]
@@ -1199,6 +1220,10 @@
 												"key" : 5,
 												"value" : [ "my-process" ]
 											}
+, 											{
+												"key" : 0,
+												"value" : [ "my-process" ]
+											}
  ]
 									}
 ,
@@ -1209,7 +1234,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 113.0, 260.0, 76.0, 18.0 ],
+									"patching_rect" : [ 113.0, 260.0, 76.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1,
 										"precision" : 6
@@ -1228,7 +1253,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 269.0, 142.0, 78.0, 18.0 ],
+									"patching_rect" : [ 269.0, 142.0, 78.0, 20.0 ],
 									"text" : "prepend nstore"
 								}
 
@@ -1242,7 +1267,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 113.0, 92.0, 101.0, 18.0 ],
+									"patching_rect" : [ 113.0, 92.0, 101.0, 20.0 ],
 									"text" : "r setProcessParams"
 								}
 
@@ -1268,7 +1293,7 @@
 												"value" : [ "Prime", "Inversion", "Retrograde", "RetrogradeInversion" ]
 											}
 , 											{
-												"key" : [ "my-process", 5 ],
+												"key" : [ "my-process", 0 ],
 												"value" : [ "preset1", "preset2", "preset3" ]
 											}
  ]
@@ -1281,7 +1306,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 347.0, 231.0, 68.0, 18.0 ],
+									"patching_rect" : [ 347.0, 231.0, 68.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1,
 										"precision" : 6
@@ -1300,7 +1325,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 347.0, 142.0, 82.0, 18.0 ],
+									"patching_rect" : [ 347.0, 142.0, 82.0, 20.0 ],
 									"text" : "prepend symbol"
 								}
 
@@ -1318,8 +1343,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 6,
+											"minor" : 3,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1549,7 +1574,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 347.0, 260.0, 61.0, 18.0 ],
+									"patching_rect" : [ 347.0, 260.0, 61.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -1790,8 +1815,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 6,
+							"minor" : 3,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1920,8 +1945,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 6,
+							"minor" : 3,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1993,7 +2018,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 77.5, 33.0, 409.0, 20.0 ],
-									"restore" : [ 0 ],
+									"restore" : [ 5266 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -2521,8 +2546,17 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"order" : 0,
+					"source" : [ "obj-57", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-44", 0 ],
 					"midpoints" : [ 626.5, 347.0, 529.0, 347.0, 529.0, 282.0, 542.5, 282.0 ],
+					"order" : 1,
 					"source" : [ "obj-57", 1 ]
 				}
 
@@ -2557,14 +2591,6 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "choices2.txt",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Data",
-				"patcherrelativepath" : "../../Data",
-				"type" : "TEXT",
-				"implicit" : 1
 			}
  ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ]

@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
+			"minor" : 5,
 			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 304.0, 480.0, 363.0, 387.0 ],
+		"rect" : [ 361.0, 322.0, 345.0, 383.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -77,7 +77,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 28.0, 225.0, 29.5, 20.0 ],
+					"patching_rect" : [ 28.5, 216.0, 29.5, 20.0 ],
 					"text" : "gate"
 				}
 
@@ -92,7 +92,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 28.0, 295.0, 199.0, 20.0 ],
+					"patching_rect" : [ 28.5, 290.0, 199.0, 20.0 ],
 					"text" : "pattrforward parent::receiver::2pattrstorage"
 				}
 
@@ -104,11 +104,11 @@
 					"fontsize" : 10.0,
 					"id" : "obj-7",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "FullPacket" ],
-					"patching_rect" : [ 28.0, 261.0, 95.0, 20.0 ],
-					"text" : "o.route /pattr /extra"
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "FullPacket" ],
+					"patching_rect" : [ 28.5, 250.0, 161.0, 20.0 ],
+					"text" : "o.route /pattr /extra /viewer/0.0.0.0"
 				}
 
 			}
@@ -121,7 +121,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 38.5, 190.0, 84.0, 20.0 ],
+					"patching_rect" : [ 39.0, 181.0, 84.0, 20.0 ],
 					"text" : "udpreceive 7999"
 				}
 
@@ -191,7 +191,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 104.0, 326.0, 93.0, 22.0 ],
+					"patching_rect" : [ 170.5, 322.0, 93.0, 22.0 ],
 					"text" : "s viewer.curves"
 				}
 
@@ -220,7 +220,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 28.0, 11.0, 81.0, 19.0 ],
 					"restore" : 					{
-						"on" : [ 0 ],
+						"on" : [ 1 ],
 						"port" : [ 7999 ]
 					}
 ,
@@ -275,6 +275,13 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
+					"source" : [ "obj-7", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-7", 2 ]
 				}
 
@@ -304,9 +311,9 @@
 		"styles" : [ 			{
 				"name" : "comment_font_viewer",
 				"default" : 				{
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontname" : [ "Gill Sans" ],
 					"fontsize" : [ 12.0 ],
-					"fontname" : [ "Gill Sans" ]
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -315,9 +322,9 @@
 , 			{
 				"name" : "comment_viewer_normal",
 				"default" : 				{
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontname" : [ "Arial" ],
 					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -327,12 +334,12 @@
 				"name" : "panel_black_brown",
 				"default" : 				{
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.0, 0.0, 0.0, 1.0 ],
 						"color2" : [ 0.880169, 0.755396, 0.471904, 1.0 ],
-						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.504831
+						"proportion" : 0.504831,
+						"type" : "gradient"
 					}
 
 				}
@@ -344,12 +351,12 @@
 				"name" : "panel_black_grey_frame",
 				"default" : 				{
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : -90.0,
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.0, 0.0, 0.0, 1.0 ],
 						"color2" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : -90.0,
-						"proportion" : 0.39
+						"proportion" : 0.39,
+						"type" : "gradient"
 					}
 ,
 					"color" : [ 0.682353, 0.705882, 0.776471, 1.0 ]

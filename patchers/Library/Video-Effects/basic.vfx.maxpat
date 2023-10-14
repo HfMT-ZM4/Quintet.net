@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 10,
+			"minor" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 810.0, 404.0, 948.0, 625.0 ],
+		"rect" : [ 407.0, 146.0, 948.0, 625.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -558,8 +558,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 10,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -749,8 +749,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 10,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1102,8 +1102,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 10,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1337,8 +1337,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 10,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1572,8 +1572,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 10,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1820,8 +1820,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 10,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2055,8 +2055,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 10,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2289,8 +2289,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 10,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2626,8 +2626,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 10,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3634,9 +3634,9 @@
 						"blur" : [ 0.0 ],
 						"brightness" : [ 1.0 ],
 						"contrast" : [ -1.0 ],
-						"dim_x" : [ 30 ],
-						"dim_y" : [ 30 ],
-						"frgb" : [ 0, 0, 0 ],
+						"dim_x" : [ 28 ],
+						"dim_y" : [ 75 ],
+						"frgb" : [ 49, 0, 245 ],
 						"mapdim" : [ 0.0 ],
 						"on" : [ 0, 0, 0, 0, 0, 0, 0, 0 ],
 						"planemap" : [ 0, 1, 3, 3 ],
@@ -3656,11 +3656,12 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 176.0, 50.0, 93.0, 20.0 ],
+					"patching_rect" : [ 176.0, 50.0, 94.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 28.0, 1.0, 92.0, 20.0 ],
+					"presentation_rect" : [ 28.0, 1.0, 94.0, 20.0 ],
 					"style" : "comment_header_blue",
-					"text" : "Basic Effects #1"
+					"text" : "Basic Effects 1",
+					"textcolor" : [ 0.364705882352941, 0.415686274509804, 0.592156862745098, 1.0 ]
 				}
 
 			}
@@ -4268,14 +4269,12 @@
 
 			}
  ],
-		"dependency_cache" : [  ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "comment_font_viewer",
 				"default" : 				{
+					"fontname" : [ "Gill Sans" ],
 					"fontsize" : [ 12.0 ],
-					"textcolor" : [ 0.364705882352941, 0.415686274509804, 0.592156862745098, 1.0 ],
-					"fontname" : [ "Gill Sans" ]
+					"textcolor" : [ 0.364705882352941, 0.415686274509804, 0.592156862745098, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -4293,9 +4292,9 @@
 , 			{
 				"name" : "comment_viewer_blue",
 				"default" : 				{
+					"fontname" : [ "Gill Sans" ],
 					"fontsize" : [ 10.0 ],
-					"textcolor" : [ 0.364705882352941, 0.415686274509804, 0.592156862745098, 1.0 ],
-					"fontname" : [ "Gill Sans" ]
+					"textcolor" : [ 0.364705882352941, 0.415686274509804, 0.592156862745098, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -4313,13 +4312,13 @@
 , 			{
 				"name" : "number_white",
 				"default" : 				{
-					"selectioncolor" : [ 0.87, 0.82, 0.24, 1.0 ],
-					"textcolor_inverse" : [ 0.364705882352941, 0.415686274509804, 0.592156862745098, 1.0 ],
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Gill Sans" ],
 					"accentcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"fontface" : [ 1 ]
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"fontface" : [ 1 ],
+					"fontname" : [ "Gill Sans" ],
+					"fontsize" : [ 10.0 ],
+					"selectioncolor" : [ 0.87, 0.82, 0.24, 1.0 ],
+					"textcolor_inverse" : [ 0.364705882352941, 0.415686274509804, 0.592156862745098, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -4329,13 +4328,13 @@
 				"name" : "panel_blue",
 				"default" : 				{
 					"bgfillcolor" : 					{
-						"type" : "color",
+						"angle" : -90.0,
+						"autogradient" : 0.0,
 						"color" : [ 0.047058823529412, 0.423529411764706, 0.847058823529412, 0.0 ],
 						"color1" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 						"color2" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
-						"angle" : -90.0,
 						"proportion" : 0.39,
-						"autogradient" : 0.0
+						"type" : "color"
 					}
 ,
 					"color" : [ 0.364705882352941, 0.415686274509804, 0.592156862745098, 1.0 ]
@@ -4348,13 +4347,13 @@
 				"name" : "panel_grey_blue",
 				"default" : 				{
 					"bgfillcolor" : 					{
-						"type" : "color",
+						"angle" : -90.0,
+						"autogradient" : 0,
 						"color" : [ 0.047058823529412, 0.423529411764706, 0.847058823529412, 0.0 ],
 						"color1" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 						"color2" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
-						"angle" : -90.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "color"
 					}
 ,
 					"color" : [ 0.364705882352941, 0.415686274509804, 0.592156862745098, 1.0 ]

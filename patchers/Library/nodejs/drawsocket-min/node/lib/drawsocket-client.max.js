@@ -3096,11 +3096,21 @@ var drawsocket = (function(){
   }
 
 
-    window.max.bindInlet('drawsocket', function (a) {
-      try {
-        const obj = JSON.parse(a);
-        drawsocket_input(obj);
-        window.max.outlet("received", a);
+          window.max.bindInlet('drawsocket', (a) => {
+              try {
+                if( a == "dictionary" && dictRef != "undefined")
+                {
+                  window.max.getDict(dictRef, (obj) => {
+                    drawsocket_input(obj);
+                    window.max.outlet("received", a);
+                  });
+                }
+                else
+                {
+                  const obj = JSON.parse(a); // try{} is actually just for this I think
+                  drawsocket_input(obj);
+                  window.max.outlet("received", a);
+                }
 
       }
       catch(err)

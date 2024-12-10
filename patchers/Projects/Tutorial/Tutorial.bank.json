@@ -1,0 +1,1745 @@
+{
+	"Bell-1.instr" : 	{
+		"1" : 		{
+			"sample" : "Bell-1.aif",
+			"root_key" : 54,
+			"key_zone_floor" : 54,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 18433.7421875, 0, 1, 0, 0, 0, 72.716899999999995, 1, 0, 15022.979600000000573, 1, 2, 18433.742300000001705, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"2" : 		{
+			"sample" : "Bell-2.aif",
+			"root_key" : 66,
+			"key_zone_floor" : 66,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 14494.149499999999534, 0, 1, 0, 0, 0, 0, 1, 0, 11280.051799999999275, 1, 2, 14494.149499999999534, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+
+	}
+,
+	"Bell-2.instr" : 	{
+		"1" : 		{
+			"sample" : "Short-Bell_1.aif",
+			"root_key" : 66,
+			"key_zone_floor" : 66,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 4088.888899999999921, 0, 1, 0, 0, 0, 0, 1, 0, 2835.655999999999949, 1, 2, 4088.888899999999921, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"2" : 		{
+			"sample" : "Short-Bell_2.aif",
+			"root_key" : 78,
+			"key_zone_floor" : 78,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 3880.272200000000339, 0, 1, 0, 0, 0, 0, 1, 0, 2614.251200000000154, 0.9925, 2, 3880.272200000000339, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+
+	}
+,
+	"Hi_Voweler.instr" : 	{
+		"1" : 		{
+			"sample" : "Hi Voweler f1.aif",
+			"root_key" : 29,
+			"key_zone_floor" : 29,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 22193.628900000003341, 0, 1, 0, 0, 0, 87.5488, 1, 0, 19435.099600000001374, 1, 2, 22193.628900000003341, 0, 0, "linear" ],
+			"loop" : [ 1, 13474.581099999999424, 22130.091799999998329 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"2" : 		{
+			"sample" : "Hi Voweler f2.aif",
+			"root_key" : 41,
+			"key_zone_floor" : 41,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 22806.191899999997986, 0, 1, 0, 0, 0, 89.965299999999999, 1, 0, 20325.857899999999063, 0.9627, 2, 22806.191899999997986, 0, 0, "linear" ],
+			"loop" : [ 1, 18391.134799999999814, 22721.316399999999703 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"3" : 		{
+			"sample" : "Hi Voweler f3.aif",
+			"root_key" : 53,
+			"key_zone_floor" : 53,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 22311.42779999999766, 0, 1, 0, 0, 0, 0, 1, 0, 20200.03519999999844, 1, 2, 22311.42779999999766, 0, 0, "linear" ],
+			"loop" : [ 1, 15746.50879999999961, 22241.769499999998516 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"4" : 		{
+			"sample" : "Hi Voweler f4.aif",
+			"root_key" : 65,
+			"key_zone_floor" : 65,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 23371.633300000001327, 0, 1, 0, 0, 0, 92.195800000000006, 1, 0, 20235.609900000003108, 1, 2, 23371.633300000001327, 0, 0, "linear" ],
+			"loop" : [ 1, 15283.833000000000538, 23321.769499999998516 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"5" : 		{
+			"sample" : "Hi Voweler f5.aif",
+			"root_key" : 77,
+			"key_zone_floor" : 77,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 19672.700099999998201, 0, 1, 0, 0, 0, 77.604299999999995, 1, 0, 16921.856299999999464, 1, 2, 19672.700099999998201, 0, 0, "linear" ],
+			"loop" : [ 1, 14884.989299999999275, 19624.513699999999517 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+
+	}
+,
+	"Dreamers.instr" : 	{
+		"1" : 		{
+			"sample" : "Dreamers_c27f0000.aif",
+			"root_key" : 36,
+			"key_zone_floor" : 36,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 20, 1, 0, 3987.929399999999987, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"2" : 		{
+			"sample" : "Dreamers_f#27f0000.aif",
+			"root_key" : 42,
+			"key_zone_floor" : 42,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 20, 1, 0, 4058.914999999999964, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"3" : 		{
+			"sample" : "Dreamers_c37f0000.aif",
+			"root_key" : 48,
+			"key_zone_floor" : 48,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 20, 1, 0, 3985.64449999999988, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"4" : 		{
+			"sample" : "Dreamers_f#37f0000.aif",
+			"root_key" : 54,
+			"key_zone_floor" : 54,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 20, 1, 0, 3830.497600000000148, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"5" : 		{
+			"sample" : "Dreamers_c47f0000.aif",
+			"root_key" : 60,
+			"key_zone_floor" : 60,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 20, 1, 0, 3913.822299999999814, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"6" : 		{
+			"sample" : "Dreamers_f#47f0000.aif",
+			"root_key" : 66,
+			"key_zone_floor" : 66,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 20, 1, 0, 3746.191699999999855, 0.9851, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"7" : 		{
+			"sample" : "Dreamers_c57f0000.aif",
+			"root_key" : 72,
+			"key_zone_floor" : 72,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 20, 1, 0, 3869.909200000000055, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"8" : 		{
+			"sample" : "Dreamers_f#57f0000.aif",
+			"root_key" : 78,
+			"key_zone_floor" : 78,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 20, 1, 0, 3899.710199999999986, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"9" : 		{
+			"sample" : "Dreamers_c67f0000.aif",
+			"root_key" : 84,
+			"key_zone_floor" : 84,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 20, 1, 0, 3902.670399999999972, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+
+	}
+,
+	"Kalimbell.instr" : 	{
+		"1" : 		{
+			"sample" : "Kalimbell-1.aif",
+			"root_key" : 54,
+			"key_zone_floor" : 54,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 3506.21309999999994, 0, 1, 0, 0, 0, 0, 1, 0, 2094.813700000000154, 1, 2, 3506.21309999999994, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"2" : 		{
+			"sample" : "Kalimbell-2.aif",
+			"root_key" : 66,
+			"key_zone_floor" : 66,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 2832.834499999999935, 0, 1, 0, 0, 0, 0, 1, 0, 1948.574000000000069, 1, 2, 2832.834499999999935, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"3" : 		{
+			"sample" : "Kalimbell-3.aif",
+			"root_key" : 78,
+			"key_zone_floor" : 78,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 5201.270000000000437, 0, 1, 0, 0, 0, 0, 1, 0, 3900.952600000000075, 1, 2, 5201.270000000000437, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+
+	}
+,
+	"Wave_4.instr" : 	{
+		"1" : 		{
+			"sample" : "Wave 4.aif",
+			"root_key" : 69,
+			"key_zone_floor" : 69,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 2063.129100000000108, 0, 1, 0, 0, 0, 0, 1, 0, 1043.220700000000079, 1, 2, 2063.129100000000108, 0, 0, "linear" ],
+			"loop" : [ 1, 969.478500000000054, 2063.106699999999819 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+
+	}
+,
+	"Dark_Monkey.instr" : 	{
+		"1" : 		{
+			"sample" : "Dark Monkey.aif",
+			"root_key" : 38,
+			"key_zone_floor" : 38,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 42000, 0, 1, 0, 0, 0, 0, 0.9925, 0, 39627.117200000000594, 1, 2, 42000, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+
+	}
+,
+	"Digi_Vocal.instr" : 	{
+		"1" : 		{
+			"sample" : "Digi Vocal.aif",
+			"root_key" : 60,
+			"key_zone_floor" : 60,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 2359.727800000000116, 0, 1, 0, 0, 0, 0, 1, 0, 1429.835100000000011, 1, 2, 2359.727800000000116, 0, 0, "linear" ],
+			"loop" : [ 1, 925.011399999999981, 2358.186000000000149 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+
+	}
+,
+	"Mini_Moog.instr" : 	{
+		"1" : 		{
+			"sample" : "Mini Moog Bass Sus3 F1.aif",
+			"root_key" : 29,
+			"key_zone_floor" : 29,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 0, 1, 0, 4119.061499999999796, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 1, 2490.86180000000013, 5190.680699999999888 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"2" : 		{
+			"sample" : "Mini Moog Bass Sus3 F2.aif",
+			"root_key" : 41,
+			"key_zone_floor" : 41,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 0, 1, 0, 4011.188700000000154, 0.9925, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 1, 1590.9070999999999, 6361.247599999999693 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"3" : 		{
+			"sample" : "Mini Moog Bass Sus3 F3.aif",
+			"root_key" : 53,
+			"key_zone_floor" : 53,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 0, 1, 0, 4083.454600000000028, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 1, 1644.671299999999974, 4871.882300000000214 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"4" : 		{
+			"sample" : "Mini Moog Bass Sus3 F4.aif",
+			"root_key" : 65,
+			"key_zone_floor" : 65,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 4087.777799999999843, 0, 1, 0, 0, 0, 0, 1, 0, 3088.928199999999833, 1, 2, 4087.777799999999843, 0, 0, "linear" ],
+			"loop" : [ 1, 1913.78690000000006, 3897.981900000000223 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"5" : 		{
+			"sample" : "Mini Moog Bass Sus3 F5.aif",
+			"root_key" : 77,
+			"key_zone_floor" : 77,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 3500.635099999999966, 0, 1, 0, 0, 0, 0, 1, 0, 2660.087199999999939, 1, 2, 3500.635099999999966, 0, 0, "linear" ],
+			"loop" : [ 1, 1004.671299999999974, 3244.943400000000111 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+
+	}
+,
+	"Synth_1980.instr" : 	{
+		"1" : 		{
+			"sample" : "Synth 1980 Pad.aif",
+			"root_key" : 60,
+			"key_zone_floor" : 60,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 2746.235899999999674, 0, 1, 0, 0, 0, 0, 1, 0, 1516.635899999999992, 1, 2, 2746.235899999999674, 0, 0, "linear" ],
+			"loop" : [ 1, 1687.414999999999964, 2746.190700000000106 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+
+	}
+,
+	"E-Pad.instr" : 	{
+		"1" : 		{
+			"sample" : "Synth E-Pad (Lo).aif",
+			"root_key" : 36,
+			"key_zone_floor" : 36,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 0, 1, 0, 3391.992400000000089, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 1, 5581.678200000000288, 7999.705600000000231 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+
+	}
+,
+	"Equinox.instr" : 	{
+		"1" : 		{
+			"sample" : "Synth Equinox (Stereo).aif",
+			"root_key" : 60,
+			"key_zone_floor" : 60,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 2750.226799999999912, 0, 1, 0, 0, 0, 0, 1, 0, 2027.709599999999909, 1, 2, 2750.226799999999912, 0, 0, "linear" ],
+			"loop" : [ 1, 1846.689499999999953, 2750.158899999999903 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+
+	}
+,
+	"Galaxis.instr" : 	{
+		"1" : 		{
+			"sample" : "Synth Galaxis.aif",
+			"root_key" : 48,
+			"key_zone_floor" : 48,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 3987.460199999999531, 0, 1, 0, 0, 0, 0, 1, 0, 2872.322999999999865, 1, 2, 3987.460199999999531, 0, 0, "linear" ],
+			"loop" : [ 1, 1891.972899999999981, 3987.369900000000143 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+
+	}
+,
+	"Venus_Pad.instr" : 	{
+		"1" : 		{
+			"sample" : "Synth Venus Pad.aif",
+			"root_key" : 60,
+			"key_zone_floor" : 60,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 4333.537599999999657, 0, 1, 0, 0, 0, 0, 1, 0, 3158.341100000000097, 1, 2, 4333.537599999999657, 0, 0, "linear" ],
+			"loop" : [ 1, 2063.356200000000172, 4333.469699999999648 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+
+	}
+,
+	"Celeste.instr" : 	{
+		"1" : 		{
+			"sample" : "Celeste C#2.aif",
+			"root_key" : 49,
+			"key_zone_floor" : 49,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 2645.12480000000005, 0, 1, 0, 0, 0, 0, 1, 0, 1490.684700000000021, 1, 2, 2645.12480000000005, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"2" : 		{
+			"sample" : "Celeste F#2.aif",
+			"root_key" : 54,
+			"key_zone_floor" : 54,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 2470.589600000000246, 0, 1, 0, 0, 0, 0, 1, 0, 1298.106299999999919, 1, 2, 2470.589600000000246, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"3" : 		{
+			"sample" : "Celeste B2.aif",
+			"root_key" : 59,
+			"key_zone_floor" : 59,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 2633.469500000000153, 0, 1, 0, 0, 0, 0, 1, 0, 1517.592499999999973, 1, 2, 2633.469500000000153, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"4" : 		{
+			"sample" : "Celeste E3.aif",
+			"root_key" : 64,
+			"key_zone_floor" : 64,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 2585.895799999999781, 0, 1, 0, 0, 0, 0, 1, 0, 1767.759299999999939, 1, 2, 2585.895799999999781, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"5" : 		{
+			"sample" : "Celeste A3.aif",
+			"root_key" : 69,
+			"key_zone_floor" : 69,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 2204.55789999999979, 0, 1, 0, 0, 0, 0, 1, 0, 1183.237300000000005, 1, 2, 2204.55789999999979, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"6" : 		{
+			"sample" : "Celeste D4.aif",
+			"root_key" : 74,
+			"key_zone_floor" : 74,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 2391.90480000000025, 0, 1, 0, 0, 0, 0, 1, 0, 1500.008100000000013, 1, 2, 2391.90480000000025, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"7" : 		{
+			"sample" : "Celeste G4.aif",
+			"root_key" : 79,
+			"key_zone_floor" : 79,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 2325.419399999999769, 0, 1, 0, 0, 0, 0, 1, 0, 1356.494599999999991, 1, 2, 2325.419399999999769, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+
+	}
+,
+	"percussion_glockenspiel_Glockenspiel-beaters_ordinario.instr" : 	{
+		"1" : 		{
+			"sample" : "gsp-gsp-G5-pp.AIF",
+			"root_key" : 79,
+			"key_zone_floor" : 79,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 20, 1, 0, 5020, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"2" : 		{
+			"sample" : "gsp-gsp-G5-mf.AIF",
+			"root_key" : 79,
+			"key_zone_floor" : 79,
+			"vel_zone_floor" : 42,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 20, 1, 0, 5020, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"3" : 		{
+			"sample" : "gsp-gsp-G5-ff.AIF",
+			"root_key" : 79,
+			"key_zone_floor" : 79,
+			"vel_zone_floor" : 84,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 20, 1, 0, 5020, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"4" : 		{
+			"sample" : "gsp-gsp-A#5-pp.AIF",
+			"root_key" : 82,
+			"key_zone_floor" : 82,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 20, 1, 0, 5020, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"5" : 		{
+			"sample" : "gsp-gsp-A#5-mf.AIF",
+			"root_key" : 82,
+			"key_zone_floor" : 82,
+			"vel_zone_floor" : 42,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 20, 1, 0, 5020, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"6" : 		{
+			"sample" : "gsp-gsp-A#5-ff.AIF",
+			"root_key" : 82,
+			"key_zone_floor" : 82,
+			"vel_zone_floor" : 84,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 20, 1, 0, 5020, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"7" : 		{
+			"sample" : "gsp-gsp-C#6-pp.AIF",
+			"root_key" : 85,
+			"key_zone_floor" : 85,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 20, 1, 0, 5020, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"8" : 		{
+			"sample" : "gsp-gsp-C#6-mf.AIF",
+			"root_key" : 85,
+			"key_zone_floor" : 85,
+			"vel_zone_floor" : 42,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 20, 1, 0, 5020, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"9" : 		{
+			"sample" : "gsp-gsp-C#6-ff.AIF",
+			"root_key" : 85,
+			"key_zone_floor" : 85,
+			"vel_zone_floor" : 84,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 20, 1, 0, 5020, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"10" : 		{
+			"sample" : "gsp-gsp-E6-pp.AIF",
+			"root_key" : 88,
+			"key_zone_floor" : 88,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 20, 1, 0, 5020, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"11" : 		{
+			"sample" : "gsp-gsp-E6-mf.AIF",
+			"root_key" : 88,
+			"key_zone_floor" : 88,
+			"vel_zone_floor" : 42,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 20, 1, 0, 5020, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"12" : 		{
+			"sample" : "gsp-gsp-E6-ff.AIF",
+			"root_key" : 88,
+			"key_zone_floor" : 88,
+			"vel_zone_floor" : 84,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 20, 1, 0, 5020, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"13" : 		{
+			"sample" : "gsp-gsp-G6-pp.AIF",
+			"root_key" : 91,
+			"key_zone_floor" : 91,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 20, 1, 0, 5020, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"14" : 		{
+			"sample" : "gsp-gsp-G6-mf.AIF",
+			"root_key" : 91,
+			"key_zone_floor" : 91,
+			"vel_zone_floor" : 42,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 20, 1, 0, 5020, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"15" : 		{
+			"sample" : "gsp-gsp-G6-ff.AIF",
+			"root_key" : 91,
+			"key_zone_floor" : 91,
+			"vel_zone_floor" : 84,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 20, 1, 0, 5020, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"16" : 		{
+			"sample" : "gsp-gsp-A#6-pp.AIF",
+			"root_key" : 94,
+			"key_zone_floor" : 94,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 20, 1, 0, 5020, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"17" : 		{
+			"sample" : "gsp-gsp-A#6-mf.AIF",
+			"root_key" : 94,
+			"key_zone_floor" : 94,
+			"vel_zone_floor" : 42,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 20, 1, 0, 5020, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"18" : 		{
+			"sample" : "gsp-gsp-A#6-ff.AIF",
+			"root_key" : 94,
+			"key_zone_floor" : 94,
+			"vel_zone_floor" : 84,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 20, 1, 0, 5020, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"19" : 		{
+			"sample" : "gsp-gsp-C#7-pp.AIF",
+			"root_key" : 97,
+			"key_zone_floor" : 97,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 20, 1, 0, 5020, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"20" : 		{
+			"sample" : "gsp-gsp-C#7-mf.AIF",
+			"root_key" : 97,
+			"key_zone_floor" : 97,
+			"vel_zone_floor" : 42,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 20, 1, 0, 5020, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"21" : 		{
+			"sample" : "gsp-gsp-C#7-ff.AIF",
+			"root_key" : 97,
+			"key_zone_floor" : 97,
+			"vel_zone_floor" : 84,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 20, 1, 0, 5020, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"22" : 		{
+			"sample" : "gsp-gsp-E7-pp.AIF",
+			"root_key" : 100,
+			"key_zone_floor" : 100,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 20, 1, 0, 5020, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"23" : 		{
+			"sample" : "gsp-gsp-E7-mf.AIF",
+			"root_key" : 100,
+			"key_zone_floor" : 100,
+			"vel_zone_floor" : 42,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 20, 1, 0, 5020, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"24" : 		{
+			"sample" : "gsp-gsp-E7-ff.AIF",
+			"root_key" : 100,
+			"key_zone_floor" : 100,
+			"vel_zone_floor" : 84,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 20, 1, 0, 5020, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"25" : 		{
+			"sample" : "gsp-gsp-G7-pp.AIF",
+			"root_key" : 103,
+			"key_zone_floor" : 103,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 20, 1, 0, 5020, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"26" : 		{
+			"sample" : "gsp-gsp-G7-mf.AIF",
+			"root_key" : 103,
+			"key_zone_floor" : 103,
+			"vel_zone_floor" : 42,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 20, 1, 0, 5020, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"27" : 		{
+			"sample" : "gsp-gsp-G7-ff.AIF",
+			"root_key" : 103,
+			"key_zone_floor" : 103,
+			"vel_zone_floor" : 84,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 20, 1, 0, 5020, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"28" : 		{
+			"sample" : "gsp-gsp-A#7-pp.AIF",
+			"root_key" : 106,
+			"key_zone_floor" : 106,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 20, 1, 0, 5020, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"29" : 		{
+			"sample" : "gsp-gsp-A#7-mf.AIF",
+			"root_key" : 106,
+			"key_zone_floor" : 106,
+			"vel_zone_floor" : 42,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 20, 1, 0, 5020, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"30" : 		{
+			"sample" : "gsp-gsp-A#7-ff.AIF",
+			"root_key" : 106,
+			"key_zone_floor" : 106,
+			"vel_zone_floor" : 84,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 20, 1, 0, 5020, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"31" : 		{
+			"sample" : "gsp-gsp-C8-pp.AIF",
+			"root_key" : 108,
+			"key_zone_floor" : 108,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 20, 1, 0, 5020, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"32" : 		{
+			"sample" : "gsp-gsp-C8-mf.AIF",
+			"root_key" : 108,
+			"key_zone_floor" : 108,
+			"vel_zone_floor" : 42,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 20, 1, 0, 5020, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"33" : 		{
+			"sample" : "gsp-gsp-C8-ff.AIF",
+			"root_key" : 108,
+			"key_zone_floor" : 108,
+			"vel_zone_floor" : 84,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 20, 1, 0, 5020, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+
+	}
+,
+	"Marimba.instr" : 	{
+		"1" : 		{
+			"sample" : "Marimba Hard A2.aif",
+			"root_key" : 45,
+			"key_zone_floor" : 45,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 817.664400000000001, 0, 1, 0, 0, 0, 0, 1, 0, 392.663700000000006, 1, 2, 817.664400000000001, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"2" : 		{
+			"sample" : "Marimba Hard C#3.aif",
+			"root_key" : 49,
+			"key_zone_floor" : 49,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 580.476099999999974, 0, 1, 0, 0, 0, 2.2898, 1, 0, 286.138599999999997, 1, 2, 580.476099999999974, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"3" : 		{
+			"sample" : "Marimba Hard F3.aif",
+			"root_key" : 53,
+			"key_zone_floor" : 53,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 702.222300000000018, 0, 1, 0, 0, 0, 2.7701, 1, 0, 279.698700000000031, 1, 2, 702.222300000000018, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"4" : 		{
+			"sample" : "Marimba Hard A3.aif",
+			"root_key" : 57,
+			"key_zone_floor" : 57,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 664.489800000000059, 0, 1, 0, 0, 0, 0, 1, 0, 411.082699999999988, 1, 2, 664.489800000000059, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"5" : 		{
+			"sample" : "Marimba Hard C#4.aif",
+			"root_key" : 61,
+			"key_zone_floor" : 61,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 560.544100000000071, 0, 1, 0, 0, 0, 2.2112, 1, 0, 233.560000000000002, 1, 2, 560.544100000000071, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"6" : 		{
+			"sample" : "Marimba Hard F4.aif",
+			"root_key" : 65,
+			"key_zone_floor" : 65,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 541.995499999999993, 0, 1, 0, 0, 0, 2.138, 1, 0, 280.184100000000001, 1, 2, 541.995499999999993, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"7" : 		{
+			"sample" : "Marimba Hard A4.aif",
+			"root_key" : 69,
+			"key_zone_floor" : 69,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 578.208599999999933, 0, 1, 0, 0, 0, 2.2809, 1, 0, 261.337199999999996, 1, 2, 578.208599999999933, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"8" : 		{
+			"sample" : "Marimba Hard C#5.aif",
+			"root_key" : 73,
+			"key_zone_floor" : 73,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 460.204100000000039, 0, 1, 0, 0, 0, 0, 1, 0, 182.651600000000002, 1, 2, 460.204100000000039, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"9" : 		{
+			"sample" : "Marimba Hard F5.aif",
+			"root_key" : 77,
+			"key_zone_floor" : 77,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 415.555600000000027, 0, 1, 0, 0, 0, 1.6393, 1, 0, 184.300099999999986, 1, 2, 415.555600000000027, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"10" : 		{
+			"sample" : "Marimba Hard A5.aif",
+			"root_key" : 81,
+			"key_zone_floor" : 81,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 389.342399999999998, 0, 1, 0, 0, 0, 1.5359, 1, 0, 182.573000000000008, 1, 2, 389.342399999999998, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"11" : 		{
+			"sample" : "Marimba Hard C#6.aif",
+			"root_key" : 85,
+			"key_zone_floor" : 85,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 197.755099999999999, 0, 1, 0, 0, 0, 0.7801, 1, 0, 95.246499999999997, 1, 2, 197.755099999999999, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"12" : 		{
+			"sample" : "Marimba Hard F6.aif",
+			"root_key" : 89,
+			"key_zone_floor" : 89,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 217.619100000000003, 0, 1, 0, 0, 0, 0.8585, 1, 0, 69.466000000000008, 1, 2, 217.619100000000003, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"13" : 		{
+			"sample" : "Marimba Hard A6.aif",
+			"root_key" : 93,
+			"key_zone_floor" : 93,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 321.269800000000032, 0, 1, 0, 0, 0, 1.2673, 1, 0, 174.70180000000002, 1, 2, 321.269800000000032, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+
+	}
+,
+	"Stopped_Piano.instr" : 	{
+		"1" : 		{
+			"sample" : "Stopped Piano D1.aif",
+			"root_key" : 26,
+			"key_zone_floor" : 0,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 5379.569299999999203, 0, 1, 0, 0, 0, 0, 1, 0, 3138.08199999999988, 1, 2, 5379.569299999999203, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"2" : 		{
+			"sample" : "Stopped Piano G1.aif",
+			"root_key" : 31,
+			"key_zone_floor" : 31,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 4767.86869999999999, 0, 1, 0, 0, 0, 0, 1, 0, 2734.116700000000037, 1, 2, 4767.86869999999999, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"3" : 		{
+			"sample" : "Stopped Piano C2.aif",
+			"root_key" : 36,
+			"key_zone_floor" : 36,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 0, 1, 0, 3074.218800000000101, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"4" : 		{
+			"sample" : "Stopped Piano F2.aif",
+			"root_key" : 41,
+			"key_zone_floor" : 41,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 0, 1, 0, 3286.137700000000223, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+
+	}
+,
+	"Cymbales_Antiques.instr" : 	{
+		"1" : 		{
+			"sample" : "Antique Cym Single C3.aif",
+			"root_key" : 60,
+			"key_zone_floor" : 60,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 4335.102000000000771, 0, 1, 0, 0, 0, 0, 1, 0, 6.123, 1, 0, 2969.667400000000271, 1, 2, 4335.102000000000771, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"2" : 		{
+			"sample" : "Antique Cym Single E3.aif",
+			"root_key" : 64,
+			"key_zone_floor" : 64,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 5070, 0, 1, 0, 0, 0, 0, 1, 0, 3942.720200000000204, 1, 2, 5070, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"3" : 		{
+			"sample" : "Antique Cym Single G#3.aif",
+			"root_key" : 68,
+			"key_zone_floor" : 68,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 3993.922900000000027, 0, 1, 0, 0, 0, 0, 1, 0, 2905.184099999999944, 1, 2, 3993.922900000000027, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"4" : 		{
+			"sample" : "Antique Cym Single C4.aif",
+			"root_key" : 72,
+			"key_zone_floor" : 72,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 3983.764199999999619, 0, 1, 0, 0, 0, 0, 1, 0, 2700.857199999999921, 1, 2, 3983.764199999999619, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"5" : 		{
+			"sample" : "Antique Cym Single E4.aif",
+			"root_key" : 76,
+			"key_zone_floor" : 76,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 4744.603000000000065, 0, 1, 0, 0, 0, 0, 1, 0, 3531.646499999999833, 1, 2, 4744.603000000000065, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"6" : 		{
+			"sample" : "Antique Cym Single G#4.aif",
+			"root_key" : 80,
+			"key_zone_floor" : 80,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 4053.333200000000033, 0, 1, 0, 0, 0, 0, 1, 0, 2919.77390000000014, 0.9925, 2, 4053.333200000000033, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"7" : 		{
+			"sample" : "Antique Cym Single C5.aif",
+			"root_key" : 84,
+			"key_zone_floor" : 84,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 3801.541699999999764, 0, 1, 0, 0, 0, 0, 1, 0, 2663.226799999999912, 1, 2, 3801.541699999999764, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+
+	}
+,
+	"FretSound.instr" : 	{
+		"1" : 		{
+			"sample" : "guitarfret.wav",
+			"root_key" : 60,
+			"key_zone_floor" : 60,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 80, 0, 1, 0, 0, 0, 0, 1, 0, 13.2203, 1, 2, 80, 0, 0, "linear" ],
+			"loop" : [ 0, 0.0907, 80 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+
+	}
+,
+	"Bandoneon.instr" : 	{
+		"1" : 		{
+			"sample" : "do 2+1.aif",
+			"root_key" : 36,
+			"key_zone_floor" : 36,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 995.011300000000006, 0, 1, 0, 0, 0, 3.9251, 1, 0, 985.198600000000056, 1, 2, 995.011300000000006, 0, 0, "linear" ],
+			"loop" : [ 1, 720.022699999999986, 750.498900000000049 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"2" : 		{
+			"sample" : "re 2+.aif",
+			"root_key" : 38,
+			"key_zone_floor" : 38,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 1261.677900000000136, 0, 1, 0, 0, 0, 4.977, 1, 0, 1249.235300000000052, 1, 2, 1261.677900000000136, 0, 0, "linear" ],
+			"loop" : [ 1, 1152.675799999999981, 1166.281199999999899 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"3" : 		{
+			"sample" : "re# 2+.aif",
+			"root_key" : 39,
+			"key_zone_floor" : 39,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 1156.666699999999764, 0, 1, 0, 0, 0, 4.5628, 1, 0, 1145.259699999999839, 1, 2, 1156.666699999999764, 0, 0, "linear" ],
+			"loop" : [ 1, 1011.904800000000023, 1024.69399999999996 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"4" : 		{
+			"sample" : "mi 2+1.aif",
+			"root_key" : 40,
+			"key_zone_floor" : 40,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 678.3445999999999, 0, 1, 0, 0, 0, 2.6759, 1, 0, 671.654799999999909, 1, 2, 678.3445999999999, 0, 0, "linear" ],
+			"loop" : [ 1, 487.483000000000004, 511.677999999999997 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"5" : 		{
+			"sample" : "fa 2+.aif",
+			"root_key" : 41,
+			"key_zone_floor" : 41,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 925.011399999999981, 0, 1, 0, 0, 0, 3.649, 1, 0, 915.88900000000001, 1, 2, 925.011399999999981, 0, 0, "linear" ],
+			"loop" : [ 1, 754.126999999999953, 777.006799999999998 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"6" : 		{
+			"sample" : "sol# 2+.aif",
+			"root_key" : 44,
+			"key_zone_floor" : 44,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 1191.677999999999884, 0, 1, 0, 0, 0, 4.7009, 1, 0, 1179.925799999999981, 1, 2, 1191.677999999999884, 0, 0, "linear" ],
+			"loop" : [ 1, 1037.392299999999977, 1056.576000000000022 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"7" : 		{
+			"sample" : "la 2+1.aif",
+			"root_key" : 45,
+			"key_zone_floor" : 45,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 308.344699999999989, 0, 1, 0, 0, 0, 1.2163, 1, 0, 305.303799999999967, 1, 2, 308.344699999999989, 0, 0, "linear" ],
+			"loop" : [ 1, 225.941100000000006, 244.104299999999995 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"8" : 		{
+			"sample" : "la# 2+.aif",
+			"root_key" : 46,
+			"key_zone_floor" : 46,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 998.344699999999989, 0, 1, 0, 0, 0, 3.9382, 1, 0, 988.499099999999999, 1, 2, 998.344699999999989, 0, 0, "linear" ],
+			"loop" : [ 1, 799.047699999999963, 816.213200000000029 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"9" : 		{
+			"sample" : "si 2+1.aif",
+			"root_key" : 47,
+			"key_zone_floor" : 47,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 1083.333300000000008, 0, 1, 0, 0, 0, 4.2735, 1, 0, 1072.649599999999964, 1, 2, 1083.333300000000008, 0, 0, "linear" ],
+			"loop" : [ 1, 881.655300000000011, 889.705299999999966 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"10" : 		{
+			"sample" : "do 3+1.aif",
+			"root_key" : 48,
+			"key_zone_floor" : 48,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 1329.999899999999798, 0, 1, 0, 0, 0, 5.2465, 1, 0, 1316.883599999999888, 1, 2, 1329.999899999999798, 0, 0, "linear" ],
+			"loop" : [ 1, 891.587300000000027, 914.467200000000048 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"11" : 		{
+			"sample" : "do# 3+.aif",
+			"root_key" : 49,
+			"key_zone_floor" : 49,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 290.000100000000032, 0, 1, 0, 0, 0, 1.144, 1, 0, 287.140100000000018, 1, 2, 290.000100000000032, 0, 0, "linear" ],
+			"loop" : [ 1, 207.165500000000009, 221.610000000000014 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"12" : 		{
+			"sample" : "re 3+.aif",
+			"root_key" : 50,
+			"key_zone_floor" : 50,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 1011.677900000000022, 0, 1, 0, 0, 0, 3.9908, 1, 0, 1001.700800000000072, 1, 2, 1011.677900000000022, 0, 0, "linear" ],
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"13" : 		{
+			"sample" : "mi 3+1.aif",
+			"root_key" : 52,
+			"key_zone_floor" : 52,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 1456.666600000000017, 0, 1, 0, 0, 0, 5.7462, 1, 0, 1442.300999999999931, 1, 2, 1456.666600000000017, 0, 0, "linear" ],
+			"loop" : [ 1, 956.371899999999982, 968.526100000000042 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"14" : 		{
+			"sample" : "fa# 3+1.aif",
+			"root_key" : 54,
+			"key_zone_floor" : 54,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 1325.011299999999892, 0, 1, 0, 0, 0, 5.2269, 1, 0, 1311.94419999999991, 1, 2, 1325.011299999999892, 0, 0, "linear" ],
+			"loop" : [ 1, 1048.276699999999892, 1059.093000000000075 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"15" : 		{
+			"sample" : "sol 3+.aif",
+			"root_key" : 55,
+			"key_zone_floor" : 55,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 758.344699999999989, 0, 1, 0, 0, 0, 2.9915, 1, 0, 750.865900000000011, 1, 2, 758.344699999999989, 0, 0, "linear" ],
+			"loop" : [ 1, 640.634900000000016, 650.83910000000003 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"16" : 		{
+			"sample" : "sol# 3+1.aif",
+			"root_key" : 56,
+			"key_zone_floor" : 56,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 1435.011400000000094, 0, 1, 0, 0, 0, 5.6608, 1, 0, 1420.859400000000051, 1, 2, 1435.011400000000094, 0, 0, "linear" ],
+			"loop" : [ 1, 1257.86850000000004, 1272.267599999999902 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"17" : 		{
+			"sample" : "si b3+1.aif",
+			"root_key" : 58,
+			"key_zone_floor" : 58,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 1013.333299999999895, 0, 1, 0, 0, 0, 3.9974, 1, 0, 1003.339899999999943, 1, 2, 1013.333299999999895, 0, 0, "linear" ],
+			"loop" : [ 1, 762.426299999999969, 770.975099999999998 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"18" : 		{
+			"sample" : "do 4+.aif",
+			"root_key" : 60,
+			"key_zone_floor" : 60,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 360, 0, 1, 0, 0, 0, 1.4201, 1, 0, 356.449700000000007, 1, 2, 360, 0, 0, "linear" ],
+			"loop" : [ 1, 242.92519999999999, 250.544199999999989 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"19" : 		{
+			"sample" : "re 4+.aif",
+			"root_key" : 62,
+			"key_zone_floor" : 62,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 588.344699999999989, 0, 1, 0, 0, 0, 2.3209, 1, 0, 582.542500000000018, 1, 2, 588.344699999999989, 0, 0, "linear" ],
+			"loop" : [ 1, 494.512499999999989, 501.315200000000004 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"20" : 		{
+			"sample" : "re #4+1.aif",
+			"root_key" : 63,
+			"key_zone_floor" : 63,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 888.344600000000014, 0, 1, 0, 0, 0, 3.5043, 1, 0, 879.583799999999997, 1, 2, 888.344600000000014, 0, 0, "linear" ],
+			"loop" : [ 1, 795.80499999999995, 802.24490000000003 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"21" : 		{
+			"sample" : "mi 4+1.aif",
+			"root_key" : 64,
+			"key_zone_floor" : 64,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 571.677999999999884, 0, 1, 0, 0, 0, 2.2551, 1, 0, 566.040099999999939, 1, 2, 571.677999999999884, 0, 0, "linear" ],
+			"loop" : [ 1, 502.879799999999989, 508.956900000000019 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"22" : 		{
+			"sample" : "fa 4+.aif",
+			"root_key" : 65,
+			"key_zone_floor" : 65,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 671.677999999999997, 0, 1, 0, 0, 0, 2.6496, 1, 0, 665.053999999999974, 1, 2, 671.677999999999997, 0, 0, "linear" ],
+			"loop" : [ 1, 557.233600000000024, 568.662199999999984 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"23" : 		{
+			"sample" : "fa #4+1.aif",
+			"root_key" : 66,
+			"key_zone_floor" : 66,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 938.344699999999989, 0, 1, 0, 0, 0, 3.7016, 1, 0, 929.090799999999945, 1, 2, 938.344699999999989, 0, 0, "linear" ],
+			"loop" : [ 1, 768.775499999999965, 779.614599999999996 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"24" : 		{
+			"sample" : "sol #4+.aif",
+			"root_key" : 68,
+			"key_zone_floor" : 68,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 650.000000000000114, 0, 1, 0, 0, 0, 2.5641, 1, 0, 643.589700000000107, 1, 2, 650.000000000000114, 0, 0, "linear" ],
+			"loop" : [ 1, 538.458099999999945, 545.646299999999997 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"25" : 		{
+			"sample" : "si 4+1.aif",
+			"root_key" : 71,
+			"key_zone_floor" : 71,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 1546.666700000000219, 0, 1, 0, 0, 0, 6.1012, 1, 0, 1531.413500000000113, 1, 2, 1546.666700000000219, 0, 0, "linear" ],
+			"loop" : [ 1, 1313.446799999999939, 1317.460299999999961 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"26" : 		{
+			"sample" : "do 5+1.aif",
+			"root_key" : 72,
+			"key_zone_floor" : 72,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 480, 0, 1, 0, 0, 0, 1.8935, 1, 0, 475.266300000000001, 1, 2, 480, 0, 0, "linear" ],
+			"loop" : [ 1, 411.269900000000007, 420.838999999999999 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"27" : 		{
+			"sample" : "do #5+.aif",
+			"root_key" : 73,
+			"key_zone_floor" : 73,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 80.000100000000003, 0, 1, 0, 0, 0, 0.3156, 1, 0, 79.211100000000002, 1, 2, 80.000100000000003, 0, 0, "linear" ],
+			"loop" : [ 1, 239.478499999999997, 244.852599999999995 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"28" : 		{
+			"sample" : "re 5+1.aif",
+			"root_key" : 74,
+			"key_zone_floor" : 74,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 2073.333200000000033, 0, 1, 0, 0, 0, 8.178800000000001, 1, 0, 2052.886199999999917, 1, 2, 2073.333200000000033, 0, 0, "linear" ],
+			"loop" : [ 1, 1208.594100000000026, 1213.718900000000076 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"29" : 		{
+			"sample" : "re #5+.aif",
+			"root_key" : 75,
+			"key_zone_floor" : 75,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 631.677999999999997, 0, 1, 0, 0, 0, 2.4918, 1, 0, 625.448399999999992, 1, 2, 631.677999999999997, 0, 0, "linear" ],
+			"loop" : [ 1, 560.793599999999969, 563.990999999999985 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"30" : 		{
+			"sample" : "fa 5+1.aif",
+			"root_key" : 77,
+			"key_zone_floor" : 77,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 1353.333300000000008, 0, 1, 0, 0, 0, 5.3386, 1, 0, 1339.986900000000105, 1, 2, 1353.333300000000008, 0, 0, "linear" ],
+			"loop" : [ 1, 963.76419999999996, 972.358299999999986 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"31" : 		{
+			"sample" : "fa #5+1.aif",
+			"root_key" : 78,
+			"key_zone_floor" : 78,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 1300.000100000000202, 0, 1, 0, 0, 0, 5.1282, 1, 0, 1287.179500000000189, 1, 2, 1300.000100000000202, 0, 0, "linear" ],
+			"loop" : [ 1, 1020.748399999999947, 1031.564699999999903 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"32" : 		{
+			"sample" : "sol 5+.aif",
+			"root_key" : 79,
+			"key_zone_floor" : 79,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 406.66659999999996, 0, 1, 0, 0, 0, 1.6042, 1, 0, 402.656099999999981, 1, 2, 406.66659999999996, 0, 0, "linear" ],
+			"loop" : [ 1, 331.745999999999981, 336.825400000000002 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"33" : 		{
+			"sample" : "la 5+.aif",
+			"root_key" : 81,
+			"key_zone_floor" : 81,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 348.344699999999989, 0, 1, 0, 0, 0, 1.3741, 1, 0, 344.909299999999973, 1, 2, 348.344699999999989, 0, 0, "linear" ],
+			"loop" : [ 1, 249.795899999999989, 258.866199999999992 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"34" : 		{
+			"sample" : "si 5+1.aif",
+			"root_key" : 83,
+			"key_zone_floor" : 83,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 1205.011300000000119, 0, 1, 0, 0, 0, 4.7535, 1, 0, 1193.127500000000055, 1, 2, 1205.011300000000119, 0, 0, "linear" ],
+			"loop" : [ 1, 434.149699999999996, 437.188199999999995 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"35" : 		{
+			"sample" : "do 6+1.aif",
+			"root_key" : 84,
+			"key_zone_floor" : 84,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 458.344699999999989, 0, 1, 0, 0, 0, 1.8081, 1, 0, 453.8245, 1, 2, 458.344699999999989, 0, 0, "linear" ],
+			"loop" : [ 1, 380.997700000000009, 386.734699999999975 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"36" : 		{
+			"sample" : "re 6+1.aif",
+			"root_key" : 86,
+			"key_zone_floor" : 86,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 1055.011400000000094, 0, 1, 0, 0, 0, 4.1618, 1, 0, 1044.607000000000198, 1, 2, 1055.011400000000094, 0, 0, "linear" ],
+			"loop" : [ 1, 532.222200000000043, 538.140599999999949 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"37" : 		{
+			"sample" : "mi 6+.aif",
+			"root_key" : 88,
+			"key_zone_floor" : 88,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 738.344700000000103, 0, 1, 0, 0, 0, 2.9126, 1, 0, 731.063200000000052, 1, 2, 738.344700000000103, 0, 0, "linear" ],
+			"loop" : [ 1, 0, 0 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"38" : 		{
+			"sample" : "fa 6+1.aif",
+			"root_key" : 89,
+			"key_zone_floor" : 89,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 426.666700000000048, 0, 1, 0, 0, 0, 1.6831, 1, 0, 422.458900000000028, 1, 2, 426.666700000000048, 0, 0, "linear" ],
+			"loop" : [ 1, 324.557799999999986, 329.569200000000023 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"39" : 		{
+			"sample" : "fa# 6+.aif",
+			"root_key" : 90,
+			"key_zone_floor" : 90,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 1760.000099999999975, 0, 1, 0, 0, 0, 6.9428, 1, 0, 1742.643000000000029, 1, 2, 1760.000099999999975, 0, 0, "linear" ],
+			"loop" : [ 1, 1488.526100000000042, 1495.260899999999992 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"40" : 		{
+			"sample" : "la 6+.aif",
+			"root_key" : 93,
+			"key_zone_floor" : 93,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 1143.333399999999983, 0, 1, 0, 0, 0, 4.5102, 1, 0, 1132.057900000000018, 1, 2, 1143.333399999999983, 0, 0, "linear" ],
+			"loop" : [ 1, 833.786899999999946, 837.16560000000004 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+,
+		"41" : 		{
+			"sample" : "si 6+.aif",
+			"root_key" : 95,
+			"key_zone_floor" : 95,
+			"vel_zone_floor" : 0,
+			"envelope" : [ 1003.333300000000008, 0, 1, 0, 0, 0, 3.9579, 1, 0, 993.438499999999976, 1, 2, 1003.333300000000008, 0, 0, "linear" ],
+			"loop" : [ 1, 694.058999999999969, 696.077099999999973 ],
+			"start" : 0,
+			"direction" : "fw",
+			"timestretch" : 1
+		}
+
+	}
+
+}

@@ -2,42 +2,21 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 5,
+			"major" : 9,
+			"minor" : 0,
 			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1128.0, 785.0 ],
-		"bglocked" : 0,
+		"rect" : [ 0.0, 53.0, 1128.0, 785.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
 		"toolbarvisible" : 0,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
 		"enablehscroll" : 0,
 		"enablevscroll" : 0,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"title" : "Quintet.net Viewer",
 		"boxes" : [ 			{
 				"box" : 				{
@@ -50,7 +29,7 @@
 					"patching_rect" : [ 992.0, 760.5, 126.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 983.5, 760.5, 128.0, 17.0 ],
-					"text" : "version 2022-02-19",
+					"text" : "version 2025-05-02",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "version"
 				}
@@ -88,8 +67,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -97,34 +76,9 @@
 ,
 						"classnamespace" : "box",
 						"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
-						"bglocked" : 0,
 						"openinpresentation" : 1,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
 						"workspacedisabled" : 1,
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -153,8 +107,8 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
+											"major" : 9,
+											"minor" : 0,
 											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -162,33 +116,7 @@
 ,
 										"classnamespace" : "box",
 										"rect" : [ 514.0, 44.0, 391.0, 365.0 ],
-										"bglocked" : 0,
-										"openinpresentation" : 0,
-										"default_fontsize" : 12.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 1,
-										"objectsnaponopen" : 1,
-										"statusbarvisible" : 2,
-										"toolbarvisible" : 1,
-										"lefttoolbarpinned" : 0,
-										"toptoolbarpinned" : 0,
-										"righttoolbarpinned" : 0,
-										"bottomtoolbarpinned" : 0,
-										"toolbars_unpinned_last_save" : 0,
-										"tallnewobj" : 0,
-										"boxanimatetime" : 200,
-										"enablehscroll" : 1,
-										"enablevscroll" : 1,
-										"devicewidth" : 0.0,
-										"description" : "",
-										"digest" : "",
-										"tags" : "",
-										"style" : "",
-										"subpatcher_template" : "",
-										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -435,13 +363,6 @@
 									}
 ,
 									"patching_rect" : [ 73.5, 184.0, 39.0, 19.0 ],
-									"saved_object_attributes" : 									{
-										"description" : "",
-										"digest" : "",
-										"globalpatchername" : "",
-										"tags" : ""
-									}
-,
 									"text" : "p clock"
 								}
 
@@ -459,8 +380,8 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
+											"major" : 9,
+											"minor" : 0,
 											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -468,33 +389,7 @@
 ,
 										"classnamespace" : "box",
 										"rect" : [ 202.0, 430.0, 313.0, 243.0 ],
-										"bglocked" : 0,
-										"openinpresentation" : 0,
-										"default_fontsize" : 12.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 1,
-										"objectsnaponopen" : 1,
-										"statusbarvisible" : 2,
-										"toolbarvisible" : 1,
-										"lefttoolbarpinned" : 0,
-										"toptoolbarpinned" : 0,
-										"righttoolbarpinned" : 0,
-										"bottomtoolbarpinned" : 0,
-										"toolbars_unpinned_last_save" : 0,
-										"tallnewobj" : 0,
-										"boxanimatetime" : 200,
-										"enablehscroll" : 1,
-										"enablevscroll" : 1,
-										"devicewidth" : 0.0,
-										"description" : "",
-										"digest" : "",
-										"tags" : "",
-										"style" : "",
-										"subpatcher_template" : "",
-										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"comment" : "",
@@ -706,13 +601,6 @@
 									}
 ,
 									"patching_rect" : [ 73.5, 148.0, 43.0, 19.0 ],
-									"saved_object_attributes" : 									{
-										"description" : "",
-										"digest" : "",
-										"globalpatchername" : "",
-										"tags" : ""
-									}
-,
 									"text" : "p timer"
 								}
 
@@ -977,8 +865,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -986,33 +874,8 @@
 ,
 						"classnamespace" : "box",
 						"rect" : [ 292.0, 263.0, 607.0, 484.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -1164,8 +1027,8 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
+											"major" : 9,
+											"minor" : 0,
 											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -1173,33 +1036,8 @@
 ,
 										"classnamespace" : "box",
 										"rect" : [ 34.0, 136.0, 1733.0, 783.0 ],
-										"bglocked" : 0,
-										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 1,
-										"objectsnaponopen" : 1,
-										"statusbarvisible" : 2,
-										"toolbarvisible" : 1,
-										"lefttoolbarpinned" : 0,
-										"toptoolbarpinned" : 0,
-										"righttoolbarpinned" : 0,
-										"bottomtoolbarpinned" : 0,
-										"toolbars_unpinned_last_save" : 0,
-										"tallnewobj" : 0,
-										"boxanimatetime" : 200,
-										"enablehscroll" : 1,
-										"enablevscroll" : 1,
-										"devicewidth" : 0.0,
-										"description" : "",
-										"digest" : "",
-										"tags" : "",
-										"style" : "",
-										"subpatcher_template" : "",
-										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -1308,19 +1146,19 @@
 															}
 , 															{
 																"key" : 4,
-																"value" : [ "midi" ]
+																"value" : [ "audio" ]
 															}
 , 															{
 																"key" : 3,
-																"value" : [ "lissajous" ]
+																"value" : [ "audio" ]
 															}
 , 															{
 																"key" : 2,
-																"value" : [ "network" ]
+																"value" : [ "audio" ]
 															}
 , 															{
 																"key" : 1,
-																"value" : [ "bpf" ]
+																"value" : [ "lissajous" ]
 															}
  ]
 													}
@@ -1392,19 +1230,19 @@
 															}
 , 															{
 																"key" : 4,
-																"value" : [ "midi" ]
+																"value" : [ "audio" ]
 															}
 , 															{
 																"key" : 3,
-																"value" : [ "lissajous" ]
+																"value" : [ "audio" ]
 															}
 , 															{
 																"key" : 2,
-																"value" : [ "network" ]
+																"value" : [ "audio" ]
 															}
 , 															{
 																"key" : 1,
-																"value" : [ "bpf" ]
+																"value" : [ "lissajous" ]
 															}
  ]
 													}
@@ -1688,23 +1526,23 @@
 															}
 , 															{
 																"key" : 1,
-																"value" : [ "camera" ]
+																"value" : [ "noise" ]
 															}
 , 															{
 																"key" : 2,
-																"value" : [ "gradient" ]
+																"value" : [ "painter" ]
 															}
 , 															{
 																"key" : 3,
-																"value" : [ "SwanSongGlisser" ]
-															}
-, 															{
-																"key" : 4,
 																"value" : [ "configs" ]
 															}
 , 															{
+																"key" : 4,
+																"value" : [ "gradient" ]
+															}
+, 															{
 																"key" : 5,
-																"value" : [ "spectrogram" ]
+																"value" : [ "notation" ]
 															}
  ]
 													}
@@ -1776,23 +1614,23 @@
 															}
 , 															{
 																"key" : 1,
-																"value" : [ "camera" ]
+																"value" : [ "noise" ]
 															}
 , 															{
 																"key" : 2,
-																"value" : [ "gradient" ]
+																"value" : [ "painter" ]
 															}
 , 															{
 																"key" : 3,
-																"value" : [ "SwanSongGlisser" ]
-															}
-, 															{
-																"key" : 4,
 																"value" : [ "configs" ]
 															}
 , 															{
+																"key" : 4,
+																"value" : [ "gradient" ]
+															}
+, 															{
 																"key" : 5,
-																"value" : [ "spectrogram" ]
+																"value" : [ "notation" ]
 															}
  ]
 													}
@@ -1954,23 +1792,23 @@
 															}
 , 															{
 																"key" : 1,
-																"value" : [ "tiffany" ]
+																"value" : [ "basic" ]
 															}
 , 															{
 																"key" : 2,
-																"value" : [ "rotation" ]
+																"value" : [ "brass" ]
 															}
 , 															{
 																"key" : 3,
-																"value" : [ "kaleidoscope" ]
+																"value" : [ "rotation" ]
 															}
 , 															{
 																"key" : 4,
-																"value" : [ "perspective_tile" ]
+																"value" : [ "kaleidoscope" ]
 															}
 , 															{
 																"key" : 5,
-																"value" : [ "eclipse" ]
+																"value" : [ "drift" ]
 															}
  ]
 													}
@@ -2130,23 +1968,23 @@
 															}
 , 															{
 																"key" : 1,
-																"value" : [ "tiffany" ]
+																"value" : [ "basic" ]
 															}
 , 															{
 																"key" : 2,
-																"value" : [ "rotation" ]
+																"value" : [ "brass" ]
 															}
 , 															{
 																"key" : 3,
-																"value" : [ "kaleidoscope" ]
+																"value" : [ "rotation" ]
 															}
 , 															{
 																"key" : 4,
-																"value" : [ "perspective_tile" ]
+																"value" : [ "kaleidoscope" ]
 															}
 , 															{
 																"key" : 5,
-																"value" : [ "eclipse" ]
+																"value" : [ "drift" ]
 															}
  ]
 													}
@@ -2278,11 +2116,11 @@
 															}
 , 															{
 																"key" : 1,
-																"value" : [ "type" ]
+																"value" : [ "basic" ]
 															}
 , 															{
 																"key" : 2,
-																"value" : [ "basic" ]
+																"value" : [ "brass" ]
 															}
 , 															{
 																"key" : 3,
@@ -2294,7 +2132,7 @@
 															}
 , 															{
 																"key" : 5,
-																"value" : [ "dot_screen-gl3" ]
+																"value" : [ "drift" ]
 															}
  ]
 													}
@@ -2440,11 +2278,11 @@
 															}
 , 															{
 																"key" : 1,
-																"value" : [ "type" ]
+																"value" : [ "basic" ]
 															}
 , 															{
 																"key" : 2,
-																"value" : [ "basic" ]
+																"value" : [ "brass" ]
 															}
 , 															{
 																"key" : 3,
@@ -2456,7 +2294,7 @@
 															}
 , 															{
 																"key" : 5,
-																"value" : [ "dot_screen-gl3" ]
+																"value" : [ "drift" ]
 															}
  ]
 													}
@@ -3680,11 +3518,7 @@
 ,
 									"patching_rect" : [ 62.0, 293.0, 54.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"description" : "",
-										"digest" : "",
-										"fontsize" : 10.0,
-										"globalpatchername" : "",
-										"tags" : ""
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p scripting",
@@ -4085,11 +3919,7 @@
 ,
 					"patching_rect" : [ 847.0, 5.0, 78.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"fontsize" : 10.0,
-						"globalpatchername" : "",
-						"tags" : ""
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p miscellaneous",
@@ -4189,8 +4019,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -4198,33 +4028,8 @@
 ,
 						"classnamespace" : "box",
 						"rect" : [ 661.0, 362.0, 282.0, 262.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -4451,11 +4256,7 @@
 ,
 					"patching_rect" : [ 197.0, 756.5, 40.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"fontsize" : 10.0,
-						"globalpatchername" : "",
-						"tags" : ""
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p"
@@ -4498,8 +4299,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -4507,33 +4308,8 @@
 ,
 						"classnamespace" : "box",
 						"rect" : [ 680.0, 414.0, 600.0, 426.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"angle" : -90.0,
@@ -4967,11 +4743,7 @@
 ,
 					"patching_rect" : [ 847.0, 62.0, 70.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"fontsize" : 10.0,
-						"globalpatchername" : "",
-						"tags" : ""
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p color-scheme"
@@ -5018,7 +4790,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 5.0, 111.0, 19.0 ],
+					"patching_rect" : [ 7.0, 2.0, 111.0, 19.0 ],
 					"text" : "r viewer-pattrstorage"
 				}
 
@@ -5034,7 +4806,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 847.0, 30.0, 61.0, 19.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 0, 66, 1128, 851, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 0, 53, 1128, 838, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 
@@ -5142,10 +4914,10 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 100, 714, 818 ],
+						"client_rect" : [ 4, 44, 358, 172 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 100, 1201, 867 ]
+						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
 					"text" : "pattrstorage Viewer @savemode 0 @greedy 1 @outputmode 4 @flat 1 @autorestore 0",
@@ -5211,8 +4983,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -5220,34 +4992,20 @@
 ,
 						"classnamespace" : "box",
 						"rect" : [ 226.0, 100.0, 1208.0, 761.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-12",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 145.5, 429.0, 84.0, 20.0 ],
+									"text" : "s viewer-clientlist"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-27",
 									"maxclass" : "newobj",
@@ -5343,8 +5101,8 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
+											"major" : 9,
+											"minor" : 0,
 											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -5352,33 +5110,7 @@
 ,
 										"classnamespace" : "box",
 										"rect" : [ 278.0, 101.0, 517.0, 507.0 ],
-										"bglocked" : 0,
-										"openinpresentation" : 0,
-										"default_fontsize" : 12.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 1,
-										"objectsnaponopen" : 1,
-										"statusbarvisible" : 2,
-										"toolbarvisible" : 1,
-										"lefttoolbarpinned" : 0,
-										"toptoolbarpinned" : 0,
-										"righttoolbarpinned" : 0,
-										"bottomtoolbarpinned" : 0,
-										"toolbars_unpinned_last_save" : 0,
-										"tallnewobj" : 0,
-										"boxanimatetime" : 200,
-										"enablehscroll" : 1,
-										"enablevscroll" : 1,
-										"devicewidth" : 0.0,
-										"description" : "",
-										"digest" : "",
-										"tags" : "",
-										"style" : "",
-										"subpatcher_template" : "",
-										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-4",
@@ -5396,11 +5128,12 @@
 													"id" : "obj-3",
 													"maxclass" : "newobj",
 													"numinlets" : 2,
-													"numoutlets" : 4,
-													"outlettype" : [ "dictionary", "", "", "" ],
+													"numoutlets" : 5,
+													"outlettype" : [ "dictionary", "", "", "", "" ],
 													"patching_rect" : [ 115.499995105263167, 174.5, 129.0, 22.0 ],
 													"saved_object_attributes" : 													{
 														"embed" : 0,
+														"legacy" : 1,
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
 													}
@@ -5419,8 +5152,8 @@
 													"patcher" : 													{
 														"fileversion" : 1,
 														"appversion" : 														{
-															"major" : 8,
-															"minor" : 5,
+															"major" : 9,
+															"minor" : 0,
 															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
@@ -5428,33 +5161,7 @@
 ,
 														"classnamespace" : "box",
 														"rect" : [ 695.0, 194.0, 397.0, 362.0 ],
-														"bglocked" : 0,
-														"openinpresentation" : 0,
-														"default_fontsize" : 12.0,
-														"default_fontface" : 0,
-														"default_fontname" : "Arial",
-														"gridonopen" : 1,
 														"gridsize" : [ 15.0, 15.0 ],
-														"gridsnaponopen" : 1,
-														"objectsnaponopen" : 1,
-														"statusbarvisible" : 2,
-														"toolbarvisible" : 1,
-														"lefttoolbarpinned" : 0,
-														"toptoolbarpinned" : 0,
-														"righttoolbarpinned" : 0,
-														"bottomtoolbarpinned" : 0,
-														"toolbars_unpinned_last_save" : 0,
-														"tallnewobj" : 0,
-														"boxanimatetime" : 200,
-														"enablehscroll" : 1,
-														"enablevscroll" : 1,
-														"devicewidth" : 0.0,
-														"description" : "",
-														"digest" : "",
-														"tags" : "",
-														"style" : "",
-														"subpatcher_template" : "",
-														"assistshowspatchername" : 0,
 														"boxes" : [ 															{
 																"box" : 																{
 																	"id" : "obj-48",
@@ -5681,13 +5388,6 @@
 													}
 ,
 													"patching_rect" : [ 49.999995105263167, 144.5, 51.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"description" : "",
-														"digest" : "",
-														"globalpatchername" : "",
-														"tags" : ""
-													}
-,
 													"text" : "p flatten"
 												}
 
@@ -5960,13 +5660,6 @@
 									}
 ,
 									"patching_rect" : [ 300.0, 147.0, 68.0, 20.0 ],
-									"saved_object_attributes" : 									{
-										"description" : "",
-										"digest" : "",
-										"globalpatchername" : "",
-										"tags" : ""
-									}
-,
 									"text" : "p attributes"
 								}
 
@@ -5981,8 +5674,8 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
+											"major" : 9,
+											"minor" : 0,
 											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -5990,33 +5683,7 @@
 ,
 										"classnamespace" : "box",
 										"rect" : [ 59.0, 119.0, 640.0, 480.0 ],
-										"bglocked" : 0,
-										"openinpresentation" : 0,
-										"default_fontsize" : 12.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 1,
-										"objectsnaponopen" : 1,
-										"statusbarvisible" : 2,
-										"toolbarvisible" : 1,
-										"lefttoolbarpinned" : 0,
-										"toptoolbarpinned" : 0,
-										"righttoolbarpinned" : 0,
-										"bottomtoolbarpinned" : 0,
-										"toolbars_unpinned_last_save" : 0,
-										"tallnewobj" : 0,
-										"boxanimatetime" : 200,
-										"enablehscroll" : 1,
-										"enablevscroll" : 1,
-										"devicewidth" : 0.0,
-										"description" : "",
-										"digest" : "",
-										"tags" : "",
-										"style" : "",
-										"subpatcher_template" : "",
-										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-12",
@@ -6118,13 +5785,6 @@
 									}
 ,
 									"patching_rect" : [ 136.5, 154.0, 75.0, 20.0 ],
-									"saved_object_attributes" : 									{
-										"description" : "",
-										"digest" : "",
-										"globalpatchername" : "",
-										"tags" : ""
-									}
-,
 									"text" : "p recombine"
 								}
 
@@ -6176,42 +5836,16 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
+											"major" : 9,
+											"minor" : 0,
 											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 451.0, 176.0, 853.0, 401.0 ],
-										"bglocked" : 0,
-										"openinpresentation" : 0,
-										"default_fontsize" : 12.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"gridonopen" : 1,
+										"rect" : [ 450.0, 175.0, 853.0, 401.0 ],
 										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 1,
-										"objectsnaponopen" : 1,
-										"statusbarvisible" : 2,
-										"toolbarvisible" : 1,
-										"lefttoolbarpinned" : 0,
-										"toptoolbarpinned" : 0,
-										"righttoolbarpinned" : 0,
-										"bottomtoolbarpinned" : 0,
-										"toolbars_unpinned_last_save" : 0,
-										"tallnewobj" : 0,
-										"boxanimatetime" : 200,
-										"enablehscroll" : 1,
-										"enablevscroll" : 1,
-										"devicewidth" : 0.0,
-										"description" : "",
-										"digest" : "",
-										"tags" : "",
-										"style" : "",
-										"subpatcher_template" : "",
-										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"comment" : "",
@@ -6348,8 +5982,8 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 505.0, 57.0, 161.0, 22.0 ],
-													"text" : "loadmess client-pattrstorage"
+													"patching_rect" : [ 505.0, 57.0, 166.0, 22.0 ],
+													"text" : "loadmess viewer-pattrstorage"
 												}
 
 											}
@@ -6410,7 +6044,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 18.0, 255.0, 470.0, 22.0 ],
-													"restore" : [ "this", "1_1type::action", "done" ],
+													"restore" : [ 0 ],
 													"saved_object_attributes" : 													{
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
@@ -6530,13 +6164,6 @@
 									}
 ,
 									"patching_rect" : [ 471.0, 372.0, 109.0, 20.0 ],
-									"saved_object_attributes" : 									{
-										"description" : "",
-										"digest" : "",
-										"globalpatchername" : "",
-										"tags" : ""
-									}
-,
 									"text" : "p qn.mapper-proxy",
 									"varname" : "qn.mapper[2]"
 								}
@@ -6690,8 +6317,8 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
+											"major" : 9,
+											"minor" : 0,
 											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -6699,33 +6326,7 @@
 ,
 										"classnamespace" : "box",
 										"rect" : [ 109.0, 154.0, 447.0, 523.0 ],
-										"bglocked" : 0,
-										"openinpresentation" : 0,
-										"default_fontsize" : 12.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 1,
-										"objectsnaponopen" : 1,
-										"statusbarvisible" : 2,
-										"toolbarvisible" : 1,
-										"lefttoolbarpinned" : 0,
-										"toptoolbarpinned" : 0,
-										"righttoolbarpinned" : 0,
-										"bottomtoolbarpinned" : 0,
-										"toolbars_unpinned_last_save" : 0,
-										"tallnewobj" : 0,
-										"boxanimatetime" : 200,
-										"enablehscroll" : 1,
-										"enablevscroll" : 1,
-										"devicewidth" : 0.0,
-										"description" : "",
-										"digest" : "",
-										"tags" : "",
-										"style" : "",
-										"subpatcher_template" : "",
-										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-7",
@@ -6977,13 +6578,6 @@
 									}
 ,
 									"patching_rect" : [ 310.5, 359.0, 69.0, 20.0 ],
-									"saved_object_attributes" : 									{
-										"description" : "",
-										"digest" : "",
-										"globalpatchername" : "",
-										"tags" : ""
-									}
-,
 									"text" : "p resolvepath"
 								}
 
@@ -7176,8 +6770,8 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
+											"major" : 9,
+											"minor" : 0,
 											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -7185,33 +6779,7 @@
 ,
 										"classnamespace" : "box",
 										"rect" : [ 25.0, 69.0, 954.0, 368.0 ],
-										"bglocked" : 0,
-										"openinpresentation" : 0,
-										"default_fontsize" : 12.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 1,
-										"objectsnaponopen" : 1,
-										"statusbarvisible" : 2,
-										"toolbarvisible" : 1,
-										"lefttoolbarpinned" : 0,
-										"toptoolbarpinned" : 0,
-										"righttoolbarpinned" : 0,
-										"bottomtoolbarpinned" : 0,
-										"toolbars_unpinned_last_save" : 0,
-										"tallnewobj" : 0,
-										"boxanimatetime" : 200,
-										"enablehscroll" : 1,
-										"enablevscroll" : 1,
-										"devicewidth" : 0.0,
-										"description" : "",
-										"digest" : "",
-										"tags" : "",
-										"style" : "",
-										"subpatcher_template" : "",
-										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -7695,13 +7263,6 @@
 									}
 ,
 									"patching_rect" : [ 565.0, 611.0, 104.0, 20.0 ],
-									"saved_object_attributes" : 									{
-										"description" : "",
-										"digest" : "",
-										"globalpatchername" : "",
-										"tags" : ""
-									}
-,
 									"text" : "p select-player-menu",
 									"varname" : "patcher"
 								}
@@ -7746,8 +7307,8 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
+											"major" : 9,
+											"minor" : 0,
 											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -7755,33 +7316,7 @@
 ,
 										"classnamespace" : "box",
 										"rect" : [ 954.0, 327.0, 283.0, 554.0 ],
-										"bglocked" : 0,
-										"openinpresentation" : 0,
-										"default_fontsize" : 12.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 1,
-										"objectsnaponopen" : 1,
-										"statusbarvisible" : 2,
-										"toolbarvisible" : 1,
-										"lefttoolbarpinned" : 0,
-										"toptoolbarpinned" : 0,
-										"righttoolbarpinned" : 0,
-										"bottomtoolbarpinned" : 0,
-										"toolbars_unpinned_last_save" : 0,
-										"tallnewobj" : 0,
-										"boxanimatetime" : 200,
-										"enablehscroll" : 1,
-										"enablevscroll" : 1,
-										"devicewidth" : 0.0,
-										"description" : "",
-										"digest" : "",
-										"tags" : "",
-										"style" : "",
-										"subpatcher_template" : "",
-										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -8185,13 +7720,6 @@
 									}
 ,
 									"patching_rect" : [ 994.0, 581.0, 38.0, 20.0 ],
-									"saved_object_attributes" : 									{
-										"description" : "",
-										"digest" : "",
-										"globalpatchername" : "",
-										"tags" : ""
-									}
-,
 									"text" : "p filter"
 								}
 
@@ -8391,8 +7919,8 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
+											"major" : 9,
+											"minor" : 0,
 											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -8400,33 +7928,8 @@
 ,
 										"classnamespace" : "box",
 										"rect" : [ 695.0, 72.0, 331.0, 220.0 ],
-										"bglocked" : 0,
-										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 1,
-										"objectsnaponopen" : 1,
-										"statusbarvisible" : 2,
-										"toolbarvisible" : 1,
-										"lefttoolbarpinned" : 0,
-										"toptoolbarpinned" : 0,
-										"righttoolbarpinned" : 0,
-										"bottomtoolbarpinned" : 0,
-										"toolbars_unpinned_last_save" : 0,
-										"tallnewobj" : 0,
-										"boxanimatetime" : 200,
-										"enablehscroll" : 1,
-										"enablevscroll" : 1,
-										"devicewidth" : 0.0,
-										"description" : "",
-										"digest" : "",
-										"tags" : "",
-										"style" : "",
-										"subpatcher_template" : "",
-										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"comment" : "",
@@ -8544,11 +8047,7 @@
 ,
 									"patching_rect" : [ 471.0, 119.0, 39.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"description" : "",
-										"digest" : "",
-										"fontsize" : 10.0,
-										"globalpatchername" : "",
-										"tags" : ""
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p keys"
@@ -9006,6 +8505,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"source" : [ "obj-47", 4 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-36", 0 ],
 									"source" : [ "obj-47", 5 ]
 								}
@@ -9342,11 +8848,7 @@
 ,
 					"patching_rect" : [ 929.0, 30.0, 50.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"fontsize" : 10.0,
-						"globalpatchername" : "",
-						"tags" : ""
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p receiver",
@@ -9437,8 +8939,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -9446,33 +8948,8 @@
 ,
 						"classnamespace" : "box",
 						"rect" : [ 237.0, 100.0, 831.0, 783.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-86",
@@ -9789,8 +9266,8 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
+											"major" : 9,
+											"minor" : 0,
 											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -9798,33 +9275,8 @@
 ,
 										"classnamespace" : "box",
 										"rect" : [ 699.0, 79.0, 458.0, 350.0 ],
-										"bglocked" : 0,
-										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 1,
-										"objectsnaponopen" : 1,
-										"statusbarvisible" : 2,
-										"toolbarvisible" : 1,
-										"lefttoolbarpinned" : 0,
-										"toptoolbarpinned" : 0,
-										"righttoolbarpinned" : 0,
-										"bottomtoolbarpinned" : 0,
-										"toolbars_unpinned_last_save" : 0,
-										"tallnewobj" : 0,
-										"boxanimatetime" : 200,
-										"enablehscroll" : 1,
-										"enablevscroll" : 1,
-										"devicewidth" : 0.0,
-										"description" : "",
-										"digest" : "",
-										"tags" : "",
-										"style" : "",
-										"subpatcher_template" : "",
-										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -9911,6 +9363,7 @@
 											}
 , 											{
 												"box" : 												{
+													"filename" : "cc.scalebias.jxs",
 													"fontname" : "Helvetica",
 													"fontsize" : 10.0,
 													"id" : "obj-83",
@@ -9919,7 +9372,14 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "jit_gl_texture", "" ],
 													"patching_rect" : [ 111.0, 261.0, 280.0, 18.0 ],
-													"text" : "jit.gl.slab quintet.net @colormode uyvy @file cc.scalebias.jxs"
+													"text" : "jit.gl.slab quintet.net @colormode uyvy @file cc.scalebias.jxs",
+													"textfile" : 													{
+														"filename" : "cc.scalebias.jxs",
+														"flags" : 0,
+														"embed" : 0,
+														"autowatch" : 1
+													}
+
 												}
 
 											}
@@ -10168,11 +9628,7 @@
 ,
 									"patching_rect" : [ 163.0, 490.0, 52.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"description" : "",
-										"digest" : "",
-										"fontsize" : 10.0,
-										"globalpatchername" : "",
-										"tags" : ""
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p fadeout",
@@ -10342,8 +9798,8 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
+											"major" : 9,
+											"minor" : 0,
 											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -10351,33 +9807,9 @@
 ,
 										"classnamespace" : "box",
 										"rect" : [ 168.0, 438.0, 479.0, 529.0 ],
-										"bglocked" : 0,
-										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 1,
-										"objectsnaponopen" : 1,
-										"statusbarvisible" : 2,
-										"toolbarvisible" : 1,
-										"lefttoolbarpinned" : 0,
-										"toptoolbarpinned" : 0,
-										"righttoolbarpinned" : 0,
-										"bottomtoolbarpinned" : 0,
 										"toolbars_unpinned_last_save" : 2,
-										"tallnewobj" : 0,
-										"boxanimatetime" : 200,
-										"enablehscroll" : 1,
-										"enablevscroll" : 1,
-										"devicewidth" : 0.0,
-										"description" : "",
-										"digest" : "",
-										"tags" : "",
-										"style" : "",
-										"subpatcher_template" : "",
-										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-31",
@@ -10416,8 +9848,8 @@
 													"patcher" : 													{
 														"fileversion" : 1,
 														"appversion" : 														{
-															"major" : 8,
-															"minor" : 5,
+															"major" : 9,
+															"minor" : 0,
 															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
@@ -10425,33 +9857,10 @@
 ,
 														"classnamespace" : "box",
 														"openrect" : [ 344.0, 230.0, 232.0, 178.0 ],
-														"bglocked" : 0,
 														"openinpresentation" : 1,
-														"default_fontsize" : 12.0,
-														"default_fontface" : 0,
-														"default_fontname" : "Arial",
-														"gridonopen" : 1,
 														"gridsize" : [ 15.0, 15.0 ],
-														"gridsnaponopen" : 1,
-														"objectsnaponopen" : 1,
-														"statusbarvisible" : 2,
 														"toolbarvisible" : 0,
-														"lefttoolbarpinned" : 0,
-														"toptoolbarpinned" : 0,
-														"righttoolbarpinned" : 0,
-														"bottomtoolbarpinned" : 0,
-														"toolbars_unpinned_last_save" : 0,
-														"tallnewobj" : 0,
-														"boxanimatetime" : 200,
-														"enablehscroll" : 1,
-														"enablevscroll" : 1,
 														"devicewidth" : 232.0,
-														"description" : "",
-														"digest" : "",
-														"tags" : "",
-														"style" : "",
-														"subpatcher_template" : "",
-														"assistshowspatchername" : 0,
 														"title" : "Mask",
 														"boxes" : [ 															{
 																"box" : 																{
@@ -10815,13 +10224,21 @@
 															}
 , 															{
 																"box" : 																{
+																	"filename" : "co.multiply.jxs",
 																	"id" : "obj-55",
 																	"maxclass" : "newobj",
 																	"numinlets" : 2,
 																	"numoutlets" : 2,
 																	"outlettype" : [ "jit_gl_texture", "" ],
 																	"patching_rect" : [ 63.0, 353.0, 225.0, 22.0 ],
-																	"text" : "jit.gl.slab quintet.net @file co.multiply.jxs"
+																	"text" : "jit.gl.slab quintet.net @file co.multiply.jxs",
+																	"textfile" : 																	{
+																		"filename" : "co.multiply.jxs",
+																		"flags" : 0,
+																		"embed" : 0,
+																		"autowatch" : 1
+																	}
+
 																}
 
 															}
@@ -10959,8 +10376,8 @@
 																	"patcher" : 																	{
 																		"fileversion" : 1,
 																		"appversion" : 																		{
-																			"major" : 8,
-																			"minor" : 5,
+																			"major" : 9,
+																			"minor" : 0,
 																			"revision" : 6,
 																			"architecture" : "x64",
 																			"modernui" : 1
@@ -10968,33 +10385,7 @@
 ,
 																		"classnamespace" : "box",
 																		"rect" : [ 635.0, 155.0, 735.0, 551.0 ],
-																		"bglocked" : 0,
-																		"openinpresentation" : 0,
-																		"default_fontsize" : 12.0,
-																		"default_fontface" : 0,
-																		"default_fontname" : "Arial",
-																		"gridonopen" : 1,
 																		"gridsize" : [ 15.0, 15.0 ],
-																		"gridsnaponopen" : 1,
-																		"objectsnaponopen" : 1,
-																		"statusbarvisible" : 2,
-																		"toolbarvisible" : 1,
-																		"lefttoolbarpinned" : 0,
-																		"toptoolbarpinned" : 0,
-																		"righttoolbarpinned" : 0,
-																		"bottomtoolbarpinned" : 0,
-																		"toolbars_unpinned_last_save" : 0,
-																		"tallnewobj" : 0,
-																		"boxanimatetime" : 200,
-																		"enablehscroll" : 1,
-																		"enablevscroll" : 1,
-																		"devicewidth" : 0.0,
-																		"description" : "",
-																		"digest" : "",
-																		"tags" : "",
-																		"style" : "",
-																		"subpatcher_template" : "",
-																		"assistshowspatchername" : 0,
 																		"boxes" : [ 																			{
 																				"box" : 																				{
 																					"comment" : "",
@@ -11058,8 +10449,8 @@
 																					"patcher" : 																					{
 																						"fileversion" : 1,
 																						"appversion" : 																						{
-																							"major" : 8,
-																							"minor" : 5,
+																							"major" : 9,
+																							"minor" : 0,
 																							"revision" : 6,
 																							"architecture" : "x64",
 																							"modernui" : 1
@@ -11067,33 +10458,7 @@
 ,
 																						"classnamespace" : "box",
 																						"rect" : [ 893.0, 440.0, 409.0, 421.0 ],
-																						"bglocked" : 0,
-																						"openinpresentation" : 0,
-																						"default_fontsize" : 12.0,
-																						"default_fontface" : 0,
-																						"default_fontname" : "Arial",
-																						"gridonopen" : 1,
 																						"gridsize" : [ 15.0, 15.0 ],
-																						"gridsnaponopen" : 1,
-																						"objectsnaponopen" : 1,
-																						"statusbarvisible" : 2,
-																						"toolbarvisible" : 1,
-																						"lefttoolbarpinned" : 0,
-																						"toptoolbarpinned" : 0,
-																						"righttoolbarpinned" : 0,
-																						"bottomtoolbarpinned" : 0,
-																						"toolbars_unpinned_last_save" : 0,
-																						"tallnewobj" : 0,
-																						"boxanimatetime" : 200,
-																						"enablehscroll" : 1,
-																						"enablevscroll" : 1,
-																						"devicewidth" : 0.0,
-																						"description" : "",
-																						"digest" : "",
-																						"tags" : "",
-																						"style" : "",
-																						"subpatcher_template" : "",
-																						"assistshowspatchername" : 0,
 																						"boxes" : [ 																							{
 																								"box" : 																								{
 																									"comment" : "",
@@ -11371,13 +10736,6 @@
 																					}
 ,
 																					"patching_rect" : [ 147.0, 302.0, 51.0, 22.0 ],
-																					"saved_object_attributes" : 																					{
-																						"description" : "",
-																						"digest" : "",
-																						"globalpatchername" : "",
-																						"tags" : ""
-																					}
-,
 																					"text" : "p erode"
 																				}
 
@@ -11590,13 +10948,6 @@
 																	}
 ,
 																	"patching_rect" : [ 269.0, 309.5, 95.0, 22.0 ],
-																	"saved_object_attributes" : 																	{
-																		"description" : "",
-																		"digest" : "",
-																		"globalpatchername" : "",
-																		"tags" : ""
-																	}
-,
 																	"text" : "p bgSubtraction"
 																}
 
@@ -12013,19 +11364,13 @@
 													}
 ,
 													"patching_rect" : [ 37.0, 355.0, 171.0, 20.0 ],
-													"saved_object_attributes" : 													{
-														"description" : "",
-														"digest" : "",
-														"globalpatchername" : "",
-														"tags" : ""
-													}
-,
 													"text" : "p mask"
 												}
 
 											}
 , 											{
 												"box" : 												{
+													"filename" : "none",
 													"fontname" : "Arial",
 													"fontsize" : 10.0,
 													"id" : "obj-2",
@@ -12034,12 +11379,21 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "jit_gl_texture", "" ],
 													"patching_rect" : [ 37.0, 250.0, 99.0, 20.0 ],
-													"text" : "jit.gl.slab quintet.net"
+													"text" : "jit.gl.slab quintet.net",
+													"textfile" : 													{
+														"text" : "<jittershader name=\"default\">\n\t<description>Default Slab </description>\n\t<param name=\"scale\" type=\"float\" default=\"1.0\" />\n\t<param name=\"tex0\" type=\"int\" default=\"0\" />\n\t<param name=\"modelViewProjectionMatrix\" type=\"mat4\" state=\"MODELVIEW_PROJECTION_MATRIX\" />\n\t<param name=\"textureMatrix0\" type=\"mat4\" state=\"TEXTURE0_MATRIX\" />\n\t<param name=\"position\" type=\"vec3\" state=\"POSITION\" />\n\t<param name=\"texcoord\" type=\"vec2\" state=\"TEXCOORD\" />\n\t<param name=\"color\" type=\"vec4\" state=\"COLOR0\" />\n\t<language name=\"glsl\" version=\"1.5\">\n\t\t<bind param=\"scale\" program=\"fp\" />\n\t\t<bind param=\"tex0\" program=\"fp\" />\n\t\t<bind param=\"modelViewProjectionMatrix\" program=\"vp\" />\n\t\t<bind param=\"textureMatrix0\" program=\"vp\" />\n\t\t<bind param=\"position\" program=\"vp\" />\n\t\t<bind param=\"texcoord\" program=\"vp\" />\n\t\t<bind param=\"color\" program=\"vp\" />\n\t\t<program name=\"vp\" type=\"vertex\"  >\n\t\t<![CDATA[\n\t\t\t#version 330 core\n\t\t\t\n\t\t\tin vec3 position;\n\t\t\tin vec2 texcoord;\n\t\t\tout jit_PerVertex {\n\t\t\t\tvec2 texcoord;\n\t\t\t\tvec4 color;\n\t\t\t} jit_out;\n\t\t\tuniform mat4 modelViewProjectionMatrix;\n\t\t\tuniform mat4 textureMatrix0;\n\t\t\tuniform vec4 color;\n\t\t\t\n\t\t\tvoid main(void) {\n\t\t\t\tgl_Position = modelViewProjectionMatrix*vec4(position, 1.);\n\t\t\t\tjit_out.texcoord = vec2(textureMatrix0*vec4(texcoord, 0., 1.));\n\t\t\t\tjit_out.color = color;\n\t\t\t}\n\t\t]]>\n\t\t</program>\n\t\t\n\t\t<program name=\"fp\" type=\"fragment\"  >\n\t\t<![CDATA[\n\t\t\t#version 330 core\n\t\t\t\n\t\t\tin jit_PerVertex {\n\t\t\t\tvec2 texcoord;\n\t\t\t\tvec4 color;\n\t\t\t} jit_in;\n\t\t\tlayout (location = 0) out vec4 outColor;\n\t\t\t\n\t\t\tuniform samplerJit0 tex0;\n\t\t\tuniform float scale;\n\t\t\tvoid main(void) {\n\t\t\t\toutColor = texture(tex0, jit_in.texcoord) * jit_in.color * scale;\n\t\t\t}\n\t\t]]>\n\t\t</program>\n\t</language>\n</jittershader>\n",
+														"filename" : "none",
+														"flags" : 0,
+														"embed" : 1,
+														"autowatch" : 1
+													}
+
 												}
 
 											}
 , 											{
 												"box" : 												{
+													"filename" : "none",
 													"fontname" : "Arial",
 													"fontsize" : 10.0,
 													"id" : "obj-1",
@@ -12048,7 +11402,15 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "jit_gl_texture", "" ],
 													"patching_rect" : [ 178.0, 193.0, 99.0, 20.0 ],
-													"text" : "jit.gl.slab quintet.net"
+													"text" : "jit.gl.slab quintet.net",
+													"textfile" : 													{
+														"text" : "<jittershader name=\"default\">\n\t<description>Default Slab </description>\n\t<param name=\"scale\" type=\"float\" default=\"1.0\" />\n\t<param name=\"tex0\" type=\"int\" default=\"0\" />\n\t<param name=\"modelViewProjectionMatrix\" type=\"mat4\" state=\"MODELVIEW_PROJECTION_MATRIX\" />\n\t<param name=\"textureMatrix0\" type=\"mat4\" state=\"TEXTURE0_MATRIX\" />\n\t<param name=\"position\" type=\"vec3\" state=\"POSITION\" />\n\t<param name=\"texcoord\" type=\"vec2\" state=\"TEXCOORD\" />\n\t<param name=\"color\" type=\"vec4\" state=\"COLOR0\" />\n\t<language name=\"glsl\" version=\"1.5\">\n\t\t<bind param=\"scale\" program=\"fp\" />\n\t\t<bind param=\"tex0\" program=\"fp\" />\n\t\t<bind param=\"modelViewProjectionMatrix\" program=\"vp\" />\n\t\t<bind param=\"textureMatrix0\" program=\"vp\" />\n\t\t<bind param=\"position\" program=\"vp\" />\n\t\t<bind param=\"texcoord\" program=\"vp\" />\n\t\t<bind param=\"color\" program=\"vp\" />\n\t\t<program name=\"vp\" type=\"vertex\"  >\n\t\t<![CDATA[\n\t\t\t#version 330 core\n\t\t\t\n\t\t\tin vec3 position;\n\t\t\tin vec2 texcoord;\n\t\t\tout jit_PerVertex {\n\t\t\t\tvec2 texcoord;\n\t\t\t\tvec4 color;\n\t\t\t} jit_out;\n\t\t\tuniform mat4 modelViewProjectionMatrix;\n\t\t\tuniform mat4 textureMatrix0;\n\t\t\tuniform vec4 color;\n\t\t\t\n\t\t\tvoid main(void) {\n\t\t\t\tgl_Position = modelViewProjectionMatrix*vec4(position, 1.);\n\t\t\t\tjit_out.texcoord = vec2(textureMatrix0*vec4(texcoord, 0., 1.));\n\t\t\t\tjit_out.color = color;\n\t\t\t}\n\t\t]]>\n\t\t</program>\n\t\t\n\t\t<program name=\"fp\" type=\"fragment\"  >\n\t\t<![CDATA[\n\t\t\t#version 330 core\n\t\t\t\n\t\t\tin jit_PerVertex {\n\t\t\t\tvec2 texcoord;\n\t\t\t\tvec4 color;\n\t\t\t} jit_in;\n\t\t\tlayout (location = 0) out vec4 outColor;\n\t\t\t\n\t\t\tuniform samplerJit0 tex0;\n\t\t\tuniform float scale;\n\t\t\tvoid main(void) {\n\t\t\t\toutColor = texture(tex0, jit_in.texcoord) * jit_in.color * scale;\n\t\t\t}\n\t\t]]>\n\t\t</program>\n\t</language>\n</jittershader>\n",
+														"filename" : "none",
+														"flags" : 0,
+														"embed" : 1,
+														"autowatch" : 1
+													}
+
 												}
 
 											}
@@ -12092,8 +11454,8 @@
 													"patcher" : 													{
 														"fileversion" : 1,
 														"appversion" : 														{
-															"major" : 8,
-															"minor" : 5,
+															"major" : 9,
+															"minor" : 0,
 															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
@@ -12101,33 +11463,8 @@
 ,
 														"classnamespace" : "box",
 														"rect" : [ 724.0, 320.0, 496.0, 478.0 ],
-														"bglocked" : 0,
-														"openinpresentation" : 0,
 														"default_fontsize" : 10.0,
-														"default_fontface" : 0,
-														"default_fontname" : "Arial",
-														"gridonopen" : 1,
 														"gridsize" : [ 15.0, 15.0 ],
-														"gridsnaponopen" : 1,
-														"objectsnaponopen" : 1,
-														"statusbarvisible" : 2,
-														"toolbarvisible" : 1,
-														"lefttoolbarpinned" : 0,
-														"toptoolbarpinned" : 0,
-														"righttoolbarpinned" : 0,
-														"bottomtoolbarpinned" : 0,
-														"toolbars_unpinned_last_save" : 0,
-														"tallnewobj" : 0,
-														"boxanimatetime" : 200,
-														"enablehscroll" : 1,
-														"enablevscroll" : 1,
-														"devicewidth" : 0.0,
-														"description" : "",
-														"digest" : "",
-														"tags" : "",
-														"style" : "",
-														"subpatcher_template" : "",
-														"assistshowspatchername" : 0,
 														"boxes" : [ 															{
 																"box" : 																{
 																	"fontname" : "Arial",
@@ -12285,6 +11622,7 @@
 															}
 , 															{
 																"box" : 																{
+																	"filename" : "co.normal.jxs",
 																	"fontname" : "Arial",
 																	"fontsize" : 11.595186999999999,
 																	"id" : "obj-83",
@@ -12293,7 +11631,14 @@
 																	"numoutlets" : 2,
 																	"outlettype" : [ "jit_gl_texture", "" ],
 																	"patching_rect" : [ 141.0, 305.0, 209.0, 21.0 ],
-																	"text" : "jit.gl.slab quintet.net @colormode uyvy"
+																	"text" : "jit.gl.slab quintet.net @colormode uyvy",
+																	"textfile" : 																	{
+																		"filename" : "co.normal.jxs",
+																		"flags" : 0,
+																		"embed" : 0,
+																		"autowatch" : 1
+																	}
+
 																}
 
 															}
@@ -12480,11 +11825,7 @@
 ,
 													"patching_rect" : [ 71.0, 304.0, 54.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"description" : "",
-														"digest" : "",
-														"fontsize" : 10.0,
-														"globalpatchername" : "",
-														"tags" : ""
+														"fontsize" : 10.0
 													}
 ,
 													"text" : "p mix-sub"
@@ -12544,8 +11885,8 @@
 													"patcher" : 													{
 														"fileversion" : 1,
 														"appversion" : 														{
-															"major" : 8,
-															"minor" : 5,
+															"major" : 9,
+															"minor" : 0,
 															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
@@ -12553,33 +11894,8 @@
 ,
 														"classnamespace" : "box",
 														"rect" : [ 715.0, 442.0, 674.0, 456.0 ],
-														"bglocked" : 0,
-														"openinpresentation" : 0,
 														"default_fontsize" : 10.0,
-														"default_fontface" : 0,
-														"default_fontname" : "Arial",
-														"gridonopen" : 1,
 														"gridsize" : [ 15.0, 15.0 ],
-														"gridsnaponopen" : 1,
-														"objectsnaponopen" : 1,
-														"statusbarvisible" : 2,
-														"toolbarvisible" : 1,
-														"lefttoolbarpinned" : 0,
-														"toptoolbarpinned" : 0,
-														"righttoolbarpinned" : 0,
-														"bottomtoolbarpinned" : 0,
-														"toolbars_unpinned_last_save" : 0,
-														"tallnewobj" : 0,
-														"boxanimatetime" : 200,
-														"enablehscroll" : 1,
-														"enablevscroll" : 1,
-														"devicewidth" : 0.0,
-														"description" : "",
-														"digest" : "",
-														"tags" : "",
-														"style" : "",
-														"subpatcher_template" : "",
-														"assistshowspatchername" : 0,
 														"boxes" : [ 															{
 																"box" : 																{
 																	"fontname" : "Arial",
@@ -12831,6 +12147,7 @@
 															}
 , 															{
 																"box" : 																{
+																	"filename" : "co.chromakey.jxs",
 																	"fontname" : "Arial",
 																	"fontsize" : 10.0,
 																	"id" : "obj-73",
@@ -12839,7 +12156,14 @@
 																	"numoutlets" : 2,
 																	"outlettype" : [ "jit_gl_texture", "" ],
 																	"patching_rect" : [ 214.0, 346.0, 288.0, 18.0 ],
-																	"text" : "jit.gl.slab quintet.net @colormode uyvy @file co.chromakey.jxs"
+																	"text" : "jit.gl.slab quintet.net @colormode uyvy @file co.chromakey.jxs",
+																	"textfile" : 																	{
+																		"filename" : "co.chromakey.jxs",
+																		"flags" : 0,
+																		"embed" : 0,
+																		"autowatch" : 1
+																	}
+
 																}
 
 															}
@@ -13164,11 +12488,7 @@
 ,
 													"patching_rect" : [ 187.0, 303.0, 68.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"description" : "",
-														"digest" : "",
-														"fontsize" : 10.0,
-														"globalpatchername" : "",
-														"tags" : ""
+														"fontsize" : 10.0
 													}
 ,
 													"text" : "p chromakey"
@@ -13206,8 +12526,8 @@
 													"patcher" : 													{
 														"fileversion" : 1,
 														"appversion" : 														{
-															"major" : 8,
-															"minor" : 5,
+															"major" : 9,
+															"minor" : 0,
 															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
@@ -13215,33 +12535,8 @@
 ,
 														"classnamespace" : "box",
 														"rect" : [ 151.0, 384.0, 689.0, 453.0 ],
-														"bglocked" : 0,
-														"openinpresentation" : 0,
 														"default_fontsize" : 10.0,
-														"default_fontface" : 0,
-														"default_fontname" : "Arial",
-														"gridonopen" : 1,
 														"gridsize" : [ 15.0, 15.0 ],
-														"gridsnaponopen" : 1,
-														"objectsnaponopen" : 1,
-														"statusbarvisible" : 2,
-														"toolbarvisible" : 1,
-														"lefttoolbarpinned" : 0,
-														"toptoolbarpinned" : 0,
-														"righttoolbarpinned" : 0,
-														"bottomtoolbarpinned" : 0,
-														"toolbars_unpinned_last_save" : 0,
-														"tallnewobj" : 0,
-														"boxanimatetime" : 200,
-														"enablehscroll" : 1,
-														"enablevscroll" : 1,
-														"devicewidth" : 0.0,
-														"description" : "",
-														"digest" : "",
-														"tags" : "",
-														"style" : "",
-														"subpatcher_template" : "",
-														"assistshowspatchername" : 0,
 														"boxes" : [ 															{
 																"box" : 																{
 																	"id" : "obj-29",
@@ -13324,8 +12619,8 @@
 																	"patcher" : 																	{
 																		"fileversion" : 1,
 																		"appversion" : 																		{
-																			"major" : 8,
-																			"minor" : 5,
+																			"major" : 9,
+																			"minor" : 0,
 																			"revision" : 6,
 																			"architecture" : "x64",
 																			"modernui" : 1
@@ -13333,33 +12628,7 @@
 ,
 																		"classnamespace" : "box",
 																		"rect" : [ 59.0, 104.0, 989.0, 514.0 ],
-																		"bglocked" : 0,
-																		"openinpresentation" : 0,
-																		"default_fontsize" : 12.0,
-																		"default_fontface" : 0,
-																		"default_fontname" : "Arial",
-																		"gridonopen" : 1,
 																		"gridsize" : [ 15.0, 15.0 ],
-																		"gridsnaponopen" : 1,
-																		"objectsnaponopen" : 1,
-																		"statusbarvisible" : 2,
-																		"toolbarvisible" : 1,
-																		"lefttoolbarpinned" : 0,
-																		"toptoolbarpinned" : 0,
-																		"righttoolbarpinned" : 0,
-																		"bottomtoolbarpinned" : 0,
-																		"toolbars_unpinned_last_save" : 0,
-																		"tallnewobj" : 0,
-																		"boxanimatetime" : 200,
-																		"enablehscroll" : 1,
-																		"enablevscroll" : 1,
-																		"devicewidth" : 0.0,
-																		"description" : "",
-																		"digest" : "",
-																		"tags" : "",
-																		"style" : "",
-																		"subpatcher_template" : "",
-																		"assistshowspatchername" : 0,
 																		"boxes" : [ 																			{
 																				"box" : 																				{
 																					"id" : "obj-7",
@@ -13530,8 +12799,8 @@
 																					"patcher" : 																					{
 																						"fileversion" : 1,
 																						"appversion" : 																						{
-																							"major" : 8,
-																							"minor" : 5,
+																							"major" : 9,
+																							"minor" : 0,
 																							"revision" : 6,
 																							"architecture" : "x64",
 																							"modernui" : 1
@@ -13539,33 +12808,7 @@
 ,
 																						"classnamespace" : "jit.gen",
 																						"rect" : [ 0.0, 0.0, 600.0, 450.0 ],
-																						"bglocked" : 0,
-																						"openinpresentation" : 0,
-																						"default_fontsize" : 12.0,
-																						"default_fontface" : 0,
-																						"default_fontname" : "Arial",
-																						"gridonopen" : 1,
 																						"gridsize" : [ 15.0, 15.0 ],
-																						"gridsnaponopen" : 1,
-																						"objectsnaponopen" : 1,
-																						"statusbarvisible" : 2,
-																						"toolbarvisible" : 1,
-																						"lefttoolbarpinned" : 0,
-																						"toptoolbarpinned" : 0,
-																						"righttoolbarpinned" : 0,
-																						"bottomtoolbarpinned" : 0,
-																						"toolbars_unpinned_last_save" : 0,
-																						"tallnewobj" : 0,
-																						"boxanimatetime" : 200,
-																						"enablehscroll" : 1,
-																						"enablevscroll" : 1,
-																						"devicewidth" : 0.0,
-																						"description" : "",
-																						"digest" : "",
-																						"tags" : "",
-																						"style" : "",
-																						"subpatcher_template" : "",
-																						"assistshowspatchername" : 0,
 																						"boxes" : [ 																							{
 																								"box" : 																								{
 																									"id" : "obj-1",
@@ -13973,13 +13216,6 @@
 																	}
 ,
 																	"patching_rect" : [ 245.0, 368.0, 194.0, 20.0 ],
-																	"saved_object_attributes" : 																	{
-																		"description" : "",
-																		"digest" : "",
-																		"globalpatchername" : "",
-																		"tags" : ""
-																	}
-,
 																	"text" : "p wipe"
 																}
 
@@ -14244,6 +13480,7 @@
 															}
 , 															{
 																"box" : 																{
+																	"filename" : "none",
 																	"fontname" : "Arial",
 																	"fontsize" : 10.0,
 																	"id" : "obj-26",
@@ -14252,7 +13489,15 @@
 																	"numoutlets" : 2,
 																	"outlettype" : [ "jit_gl_texture", "" ],
 																	"patching_rect" : [ 184.0, 324.0, 182.0, 20.0 ],
-																	"text" : "jit.gl.slab quintet.net @colormode uyvy"
+																	"text" : "jit.gl.slab quintet.net @colormode uyvy",
+																	"textfile" : 																	{
+																		"text" : "<jittershader name=\"default\">\n\t<description>Default Slab </description>\n\t<param name=\"scale\" type=\"float\" default=\"1.0\" />\n\t<param name=\"tex0\" type=\"int\" default=\"0\" />\n\t<param name=\"modelViewProjectionMatrix\" type=\"mat4\" state=\"MODELVIEW_PROJECTION_MATRIX\" />\n\t<param name=\"textureMatrix0\" type=\"mat4\" state=\"TEXTURE0_MATRIX\" />\n\t<param name=\"position\" type=\"vec3\" state=\"POSITION\" />\n\t<param name=\"texcoord\" type=\"vec2\" state=\"TEXCOORD\" />\n\t<param name=\"color\" type=\"vec4\" state=\"COLOR0\" />\n\t<language name=\"glsl\" version=\"1.5\">\n\t\t<bind param=\"scale\" program=\"fp\" />\n\t\t<bind param=\"tex0\" program=\"fp\" />\n\t\t<bind param=\"modelViewProjectionMatrix\" program=\"vp\" />\n\t\t<bind param=\"textureMatrix0\" program=\"vp\" />\n\t\t<bind param=\"position\" program=\"vp\" />\n\t\t<bind param=\"texcoord\" program=\"vp\" />\n\t\t<bind param=\"color\" program=\"vp\" />\n\t\t<program name=\"vp\" type=\"vertex\"  >\n\t\t<![CDATA[\n\t\t\t#version 330 core\n\t\t\t\n\t\t\tin vec3 position;\n\t\t\tin vec2 texcoord;\n\t\t\tout jit_PerVertex {\n\t\t\t\tvec2 texcoord;\n\t\t\t\tvec4 color;\n\t\t\t} jit_out;\n\t\t\tuniform mat4 modelViewProjectionMatrix;\n\t\t\tuniform mat4 textureMatrix0;\n\t\t\tuniform vec4 color;\n\t\t\t\n\t\t\tvoid main(void) {\n\t\t\t\tgl_Position = modelViewProjectionMatrix*vec4(position, 1.);\n\t\t\t\tjit_out.texcoord = vec2(textureMatrix0*vec4(texcoord, 0., 1.));\n\t\t\t\tjit_out.color = color;\n\t\t\t}\n\t\t]]>\n\t\t</program>\n\t\t\n\t\t<program name=\"fp\" type=\"fragment\"  >\n\t\t<![CDATA[\n\t\t\t#version 330 core\n\t\t\t\n\t\t\tin jit_PerVertex {\n\t\t\t\tvec2 texcoord;\n\t\t\t\tvec4 color;\n\t\t\t} jit_in;\n\t\t\tlayout (location = 0) out vec4 outColor;\n\t\t\t\n\t\t\tuniform samplerJit0 tex0;\n\t\t\tuniform float scale;\n\t\t\tvoid main(void) {\n\t\t\t\toutColor = texture(tex0, jit_in.texcoord) * jit_in.color * scale;\n\t\t\t}\n\t\t]]>\n\t\t</program>\n\t</language>\n</jittershader>\n",
+																		"filename" : "none",
+																		"flags" : 0,
+																		"embed" : 1,
+																		"autowatch" : 1
+																	}
+
 																}
 
 															}
@@ -14631,11 +13876,7 @@
 ,
 													"patching_rect" : [ 133.0, 304.0, 48.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"description" : "",
-														"digest" : "",
-														"fontsize" : 10.0,
-														"globalpatchername" : "",
-														"tags" : ""
+														"fontsize" : 10.0
 													}
 ,
 													"text" : "p effects"
@@ -14977,11 +14218,7 @@
 ,
 									"patching_rect" : [ 163.0, 441.0, 165.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"description" : "",
-										"digest" : "",
-										"fontsize" : 10.0,
-										"globalpatchername" : "",
-										"tags" : ""
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p jit.gl.mix",
@@ -15001,8 +14238,8 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
+											"major" : 9,
+											"minor" : 0,
 											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -15010,33 +14247,8 @@
 ,
 										"classnamespace" : "box",
 										"rect" : [ 40.0, 104.0, 346.0, 352.0 ],
-										"bglocked" : 0,
-										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 1,
-										"objectsnaponopen" : 1,
-										"statusbarvisible" : 2,
-										"toolbarvisible" : 1,
-										"lefttoolbarpinned" : 0,
-										"toptoolbarpinned" : 0,
-										"righttoolbarpinned" : 0,
-										"bottomtoolbarpinned" : 0,
-										"toolbars_unpinned_last_save" : 0,
-										"tallnewobj" : 0,
-										"boxanimatetime" : 200,
-										"enablehscroll" : 1,
-										"enablevscroll" : 1,
-										"devicewidth" : 0.0,
-										"description" : "",
-										"digest" : "",
-										"tags" : "",
-										"style" : "",
-										"subpatcher_template" : "",
-										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -15500,11 +14712,7 @@
 ,
 									"patching_rect" : [ 667.0, 67.0, 39.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"description" : "",
-										"digest" : "",
-										"fontsize" : 10.0,
-										"globalpatchername" : "",
-										"tags" : ""
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p logic"
@@ -16112,8 +15320,8 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
+											"major" : 9,
+											"minor" : 0,
 											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -16121,33 +15329,8 @@
 ,
 										"classnamespace" : "box",
 										"rect" : [ 583.0, 263.0, 484.0, 474.0 ],
-										"bglocked" : 0,
-										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 1,
-										"objectsnaponopen" : 1,
-										"statusbarvisible" : 2,
-										"toolbarvisible" : 1,
-										"lefttoolbarpinned" : 0,
-										"toptoolbarpinned" : 0,
-										"righttoolbarpinned" : 0,
-										"bottomtoolbarpinned" : 0,
-										"toolbars_unpinned_last_save" : 0,
-										"tallnewobj" : 0,
-										"boxanimatetime" : 200,
-										"enablehscroll" : 1,
-										"enablevscroll" : 1,
-										"devicewidth" : 0.0,
-										"description" : "",
-										"digest" : "",
-										"tags" : "",
-										"style" : "",
-										"subpatcher_template" : "",
-										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -16160,8 +15343,8 @@
 													"patcher" : 													{
 														"fileversion" : 1,
 														"appversion" : 														{
-															"major" : 8,
-															"minor" : 5,
+															"major" : 9,
+															"minor" : 0,
 															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
@@ -16169,33 +15352,7 @@
 ,
 														"classnamespace" : "box",
 														"rect" : [ 113.0, 430.0, 718.0, 468.0 ],
-														"bglocked" : 0,
-														"openinpresentation" : 0,
-														"default_fontsize" : 12.0,
-														"default_fontface" : 0,
-														"default_fontname" : "Arial",
-														"gridonopen" : 1,
 														"gridsize" : [ 15.0, 15.0 ],
-														"gridsnaponopen" : 1,
-														"objectsnaponopen" : 1,
-														"statusbarvisible" : 2,
-														"toolbarvisible" : 1,
-														"lefttoolbarpinned" : 0,
-														"toptoolbarpinned" : 0,
-														"righttoolbarpinned" : 0,
-														"bottomtoolbarpinned" : 0,
-														"toolbars_unpinned_last_save" : 0,
-														"tallnewobj" : 0,
-														"boxanimatetime" : 200,
-														"enablehscroll" : 1,
-														"enablevscroll" : 1,
-														"devicewidth" : 0.0,
-														"description" : "",
-														"digest" : "",
-														"tags" : "",
-														"style" : "",
-														"subpatcher_template" : "",
-														"assistshowspatchername" : 0,
 														"boxes" : [ 															{
 																"box" : 																{
 																	"fontname" : "Arial",
@@ -16796,13 +15953,6 @@
 													}
 ,
 													"patching_rect" : [ 270.0, 258.0, 38.0, 20.0 ],
-													"saved_object_attributes" : 													{
-														"description" : "",
-														"digest" : "",
-														"globalpatchername" : "",
-														"tags" : ""
-													}
-,
 													"text" : "p time",
 													"varname" : "patcher"
 												}
@@ -17030,8 +16180,8 @@
 													"patcher" : 													{
 														"fileversion" : 1,
 														"appversion" : 														{
-															"major" : 8,
-															"minor" : 5,
+															"major" : 9,
+															"minor" : 0,
 															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
@@ -17039,33 +16189,8 @@
 ,
 														"classnamespace" : "box",
 														"rect" : [ 606.0, 307.0, 678.0, 709.0 ],
-														"bglocked" : 0,
-														"openinpresentation" : 0,
 														"default_fontsize" : 10.0,
-														"default_fontface" : 0,
-														"default_fontname" : "Arial",
-														"gridonopen" : 1,
 														"gridsize" : [ 15.0, 15.0 ],
-														"gridsnaponopen" : 1,
-														"objectsnaponopen" : 1,
-														"statusbarvisible" : 2,
-														"toolbarvisible" : 1,
-														"lefttoolbarpinned" : 0,
-														"toptoolbarpinned" : 0,
-														"righttoolbarpinned" : 0,
-														"bottomtoolbarpinned" : 0,
-														"toolbars_unpinned_last_save" : 0,
-														"tallnewobj" : 0,
-														"boxanimatetime" : 200,
-														"enablehscroll" : 1,
-														"enablevscroll" : 1,
-														"devicewidth" : 0.0,
-														"description" : "",
-														"digest" : "",
-														"tags" : "",
-														"style" : "",
-														"subpatcher_template" : "",
-														"assistshowspatchername" : 0,
 														"boxes" : [ 															{
 																"box" : 																{
 																	"fontface" : 0,
@@ -18404,11 +17529,7 @@
 ,
 													"patching_rect" : [ 237.0, 343.0, 84.0, 18.0 ],
 													"saved_object_attributes" : 													{
-														"description" : "",
-														"digest" : "",
-														"fontsize" : 10.0,
-														"globalpatchername" : "",
-														"tags" : ""
+														"fontsize" : 10.0
 													}
 ,
 													"text" : "p scale-chat-text"
@@ -18643,11 +17764,7 @@
 ,
 									"patching_rect" : [ 163.0, 466.0, 38.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"description" : "",
-										"digest" : "",
-										"fontsize" : 10.0,
-										"globalpatchername" : "",
-										"tags" : ""
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p chat",
@@ -18667,8 +17784,8 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
+											"major" : 9,
+											"minor" : 0,
 											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -18676,33 +17793,8 @@
 ,
 										"classnamespace" : "box",
 										"rect" : [ 355.0, 101.0, 289.0, 435.0 ],
-										"bglocked" : 0,
-										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 1,
-										"objectsnaponopen" : 1,
-										"statusbarvisible" : 2,
-										"toolbarvisible" : 1,
-										"lefttoolbarpinned" : 0,
-										"toptoolbarpinned" : 0,
-										"righttoolbarpinned" : 0,
-										"bottomtoolbarpinned" : 0,
-										"toolbars_unpinned_last_save" : 0,
-										"tallnewobj" : 0,
-										"boxanimatetime" : 200,
-										"enablehscroll" : 1,
-										"enablevscroll" : 1,
-										"devicewidth" : 0.0,
-										"description" : "",
-										"digest" : "",
-										"tags" : "",
-										"style" : "",
-										"subpatcher_template" : "",
-										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -18794,8 +17886,8 @@
 													"id" : "obj-7",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 5,
-													"outlettype" : [ "int", "int", "int", "int", "int" ],
+													"numoutlets" : 10,
+													"outlettype" : [ "int", "int", "int", "int", "int", "int", "int", "float", "float", "list" ],
 													"patching_rect" : [ 123.0, 124.0, 66.0, 19.0 ],
 													"text" : "mousestate"
 												}
@@ -19109,7 +18201,7 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-4", 1 ],
-													"midpoints" : [ 167.75, 167.0, 56.5, 167.0 ],
+													"midpoints" : [ 148.166666666666657, 167.0, 56.5, 167.0 ],
 													"source" : [ "obj-7", 3 ]
 												}
 
@@ -19133,11 +18225,7 @@
 ,
 									"patching_rect" : [ 620.0, 756.0, 82.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"description" : "",
-										"digest" : "",
-										"fontsize" : 10.0,
-										"globalpatchername" : "",
-										"tags" : ""
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p windowcontrol"
@@ -19271,8 +18359,8 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
+											"major" : 9,
+											"minor" : 0,
 											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -19280,33 +18368,8 @@
 ,
 										"classnamespace" : "box",
 										"rect" : [ 135.0, 286.0, 455.0, 436.0 ],
-										"bglocked" : 0,
-										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 1,
-										"objectsnaponopen" : 1,
-										"statusbarvisible" : 2,
-										"toolbarvisible" : 1,
-										"lefttoolbarpinned" : 0,
-										"toptoolbarpinned" : 0,
-										"righttoolbarpinned" : 0,
-										"bottomtoolbarpinned" : 0,
-										"toolbars_unpinned_last_save" : 0,
-										"tallnewobj" : 0,
-										"boxanimatetime" : 200,
-										"enablehscroll" : 1,
-										"enablevscroll" : 1,
-										"devicewidth" : 0.0,
-										"description" : "",
-										"digest" : "",
-										"tags" : "",
-										"style" : "",
-										"subpatcher_template" : "",
-										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -19430,7 +18493,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 2,
 													"numoutlets" : 1,
-													"outlettype" : [ "int" ],
+													"outlettype" : [ "" ],
 													"patching_rect" : [ 216.0, 179.0, 62.0, 17.0 ],
 													"text" : "random 320"
 												}
@@ -19603,7 +18666,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 2,
 													"numoutlets" : 1,
-													"outlettype" : [ "int" ],
+													"outlettype" : [ "" ],
 													"patching_rect" : [ 279.0, 178.0, 62.0, 17.0 ],
 													"text" : "random 240"
 												}
@@ -19992,11 +19055,7 @@
 ,
 									"patching_rect" : [ 588.0, 69.0, 45.0, 19.0 ],
 									"saved_object_attributes" : 									{
-										"description" : "",
-										"digest" : "",
-										"fontsize" : 10.0,
-										"globalpatchername" : "",
-										"tags" : ""
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p circles",
@@ -20620,11 +19679,7 @@
 ,
 					"patching_rect" : [ 984.0, 30.0, 41.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"fontsize" : 10.0,
-						"globalpatchername" : "",
-						"tags" : ""
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p video",
@@ -21094,24 +20149,24 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 1 ],
+					"args" : [ 4 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-57",
+					"id" : "obj-45",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "bpf.curve.maxpat",
+					"name" : "audio.curve.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 162.0, 115.0, 160.0, 52.0 ],
+					"patching_rect" : [ 645.0, 115.0, 160.0, 52.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 162.0, 115.0, 160.0, 52.0 ],
-					"varname" : "1bpf",
+					"presentation_rect" : [ 645.0, 115.0, 160.0, 52.0 ],
+					"varname" : "4audio",
 					"viewvisibility" : 1
 				}
 
@@ -21124,90 +20179,42 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-60",
+					"id" : "obj-47",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "lissajous.curve.maxpat",
+					"name" : "audio.curve.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 484.0, 115.0, 160.0, 52.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 484.0, 115.0, 160.0, 52.0 ],
-					"varname" : "3lissajous",
+					"varname" : "3audio",
 					"viewvisibility" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 4 ],
+					"args" : [ 2 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-62",
+					"id" : "obj-55",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "midi.curve.maxpat",
+					"name" : "audio.curve.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 645.0, 115.0, 160.0, 52.0 ],
+					"patching_rect" : [ 323.0, 115.0, 160.0, 52.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 645.0, 115.0, 160.0, 52.0 ],
-					"varname" : "4midi",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ 1, 1 ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-64",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "type.vfx.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 162.0, 463.0, 160.0, 146.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 162.0, 463.0, 160.0, 146.0 ],
-					"varname" : "1_1type",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ 1, 2 ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-66",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "basic.vfx.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 323.0, 463.0, 160.0, 146.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 323.0, 463.0, 160.0, 146.0 ],
-					"varname" : "1_2basic",
+					"presentation_rect" : [ 323.0, 115.0, 160.0, 52.0 ],
+					"varname" : "2audio",
 					"viewvisibility" : 1
 				}
 
@@ -21220,42 +20227,138 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-68",
+					"id" : "obj-59",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "dot_screen-gl3.vfx.maxpat",
+					"name" : "drift.vfx.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 806.0, 463.0, 160.0, 146.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 806.0, 463.0, 160.0, 146.0 ],
-					"varname" : "1_5dot_screen-gl3",
+					"varname" : "1_5drift",
 					"viewvisibility" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 2, 1 ],
+					"args" : [ 1, 2 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-72",
+					"id" : "obj-61",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "tiffany.vfx.maxpat",
+					"name" : "brass.vfx.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 162.0, 610.0, 160.0, 146.0 ],
+					"patching_rect" : [ 323.0, 463.0, 160.0, 146.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 162.0, 610.0, 160.0, 146.0 ],
-					"varname" : "2_1tiffany",
+					"presentation_rect" : [ 323.0, 463.0, 160.0, 146.0 ],
+					"varname" : "1_2brass",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ 1, 1 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-63",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "basic.vfx.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 162.0, 463.0, 160.0, 146.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 162.0, 463.0, 160.0, 146.0 ],
+					"varname" : "1_1basic",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ 2, 5 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-65",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "drift.vfx.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 806.0, 610.0, 160.0, 146.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 806.0, 610.0, 160.0, 146.0 ],
+					"varname" : "2_5drift",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ 2, 4 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-67",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "kaleidoscope.vfx.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 645.0, 610.0, 160.0, 146.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 645.0, 610.0, 160.0, 146.0 ],
+					"varname" : "2_4kaleidoscope",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ 2, 3 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-71",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "rotation.vfx.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 484.0, 610.0, 160.0, 146.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 484.0, 610.0, 160.0, 146.0 ],
+					"varname" : "2_3rotation",
 					"viewvisibility" : 1
 				}
 
@@ -21272,21 +20375,21 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "rotation.vfx.maxpat",
+					"name" : "brass.vfx.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 323.0, 610.0, 160.0, 146.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 323.0, 610.0, 160.0, 146.0 ],
-					"varname" : "2_2rotation",
+					"varname" : "2_2brass",
 					"viewvisibility" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 2, 3 ],
+					"args" : [ 2, 1 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -21296,158 +20399,14 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "kaleidoscope.vfx.maxpat",
+					"name" : "basic.vfx.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 484.0, 610.0, 160.0, 146.0 ],
+					"patching_rect" : [ 162.0, 610.0, 160.0, 146.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 484.0, 610.0, 160.0, 146.0 ],
-					"varname" : "2_3kaleidoscope",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ 2, 4 ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-79",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "perspective_tile.vfx.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 645.0, 610.0, 160.0, 146.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 645.0, 610.0, 160.0, 146.0 ],
-					"varname" : "2_4perspective_tile",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ 2, 5 ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-81",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "eclipse.vfx.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 806.0, 610.0, 160.0, 146.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 806.0, 610.0, 160.0, 146.0 ],
-					"varname" : "2_5eclipse",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ 1 ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-83",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "camera.vgen.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 162.0, 315.0, 160.0, 146.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 162.0, 315.0, 160.0, 146.0 ],
-					"varname" : "1camera",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ 2 ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-85",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "gradient.vgen.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 323.0, 315.0, 160.0, 146.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 323.0, 315.0, 160.0, 146.0 ],
-					"varname" : "2gradient",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ 3 ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-87",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "SwanSongGlisser.vgen.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 484.0, 315.0, 160.0, 146.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 484.0, 315.0, 160.0, 146.0 ],
-					"varname" : "3SwanSongGlisser",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ 4 ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-89",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "configs.vgen.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 645.0, 315.0, 160.0, 146.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 645.0, 315.0, 160.0, 146.0 ],
-					"varname" : "4configs",
+					"presentation_rect" : [ 162.0, 610.0, 160.0, 146.0 ],
+					"varname" : "2_1basic",
 					"viewvisibility" : 1
 				}
 
@@ -21460,18 +20419,66 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-91",
+					"id" : "obj-79",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "spectrogram.vgen.maxpat",
+					"name" : "notation.vgen.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 806.0, 315.0, 160.0, 146.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 806.0, 315.0, 160.0, 146.0 ],
-					"varname" : "5spectrogram",
+					"varname" : "5notation",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ 4 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-81",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "gradient.vgen.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 645.0, 315.0, 160.0, 146.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 645.0, 315.0, 160.0, 146.0 ],
+					"varname" : "4gradient",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ 3 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-84",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "configs.vgen.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 484.0, 315.0, 160.0, 146.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 484.0, 315.0, 160.0, 146.0 ],
+					"varname" : "3configs",
 					"viewvisibility" : 1
 				}
 
@@ -21484,18 +20491,66 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-93",
+					"id" : "obj-86",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "network.curve.maxpat",
+					"name" : "painter.vgen.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 323.0, 115.0, 160.0, 52.0 ],
+					"patching_rect" : [ 323.0, 315.0, 160.0, 146.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 323.0, 115.0, 160.0, 52.0 ],
-					"varname" : "2network",
+					"presentation_rect" : [ 323.0, 315.0, 160.0, 146.0 ],
+					"varname" : "2painter",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ 1 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-88",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "noise.vgen.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 162.0, 315.0, 160.0, 146.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 162.0, 315.0, 160.0, 146.0 ],
+					"varname" : "1noise",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ 1 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-46",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "lissajous.curve.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 162.0, 115.0, 160.0, 52.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 162.0, 115.0, 160.0, 52.0 ],
+					"varname" : "1lissajous",
 					"viewvisibility" : 1
 				}
 
@@ -21592,7 +20647,10 @@
 			"obj-43::obj-27" : [ "live.text[3]", "live.text[2]", 0 ],
 			"obj-43::obj-36" : [ "live.text[11]", "live.text[2]", 0 ],
 			"obj-43::obj-37" : [ "live.text[10]", "live.text[2]", 0 ],
-			"obj-57::obj-7" : [ "live.slider", "live.slider", 0 ],
+			"obj-86::obj-1::obj-10" : [ "live.text[5]", "live.text[5]", 0 ],
+			"obj-86::obj-1::obj-17" : [ "live.text[6]", "live.text[5]", 0 ],
+			"obj-86::obj-1::obj-19" : [ "live.text[1]", "live.text[5]", 0 ],
+			"obj-86::obj-1::obj-8" : [ "live.tab[1]", "live.tab", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -21654,28 +20712,42 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Attributes.png",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/media/Images",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/media/Images",
 				"patcherrelativepath" : "../../media/Images",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "ExpandExponential.maxpat",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/patchers/extensions",
+				"patcherrelativepath" : "../../../MaxScore/patchers/extensions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "InfoMenu.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/GUI",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Abstractions/GUI",
 				"patcherrelativepath" : "../../patchers/Library/Abstractions/GUI",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "InfoMenu2.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/PatMap/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/PatMap/patchers",
 				"patcherrelativepath" : "../../patchers/PatMap/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "Loeschen.png",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Video-Generators/painter",
+				"patcherrelativepath" : "../../patchers/Library/Video-Generators/painter",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "Mapping.png",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/media/Images",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/media/Images",
 				"patcherrelativepath" : "../../media/Images",
 				"type" : "PNG",
 				"implicit" : 1
@@ -21693,236 +20765,257 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "MaxScore.maxpat",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/patchers/abstractions",
+				"patcherrelativepath" : "../../../MaxScore/patchers/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "MaxScore.rxml.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "MaxScoreKeyMap.txt",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/patchers/maps",
+				"patcherrelativepath" : "../../../MaxScore/patchers/maps",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "MaxScoreNoteheads.txt",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/patchers/maps/Font Mappings",
+				"patcherrelativepath" : "../../../MaxScore/patchers/maps/Font Mappings",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "Network.png",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/media/Images",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/media/Images",
 				"patcherrelativepath" : "../../media/Images",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "PitchToStep.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/MIDI-events",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Abstractions/MIDI-events",
 				"patcherrelativepath" : "../../patchers/Library/Abstractions/MIDI-events",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Project-panel.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/GUI",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Abstractions/GUI",
 				"patcherrelativepath" : "../../patchers/Library/Abstractions/GUI",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Project.png",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/media/Images",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/media/Images",
 				"patcherrelativepath" : "../../media/Images",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "Radiergummi.png",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Video-Generators/painter",
+				"patcherrelativepath" : "../../patchers/Library/Video-Generators/painter",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "Register.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/network",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Abstractions/network",
 				"patcherrelativepath" : "../../patchers/Library/Abstractions/network",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "SearchIcon.png",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/media/Images",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/media/Images",
 				"patcherrelativepath" : "../../media/Images",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "SearchIconinv.png",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/PatMap/media",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/PatMap/media",
 				"patcherrelativepath" : "../../patchers/PatMap/media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "Spruehdose.png",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Video-Generators/painter",
+				"patcherrelativepath" : "../../patchers/Library/Video-Generators/painter",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "Stopwatch.png",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/media/Images",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/media/Images",
 				"patcherrelativepath" : "../../media/Images",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "SwanSong-Viewer8.xml",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Swan Song",
-				"patcherrelativepath" : "../../patchers/Projects/Swan Song",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "SwanSong.map.txt",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Swan Song/Maps",
-				"patcherrelativepath" : "../../patchers/Projects/Swan Song/Maps",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "SwanSongGlisser.vgen.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Swan Song/Viewer",
-				"patcherrelativepath" : "../../patchers/Projects/Swan Song/Viewer",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "V_attributes.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
 				"patcherrelativepath" : "../../patchers/Library/Abstractions/viewer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "V_chain.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
 				"patcherrelativepath" : "../../patchers/Library/Abstractions/viewer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "V_curve.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
 				"patcherrelativepath" : "../../patchers/Library/Abstractions/viewer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "V_generators.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
 				"patcherrelativepath" : "../../patchers/Library/Abstractions/viewer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "V_mapper.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
 				"patcherrelativepath" : "../../patchers/Library/Abstractions/viewer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "V_mix.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
 				"patcherrelativepath" : "../../patchers/Library/Abstractions/viewer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "V_player.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
 				"patcherrelativepath" : "../../patchers/Library/Abstractions/viewer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "V_presets.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
 				"patcherrelativepath" : "../../patchers/Library/Abstractions/viewer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "V_preview.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
 				"patcherrelativepath" : "../../patchers/Library/Abstractions/viewer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "V_record.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
 				"patcherrelativepath" : "../../patchers/Library/Abstractions/viewer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "Zeichenstift.png",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Video-Generators/painter",
+				"patcherrelativepath" : "../../patchers/Library/Video-Generators/painter",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "audio.curve.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Curve-Generators",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Curve-Generators",
 				"patcherrelativepath" : "../../patchers/Library/Curve-Generators",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "autocalibrate.mapper.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/PatMap/patchers/methods",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/PatMap/patchers/methods",
 				"patcherrelativepath" : "../../patchers/PatMap/patchers/methods",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "basic.vfx.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Video-Effects",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Video-Effects",
 				"patcherrelativepath" : "../../patchers/Library/Video-Effects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "bonk~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "bottom-bar.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/GUI",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Abstractions/GUI",
 				"patcherrelativepath" : "../../patchers/Library/Abstractions/GUI",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "boxSize.js",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/javascript",
+				"patcherrelativepath" : "../../../MaxScore/javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "boxposition.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/javascript",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/javascript",
 				"patcherrelativepath" : "../../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "bpf.curve.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Curve-Generators",
-				"patcherrelativepath" : "../../patchers/Library/Curve-Generators",
+				"name" : "brass.vfx.maxpat",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Video-Effects",
+				"patcherrelativepath" : "../../patchers/Library/Video-Effects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "btoggle.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/jsui",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/jsui",
 				"patcherrelativepath" : "../../../MaxScore/jsui",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "camera.vgen.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Video-Generators",
-				"patcherrelativepath" : "../../patchers/Library/Video-Generators",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "chat-bpatcher2.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/chat",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Abstractions/chat",
 				"patcherrelativepath" : "../../patchers/Library/Abstractions/chat",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "clock2.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/miscellaneous",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Abstractions/miscellaneous",
 				"patcherrelativepath" : "../../patchers/Library/Abstractions/miscellaneous",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "codebox.mapper.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/PatMap/patchers/methods",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/PatMap/patchers/methods",
 				"patcherrelativepath" : "../../patchers/PatMap/patchers/methods",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "configs.vgen.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Video-Generators",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Video-Generators",
 				"patcherrelativepath" : "../../patchers/Library/Video-Generators",
 				"type" : "JSON",
 				"implicit" : 1
@@ -21933,48 +21026,44 @@
 			}
 , 			{
 				"name" : "date.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/node.js",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/patchers/node.js",
 				"patcherrelativepath" : "../../../MaxScore/patchers/node.js",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "detox.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "divmod.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/DJster/core",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/patchers/DJster/core",
 				"patcherrelativepath" : "../../../MaxScore/patchers/DJster/core",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot_screen-gl3.vfx.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Video-Effects",
+				"name" : "djsterNotation.js",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/jsextensions",
+				"patcherrelativepath" : "../../../MaxScore/jsextensions",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "drift.vfx.maxpat",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Video-Effects",
 				"patcherrelativepath" : "../../patchers/Library/Video-Effects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dstdimcrop.genjit",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
-				"patcherrelativepath" : "../../patchers/Library/Abstractions/viewer",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 9/Examples/jitter-examples/gen",
+				"patcherrelativepath" : "../../../../../../hajdu/Library/Application Support/Cycling '74/Max 9/Examples/jitter-examples/gen",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "eclipse.genjit",
-				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/jitter-examples/gen",
-				"patcherrelativepath" : "../../../../../../hajdu/Library/Application Support/Cycling '74/Max 8/Examples/jitter-examples/gen",
-				"type" : "gJIT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "eclipse.vfx.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Video-Effects",
-				"patcherrelativepath" : "../../patchers/Library/Video-Effects",
-				"type" : "JSON",
+				"name" : "fitcurve.js",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/jsextensions/xytocurveto",
+				"patcherrelativepath" : "../../../MaxScore/jsextensions/xytocurveto",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -21985,37 +21074,51 @@
 			}
 , 			{
 				"name" : "gh.split@.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/abstractions",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/patchers/abstractions",
 				"patcherrelativepath" : "../../../MaxScore/patchers/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "glissando-painter.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Swan Song/Resources/Parts/Transition",
-				"patcherrelativepath" : "../../patchers/Projects/Swan Song/Resources/Parts/Transition",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "gradient.vgen.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Video-Generators",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Video-Generators",
 				"patcherrelativepath" : "../../patchers/Library/Video-Generators",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "htmlEntities.js",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/javascript",
+				"patcherrelativepath" : "../../../MaxScore/javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "image2drawsocket.js",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/patchers/node.js/image2drawsocket",
+				"patcherrelativepath" : "../../../MaxScore/patchers/node.js/image2drawsocket",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "iomapoff.svg",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/media/Images",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/media/Images",
 				"patcherrelativepath" : "../../media/Images",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "iomapon.svg",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/media/Images",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/media/Images",
 				"patcherrelativepath" : "../../media/Images",
 				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "iswindows.maxpat",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/patchers/abstractions",
+				"patcherrelativepath" : "../../../MaxScore/patchers/abstractions",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
@@ -22023,149 +21126,265 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "jit.gl.syphonserver.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jit.matrix-drift-helper2.maxpat",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
+				"patcherrelativepath" : "../../patchers/Library/Abstractions/viewer",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jit.pane.js",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/javascript",
+				"patcherrelativepath" : "../../../MaxScore/javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "jk.chat-engine2.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/chat",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Abstractions/chat",
 				"patcherrelativepath" : "../../patchers/Library/Abstractions/chat",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jk.chat-scribble-icon.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/chat",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Abstractions/chat",
 				"patcherrelativepath" : "../../patchers/Library/Abstractions/chat",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jk.chat-scribble-indicator.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/chat",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Abstractions/chat",
 				"patcherrelativepath" : "../../patchers/Library/Abstractions/chat",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jk.chat.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/chat",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Abstractions/chat",
 				"patcherrelativepath" : "../../patchers/Library/Abstractions/chat",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jk.textfield-gate.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/chat",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Abstractions/chat",
 				"patcherrelativepath" : "../../patchers/Library/Abstractions/chat",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jk.uzislow.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Projects/Blueprint",
-				"patcherrelativepath" : "../../patchers/Projects/Blueprint",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "jk.workup-chat-display.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/chat",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Abstractions/chat",
 				"patcherrelativepath" : "../../patchers/Library/Abstractions/chat",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jsregexp.js",
-				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/javascript/lists+strings",
-				"patcherrelativepath" : "../../../../../../hajdu/Library/Application Support/Cycling '74/Max 8/Examples/javascript/lists+strings",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 9/Examples/javascript/lists+strings",
+				"patcherrelativepath" : "../../../../../../hajdu/Library/Application Support/Cycling '74/Max 9/Examples/javascript/lists+strings",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "kaleidoscope.vfx.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Video-Effects",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Video-Effects",
 				"patcherrelativepath" : "../../patchers/Library/Video-Effects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "known-servers.txt",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Data",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Data",
 				"patcherrelativepath" : "../../patchers/Library/Data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lissajous.curve.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Curve-Generators",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Curve-Generators",
 				"patcherrelativepath" : "../../patchers/Library/Curve-Generators",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lookup.mapper.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/PatMap/patchers/methods",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/PatMap/patchers/methods",
 				"patcherrelativepath" : "../../patchers/PatMap/patchers/methods",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "map.mapper.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/PatMap/patchers/methods",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/PatMap/patchers/methods",
 				"patcherrelativepath" : "../../patchers/PatMap/patchers/methods",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mapper.inspectors.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/PatMap/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/PatMap/patchers",
 				"patcherrelativepath" : "../../patchers/PatMap/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mapper.instances.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/PatMap/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/PatMap/patchers",
 				"patcherrelativepath" : "../../patchers/PatMap/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mapperGUI.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/PatMap/patchers",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/PatMap/patchers",
 				"patcherrelativepath" : "../../patchers/PatMap/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "match.mapper.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/PatMap/patchers/methods",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/PatMap/patchers/methods",
 				"patcherrelativepath" : "../../patchers/PatMap/patchers/methods",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "max-opentype.js",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/patchers/node.js/max-opentype",
+				"patcherrelativepath" : "../../../MaxScore/patchers/node.js/max-opentype",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "maxfolder.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/extensions",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/patchers/extensions",
 				"patcherrelativepath" : "../../../MaxScore/patchers/extensions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "maxscore.active.js",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/javascript",
+				"patcherrelativepath" : "../../../MaxScore/javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "maxscore.bcanvas.hub.maxpat",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/patchers/extensions",
+				"patcherrelativepath" : "../../../MaxScore/patchers/extensions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "maxscore.bcanvas.maxpat",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/patchers/abstractions",
+				"patcherrelativepath" : "../../../MaxScore/patchers/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "maxscore.empty.maxpat",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/patchers/abstractions",
+				"patcherrelativepath" : "../../../MaxScore/patchers/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "maxscore.info.recv.maxpat",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/patchers/extensions",
+				"patcherrelativepath" : "../../../MaxScore/patchers/extensions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "maxscore.json.iter.maxpat",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/patchers/extensions",
+				"patcherrelativepath" : "../../../MaxScore/patchers/extensions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "maxscore.messagehub.maxpat",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/patchers/extensions",
+				"patcherrelativepath" : "../../../MaxScore/patchers/extensions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "maxscore.parse2.maxpat",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/patchers/abstractions",
+				"patcherrelativepath" : "../../../MaxScore/patchers/abstractions",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "maxscore.parseJSON.maxpat",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/patchers/extensions",
+				"patcherrelativepath" : "../../../MaxScore/patchers/extensions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "maxscore.proportionalNotation.js",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/javascript",
+				"patcherrelativepath" : "../../../MaxScore/javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "maxscore.query.maxpat",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/patchers/extensions",
+				"patcherrelativepath" : "../../../MaxScore/patchers/extensions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "maxscore.rapidXML.maxpat",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/patchers/abstractions",
+				"patcherrelativepath" : "../../../MaxScore/patchers/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "maxscore.rapidxml.maxpat",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/patchers/abstractions",
+				"patcherrelativepath" : "../../../MaxScore/patchers/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "maxscore.setNoteIntervalAttribute.js",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/javascript",
+				"patcherrelativepath" : "../../../MaxScore/javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "maxscore.tools.js",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/javascript",
+				"patcherrelativepath" : "../../../MaxScore/javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "merge.mapper.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/PatMap/patchers/methods",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/PatMap/patchers/methods",
 				"patcherrelativepath" : "../../patchers/PatMap/patchers/methods",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "messageout.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/network",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Abstractions/network",
 				"patcherrelativepath" : "../../patchers/Library/Abstractions/network",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "midi.curve.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Curve-Generators",
-				"patcherrelativepath" : "../../patchers/Library/Curve-Generators",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -22174,33 +21393,47 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "mouseEvents.js",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/javascript",
+				"patcherrelativepath" : "../../../MaxScore/javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "musicxml2jmsl.maxpat",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/patchers/abstractions",
+				"patcherrelativepath" : "../../../MaxScore/patchers/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mxj.mxo",
 				"type" : "iLaX"
 			}
 , 			{
 				"name" : "my-LtoColl.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/extensions",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/patchers/extensions",
 				"patcherrelativepath" : "../../../MaxScore/patchers/extensions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "my-change.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/Macaque/lib/abstractions",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/patchers/Macaque/lib/abstractions",
 				"patcherrelativepath" : "../../../MaxScore/patchers/Macaque/lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "my-clocker.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/utilities",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Abstractions/utilities",
 				"patcherrelativepath" : "../../patchers/Library/Abstractions/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "my-swatch.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
 				"patcherrelativepath" : "../../patchers/Library/Abstractions/viewer",
 				"type" : "JSON",
 				"implicit" : 1
@@ -22212,37 +21445,44 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "name.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/javascript",
-				"patcherrelativepath" : "../../../MaxScore/javascript",
+				"name" : "n4m_musicxml2jmsl.js",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/patchers/node.js/musicxml2jmsl",
+				"patcherrelativepath" : "../../../MaxScore/patchers/node.js/musicxml2jmsl",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "network-settings.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/GUI",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Abstractions/GUI",
 				"patcherrelativepath" : "../../patchers/Library/Abstractions/GUI",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "network.curve.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Curve-Generators",
-				"patcherrelativepath" : "../../patchers/Library/Curve-Generators",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "nn.mapper.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/PatMap/patchers/methods",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/PatMap/patchers/methods",
 				"patcherrelativepath" : "../../patchers/PatMap/patchers/methods",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nodes.mapper.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/PatMap/patchers/methods",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/PatMap/patchers/methods",
 				"patcherrelativepath" : "../../patchers/PatMap/patchers/methods",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "noise.vgen.maxpat",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Video-Generators",
+				"patcherrelativepath" : "../../patchers/Library/Video-Generators",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "notation.vgen.maxpat",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Video-Generators",
+				"patcherrelativepath" : "../../patchers/Library/Video-Generators",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -22276,21 +21516,42 @@
 			}
 , 			{
 				"name" : "packback.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/abstractions",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/patchers/abstractions",
 				"patcherrelativepath" : "../../../MaxScore/patchers/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "painter-window.maxpat",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Video-Generators/painter",
+				"patcherrelativepath" : "../../patchers/Library/Video-Generators/painter",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "painter.vgen.maxpat",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Video-Generators",
+				"patcherrelativepath" : "../../patchers/Library/Video-Generators",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pane.js",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/javascript",
+				"patcherrelativepath" : "../../../MaxScore/javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "parseBody.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/javascript",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/javascript",
 				"patcherrelativepath" : "../../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "peak.mapper.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/PatMap/patchers/methods",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/PatMap/patchers/methods",
 				"patcherrelativepath" : "../../patchers/PatMap/patchers/methods",
 				"type" : "JSON",
 				"implicit" : 1
@@ -22302,149 +21563,191 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "perspective_tile.vfx.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Video-Effects",
-				"patcherrelativepath" : "../../patchers/Library/Video-Effects",
-				"type" : "JSON",
+				"name" : "pentool.js",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/jsextensions/xytocurveto",
+				"patcherrelativepath" : "../../../MaxScore/jsextensions/xytocurveto",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "picster-init.js",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/javascript",
+				"patcherrelativepath" : "../../../MaxScore/javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "picster-select.js",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/javascript",
+				"patcherrelativepath" : "../../../MaxScore/javascript",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "poly.analyzer~.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
 				"patcherrelativepath" : "../../patchers/Library/Abstractions/viewer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "poly.bonk~.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
 				"patcherrelativepath" : "../../patchers/Library/Abstractions/viewer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "poly.jit.movie~.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
 				"patcherrelativepath" : "../../patchers/Library/Abstractions/viewer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "quote2backslashquote.js",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/javascript",
+				"patcherrelativepath" : "../../../MaxScore/javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "remarks2.svg",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/media/Images",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/media/Images",
 				"patcherrelativepath" : "../../media/Images",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "render2canvas.js",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/javascript",
+				"patcherrelativepath" : "../../../MaxScore/javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "rotation.vfx.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Video-Effects",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Video-Effects",
 				"patcherrelativepath" : "../../patchers/Library/Video-Effects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "scale.mapper.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/PatMap/patchers/methods",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/PatMap/patchers/methods",
 				"patcherrelativepath" : "../../patchers/PatMap/patchers/methods",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "scriptMapperMethods.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/PatMap/javascript",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/PatMap/javascript",
 				"patcherrelativepath" : "../../patchers/PatMap/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "scrollbar.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/jsui",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/jsui",
 				"patcherrelativepath" : "../../../MaxScore/jsui",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "selectInterval.maxpat",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/patchers/extensions",
+				"patcherrelativepath" : "../../../MaxScore/patchers/extensions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "shell-git-clone.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/nodejs/shelljs",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/nodejs/shelljs",
 				"patcherrelativepath" : "../../patchers/Library/nodejs/shelljs",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "spectrogram.vgen.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Video-Generators",
-				"patcherrelativepath" : "../../patchers/Library/Video-Generators",
-				"type" : "JSON",
+				"name" : "socket.pane.js",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/javascript",
+				"patcherrelativepath" : "../../../MaxScore/javascript",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "srcdimcrop.genjit",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
-				"patcherrelativepath" : "../../patchers/Library/Abstractions/viewer",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 9/Examples/jitter-examples/gen",
+				"patcherrelativepath" : "../../../../../../hajdu/Library/Application Support/Cycling '74/Max 9/Examples/jitter-examples/gen",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "stringoperation.js",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/PatMap/javascript",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/PatMap/javascript",
 				"patcherrelativepath" : "../../patchers/PatMap/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "svgPathToExpression.js",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/javascript",
+				"patcherrelativepath" : "../../../MaxScore/javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "swissarmyknife.js",
+				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/javascript",
+				"patcherrelativepath" : "../../../MaxScore/javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "switch.mapper.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/PatMap/patchers/methods",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/PatMap/patchers/methods",
 				"patcherrelativepath" : "../../patchers/PatMap/patchers/methods",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tap.thru.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/utilities",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Abstractions/utilities",
 				"patcherrelativepath" : "../../patchers/Library/Abstractions/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "thresh.mapper.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/PatMap/patchers/methods",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/PatMap/patchers/methods",
 				"patcherrelativepath" : "../../patchers/PatMap/patchers/methods",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "thresh2.mapper.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/PatMap/patchers/methods",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/PatMap/patchers/methods",
 				"patcherrelativepath" : "../../patchers/PatMap/patchers/methods",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "tiffany.vfx.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Video-Effects",
-				"patcherrelativepath" : "../../patchers/Library/Video-Effects",
+				"name" : "timedGate.maxpat",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Abstractions/utilities",
+				"patcherrelativepath" : "../../patchers/Library/Abstractions/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "timedGate2.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/utilities",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Abstractions/utilities",
 				"patcherrelativepath" : "../../patchers/Library/Abstractions/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "trigger.mapper.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/PatMap/patchers/methods",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/PatMap/patchers/methods",
 				"patcherrelativepath" : "../../patchers/PatMap/patchers/methods",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "type.vfx.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Video-Effects",
-				"patcherrelativepath" : "../../patchers/Library/Video-Effects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -22456,21 +21759,21 @@
 			}
 , 			{
 				"name" : "viewer-paths.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
 				"patcherrelativepath" : "../../patchers/Library/Abstractions/viewer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "viewer-preferences.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
 				"patcherrelativepath" : "../../patchers/Library/Abstractions/viewer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "viewertoolbar.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
 				"patcherrelativepath" : "../../patchers/Library/Abstractions/viewer",
 				"type" : "JSON",
 				"implicit" : 1

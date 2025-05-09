@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1128.0, 785.0 ],
+		"rect" : [ 0.0, 72.0, 1128.0, 785.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
 		"gridsize" : [ 15.0, 15.0 ],
@@ -4806,7 +4806,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 847.0, 30.0, 61.0, 19.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 0, 53, 1128, 838, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 0, 72, 1128, 857, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 
@@ -6044,7 +6044,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 18.0, 255.0, 470.0, 22.0 ],
-													"restore" : [ 0 ],
+													"restore" : [ "this", "1_1basic::dim_x", 84.0 ],
 													"saved_object_attributes" : 													{
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
@@ -20539,7 +20539,7 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-46",
+					"id" : "obj-56",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
@@ -21054,8 +21054,8 @@
 			}
 , 			{
 				"name" : "dstdimcrop.genjit",
-				"bootpath" : "~/Library/Application Support/Cycling '74/Max 9/Examples/jitter-examples/gen",
-				"patcherrelativepath" : "../../../../../../hajdu/Library/Application Support/Cycling '74/Max 9/Examples/jitter-examples/gen",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
+				"patcherrelativepath" : "../../patchers/Library/Abstractions/viewer",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
@@ -21120,10 +21120,6 @@
 				"patcherrelativepath" : "../../../MaxScore/patchers/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "jit.>.mxo",
-				"type" : "iLaX"
 			}
 , 			{
 				"name" : "jit.gl.syphonserver.mxo",
@@ -21676,8 +21672,8 @@
 			}
 , 			{
 				"name" : "srcdimcrop.genjit",
-				"bootpath" : "~/Library/Application Support/Cycling '74/Max 9/Examples/jitter-examples/gen",
-				"patcherrelativepath" : "../../../../../../hajdu/Library/Application Support/Cycling '74/Max 9/Examples/jitter-examples/gen",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Abstractions/viewer",
+				"patcherrelativepath" : "../../patchers/Library/Abstractions/viewer",
 				"type" : "gJIT",
 				"implicit" : 1
 			}

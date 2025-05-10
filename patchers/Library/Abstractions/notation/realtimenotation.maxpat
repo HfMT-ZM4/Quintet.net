@@ -142,7 +142,6 @@
 						"classnamespace" : "box",
 						"rect" : [ 576.0, 163.0, 482.0, 742.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontsize" : 10.0,
@@ -467,7 +466,6 @@
 										"classnamespace" : "box",
 										"rect" : [ 134.0, 178.0, 710.0, 783.0 ],
 										"gridsize" : [ 15.0, 15.0 ],
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-51",

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 73.0, 72.0, 1142.0, 765.0 ],
+		"rect" : [ 5.0, 72.0, 1142.0, 765.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
 		"gridsize" : [ 15.0, 15.0 ],
@@ -399,7 +399,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 487.0, 382.0, 1197.0, 636.0 ],
+						"rect" : [ 402.0, 242.0, 1197.0, 636.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
@@ -1783,6 +1783,7 @@
 										"rect" : [ 209.0, 379.0, 913.0, 471.0 ],
 										"default_fontsize" : 10.0,
 										"gridsize" : [ 15.0, 15.0 ],
+										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-2",
@@ -4411,7 +4412,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 511.25, 690.0, 321.0, 48.0 ],
-													"text" : "/stdout : \"received socket close /1 0cWRbSm+qcIHsd09ov3sWQ==\""
+													"text" : "/stdout : \"received socket close /1 tL+D2OHNWTRKtT/fpoVO+Q==\""
 												}
 
 											}
@@ -14097,7 +14098,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 884.0, 79.0, 59.0, 19.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 73, 72, 1215, 837, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 5, 72, 1147, 837, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 
@@ -14259,7 +14260,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 5.0, 86.0, 59.0, 19.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 73, 72, 1215, 837, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 5, 72, 1147, 837, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 
@@ -14583,17 +14584,11 @@
 			"obj-20::obj-16::obj-16.1::obj-42::obj-24" : [ "vst~", "vst~", 0 ],
 			"obj-20::obj-16::obj-4.1::obj-42::obj-24" : [ "vst~[4]", "vst~[4]", 0 ],
 			"obj-20::obj-16::obj-7.1::obj-42::obj-24" : [ "vst~[3]", "vst~[3]", 0 ],
-			"obj-25::obj-13::obj-28::obj-11" : [ "Frequency", "Frequency", 0 ],
-			"obj-5::obj-62::obj-26::obj-12::obj-26::obj-104" : [ "umenu[12]", "umenu", 0 ],
-			"obj-5::obj-62::obj-26::obj-1::obj-26::obj-104" : [ "umenu[4]", "umenu", 0 ],
-			"obj-5::obj-62::obj-27::obj-12::obj-26::obj-104" : [ "umenu[11]", "umenu", 0 ],
-			"obj-5::obj-62::obj-27::obj-1::obj-26::obj-104" : [ "umenu[7]", "umenu", 0 ],
-			"obj-5::obj-62::obj-28::obj-12::obj-26::obj-104" : [ "umenu[10]", "umenu", 0 ],
-			"obj-5::obj-62::obj-28::obj-1::obj-26::obj-104" : [ "umenu[6]", "umenu", 0 ],
-			"obj-5::obj-62::obj-29::obj-12::obj-26::obj-104" : [ "umenu[9]", "umenu", 0 ],
-			"obj-5::obj-62::obj-29::obj-1::obj-26::obj-104" : [ "umenu[5]", "umenu", 0 ],
-			"obj-5::obj-62::obj-30::obj-12::obj-26::obj-104" : [ "umenu[8]", "umenu", 0 ],
-			"obj-5::obj-62::obj-30::obj-1::obj-26::obj-104" : [ "umenu", "umenu", 0 ],
+			"obj-5::obj-62::obj-26::obj-1::obj-26::obj-104" : [ "umenu[3]", "umenu", 0 ],
+			"obj-5::obj-62::obj-27::obj-1::obj-26::obj-104" : [ "umenu[2]", "umenu", 0 ],
+			"obj-5::obj-62::obj-28::obj-1::obj-26::obj-104" : [ "umenu[1]", "umenu", 0 ],
+			"obj-5::obj-62::obj-29::obj-1::obj-26::obj-104" : [ "umenu", "umenu", 0 ],
+			"obj-5::obj-62::obj-30::obj-44::obj-26::obj-104" : [ "umenu[4]", "umenu", 0 ],
 			"obj-8::obj-10" : [ "live.text[17]", "live.text[2]", 0 ],
 			"obj-8::obj-24" : [ "live.text[2]", "live.text[2]", 0 ],
 			"obj-8::obj-34" : [ "live.text[7]", "live.text[2]", 0 ],
@@ -14615,10 +14610,6 @@
 ,
 				"obj-10::obj-42::obj-80" : 				{
 					"parameter_longname" : "live.text[15]"
-				}
-,
-				"obj-25::obj-13::obj-28::obj-11" : 				{
-					"parameter_longname" : "Frequency"
 				}
 
 			}
@@ -16566,10 +16557,6 @@
 				"patcherrelativepath" : "../../patchers/Library/Abstractions/audio",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "sadam.split.mxo",
-				"type" : "iLaX"
 			}
 , 			{
 				"name" : "sampler-control.maxpat",

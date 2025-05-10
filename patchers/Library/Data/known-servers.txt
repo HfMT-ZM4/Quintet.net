@@ -1,5 +1,4 @@
 0, autoconnect;
 1, localhost;
 2, zeroconf;
-3, quintetnet.hfmt-hamburg.de;
-4, 193.175.148.74;
+3, h-213.61.58.35.host.de.colt.net;

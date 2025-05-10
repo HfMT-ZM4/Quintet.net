@@ -1783,7 +1783,6 @@
 										"rect" : [ 209.0, 379.0, 913.0, 471.0 ],
 										"default_fontsize" : 10.0,
 										"gridsize" : [ 15.0, 15.0 ],
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-2",

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 378.0, 110.0, 819.0, 558.0 ],
+		"rect" : [ 466.0, 110.0, 819.0, 558.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"toolbarvisible" : 0,
@@ -5193,7 +5193,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 940.0, -650.0, 1042.0, 452.0 ],
+						"rect" : [ 134.0, 178.0, 1042.0, 452.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
@@ -5397,7 +5397,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 188.0, 98.0, 879.0, 760.0 ],
+										"rect" : [ 134.0, 178.0, 879.0, 760.0 ],
 										"gridsize" : [ 15.0, 15.0 ],
 										"boxes" : [ 											{
 												"box" : 												{
@@ -8946,7 +8946,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 691.5, 68.0, 64.0, 20.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 378, 110, 1197, 668, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 466, 110, 1285, 668, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 

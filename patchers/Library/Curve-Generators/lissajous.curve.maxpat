@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 297.0, 87.0, 944.0, 892.0 ],
+		"rect" : [ 297.0, 106.0, 944.0, 892.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 9.0,
 		"gridonopen" : 2,
@@ -246,12 +246,10 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 13.0, 45.0, 137.0, 22.0 ],
 					"restore" : 					{
-						"flonum" : [ 51.0 ],
-						"flonum[1]" : [ 23.0 ],
-						"numticks" : [ 262 ],
-						"tickduration" : [ 8 ],
-						"x_axismult" : [ 1.3 ],
-						"y_axismult" : [ 1.9 ]
+						"numticks" : [ 200 ],
+						"tickduration" : [ 10 ],
+						"x_axismult" : [ 1.0 ],
+						"y_axismult" : [ 1.0 ]
 					}
 ,
 					"text" : "autopattr @autoname 1",
@@ -273,7 +271,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -919,8 +917,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 317.0, 592.0, 45.0, 19.0 ],
-					"varname" : "flonum[1]"
+					"patching_rect" : [ 317.0, 592.0, 45.0, 19.0 ]
 				}
 
 			}
@@ -935,8 +932,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 236.0, 592.0, 45.0, 19.0 ],
-					"varname" : "flonum"
+					"patching_rect" : [ 236.0, 592.0, 45.0, 19.0 ]
 				}
 
 			}

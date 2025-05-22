@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -22,7 +22,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 490.0, 637.0, 323.0, 22.0 ],
-					"presentation_linecount" : 8,
 					"text" : "/RadioMusic/client* -1 /viewer 1radio-music::frequency.1 70"
 				}
 
@@ -87,7 +86,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -236,7 +235,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -850,7 +849,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -870,7 +869,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1491,7 +1490,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1790,7 +1789,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2460,15 +2459,27 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 165.0, 87.0, 1101.0, 781.0 ],
+						"rect" : [ 128.0, 201.0, 1101.0, 781.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-11",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 800.400000000000091, 515.0, 29.5, 22.0 ],
+									"text" : "int"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-1",
 									"maxclass" : "newobj",
@@ -2631,8 +2642,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 734.400000000000091, 329.0, 344.0, 22.0 ],
-									"restore" : [ "player1" ],
+									"patching_rect" : [ 734.400000000000091, 328.0, 344.0, 22.0 ],
+									"restore" : [ "viewer" ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -3155,7 +3166,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 88.5, 231.0, 459.0, 22.0 ],
-									"restore" : [ "Macintosh HD:/Users/Shared/Max 9/Packages/Quintet.net/patchers/Projects/RadioMusic" ],
+									"restore" : [ 0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -3209,20 +3220,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 734.400000000000091, 544.0, 81.0, 22.0 ],
+									"patching_rect" : [ 734.0, 544.0, 85.400000000000091, 22.0 ],
 									"text" : "buddy 2"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-92",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 796.400000000000091, 514.0, 57.0, 22.0 ],
-									"text" : "tosymbol"
 								}
 
 							}
@@ -3233,8 +3232,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 734.400000000000091, 576.0, 81.0, 22.0 ],
-									"text" : "sprintf /%s%s"
+									"patching_rect" : [ 734.400000000000091, 576.0, 85.0, 22.0 ],
+									"text" : "sprintf /%s%ld"
 								}
 
 							}
@@ -3245,7 +3244,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
-									"patching_rect" : [ 734.400000000000091, 457.0, 81.0, 22.0 ],
+									"patching_rect" : [ 734.0, 457.0, 85.400000000000091, 22.0 ],
 									"text" : "t l b"
 								}
 
@@ -3255,23 +3254,15 @@
 									"id" : "obj-87",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 796.400000000000091, 487.0, 178.0, 22.0 ],
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 800.400000000000091, 487.0, 56.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"autostart" : 1,
-										"defer" : 0,
-										"watch" : 0
+										"filename" : "date.js",
+										"parameter_enable" : 0
 									}
 ,
-									"text" : "node.script date.js @autostart 1",
-									"textfile" : 									{
-										"filename" : "date.js",
-										"flags" : 0,
-										"embed" : 0,
-										"autowatch" : 1
-									}
-
+									"text" : "js date.js"
 								}
 
 							}
@@ -3308,6 +3299,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-98", 0 ],
 									"source" : [ "obj-104", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-97", 1 ],
+									"source" : [ "obj-11", 0 ]
 								}
 
 							}
@@ -3739,7 +3737,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-92", 0 ],
+									"destination" : [ "obj-11", 0 ],
 									"source" : [ "obj-87", 0 ]
 								}
 
@@ -3755,13 +3753,6 @@
 								"patchline" : 								{
 									"destination" : [ "obj-38", 0 ],
 									"source" : [ "obj-89", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-97", 1 ],
-									"source" : [ "obj-92", 0 ]
 								}
 
 							}
@@ -3923,7 +3914,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4267,7 +4258,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4700,7 +4691,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4779,7 +4770,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4788,7 +4779,6 @@
 										"rect" : [ 622.0, 472.0, 495.0, 293.0 ],
 										"default_fontsize" : 10.0,
 										"gridsize" : [ 15.0, 15.0 ],
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-8",
@@ -5224,7 +5214,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 562.0, 336.0, 202.0, 22.0 ],
-					"restore" : [ 1 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -5423,7 +5413,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5602,7 +5592,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}

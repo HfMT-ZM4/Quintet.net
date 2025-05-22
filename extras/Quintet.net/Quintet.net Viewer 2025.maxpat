@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -69,7 +69,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -109,7 +109,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -382,7 +382,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -867,7 +867,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1029,7 +1029,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1526,7 +1526,7 @@
 															}
 , 															{
 																"key" : 1,
-																"value" : [ "radio-music" ]
+																"value" : [ "noise" ]
 															}
 , 															{
 																"key" : 2,
@@ -1614,7 +1614,7 @@
 															}
 , 															{
 																"key" : 1,
-																"value" : [ "radio-music" ]
+																"value" : [ "noise" ]
 															}
 , 															{
 																"key" : 2,
@@ -4021,7 +4021,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4301,7 +4301,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4985,7 +4985,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5223,7 +5223,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5274,7 +5274,7 @@
 														"appversion" : 														{
 															"major" : 9,
 															"minor" : 0,
-															"revision" : 6,
+															"revision" : 7,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -5796,7 +5796,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5958,7 +5958,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6427,7 +6427,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6880,7 +6880,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7417,7 +7417,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8015,7 +8015,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -9124,7 +9124,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -9451,7 +9451,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -9983,7 +9983,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -10033,7 +10033,7 @@
 														"appversion" : 														{
 															"major" : 9,
 															"minor" : 0,
-															"revision" : 6,
+															"revision" : 7,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -10561,7 +10561,7 @@
 																		"appversion" : 																		{
 																			"major" : 9,
 																			"minor" : 0,
-																			"revision" : 6,
+																			"revision" : 7,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -10634,7 +10634,7 @@
 																						"appversion" : 																						{
 																							"major" : 9,
 																							"minor" : 0,
-																							"revision" : 6,
+																							"revision" : 7,
 																							"architecture" : "x64",
 																							"modernui" : 1
 																						}
@@ -11639,7 +11639,7 @@
 														"appversion" : 														{
 															"major" : 9,
 															"minor" : 0,
-															"revision" : 6,
+															"revision" : 7,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -12070,7 +12070,7 @@
 														"appversion" : 														{
 															"major" : 9,
 															"minor" : 0,
-															"revision" : 6,
+															"revision" : 7,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -12711,7 +12711,7 @@
 														"appversion" : 														{
 															"major" : 9,
 															"minor" : 0,
-															"revision" : 6,
+															"revision" : 7,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -12804,7 +12804,7 @@
 																		"appversion" : 																		{
 																			"major" : 9,
 																			"minor" : 0,
-																			"revision" : 6,
+																			"revision" : 7,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -12984,7 +12984,7 @@
 																						"appversion" : 																						{
 																							"major" : 9,
 																							"minor" : 0,
-																							"revision" : 6,
+																							"revision" : 7,
 																							"architecture" : "x64",
 																							"modernui" : 1
 																						}
@@ -14423,7 +14423,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -15505,7 +15505,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -15528,7 +15528,7 @@
 														"appversion" : 														{
 															"major" : 9,
 															"minor" : 0,
-															"revision" : 6,
+															"revision" : 7,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -16365,7 +16365,7 @@
 														"appversion" : 														{
 															"major" : 9,
 															"minor" : 0,
-															"revision" : 6,
+															"revision" : 7,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -17969,7 +17969,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -18544,7 +18544,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -20722,18 +20722,18 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-56",
+					"id" : "obj-51",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "radio-music.vgen.maxpat",
+					"name" : "noise.vgen.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 162.0, 315.0, 160.0, 146.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 162.0, 315.0, 160.0, 146.0 ],
-					"varname" : "1radio-music",
+					"varname" : "1noise",
 					"viewvisibility" : 1
 				}
 
@@ -21176,13 +21176,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "button-color.maxpat",
-				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Projects/RadioMusic/Resources/Viewer",
-				"patcherrelativepath" : "../../patchers/Projects/RadioMusic/Resources/Viewer",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "chat-bpatcher2.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Abstractions/chat",
 				"patcherrelativepath" : "../../patchers/Library/Abstractions/chat",
@@ -21216,8 +21209,8 @@
 			}
 , 			{
 				"name" : "date.js",
-				"bootpath" : "/Users/Shared/Max 9/Packages/MaxScore/patchers/node.js",
-				"patcherrelativepath" : "../../../MaxScore/patchers/node.js",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/javascript",
+				"patcherrelativepath" : "../../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -21312,6 +21305,10 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "jit.>.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "jit.gl.syphonserver.mxo",
 				"type" : "iLaX"
 			}
@@ -21390,13 +21387,6 @@
 				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Data",
 				"patcherrelativepath" : "../../patchers/Library/Data",
 				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "label-color.maxpat",
-				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Projects/RadioMusic/Resources/Viewer",
-				"patcherrelativepath" : "../../patchers/Projects/RadioMusic/Resources/Viewer",
-				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
@@ -21659,6 +21649,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "noise.vgen.maxpat",
+				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Video-Generators",
+				"patcherrelativepath" : "../../patchers/Library/Video-Generators",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "notation.vgen.maxpat",
 				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Library/Video-Generators",
 				"patcherrelativepath" : "../../patchers/Library/Video-Generators",
@@ -21791,13 +21788,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "radio-music.vgen.maxpat",
-				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/patchers/Projects/RadioMusic/Viewer",
-				"patcherrelativepath" : "../../patchers/Projects/RadioMusic/Viewer",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "remarks2.svg",
 				"bootpath" : "/Users/Shared/Max 9/Packages/Quintet.net/media/Images",
 				"patcherrelativepath" : "../../media/Images",
@@ -21873,10 +21863,6 @@
 				"patcherrelativepath" : "../../patchers/PatMap/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "strlen.mxo",
-				"type" : "iLaX"
 			}
 , 			{
 				"name" : "svgPathToExpression.js",
